@@ -1,0 +1,68 @@
+{
+ "id": "Gelo",
+ "titulo": "Por que o gelo boia na água?",
+ "legenda": "Quando a água congela, as moléculas formam hexágonos cheios de espaço vazio, e o gelo fica mais leve. #fisica #curiosidades #ciencia #gelo #agua",
+ "final": {
+  "emoji": "🧊",
+  "frase": "O gelo é mais leve que a água."
+ },
+ "frases": [
+  "Por que o gelo boia na água, se ele também é água?",
+  "Quase tudo encolhe quando esfria e fica mais compacto.",
+  "Mas a água é diferente: quando vira gelo, as moléculas se organizam em hexágonos, com espaços vazios no meio.",
+  "Por isso o gelo ocupa mais espaço e fica cerca de dez por cento mais leve que a água.",
+  "É por isso que só a pontinha do iceberg aparece. Uns noventa por cento ficam escondidos embaixo d'água.",
+  "E é por isso também que os lagos congelam só por cima, e os peixes sobrevivem embaixo.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o gelo BOIA?",
+   "destaque": [
+    "BOIA?"
+   ],
+   "busca": "ice cubes water glass"
+  },
+  {
+   "gancho": "No frio, quase tudo encolhe",
+   "destaque": [
+    "encolhe"
+   ],
+   "anim": {
+    "emoji": "🧱",
+    "texto": "No frio, quase tudo encolhe"
+   }
+  },
+  {
+   "gancho": "Gelo tem espaço vazio",
+   "destaque": [
+    "vazio"
+   ],
+   "anim": {
+    "emoji": "❄️",
+    "texto": "Hexágonos com espaço vazio"
+   }
+  },
+  {
+   "gancho": "10% mais leve",
+   "destaque": [
+    "10%"
+   ],
+   "busca": "iceberg"
+  },
+  {
+   "gancho": "90% escondido",
+   "destaque": [
+    "90%"
+   ],
+   "busca": "iceberg ocean"
+  },
+  {
+   "gancho": "Peixes vivos embaixo",
+   "destaque": [
+    "vivos"
+   ],
+   "busca": "frozen lake"
+  }
+ ]
+}

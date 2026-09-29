@@ -1,0 +1,68 @@
+{
+ "id": "MetalGelado",
+ "titulo": "Por que o metal parece mais gelado que a madeira?",
+ "legenda": "Os dois estão na mesma temperatura! O metal só puxa o calor da sua mão muito mais rápido. #fisica #calor #curiosidades #ciencia #temperatura",
+ "final": {
+  "emoji": "🥶",
+  "frase": "Não é frio. É condução!"
+ },
+ "frases": [
+  "Por que o metal parece mais gelado que a madeira, se os dois estão no mesmo lugar?",
+  "A verdade é que os dois estão na mesma temperatura.",
+  "O que muda é a velocidade com que eles puxam o calor da sua mão.",
+  "O metal é um ótimo condutor: tira o calor da pele muito rápido, e você sente frio.",
+  "Já a madeira conduz mal o calor, então sua mão continua quentinha.",
+  "É por isso que o cabo da panela costuma ser de madeira ou de plástico.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Metal mais gelado?",
+   "destaque": [
+    "gelado?"
+   ],
+   "busca": "metal railing"
+  },
+  {
+   "gancho": "Mesma temperatura!",
+   "destaque": [
+    "Mesma"
+   ],
+   "anim": {
+    "emoji": "🌡️",
+    "texto": "Mesma temperatura!"
+   }
+  },
+  {
+   "gancho": "Puxa o calor da mão",
+   "destaque": [
+    "calor"
+   ],
+   "busca": "hand touching"
+  },
+  {
+   "gancho": "Metal conduz rápido",
+   "destaque": [
+    "rápido"
+   ],
+   "anim": {
+    "emoji": "🥄",
+    "texto": "Metal: conduz rápido"
+   }
+  },
+  {
+   "gancho": "Madeira conduz mal",
+   "destaque": [
+    "mal"
+   ],
+   "busca": "wood texture"
+  },
+  {
+   "gancho": "Cabo de panela",
+   "destaque": [
+    "panela"
+   ],
+   "busca": "cooking pan"
+  }
+ ]
+}

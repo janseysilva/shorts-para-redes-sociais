@@ -1,0 +1,68 @@
+{
+ "id": "Estrelas",
+ "titulo": "Por que as estrelas piscam e os planetas não?",
+ "legenda": "O ar em movimento entorta a luz. A estrela é só um pontinho e pisca; o planeta, não. #fisica #estrelas #astronomia #curiosidades #ceu",
+ "final": {
+  "emoji": "🔭",
+  "frase": "Estrela pisca, planeta não."
+ },
+ "frases": [
+  "Por que as estrelas piscam e os planetas não?",
+  "Quem faz a estrela piscar é o nosso próprio ar.",
+  "A atmosfera tem camadas de ar quente e frio se mexendo, que entortam a luz um pouquinho.",
+  "Como a estrela está muito longe, ela é só um pontinho, e qualquer desvio faz ela piscar.",
+  "Os planetas estão mais perto e aparecem como um disquinho, e os desvios se compensam.",
+  "Dica: se o ponto brilhante não pisca, provavelmente é um planeta.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que piscam?",
+   "destaque": [
+    "piscam?"
+   ],
+   "busca": "starry night sky"
+  },
+  {
+   "gancho": "A culpa é do ar",
+   "destaque": [
+    "ar"
+   ],
+   "busca": "night sky stars timelapse"
+  },
+  {
+   "gancho": "O ar entorta a luz",
+   "destaque": [
+    "entorta"
+   ],
+   "anim": {
+    "emoji": "🌬️",
+    "texto": "Ar se mexendo entorta a luz"
+   }
+  },
+  {
+   "gancho": "Pontinho pisca",
+   "destaque": [
+    "pisca"
+   ],
+   "anim": {
+    "emoji": "✨",
+    "texto": "Pontinho = pisca"
+   }
+  },
+  {
+   "gancho": "Planeta brilha firme",
+   "destaque": [
+    "firme"
+   ],
+   "busca": "night sky moon"
+  },
+  {
+   "gancho": "Não pisca? Planeta!",
+   "destaque": [
+    "Planeta!"
+   ],
+   "busca": "milky way"
+  }
+ ]
+}

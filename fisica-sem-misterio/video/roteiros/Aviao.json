@@ -1,0 +1,68 @@
+{
+ "id": "Aviao",
+ "titulo": "Como um avião consegue voar?",
+ "legenda": "A asa empurra o ar para baixo, e o ar empurra a asa para cima: é a sustentação. #fisica #aviao #curiosidades #ciencia #voo",
+ "final": {
+  "emoji": "✈️",
+  "frase": "A asa empurra o ar."
+ },
+ "frases": [
+  "Como um avião de centenas de toneladas consegue voar?",
+  "O segredo está no formato e na inclinação da asa.",
+  "Quando o avião corre, a asa empurra o ar para baixo.",
+  "E pela lei da ação e reação, o ar empurra a asa para cima. Essa força se chama sustentação.",
+  "Quanto mais rápido, maior a sustentação. Por isso ele precisa de uma pista comprida para decolar.",
+  "Um avião grande decola a quase trezentos quilômetros por hora.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Como o avião voa?",
+   "destaque": [
+    "voa?"
+   ],
+   "busca": "airplane takeoff"
+  },
+  {
+   "gancho": "O segredo é a asa",
+   "destaque": [
+    "asa"
+   ],
+   "busca": "airplane wing"
+  },
+  {
+   "gancho": "Empurra o ar pra baixo",
+   "destaque": [
+    "baixo"
+   ],
+   "anim": {
+    "emoji": "⬇️",
+    "texto": "A asa empurra o ar pra baixo"
+   }
+  },
+  {
+   "gancho": "Ar empurra pra cima",
+   "destaque": [
+    "cima"
+   ],
+   "anim": {
+    "emoji": "⬆️",
+    "texto": "Sustentação"
+   }
+  },
+  {
+   "gancho": "Precisa de velocidade",
+   "destaque": [
+    "velocidade"
+   ],
+   "busca": "airplane runway"
+  },
+  {
+   "gancho": "Quase 300 km/h",
+   "destaque": [
+    "300"
+   ],
+   "busca": "airplane flying clouds"
+  }
+ ]
+}

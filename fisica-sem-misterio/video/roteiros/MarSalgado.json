@@ -1,0 +1,69 @@
+{
+ "id": "MarSalgado",
+ "titulo": "Por que o mar é salgado e a chuva não?",
+ "legenda": "A chuva lava os minerais das rochas, os rios levam para o mar, e a água evapora deixando o sal. #fisica #mar #curiosidades #ciencia #natureza",
+ "final": {
+  "emoji": "🌊",
+  "frase": "O sal vem das rochas."
+ },
+ "frases": [
+  "Por que o mar é salgado, se a chuva é doce?",
+  "A chuva cai nas montanhas e vai dissolvendo um pouquinho dos minerais das rochas.",
+  "Os rios levam esses sais até o mar.",
+  "No mar, o Sol evapora a água, mas o sal fica para trás.",
+  "O vapor vira nuvem e chuva doce de novo, e esse ciclo se repete há bilhões de anos.",
+  "Hoje, cada litro de água do mar tem uns trinta e cinco gramas de sal.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Mar salgado, chuva doce?",
+   "destaque": [
+    "salgado,",
+    "doce?"
+   ],
+   "busca": "ocean waves"
+  },
+  {
+   "gancho": "A chuva lava as rochas",
+   "destaque": [
+    "rochas"
+   ],
+   "busca": "rain mountains"
+  },
+  {
+   "gancho": "Os rios levam o sal",
+   "destaque": [
+    "sal"
+   ],
+   "busca": "river"
+  },
+  {
+   "gancho": "O sal fica",
+   "destaque": [
+    "fica"
+   ],
+   "anim": {
+    "emoji": "☀️",
+    "texto": "A água sobe, o sal fica"
+   }
+  },
+  {
+   "gancho": "Bilhões de anos",
+   "destaque": [
+    "Bilhões"
+   ],
+   "busca": "clouds timelapse"
+  },
+  {
+   "gancho": "35 g por litro",
+   "destaque": [
+    "35"
+   ],
+   "anim": {
+    "emoji": "🧂",
+    "texto": "35 gramas por litro"
+   }
+  }
+ ]
+}

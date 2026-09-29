@@ -1,0 +1,68 @@
+{
+ "id": "ArcoIris",
+ "titulo": "Por que o arco-íris é curvo?",
+ "legenda": "Cada gota devolve a luz num ângulo de 42°. Todas juntas formam um círculo em volta de você! #fisica #arcoiris #curiosidades #ciencia #luz",
+ "final": {
+  "emoji": "🌈",
+  "frase": "O arco-íris é um círculo."
+ },
+ "frases": [
+  "Por que o arco-íris é curvo?",
+  "Cada gota de chuva funciona como um pequeno prisma e separa a luz do Sol em cores.",
+  "Mas a luz só volta para os seus olhos num ângulo certinho, de quarenta e dois graus.",
+  "Todas as gotas nesse ângulo formam um círculo em volta da sombra da sua cabeça.",
+  "O chão esconde a parte de baixo, e por isso vemos só um arco.",
+  "De avião, dá para ver o arco-íris inteiro, redondinho.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que é CURVO?",
+   "destaque": [
+    "CURVO?"
+   ],
+   "busca": "rainbow sky"
+  },
+  {
+   "gancho": "Cada gota é um prisma",
+   "destaque": [
+    "prisma"
+   ],
+   "busca": "rain drops sunlight"
+  },
+  {
+   "gancho": "Sempre 42 graus",
+   "destaque": [
+    "42"
+   ],
+   "anim": {
+    "emoji": "📐",
+    "texto": "Ângulo de 42 graus"
+   }
+  },
+  {
+   "gancho": "É um círculo!",
+   "destaque": [
+    "círculo!"
+   ],
+   "anim": {
+    "emoji": "⭕",
+    "texto": "Um círculo em volta de você"
+   }
+  },
+  {
+   "gancho": "O chão esconde metade",
+   "destaque": [
+    "metade"
+   ],
+   "busca": "rainbow landscape"
+  },
+  {
+   "gancho": "Do avião: inteiro",
+   "destaque": [
+    "inteiro"
+   ],
+   "busca": "airplane window clouds"
+  }
+ ]
+}

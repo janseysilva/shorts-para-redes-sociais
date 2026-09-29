@@ -1,0 +1,68 @@
+{
+ "id": "Colher",
+ "titulo": "Por que a colher parece quebrada no copo d'água?",
+ "legenda": "A luz muda de velocidade e de direção quando passa do ar para a água: é a refração. #fisica #luz #refracao #curiosidades #ciencia",
+ "final": {
+  "emoji": "🥄",
+  "frase": "A luz dobra na água."
+ },
+ "frases": [
+  "Por que a colher parece quebrada dentro do copo d'água?",
+  "A luz muda de velocidade quando passa do ar para a água.",
+  "Na água ela anda uns vinte e cinco por cento mais devagar, e isso faz ela mudar de direção.",
+  "Esse desvio da luz se chama refração.",
+  "Seu cérebro acha que a luz veio em linha reta, então vê a colher num lugar diferente.",
+  "É por isso também que a piscina parece mais rasa do que é de verdade.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Colher quebrada?",
+   "destaque": [
+    "quebrada?"
+   ],
+   "busca": "spoon glass water"
+  },
+  {
+   "gancho": "Luz muda de velocidade",
+   "destaque": [
+    "velocidade"
+   ],
+   "anim": {
+    "emoji": "💡",
+    "texto": "A luz muda de velocidade"
+   }
+  },
+  {
+   "gancho": "Muda de direção",
+   "destaque": [
+    "direção"
+   ],
+   "anim": {
+    "emoji": "↩️",
+    "texto": "25% mais devagar"
+   }
+  },
+  {
+   "gancho": "Refração",
+   "destaque": [
+    "Refração"
+   ],
+   "busca": "glass of water"
+  },
+  {
+   "gancho": "O cérebro se engana",
+   "destaque": [
+    "engana"
+   ],
+   "busca": "water glass light"
+  },
+  {
+   "gancho": "Piscina parece rasa",
+   "destaque": [
+    "rasa"
+   ],
+   "busca": "swimming pool"
+  }
+ ]
+}

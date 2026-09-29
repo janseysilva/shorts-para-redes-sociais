@@ -1,0 +1,68 @@
+{
+ "id": "Inercia",
+ "titulo": "Por que somos jogados para frente quando o ônibus freia?",
+ "legenda": "Ninguém te empurra: seu corpo só quer continuar andando. Isso é inércia, e é por isso que o cinto salva vidas. #fisica #inercia #curiosidades #ciencia #transito",
+ "final": {
+  "emoji": "🚌",
+  "frase": "Inércia: o corpo quer seguir."
+ },
+ "frases": [
+  "Por que, quando o ônibus freia, você é jogado para frente?",
+  "Na verdade, ninguém te empurrou.",
+  "Seu corpo estava andando junto com o ônibus e quer continuar andando.",
+  "Isso se chama inércia: tudo tende a continuar do jeito que está, parado ou em movimento.",
+  "O ônibus para, mas o seu corpo continua indo, até alguma coisa segurar.",
+  "É exatamente por isso que o cinto de segurança salva vidas.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Jogado pra frente?",
+   "destaque": [
+    "frente?"
+   ],
+   "busca": "bus interior"
+  },
+  {
+   "gancho": "Ninguém te empurrou",
+   "destaque": [
+    "Ninguém"
+   ],
+   "anim": {
+    "emoji": "🤚",
+    "texto": "Ninguém te empurrou"
+   }
+  },
+  {
+   "gancho": "O corpo quer seguir",
+   "destaque": [
+    "seguir"
+   ],
+   "busca": "bus driving city"
+  },
+  {
+   "gancho": "Inércia",
+   "destaque": [
+    "Inércia"
+   ],
+   "anim": {
+    "emoji": "🎳",
+    "texto": "Inércia"
+   }
+  },
+  {
+   "gancho": "O ônibus para, você não",
+   "destaque": [
+    "não"
+   ],
+   "busca": "car braking"
+  },
+  {
+   "gancho": "Use o cinto!",
+   "destaque": [
+    "cinto!"
+   ],
+   "busca": "seat belt car"
+  }
+ ]
+}

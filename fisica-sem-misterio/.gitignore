@@ -1,0 +1,6 @@
+video/node_modules/
+video/previa/
+video/out/
+video/public/clipes/*.mp4
+__pycache__/
+*.pyc

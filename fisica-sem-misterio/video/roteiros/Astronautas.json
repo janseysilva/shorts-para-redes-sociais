@@ -1,0 +1,69 @@
+{
+ "id": "Astronautas",
+ "titulo": "Por que os astronautas flutuam?",
+ "legenda": "A gravidade lá em cima ainda é quase 90% da nossa. A estação está caindo o tempo todo em volta da Terra! #fisica #espaco #astronauta #curiosidades #ciencia",
+ "final": {
+  "emoji": "🧑‍🚀",
+  "frase": "Astronauta não flutua. Ele cai!"
+ },
+ "frases": [
+  "Você acha que os astronautas flutuam porque no espaço não tem gravidade?",
+  "Errado! Lá em cima, a gravidade ainda é quase noventa por cento da que sentimos aqui.",
+  "O segredo é que a estação espacial está caindo o tempo todo em volta da Terra.",
+  "Ela anda tão rápido, uns vinte e oito mil quilômetros por hora, que nunca chega no chão. Ela cai e erra a Terra.",
+  "Como tudo lá dentro cai junto, os astronautas parecem flutuar.",
+  "É a mesma sensação da descida da montanha-russa, só que sem parar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Não tem gravidade?",
+   "destaque": [
+    "gravidade?"
+   ],
+   "busca": "astronaut space station"
+  },
+  {
+   "gancho": "Gravidade: 90%!",
+   "destaque": [
+    "90%!"
+   ],
+   "anim": {
+    "emoji": "🌍",
+    "texto": "Gravidade quase 90%"
+   }
+  },
+  {
+   "gancho": "Caindo o tempo todo",
+   "destaque": [
+    "Caindo"
+   ],
+   "busca": "earth from space"
+  },
+  {
+   "gancho": "Cai e erra a Terra",
+   "destaque": [
+    "erra"
+   ],
+   "anim": {
+    "emoji": "🛰️",
+    "texto": "28.000 km por hora"
+   }
+  },
+  {
+   "gancho": "Tudo cai junto",
+   "destaque": [
+    "junto"
+   ],
+   "busca": "astronaut floating"
+  },
+  {
+   "gancho": "Queda sem fim",
+   "destaque": [
+    "sem",
+    "fim"
+   ],
+   "busca": "roller coaster"
+  }
+ ]
+}

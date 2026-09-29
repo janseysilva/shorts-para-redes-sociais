@@ -1,0 +1,68 @@
+{
+ "id": "MicroOndas",
+ "titulo": "Como o micro-ondas esquenta a comida?",
+ "legenda": "As ondas fazem a água da comida se agitar bilhões de vezes por segundo, e esse movimento vira calor. #fisica #microondas #curiosidades #ciencia #cozinha",
+ "final": {
+  "emoji": "🍲",
+  "frase": "Micro-ondas agita a água."
+ },
+ "frases": [
+  "Como o micro-ondas esquenta a comida sem fogo?",
+  "Ele solta ondas invisíveis, parecidas com as do rádio, que entram na comida.",
+  "Essas ondas fazem as moléculas de água da comida se agitarem bilhões de vezes por segundo.",
+  "Toda essa agitação vira calor, e a comida esquenta.",
+  "Por isso comida seca, como pão, esquenta pior, e prato vazio quase não esquenta.",
+  "E a gradinha na porta segura as ondas lá dentro, mas deixa a luz passar para você olhar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Esquenta sem fogo?",
+   "destaque": [
+    "fogo?"
+   ],
+   "busca": "microwave oven"
+  },
+  {
+   "gancho": "Ondas invisíveis",
+   "destaque": [
+    "invisíveis"
+   ],
+   "anim": {
+    "emoji": "📡",
+    "texto": "Ondas invisíveis"
+   }
+  },
+  {
+   "gancho": "A água se agita",
+   "destaque": [
+    "agita"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "Bilhões de vezes por segundo"
+   }
+  },
+  {
+   "gancho": "Agitação vira calor",
+   "destaque": [
+    "calor"
+   ],
+   "busca": "hot food steam"
+  },
+  {
+   "gancho": "Sem água, esquenta pouco",
+   "destaque": [
+    "pouco"
+   ],
+   "busca": "bread"
+  },
+  {
+   "gancho": "A grade segura as ondas",
+   "destaque": [
+    "grade"
+   ],
+   "busca": "microwave"
+  }
+ ]
+}

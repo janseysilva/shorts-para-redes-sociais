@@ -1,0 +1,71 @@
+{
+ "id": "Trovao",
+ "titulo": "Por que vemos o raio antes de ouvir o trovão?",
+ "legenda": "A luz é quase um milhão de vezes mais rápida que o som. Conte os segundos e divida por 3! #fisica #curiosidades #ciencia #raio #trovao",
+ "final": {
+  "emoji": "⚡",
+  "frase": "A luz chega primeiro."
+ },
+ "frases": [
+  "Por que você vê o raio antes de ouvir o trovão?",
+  "O raio e o trovão acontecem ao mesmo tempo, lá na nuvem.",
+  "Mas a luz viaja a trezentos mil quilômetros por segundo.",
+  "Já o som anda só uns trezentos e quarenta metros por segundo, quase um milhão de vezes mais devagar.",
+  "Dica: conte os segundos entre o clarão e o trovão, e divida por três.",
+  "O resultado é a distância da tempestade, em quilômetros. Três segundos? Ela está a um quilômetro de você.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Raio primeiro, trovão depois?",
+   "destaque": [
+    "Raio",
+    "trovão"
+   ],
+   "busca": "lightning storm night"
+  },
+  {
+   "gancho": "Acontecem juntos",
+   "destaque": [
+    "juntos"
+   ],
+   "busca": "lightning strike"
+  },
+  {
+   "gancho": "A luz é rapidíssima",
+   "destaque": [
+    "rapidíssima"
+   ],
+   "anim": {
+    "emoji": "⚡",
+    "texto": "300.000 km por segundo"
+   }
+  },
+  {
+   "gancho": "O som é lento",
+   "destaque": [
+    "lento"
+   ],
+   "anim": {
+    "emoji": "🔊",
+    "texto": "340 metros por segundo"
+   }
+  },
+  {
+   "gancho": "Conte os segundos ÷ 3",
+   "destaque": [
+    "÷",
+    "3"
+   ],
+   "busca": "storm clouds rain"
+  },
+  {
+   "gancho": "3 segundos = 1 km",
+   "destaque": [
+    "1",
+    "km"
+   ],
+   "busca": "dark storm clouds"
+  }
+ ]
+}

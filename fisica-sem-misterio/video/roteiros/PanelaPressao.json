@@ -1,0 +1,65 @@
+{
+ "id": "PanelaPressao",
+ "titulo": "Por que a panela de pressão cozinha mais rápido?",
+ "legenda": "Com o vapor preso, a água só ferve perto de 120 °C em vez de 100 °C. #fisica #cozinha #curiosidades #ciencia #panela",
+ "final": {
+  "emoji": "🍲",
+  "frase": "Mais pressão, mais calor."
+ },
+ "frases": [
+  "Por que a panela de pressão cozinha tão mais rápido?",
+  "Numa panela comum, a água ferve a cem graus e não passa disso.",
+  "Na panela de pressão, o vapor fica preso e a pressão lá dentro aumenta.",
+  "Com mais pressão, a água só ferve perto de cento e vinte graus.",
+  "Vinte graus a mais fazem o feijão cozinhar em bem menos tempo.",
+  "No alto de uma montanha é o contrário: a pressão é menor, a água ferve antes, e a comida demora mais.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que é mais rápida?",
+   "destaque": [
+    "rápida?"
+   ],
+   "busca": "pressure cooker"
+  },
+  {
+   "gancho": "Água ferve a 100 °C",
+   "destaque": [
+    "100"
+   ],
+   "busca": "boiling water pot"
+  },
+  {
+   "gancho": "Vapor preso",
+   "destaque": [
+    "preso"
+   ],
+   "busca": "steam kitchen"
+  },
+  {
+   "gancho": "Ferve a 120 °C",
+   "destaque": [
+    "120"
+   ],
+   "anim": {
+    "emoji": "🌡️",
+    "texto": "Ferve a 120 °C"
+   }
+  },
+  {
+   "gancho": "Feijão mais rápido",
+   "destaque": [
+    "rápido"
+   ],
+   "busca": "beans cooking"
+  },
+  {
+   "gancho": "Na montanha, demora",
+   "destaque": [
+    "demora"
+   ],
+   "busca": "mountain peak"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "Lua",
+ "titulo": "Por que a Lua mostra sempre o mesmo lado?",
+ "legenda": "Ela gira em volta de si no mesmo tempo em que dá a volta na Terra: uns 27 dias. #fisica #lua #espaco #curiosidades #astronomia",
+ "final": {
+  "emoji": "🌙",
+  "frase": "A Lua gira no ritmo certinho."
+ },
+ "frases": [
+  "Por que a Lua mostra sempre o mesmo lado para a gente?",
+  "Ela gira em volta de si mesma, sim. Mas leva o mesmo tempo que leva para dar a volta na Terra, uns vinte e sete dias.",
+  "Por isso, o mesmo lado fica sempre virado para nós.",
+  "Quem fez isso foi a gravidade da Terra, que foi freando a rotação da Lua durante milhões de anos.",
+  "O lado que nunca vemos só foi fotografado em mil novecentos e cinquenta e nove, por uma sonda espacial.",
+  "E ele não é escuro: recebe tanta luz do Sol quanto o lado que a gente vê.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Sempre o mesmo lado?",
+   "destaque": [
+    "mesmo",
+    "lado?"
+   ],
+   "busca": "full moon"
+  },
+  {
+   "gancho": "Gira no mesmo ritmo",
+   "destaque": [
+    "ritmo"
+   ],
+   "anim": {
+    "emoji": "🌕",
+    "texto": "27 dias e 27 dias"
+   }
+  },
+  {
+   "gancho": "Mesmo lado pra nós",
+   "destaque": [
+    "nós"
+   ],
+   "busca": "moon night sky"
+  },
+  {
+   "gancho": "A Terra freou a Lua",
+   "destaque": [
+    "freou"
+   ],
+   "anim": {
+    "emoji": "🌍",
+    "texto": "A Terra freou a Lua"
+   }
+  },
+  {
+   "gancho": "Lado oculto: 1959",
+   "destaque": [
+    "1959"
+   ],
+   "busca": "moon surface"
+  },
+  {
+   "gancho": "Não é escuro!",
+   "destaque": [
+    "escuro!"
+   ],
+   "busca": "moon craters"
+  }
+ ]
+}

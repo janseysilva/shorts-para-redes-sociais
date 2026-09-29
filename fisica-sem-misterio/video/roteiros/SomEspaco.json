@@ -1,0 +1,69 @@
+{
+ "id": "SomEspaco",
+ "titulo": "Existe som no espaço?",
+ "legenda": "O som precisa de ar para andar. No espaço quase não tem ar, então é silêncio total. #fisica #espaco #som #curiosidades #ciencia",
+ "final": {
+  "emoji": "🚀",
+  "frase": "No espaço, silêncio total."
+ },
+ "frases": [
+  "Se uma estrela explodir no espaço, você não vai ouvir nada.",
+  "O som é uma vibração que precisa de algo para andar: ar, água, ou até uma parede.",
+  "Aqui na Terra, as moléculas do ar vão empurrando umas às outras até chegar no seu ouvido.",
+  "No espaço quase não tem ar, então não tem nada para carregar o som.",
+  "Por isso os astronautas conversam por rádio, que usa ondas que andam até no vácuo.",
+  "As explosões barulhentas dos filmes de ficção científica são pura invenção.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Silêncio no espaço",
+   "destaque": [
+    "Silêncio"
+   ],
+   "busca": "space nebula"
+  },
+  {
+   "gancho": "Som precisa de ar",
+   "destaque": [
+    "ar"
+   ],
+   "anim": {
+    "emoji": "🔊",
+    "texto": "O som precisa de ar"
+   }
+  },
+  {
+   "gancho": "O ar leva o som",
+   "destaque": [
+    "leva"
+   ],
+   "anim": {
+    "emoji": "👂",
+    "texto": "Ar empurrando ar"
+   }
+  },
+  {
+   "gancho": "Sem ar, sem som",
+   "destaque": [
+    "sem",
+    "som"
+   ],
+   "busca": "astronaut space"
+  },
+  {
+   "gancho": "Conversa por rádio",
+   "destaque": [
+    "rádio"
+   ],
+   "busca": "astronaut"
+  },
+  {
+   "gancho": "Filme inventa o barulho",
+   "destaque": [
+    "inventa"
+   ],
+   "busca": "galaxy stars"
+  }
+ ]
+}
