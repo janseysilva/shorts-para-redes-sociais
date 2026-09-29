@@ -1,0 +1,150 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Short 4/5</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1920px;background:#0f1115;font-family:"DejaVu Sans",sans-serif;overflow:hidden;color:#fff;position:relative}
+#hook{position:absolute;top:0;left:0;width:1080px;height:430px;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 60px}
+#hook .t{font-size:66px;font-weight:bold;line-height:1.18}
+#hook .t em{font-style:normal;color:#3ddc84}
+#win{position:absolute;top:430px;left:30px;width:1020px;height:1060px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#title{height:62px;background:#217346;color:#fff;font-size:26px;display:flex;align-items:center;padding-left:24px;font-weight:bold}
+#ribbon{height:74px;background:#f7f7f7;border-bottom:2px solid #d0d0d0;display:flex;align-items:center;gap:14px;padding:0 18px;color:#333;font-size:24px}
+.rt{padding:6px 10px;color:#555}
+.rt.on{color:#107c41;font-weight:bold;border-bottom:4px solid #107c41}
+.btn{border:2px solid #cfcfcf;border-radius:8px;padding:8px 16px;background:#fff}
+.btn.press{background:#c6e6d2;border-color:#107c41}
+#fbar{height:76px;border-bottom:2px solid #d0d0d0;display:flex;align-items:center;color:#222;font-size:30px}
+#nbox{width:130px;height:100%;border-right:2px solid #d0d0d0;display:flex;align-items:center;justify-content:center;font-size:26px}
+#fx{width:70px;text-align:center;color:#666;font-style:italic;font-size:28px}
+#ftext{flex:1;white-space:nowrap;overflow:hidden;font-size:30px}
+#grid{position:absolute;top:212px;left:0;right:0;bottom:64px;overflow:hidden}
+table{border-collapse:collapse;table-layout:fixed;color:#111}
+td,th{border:1px solid #d9d9d9;height:66px;font-size:29px;padding:0 10px;white-space:nowrap;overflow:visible;position:relative}
+th{background:#f3f3f3;color:#555;font-weight:normal;font-size:24px;height:44px;text-align:center}
+td.rn{background:#f3f3f3;color:#555;text-align:center;font-size:24px;padding:0}
+td.h{background:#217346;color:#fff;font-weight:bold;text-align:center;font-size:25px}
+td.c{text-align:center}
+td.rng{background:#e3f2e8}
+td.ghost{color:#9a9a9a}
+td.sel{outline:5px solid #107c41;outline-offset:-4px;z-index:2}
+td.flash{background:#c6efce !important}
+td.bad{color:#b00020}
+.arrow{position:absolute;right:4px;top:12px;width:40px;height:40px;border:2px solid #999;background:#f3f3f3;font-size:20px;display:flex;align-items:center;justify-content:center;color:#333;z-index:4}
+.dd{position:absolute;left:0;top:64px;width:100%;background:#fff;border:2px solid #888;box-shadow:0 10px 24px rgba(0,0,0,.25);z-index:10;font-size:29px;text-align:left}
+.dd div{padding:10px 18px}
+.dd div.on{background:#107c41;color:#fff}
+#tabs{position:absolute;bottom:0;left:0;right:0;height:64px;background:#f3f3f3;border-top:2px solid #d0d0d0;display:flex;padding-left:20px;font-size:26px;color:#444}
+.tab{padding:0 34px;display:flex;align-items:center}
+.tab.on{background:#fff;color:#107c41;font-weight:bold;border-bottom:5px solid #107c41}
+.dlg{position:absolute;top:300px;left:70px;width:880px;background:#fff;border:2px solid #999;box-shadow:0 20px 60px rgba(0,0,0,.4);color:#222;display:none;z-index:30;font-size:26px}
+.dlg .hd{background:#f0f0f0;padding:16px 22px;font-weight:bold;border-bottom:1px solid #ccc}
+.dlg .bd{padding:26px 22px;display:grid;gap:20px}
+.dlg .row{display:flex;gap:16px;align-items:center}
+.dlg .sb{border:2px solid #bbb;padding:10px 14px;width:360px;background:#fff}
+.dlg .sb.on{border-color:#107c41;background:#e3f2e8;font-weight:bold}
+.dlg .in{border:2px solid #107c41;padding:10px 14px;flex:1;font-family:"DejaVu Sans Mono",monospace;font-size:30px;min-height:56px}
+.dlg .ft{display:flex;justify-content:flex-end;gap:14px;padding:0 22px 22px}
+.dlg .warn{display:flex;gap:20px;align-items:flex-start;line-height:1.35}
+.dlg .ic{flex:none;width:56px;height:56px;border-radius:50%;background:#c50f1f;color:#fff;font-weight:bold;font-size:36px;display:flex;align-items:center;justify-content:center}
+#keys{position:absolute;top:1170px;left:50%;transform:translateX(-50%);display:none;justify-content:center;gap:24px;z-index:40;background:rgba(15,17,21,.88);padding:28px 44px;border-radius:24px}
+.key{background:#fff;color:#111;border-radius:16px;border-bottom:10px solid #9a9a9a;font-size:64px;font-weight:bold;padding:18px 40px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.key.down{border-bottom-width:3px;transform:translateY(7px);background:#c6efce}
+.plus{font-size:64px;font-weight:bold;align-self:center;color:#fff}
+#cap{position:absolute;top:1520px;left:0;width:1080px;height:400px;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding:30px 60px 0}
+#cap .t{font-size:54px;font-weight:bold;line-height:1.25}
+.k3{color:#ffc53d}
+#end{position:absolute;inset:0;background:#0f1115;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px;z-index:50}
+#end .a{font-size:84px;font-weight:bold;line-height:1.15}
+#end .b{font-size:52px;margin-top:60px;color:#3ddc84;font-weight:bold}
+#end .c{font-size:40px;margin-top:40px;color:#bbb}
+.caret{display:inline-block;width:3px;height:1em;background:#111;vertical-align:-4px;margin-left:2px}
+</style></head>
+<body>
+<div id="hook"><div class="t"></div></div>
+<div id="win">
+  <div id="title">Planilha_Exemplo_Shorts.xlsx - Excel</div>
+  <div id="ribbon"></div>
+  <div id="fbar"><div id="nbox">C2</div><div id="fx">fx</div><div id="ftext"></div></div>
+  <div id="grid"></div>
+  <div class="dlg" id="dv"><div class="hd">Validação de Dados</div><div class="bd">
+    <div class="row"><span style="width:150px">Permitir:</span><div class="sb" id="perm">Qualquer valor ▾</div></div>
+    <div class="row"><span style="width:150px">Fonte:</span><div class="in" id="src"></div></div>
+  </div><div class="ft"><span class="btn" id="bOK">OK</span><span class="btn">Cancelar</span></div></div>
+  <div class="dlg" id="err"><div class="hd">Microsoft Excel</div><div class="bd"><div class="warn"><div class="ic">×</div><div>Esse valor não corresponde às restrições de validação de dados definidas para esta célula.</div></div></div><div class="ft"><span class="btn">Repetir</span><span class="btn">Cancelar</span></div></div>
+  <div id="tabs"><div class="tab on">Alunos</div><div class="tab">Busca</div></div>
+</div>
+<div id="keys"><span class="key" id="kc">Ctrl</span><span class="plus">+</span><span class="key" id="ke">E</span></div>
+<div id="cap"><div class="t"></div></div>
+<div id="end"><div class="a"></div><div class="b"></div><div class="c"></div></div>
+<script>
+const NAMES=__NAMES__, MODE=__MODE__, N=10;
+const q=s=>document.querySelector(s);
+const CARET='<span class="caret"></span>';
+function typed(s,t0,t,rate){return s.slice(0,Math.max(0,Math.min(s.length,Math.floor((t-t0)*rate))))}
+const first=n=>n.split(' ')[0], last=n=>n.split(' ').slice(-1)[0];
+function table(cols,W,rows,st){
+  let h='<table><colgroup>'+W.map(w=>`<col style="width:${w}px">`).join('')+'</colgroup><tr><th></th>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr>';
+  h+='<tr><td class="rn">1</td>'+cols.map(c=>`<td class="h">${c[1]}</td>`).join('')+'</tr>';
+  for(let i=0;i<N;i++){const r=i+2;h+=`<tr><td class="rn">${r}</td>`;
+    cols.forEach((c,j)=>{const id=c[0]+r;const cell=rows[i][j];let k=[c[2]||''];
+      if(st.rng&&st.rng[0]===c[0]&&r>=st.rng[1]&&r<=st.rng[2])k.push('rng');
+      if(st.sel===id)k.push('sel');if(st.flash&&st.flash.includes(id))k.push('flash');
+      if(st.ghost&&st.ghost.includes(id))k.push('ghost');if(st.bad&&st.bad.includes(id))k.push('bad');
+      let extra='';if(st.arrow===id)extra+='<span class="arrow">▼</span>';
+      if(st.dd&&st.dd.cell===id)extra+='<div class="dd">'+['A','B','C'].map(o=>`<div class="${st.dd.on===o?'on':''}">${o}</div>`).join('')+'</div>';
+      h+=`<td class="${k.join(' ')}">${cell}${extra}</td>`});
+    h+='</tr>'}
+  return h+'</table>';
+}
+function endCard(a,b,c){q('#end').style.display='flex';q('#end .a').innerHTML=a;q('#end .b').innerHTML=b;q('#end .c').innerHTML=c}
+function render(t){
+  q('#end').style.display='none';q('#dv').style.display='none';q('#err').style.display='none';q('#keys').style.display='none';
+  let st={},nb='C2',ft='',hook='',cap='';
+  if(MODE===4){
+    q('#ribbon').innerHTML=`<span class="rt ${t>=6?'':'on'}">Página Inicial</span><span class="rt ${t>=6?'on':''}">Dados</span>`+(t>=6?`<span class="btn ${t>=7.5&&t<15?'press':''}">Validação de Dados</span>`:'<span class="btn">%</span>');
+    hook=t<3?'Cada um escreve o conceito<br><em>de um jeito?</em>':'Lista suspensa<br><em>no Excel</em>';
+    if(t>=24){endCard('Conceito padronizado.<br>Sem bagunça.','Salva esse vídeo','Próximo: separar nome e sobrenome<br>em 1 segundo');return}
+    const messy=['A','a','Bom','B ','ótimo','C','bom','A+','b','Regular'];
+    const C=Array(N).fill('');
+    if(t<3){for(let i=0;i<N;i++)C[i]=messy[i];st.bad=['C3','C4','C5','C6','C8','C9','C10','C11'];st.sel='C2';cap='Chega de conceito escrito<br>cada um de um jeito.'}
+    else if(t<15){st.sel='C2';st.rng=['C',2,11];nb='C2:C11';
+      if(t<6)cap='Seleciono a coluna<br>do conceito.';
+      else if(t<10)cap='Vou em Dados,<br>Validação de Dados.';
+      else{q('#dv').style.display='block';const p=q('#perm');if(t>=11){p.textContent='Lista ▾';p.className='sb on'}else{p.textContent='Qualquer valor ▾';p.className='sb'}
+        const s=t>=11.5?typed('A;B;C',11.8,t,3):'';q('#src').innerHTML=t>=11.5?s+(t<14?CARET:''):'';q('#bOK').className='btn'+(t>=14.3?' press':'');
+        cap='Em Permitir, escolho <span class="k3">Lista</span>.<br>Na fonte: <span class="k3">A;B;C</span>'}}
+    else if(t<20){
+      if(t<17.5){st.sel='C2';st.arrow='C2';if(t>=15.8)st.dd={cell:'C2',on:t>=16.8?'A':''};if(t>=17.3){C[0]='A';st.dd=null}}
+      else{C[0]='A';st.sel='C3';nb='C3';st.arrow='C3';if(t>=18)st.dd={cell:'C3',on:t>=18.9?'B':''};if(t>=19.5){C[1]='B';st.dd=null}}
+      ft=st.sel==='C2'?C[0]:C[1];
+      cap='Agora é só clicar na setinha<br>e escolher.'}
+    else{C[0]='A';C[1]='B';st.sel='C4';nb='C4';const s=typed('ótimo',20.3,t,6);C[2]=t<21.3?s+CARET:'ótimo';ft=s;
+      if(t>=21.3)q('#err').style.display='block';
+      cap='Se alguém digitar outra coisa,<br>o Excel não deixa.'}
+    const rows=NAMES.slice(0,N).map((n,i)=>[n,C[i]]);
+    q('#grid').innerHTML=table([['B','Nome'],['C','Conceito','c']],[60,560,400],rows,st);
+  } else {
+    q('#ribbon').innerHTML='<span class="rt on">Página Inicial</span><span class="rt">Dados</span><span class="btn">%</span>';
+    hook=t<3?'Separe nome e sobrenome<br><em>em 1 segundo</em>':'Ctrl + E<br><em>Preenchimento Relâmpago</em>';
+    if(t>=23){endCard('Ctrl + E.<br>Guarda esse atalho.','Salva esse vídeo','Segue para mais dicas de Excel');return}
+    const C=Array(N).fill(''),Dd=Array(N).fill('');
+    const fillC=()=>{for(let i=0;i<N;i++)C[i]=first(NAMES[i])}, fillD=()=>{for(let i=0;i<N;i++)Dd[i]=last(NAMES[i])};
+    const keys=(t0)=>{if(t>=t0-0.6&&t<t0+1.6){q('#keys').style.display='flex';const d=t>=t0&&t<t0+0.5;q('#kc').className='key'+(t>=t0-0.3&&t<t0+0.5?' down':'');q('#ke').className='key'+(d?' down':'')}};
+    if(t<3){st.sel='C2';cap='Separar nome e sobrenome na mão?<br>Nunca mais.'}
+    else if(t<7){st.sel='B2';nb='B2';ft=NAMES[0];cap='Aqui tenho o nome completo<br>de cada aluno.'}
+    else if(t<11){st.sel='C2';const s=typed(first(NAMES[0]),7.6,t,4);C[0]=t<9.5?s+CARET:first(NAMES[0]);ft=s;cap='Na primeira linha, digito<br>só o primeiro nome.'}
+    else if(t<15){C[0]=first(NAMES[0]);st.sel='C3';nb='C3';keys(12.5);
+      if(t>=12.8){fillC();st.flash=t<13.6?Array.from({length:N-1},(_,i)=>'C'+(i+3)):[]}
+      ft=t>=12.8?C[1]:'';cap='Desço para a linha de baixo<br>e aperto <span class="k3">Ctrl + E</span>.'}
+    else if(t<19){fillC();
+      if(t<16.8){st.sel='D2';nb='D2';const s=typed(last(NAMES[0]),15.3,t,4);Dd[0]=t<16.6?s+CARET:last(NAMES[0]);ft=s}
+      else{Dd[0]=last(NAMES[0]);st.sel='D3';nb='D3';keys(17.4);if(t>=17.7){fillD();st.flash=t<18.5?Array.from({length:N-1},(_,i)=>'D'+(i+3)):[]}ft=t>=17.7?Dd[1]:''}
+      cap='Mesma coisa<br>para o sobrenome.'}
+    else{fillC();fillD();st.sel='D3';nb='D3';ft=Dd[1];cap='Pronto! A lista inteira,<br>em um segundo.'}
+    const rows=NAMES.slice(0,N).map((n,i)=>[n,C[i],Dd[i]]);
+    q('#grid').innerHTML=table([['B','Nome completo'],['C','Primeiro nome'],['D','Sobrenome']],[60,400,270,290],rows,st);
+  }
+  q('#hook .t').innerHTML=hook;q('#cap .t').innerHTML=cap;q('#nbox').textContent=nb;q('#ftext').innerHTML=ft;
+}
+render(0);
+</script></body></html>

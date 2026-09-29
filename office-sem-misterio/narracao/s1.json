@@ -1,0 +1,12 @@
+[[0,3,"Digita a matrícula, e o nome do aluno aparece sozinho. Olha só."],
+[3,7,"Eu tenho a lista de alunos nesta aba,"],
+[7,10,"e quero puxar o nome pela matrícula. Digito a matrícula aqui."],
+[10,12,"Na célula do nome, eu digito: igual, PROCV, abre parênteses."],
+[12,14.5,"Bê três: o que eu procuro, a matrícula."],
+[14.5,17.5,"Alunos, de A até C: onde procurar."],
+[17.5,20,"Dois: a coluna que eu quero, que é a do nome."],
+[20,24,"E zero, para achar o valor exato."],
+[24,28,"Dou enter, e pronto! O nome apareceu."],
+[28,31.5,"Troco a matrícula, e o nome muda junto."],
+[31.5,35,"E se eu trocar o dois pelo três, ele traz a turma."],
+[35,38,"Salva esse vídeo e me segue! Amanhã tem porcentagem de presença, sem calculadora."]]

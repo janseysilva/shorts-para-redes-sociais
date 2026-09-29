@@ -1,0 +1,153 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Short 2/3</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1920px;background:#0f1115;font-family:"DejaVu Sans",sans-serif;overflow:hidden;color:#fff;position:relative}
+#hook{position:absolute;top:0;left:0;width:1080px;height:430px;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 60px}
+#hook .t{font-size:66px;font-weight:bold;line-height:1.18}
+#hook .t em{font-style:normal;color:#3ddc84}
+#win{position:absolute;top:430px;left:30px;width:1020px;height:1060px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#title{height:62px;background:#217346;color:#fff;font-size:26px;display:flex;align-items:center;padding-left:24px;font-weight:bold}
+#ribbon{height:74px;background:#f7f7f7;border-bottom:2px solid #d0d0d0;display:flex;align-items:center;gap:14px;padding:0 18px;color:#333;font-size:24px}
+#ribbon .lbl{color:#107c41;font-weight:bold;margin-right:10px}
+.btn{border:2px solid #cfcfcf;border-radius:8px;padding:8px 16px;background:#fff}
+.btn.press{background:#c6e6d2;border-color:#107c41}
+#fbar{height:76px;border-bottom:2px solid #d0d0d0;display:flex;align-items:center;color:#222;font-size:30px}
+#nbox{width:130px;height:100%;border-right:2px solid #d0d0d0;display:flex;align-items:center;justify-content:center;font-size:26px}
+#fx{width:70px;text-align:center;color:#666;font-style:italic;font-size:28px}
+#ftext{flex:1;white-space:nowrap;overflow:hidden;font-family:"DejaVu Sans Mono",monospace;font-size:31px}
+#grid{position:absolute;top:212px;left:0;right:0;bottom:64px;overflow:hidden}
+table{border-collapse:collapse;table-layout:fixed;color:#111}
+td,th{border:1px solid #d9d9d9;height:66px;font-size:29px;padding:0 10px;white-space:nowrap;overflow:visible;position:relative}
+th{background:#f3f3f3;color:#555;font-weight:normal;font-size:24px;height:44px;text-align:center}
+td.rn{background:#f3f3f3;color:#555;text-align:center;font-size:24px;padding:0}
+td.h{background:#217346;color:#fff;font-weight:bold;text-align:center;font-size:25px}
+td.c{text-align:center}
+td.hl{background:#dbeafe}
+td.rng{background:#e3f2e8}
+td.red{background:#ffc7ce;color:#9c0006}
+td.sel{outline:5px solid #107c41;outline-offset:-4px;z-index:2}
+td.r1{outline:4px dashed #1f6fd6;outline-offset:-4px}
+td.r2{outline:4px dashed #d6336c;outline-offset:-4px}
+td.flash{background:#c6efce !important}
+.handle{position:absolute;right:-8px;bottom:-8px;width:16px;height:16px;background:#107c41;border:2px solid #fff;z-index:3}
+.handle.big{width:26px;height:26px;right:-13px;bottom:-13px;box-shadow:0 0 0 6px rgba(16,124,65,.35)}
+#tabs{position:absolute;bottom:0;left:0;right:0;height:64px;background:#f3f3f3;border-top:2px solid #d0d0d0;display:flex;padding-left:20px;font-size:26px;color:#444}
+.tab{padding:0 34px;display:flex;align-items:center}
+.tab.on{background:#fff;color:#107c41;font-weight:bold;border-bottom:5px solid #107c41}
+#menu,#sub{position:absolute;background:#fff;border:2px solid #bbb;box-shadow:0 10px 30px rgba(0,0,0,.3);color:#222;font-size:26px;display:none;z-index:20}
+#menu{top:128px;left:300px;width:520px}
+#sub{top:128px;left:520px;width:440px}
+.mi{padding:18px 22px;border-bottom:1px solid #eee}
+.mi.on{background:#d7ecdf;font-weight:bold}
+#dlg{position:absolute;top:330px;left:70px;width:880px;background:#fff;border:2px solid #999;box-shadow:0 20px 60px rgba(0,0,0,.4);color:#222;display:none;z-index:30;font-size:26px}
+#dlg .hd{background:#f0f0f0;padding:16px 22px;font-weight:bold;border-bottom:1px solid #ccc}
+#dlg .bd{padding:26px 22px;display:grid;gap:18px}
+#dlg .row{display:flex;gap:16px;align-items:center}
+#dlg .in{border:2px solid #107c41;padding:10px 14px;width:220px;font-family:"DejaVu Sans Mono",monospace;font-size:30px;min-height:56px}
+#dlg .dd{border:2px solid #bbb;padding:10px 14px;flex:1;background:#ffc7ce;color:#9c0006}
+#dlg .ft{display:flex;justify-content:flex-end;gap:14px;padding:0 22px 22px}
+#cap{position:absolute;top:1520px;left:0;width:1080px;height:400px;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding:30px 60px 0}
+#cap .t{font-size:54px;font-weight:bold;line-height:1.25}
+.k1{color:#4fa3ff}.k2{color:#ff6b6b}.k3{color:#ffc53d}
+#ftext .k1,td .k1{color:#1f6fd6}#ftext .k2,td .k2{color:#d6336c}
+#end{position:absolute;inset:0;background:#0f1115;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px;z-index:50}
+#end .a{font-size:84px;font-weight:bold;line-height:1.15}
+#end .b{font-size:52px;margin-top:60px;color:#3ddc84;font-weight:bold}
+#end .c{font-size:40px;margin-top:40px;color:#bbb}
+.caret{display:inline-block;width:3px;height:1em;background:#111;vertical-align:-4px;margin-left:2px}
+</style></head>
+<body>
+<div id="hook"><div class="t"></div></div>
+<div id="win">
+  <div id="title">Planilha_Exemplo_Shorts.xlsx - Excel</div>
+  <div id="ribbon"><span class="lbl">Página Inicial</span><span class="btn" id="bPct">%</span><span class="btn">000</span><span class="btn" id="bFC">Formatação Condicional ▾</span></div>
+  <div id="fbar"><div id="nbox">G2</div><div id="fx">fx</div><div id="ftext"></div></div>
+  <div id="grid"></div>
+  <div id="menu"><div class="mi" id="m1">Realce das Regras das Células ▸</div><div class="mi">Regras de Primeiros/Últimos ▸</div><div class="mi">Barras de Dados ▸</div><div class="mi">Escalas de Cor ▸</div></div>
+  <div id="sub"><div class="mi">É Maior do que...</div><div class="mi" id="m2">É Menor do que...</div><div class="mi">Está Entre...</div><div class="mi">É Igual a...</div></div>
+  <div id="dlg"><div class="hd">É Menor do que</div><div class="bd"><div>Formatar células que são MENORES DO QUE:</div><div class="row"><div class="in" id="din"></div><span>com</span><div class="dd">Preenchimento Vermelho Claro e Texto Vermelho Escuro ▾</div></div></div><div class="ft"><span class="btn" id="bOK">OK</span><span class="btn">Cancelar</span></div></div>
+  <div id="tabs"><div class="tab on">Alunos</div><div class="tab">Busca</div></div>
+</div>
+<div id="cap"><div class="t"></div></div>
+<div id="end"><div class="a"></div><div class="b"></div><div class="c"></div></div>
+<script>
+const D=__DATA__, MODE=__MODE__;
+const N=10, W=[60,330,200,150,260];
+const q=s=>document.querySelector(s);
+const CARET='<span class="caret"></span>';
+const pct=p=>Math.round(p*100)+'%';
+function typed(s,t0,t,rate){return s.slice(0,Math.max(0,Math.min(s.length,Math.floor((t-t0)*rate))))}
+function grid(st){
+  let h='<table><colgroup>'+W.map(w=>`<col style="width:${w}px">`).join('')+'</colgroup><tr><th></th><th>B</th><th>E</th><th>F</th><th>G</th></tr>';
+  h+='<tr><td class="rn">1</td><td class="h">Nome</td><td class="h">Aulas dadas</td><td class="h">Faltas</td><td class="h">% Presença</td></tr>';
+  for(let i=0;i<N;i++){const r=i+2, f=st.F[i];
+    const c=(col,base)=>{let k=[base];const id=col+r;
+      if(st.hl&&st.hl.includes(col))k.push('hl');
+      if(col==='G'&&st.rng&&r>=st.rng[0]&&r<=st.rng[1])k.push('rng');
+      if(col==='G'&&st.red&&st.G[i]!==''&&(80-f)/80<0.75)k.push('red');
+      if(st.sel===id)k.push('sel'); if(st.r1===id)k.push('r1'); if(st.r2===id)k.push('r2'); if(st.flash&&st.flash.includes(id))k.push('flash');
+      return k.join(' ')};
+    const gh = st.handle===('G'+r)?`<span class="handle${st.bigh?' big':''}"></span>`:'';
+    h+=`<tr><td class="rn">${r}</td><td class="${c('B','')}">${D[i][1]}</td><td class="${c('E','c')}">${D[i][2]}</td><td class="${c('F','c')}">${st.Fs&&st.Fs[i]!=null?st.Fs[i]:f}</td><td class="${c('G','c')}">${st.G[i]}${gh}</td></tr>`;
+  }
+  return h+'</table>';
+}
+function endCard(a,b,c){q('#end').style.display='flex';q('#end .a').innerHTML=a;q('#end .b').innerHTML=b;q('#end .c').innerHTML=c}
+function render(t){
+  q('#end').style.display='none';['#menu','#sub','#dlg'].forEach(s=>q(s).style.display='none');
+  ['#bPct','#bFC','#bOK','#m1','#m2'].forEach(s=>q(s).classList.remove('press','on'));
+  const F=D.slice(0,N).map(r=>r[3]);
+  let st={F,G:Array(N).fill('')}, nb='G2', ft='', hook='', cap='';
+  if(MODE===2){
+    hook = t<3?'Ainda calcula frequência <em>na calculadora?</em>':'Frequência no Excel<br><em>em 10 segundos</em>';
+    if(t>=24){endCard('Frequência pronta<br>em 10 segundos.','Salva esse vídeo','Próximo: vermelho automático<br>abaixo de 75%');return}
+    if(t<3){st.sel='G2';cap='Para com isso.'}
+    else if(t<6){st.sel='G2';st.hl=['E','F'];cap='Aqui tenho as aulas dadas<br>e as faltas de cada aluno.'}
+    else if(t<11){
+      const segs=[[6,'=(',''],[6.8,'E2','k1'],[7.8,'-',''],[8.3,'F2','k2'],[9.3,')/',''],[9.8,'E2','k1']];
+      let s='';for(const [ts,x,k] of segs){if(t>=ts){const p=t>=ts+0.6?x:x.slice(0,Math.ceil((t-ts)/0.6*x.length));s+=k?`<span class="${k}">${p}</span>`:p}}
+      st.sel='G2';st.r1='E2';if(t>=8.3)st.r2='F2';st.G[0]=s+CARET;ft=s+CARET;
+      cap='<span class="k1">Aulas dadas</span> menos <span class="k2">faltas</span>,<br>dividido pelas <span class="k1">aulas dadas</span>.'}
+    else {
+      ft='=(E2-F2)/E2';
+      if(t<13){st.sel='G2';st.G[0]='0,975';cap='Dou enter.'}
+      else if(t<16){st.sel='G2';st.G[0]=t<14?'0,975':'98%';if(t>=13.7&&t<14.3)q('#bPct').classList.add('press');cap='Clico no botão<br>de porcentagem.';st.handle='G2';st.bigh=t>=15}
+      else if(t<20){
+        const n=t<17?1:Math.min(N,1+Math.floor((t-17)/0.07));
+        for(let i=0;i<n;i++)st.G[i]=pct((80-F[i])/80);
+        st.sel='G2';st.rng=t>=17?[2,1+n]:null;st.handle=t<17?'G2':'G'+(1+n);st.bigh=t<17;
+        cap='Dois cliques no cantinho:<br>a turma toda de uma vez.'}
+      else {
+        for(let i=0;i<N;i++)st.G[i]=pct((80-F[i])/80);
+        st.sel='F5';nb='F5';ft=String(F[3]);
+        if(t>=21){const s=typed('10',21,t,4);st.Fs=[];st.Fs[3]=t<21.8?s+CARET:'10';ft=t<21.8?s:'10';
+          if(t>=21.8){st.G[3]=pct(70/80);st.flash=t<22.8?['G5']:[];}}
+        cap='Mudou uma falta?<br>A porcentagem atualiza sozinha.'}
+    }
+  } else {
+    hook = t<3?'Quem tem menos de 75%<br><em>fica vermelho sozinho</em>':'Formatação Condicional<br><em>no Excel</em>';
+    if(t>=21){endCard('Ninguém passa<br>despercebido.','Salva esse vídeo','Para o fechamento do bimestre.<br>Segue para mais dicas!');return}
+    for(let i=0;i<N;i++)st.G[i]=pct((80-F[i])/80);
+    ft='=(E2-F2)/E2';
+    if(t<3){st.sel='G2';cap='Quer ver na hora quem está em risco<br>de reprovar por falta?'}
+    else if(t<14){
+      st.sel='G2';st.rng=[2,1+N];nb='G2:G11';
+      if(t<6)cap='Seleciono a coluna<br>da porcentagem.';
+      else if(t<10){q('#bFC').classList.add('press');q('#menu').style.display='block';
+        if(t>=7)q('#m1').classList.add('on');if(t>=7.8)q('#sub').style.display='block';if(t>=8.8)q('#m2').classList.add('on');
+        cap='Formatação Condicional,<br>Realce das Regras, É Menor do que.'}
+      else{q('#dlg').style.display='block';const s=typed('75%',10.5,t,3);q('#din').innerHTML=s+(t<13?CARET:'');if(t>=13.2)q('#bOK').classList.add('press');
+        cap='Digito <span class="k3">75%</span><br>e escolho o vermelho.'}
+    }
+    else if(t<17){st.red=true;st.sel='G2';st.rng=[2,1+N];nb='G2:G11';cap='Pronto! Quem está abaixo de 75%<br>fica vermelho.'}
+    else {st.red=true;st.sel='F11';nb='F11';ft=String(F[9]);
+      if(t>=18){const s=typed('10',18,t,4);st.Fs=[];st.Fs[9]=t<18.8?s+CARET:'10';ft=t<18.8?s:'10';
+        if(t>=18.8){st.F=F.slice();st.F[9]=10;st.G[9]=pct(70/80);st.flash=t<19.6?['G11']:[];}}
+      cap='E se a falta mudar,<br>a cor muda junto.'}
+  }
+  q('#hook .t').innerHTML=hook;q('#cap .t').innerHTML=cap;q('#nbox').textContent=nb;q('#ftext').innerHTML=ft;
+  q('#grid').innerHTML=grid(st);
+}
+render(0);
+</script></body></html>

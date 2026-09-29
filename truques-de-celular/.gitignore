@@ -1,0 +1,7 @@
+video/node_modules/
+video/previa/
+video/out/*
+!video/out/upload/
+__pycache__/
+*.pyc
+

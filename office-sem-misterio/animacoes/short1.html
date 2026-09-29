@@ -1,0 +1,145 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Short 1</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1920px;background:#0f1115;font-family:"DejaVu Sans",sans-serif;overflow:hidden;color:#fff}
+#hook{position:absolute;top:0;left:0;width:1080px;height:430px;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 60px}
+#hook .t{font-size:66px;font-weight:bold;line-height:1.18}
+#hook .t em{font-style:normal;color:#3ddc84}
+#win{position:absolute;top:430px;left:30px;width:1020px;height:1060px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#title{height:62px;background:#217346;color:#fff;font-size:26px;display:flex;align-items:center;padding-left:24px;font-weight:bold}
+#fbar{height:76px;border-bottom:2px solid #d0d0d0;display:flex;align-items:center;color:#222;font-size:30px}
+#nbox{width:130px;height:100%;border-right:2px solid #d0d0d0;display:flex;align-items:center;justify-content:center;font-size:26px}
+#fx{width:70px;text-align:center;color:#666;font-style:italic;font-size:28px}
+#ftext{flex:1;white-space:nowrap;overflow:hidden;font-family:"DejaVu Sans Mono",monospace;font-size:31px;padding-right:10px}
+#grid{position:absolute;top:138px;left:0;right:0;bottom:64px;overflow:hidden}
+table{border-collapse:collapse;table-layout:fixed;color:#111}
+td,th{border:1px solid #d9d9d9;height:66px;font-size:29px;padding:0 10px;white-space:nowrap;overflow:visible;position:relative}
+th{background:#f3f3f3;color:#555;font-weight:normal;font-size:24px;height:44px;text-align:center}
+td.rn{background:#f3f3f3;color:#555;text-align:center;font-size:24px;padding:0}
+td.h{background:#217346;color:#fff;font-weight:bold;text-align:center}
+td.c{text-align:center}
+td.in{background:#fff2cc}
+td.sel{outline:5px solid #107c41;outline-offset:-4px;z-index:2}
+td.ref{outline:4px dashed #1f6fd6;outline-offset:-4px}
+td.flash{background:#c6efce !important}
+#tabs{position:absolute;bottom:0;left:0;right:0;height:64px;background:#f3f3f3;border-top:2px solid #d0d0d0;display:flex;align-items:stretch;padding-left:20px;font-size:26px;color:#444}
+.tab{padding:0 34px;display:flex;align-items:center}
+.tab.on{background:#fff;color:#107c41;font-weight:bold;border-bottom:5px solid #107c41}
+#cap{position:absolute;top:1520px;left:0;width:1080px;height:400px;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding:30px 60px 0}
+#cap .t{font-size:54px;font-weight:bold;line-height:1.25}
+.k1{color:#4fa3ff}.k2{color:#ff6b6b}.k3{color:#ffc53d}.k4{color:#c38bff}
+#ftext .k1{color:#1f6fd6}#ftext .k2{color:#d6336c}#ftext .k3{color:#c27c00}#ftext .k4{color:#7b3fd6}
+#end{position:absolute;inset:0;z-index:50;background:#0f1115;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px}
+#end .a{font-size:84px;font-weight:bold;line-height:1.15}
+#end .b{font-size:52px;margin-top:60px;color:#3ddc84;font-weight:bold}
+#end .c{font-size:40px;margin-top:40px;color:#bbb}
+.caret{display:inline-block;width:3px;height:1em;background:#111;vertical-align:-4px;margin-left:2px}
+</style></head>
+<body>
+<div id="hook"><div class="t"></div></div>
+<div id="win">
+  <div id="title">Planilha_Exemplo_Shorts.xlsx - Excel</div>
+  <div id="fbar"><div id="nbox">B3</div><div id="fx">fx</div><div id="ftext"></div></div>
+  <div id="grid"></div>
+  <div id="tabs"><div class="tab" id="tA">Alunos</div><div class="tab" id="tB">Busca</div></div>
+</div>
+<div id="cap"><div class="t"></div></div>
+<div id="end"><div class="a">Digitou a matrícula,<br>o nome aparece.</div><div class="b">Salva esse vídeo</div><div class="c">Próximo: % de presença<br>sem calculadora</div></div>
+<script>
+const D = __DATA__;
+const W=[60,190,300,350,180];
+const L=['','A','B','C','D'];
+function colgroup(){return '<colgroup>'+W.map(w=>`<col style="width:${w}px">`).join('')+'</colgroup>'}
+function hdr(){return '<tr>'+L.map(l=>`<th>${l}</th>`).join('')+'</tr>'}
+function esc(s){return String(s)}
+const F = [['=PROCV(',''],['B3','k1'],[';',''],['Alunos!A:C','k2'],[';',''],['2','k3'],[';',''],['0','k4'],[')','']];
+const FULL = F.map(x=>x[0]).join('');
+function colorize(n){ // first n chars colored
+  let out='',c=0;
+  for(const [s,k] of F){ if(c>=n) break; const part=s.slice(0,n-c); c+=s.length;
+    out+= k?`<span class="${k}">${part}</span>`:part; }
+  return out;
+}
+function F2(n,col){ // formula with col index variant
+  const s=`=PROCV(B3;Alunos!A:C;${col};0)`; return s.slice(0,n);
+}
+function alunosView(){
+  let h='<table>'+colgroup()+hdr();
+  h+='<tr><td class="rn">1</td><td class="h">Matrícula</td><td class="h">Nome</td><td class="h">Turma</td><td class="h">Turno</td></tr>';
+  for(let i=0;i<13;i++){const r=D[i];h+=`<tr><td class="rn">${i+2}</td><td class="c">${r[0]}</td><td>${r[1]}</td><td class="c">${r[2]}</td><td class="c">${r[3]}</td></tr>`}
+  return h+'</table>';
+}
+function buscaView(st){
+  let h='<table>'+colgroup()+hdr();
+  h+=`<tr><td class="rn">1</td><td></td><td colspan="3" style="color:#777;font-style:italic;font-size:24px">Digite a matrícula em B3</td></tr>`;
+  h+='<tr><td class="rn">2</td><td></td><td class="h">Matrícula</td><td class="h">Nome</td><td class="h">Turma</td></tr>';
+  const cls=(c)=>[c==='B'?'in c':'c', st.sel===c?'sel':'', st.ref===c?'ref':'', st.flash===c?'flash':''].join(' ');
+  h+=`<tr><td class="rn">3</td><td></td><td class="${cls('B')}">${st.B||''}</td><td class="${cls('C')}">${st.C||''}</td><td class="${cls('D')}">${st.D||''}</td></tr>`;
+  for(let i=4;i<=13;i++) h+=`<tr><td class="rn">${i}</td><td></td><td></td><td></td><td></td></tr>`;
+  return h+'</table>';
+}
+const q=s=>document.querySelector(s);
+function setHook(s){q('#hook .t').innerHTML=s}
+function setCap(s){q('#cap .t').innerHTML=s}
+function typed(s,t0,t,rate){const n=Math.max(0,Math.min(s.length,Math.floor((t-t0)*rate)));return s.slice(0,n)}
+const CARET='<span class="caret"></span>';
+function render(t){
+  q('#end').style.display = t>=35 ? 'flex':'none';
+  if(t>=35){return;}
+  const onA = (t>=3 && t<7);
+  q('#tA').className='tab'+(onA?' on':''); q('#tB').className='tab'+(onA?'':' on');
+  let st={}, ftext='', nb='B3';
+  // hook
+  if(t<3) setHook('Digita a matrícula e o <em>nome aparece sozinho</em>');
+  else setHook('PROCV no Excel<br><em>em 30 segundos</em>');
+  if(onA){
+    q('#grid').innerHTML=alunosView(); nb='A1'; ftext='Matrícula';
+    setCap('Tenho a lista de alunos nesta aba...');
+  } else {
+    // Busca
+    let B='',C='',D='';
+    if(t<3){ st.sel='B'; setCap('Olha isso.'); }
+    else if(t<10){ // type matricula
+      st.sel='B'; const s=typed('2026015',7.6,t,5); B = t<7.6? '' : s;
+      ftext = B; if(t>=7.6 && t<10) B = B + (t<9.4?CARET:'');
+      setCap(t<7.6?'...e quero puxar o nome<br>pela matrícula.':'Digito a matrícula aqui.');
+      if(t>=9.4){B='2026015'; ftext='2026015'}
+    } else if(t<24){
+      B='2026015'; st.sel='C'; st.ref='B'; nb='C3';
+      const n = Math.max(0,Math.min(FULL.length, Math.floor((t-10.5)*2.2)));
+      // slow typing so explanations fit: pace per token
+      const segs=[[10.5,'=PROCV('],[12.0,'B3'],[14.5,';Alunos!A:C'],[17.5,';2'],[20.0,';0)']];
+      let acc='';for(const [ts,s] of segs){ if(t>=ts){ acc+= t>=ts+1.2? s : s.slice(0,Math.ceil((t-ts)/1.2*s.length)); } }
+      const m=acc.length;
+      C = colorize(m)+CARET; ftext = colorize(m)+CARET;
+      if(t<12) setCap('Na célula do nome, digito<br><span class="k3">=PROCV(</span>');
+      else if(t<14.5) setCap('<span class="k1">B3</span>: o que eu procuro<br>(a matrícula)');
+      else if(t<17.5) setCap('<span class="k2">Alunos!A:C</span>: onde procurar<br>(a aba com a lista)');
+      else if(t<20) setCap('<span class="k3">2</span>: a coluna que eu quero<br>(a 2ª é o nome)');
+      else setCap('<span class="k4">0</span>: para achar<br>o valor exato');
+    } else if(t<28){
+      B='2026015'; C='Lorenzo Dias'; st.sel='C'; nb='C3'; ftext=colorize(FULL.length);
+      if(t<25.2) st.flash='C';
+      setCap('<span style="color:#3ddc84">Enter.</span> Pronto!');
+    } else if(t<31.5){
+      st.sel='B'; nb='B3';
+      const s=typed('2026003',28.3,t,6); B = t<28.3?'2026015':(s||'')+(t<29.6?CARET:'');
+      const done=t>=29.6; if(done)B='2026003';
+      C = done?'Bernardo Castro':'Lorenzo Dias'; if(done && t<30.6) st.flash='C';
+      ftext = done?'2026003':s;
+      setCap('Troca a matrícula...<br>e o nome muda junto.');
+    } else {
+      B='2026003'; C='Bernardo Castro'; st.sel='D'; nb='D3';
+      const full='=PROCV(B3;Alunos!A:C;3;0)';
+      const s=typed(full,31.6,t,14);
+      if(t<33.6){ D=s+CARET; ftext=s; } else { D='5º Ano A'; ftext=full; if(t<34.4) st.flash='D'; }
+      setCap('Com <span class="k3">3</span> no lugar do <span class="k3">2</span>,<br>ele traz a turma.');
+    }
+    st.B=B;st.C=C;st.D=D;
+    q('#grid').innerHTML=buscaView(st);
+  }
+  q('#nbox').textContent=nb; q('#ftext').innerHTML=ftext;
+}
+render(0);
+</script></body></html>

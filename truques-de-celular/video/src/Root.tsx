@@ -1,0 +1,62 @@
+import React from "react";
+import { Composition } from "remotion";
+import { FixarConversa } from "./FixarConversa";
+import tFixar from "../public/tempos.json";
+import { SemSalvar } from "./shorts/SemSalvar";
+import tSemSalvar from "../public/SemSalvar/tempos.json";
+import { LiberarEspaco } from "./shorts/LiberarEspaco";
+import tLiberar from "../public/LiberarEspaco/tempos.json";
+import { Bateria } from "./shorts/Bateria";
+import tBateria from "../public/Bateria/tempos.json";
+import { Escanear } from "./shorts/Escanear";
+import tEscanear from "../public/Escanear/tempos.json";
+import { ApagarMensagem } from "./shorts/ApagarMensagem";
+import tApagar from "../public/ApagarMensagem/tempos.json";
+
+import { ModoEscuro } from "./shorts/ModoEscuro";
+import tModoEscuro from "../public/ModoEscuro/tempos.json";
+import { OuvirAudio } from "./shorts/OuvirAudio";
+import tOuvirAudio from "../public/OuvirAudio/tempos.json";
+import { DigitarFalando } from "./shorts/DigitarFalando";
+import tDigitarFalando from "../public/DigitarFalando/tempos.json";
+import { AcharCelular } from "./shorts/AcharCelular";
+import tAcharCelular from "../public/AcharCelular/tempos.json";
+import { SenhaWifi } from "./shorts/SenhaWifi";
+import tSenhaWifi from "../public/SenhaWifi/tempos.json";
+import { SilenciarGrupo } from "./shorts/SilenciarGrupo";
+import tSilenciarGrupo from "../public/SilenciarGrupo/tempos.json";
+import { Arquivar } from "./shorts/Arquivar";
+import tArquivar from "../public/Arquivar/tempos.json";
+import { Traduzir } from "./shorts/Traduzir";
+import tTraduzir from "../public/Traduzir/tempos.json";
+import { GravarTela } from "./shorts/GravarTela";
+import tGravarTela from "../public/GravarTela/tempos.json";
+
+export const FPS = 30;
+
+// Cada short: id (= pasta em public/), componente e tempos da narração
+const SHORTS: [string, React.FC, { total: number }][] = [
+  ["FixarConversa", FixarConversa, tFixar],
+  ["SemSalvar", SemSalvar, tSemSalvar],
+  ["LiberarEspaco", LiberarEspaco, tLiberar],
+  ["Bateria", Bateria, tBateria],
+  ["Escanear", Escanear, tEscanear],
+  ["ApagarMensagem", ApagarMensagem, tApagar],
+  ["ModoEscuro", ModoEscuro, tModoEscuro],
+  ["OuvirAudio", OuvirAudio, tOuvirAudio],
+  ["DigitarFalando", DigitarFalando, tDigitarFalando],
+  ["AcharCelular", AcharCelular, tAcharCelular],
+  ["SenhaWifi", SenhaWifi, tSenhaWifi],
+  ["SilenciarGrupo", SilenciarGrupo, tSilenciarGrupo],
+  ["Arquivar", Arquivar, tArquivar],
+  ["Traduzir", Traduzir, tTraduzir],
+  ["GravarTela", GravarTela, tGravarTela],
+];
+
+export const Root: React.FC = () => (
+  <>
+    {SHORTS.map(([id, comp, t]) => (
+      <Composition key={id} id={id} component={comp} durationInFrames={Math.ceil(t.total * FPS)} fps={FPS} width={1080} height={1920} />
+    ))}
+  </>
+);

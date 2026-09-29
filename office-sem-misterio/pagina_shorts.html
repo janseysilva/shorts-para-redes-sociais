@@ -1,0 +1,242 @@
+<title>Office Sem Mistério</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#f3f5f6;--fg:#161b20;--muted:#5a646d;--card:#ffffff;--line:#d6dde2;--accent:#107c41;--xl:#107c41;--wd:#2b579a;--pp:#c43e1c}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#101316;--fg:#e8edf0;--muted:#9aa6ae;--card:#181d21;--line:#2a3238;--accent:#3ddc84;--xl:#3ddc84;--wd:#6ea2ff;--pp:#ff8a5c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101316;--fg:#e8edf0;--muted:#9aa6ae;--card:#181d21;--line:#2a3238;--accent:#3ddc84;--xl:#3ddc84;--wd:#6ea2ff;--pp:#ff8a5c;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:"Rubik",system-ui,sans-serif;padding-inline:16px;padding-block:28px}
+.wrap{max-width:900px;margin:0 auto;display:grid;gap:24px}
+h1{font-size:28px;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;font-size:15px;max-width:62ch;line-height:1.5}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+nav a{font-weight:600;font-size:14px;text-decoration:none;padding:7px 14px;border-radius:999px;border:2px solid currentColor}
+.c-excel{color:var(--xl)}.c-word{color:var(--wd)}.c-ppt{color:var(--pp)}
+.grp{font-size:22px;margin:12px 0 -8px;display:flex;align-items:baseline;gap:10px}
+.grp span{font-size:14px;font-weight:400;color:var(--muted)}
+.g-excel{color:var(--xl)}.g-word{color:var(--wd)}.g-ppt{color:var(--pp)}
+.item{display:grid;grid-template-columns:minmax(0,360px) 1fr;gap:24px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+@media (max-width:700px){.item{grid-template-columns:1fr}}
+video{width:100%;max-width:100%;aspect-ratio:9/16;background:#000;border-radius:10px;display:block}
+.tag{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;font-variant-numeric:tabular-nums}
+h2{font-size:22px;margin:4px 0 12px;text-wrap:balance}
+dl{margin:0;display:grid;gap:12px;font-size:15px;line-height:1.5}
+dt{font-weight:600}
+dd{margin:2px 0 0;color:var(--muted)}
+.copy{display:flex;gap:8px;align-items:flex-start}
+.copy p{margin:0;flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;color:var(--fg);user-select:all;overflow-wrap:anywhere}
+button{font:inherit;font-size:13px;background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:8px 12px;cursor:pointer;font-weight:600}
+button:focus-visible,nav a:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+</style>
+<div class="wrap">
+  <header>
+    <h1>Office Sem Mistério</h1>
+    <p class="sub">Shorts prontos para postar, narrados pela voz do Faber, separados por programa. Cada um tem título e legenda para copiar.</p>
+    <nav><a class="c-excel" href="#excel">Excel</a><a class="c-word" href="#word">Word</a><a class="c-ppt" href="#ppt">PowerPoint</a></nav>
+  </header>
+  <h3 class="grp g-excel" id="excel">Excel <span>5 shorts</span></h3>
+  <section class="item" id="s1">
+    <video src="Short1_PROCV.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 1 · Excel · 44 s</div>
+      <h2>PROCV: o nome aparece sozinho</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t1">Digita a matrícula e o nome aparece sozinho (PROCV no Excel)</p><button type="button" data-copy="t1">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l1">PROCV em 30 segundos: busque o nome do aluno pela matrícula. Salva para usar no trabalho! #excel #planilha #procv #professor #dicasdeexcel</p><button type="button" data-copy="l1">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s2">
+    <video src="Short2_Presenca.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 2 · Excel · 35 s</div>
+      <h2>% de presença sem calculadora</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t2">Como calcular % de presença no Excel em 10 segundos</p><button type="button" data-copy="t2">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l2">Frequência da turma toda de uma vez, sem calculadora. Salva para o fechamento do bimestre! #excel #planilha #frequencia #professor #dicasdeexcel</p><button type="button" data-copy="l2">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s3">
+    <video src="Short3_Vermelho.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 3 · Excel · 28 s</div>
+      <h2>Vermelho automático abaixo de 75%</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t3">Quem tem menos de 75% de presença fica vermelho sozinho (Excel)</p><button type="button" data-copy="t3">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l3">Formatação condicional: veja na hora quem está em risco de reprovar por falta. #excel #planilha #formatacaocondicional #professor #dicasdeexcel</p><button type="button" data-copy="l3">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s4">
+    <video src="Short4_ListaSuspensa.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 4 · Excel · 33 s</div>
+      <h2>Lista suspensa de conceitos</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t4">Lista suspensa no Excel: acabou a bagunça nos conceitos</p><button type="button" data-copy="t4">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l4">Com validação de dados, cada um escolhe o conceito na setinha e ninguém escreve do próprio jeito. #excel #planilha #listasuspensa #professor #dicasdeexcel</p><button type="button" data-copy="l4">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s5">
+    <video src="Short5_CtrlE.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 5 · Excel · 29 s</div>
+      <h2>Ctrl + E: separar nome e sobrenome</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t5">Separe nome e sobrenome em 1 segundo no Excel (Ctrl + E)</p><button type="button" data-copy="t5">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l5">Preenchimento Relâmpago: o atalho que separa nomes da lista inteira sozinho. Guarda esse! #excel #planilha #atalhos #ctrle #dicasdeexcel</p><button type="button" data-copy="l5">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <h3 class="grp g-word" id="word">Word <span>5 shorts</span></h3>
+  <section class="item" id="s6">
+    <video src="Short6_Word_MalaDireta.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 6 · Word · 35 s</div>
+      <h2>Mala direta: 30 declarações de uma vez</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t6">30 declarações em 1 clique: mala direta no Word</p><button type="button" data-copy="t6">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l6">Uma declaração para cada aluno, com nome e turma certinhos, puxando da planilha do Excel. Salva para a próxima entrega de documentos! #word #maladireta #secretariaescolar #professor #dicasdeword</p><button type="button" data-copy="l6">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s7">
+    <video src="Short7_Word_Sumario.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 7 · Word · 29 s</div>
+      <h2>Sumário automático</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t7">Sumário automático no Word (com número de página)</p><button type="button" data-copy="t7">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l7">Nunca mais faça sumário na mão: estilo Título 1 + Referências › Sumário. E se mudar algo, é só atualizar. #word #sumario #trabalhoescolar #professor #dicasdeword</p><button type="button" data-copy="l7">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s8">
+    <video src="Short8_Word_Timbre.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 8 · Word · 27 s</div>
+      <h2>Timbre da escola em todas as páginas</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t8">Timbre da escola em todas as páginas do Word (cabeçalho)</p><button type="button" data-copy="t8">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l8">Coloque o nome e o endereço da escola no cabeçalho uma vez só e ele aparece em todas as páginas. #word #cabecalho #secretariaescolar #oficio #dicasdeword</p><button type="button" data-copy="l8">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s9">
+    <video src="Short9_Word_ShiftF3.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 9 · Word · 23 s</div>
+      <h2>Shift + F3: maiúscula e minúscula</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t9">Digitou tudo em MAIÚSCULO? Shift + F3 no Word resolve</p><button type="button" data-copy="t9">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l9">Não precisa apagar e digitar de novo: Shift + F3 alterna entre minúsculo, primeira letra maiúscula e MAIÚSCULO. #word #atalhos #shiftf3 #professor #dicasdeword</p><button type="button" data-copy="l9">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s10">
+    <video src="Short10_Word_TituloTabela.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 10 · Word · 23 s</div>
+      <h2>Título da tabela em todas as páginas</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t10">Tabela no Word: repetir o título das colunas em todas as páginas</p><button type="button" data-copy="t10">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l10">Lista de presença com várias páginas? Repetir Linhas de Cabeçalho coloca o título das colunas em todas. #word #tabela #listadepresenca #secretariaescolar #dicasdeword</p><button type="button" data-copy="l10">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <h3 class="grp g-ppt" id="ppt">PowerPoint <span>5 shorts</span></h3>
+  <section class="item" id="s11">
+    <video src="Short11_PPT_SmartArt.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 11 · PowerPoint · 23 s</div>
+      <h2>Texto vira diagrama (SmartArt)</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t11">Slide só com texto? Transforme em diagrama no PowerPoint</p><button type="button" data-copy="t11">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l11">Converter em SmartArt: seus tópicos viram um diagrama colorido em dois cliques. Ótimo para reunião de pais! #powerpoint #smartart #slides #professor #dicasdepowerpoint</p><button type="button" data-copy="l11">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s12">
+    <video src="Short12_PPT_Designer.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 12 · PowerPoint · 27 s</div>
+      <h2>Designer: slide bonito sozinho</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t12">O PowerPoint monta o slide pra você (Designer)</p><button type="button" data-copy="t12">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l12">Coloque o título e uma foto, clique em Designer e escolha um modelo pronto. Recurso do Microsoft 365. #powerpoint #designer #slides #professor #dicasdepowerpoint</p><button type="button" data-copy="l12">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s13">
+    <video src="Short13_PPT_Video.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 13 · PowerPoint · 27 s</div>
+      <h2>Apresentação vira vídeo</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t13">Transforme sua apresentação em vídeo no PowerPoint</p><button type="button" data-copy="t13">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l13">Arquivo › Exportar › Criar um Vídeo: um vídeo que abre em qualquer celular, pronto para mandar no grupo dos pais. #powerpoint #video #reuniaodepais #professor #dicasdepowerpoint</p><button type="button" data-copy="l13">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s14">
+    <video src="Short14_PPT_F5.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 14 · PowerPoint · 23 s</div>
+      <h2>F5 e Shift + F5</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t14">Comece a apresentação sem procurar botão: F5 e Shift + F5</p><button type="button" data-copy="t14">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l14">F5 começa do primeiro slide, Shift + F5 começa do slide atual e Esc sai. Guarda esses atalhos! #powerpoint #atalhos #apresentacao #professor #dicasdepowerpoint</p><button type="button" data-copy="l14">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+  <section class="item" id="s15">
+    <video src="Short15_PPT_Alinhar.mp4" controls playsinline preload="metadata"></video>
+    <div>
+      <div class="tag">Short 15 · PowerPoint · 25 s</div>
+      <h2>Alinhar e distribuir caixas</h2>
+      <dl>
+        <dt>Título</dt>
+        <dd><div class="copy"><p id="t15">Caixas tortas no slide? Alinhe tudo em 1 segundo no PowerPoint</p><button type="button" data-copy="t15">Copiar</button></div></dd>
+        <dt>Legenda</dt>
+        <dd><div class="copy"><p id="l15">Alinhar no Meio deixa todas na mesma altura e Distribuir Horizontalmente iguala o espaço entre elas. #powerpoint #alinhar #slides #professor #dicasdepowerpoint</p><button type="button" data-copy="l15">Copiar</button></div></dd>
+      </dl>
+    </div>
+  </section>
+</div>
+<script>
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{
+  const el=document.getElementById(b.dataset.copy);
+  const done=()=>{b.textContent='Copiado';setTimeout(()=>b.textContent='Copiar',1500)};
+  const sel=()=>{const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selecionado'};
+  try{navigator.clipboard.writeText(el.textContent).then(done,sel)}catch(e){sel()}
+}));
+</script>

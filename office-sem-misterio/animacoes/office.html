@@ -1,0 +1,416 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Shorts Word/PowerPoint</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--app:#2b579a;--lite:#d6e4f5;--acc:#5aa0ff}
+body.ppt{--app:#c43e1c;--lite:#f8d9cf;--acc:#ff8a5c}
+body{width:1080px;height:1920px;background:#0f1115;font-family:"Segoe UI",Arial,sans-serif;overflow:hidden;color:#fff;position:relative}
+#hook{position:absolute;top:0;left:0;width:1080px;height:430px;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 60px}
+#hook .t{font-size:68px;font-weight:bold;line-height:1.18}
+#hook .t em{font-style:normal;color:var(--acc)}
+#win{position:absolute;top:430px;left:30px;width:1020px;height:1060px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#title{height:62px;background:var(--app);color:#fff;font-size:26px;display:flex;align-items:center;padding-left:24px;font-weight:bold}
+#tabs{height:54px;background:var(--app);display:flex;align-items:flex-end;gap:2px;padding:0 10px;font-size:21px;white-space:nowrap;overflow:hidden}
+.tb{padding:10px 13px;color:#fff;opacity:.85}
+.tb.on{background:#f7f7f7;color:var(--app);opacity:1;font-weight:bold;border-radius:8px 8px 0 0}
+.tb.press{background:rgba(255,255,255,.35);opacity:1;border-radius:8px 8px 0 0}
+#ribbon{height:98px;background:#f7f7f7;border-bottom:2px solid #d0d0d0;display:flex;align-items:center;gap:10px;padding:0 14px;color:#333;font-size:22px;position:relative;z-index:5}
+.btn{border:2px solid #cfcfcf;border-radius:8px;padding:8px 12px;background:#fff;position:relative;text-align:center;line-height:1.2;max-width:240px}
+.btn.hot{border-color:var(--app);box-shadow:0 0 0 4px var(--lite)}
+.btn.press{background:var(--lite);border-color:var(--app)}
+.sty{border:2px solid #cfcfcf;background:#fff;padding:6px 14px;min-width:120px;text-align:center;position:relative}
+.sty.t1{color:#2f5496;font-size:24px}
+.sty.hot{border-color:var(--app);box-shadow:0 0 0 4px var(--lite)}
+.sty.press{background:var(--lite);border-color:var(--app)}
+.menu{position:absolute;left:0;top:calc(100% + 6px);background:#fff;border:2px solid #888;box-shadow:0 12px 28px rgba(0,0,0,.3);z-index:20;font-size:23px;color:#222;text-align:left;min-width:380px}
+.menu div{padding:12px 20px;white-space:nowrap}
+.menu.r{left:auto;right:0}
+.menu div.on{background:var(--app);color:#fff}
+#canvas{position:absolute;top:214px;left:0;right:0;bottom:0;background:#e3e3e3;overflow:hidden}
+#ov{position:absolute;inset:0;pointer-events:none;z-index:30}
+.dlg{position:absolute;top:330px;left:90px;width:840px;background:#fff;border:2px solid #999;box-shadow:0 20px 60px rgba(0,0,0,.45);color:#222;font-size:25px}
+.dlg .hd{background:#f0f0f0;padding:16px 22px;font-weight:bold;border-bottom:1px solid #ccc}
+.dlg .bd{padding:24px 22px;display:grid;gap:14px}
+.dlg .it{border:2px solid #ddd;padding:10px 16px}
+.dlg .it.on{background:var(--lite);border-color:var(--app);font-weight:bold}
+.dlg .ft{display:flex;justify-content:flex-end;gap:14px;padding:0 22px 22px}
+.ripple{position:absolute;width:90px;height:90px;margin:-45px 0 0 -45px;border-radius:50%;border:6px solid var(--app);background:rgba(90,160,255,.25)}
+/* Word */
+.page{position:absolute;width:760px;height:1075px;background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.2);padding:60px 80px;color:#111;font-family:"Times New Roman",serif;font-size:30px;line-height:1.5;overflow:hidden}
+.blank{letter-spacing:1px}
+.mf{background:#dcdcdc;padding:0 4px;font-weight:bold}
+.gl{height:14px;background:#d4d4d4;border-radius:7px;margin:18px 0}
+.t0{font-size:30px;font-weight:bold;margin-top:18px}
+.t1{font-size:36px;color:#2f5496;margin-top:18px;font-family:"Segoe UI",Arial,sans-serif}
+.hl{background:#b4d7ff}
+.toc .th{font-size:34px;color:#2f5496;font-family:"Segoe UI",Arial,sans-serif;margin-bottom:8px}
+.toc .tr{display:flex;align-items:flex-end;font-size:27px}
+.dots{flex:1;border-bottom:3px dotted #555;margin:0 8px 10px}
+.flash{background:#c6efce}
+.hdr{position:relative;height:120px;margin:-30px 0 30px;text-align:left}
+.hdr.edit{border-bottom:3px dashed var(--app)}
+.hdr .hlabel{position:absolute;left:0;bottom:-34px;background:var(--app);color:#fff;font:18px "Segoe UI",Arial;padding:3px 10px}
+.hdr .l1{font:bold 30px "Segoe UI",Arial,sans-serif}
+.hdr .l2{font:24px "Segoe UI",Arial,sans-serif}
+.xl{position:absolute;right:26px;bottom:26px;width:420px;background:#fff;border:3px solid #107c41;box-shadow:0 10px 30px rgba(0,0,0,.35);font:22px "Segoe UI",Arial;color:#111}
+.xl .xh{background:#107c41;color:#fff;font-weight:bold;padding:8px 14px}
+.xl table{border-collapse:collapse;width:100%}
+.xl td{border:1px solid #ccc;padding:6px 10px}
+.status{position:absolute;left:0;right:0;bottom:0;height:40px;background:#f3f3f3;border-top:1px solid #ccc;color:#444;font-size:20px;display:flex;align-items:center;padding-left:18px}
+.wt{border-collapse:collapse;width:100%;font:30px "Segoe UI",Arial,sans-serif}
+.wt td,.wt th{border:1px solid #777;height:62px;padding:0 8px;white-space:nowrap;overflow:hidden}
+.wt th{background:#2b579a;color:#fff}
+.mark{position:absolute;border:6px solid #e0245e;border-radius:8px}
+.mark.ok{border-color:#1db954}
+/* PowerPoint */
+.thumbs{position:absolute;left:0;top:0;bottom:0;width:175px;background:#ececec;border-right:1px solid #ccc;padding:14px 10px}
+.th1{display:flex;gap:6px;margin-bottom:14px;font-size:18px;color:#555}
+.th1 .m{width:130px;height:73px;background:#fff;border:2px solid #ccc;overflow:hidden;position:relative}
+.th1.on .m{border:4px solid var(--app)}
+.sw{position:absolute;left:195px;top:198px;width:800px;height:450px;transform-origin:0 0}
+.slide{position:absolute;inset:0;background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.25);overflow:hidden;color:#111}
+.stit{position:absolute;left:40px;top:28px;font-size:42px;font-weight:bold}
+.bul{position:absolute;left:60px;top:130px;font-size:30px;line-height:1.7}
+.selbox{outline:3px dashed #888;outline-offset:8px}
+.sa{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;font-weight:bold;font-size:24px;border-radius:14px;padding:10px}
+.photo{position:absolute;overflow:hidden;background:linear-gradient(#8fd3ff 0 62%,#5cb85c 62%)}
+.photo .sun{position:absolute;left:72%;top:12%;width:16%;aspect-ratio:1;border-radius:50%;background:#ffd84d}
+.photo .trk{position:absolute;left:22%;top:45%;width:5%;height:30%;background:#7a4b22}
+.photo .crn{position:absolute;left:14%;top:22%;width:21%;aspect-ratio:1;border-radius:50%;background:#2e8b3a}
+.photo .hil{position:absolute;left:45%;top:52%;width:70%;height:40%;border-radius:50% 50% 0 0;background:#4aa54a}
+.panel{position:absolute;right:0;top:0;bottom:0;width:260px;background:#fafafa;border-left:2px solid #ccc;padding:14px 18px;color:#222}
+.panel .ph{font-size:24px;font-weight:bold;margin-bottom:12px}
+.pt{width:224px;height:126px;margin-bottom:16px;border:3px solid #ddd;position:relative;overflow:hidden}
+.pt.on{border:5px solid var(--app)}
+.pt .in{position:absolute;left:0;top:0;width:800px;height:450px;transform:scale(.28);transform-origin:0 0}
+.sl{position:absolute;inset:0;background:#fff}
+.sl .bar{position:absolute;left:0;top:0;bottom:0;width:26px;background:#c43e1c}
+.sl .st{position:absolute;left:70px;top:150px;font-size:64px;font-weight:bold;color:#222}
+.sl .ss{position:absolute;left:72px;top:250px;font-size:32px;color:#666}
+.shp{position:absolute;width:140px;height:90px;border-radius:14px;color:#fff;font-weight:bold;font-size:21px;display:flex;align-items:center;justify-content:center;text-align:center}
+.shp.sel{outline:3px solid #555;outline-offset:5px}
+.back{position:absolute;left:0;right:0;top:62px;bottom:0;background:#fff;display:flex;color:#222}
+.back .lm{width:250px;background:var(--app);color:#fff;padding-top:30px;font-size:24px}
+.back .lm div{padding:14px 30px}
+.back .lm div.on{background:rgba(255,255,255,.3);font-weight:bold}
+.back .rp{flex:1;padding:34px 36px}
+.back h3{font-size:38px;font-weight:normal;margin-bottom:24px}
+.opt{border:2px solid transparent;padding:14px 18px;font-size:25px;margin-bottom:8px}
+.opt.on{background:var(--lite);border-color:var(--app);font-weight:bold}
+.fld{border:2px solid #bbb;padding:10px 14px;font-size:24px;margin:10px 0 18px;width:420px}
+.fld.hot{border-color:var(--app);box-shadow:0 0 0 4px var(--lite)}
+.bigbtn{display:inline-block;border:2px solid #bbb;padding:18px 28px;font-size:25px;background:#fff}
+.bigbtn.press{background:var(--lite);border-color:var(--app)}
+.prog{position:absolute;left:0;right:0;bottom:0;height:46px;background:#f3f3f3;border-top:1px solid #ccc;font-size:20px;color:#333;display:flex;align-items:center;gap:14px;padding:0 18px}
+.prog .b{width:300px;height:14px;background:#ddd}
+.prog .b i{display:block;height:100%;background:var(--app)}
+.phone{position:absolute;left:350px;top:40px;width:320px;height:620px;background:#111;border-radius:40px;padding:22px 14px}
+.phone .scr{width:100%;height:100%;background:#1b1b1b;border-radius:26px;position:relative;overflow:hidden}
+.full{position:absolute;inset:0;background:#000;z-index:25}
+#keys{position:absolute;top:1170px;left:50%;transform:translateX(-50%);display:none;justify-content:center;gap:24px;z-index:40;background:rgba(15,17,21,.88);padding:28px 44px;border-radius:24px}
+.key{background:#fff;color:#111;border-radius:16px;border-bottom:10px solid #9a9a9a;font-size:64px;font-weight:bold;padding:18px 40px;box-shadow:0 10px 30px rgba(0,0,0,.5);white-space:nowrap}
+.key.down{border-bottom-width:3px;transform:translateY(7px);background:#c6efce}
+.plus{font-size:64px;font-weight:bold;align-self:center;color:#fff}
+#cap{position:absolute;top:1520px;left:0;width:1080px;height:400px;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding:30px 60px 0}
+#cap .t{font-size:54px;font-weight:bold;line-height:1.25}
+.k3{color:#ffc53d}
+#end{position:absolute;inset:0;background:#0f1115;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px;z-index:50}
+#end .a{font-size:84px;font-weight:bold;line-height:1.15}
+#end .b{font-size:52px;margin-top:60px;color:var(--acc);font-weight:bold}
+#end .c{font-size:40px;margin-top:40px;color:#bbb}
+.caret{display:inline-block;width:3px;height:1em;background:#111;vertical-align:-4px;margin-left:2px}
+</style></head>
+<body>
+<div id="hook"><div class="t"></div></div>
+<div id="win">
+  <div id="title"></div>
+  <div id="tabs"></div>
+  <div id="ribbon"></div>
+  <div id="canvas"></div>
+  <div id="ov"></div>
+</div>
+<div id="keys"></div>
+<div id="cap"><div class="t"></div></div>
+<div id="end"><div class="a"></div><div class="b"></div><div class="c"></div></div>
+<script>
+const APP='__APP__', MODE=__MODE__;
+if(APP==='ppt')document.body.classList.add('ppt');
+const NAMES=["Ana Beatriz Souza","Arthur Lima","Bernardo Castro","Camila Rocha","Davi Nogueira","Enzo Farias","Gabriela Moura","Gustavo Tavares","Heitor Batista","Helena Brito","Isabela Pires","João Pedro Alves","Júlia Teixeira","Laura Cardoso","Lorenzo Dias","Luana Freitas","Lucas Barros","Manuela Cunha","Maria Clara Reis","Matheus Pinto","Miguel Duarte","Nicolas Vieira","Pedro Henrique Sales","Rafael Monteiro","Samuel Macedo","Sofia Andrade","Theo Campos","Valentina Ramos","Vitória Lopes","Yasmin Correia"];
+const TURMA=i=>i%2?'5º Ano B':'5º Ano A';
+const q=s=>document.querySelector(s);
+const CARET='<span class="caret"></span>';
+const typed=(s,t0,t,r)=>s.slice(0,Math.max(0,Math.min(s.length,Math.floor((t-t0)*r))));
+const sm=x=>{x=Math.min(1,Math.max(0,x));return x*x*(3-2*x)};
+const lerp=(a,b,t0,t1,t)=>a+(b-a)*sm((t-t0)/(t1-t0));
+const st=(t,hot,press)=>t>=press?'press':(t>=hot?'hot':'');
+const btn=(label,s,m)=>`<span class="btn ${s||''}">${label}${m||''}</span>`;
+const menu=(items,on,r)=>'<div class="menu'+(r?' r':'')+'">'+items.map(i=>`<div class="${i===on?'on':''}">${i}</div>`).join('')+'</div>';
+const dlg=(title,body,foot)=>`<div class="dlg"><div class="hd">${title}</div><div class="bd">${body}</div><div class="ft">${foot}</div></div>`;
+const ripple=(x,y)=>`<div class="ripple" style="left:${x}px;top:${y}px"></div>`;
+let S;
+function keys(list,t0,t){
+  if(t<t0-0.6||t>t0+1.6)return;
+  const K=q('#keys');K.style.display='flex';
+  K.innerHTML=list.map((k,i)=>{const mod=i<list.length-1;const d=mod?(t>=t0-0.3&&t<t0+0.5):(t>=t0&&t<t0+0.5);return `<span class="key${d?' down':''}">${k}</span>`}).join('<span class="plus">+</span>');
+}
+function endCard(a,b,c){q('#end').style.display='flex';q('#end .a').innerHTML=a;q('#end .b').innerHTML=b;q('#end .c').innerHTML=c;return true}
+const WTABS=['Arquivo','Página Inicial','Inserir','Layout','Referências','Correspondências'];
+const PTABS=['Arquivo','Página Inicial','Inserir','Design','Transições','Apresentação'];
+
+/* ---------------- WORD ---------------- */
+const page=(x,y,inner,sc)=>`<div class="page" style="left:${x}px;top:${y}px;${sc?`transform:scale(${sc});transform-origin:0 0`:''}">${inner}</div>`;
+function decl(nome,turma){
+  return `<div style="text-align:center;font-weight:bold;font-size:38px;margin:30px 0 44px">DECLARAÇÃO</div>
+  <p style="text-align:justify;text-indent:60px">Declaramos, para os devidos fins, que o(a) aluno(a) ${nome} está regularmente matriculado(a) nesta unidade de ensino, na turma ${turma}, no ano letivo de 2026.</p>
+  <p style="margin-top:110px;text-align:center">_______________________________<br>Direção</p>`;
+}
+const BL='<span class="blank">________________</span>', BLT='<span class="blank">________</span>';
+const MFN='<span class="mf">«Nome»</span>', MFT='<span class="mf">«Turma»</span>';
+function W1(t){
+  S.title='Declaracao.docx - Word';
+  if(t>=30)return endCard('30 declarações.<br>1 clique.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'30 declarações<br><em>em 1 clique</em>':'Mala direta<br><em>no Word</em>';
+  let nome=BL,turma=BLT,extra='';
+  const rib=[['Iniciar Mala Direta',''],['Selecionar Destinatários',''],['Inserir Campo de Mesclagem',''],['Concluir e Mesclar','']];
+  let showRib=false;
+  if(t<3){const i=Math.floor(t*4)%30;nome=`<b>${NAMES[i]}</b>`;turma=`<b>${TURMA(i)}</b>`;S.cap='Uma declaração para cada aluno,<br>em um clique só.'}
+  else if(t<7){S.cap='Declaração pronta +<br>lista de alunos no Excel.';
+    extra=`<div class="xl"><div class="xh">Alunos.xlsx</div><table><tr><td><b>Nome</b></td><td><b>Turma</b></td></tr>${NAMES.slice(0,4).map((n,i)=>`<tr><td>${n}</td><td>${TURMA(i)}</td></tr>`).join('')}<tr><td>...</td><td>...</td></tr></table></div>`}
+  else if(t<11){showRib=true;S.tab='Correspondências';
+    rib[0][1]=t>=7.5&&t<8.8?'hot':'';rib[1][1]=st(t,8.8,9.4);
+    if(t>=9.6)rib[1][2]=menu(['Digitar uma Nova Lista...','Usar uma Lista Existente...','Escolher nos Contatos do Outlook...'],t>=10.2?'Usar uma Lista Existente...':'');
+    S.cap='Correspondências ›<br><span class="k3">Selecionar Destinatários</span>'}
+  else if(t<15){showRib=true;S.tab='Correspondências';
+    S.ov=dlg('Selecionar Tabela',['Alunos$','Turmas$'].map(x=>`<div class="it ${t>=12&&x==='Alunos$'?'on':''}">${x}</div>`).join(''),btn('OK',t>=14?'press':'')+btn('Cancelar'));
+    S.cap='Escolho a planilha<br>dos alunos.'}
+  else if(t<22){showRib=true;S.tab='Correspondências';
+    const a=t<19?15:19, fld=t<19?'Nome':'Turma';
+    rib[2][1]=st(t,a+0.3,a+0.8);
+    if(t>=a+1.2&&t<a+(t<19?3:2.6))rib[2][2]=menu(['Matrícula','Nome','Turma'],t>=a+(t<19?2.1:1.7)?fld:'');
+    if(t<19){nome=t>=18?MFN:CARET+BL}else{nome=MFN;turma=t>=21.6?MFT:CARET+BLT}
+    S.cap=t<19?'Inserir Campo de Mesclagem ›<br><span class="k3">Nome</span>':'Mesma coisa<br>para a <span class="k3">Turma</span>.'}
+  else if(t<26){showRib=true;S.tab='Correspondências';nome=MFN;turma=MFT;
+    rib[3][1]=st(t,22.4,22.9);
+    if(t>=23.3&&t<24.8)rib[3][2]=menu(['Editar Documentos Individuais...','Imprimir Documentos...','Enviar Mensagens de Email...'],t>=24?'Editar Documentos Individuais...':'',1);
+    if(t>=24.8)S.ov=dlg('Mesclar para Novo Documento','<div class="it on">Todos</div><div class="it">Registro atual</div>',btn('OK',t>=25.5?'press':'')+btn('Cancelar'));
+    S.cap='Concluir e Mesclar ›<br><span class="k3">Editar Documentos Individuais</span>'}
+  else{S.title='Cartas1 - Word';const i=Math.min(29,Math.floor((t-26)*6));nome=`<b>${NAMES[i]}</b>`;turma=`<b>${TURMA(i)}</b>`;
+    extra=`<div class="status">Página ${i+1} de 30</div>`;S.cap='Pronto! 30 declarações,<br>cada uma com o nome certo.'}
+  if(showRib)S.rib=rib.map(r=>btn(r[0],r[1],r[2])).join('');
+  let stack=t>=26||t<3?page(146,46,'')+page(138,38,''):'';
+  S.canvas=stack+page(130,30,decl(nome,turma))+extra;
+}
+const TIT=['Introdução','Objetivos','Atividades','Avaliação'];
+function sumDoc(o){
+  let h='<div style="text-align:center;font-weight:bold;font-size:34px;margin-bottom:14px">Projeto de Leitura – 5º Ano</div>';
+  if(o.caret)h+=`<div>${CARET}</div>`;
+  if(o.sum)h+=`<div class="toc ${o.flash?'flash':''}"><div class="th">Sumário</div>`+TIT.map((x,i)=>`<div class="tr ${o.pflash&&i===3?'flash':''}"><span>${i+1}. ${x}</span><span class="dots"></span><span>${o.pages[i]}</span></div>`).join('')+'</div>';
+  TIT.forEach((x,i)=>{h+=`<div class="${i<o.styled?'t1':'t0'}"><span class="${o.sel===i?'hl':''}">${i+1}. ${x}</span></div><div class="gl" style="width:94%"></div><div class="gl" style="width:78%"></div>`});
+  return h;
+}
+function W2(t){
+  S.title='Projeto_Leitura.docx - Word';
+  if(t>=24)return endCard('Sumário pronto.<br>Sem digitar<br>número de página.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Ainda faz o sumário<br><em>na mão?</em>':'Sumário automático<br><em>no Word</em>';
+  const styles=(s)=>`<span class="sty">Normal</span><span class="sty t1 ${s}">Título 1</span><span class="sty">Título 2</span>`;
+  let o={styled:0,sum:false,pages:[2,3,4,5]};
+  if(t<3){o.styled=4;o.sum=true;S.cap='Olha isso.'}
+  else if(t<8){S.tab='Página Inicial';S.rib=styles(st(t,5.4,6.1));o.sel=t>=3.8?0:null;o.styled=t>=6.4?1:0;S.cap='Seleciono o título e escolho<br>o estilo <span class="k3">Título 1</span>.'}
+  else if(t<12){S.tab='Página Inicial';S.rib=styles('');o.styled=t>=10.8?4:t>=9.8?3:t>=8.8?2:1;o.sel=o.styled-1;S.cap='Faço isso em<br>todos os títulos.'}
+  else if(t<16){S.tab='Referências';o.styled=4;o.caret=true;
+    const m=t>=13.8&&t<15.6?menu(['Sumário Automático 1','Sumário Automático 2','Sumário Personalizado...'],t>=14.7?'Sumário Automático 1':''):'';
+    S.rib=btn('Sumário',st(t,12.6,13.3),m)+btn('Atualizar Sumário')+btn('Inserir Nota de Rodapé');
+    S.cap='Referências ›<br><span class="k3">Sumário</span>'}
+  else if(t<20){S.tab='Referências';o.styled=4;o.sum=true;o.flash=t<17.2;S.rib=btn('Sumário')+btn('Atualizar Sumário')+btn('Inserir Nota de Rodapé');S.cap='Pronto! Com o número<br>das páginas.'}
+  else{S.tab='Referências';o.styled=4;o.sum=true;S.rib=btn('Sumário')+btn('Atualizar Sumário',st(t,20.5,21.1))+btn('Inserir Nota de Rodapé');
+    if(t>=21.5){o.pages=[2,3,4,6];o.pflash=t<23}S.cap='Mudou alguma coisa?<br><span class="k3">Atualizar Sumário</span>'}
+  S.canvas=page(130,30,sumDoc(o));
+}
+const BODY='<div style="font-weight:bold;text-align:center;margin-bottom:10px">COMUNICADO</div>'+[96,90,94,70,0,95,88,92,60,0,93,85].map(w=>w?`<div class="gl" style="width:${w}%"></div>`:'<div style="height:20px"></div>').join('');
+function hdrPage(o){
+  const col=o.edit?'#111':'#555';
+  let h=`<div class="hdr ${o.edit?'edit':''}" style="text-align:${o.center?'center':'left'};color:${col}">`;
+  if(o.l1!==undefined)h+=`<div class="l1"><span class="${o.sel?'hl':''}">${o.l1}</span>${o.c1?CARET:''}</div><div class="l2"><span class="${o.sel?'hl':''}">${o.l2||''}</span>${o.c2?CARET:''}</div>`;
+  if(o.edit)h+='<span class="hlabel">Cabeçalho</span>';
+  h+='</div>';
+  return h+`<div style="opacity:${o.edit?0.45:1}">${BODY}</div>`;
+}
+function W3(t){
+  S.title='Comunicado.docx - Word';
+  if(t>=23)return endCard('Timbre em todas<br>as páginas.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'O timbre da escola<br><em>em todas as páginas</em>':'Cabeçalho<br><em>no Word</em>';
+  const L1='ESCOLA MUNICIPAL EXEMPLO',L2='Rua das Flores, 100 – Centro';
+  const three=(fl)=>[0,1].map(i=>page(34+i*496,20,hdrPage({l1:L1,l2:L2,center:true}),0.6)).join('')+(fl?[0,1].map(i=>`<div class="mark ok" style="left:`+(50+i*496)+`px;top:8px;width:424px;height:84px"></div>`).join(''):'');
+  if(t<3){S.canvas=three(false);S.cap='Sem copiar e colar<br>em cada página.';return}
+  if(t>=19){S.canvas=three(t<21.5);S.cap='Pronto! O timbre aparece<br>em todas as páginas.';return}
+  let o={};
+  if(t<7){o.edit=t>=5;if(t>=4.3&&t<5.2)S.ov=ripple(510,300);if(o.edit){S.tabs=[...WTABS.slice(0,3),'Cabeçalho e Rodapé'];S.tab='Cabeçalho e Rodapé'}S.cap='Dois cliques<br>no topo da página.'}
+  else if(t<12){o.edit=true;S.tabs=[...WTABS.slice(0,3),'Cabeçalho e Rodapé'];S.tab='Cabeçalho e Rodapé';
+    o.l1=typed(L1,7.4,t,13);o.l2=t>=9.6?typed(L2,9.8,t,15):'';o.c1=t<9.6;o.c2=t>=9.6;S.cap='Nome da escola<br>e endereço.'}
+  else if(t<15){o.edit=true;S.tabs=[...WTABS.slice(0,3),'Cabeçalho e Rodapé'];S.tab='Cabeçalho e Rodapé';o.l1=L1;o.l2=L2;o.sel=t>=12.3;o.center=t>=13.3;keys(['Ctrl','E'],13.3,t);S.cap='Centralizo com<br><span class="k3">Ctrl + E</span>'}
+  else{o.edit=t<16.4;o.l1=L1;o.l2=L2;o.center=true;if(t>=15.8&&t<16.7)S.ov=ripple(510,720);S.cap='Dois cliques no meio<br>para voltar ao texto.'}
+  S.canvas=page(130,30,hdrPage(o));
+}
+function W4(t){
+  S.title='Ata_Reuniao.docx - Word';
+  if(t>=18)return endCard('Shift + F3.<br>Guarda esse atalho.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Digitou tudo<br><em>em MAIÚSCULO?</em>':'Shift + F3<br><em>no Word</em>';
+  const UP='ATA DA REUNIÃO DE PAIS DO 5º ANO',LO='ata da reunião de pais do 5º ano',TI='Ata Da Reunião De Pais Do 5º Ano';
+  let txt=UP,sel=0;
+  if(t<3){S.cap='Não apaga!<br>Tem um atalho.'}
+  else if(t<7){sel=Math.floor(lerp(0,UP.length,3.6,5.2,t));S.cap='Seleciono o texto.'}
+  else if(t<11){sel=99;txt=t>=8?LO:UP;keys(['Shift','F3'],8,t);S.cap='Aperto <span class="k3">Shift + F3</span>:<br>tudo minúsculo.'}
+  else if(t<15){sel=99;txt=t>=12?TI:LO;keys(['Shift','F3'],12,t);S.cap='De novo: primeira letra<br>maiúscula em cada palavra.'}
+  else{sel=99;txt=t>=15.8?UP:TI;keys(['Shift','F3'],15.8,t);S.cap='Mais uma vez:<br>volta tudo para maiúsculo.'}
+  const s=Math.min(sel,txt.length);
+  const head=`<div style="font:bold 40px 'Segoe UI',Arial;text-align:center;margin:40px 0 50px;line-height:1.35"><span class="hl">${txt.slice(0,s)}</span>${txt.slice(s)}</div>`;
+  S.canvas=page(130,30,head+BODY.replace('COMUNICADO',''));
+}
+function tablePage(from,to,withHead,o){
+  o=o||{};
+  let h=`<div style="font:bold 30px 'Segoe UI',Arial;text-align:center;margin-bottom:18px">${from===1?'Lista de Presença – Reunião de Pais':''}</div><table class="wt"><colgroup><col style="width:60px"><col style="width:300px"><col style="width:120px"><col style="width:140px"></colgroup>`;
+  if(withHead)h+=`<tr class="${o.hsel?'hl':''}"><th ${o.hsel?'style="background:#5d86c4"':''}>Nº</th><th ${o.hsel?'style="background:#5d86c4"':''}>Nome do aluno</th><th ${o.hsel?'style="background:#5d86c4"':''}>Turma</th><th ${o.hsel?'style="background:#5d86c4"':''}>Assinatura</th></tr>`;
+  for(let i=from;i<=to;i++)h+=`<tr><td style="text-align:center">${i}</td><td>${NAMES[i-1]}</td><td style="text-align:center">${TURMA(i-1)}</td><td></td></tr>`;
+  return h+'</table>';
+}
+function W5(t){
+  S.title='Lista_Reuniao.docx - Word';
+  if(t>=19)return endCard('Título da tabela<br>em todas as páginas.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'A tabela perdeu<br><em>o título das colunas?</em>':'Repetir linhas<br><em>de cabeçalho</em>';
+  const rep=t>=13.8;
+  let hsel=t>=7.5&&t<15;
+  if(t>=11&&t<15){S.tabs=[...WTABS.slice(0,4),'Layout da Tabela'];S.tab='Layout da Tabela';
+    S.rib=btn('Inserir Acima')+btn('Inserir Abaixo')+btn('Repetir Linhas de Cabeçalho',st(t,12.2,13.2))+btn('Converter em Texto')}
+  const p1=page(34,20,tablePage(1,13,true,{hsel}),0.6);
+  const p2=page(530,20,tablePage(14,26,rep),0.6);
+  let mk='';
+  if(t<11)mk=`<div class="mark" style="left:552px;top:52px;width:414px;height:52px"></div>`;
+  else if(rep)mk=`<div class="mark ok" style="left:552px;top:52px;width:414px;height:48px"></div>`;
+  S.canvas=p1+p2+mk;
+  S.cap=t<3?'Na segunda página, ninguém<br>sabe o que é cada coluna.':t<7?'Olha a segunda página:<br>sem título nenhum.':t<11?'Clico na primeira<br>linha da tabela.':t<15?'Layout da Tabela ›<br><span class="k3">Repetir Linhas de Cabeçalho</span>':'Pronto! O título aparece<br>em todas as páginas.';
+}
+
+/* ---------------- POWERPOINT ---------------- */
+function pptView(slide,thumbs,sel,scale,extra){
+  const th='<div class="thumbs">'+thumbs.map((x,i)=>`<div class="th1 ${i===sel?'on':''}"><span>${i+1}</span><div class="m"><div style="position:absolute;left:0;top:0;width:800px;height:450px;transform:scale(.1625);transform-origin:0 0">${x}</div></div></div>`).join('')+'</div>';
+  return th+`<div class="sw" style="transform:scale(${scale||1})"><div class="slide">${slide}</div></div>`+(extra||'');
+}
+const photo=(x,y,w,h,r)=>`<div class="photo" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;${r?`border-radius:${r}`:''}"><div class="sun"></div><div class="hil"></div><div class="trk"></div><div class="crn"></div></div>`;
+const SAC=['#c43e1c','#2b579a','#107c41','#7a3db8'];
+const TOP=['Calendário de provas','Frequência','Notas do bimestre','Uniforme'];
+function P1slide(smart,sel){
+  let h=`<div class="stit">Reunião de Pais – 3º Bimestre</div>`;
+  if(!smart)h+=`<div class="bul ${sel?'selbox':''}">${TOP.map(x=>'• '+x).join('<br>')}</div>`;
+  else h+=TOP.map((x,i)=>`<div class="sa" style="left:${30+i*188}px;top:160px;width:172px;height:210px;background:${SAC[i]}">${x}</div>`).join('');
+  return h;
+}
+function P1(t){
+  S.title='Reuniao_de_Pais.pptx - PowerPoint';
+  if(t>=19)return endCard('Texto virou<br>diagrama.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Slide só com texto?<br><em>Deixa ele bonito</em>':'Converter em<br><em>SmartArt</em>';
+  S.tab='Página Inicial';
+  let smart=false,sel=false,m='',bs='';
+  if(t<3){smart=true;S.cap='Em dois cliques.'}
+  else if(t<7){S.cap='Os tópicos da<br>reunião de pais.'}
+  else if(t<15){sel=t>=7.5;bs=st(t,8.4,9.2);
+    if(t>=9.7&&t<13.6){const lay=['Lista em Blocos Básica','Processo Básico','Ciclo Básico','Lista Vertical'];m=menu(lay,t>=11.3?lay[0]:t>=10.4?lay[1]:'');}
+    smart=t>=11.3;S.cap=t<11?'Clico no texto ›<br><span class="k3">Converter em SmartArt</span>':'Passo o mouse nos modelos<br>e escolho um.'}
+  else{smart=true;S.cap='Pronto! Virou um diagrama,<br>com as cores do slide.'}
+  S.rib=btn('Novo Slide')+btn('Layout')+btn('Converter em SmartArt',bs,m)+btn('Organizar');
+  const sl=P1slide(smart,sel);
+  S.canvas=pptView(sl,[sl,'<div class="sl"><div class="bar"></div><div class="st">Dúvidas?</div></div>'],0);
+}
+function design(k){
+  const T='Passeio ao Zoológico',D='Sexta-feira, 21 de novembro';
+  if(k===0)return `<div class="stit" style="font-weight:normal;font-size:44px">${T}</div>${photo(250,120,300,220)}<div style="position:absolute;left:40px;top:370px;font-size:26px">${D}</div>`;
+  if(k===1)return `<div style="position:absolute;inset:0;background:#1f3a5f"></div>${photo(400,0,400,450)}<div style="position:absolute;left:36px;top:130px;width:340px;color:#fff;font-size:50px;font-weight:bold;line-height:1.15">${T}</div><div style="position:absolute;left:36px;top:320px;color:#ffc53d;font-size:24px">${D}</div>`;
+  if(k===2)return `${photo(0,0,800,450)}<div style="position:absolute;left:0;right:0;bottom:0;height:150px;background:rgba(0,0,0,.6)"></div><div style="position:absolute;left:40px;top:318px;color:#fff;font-size:50px;font-weight:bold">${T}</div><div style="position:absolute;left:42px;top:392px;color:#ddd;font-size:24px">${D}</div>`;
+  return `<div style="position:absolute;inset:0;background:#fff4e6"></div>${photo(40,40,340,340,'50%')}<div style="position:absolute;left:420px;top:140px;width:350px;color:#c43e1c;font-size:48px;font-weight:bold;line-height:1.15">${T}</div><div style="position:absolute;left:422px;top:320px;color:#555;font-size:24px">${D}</div>`;
+}
+function P2(t){
+  S.title='Passeio.pptx - PowerPoint';
+  if(t>=20)return endCard('Slide pronto<br>em segundos.','Salva esse vídeo','O Designer vem no PowerPoint<br>do Microsoft 365');
+  S.hook=t<3?'O PowerPoint<br><em>monta o slide pra você</em>':'Designer<br><em>no PowerPoint</em>';
+  S.tab='Página Inicial';
+  let k=0,panel=false,on=-1,bs='';
+  if(t<3){k=1;S.cap='Não sabe montar<br>um slide bonito?'}
+  else if(t<7){S.cap='Coloco o título<br>e uma foto.'}
+  else if(t<11){bs=st(t,8,8.7);panel=t>=9.2;S.cap='Página Inicial ›<br><span class="k3">Designer</span>'}
+  else if(t<16){panel=true;bs='press';on=t>=12.3?1:-1;if(t>=13.8)k=1;on=t>=13.8?1:on;S.cap='Ele sugere modelos prontos.<br>Escolho um.'}
+  else{k=1;S.cap='Pronto! Slide com cara<br>de profissional.'}
+  S.rib=btn('Novo Slide')+btn('Layout')+btn('Organizar')+btn('Designer',bs);
+  const pan=panel?'<div class="panel"><div class="ph">Designer</div>'+[1,2,3].map((d,i)=>`<div class="pt ${on===i?'on':''}"><div class="in">${design(d===1?2:d===2?1:3)}</div></div>`).join('')+'</div>':'';
+  S.canvas=pptView(design(k),[design(k)],0,panel?0.7:1,pan);
+}
+function P3(t){
+  S.title='Reuniao_de_Pais.pptx - PowerPoint';
+  if(t>=23)return endCard('Apresentação<br>virou vídeo.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Apresentação<br><em>vira vídeo</em>':'Salvar como vídeo<br><em>no PowerPoint</em>';
+  S.tab='Página Inicial';S.rib=btn('Novo Slide')+btn('Layout')+btn('Organizar');
+  const sl=P1slide(true);
+  S.canvas=pptView(sl,[sl],0);
+  if(t<3){S.cap='Para mandar no<br>grupo dos pais.';return}
+  if(t<4.8){S.tabPress='Arquivo';S.cap='Arquivo ›<br><span class="k3">Exportar</span>';return}
+  if(t<19){
+    const lm=['Início','Novo','Abrir','Salvar como','Imprimir','Compartilhar','Exportar','Fechar'].map(x=>`<div class="${x==='Exportar'&&t>=6?'on':''}">${x}</div>`).join('');
+    let rp='<h3>Exportar</h3>';
+    if(t>=6){rp+=['Criar PDF/XPS','Criar um Vídeo','Criar Folhetos'].map(x=>`<div class="opt ${x==='Criar um Vídeo'&&t>=8?'on':''}">${x}</div>`).join('');
+      if(t>=8.4)rp+=`<div style="margin-top:22px;font-size:23px;color:#444">Qualidade</div><div class="fld ${t>=11.3&&t<12.8?'hot':''}">Full HD (1080p) ▾</div><div style="font-size:23px;color:#444">Segundos em cada slide</div><div class="fld ${t>=12.8&&t<15?'hot':''}">${t>=12.8?typed('05,00',13,t,5):'05,00'}</div><span class="bigbtn ${t>=15.5?'press':''}">Criar Vídeo</span>`}
+    S.ov=`<div class="back"><div class="lm">${lm}</div><div class="rp">${rp}</div></div>`;
+    if(t>=16)S.ov+=dlg('Salvar como',`<div>Nome do arquivo:</div><div class="it on">Reuniao_de_Pais.mp4</div><div>Tipo: Vídeo MPEG-4</div>`,btn('Salvar',t>=17.2?'press':'')+btn('Cancelar'));
+    if(t>=17.5){S.ov='';S.ov+=`<div class="prog">Criando vídeo Reuniao_de_Pais.mp4 <div class="b"><i style="width:${Math.round(lerp(0,100,17.6,18.8,t))}%"></i></div></div>`}
+    S.cap=t<7?'Arquivo ›<br><span class="k3">Exportar</span>':t<11?'<span class="k3">Criar um Vídeo</span>':t<15?'Escolho a qualidade e os<br>segundos de cada slide.':'Criar Vídeo ›<br>Salvar.';
+    return}
+  S.canvas=`<div class="phone"><div class="scr"><div style="position:absolute;left:0;top:200px;width:800px;height:450px;transform:scale(.365);transform-origin:0 0">${`<div class="slide">${sl}</div>`}</div><div style="position:absolute;left:50%;top:260px;transform:translate(-50%,-50%);width:90px;height:90px;border-radius:50%;background:rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;font-size:44px;color:#111">▶</div><div style="position:absolute;left:18px;bottom:24px;color:#fff;font-size:20px">Reuniao_de_Pais.mp4</div></div></div>`;
+  S.cap='Pronto! Um vídeo que abre<br>em qualquer celular.';
+}
+const P4S=[['Reunião de Pais','3º Bimestre · 2026'],['Calendário','Provas de 03 a 14/11'],['Frequência','Acompanhe as faltas'],['Notas','Boletim na secretaria'],['Passeio','Zoológico · 21/11'],['Dúvidas?','Fale com a coordenação']];
+const p4=i=>`<div class="sl"><div class="bar"></div><div class="st">${P4S[i][0]}</div><div class="ss">${P4S[i][1]}</div></div>`;
+function P4(t){
+  S.title='Reuniao_de_Pais.pptx - PowerPoint';
+  if(t>=19)return endCard('F5 e Shift + F5.<br>Guarda esses atalhos.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Comece a apresentação<br><em>sem procurar botão</em>':'Atalhos da<br><em>apresentação</em>';
+  S.tab='Página Inicial';S.rib=btn('Novo Slide')+btn('Layout')+btn('Organizar');
+  let sel=0,full=-1;
+  if(t<3){S.cap='Dois atalhos que<br>economizam tempo.'}
+  else if(t<7){keys(['F5'],4,t);if(t>=4.3)full=0;S.cap='<span class="k3">F5</span>: começa do<br>primeiro slide.'}
+  else if(t<10){keys(['Esc'],7.8,t);if(t<8.1)full=0;S.cap='<span class="k3">Esc</span> para sair.'}
+  else if(t<15){sel=t>=10.6?4:0;keys(['Shift','F5'],12.6,t);if(t>=12.9)full=4;S.cap='Está no slide 5?<br><span class="k3">Shift + F5</span> começa dele.'}
+  else{full=t>=16.1?5:4;keys(['→'],16,t);S.cap='As setas passam<br>os slides.'}
+  const thumbs=P4S.map((_,i)=>p4(i));
+  S.canvas=pptView(p4(sel),thumbs,sel);
+  if(full>=0)S.ovTop=`<div class="full"><div style="position:absolute;left:0;top:243px;width:800px;height:450px;transform:scale(1.275);transform-origin:0 0"><div class="slide">${p4(full)}</div></div></div>`;
+}
+const SHN=['Documentos','Ficha de matrícula','Assinatura','Pronto!'];
+function P5(t){
+  S.title='Matricula.pptx - PowerPoint';
+  if(t>=21)return endCard('Slide arrumado<br>em um segundo.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Caixas tortas<br><em>no slide?</em>':'Alinhar e distribuir<br><em>no PowerPoint</em>';
+  const X0=[40,230,420,640],Y0=[170,235,150,265],Y1=205,X1=[40,240,440,640];
+  let selN=0,tab='Página Inicial',rib=btn('Novo Slide')+btn('Layout')+btn('Organizar');
+  if(t>=3&&t<18)selN=t>=5.9?4:t>=5.2?3:t>=4.5?2:t>=3.8?1:0;
+  if(t>=3.4&&t<6.4){const K=q('#keys');K.style.display='flex';K.innerHTML=`<span class="key${t>=3.7&&t<6.1?' down':''}">Shift</span>`}
+  if(t>=7.6&&t<18){tab='Formato da Forma';
+    const items=['Alinhar à Esquerda','Centralizar','Alinhar à Direita','Alinhar em Cima','Alinhar no Meio','Alinhar Embaixo','Distribuir Horizontalmente','Distribuir Verticalmente'];
+    let m='',bs='';
+    if(t<11){bs=st(t,8.3,8.9);if(t>=9.3&&t<10.9)m=menu(items,t>=10.1?'Alinhar no Meio':'')}
+    else if(t>=14){bs=st(t,14,14.3);if(t>=14.6&&t<15.9)m=menu(items,t>=15.2?'Distribuir Horizontalmente':'')}
+    rib=btn('Preenchimento da Forma')+btn('Contorno da Forma')+btn('Alinhar',bs,m)+btn('Agrupar')}
+  S.tabs=tab==='Formato da Forma'?[...PTABS.slice(0,4),'Formato da Forma']:PTABS;S.tab=tab;S.rib=rib;
+  const y=i=>lerp(Y0[i],Y1,11,11.7,t), x=i=>lerp(X0[i],X1[i],16,16.7,t);
+  let sl='<div class="stit">Etapas da matrícula</div>'+SHN.map((n,i)=>`<div class="shp ${i<selN?'sel':''}" style="left:${x(i)}px;top:${y(i)}px;background:${SAC[i]}">${n}</div>`).join('');
+  S.canvas=pptView(sl,[sl],0);
+  S.cap=t<3?'Alinha tudo<br>em um segundo.':t<7?'Seleciono todas<br>segurando <span class="k3">Shift</span>.':t<11?'Formato da Forma › Alinhar ›<br><span class="k3">Alinhar no Meio</span>':t<14?'Todas na<br>mesma altura.':t<18?'<span class="k3">Distribuir Horizontalmente</span>:<br>espaço igual entre elas.':'Pronto!<br>Slide arrumado.';
+}
+const FN={word:[null,W1,W2,W3,W4,W5],ppt:[null,P1,P2,P3,P4,P5]};
+function render(t){
+  q('#end').style.display='none';q('#keys').style.display='none';
+  S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};
+  if(FN[APP][MODE](t))return;
+  q('#title').textContent=S.title;
+  q('#tabs').innerHTML=S.tabs.map(x=>`<span class="tb ${x===S.tab?'on':''} ${x===S.tabPress?'press':''}">${x}</span>`).join('');
+  q('#ribbon').innerHTML=S.rib||(APP==='word'?(S.tab==='Cabeçalho e Rodapé'?btn('Cabeçalho')+btn('Rodapé')+btn('Número de Página')+btn('Fechar Cabeçalho e Rodapé'):btn('Colar')+btn('Fonte')+btn('Parágrafo')+btn('Estilos')):'');q('#canvas').innerHTML=S.canvas;q('#ov').innerHTML=S.ov+S.ovTop;
+  q('#hook .t').innerHTML=S.hook;q('#cap .t').innerHTML=S.cap;
+}
+render(0);
+</script></body></html>
