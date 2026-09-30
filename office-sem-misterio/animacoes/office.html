@@ -4,6 +4,26 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--app:#2b579a;--lite:#d6e4f5;--acc:#5aa0ff}
 body.ppt{--app:#c43e1c;--lite:#f8d9cf;--acc:#ff8a5c}
+body.excel{--app:#107c41;--lite:#d3f0dc;--acc:#3ddc84}
+.fx{position:absolute;left:0;right:0;top:0;height:56px;background:#fff;border-bottom:1px solid #ccc;display:flex;align-items:center;font:24px Consolas,monospace;color:#111;padding-left:14px;gap:16px;white-space:nowrap;overflow:hidden}
+.fx b{font:italic bold 24px "Segoe UI";color:#777}
+.grid{position:absolute;left:0;border-collapse:collapse;font:26px "Segoe UI",Arial;color:#111;background:#fff;table-layout:fixed}
+.grid td{border:1px solid #d4d4d4;height:58px;padding:0 10px;white-space:nowrap;overflow:hidden}
+.grid .hd td,.grid td.rh{background:#f3f3f3;color:#666;text-align:center;font-size:20px;height:36px}
+.grid td.sel{outline:4px solid #107c41;outline-offset:-3px}
+.grid td.th{background:#107c41;color:#fff;font-weight:bold}
+.grid td.band{background:#e2f0d9}
+.grid td.num{text-align:right}
+.grid td.tot{font-weight:bold;border-top:3px double #107c41}
+.grid td.ref1{background:#dbe9ff}.grid td.ref2{background:#ffe3c2}
+.cop{position:absolute;right:0;top:0;bottom:0;width:400px;background:#fafafa;border-left:2px solid #ccc;padding:16px;color:#222;font:22px "Segoe UI",Arial;z-index:6}
+.cop .h{font-weight:bold;font-size:25px;margin-bottom:14px;background:linear-gradient(90deg,#7a3db8,#1e88e5,#107c41);-webkit-background-clip:text;color:transparent}
+.cop .me{background:#ece6ff;border-radius:14px;padding:12px 14px;margin:10px 0 10px 40px}
+.cop .ai{background:#fff;border:1px solid #ddd;border-radius:14px;padding:12px 14px;margin:10px 30px 10px 0;line-height:1.35}
+.cop .inp{position:absolute;left:16px;right:16px;bottom:16px;border:2px solid #bbb;border-radius:12px;padding:12px;min-height:60px;background:#fff}
+.cop code{font:19px Consolas,monospace;color:#0a6b35;word-break:break-all}
+.cop .sug{border:2px solid #ccc;border-radius:12px;padding:10px 14px;margin-bottom:10px;background:#fff}
+.cop .sug.on{border-color:var(--app);background:var(--lite);font-weight:bold}
 body{width:1080px;height:1920px;background:#0f1115;font-family:"Segoe UI",Arial,sans-serif;overflow:hidden;color:#fff;position:relative}
 #hook{position:absolute;top:0;left:0;width:1080px;height:430px;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 60px}
 #hook .t{font-size:68px;font-weight:bold;line-height:1.18}
@@ -135,6 +155,7 @@ body{width:1080px;height:1920px;background:#0f1115;font-family:"Segoe UI",Arial,
 <script>
 const APP='__APP__', MODE=__MODE__;
 if(APP==='ppt')document.body.classList.add('ppt');
+if(APP==='xl')document.body.classList.add('excel');
 const NAMES=["Ana Beatriz Souza","Arthur Lima","Bernardo Castro","Camila Rocha","Davi Nogueira","Enzo Farias","Gabriela Moura","Gustavo Tavares","Heitor Batista","Helena Brito","Isabela Pires","João Pedro Alves","Júlia Teixeira","Laura Cardoso","Lorenzo Dias","Luana Freitas","Lucas Barros","Manuela Cunha","Maria Clara Reis","Matheus Pinto","Miguel Duarte","Nicolas Vieira","Pedro Henrique Sales","Rafael Monteiro","Samuel Macedo","Sofia Andrade","Theo Campos","Valentina Ramos","Vitória Lopes","Yasmin Correia"];
 const TURMA=i=>i%2?'5º Ano B':'5º Ano A';
 const q=s=>document.querySelector(s);
@@ -289,7 +310,6 @@ function W5(t){
   S.canvas=p1+p2+mk;
   S.cap=t<3?'Na segunda página, ninguém<br>sabe o que é cada coluna.':t<7?'Olha a segunda página:<br>sem título nenhum.':t<11?'Clico na primeira<br>linha da tabela.':t<15?'Layout da Tabela ›<br><span class="k3">Repetir Linhas de Cabeçalho</span>':'Pronto! O título aparece<br>em todas as páginas.';
 }
-
 /* ---------------- POWERPOINT ---------------- */
 function pptView(slide,thumbs,sel,scale,extra){
   const th='<div class="thumbs">'+thumbs.map((x,i)=>`<div class="th1 ${i===sel?'on':''}"><span>${i+1}</span><div class="m"><div style="position:absolute;left:0;top:0;width:800px;height:450px;transform:scale(.1625);transform-origin:0 0">${x}</div></div></div>`).join('')+'</div>';
@@ -402,7 +422,124 @@ function P5(t){
   S.canvas=pptView(sl,[sl],0);
   S.cap=t<3?'Alinha tudo<br>em um segundo.':t<7?'Seleciono todas<br>segurando <span class="k3">Shift</span>.':t<11?'Formato da Forma › Alinhar ›<br><span class="k3">Alinhar no Meio</span>':t<14?'Todas na<br>mesma altura.':t<18?'<span class="k3">Distribuir Horizontalmente</span>:<br>espaço igual entre elas.':'Pronto!<br>Slide arrumado.';
 }
-const FN={word:[null,W1,W2,W3,W4,W5],ppt:[null,P1,P2,P3,P4,P5]};
+/* --- leva 2 (30/09): temas em alta (IA no Office, PROCX, planilha de gastos, foto vira planilha) --- */
+const XTABS=['Arquivo','Página Inicial','Inserir','Fórmulas','Dados','Exibir'];
+const COLS='ABCDEFGH';
+/* planilha: w = larguras das colunas; rows = linhas; o.sel=[linha,coluna]; o.cls(l,c) = classe da célula; o.fx = barra de fórmulas */
+function xgrid(w,rows,o){
+  o=o||{};
+  let h=`<div class="fx"><b>fx</b>${o.fx||''}</div><table class="grid" style="top:56px"><tr class="hd"><td style="width:44px"></td>${w.map((x,i)=>`<td style="width:${x}px">${COLS[i]}</td>`).join('')}</tr>`;
+  rows.forEach((r,ri)=>{h+=`<tr><td class="rh">${ri+1}</td>`+w.map((_,ci)=>{const v=r[ci]??'';const c=(o.cls&&o.cls(ri,ci))||'';const s=o.sel&&o.sel[0]===ri&&o.sel[1]===ci?' sel':'';return `<td class="${c}${s}">${v}</td>`}).join('')+'</tr>'});
+  return h+'</table>';
+}
+const cop=(corpo,inp)=>`<div class="cop"><div class="h">✦ Copilot</div>${corpo}<div class="inp">${inp||'<span style="color:#999">Pergunte ou peça algo...</span>'}</div></div>`;
+
+const VEND=[['Mês','Produto','Vendas'],['Jan','Café','R$ 980'],['Jan','Bolo','R$ 640'],['Fev','Café','R$ 1.120'],['Fev','Bolo','R$ 710'],['Mar','Café','R$ 1.250'],['Mar','Bolo','R$ 820'],['Mar','Suco','R$ 430']];
+function X1(t){
+  S.title='Vendas_Loja.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';
+  if(t>=22)return endCard('Fórmula pronta,<br>pedindo em português.','Salva esse vídeo','Copilot: para assinantes do Microsoft 365');
+  S.hook=t<3?'Não sabe a fórmula?<br><em>Peça em português</em>':'Copilot<br><em>no Excel</em>';
+  const res=t<3||t>=15.4, pan=t>=8.6&&t<19;
+  const rows=VEND.map(r=>r.slice());rows[0][4]='Café em março';rows[1][4]=res?'R$ 1.250':'';
+  const cls=(r,c)=>r===0&&c<3?'th':c===4&&r===0?'th':(c===2?'num':'')+(c===4&&r===1&&t>=15.4&&t<17.5?' flash':'')+(t>=3.4&&t<7&&r===5&&c<3?' hl':'');
+  const PED='Some as vendas de café em março';
+  const F='=SOMASES(C2:C8;A2:A8;"Mar";B2:B8;"Café")';
+  S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Copilot ✦',st(t,7.4,8.1));
+  let panel='';
+  if(pan){
+    let corpo='';
+    if(t>=12.2)corpo+=`<div class="me">${PED}</div>`;
+    if(t>=13)corpo+=`<div class="ai">Use esta fórmula:<br><code>${F}</code><br>Resultado: <b>R$ 1.250</b><br><span class="btn ${st(t,14.2,14.9)}" style="display:inline-block;margin-top:10px">Inserir</span></div>`;
+    panel=cop(corpo,t<12.2?typed(PED,9.6,t,12)+CARET:'');
+  }
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([90,150,150,40,210],rows,{sel:[1,4],cls,fx:res?F:''})}</div>`+panel;
+  S.cap=t<3?'O Excel escreve<br>a fórmula por você.':t<7?'Quero saber quanto vendi<br>de café em março.':t<9.6?'Página Inicial ›<br><span class="k3">Copilot</span>':t<13?'Escrevo o pedido<br>em português.':t<15.4?'Ele cria a fórmula.<br>Clico em <span class="k3">Inserir</span>.':'Pronto! E ele ainda<br>explica a fórmula.';
+}
+const PROD=[['Código','Produto','Preço'],['P-101','Arroz 5 kg','R$ 27,90'],['P-102','Feijão 1 kg','R$ 8,49'],['P-103','Café 500 g','R$ 18,90'],['P-104','Óleo 900 ml','R$ 7,99'],['P-105','Açúcar 1 kg','R$ 4,79'],['P-106','Leite 1 L','R$ 5,29']];
+function X2(t){
+  S.title='Precos.xlsx - Excel';S.tabs=XTABS;S.tab='Fórmulas';
+  if(t>=21)return endCard('PROCX:<br>mais fácil que o PROCV.','Salva esse vídeo','No Excel 2021 e no Microsoft 365');
+  S.hook=t<3?'Ainda usa PROCV?<br><em>Conheça o PROCX</em>':'PROCX<br><em>no Excel</em>';
+  S.rib=btn('Inserir Função')+btn('Pesquisa e Referência')+btn('AutoSoma');
+  const F='=PROCX(E2;A2:A7;C2:C7)';
+  const cod=t>=16.5?'P-106':'P-103', preco=cod==='P-106'?'R$ 5,29':'R$ 18,90';
+  const escr=t>=7&&t<13, feito=t<3||t>=13;
+  const rows=PROD.map(r=>r.slice());rows[0][4]='Código';rows[0][5]='Preço';rows[1][4]=t>=16.5&&t<17.5?typed('P-106',16.5,t,6):cod;
+  rows[1][5]=escr?typed(F,7.4,t,4.2):(feito?preco:'');
+  const alvo=cod==='P-106'?6:3;
+  const cls=(r,c)=>{if(r===0&&c!==3)return 'th';let k=c===2||c===5?'num':'';
+    if(escr&&t>=9&&r>=1&&c===0)k+=' ref1';if(escr&&t>=10.6&&r>=1&&c===2)k+=' ref2';
+    if(feito&&t>=3&&r===alvo&&c<3)k+=' hl';if(c===5&&r===1&&((t>=13&&t<14.8)||(t>=17.4&&t<19)))k+=' flash';return k};
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([110,220,140,30,120,170],rows,{sel:[1,5],cls,fx:escr||feito?F:''})}</div>`;
+  S.cap=t<3?'Busca o preço<br>pelo código.':t<7?'Quero o preço<br>pelo código do produto.':t<10.6?'<span class="k3">=PROCX(</span> o código,<br>onde procurar...':t<13?'...e o que trazer<br>de volta.':t<16.5?'Pronto! Sem contar colunas<br>como no PROCV.':'Mudou o código?<br>O preço muda sozinho.';
+}
+const GAST=[['Categoria','Valor'],['Aluguel',900],['Mercado',650],['Transporte',220],['Luz',180],['Lazer',150],['Internet',100]];
+const PIEC=['#107c41','#2b579a','#c43e1c','#ffb900','#7a3db8','#00a2ad'];
+const brl=v=>'R$ '+v.toLocaleString('pt-BR');
+function pizza(vals,x,y,r){
+  const tot=vals.reduce((a,b)=>a+b,0);let acc=0;
+  const g=vals.map((v,i)=>{const a=acc/tot*360;acc+=v;return `${PIEC[i]} ${a}deg ${acc/tot*360}deg`}).join(',');
+  return `<div style="position:absolute;left:${x}px;top:${y}px;width:${r*2+220}px;background:#fff;border:1px solid #ccc;box-shadow:0 8px 20px rgba(0,0,0,.2);padding:14px;font:20px 'Segoe UI';color:#222"><div style="font-weight:bold;margin-bottom:8px">Gastos do mês</div><div style="display:flex;gap:14px;align-items:center"><div style="width:${r*2}px;height:${r*2}px;border-radius:50%;background:conic-gradient(${g})"></div><div>${GAST.slice(1).map((c,i)=>`<div><span style="color:${PIEC[i]}">■</span> ${c[0]}</div>`).join('')}</div></div></div>`;
+}
+function X3(t){
+  S.title='Gastos_do_Mes.xlsx - Excel';S.tabs=XTABS;
+  if(t>=23)return endCard('Controle de gastos<br>em 1 minuto.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Controle de gastos<br><em>em 1 minuto</em>':'Planilha de gastos<br><em>no Excel</em>';
+  const tab=t<3||t>=8, tot=t<3||t>=12.6, graf=t<3||t>=17;
+  const merc=t>=20.3?700:650, vals=GAST.slice(1).map(r=>r[0]==='Mercado'?merc:r[1]);
+  const rows=GAST.map((r,i)=>i===0?r.slice():[r[0],brl(vals[i-1])]);
+  if(tot)rows.push(['Total',brl(vals.reduce((a,b)=>a+b,0))]);
+  if(t>=19.6&&t<20.3)rows[2][1]=typed('700',19.6,t,5)+CARET;
+  const cls=(r,c)=>{let k=c===1?'num':'';if(r===0)return tab?'th':'';if(tab&&r%2===1&&r<=6)k+=' band';if(tot&&r===7)k+=' tot';
+    if(r===7&&c===1&&((t>=12.6&&t<14.5)||(t>=20.3&&t<22)))k+=' flash';if(r===2&&c===1&&t>=20.3&&t<22)k+=' flash';return k};
+  if(t>=3&&t<8)keys(['Ctrl','T'],6.4,t);
+  if(t>=9&&t<14){S.tabs=[...XTABS.slice(0,5),'Design da Tabela'];S.tab='Design da Tabela';S.rib=btn('Linha de Cabeçalho')+btn((t>=12.4?'☑':'☐')+' Linha de Totais',st(t,11.4,12.1))+btn('Linhas em Tiras')}
+  else if(t>=14&&t<17.6){S.tab='Inserir';const m=t>=15.5&&t<17?menu(['Pizza','Rosca','Pizza 3D'],t>=16.2?'Pizza':''):'';S.rib=btn('Tabela')+btn('Gráficos Recomendados')+btn('Pizza',st(t,14.6,15.2),m)+btn('Colunas')}
+  else{S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('AutoSoma')}
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([220,190],rows,{cls,sel:t>=19.6&&t<22?[2,1]:null})}${graf?pizza(vals,480,110,120):''}</div>`;
+  S.cap=t<3?'Total e gráfico<br>que se atualizam sozinhos.':t<6.4?'Anoto os gastos do mês.':t<9?'<span class="k3">Ctrl + T</span>:<br>vira tabela.':t<14?'Design da Tabela ›<br><span class="k3">Linha de Totais</span>':t<19.6?'Inserir ›<br><span class="k3">Gráfico de Pizza</span>':'Pronto! Mudou um valor,<br>total e gráfico acompanham.';
+}
+const FOLHA=[['Nome','Telefone','Valor'],['Ana','9 9811-2040','R$ 50'],['Bruno','9 9734-5512','R$ 35'],['Carla','9 9602-7781','R$ 50'],['Diego','9 9455-1209','R$ 20']];
+const papel=(x,y,sc,rot)=>`<div style="position:absolute;left:${x}px;top:${y}px;width:640px;padding:40px 36px;background:#fffbea;box-shadow:0 10px 30px rgba(0,0,0,.35);transform:rotate(${rot||0}deg) scale(${sc||1});transform-origin:0 0;font:30px 'Segoe Print','Comic Sans MS',cursive;color:#1a237e"><div style="font-weight:bold;margin-bottom:14px">Vaquinha do churrasco</div>${FOLHA.map((r,i)=>`<div style="display:flex;border-bottom:2px solid #9fb3d9;padding:6px 0;${i===0?'font-weight:bold':''}"><span style="width:140px">${r[0]}</span><span style="width:290px">${r[1]}</span><span>${r[2]}</span></div>`).join('')}</div>`;
+const celular=(inner)=>`<div style="position:absolute;left:250px;top:20px;width:520px;height:800px;background:#111;border-radius:56px;padding:22px 18px"><div style="position:relative;width:100%;height:100%;background:#fff;border-radius:40px;overflow:hidden;color:#222;font:24px 'Segoe UI'">${inner}</div></div>`;
+function X4(t){
+  S.title='Excel - celular';S.tabs=XTABS;S.tab='Inserir';S.rib=btn('Tabela')+btn('Imagem')+btn('Dados da imagem 📷')+btn('Gráfico');
+  if(t>=22)return endCard('Da foto<br>para a planilha.','Salva esse vídeo','No app do Excel para celular');
+  S.hook=t<3?'Tabela no papel?<br><em>Vira planilha</em>':'Foto vira planilha<br><em>no Excel do celular</em>';
+  const top=`<div style="background:#107c41;color:#fff;padding:18px 22px;font-weight:bold">Excel · Pasta1</div>`;
+  const cel=(ro)=>`<table class="grid" style="position:relative;font-size:22px">${ro.map((r,i)=>`<tr>${r.map(v=>`<td class="${i===0?'th':''}" style="height:48px">${v}</td>`).join('')}</tr>`).join('')}</table>`;
+  if(t<3){S.canvas=`<div style="position:absolute;inset:0;background:#e3e3e3">${papel(30,120,0.75,-4)}${celular(top+cel(FOLHA))}</div>`;S.cap='Tira uma foto e pronto.';return}
+  if(t<7){S.canvas=`<div style="position:absolute;inset:0;background:#e3e3e3">${papel(230,150,1,-3)}</div>`;S.cap='Uma lista feita à mão...';return}
+  let tela='';
+  if(t<11){const on=t>=9.2;tela=top+`<div style="display:flex;gap:10px;padding:14px;background:#f3f3f3;font-size:20px"><span>Página Inicial</span><b style="color:#107c41">Inserir</b></div><div style="padding:20px;display:grid;gap:12px">`+['Tabela','Imagem','Dados da imagem 📷','Gráfico'].map(x=>`<div class="btn ${x.startsWith('Dados')&&on?'press':''}" style="max-width:none;font-size:24px">${x}</div>`).join('')+'</div>';S.cap='No app do Excel:<br>Inserir › <span class="k3">Dados da imagem</span>'}
+  else if(t<15){const y=((t-11)*0.8%1)*520+60;tela=`<div style="position:absolute;inset:0;background:#333;overflow:hidden">${papel(-10,100,0.85,-3)}<div style="position:absolute;left:20px;right:20px;top:60px;height:540px;border:5px solid #3ddc84;border-radius:16px"></div><div style="position:absolute;left:20px;right:20px;top:${y}px;height:6px;background:#3ddc84;box-shadow:0 0 20px #3ddc84"></div><div style="position:absolute;bottom:40px;left:50%;margin-left:-45px;width:90px;height:90px;border-radius:50%;background:#fff;border:8px solid #bbb"></div></div>`;S.cap='Aponto a câmera<br>para o papel.'}
+  else if(t<19){tela=top+`<div style="padding:16px;font-size:22px;color:#555">Confira os dados:</div>`+cel(FOLHA)+`<div class="btn ${st(t,17.2,17.8)}" style="position:absolute;right:24px;bottom:30px;background:#107c41;color:#fff;font-size:26px">Inserir</div>`;S.cap='Ele lê a letra<br>e monta as células.'}
+  else{tela=top+cel(FOLHA);S.cap='Pronto! Uma planilha de verdade,<br>sem digitar nada.'}
+  S.canvas=`<div style="position:absolute;inset:0;background:#e3e3e3">${celular(tela)}</div>`;
+}
+const RELT=[['Relatório de Vendas','3º trimestre · 2026'],['Resultados','Vendas cresceram 12%'],['Destaques','Café e bolos lideraram'],['Próximos passos','Metas para o 4º trimestre']];
+const slideR=(i)=>i===0?`<div style="position:absolute;inset:0;background:#1f3a5f"></div>${photo(420,0,380,450)}<div style="position:absolute;left:36px;top:140px;width:360px;color:#fff;font-size:46px;font-weight:bold;line-height:1.15">${RELT[0][0]}</div><div style="position:absolute;left:36px;top:320px;color:#ffc53d;font-size:24px">${RELT[0][1]}</div>`
+  :`<div class="stit">${RELT[i][0]}</div><div class="bul">• ${RELT[i][1]}<br>• Comparação com o trimestre anterior</div>${photo(520,150,230,230,'16px')}`;
+function P8(t){
+  S.title='Apresentacao1.pptx - PowerPoint';S.tab='Página Inicial';
+  if(t>=22)return endCard('Slides prontos<br>em segundos.','Salva esse vídeo','Copilot: para assinantes do Microsoft 365');
+  S.hook=t<3?'Apresentação pronta<br><em>a partir do Word</em>':'Copilot<br><em>no PowerPoint</em>';
+  S.rib=btn('Novo Slide')+btn('Layout')+btn('Designer')+btn('Copilot ✦',st(t,7.2,7.9));
+  const n=t<3?4:t<16?0:Math.min(4,1+Math.floor((t-16)/0.7));
+  const vazio='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:36px">Clique para adicionar um título</div>';
+  const thumbs=n?RELT.slice(0,n).map((_,i)=>slideR(i)):[vazio];
+  const cur=n?slideR(Math.min(n-1,t>=19?0:n-1)):vazio;
+  const pan=t>=8.4&&t<19.5;
+  let panel='';
+  if(pan){const PED='Crie uma apresentação a partir de Relatorio_Vendas.docx';
+    let corpo='';
+    if(t<10.4)corpo=['Criar uma apresentação','Criar a partir de um arquivo','Resumir esta apresentação'].map(x=>`<div class="sug ${x.includes('arquivo')&&t>=9.6?'on':''}">${x}</div>`).join('');
+    else{corpo=`<div class="me">${t<13?typed(PED,10.4,t,18):PED}</div>`;if(t>=13.4)corpo+=`<div class="ai">${t<16?'Lendo o documento e criando os slides...':'Pronto! Criei 4 slides com os pontos principais do relatório.'}</div>`}
+    panel=cop(corpo,'')}
+  S.canvas=pptView(cur,thumbs,Math.max(0,n-1),pan?0.62:1,panel);
+  S.cap=t<3?'Do documento<br>para os slides.':t<7?'Tenho um relatório no Word<br>e pouco tempo.':t<10.4?'Página Inicial ›<br><span class="k3">Copilot</span>':t<13.4?'Peço para criar a apresentação<br>a partir do arquivo.':t<19?'Ele lê o documento<br>e monta os slides.':'Pronto! Com títulos,<br>tópicos e imagens.';
+}
+const FN={word:[null,W1,W2,W3,W4,W5],ppt:[null,P1,P2,P3,P4,P5,null,null,P8],xl:[null,X1,X2,X3,X4]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

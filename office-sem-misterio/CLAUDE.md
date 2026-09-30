@@ -61,3 +61,14 @@ salvar apresentação como vídeo/PDF.
 ## Links
 - Página com os vídeos: https://claude.ai/artifact/DuCKs44qELpiUKvhqYtnKz
 - Plano do canal (documento): https://claude.ai/code/artifact/260e83fc-6a26-45ec-9c89-1a9ae8ee2d20
+
+## LEVA 2 — shorts 16 a 20 (TEMAS EM ALTA, aprovados por Jansey em 29/09 à noite; os antigos Ctrl+Enter/Ctrl+H/colar/duplicar/tela preta foram REJEITADOS e removidos)
+`animacoes/office.html` ganhou o app **xl** (Excel; classe do body = `excel`, NÃO `xl` — `.xl` já é outro estilo) com `xgrid()` (planilha) e `cop()` (painel do Copilot). Modos: xl 1-4 e ppt 8. Narrações `narracao/x1..x4.json` e `p8.json`. Prévias conferidas (`previa/leva2_nova.jpg`), todas ok.
+Gerar: `python scripts/fazer_office.py xl 1 narracao/x1.json videos/Short16_Excel_Copilot.mp4` (idem xl 2 → Short17_Excel_PROCX, xl 3 → Short18_Excel_Gastos, xl 4 → Short19_Excel_FotoPlanilha, ppt 8 → Short20_PPT_Copilot).
+16 Copilot Excel — "Peça a fórmula do Excel em português (Copilot)" / "Página Inicial › Copilot: escreva o que quer e ele cria a fórmula. Para assinantes do Microsoft 365. #excel #copilot #ia #office #dicasdeexcel"
+17 PROCX — "PROCX: o substituto do PROCV" / "=PROCX(o que procura; onde procura; o que trazer). Sem contar colunas! Excel 2021 e Microsoft 365. #excel #procx #procv #formulas #dicasdeexcel"
+18 Gastos — "Planilha de gastos do mês em 1 minuto" / "Ctrl + T, Linha de Totais e Gráfico de Pizza: tudo se atualiza sozinho. #excel #financas #controledegastos #planilha #dicasdeexcel"
+19 Foto — "Tire foto de uma tabela e ela vira planilha" / "No app do Excel no celular: Inserir › Dados da imagem. Grátis! #excel #celular #planilha #truques #dicasdeexcel"
+20 Copilot PPT — "O PowerPoint cria a apresentação a partir do Word" / "Página Inicial › Copilot › criar a partir de um arquivo. Para assinantes do Microsoft 365. #powerpoint #copilot #ia #office #apresentacao"
+**30/09: OS 5 DA LEVA 2 PUBLICADOS** (Jansey aprovou). Títulos usados: 16 'O Excel agora escreve a fórmula por você 🤯' · 17 'Esqueça o PROCV: essa função é muito melhor' · 18 'Planilha de gastos em 1 minuto, com gráfico automático' · 19 'Tire uma FOTO e ela vira planilha no Excel 📸' · 20 'O PowerPoint monta a apresentação SOZINHO a partir do Word'. Canal com 20 shorts no ar.
+(histórico) STATUS: leva 2 renderizando pela fila Documents\shorts-para-redes-sociais\fila_leva2.ps1 (30/09). **Short15 PPT_Alinhar PUBLICADO em 30/09 ~08h45 → os 15 da leva 1 estão todos no ar.**

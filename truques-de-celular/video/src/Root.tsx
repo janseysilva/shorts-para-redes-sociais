@@ -32,6 +32,13 @@ import tTraduzir from "../public/Traduzir/tempos.json";
 import { GravarTela } from "./shorts/GravarTela";
 import tGravarTela from "../public/GravarTela/tempos.json";
 
+import { DuasEtapas, PinChip, Transcrever, PixAproximacao, GolpePix } from "./shorts/Leva2";
+import tDuasEtapas from "../public/DuasEtapas/tempos.json";
+import tPinChip from "../public/PinChip/tempos.json";
+import tTranscrever from "../public/Transcrever/tempos.json";
+import tPixAproximacao from "../public/PixAproximacao/tempos.json";
+import tGolpePix from "../public/GolpePix/tempos.json";
+
 export const FPS = 30;
 
 // Cada short: id (= pasta em public/), componente e tempos da narração
@@ -51,6 +58,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["Arquivar", Arquivar, tArquivar],
   ["Traduzir", Traduzir, tTraduzir],
   ["GravarTela", GravarTela, tGravarTela],
+  ["DuasEtapas", DuasEtapas, tDuasEtapas],
+  ["PinChip", PinChip, tPinChip],
+  ["Transcrever", Transcrever, tTranscrever],
+  ["PixAproximacao", PixAproximacao, tPixAproximacao],
+  ["GolpePix", GolpePix, tGolpePix],
 ];
 
 export const Root: React.FC = () => (

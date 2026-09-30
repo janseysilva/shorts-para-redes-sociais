@@ -69,6 +69,25 @@ Vídeo real na maior parte, com animação só onde ajuda a explicar.
   14. Inercia
   15. MarSalgado
 
+## CANAL CRIADO (30/09)
+- **Física Sem Mistério, @FisicaSemMisterioBR** (o @FisicaSemMisterio já era de outra pessoa), id **UCT2vkKl3PRcdMrPiU_NLp7w**, Conta de marca na conta janseysilva@gmail.com.
+- Foto (átomo) e banner gerados por `canal/canal_imagens.py`. Descrição: "Curiosidades da física explicadas em menos de 1 minuto: por que o céu é azul, por que o gelo boia, como o avião voa e muito mais. Ciência do dia a dia, sem complicação." (sem prometer frequência).
+- **Publicados em 30/09 (públicos):**
+  1. Se a luz do Sol é branca, por que o céu é AZUL? 🤔
+  2. Por que você vê o raio ANTES de ouvir o trovão? ⚡
+  3. Por que o gelo BOIA se ele também é água? 🧊
+  4. Astronautas não flutuam. Eles estão CAINDO! 🚀
+  5. O arco-íris é, na verdade, um CÍRCULO 🌈
+- **30/09 à tarde: publicados também 6 a 10** (títulos: 6 'A Lua mostra SEMPRE o mesmo lado. Sabe por quê? 🌙' · 7 'Como o micro-ondas esquenta a comida SEM FOGO? 🍲' · 8 'O metal NÃO é mais gelado que a madeira 🥶' · 9 'Como um avião de centenas de toneladas consegue voar? ✈️' · 10 'O segredo da panela de pressão: a água ferve a 120 °C 🍲'). Canal com 10 públicos.
+- **30/09 fim da tarde: Jansey confirmou o telefone no canal Física (youtube.com/verify) e os 11 a 15 foram publicados → OS 15 ESTÃO NO AR, todos públicos e com descrição.** Truque que resolveu o travamento da digitação: clicar no título, digitar 'teste', ctrl+a e só então digitar o título de verdade; depois achar a caixa de Descrição com `find`.
+- (histórico) o 11 tinha sido barrado por 'limite diário de envios' (canal novo, 10 por dia sem verificação de telefone). Arquivos prontos (≤10 MB) em `Desktop\trabalhos jansey\_upload_fisica\`. Títulos planejados: 11 'No espaço, ninguém ouve uma explosão 🚀' · 12 'Por que as estrelas piscam e os planetas não? ✨' · 13 'A colher não quebrou. É a luz te enganando 🥄' · 14 'Por que você é jogado pra frente quando o ônibus freia? 🚌' · 15 'Se a chuva é doce, por que o mar é SALGADO? 🌊'. Descrição = legenda do roteiro + ' Segue o canal para mais curiosidades!' (texto no fim evita o autocompletar trocar a última hashtag). As legendas estão em `roteiros/ID.json` (campo "legenda").
+- **Armadilhas no upload** (valem para os 3 canais):
+  - O 1º texto digitado logo após subir o arquivo some, porque o YouTube recarrega o formulário quando o envio termina. Esperar ~20 s ou redigitar.
+  - Depois de digitar o título, abre o painel "Hashtags sugeridas" e a Descrição desce. Usar `find` para achar a caixa de descrição em vez de clicar por coordenada.
+  - O **autocompletar de hashtag pode trocar a última hashtag** (ex.: #luz virou #luzdecristo). Sempre conferir o texto final com JavaScript antes de publicar.
+  - Emoji com ZWJ (🧑‍🚀) se parte em dois; usar emoji simples.
+  - Enquanto a fila de renderização roda, o Chrome trava. Pausar a fila (TaskStop) antes de publicar e retomar depois.
+
 ## Status
 - 29/09: teste "Por que o céu é azul?" (~34 s) em 3 versões, todas na pasta `out/`:
   - `Teste_CeuAzul.mp4` (animada), já mostrada ao Jansey;
