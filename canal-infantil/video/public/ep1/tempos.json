@@ -1,0 +1,41 @@
+{
+ "falas": [
+  {
+   "quem": "mae",
+   "texto": "Léo! Hora de acordar! Você vai se atrasar pra escola!",
+   "ini": 0.8,
+   "fim": 5.19
+  },
+  {
+   "quem": "leo",
+   "texto": "Só mais cinco minutinhos...",
+   "ini": 5.69,
+   "fim": 8.0
+  },
+  {
+   "quem": "leo",
+   "texto": "Pronto! Cinco minutinhos! ... Ué? Já é de noite?!",
+   "ini": 12.5,
+   "fim": 18.38
+  },
+  {
+   "quem": "mae",
+   "texto": "Léo! Hora de dormir!",
+   "ini": 18.78,
+   "fim": 21.15
+  },
+  {
+   "quem": "leo",
+   "texto": "Mas eu acabei de acordar!",
+   "ini": 21.45,
+   "fim": 23.71
+  },
+  {
+   "quem": "pipoca",
+   "texto": "Rá rá rá rá!",
+   "ini": 23.91,
+   "fim": 26.0
+  }
+ ],
+ "total": 29.0
+}

@@ -1,6 +1,6 @@
-# Atualiza este repositorio com o conteudo atual das duas pastas de trabalho e envia ao GitHub.
+# Atualiza este repositorio com o conteudo atual das pastas de trabalho e envia ao GitHub.
 $doc = Split-Path $PSScriptRoot
-$pares = @(@("excel-sem-misterio", "office-sem-misterio"), @("dicas-celular", "truques-de-celular"), @("fisica-sem-misterio", "fisica-sem-misterio"))
+$pares = @(@("excel-sem-misterio", "office-sem-misterio"), @("dicas-celular", "truques-de-celular"), @("fisica-sem-misterio", "fisica-sem-misterio"), @("turminha", "canal-infantil"))
 git -C $PSScriptRoot read-tree --empty
 foreach ($p in $pares) {
   $src = Join-Path $doc $p[0]
