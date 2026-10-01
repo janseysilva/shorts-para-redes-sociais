@@ -96,3 +96,9 @@ Como subir neste PC (Claude in Chrome, conta janseysilva@gmail.com já logada):
 - Aparece "Ainda estamos verificando seu conteúdo": clicar em "Publicar mesmo assim" (≈805,457).
 - **YouTube não aceita `<` nem `>` em título/descrição** (o campo fica vermelho e o Avançar trava).
 - Loops longos em `javascript_tool` estouram o tempo (45 s). Esperar com a ação `wait` e consultar rápido.
+
+## LEVA 4 — shorts 26 a 30 (01/10 à noite; PUBLICADA em 01/10)
+Pesquisa dos virais (busca do YouTube, 01/10): no Office o que viraliza é RESULTADO VISUAL (design/animação de PowerPoint: 9 a 20 mi), "DE GRAÇA"/resolver problema comum (Office grátis, PDF para Word) e truque instantâneo (data/hora num atalho: 24 mi). Jansey achou ruins as ideias de atalhos de escritório; aprovou estas:
+`animacoes/office.html`: W11 (Office grátis, tela de navegador), P10 (Transformar/Morph; `morph(k)` desenha o slide entre os estados), W10 (PDF vira Word), X9 (data/hora), X10 (50-30-20, `pizza3`). Narrações w11, p10, w10, x9, x10.
+26 'Word, Excel e PowerPoint de GRAÇA (e oficial) 💻' · 27 'Esse slide parece FILME, mas é PowerPoint 🎬' · 28 'PDF vira Word editável SEM programa 📄' · 29 'Data e hora no Excel em 1 SEGUNDO ⚡' · 30 'Regra 50-30-20: o Excel divide seu salário sozinho 💰'. Descrições na página de revisão (montar.py da sessão) — sem < e >.
+- Troca de canal no Chrome: youtube.com/channel_switcher → clicar no avatar do canal. Às vezes o Studio mostra "Ops, você não tem permissão" logo depois: repetir a troca e abrir o Studio de novo.

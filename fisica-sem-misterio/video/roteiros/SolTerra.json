@@ -1,0 +1,70 @@
+{
+ "id": "SolTerra",
+ "titulo": "O Sol NÃO é do tamanho que você imagina ☀️",
+ "legenda": "Cabem mais de um milhão de Terras dentro do Sol. E ele ainda é uma estrela comum! #fisica #sol #espaco #curiosidades #astronomia",
+ "final": {
+  "emoji": "☀️",
+  "frase": "Cabe um milhão de Terras."
+ },
+ "frases": [
+  "Você acha que sabe o tamanho do Sol? Ele é muito maior do que parece.",
+  "Se a Terra fosse uma bolinha de gude, o Sol seria uma bola de mais de um metro.",
+  "Dá para enfileirar cento e nove Terras de um lado a outro do Sol.",
+  "E dentro dele caberiam mais de um milhão e trezentas mil Terras.",
+  "A luz dele leva oito minutos para chegar aqui. Você sempre vê o Sol de oito minutos atrás.",
+  "E mesmo assim, o Sol é só uma estrela média. Tem estrelas milhares de vezes maiores.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O Sol é MUITO maior",
+   "destaque": [
+    "MUITO"
+   ],
+   "busca": "sun surface"
+  },
+  {
+   "gancho": "Bolinha de gude × 1 metro",
+   "destaque": [
+    "1",
+    "metro"
+   ],
+   "anim": {
+    "emoji": "⚪",
+    "texto": "Terra: bolinha de gude"
+   }
+  },
+  {
+   "gancho": "109 Terras lado a lado",
+   "destaque": [
+    "109"
+   ],
+   "anim": {
+    "emoji": "🌍",
+    "texto": "109 Terras de largura"
+   }
+  },
+  {
+   "gancho": "1,3 milhão de Terras",
+   "destaque": [
+    "1,3",
+    "milhão"
+   ],
+   "busca": "earth from space"
+  },
+  {
+   "gancho": "8 minutos atrasado",
+   "destaque": [
+    "8"
+   ],
+   "busca": "sunrise clouds"
+  },
+  {
+   "gancho": "Uma estrela comum",
+   "destaque": [
+    "comum"
+   ],
+   "busca": "stars galaxy"
+  }
+ ]
+}

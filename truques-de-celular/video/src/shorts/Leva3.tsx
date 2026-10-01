@@ -9,10 +9,10 @@ import { Avatar, BarraApp, BarraStatus, Chave, Digitando, Linha, mola, useT } fr
 import { Balao, LINHA_CONV, ListaConversas, TOPO_LISTA } from "../telas";
 import { Aviso, Botao, Centro, Config, Conversa, ShortEtapas, WPP, linhaY } from "./Leva2";
 
-const CFG: [string, string, string?][] = [["🔑", "Conta"], ["🔒", "Privacidade", "Bloqueados, mensagens temporárias"], ["💬", "Conversas"], ["🔔", "Notificações"], ["📦", "Armazenamento e dados"]];
+export const CFG: [string, string, string?][] = [["🔑", "Conta"], ["🔒", "Privacidade", "Bloqueados, mensagens temporárias"], ["💬", "Conversas"], ["🔔", "Notificações"], ["📦", "Armazenamento e dados"]];
 
 /** Tela de ligação chegando (fundo escuro, avatar pulsando). */
-const Chamada: React.FC<{ nome: string; sub: string; avatar: React.ReactNode; cor?: string; encerrada?: boolean }> = ({ nome, sub, avatar, cor = "#0b3d33", encerrada }) => {
+export const Chamada: React.FC<{ nome: string; sub: string; avatar: React.ReactNode; cor?: string; encerrada?: boolean }> = ({ nome, sub, avatar, cor = "#0b3d33", encerrada }) => {
   const { t } = useT();
   return (
     <Centro cor={cor}><div style={{ color: "#fff", display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -45,7 +45,7 @@ const Opcoes: React.FC<{ titulo: string; pergunta: string; opcoes: string[]; mar
 );
 
 /** Itens que vão aparecendo um a um, com ✅. */
-const Checklist: React.FC<{ itens: [string, string][]; desde: number; passo?: number }> = ({ itens, desde, passo = 1 }) => {
+export const Checklist: React.FC<{ itens: [string, string][]; desde: number; passo?: number }> = ({ itens, desde, passo = 1 }) => {
   const { frame, fps } = useT();
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 26, marginTop: 40, width: "100%" }}>

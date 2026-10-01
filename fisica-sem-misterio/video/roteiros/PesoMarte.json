@@ -1,0 +1,68 @@
+{
+ "id": "PesoMarte",
+ "titulo": "Quanto você pesaria em Marte? 🔴",
+ "legenda": "A gravidade de Marte é 38% da nossa: 70 kg aqui viram uns 27 kg lá. Na Lua, menos de 12 kg! #fisica #marte #espaco #curiosidades #gravidade",
+ "final": {
+  "emoji": "🔴",
+  "frase": "Em Marte você seria um peso-pena."
+ },
+ "frases": [
+  "Quanto você pesaria em Marte? A resposta é surpreendente.",
+  "A gravidade lá é só trinta e oito por cento da gravidade da Terra.",
+  "Quem pesa setenta quilos aqui, em Marte sentiria só uns vinte e sete.",
+  "Daria para pular quase três vezes mais alto e carregar peso como um super-herói.",
+  "Na Lua é ainda mais leve: os mesmos setenta quilos virariam menos de doze.",
+  "Seu corpo continua o mesmo. O que muda é a força com que o planeta te puxa.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Seu peso em Marte?",
+   "destaque": [
+    "Marte?"
+   ],
+   "busca": "mars planet"
+  },
+  {
+   "gancho": "Gravidade: só 38%",
+   "destaque": [
+    "38%"
+   ],
+   "anim": {
+    "emoji": "🔴",
+    "texto": "Gravidade: 38%"
+   }
+  },
+  {
+   "gancho": "70 kg viram 27 kg",
+   "destaque": [
+    "27"
+   ],
+   "anim": {
+    "emoji": "⚖️",
+    "texto": "70 kg → 27 kg"
+   }
+  },
+  {
+   "gancho": "Pulo 3 vezes mais alto",
+   "destaque": [
+    "3"
+   ],
+   "busca": "astronaut jumping"
+  },
+  {
+   "gancho": "Na Lua: 12 kg",
+   "destaque": [
+    "12"
+   ],
+   "busca": "moon surface"
+  },
+  {
+   "gancho": "O planeta te puxa",
+   "destaque": [
+    "puxa"
+   ],
+   "busca": "mars landscape"
+  }
+ ]
+}

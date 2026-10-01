@@ -1,0 +1,68 @@
+{
+ "id": "BigBang",
+ "titulo": "O Big Bang explicado em 30 segundos 💥",
+ "legenda": "Há 13,8 bilhões de anos, tudo estava num ponto quente e denso. O espaço se esticou, e continua esticando! #fisica #bigbang #universo #espaco #curiosidades",
+ "final": {
+  "emoji": "🌌",
+  "frase": "O universo ainda está crescendo."
+ },
+ "frases": [
+  "O Big Bang explicado em trinta segundos.",
+  "Há treze vírgula oito bilhões de anos, tudo o que existe estava num ponto pequeno, quente e denso.",
+  "Não foi uma explosão no espaço. Foi o próprio espaço que começou a se esticar.",
+  "Com o tempo, tudo esfriou e surgiram os primeiros átomos, depois as estrelas e as galáxias.",
+  "O nosso Sol e a Terra só apareceram uns nove bilhões de anos depois.",
+  "E o universo continua se esticando até hoje: as galáxias estão se afastando umas das outras.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Big Bang em 30 segundos",
+   "destaque": [
+    "30"
+   ],
+   "busca": "galaxy space"
+  },
+  {
+   "gancho": "Tudo num ponto só",
+   "destaque": [
+    "ponto"
+   ],
+   "anim": {
+    "emoji": "✨",
+    "texto": "13,8 bilhões de anos atrás"
+   }
+  },
+  {
+   "gancho": "O espaço se esticou",
+   "destaque": [
+    "esticou"
+   ],
+   "anim": {
+    "emoji": "🎈",
+    "texto": "O espaço esticando"
+   }
+  },
+  {
+   "gancho": "Nascem estrelas e galáxias",
+   "destaque": [
+    "galáxias"
+   ],
+   "busca": "nebula stars"
+  },
+  {
+   "gancho": "A Terra chegou bem depois",
+   "destaque": [
+    "depois"
+   ],
+   "busca": "earth from space"
+  },
+  {
+   "gancho": "Ainda está crescendo",
+   "destaque": [
+    "crescendo"
+   ],
+   "busca": "galaxy rotating"
+  }
+ ]
+}

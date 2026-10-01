@@ -45,15 +45,27 @@ import rMarNuncaEnche from "../roteiros/MarNuncaEnche.json";
 import tMarNuncaEnche from "../public/MarNuncaEnche/tempos.json";
 import rAguaOleo from "../roteiros/AguaOleo.json";
 import tAguaOleo from "../public/AguaOleo/tempos.json";
+// leva 3 (01/10, noite): 21 a 25
+import rSolTerra from "../roteiros/SolTerra.json";
+import tSolTerra from "../public/SolTerra/tempos.json";
+import rPesoMarte from "../roteiros/PesoMarte.json";
+import tPesoMarte from "../public/PesoMarte/tempos.json";
+import rAlavanca from "../roteiros/Alavanca.json";
+import tAlavanca from "../public/Alavanca/tempos.json";
+import rBigBang from "../roteiros/BigBang.json";
+import tBigBang from "../public/BigBang/tempos.json";
+import rTamanhoLua from "../roteiros/TamanhoLua.json";
+import tTamanhoLua from "../public/TamanhoLua/tempos.json";
 
 export const FPS = 30;
 
-// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 20; o 1 é o CeuAzulMisto).
+// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 25; o 1 é o CeuAzulMisto).
 const ROTEIROS: [Roteiro, Tempos][] = [
   [rTrovao, tTrovao], [rGelo, tGelo], [rAstronautas, tAstronautas], [rArcoIris, tArcoIris], [rLua, tLua],
   [rMicroOndas, tMicroOndas], [rMetalGelado, tMetalGelado], [rAviao, tAviao], [rPanelaPressao, tPanelaPressao],
   [rSomEspaco, tSomEspaco], [rEstrelas, tEstrelas], [rColher, tColher], [rInercia, tInercia], [rMarSalgado, tMarSalgado],
   [rNavioAco, tNavioAco], [rTerraGira, tTerraGira], [rPorDoSol, tPorDoSol], [rMarNuncaEnche, tMarNuncaEnche], [rAguaOleo, tAguaOleo],
+  [rSolTerra, tSolTerra], [rPesoMarte, tPesoMarte], [rAlavanca, tAlavanca], [rBigBang, tBigBang], [rTamanhoLua, tTamanhoLua],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

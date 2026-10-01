@@ -237,6 +237,62 @@ short("AguaOleo", "Por que água e óleo NÃO se misturam?",
     ("É por isso que o detergente funciona: ele tem uma ponta que gruda na água e outra que gruda na gordura.", "O detergente junta os dois", ["detergente"], v("washing dishes")),
 ])
 
+# ---------- LEVA 3 (01/10, noite): formato dos virais — escala, espaço e demonstração ----------
+short("SolTerra", "O Sol NÃO é do tamanho que você imagina ☀️",
+      "Cabem mais de um milhão de Terras dentro do Sol. E ele ainda é uma estrela comum! #fisica #sol #espaco #curiosidades #astronomia",
+      "☀️", "Cabe um milhão de Terras.", [
+    ("Você acha que sabe o tamanho do Sol? Ele é muito maior do que parece.", "O Sol é MUITO maior", ["MUITO"], v("sun surface")),
+    ("Se a Terra fosse uma bolinha de gude, o Sol seria uma bola de mais de um metro.", "Bolinha de gude × 1 metro", ["1", "metro"], a("⚪", "Terra: bolinha de gude")),
+    ("Dá para enfileirar cento e nove Terras de um lado a outro do Sol.", "109 Terras lado a lado", ["109"], a("🌍", "109 Terras de largura")),
+    ("E dentro dele caberiam mais de um milhão e trezentas mil Terras.", "1,3 milhão de Terras", ["1,3", "milhão"], v("earth from space")),
+    ("A luz dele leva oito minutos para chegar aqui. Você sempre vê o Sol de oito minutos atrás.", "8 minutos atrasado", ["8"], v("sunrise clouds")),
+    ("E mesmo assim, o Sol é só uma estrela média. Tem estrelas milhares de vezes maiores.", "Uma estrela comum", ["comum"], v("stars galaxy")),
+])
+
+short("PesoMarte", "Quanto você pesaria em Marte? 🔴",
+      "A gravidade de Marte é 38% da nossa: 70 kg aqui viram uns 27 kg lá. Na Lua, menos de 12 kg! #fisica #marte #espaco #curiosidades #gravidade",
+      "🔴", "Em Marte você seria um peso-pena.", [
+    ("Quanto você pesaria em Marte? A resposta é surpreendente.", "Seu peso em Marte?", ["Marte?"], v("mars planet")),
+    ("A gravidade lá é só trinta e oito por cento da gravidade da Terra.", "Gravidade: só 38%", ["38%"], a("🔴", "Gravidade: 38%")),
+    ("Quem pesa setenta quilos aqui, em Marte sentiria só uns vinte e sete.", "70 kg viram 27 kg", ["27"], a("⚖️", "70 kg → 27 kg")),
+    ("Daria para pular quase três vezes mais alto e carregar peso como um super-herói.", "Pulo 3 vezes mais alto", ["3"], v("astronaut jumping")),
+    ("Na Lua é ainda mais leve: os mesmos setenta quilos virariam menos de doze.", "Na Lua: 12 kg", ["12"], v("moon surface")),
+    ("Seu corpo continua o mesmo. O que muda é a força com que o planeta te puxa.", "O planeta te puxa", ["puxa"], v("mars landscape")),
+])
+
+short("Alavanca", "Não é força. É FÍSICA 💪",
+      "Quanto mais longe do apoio você empurra, menos força precisa. É a alavanca! #fisica #alavanca #curiosidades #ciencia #arquimedes",
+      "💪", "Não é força, é física.", [
+    ("Já reparou que uma porta empurrada perto da dobradiça quase não abre?", "Por que a porta não abre?", ["não"], v("opening door")),
+    ("Não é falta de força. É física: a alavanca.", "Não é força, é física", ["física"], a("💪", "Não é força, é física")),
+    ("Quanto mais longe do ponto de apoio você empurra, menos força você precisa.", "Mais longe, menos força", ["menos"], a("📏", "Mais longe = menos força")),
+    ("Por isso a maçaneta fica longe da dobradiça. E por isso a chave de roda é comprida.", "Por isso a chave é comprida", ["comprida"], v("car wheel wrench")),
+    ("Com uma alavanca longa, até uma criança levanta um adulto na gangorra.", "Criança levanta adulto", ["levanta"], a("⚖️", "Gangorra: alavanca longa")),
+    ("Arquimedes dizia: me dê uma alavanca e um ponto de apoio, e eu moverei o mundo.", "Eu moverei o mundo", ["mundo"], v("earth rotating space")),
+])
+
+short("BigBang", "O Big Bang explicado em 30 segundos 💥",
+      "Há 13,8 bilhões de anos, tudo estava num ponto quente e denso. O espaço se esticou, e continua esticando! #fisica #bigbang #universo #espaco #curiosidades",
+      "🌌", "O universo ainda está crescendo.", [
+    ("O Big Bang explicado em trinta segundos.", "Big Bang em 30 segundos", ["30"], v("galaxy space")),
+    ("Há treze vírgula oito bilhões de anos, tudo o que existe estava num ponto pequeno, quente e denso.", "Tudo num ponto só", ["ponto"], a("✨", "13,8 bilhões de anos atrás")),
+    ("Não foi uma explosão no espaço. Foi o próprio espaço que começou a se esticar.", "O espaço se esticou", ["esticou"], a("🎈", "O espaço esticando")),
+    ("Com o tempo, tudo esfriou e surgiram os primeiros átomos, depois as estrelas e as galáxias.", "Nascem estrelas e galáxias", ["galáxias"], v("nebula stars")),
+    ("O nosso Sol e a Terra só apareceram uns nove bilhões de anos depois.", "A Terra chegou bem depois", ["depois"], v("earth from space")),
+    ("E o universo continua se esticando até hoje: as galáxias estão se afastando umas das outras.", "Ainda está crescendo", ["crescendo"], v("galaxy rotating")),
+])
+
+short("TamanhoLua", "A Lua é MENOR que o Brasil? 🌙",
+      "A Lua tem 3.474 km de diâmetro, menos que a largura do Brasil. E todos os planetas cabem entre a Terra e a Lua! #fisica #lua #espaco #curiosidades #astronomia",
+      "🌙", "A Lua é menor que o Brasil.", [
+    ("Você sabia que a Lua é menor que a largura do Brasil?", "A Lua é menor que o Brasil?", ["menor"], v("full moon night")),
+    ("Ela tem uns três mil e quinhentos quilômetros de diâmetro. O Brasil tem mais de quatro mil de largura.", "3.500 km × 4.300 km", ["3.500"], a("🌙", "Lua: 3.474 km")),
+    ("Mas ela está bem longe: a uns trezentos e oitenta e quatro mil quilômetros daqui.", "384 mil km de distância", ["384"], v("moon surface")),
+    ("É tão longe que todos os planetas do Sistema Solar caberiam enfileirados entre a Terra e a Lua.", "Todos os planetas cabem", ["planetas"], a("🪐", "Todos os planetas no meio")),
+    ("E aquela Lua enorme no horizonte? É ilusão. Ela tem o mesmo tamanho lá no alto.", "Lua gigante é ilusão", ["ilusão"], v("moonrise horizon")),
+    ("Ela também se afasta da Terra uns quatro centímetros por ano.", "Ela está indo embora", ["embora"], v("moon clouds night")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

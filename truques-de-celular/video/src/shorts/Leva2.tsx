@@ -200,7 +200,7 @@ export const PixAproximacao: React.FC = () => {
 };
 
 // ---------- 20: golpe do Pix ----------
-const Marca: React.FC<{ texto: string; x: number; y: number; desde: number }> = ({ texto, x, y, desde }) => {
+export const Marca: React.FC<{ texto: string; x: number; y: number; desde: number }> = ({ texto, x, y, desde }) => {
   const { frame, fps, t } = useT();
   if (t < desde) return null;
   const e = mola(frame, desde, fps, 10);

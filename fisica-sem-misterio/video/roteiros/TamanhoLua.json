@@ -1,0 +1,68 @@
+{
+ "id": "TamanhoLua",
+ "titulo": "A Lua é MENOR que o Brasil? 🌙",
+ "legenda": "A Lua tem 3.474 km de diâmetro, menos que a largura do Brasil. E todos os planetas cabem entre a Terra e a Lua! #fisica #lua #espaco #curiosidades #astronomia",
+ "final": {
+  "emoji": "🌙",
+  "frase": "A Lua é menor que o Brasil."
+ },
+ "frases": [
+  "Você sabia que a Lua é menor que a largura do Brasil?",
+  "Ela tem uns três mil e quinhentos quilômetros de diâmetro. O Brasil tem mais de quatro mil de largura.",
+  "Mas ela está bem longe: a uns trezentos e oitenta e quatro mil quilômetros daqui.",
+  "É tão longe que todos os planetas do Sistema Solar caberiam enfileirados entre a Terra e a Lua.",
+  "E aquela Lua enorme no horizonte? É ilusão. Ela tem o mesmo tamanho lá no alto.",
+  "Ela também se afasta da Terra uns quatro centímetros por ano.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "A Lua é menor que o Brasil?",
+   "destaque": [
+    "menor"
+   ],
+   "busca": "full moon night"
+  },
+  {
+   "gancho": "3.500 km × 4.300 km",
+   "destaque": [
+    "3.500"
+   ],
+   "anim": {
+    "emoji": "🌙",
+    "texto": "Lua: 3.474 km"
+   }
+  },
+  {
+   "gancho": "384 mil km de distância",
+   "destaque": [
+    "384"
+   ],
+   "busca": "moon surface"
+  },
+  {
+   "gancho": "Todos os planetas cabem",
+   "destaque": [
+    "planetas"
+   ],
+   "anim": {
+    "emoji": "🪐",
+    "texto": "Todos os planetas no meio"
+   }
+  },
+  {
+   "gancho": "Lua gigante é ilusão",
+   "destaque": [
+    "ilusão"
+   ],
+   "busca": "moonrise horizon"
+  },
+  {
+   "gancho": "Ela está indo embora",
+   "destaque": [
+    "embora"
+   ],
+   "busca": "moon clouds night"
+  }
+ ]
+}

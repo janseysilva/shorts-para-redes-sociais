@@ -1,0 +1,71 @@
+{
+ "id": "Alavanca",
+ "titulo": "Não é força. É FÍSICA 💪",
+ "legenda": "Quanto mais longe do apoio você empurra, menos força precisa. É a alavanca! #fisica #alavanca #curiosidades #ciencia #arquimedes",
+ "final": {
+  "emoji": "💪",
+  "frase": "Não é força, é física."
+ },
+ "frases": [
+  "Já reparou que uma porta empurrada perto da dobradiça quase não abre?",
+  "Não é falta de força. É física: a alavanca.",
+  "Quanto mais longe do ponto de apoio você empurra, menos força você precisa.",
+  "Por isso a maçaneta fica longe da dobradiça. E por isso a chave de roda é comprida.",
+  "Com uma alavanca longa, até uma criança levanta um adulto na gangorra.",
+  "Arquimedes dizia: me dê uma alavanca e um ponto de apoio, e eu moverei o mundo.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que a porta não abre?",
+   "destaque": [
+    "não"
+   ],
+   "busca": "opening door"
+  },
+  {
+   "gancho": "Não é força, é física",
+   "destaque": [
+    "física"
+   ],
+   "anim": {
+    "emoji": "💪",
+    "texto": "Não é força, é física"
+   }
+  },
+  {
+   "gancho": "Mais longe, menos força",
+   "destaque": [
+    "menos"
+   ],
+   "anim": {
+    "emoji": "📏",
+    "texto": "Mais longe = menos força"
+   }
+  },
+  {
+   "gancho": "Por isso a chave é comprida",
+   "destaque": [
+    "comprida"
+   ],
+   "busca": "car wheel wrench"
+  },
+  {
+   "gancho": "Criança levanta adulto",
+   "destaque": [
+    "levanta"
+   ],
+   "anim": {
+    "emoji": "⚖️",
+    "texto": "Gangorra: alavanca longa"
+   }
+  },
+  {
+   "gancho": "Eu moverei o mundo",
+   "destaque": [
+    "mundo"
+   ],
+   "busca": "earth rotating space"
+  }
+ ]
+}

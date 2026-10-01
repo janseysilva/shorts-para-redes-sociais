@@ -127,3 +127,9 @@ Como subir neste PC (Claude in Chrome, conta janseysilva@gmail.com já logada):
 - Aparece "Ainda estamos verificando seu conteúdo": clicar em "Publicar mesmo assim" (≈805,457).
 - **YouTube não aceita `<` nem `>` em título/descrição** (o campo fica vermelho e o Avançar trava).
 - Loops longos em `javascript_tool` estouram o tempo (45 s). Esperar com a ação `wait` e consultar rápido.
+
+## LEVA 3 — shorts 21 a 25 (01/10 à noite; PUBLICADA em 01/10)
+Formato dos virais (busca do YouTube, 01/10): escala gigante e espaço ("O Sol não é do tamanho que você imagina" 23 mi, "Vida em Marte" 23 mi), demonstração ("Não é força! É física" 11 mi), "Big Bang em 1 minuto" 3 mi. Jansey aprovou os temas.
+Roteiros no fim de `criar_roteiros.py`. Clipes conferidos em `previa/leva3_clipes.jpg` (BigBang_5 e TamanhoLua_5 trocados; Alavanca_4 virou animação porque não há gangorra no Pexels).
+21 'O Sol NÃO é do tamanho que você imagina ☀️' · 22 'Quanto você pesaria em Marte? 🔴' · 23 'Não é força. É FÍSICA 💪' · 24 'O Big Bang explicado em 30 segundos 💥' · 25 'A Lua é MENOR que o Brasil? 🌙'.
+- Troca de canal no Chrome: youtube.com/channel_switcher → clicar no avatar do canal. Às vezes o Studio mostra "Ops, você não tem permissão" logo depois: repetir a troca e abrir o Studio de novo.

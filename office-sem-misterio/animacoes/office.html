@@ -644,7 +644,108 @@ function W9(t){
   S.canvas=deitada?pgL(40,60,TABL,0.86):page(130,30,TABL+`<div style="margin-top:30px">${TXT}</div>`)+(t<7?'<div class="mark" style="left:860px;top:110px;width:40px;height:320px"></div>':'');
   S.cap=t<3?'':t<7?'A tabela larga<br>não cabe em pé.':t<11?'Layout › Quebras ›<br><span class="k3">Próxima Página</span>':t<15?'Orientação ›<br><span class="k3">Paisagem</span>':'Outra quebra no fim<br>e volto para <span class="k3">Retrato</span>.';
 }
-const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9],ppt:[null,P1,P2,P3,P4,P5,null,null,P8],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8]};
+/* --- leva 4 (01/10, noite): formato dos virais — data/hora, 50-30-20, PDF vira Word, Office grátis, Transformar --- */
+const REG=[['Nome','Data','Hora'],['Ana Souza','01/10/2026','08:02'],['Bruno Lima','01/10/2026','08:15'],['Carla Dias','01/10/2026','08:31'],['Diego Rocha','01/10/2026','09:04']];
+function X9(t){
+  S.title='Controle_Entrada.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('AutoSoma');
+  if(t>=18)return endCard('Ctrl + ;<br>Ctrl + Shift + ;','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Data e hora<br><em>em 1 segundo</em>':'Data e hora<br><em>no Excel</em>';
+  const n=t<3?5:t<11?2:Math.min(5,2+Math.floor((t-11.4)*1.4));
+  const rows=REG.slice(0,n).map(r=>r.slice());
+  if(t>=3&&t<11){rows[1][1]=t>=5.6?REG[1][1]:'';rows[1][2]=t>=9.2?REG[1][2]:'';}
+  if(t>=3&&t<7.6)keys(['Ctrl',';'],5.6,t); else if(t>=7.6&&t<11)keys(['Ctrl','Shift',';'],9.2,t);
+  const cls=(r,c)=>{if(r===0)return 'th';let k='ctr';if(r===1&&((c===1&&t>=5.6&&t<7)||(c===2&&t>=9.2&&t<10.6)))k+=' flash';if(t>=15&&r>0&&c>0&&t<17)k+=' flash';return k};
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([300,240,170],rows,{cls,sel:t>=3&&t<11?[1,t<7.6?1:2]:null,fx:t>=5.6&&t<11?(t<9.2?REG[1][1]:REG[1][2]):''})}</div>`;
+  S.cap=t<3?'Sem digitar nada.':t<7.6?'<span class="k3">Ctrl + ;</span><br>data de hoje':t<11?'<span class="k3">Ctrl + Shift + ;</span><br>hora de agora':t<15?'Controle de entrada,<br>pedidos, registros.':'E o valor fica fixo:<br>não muda no outro dia.';
+}
+const CAT=[['🏠','Essencial',0.5,'#107c41'],['🎉','Desejos',0.3,'#2b579a'],['💰','Guardar',0.2,'#c43e1c']];
+const pizza3=(sal,x,y)=>{let acc=0;const g=CAT.map(c=>{const a=acc*360;acc+=c[2];return `${c[3]} ${a}deg ${acc*360}deg`}).join(',');
+  return `<div style="position:absolute;left:${x}px;top:${y}px;background:#fff;border:1px solid #ccc;box-shadow:0 8px 20px rgba(0,0,0,.2);padding:16px;font:22px 'Segoe UI';color:#222;display:flex;gap:18px;align-items:center"><div style="width:230px;height:230px;border-radius:50%;background:conic-gradient(${g})"></div><div>${CAT.map(c=>`<div style="margin:6px 0"><span style="color:${c[3]}">■</span> ${c[1]} ${Math.round(c[2]*100)}%</div>`).join('')}</div></div>`};
+function X10(t){
+  S.title='Regra_50_30_20.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Porcentagem %')+btn('AutoSoma');
+  if(t>=22)return endCard('Seu salário dividido<br>sozinho.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Regra <em>50-30-20</em><br>divide seu salário':'Regra 50-30-20<br><em>no Excel</em>';
+  if(t>=3&&t<7){S.canvas=`<div style="position:absolute;inset:0;background:#f4f6f4;display:flex;flex-direction:column;justify-content:center;gap:28px;padding:0 90px">`+CAT.map((c,i)=>{const on=t>=3.4+i*1.1;return `<div style="display:flex;align-items:center;gap:26px;background:#fff;border-left:14px solid ${c[3]};border-radius:14px;padding:26px 30px;font:bold 44px 'Segoe UI';color:#222;opacity:${on?1:0.15};transform:translateX(${on?0:60}px)"><span style="font-size:64px">${c[0]}</span>${Math.round(c[2]*100)}% ${c[1]}</div>`}).join('')+'</div>';S.cap='Essencial, desejos<br>e guardar.';return}
+  const sal=t>=16.4?3200:2500;
+  const F=['=B1*50%','=B1*30%','=B1*20%'];
+  const cheias=t<3?3:t<7?0:t<12.6?(t>=11.4?1:0):Math.min(3,1+Math.floor((t-12.6)*1.2));
+  const rows=[['Salário',(t>=15.6&&t<16.4)?typed('3200',15.6,t,6)+CARET:'R$ '+sal.toLocaleString('pt-BR')]];
+  CAT.forEach((c,i)=>rows.push([c[0]+' '+c[1]+' ('+Math.round(c[2]*100)+'%)',i<cheias?'R$ '+Math.round(sal*c[2]).toLocaleString('pt-BR'):'']));
+  const escr=t>=8&&t<11.4;
+  if(escr)rows[1][1]=typed(F[0],8.4,t,3)+CARET;
+  const cls=(r,c)=>{let k=c===1?'num':'';if(r===0)k+=' tot';if(escr&&t>=9.6&&r===0&&c===1)k+=' ref1';if(c===1&&r>0&&((t>=11.4&&t<12.4&&r===1)||(t>=16.4&&t<18.2)))k+=' flash';return k};
+  const graf=t<3||t>=19;
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([380,250],rows,{cls,sel:escr?[1,1]:t>=15.6&&t<16.4?[0,1]:null,fx:escr?F[0]:(t>=12.6&&t<15.5?F[Math.max(0,cheias-1)]:'')})}${graf?pizza3(sal,150,380):''}</div>`;
+  S.cap=t<3?'Ela se atualiza sozinha.':t<12?'Essencial: <span class="k3">=B1*50%</span>':t<15.5?'Desejos 30%,<br>guardar 20%.':t<19?'Mudou o salário?<br>A divisão muda sozinha.':'Com gráfico de pizza,<br>fica fácil de ver.';
+}
+const CONTR='<div style="text-align:center;font-weight:bold;font-size:34px;margin-bottom:30px">CONTRATO DE PRESTAÇÃO DE SERVIÇOS</div><p style="text-align:justify">Pelo presente instrumento, o CONTRATANTE pagará ao CONTRATADO o valor mensal de <b>__VAL__</b>, até o dia 10 de cada mês, referente aos serviços de manutenção.</p><div class="gl" style="width:94%"></div><div class="gl" style="width:90%"></div><div class="gl" style="width:84%"></div><div class="gl" style="width:60%"></div>';
+function W10(t){
+  S.title=t<11?'Word':'Contrato.docx - Word';
+  if(t>=21)return endCard('PDF virou Word.<br>Sem programa.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'PDF vira Word<br><em>sem programa</em>':'Editar PDF<br><em>no Word</em>';
+  const val=t<3||t>=13.6?'R$ 1.500,00':'R$ 1.200,00';
+  if(t<3){S.canvas=page(130,30,CONTR.replace('__VAL__','<span class="flash">'+val+'</span>'));S.cap='Abra e edite como<br>um documento normal.';return}
+  if(t<11){
+    const lm=['Início','Novo','Abrir','Salvar como','Imprimir','Exportar'].map(x=>`<div class="${x==='Abrir'&&t>=4?'on':''}">${x}</div>`).join('');
+    let rp='<h3>Abrir</h3>';
+    if(t>=4.6)rp+=['📄 Relatorio.docx','📕 Contrato.pdf','📄 Curriculo.docx'].map(x=>`<div class="opt ${x.includes('pdf')&&t>=5.8?'on':''}">${x}</div>`).join('');
+    S.ov=`<div class="back"><div class="lm">${lm}</div><div class="rp">${rp}</div></div>`;
+    if(t>=7.4)S.ov+=dlg('Microsoft Word','<div style="line-height:1.4">O Word converterá o seu PDF em um documento do Word editável. O documento pode não ficar exatamente igual ao PDF original.</div>',btn('OK',t>=9.6?'press':'')+btn('Cancelar'));
+    S.tabPress=t<4?'Arquivo':'';S.cap=t<7?'Arquivo › Abrir ›<br>escolho o <span class="k3">PDF</span>':'Ele avisa que vai converter.<br>Clico em <span class="k3">OK</span>.';return}
+  if(t<16){const sel=t>=12.2&&t<13.6;const v=t>=13.6?'R$ 1.500,00':'R$ 1.200,00';
+    S.canvas=page(130,30,CONTR.replace('__VAL__',`<span class="${sel?'hl':(t>=13.6&&t<15?'flash':'')}">${v}</span>${t>=13.6&&t<15?CARET:''}`));
+    S.cap='Pronto! Agora dá para<br>editar o texto.';return}
+  S.tabPress='Arquivo';
+  const lm=['Início','Novo','Abrir','Salvar como','Imprimir','Exportar'].map(x=>`<div class="${x==='Salvar como'?'on':''}">${x}</div>`).join('');
+  S.ov=`<div class="back"><div class="lm">${lm}</div><div class="rp"><h3>Salvar como</h3><div class="fld">Contrato</div><div class="fld hot">${t>=18?'PDF (*.pdf)':'Documento do Word (*.docx)'} ▾</div><span class="bigbtn ${t>=19.4?'press':''}">Salvar</span></div></div>`;
+  S.cap='Salve como Word<br>ou como <span class="k3">PDF</span> de novo.';
+}
+function W11(t){
+  S.title='Navegador';S.tabs=[];
+  if(t>=22)return endCard('Office grátis<br>e oficial.','Salva esse vídeo','Segue para mais dicas de Office');
+  S.hook=t<3?'Word, Excel e PowerPoint<br><em>de GRAÇA</em>':'Office grátis<br><em>no navegador</em>';
+  const url=t<3?'microsoft365.com':t<7?typed('office.com',3.6,t,4)+(t<6.2?CARET:''):'microsoft365.com';
+  S.rib=`<div style="flex:1;border:2px solid #ccc;border-radius:30px;padding:12px 24px;background:#fff;font-size:28px;color:#222">🔒 ${url}</div>`;
+  const tiles=(on)=>`<div style="position:absolute;inset:0;background:#f5f5f5;padding:60px 70px"><div style="font:bold 40px 'Segoe UI';color:#222;margin-bottom:40px">Bom dia, Maria</div><div style="display:flex;gap:40px">`+
+    [['W','Word','#2b579a'],['X','Excel','#107c41'],['P','PowerPoint','#c43e1c']].map(([l,n,c],i)=>`<div style="text-align:center;opacity:${on>i?1:0.15};transform:scale(${on>i?1:0.8})"><div style="width:220px;height:220px;border-radius:40px;background:${c};color:#fff;font:bold 130px 'Segoe UI';display:flex;align-items:center;justify-content:center">${l}</div><div style="font:30px 'Segoe UI';color:#222;margin-top:14px">${n}</div></div>`).join('')+'</div></div>';
+  if(t<3){S.canvas=tiles(3);S.cap='Oficial da Microsoft.';return}
+  if(t<7){S.canvas=`<div style="position:absolute;inset:0;background:#fff;display:flex;align-items:center;justify-content:center;font:36px 'Segoe UI';color:#999">${t>=6.4?'Carregando...':''}</div>`;S.cap='No navegador,<br>entre em <span class="k3">office.com</span>';return}
+  if(t<11){const em=typed('maria.silva@outlook.com',7.6,t,9);
+    S.canvas=`<div style="position:absolute;inset:0;background:#eef2f6;display:flex;align-items:center;justify-content:center"><div style="width:620px;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.15);padding:44px;font:28px 'Segoe UI';color:#222"><b style="font-size:34px">Entrar</b><div style="margin:12px 0 26px;color:#666">com sua conta Microsoft</div><div class="fld hot" style="width:auto">${em}${t<10.2?CARET:''}</div><span class="bigbtn ${t>=10.3?'press':''}" style="background:#0067b8;color:#fff;border-color:#0067b8">Avançar</span></div></div>`;
+    S.cap='Entre com Hotmail ou Outlook<br>(também grátis).';return}
+  if(t<15){S.canvas=tiles(Math.floor((t-11.2)*2.5));S.cap='Pronto! Tudo direto<br>no navegador.';return}
+  if(t<19){S.canvas=`<div style="position:absolute;inset:0;background:#f5f5f5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;font:32px 'Segoe UI';color:#222"><div style="font-size:180px;transform:translateY(${Math.sin(t*3)*8}px)">☁️</div><b>Salvo no OneDrive</b><div style="display:flex;gap:50px;font-size:90px"><span>💻</span><span>📱</span><span>🖥️</span></div></div>`;S.cap='Os arquivos ficam na nuvem:<br>abre em qualquer lugar.';return}
+  S.canvas=`<div style="position:absolute;inset:0;background:#f5f5f5;display:flex;align-items:center;justify-content:center">${celular('<div style="padding:40px 26px;font:bold 30px Segoe UI">Apps no celular</div>'+[['W','#2b579a'],['X','#107c41'],['P','#c43e1c']].map(([l,c])=>`<div style="display:flex;align-items:center;gap:20px;padding:16px 26px"><div style="width:90px;height:90px;border-radius:20px;background:${c};color:#fff;font:bold 54px Segoe UI;display:flex;align-items:center;justify-content:center">${l}</div><span style="font-size:28px">Grátis</span></div>`).join(''))}</div>`;
+  S.cap='No celular, os apps<br>também são gratuitos.';
+}
+/* slide "Sistema Solar": estado a (slide 1) e b (slide 2); k = 0..1 entre os dois (Transformar) */
+const morph=(k)=>{const L=(a,b)=>a+(b-a)*sm(k);
+  return `<div style="position:absolute;inset:0;background:radial-gradient(circle at 70% 40%,#1b2a5a,#070b1c)"></div>`+
+  [0,1,2,3,4,5,6,7,8,9,10,11].map(i=>`<div style="position:absolute;left:${(i*67)%800}px;top:${(i*131)%450}px;width:3px;height:3px;border-radius:2px;background:#fff;opacity:.7"></div>`).join('')+
+  `<div style="position:absolute;left:${L(80,470)}px;top:${L(150,95)}px;width:${L(150,340)}px;height:${L(150,340)}px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ffe08a,#ff8a3d 55%,#c43e1c)"></div>`+
+  `<div style="position:absolute;left:${L(600,70)}px;top:${L(320,330)}px;width:${L(60,40)}px;height:${L(60,40)}px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#9fd3ff,#2b6cd6)"></div>`+
+  `<div style="position:absolute;left:${L(270,40)}px;top:${L(140,40)}px;color:#fff;font:bold ${L(64,42)}px 'Segoe UI';letter-spacing:${L(2,5)}px">SISTEMA SOLAR</div>`+
+  `<div style="position:absolute;left:${L(272,44)}px;top:${L(230,105)}px;color:#ffc53d;font:${L(26,24)}px 'Segoe UI'">${k>0.5?'O Sol tem 99,8% da massa':'Uma viagem pelo espaço'}</div>`;};
+function P10(t){
+  S.title='Sistema_Solar.pptx - PowerPoint';
+  if(t>=22)return endCard('Slide que<br>parece filme.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Esse slide<br><em>parece filme</em>':'Transição Transformar<br><em>no PowerPoint</em>';
+  const loop=k=>{const c=(k%4);return c<1?0:c<2?(c-1):c<3?1:1-(c-3)};
+  if(t<3||(t>=14.5&&t<19)){const k=t<3?loop(t*1.6):loop((t-14.8)*1.4);
+    S.tab='Página Inicial';S.rib=btn('Novo Slide');S.canvas=pptView(morph(0),[morph(0),morph(1)],0);
+    S.ovTop=`<div class="full"><div style="position:absolute;left:0;top:243px;width:800px;height:450px;transform:scale(1.275);transform-origin:0 0"><div class="slide">${morph(k)}</div></div></div>`;
+    if(t>=14.5&&t<15.4)keys(['F5'],14.8,t);
+    S.cap=t<3?'Mas é PowerPoint.':'<span class="k3">F5</span>: tudo se move<br>sozinho, suave.';return}
+  let thumbs=[morph(0)],sel=0,cur=morph(0),tab='Página Inicial',rib=btn('Novo Slide')+btn('Layout')+btn('Organizar');
+  if(t>=5.4){thumbs=[morph(0),morph(t>=7?Math.min(1,(t-7.6)/2.6):0)];sel=1;cur=thumbs[1]}
+  if(t>=3&&t<7)keys(['Ctrl','D'],5.4,t);
+  if(t>=11){tab='Transições';rib=btn('Nenhuma')+btn('Esmaecer')+btn('Transformar',st(t,11.8,12.8))+btn('Empurrar');thumbs=[morph(0),morph(1)];cur=morph(1)}
+  S.tabs=PTABS;S.tab=tab;S.rib=rib;
+  S.canvas=pptView(cur,thumbs,sel);
+  if(t>=19){S.canvas=pptView(morph(1),[morph(0),morph(1)],1);}
+  S.cap=t<7?'Monto o slide e duplico<br>com <span class="k3">Ctrl + D</span>':t<11?'No segundo, mudo tudo<br>de lugar e de tamanho.':t<14.5?'Transições ›<br><span class="k3">Transformar</span>':'Funciona com texto,<br>formas e fotos.';
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

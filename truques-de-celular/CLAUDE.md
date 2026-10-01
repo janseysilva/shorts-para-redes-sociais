@@ -59,3 +59,9 @@ Como subir neste PC (Claude in Chrome, conta janseysilva@gmail.com já logada):
 - Aparece "Ainda estamos verificando seu conteúdo": clicar em "Publicar mesmo assim" (≈805,457).
 - **YouTube não aceita `<` nem `>` em título/descrição** (o campo fica vermelho e o Avançar trava).
 - Loops longos em `javascript_tool` estouram o tempo (45 s). Esperar com a ação `wait` e consultar rápido.
+
+## LEVA 4 — shorts 26 a 30 (01/10 à noite; PUBLICADA em 01/10)
+Formato dos virais (busca do YouTube, 01/10): "FUNÇÕES SECRETAS do WhatsApp" 4,3 mi, "dica que vai TE SALVAR" 4,1 mi, "ACABE com o vício" 3,9 mi, alerta de golpe "mande pra sua família". Jansey aprovou os temas.
+Código: `src/shorts/Leva4.tsx` (usa `Chamada`, `Checklist`, `CFG` exportados de Leva3 e `Marca` de Leva2). Roteiros: `roteiros_leva4.py`.
+26 FuncoesSecretas '3 FUNÇÕES SECRETAS do WhatsApp 🤫' · 27 GolpeAdvogado 'NOVO GOLPE: mande pra sua mãe 🚨 (falso advogado)' · 28 Clonado 'Seu WhatsApp foi CLONADO? Veja em 10 segundos 🔍' · 29 LetrasWhatsApp 'Letras diferentes no WhatsApp: negrito, riscado e mais ✍️' · 30 ViciCelular 'Viciado no celular? Deixe a tela em preto e branco ⚫'.
+- Troca de canal no Chrome: youtube.com/channel_switcher → clicar no avatar do canal. Às vezes o Studio mostra "Ops, você não tem permissão" logo depois: repetir a troca e abrir o Studio de novo.
