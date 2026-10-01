@@ -1,0 +1,68 @@
+{
+ "id": "MarNuncaEnche",
+ "titulo": "Os rios não param de encher o mar. Por que ele NUNCA transborda?",
+ "legenda": "O Sol evapora do mar quase a mesma quantidade de água que os rios e a chuva colocam. É o ciclo da água! #fisica #mar #cicloagua #curiosidades #ciencia",
+ "final": {
+  "emoji": "🌊",
+  "frase": "Entra e sai a mesma quantidade."
+ },
+ "frases": [
+  "Os rios despejam água no mar sem parar, todos os dias. Por que ele nunca transborda?",
+  "Só o rio Amazonas joga mais de duzentos milhões de litros de água no mar por segundo.",
+  "Mas o mar também perde água o tempo todo: o calor do Sol faz a água evaporar.",
+  "Esse vapor sobe, vira nuvem e cai como chuva, em cima do mar e em cima da terra.",
+  "A chuva que cai na terra enche os rios, que levam a água de volta para o mar.",
+  "Entra e sai quase a mesma quantidade. Por isso, o nível do mar fica praticamente igual.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o mar nunca enche?",
+   "destaque": [
+    "nunca"
+   ],
+   "busca": "river flowing into sea"
+  },
+  {
+   "gancho": "200 milhões de litros por segundo",
+   "destaque": [
+    "200"
+   ],
+   "anim": {
+    "emoji": "🌊",
+    "texto": "200 milhões de litros por segundo"
+   }
+  },
+  {
+   "gancho": "O Sol evapora o mar",
+   "destaque": [
+    "evapora"
+   ],
+   "busca": "ocean sunlight waves"
+  },
+  {
+   "gancho": "Vira nuvem e chuva",
+   "destaque": [
+    "chuva"
+   ],
+   "busca": "rain clouds timelapse"
+  },
+  {
+   "gancho": "Os rios devolvem a água",
+   "destaque": [
+    "devolvem"
+   ],
+   "anim": {
+    "emoji": "🔄",
+    "texto": "O ciclo da água"
+   }
+  },
+  {
+   "gancho": "Entra e sai igual",
+   "destaque": [
+    "igual"
+   ],
+   "busca": "ocean aerial view"
+  }
+ ]
+}

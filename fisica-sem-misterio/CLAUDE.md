@@ -106,3 +106,24 @@ Vídeo real na maior parte, com animação só onde ajuda a explicar.
     5. Publicar.
     - Título e legenda de cada short estão em `roteiros/ID.json` ("titulo", "legenda"). Os do CeuAzul ainda precisam ser escritos.
 - (histórico) Próximo passo: Jansey escolhe o estilo → fazer os 15 shorts (mesma quantidade dos outros canais) → criar o canal no YouTube (nome, foto, banner e descrição) → publicar.
+
+## LEVA 2 — shorts 16 a 20 (feita em 01/10, no PC novo; PUBLICADA em 01/10)
+Temas escolhidos pelas buscas do YouTube Brasil e pelo que mais teve visualização (Gelo 1 mil, Trovão 526: perguntas simples do dia a dia). Espelho, Choque no carro e Ventilador foram feitos e APAGADOS por não estarem em alta.
+Roteiros no fim de `criar_roteiros.py`, registrados em `src/Root.tsx`. Vídeos: `out/Fisica16..20_*.mp4`.
+Títulos: 16 'Por que o pôr do sol é LARANJA? 🌅' · 17 'Por que um navio de aço NÃO afunda? 🚢' · 18 'Por que água e óleo NÃO se misturam? 💧' · 19 'Os rios não param de encher o mar. Por que ele NUNCA transborda? 🌊' · 20 'A Terra gira a 1.600 km/h. Por que não sentimos? 🌍'. Descrição = legenda do roteiro + ' Segue o canal para mais curiosidades!'.
+- Clipes conferidos em `previa/leva2_clipes.jpg` e `previa/leva2b_clipes.jpg`. AguaOleo_3 foi trocado (era uma pintura colorida, não óleo).
+- `baixar_clipes.py` aceita IDs (`python baixar_clipes.py PorDoSol`) e só baixa esses, juntando as durações no `duracoes.json`. **Neste PC, os clipes dos shorts 1 a 15 NÃO estão baixados.** Para re-renderizar um antigo, rode `python baixar_clipes.py <ID>` antes.
+- **PC novo:** Node em `C:\Program Files\nodejs`, ffmpeg via winget. `previa.py` e `baixar_clipes.py` usam o do PATH quando o caminho antigo não existe.
+- **Regra de Jansey (01/10): só temas EM ALTA, para gerar visualização.** Antes de escolher temas, conferir (1) as visualizações dos shorts já publicados (página /@canal/shorts, `ytInitialData`) e (2) o autocompletar do YouTube Brasil (`suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&gl=BR&q=...`). Tema sem sinal de busca fica de fora.
+- **Jansey pediu: NADA de publicar sem autorização dele.**
+
+## PUBLICAÇÃO DA LEVA DE 01/10 (Jansey autorizou: "publique todos")
+**01/10 à tarde: os 15 shorts da leva foram PUBLICADOS** (públicos, "não é conteúdo para crianças"), conferido nas páginas públicas: Office 25, Truques 25, Física 20.
+Como subir neste PC (Claude in Chrome, conta janseysilva@gmail.com já logada):
+- Arquivos de upload precisam ter menos de 10 MB e ficar numa pasta que a sessão lê (usei `bolsa 1\_upload_shorts`, apagada depois). Física com muita água passa de 10 MB: usar 2 passadas com `-b:v 1650k`.
+- Studio: `studio.youtube.com/channel/<id>/videos/upload?d=ud` → `find` no input de arquivo → `file_upload`.
+- **Truque que resolveu os textos que sumiam:** esperar ~10 s depois do envio, tirar um screenshot (traz a aba pra frente), clicar no título (≈560,242), ctrl+a, conferir com JS que o foco e a seleção estão no campo, e só então digitar. A descrição: achar o campo com `find` (ele desce quando o título abre o painel de hashtags), clicar pela ref, conferir o foco com JS e digitar.
+- Antes de avançar, conferir título e descrição com JS (`ytcp-social-suggestions-textbox #textbox`). Depois: rádio `VIDEO_MADE_FOR_KIDS_NOT_MFK`, `#next-button` até aparecer o rádio `PUBLIC`, `#done-button`.
+- Aparece "Ainda estamos verificando seu conteúdo": clicar em "Publicar mesmo assim" (≈805,457).
+- **YouTube não aceita `<` nem `>` em título/descrição** (o campo fica vermelho e o Avançar trava).
+- Loops longos em `javascript_tool` estouram o tempo (45 s). Esperar com a ação `wait` e consultar rápido.

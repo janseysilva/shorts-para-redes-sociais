@@ -15,6 +15,9 @@ body.excel{--app:#107c41;--lite:#d3f0dc;--acc:#3ddc84}
 .grid td.band{background:#e2f0d9}
 .grid td.num{text-align:right}
 .grid td.tot{font-weight:bold;border-top:3px double #107c41}
+.grid td.neg{background:#ffc7ce;color:#9c0006;font-weight:bold}
+.grid td.done{background:#c6efce;color:#006100;text-decoration:line-through}
+.grid td.ctr{text-align:center}
 .grid td.ref1{background:#dbe9ff}.grid td.ref2{background:#ffe3c2}
 .cop{position:absolute;right:0;top:0;bottom:0;width:400px;background:#fafafa;border-left:2px solid #ccc;padding:16px;color:#222;font:22px "Segoe UI",Arial;z-index:6}
 .cop .h{font-weight:bold;font-size:25px;margin-bottom:14px;background:linear-gradient(90deg,#7a3db8,#1e88e5,#107c41);-webkit-background-clip:text;color:transparent}
@@ -425,11 +428,11 @@ function P5(t){
 /* --- leva 2 (30/09): temas em alta (IA no Office, PROCX, planilha de gastos, foto vira planilha) --- */
 const XTABS=['Arquivo','Página Inicial','Inserir','Fórmulas','Dados','Exibir'];
 const COLS='ABCDEFGH';
-/* planilha: w = larguras das colunas; rows = linhas; o.sel=[linha,coluna]; o.cls(l,c) = classe da célula; o.fx = barra de fórmulas */
+/* planilha: w = larguras das colunas; rows = linhas; o.sel=[linha,coluna]; o.cls(l,c) = classe da célula; o.fx = barra de fórmulas; o.num(i) = número da linha */
 function xgrid(w,rows,o){
   o=o||{};
   let h=`<div class="fx"><b>fx</b>${o.fx||''}</div><table class="grid" style="top:56px"><tr class="hd"><td style="width:44px"></td>${w.map((x,i)=>`<td style="width:${x}px">${COLS[i]}</td>`).join('')}</tr>`;
-  rows.forEach((r,ri)=>{h+=`<tr><td class="rh">${ri+1}</td>`+w.map((_,ci)=>{const v=r[ci]??'';const c=(o.cls&&o.cls(ri,ci))||'';const s=o.sel&&o.sel[0]===ri&&o.sel[1]===ci?' sel':'';return `<td class="${c}${s}">${v}</td>`}).join('')+'</tr>'});
+  rows.forEach((r,ri)=>{h+=`<tr><td class="rh">${o.num?o.num(ri):ri+1}</td>`+w.map((_,ci)=>{const v=r[ci]??'';const c=(o.cls&&o.cls(ri,ci))||'';const s=o.sel&&o.sel[0]===ri&&o.sel[1]===ci?' sel':'';return `<td class="${c}${s}">${v}</td>`}).join('')+'</tr>'});
   return h+'</table>';
 }
 const cop=(corpo,inp)=>`<div class="cop"><div class="h">✦ Copilot</div>${corpo}<div class="inp">${inp||'<span style="color:#999">Pergunte ou peça algo...</span>'}</div></div>`;
@@ -539,7 +542,109 @@ function P8(t){
   S.canvas=pptView(cur,thumbs,Math.max(0,n-1),pan?0.62:1,panel);
   S.cap=t<3?'Do documento<br>para os slides.':t<7?'Tenho um relatório no Word<br>e pouco tempo.':t<10.4?'Página Inicial ›<br><span class="k3">Copilot</span>':t<13.4?'Peço para criar a apresentação<br>a partir do arquivo.':t<19?'Ele lê o documento<br>e monta os slides.':'Pronto! Com títulos,<br>tópicos e imagens.';
 }
-const FN={word:[null,W1,W2,W3,W4,W5],ppt:[null,P1,P2,P3,P4,P5,null,null,P8],xl:[null,X1,X2,X3,X4]};
+/* --- leva 3 (01/10): temas em alta nas buscas --- */
+const CLI=[['Nome','Telefone','Cidade'],['Ana Souza','9 9811-2040','Manaus'],['Bruno Lima','9 9734-5512','Belém'],['Carla Dias','9 9602-7781','Manaus'],['Ana Souza','9 9811-2040','Manaus'],
+  ['Diego Rocha','9 9455-1209','Recife'],['Bruno Lima','9 9734-5512','Belém'],['Elisa Melo','9 9120-3344','Natal'],['Fábio Reis','9 9877-6655','Manaus'],['Carla Dias','9 9602-7781','Manaus'],['Gabi Nunes','9 9300-1122','Belém']];
+const DUP=[4,6,9];
+const chk=(on,label)=>`<div class="it ${on?'on':''}">${on?'☑':'☐'} ${label}</div>`;
+function X5(t){
+  S.title='Clientes.xlsx - Excel';S.tabs=XTABS;S.tab='Dados';
+  if(t>=22)return endCard('Lista limpa<br>em 1 clique.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Nomes repetidos?<br><em>Limpe em 1 clique</em>':'Remover Duplicatas<br><em>no Excel</em>';
+  const limpo=t<3||t>=15.2;
+  const rows=limpo?CLI.filter((_,i)=>!DUP.includes(i)):CLI;
+  const cls=(r,c)=>{if(r===0)return 'th';let k='';if(!limpo&&t>=3.6&&DUP.includes(r))k+=' ref2';if(limpo&&t>=15.2&&t<17)k+=' flash';return k};
+  S.rib=btn('Classificar')+btn('Filtro')+btn('Remover Duplicatas',st(t,7.6,8.6))+btn('Validação de Dados');
+  if(t>=9.4&&t<14)S.ov=dlg('Remover Duplicatas','<div>Colunas:</div>'+chk(t>=10.6,'Nome')+chk(t>=11.2,'Telefone')+chk(t>=11.8,'Cidade'),btn('OK',t>=13.2?'press':'')+btn('Cancelar'));
+  if(t>=14&&t<16.6)S.ov=dlg('Microsoft Excel','<div>3 valores duplicados encontrados e removidos;<br>7 valores exclusivos permanecem.</div>',btn('OK',t>=16?'press':''));
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([280,240,200],rows,{cls,sel:t>=7&&t<14?[1,0]:null})}</div>`;
+  S.cap=t<3?'Sem procurar<br>um por um.':t<7?'Uma lista de clientes<br>com nomes repetidos.':t<10?'Dados ›<br><span class="k3">Remover Duplicatas</span>':t<14?'Marco as colunas<br>e dou OK.':t<18?'Pronto! Ele apaga as repetidas<br>e avisa quantas tirou.':'Dica: faça uma cópia<br>da lista antes.';
+}
+const VEN3=[['Vendedor','Vendas','Resultado'],['Ana','1250'],['Bruno','870'],['Carla','1040'],['Diego','640'],['Elisa','1390'],['Fábio','990']];
+const res3=v=>v>=1000?'<b style="color:#107c41">Bateu a meta</b>':'<b style="color:#c62828">Não bateu</b>';
+function X6(t){
+  S.title='Metas.xlsx - Excel';S.tabs=XTABS;S.tab='Fórmulas';
+  if(t>=22)return endCard('Função SE:<br>o Excel decide por você.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Bateu a meta?<br><em>O Excel responde</em>':'Função SE<br><em>no Excel</em>';
+  S.rib=btn('Inserir Função')+btn('Lógica')+btn('AutoSoma');
+  const F='=SE(B2>=1000;"Bateu a meta";"Não bateu")';
+  const fabio=t>=19.8?1020:990;
+  const vals=VEN3.slice(1).map((r,i)=>i===5?fabio:+r[1]);
+  const escr=t>=7&&t<15.5, cheios=t<3?6:t<15.5?0:t<16.4?1:Math.min(6,1+Math.floor((t-16.4)*4));
+  const rows=VEN3.map((r,i)=>i===0?r.slice():[r[0],'R$ '+vals[i-1].toLocaleString('pt-BR'),i<=cheios?res3(vals[i-1]):'']);
+  if(escr)rows[1][2]=typed(F,7.3,t,5.4)+CARET;
+  if(t>=19.2&&t<19.8)rows[6][1]=typed('1020',19.2,t,7)+CARET;
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c===1?'num':'';if(escr&&t>=8.4&&r===1&&c===1)k+=' ref1';if(r===6&&t>=19.8&&t<21.5)k+=' flash';return k};
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([210,190,330],rows,{cls,sel:escr?[1,2]:t>=19.2&&t<19.8?[6,1]:null,fx:escr||cheios?F:''})}</div>`;
+  if(t>=15.5&&t<16.2)keys(['Enter'],15.6,t);
+  S.cap=t<3?'O resultado aparece<br>sozinho.':t<7?'Vendas de cada vendedor.<br>A meta é R$ 1.000.':t<12?'<span class="k3">=SE(</span> venda<br>maior ou igual a 1000;':t<15.5?'...o que aparece se for verdade<br>e se for falso.':t<19?'Enter e arrasto<br>para baixo.':'Mudou a venda?<br>O resultado muda sozinho.';
+}
+const MOV=[['Data','Descrição','Entrada','Saída','Saldo'],['01/10','Salário',2500,0],['02/10','Aluguel',0,900],['05/10','Mercado',0,650],['08/10','Conta de luz',0,180],
+  ['10/10','Cartão de crédito',0,950],['15/10','Freela',300,0],['18/10','Farmácia',0,140]];
+const rs=v=>(v<0?'-R$ ':'R$ ')+Math.abs(v).toLocaleString('pt-BR');
+function X7(t){
+  S.title='Controle_Financeiro.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';
+  if(t>=22)return endCard('O saldo te avisa<br>quando o dinheiro acaba.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Controle financeiro<br><em>que te avisa</em>':'Saldo vermelho<br><em>no Excel</em>';
+  let s=0;const saldos=MOV.slice(1).map(r=>s+=r[2]-r[3]);
+  const linhas=t<3?7:t<7?Math.min(7,1+Math.floor((t-3.3)*2.2)):7;
+  const cheios=t<3?7:t<11?1:t<11.8?1:Math.min(7,1+Math.floor((t-11.8)*5));
+  const verm=t<3||t>=17.2;
+  const F='=E2+C3-D3';
+  const rows=[MOV[0].slice()];
+  MOV.slice(1,1+linhas).forEach((r,i)=>rows.push([r[0],r[1],r[2]?rs(r[2]):'',r[3]?rs(r[3]):'',i<cheios||i===0?rs(saldos[i]):'']));
+  const escr=t>=7&&t<11;
+  if(escr)rows[2][4]=typed(F,7.6,t,3)+CARET;
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>=2?'num':'';if(escr&&t>=8.6&&r===1&&c===4)k+=' ref1';if(escr&&t>=9.4&&r===2&&(c===2||c===3))k+=' ref2';
+    if(verm&&c===4&&r>0&&saldos[r-1]<0)k+=' neg';return k};
+  let rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Formatação Condicional',st(t,14.3,15));
+  if(t>=15.4&&t<16.2)rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Formatação Condicional','press',menu(['Realçar Regras das Células','É Maior do que...','É Menor do que...','Entre...'],t>=15.8?'É Menor do que...':'',1));
+  S.rib=rib;
+  if(t>=16.2&&t<17.2)S.ov=dlg('É Menor do que','<div>Formatar células que são MENORES DO QUE:</div><div class="it on">0</div><div>com <b style="color:#9c0006;background:#ffc7ce;padding:2px 8px">Preenchimento Vermelho Claro e Texto Vermelho Escuro</b></div>',btn('OK',t>=16.8?'press':'')+btn('Cancelar'));
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([110,250,150,150,180],rows,{cls,sel:escr?[2,4]:t>=14&&t<17.2?[1,4]:null,fx:escr?F:''})}</div>`;
+  S.cap=t<3?'Gastou mais do que tinha?<br>Fica vermelho.':t<7?'Anoto as entradas<br>e as saídas.':t<11?'Saldo = saldo anterior<br><span class="k3">+ entrada − saída</span>':t<14?'Arrasto para baixo:<br>calcula o mês inteiro.':t<18?'Formatação Condicional ›<br><span class="k3">É Menor do que 0</span>':'Pronto! Saldo negativo<br>fica vermelho na hora.';
+}
+const TAR=[['Feito','Tarefa','Prazo'],['','Pagar boleto','05/10'],['','Comprar presente','08/10'],['','Marcar dentista','10/10'],['','Renovar CNH','15/10'],['','Enviar currículo','17/10'],['','Lavar o carro','20/10']];
+const cx=(on,show)=>show?`<span style="display:inline-flex;width:30px;height:30px;border:3px solid ${on?'#107c41':'#777'};border-radius:5px;background:${on?'#107c41':'#fff'};color:#fff;font-size:22px;align-items:center;justify-content:center;vertical-align:middle">${on?'✓':''}</span>`:'';
+function X8(t){
+  S.title='Tarefas.xlsx - Excel';S.tabs=XTABS;
+  if(t>=23)return endCard('Marcou,<br>ficou verde.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Caixinha de marcar<br><em>no Excel</em>':'Caixa de Seleção<br><em>no Excel</em>';
+  const temCx=t<3||t>=5.8, cor=t<3||t>=15.6;
+  const marc=i=>t<3?[0,1,3].includes(i):t<7.6?false:t<16?[0,1].filter((_,k)=>t>=7.8+k*1.1).includes(i)||(i===3&&t>=10):[0,1,3].includes(i)||(i===4&&t>=17.6);
+  const rows=TAR.map((r,i)=>i===0?r.slice():[cx(marc(i-1),temCx),r[1],r[2]]);
+  const cls=(r,c)=>{if(r===0)return 'th';let k='';if(c===0)k+=' ctr';if(cor&&marc(r-1))k+=' done';if(!temCx&&t>=3.4&&c===0)k+=' ref1';return k};
+  if(t>=3&&t<7){S.tab='Inserir';S.rib=btn('Tabela')+btn('Imagens')+btn('Gráficos')+btn('☑ Caixa de Seleção',st(t,4.6,5.4))}
+  else if(t>=11&&t<15.6){S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Formatação Condicional','press');
+    S.ov=dlg('Nova Regra de Formatação','<div>Usar uma fórmula para determinar quais células devem ser formatadas</div><div class="it on" style="font-family:Consolas,monospace">'+(t<14?typed('=$A2=VERDADEIRO',11.8,t,7)+CARET:'=$A2=VERDADEIRO')+'</div><div>Formato: <b style="background:#c6efce;color:#006100;padding:2px 10px;text-decoration:line-through">Concluído</b></div>',btn('OK',t>=14.8?'press':'')+btn('Cancelar'))}
+  else{S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Formatação Condicional')}
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([110,380,160],rows,{cls})}</div>`;
+  S.cap=t<3?'Lista de tarefas<br>com caixinha.':t<7?'Inserir ›<br><span class="k3">Caixa de Seleção</span>':t<11?'É só clicar<br>para marcar.':t<16?'Formatação Condicional:<br><span class="k3">=$A2=VERDADEIRO</span>':t<20?'Marcou? A linha fica<br>verde e riscada.':'No Excel do Microsoft 365<br>e no Excel online.';
+}
+const pgP=(x,y,inner,sc)=>`<div class="page" style="left:${x}px;top:${y}px;transform:scale(${sc});transform-origin:0 0">${inner}</div>`;
+const pgL=(x,y,inner,sc)=>`<div class="page" style="left:${x}px;top:${y}px;width:1075px;height:760px;padding:40px 30px;transform:scale(${sc});transform-origin:0 0">${inner}</div>`;
+const TABL='<div style="font:bold 28px \'Segoe UI\',Arial;margin-bottom:14px">Vendas por mês – 2026</div><table class="wt" style="font-size:24px;width:1000px;table-layout:fixed"><tr>'+['Produto','Jan','Fev','Mar','Abr','Mai','Jun','Total'].map(x=>`<th style="width:125px">${x}</th>`).join('')+'</tr>'+
+  [['Café',980,1120,1250,1190,1300,1410],['Bolo',640,710,820,760,800,880],['Suco',300,350,430,470,520,610],['Torta',410,390,450,480,500,530]].map(r=>'<tr>'+r.map((v,i)=>`<td style="text-align:${i?'right':'left'}">${v}</td>`).join('')+`<td style="text-align:right"><b>${r.slice(1).reduce((a,b)=>a+b,0)}</b></td></tr>`).join('')+'</table>';
+const TXT='<div class="gl" style="width:94%"></div><div class="gl" style="width:88%"></div><div class="gl" style="width:91%"></div><div class="gl" style="width:70%"></div>';
+function W9(t){
+  S.title='Relatorio.docx - Word';
+  if(t>=23)return endCard('Só UMA página<br>deitada.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Só UMA folha deitada<br><em>no Word</em>':'Quebra de seção<br><em>no Word</em>';
+  const tres=(mk)=>pgP(30,120,'<div style="font:bold 34px \'Segoe UI\'">Relatório</div>'+TXT+TXT,0.3)+pgL(275,180,TABL,0.3)+pgP(630,120,TXT+TXT+TXT,0.3)+
+    (mk?'<div class="mark ok" style="left:265px;top:170px;width:342px;height:248px"></div>':'');
+  if(t<3||t>=19){S.tab='Layout';S.rib=btn('Margens')+btn('Orientação')+btn('Tamanho')+btn('Quebras');S.canvas=tres(t>=19.4);S.cap=t<3?'Sem criar outro arquivo.':'Pronto! Só a página da tabela<br>fica deitada.';return}
+  S.tab='Layout';
+  let m1='',m2='',b1=st(t,7.8,8.6),b2='';
+  if(t>=9&&t<10.6)m1=menu(['Página','Coluna','Próxima Página','Contínua'],t>=9.8?'Próxima Página':'');
+  if(t>=11){b1='';b2=st(t,11.4,12.2);if(t>=12.6&&t<14.2)m2=menu(['Retrato','Paisagem'],t>=13.4?'Paisagem':'')}
+  if(t>=15){b2=st(t,16.6,17.2);if(t>=17.4&&t<18.6)m2=menu(['Retrato','Paisagem'],t>=18?'Retrato':'')}
+  if(t>=15&&t<16.4){b1=st(t,15.2,15.6)}
+  S.rib=btn('Margens')+btn('Orientação',b2,m2)+btn('Tamanho')+btn('Quebras',b1,m1);
+  const deitada=t>=13.4;
+  S.canvas=deitada?pgL(40,60,TABL,0.86):page(130,30,TABL+`<div style="margin-top:30px">${TXT}</div>`)+(t<7?'<div class="mark" style="left:860px;top:110px;width:40px;height:320px"></div>':'');
+  S.cap=t<3?'':t<7?'A tabela larga<br>não cabe em pé.':t<11?'Layout › Quebras ›<br><span class="k3">Próxima Página</span>':t<15?'Orientação ›<br><span class="k3">Paisagem</span>':'Outra quebra no fim<br>e volto para <span class="k3">Retrato</span>.';
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9],ppt:[null,P1,P2,P3,P4,P5,null,null,P8],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

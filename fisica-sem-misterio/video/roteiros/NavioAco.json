@@ -1,0 +1,68 @@
+{
+ "id": "NavioAco",
+ "titulo": "Por que um navio de aço NÃO afunda?",
+ "legenda": "Um bloco de aço afunda, mas o casco cheio de ar empurra muita água para o lado, e a água empurra o navio para cima. #fisica #navio #curiosidades #ciencia #arquimedes",
+ "final": {
+  "emoji": "🚢",
+  "frase": "O ar no casco segura o navio."
+ },
+ "frases": [
+  "Uma bolinha de aço afunda na hora. Então por que um navio de aço gigante não afunda?",
+  "O segredo é o empuxo. Tudo que entra na água empurra um pouco de água para o lado.",
+  "E a água empurra de volta para cima, com a mesma força do peso da água que saiu do lugar.",
+  "O casco do navio é oco, cheio de ar. Ele afasta tanta água que esse empurrão aguenta o peso todo.",
+  "Se você amassar o mesmo aço num bloco, ele afasta pouca água e afunda.",
+  "Por isso, quando entra água no casco, o navio fica mais pesado que o empurrão, e aí sim ele afunda.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o navio boia?",
+   "destaque": [
+    "boia?"
+   ],
+   "busca": "cargo ship ocean"
+  },
+  {
+   "gancho": "O segredo: empuxo",
+   "destaque": [
+    "empuxo"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "A água empurra de volta"
+   }
+  },
+  {
+   "gancho": "A água empurra para cima",
+   "destaque": [
+    "cima"
+   ],
+   "busca": "boat floating water"
+  },
+  {
+   "gancho": "Casco oco, cheio de ar",
+   "destaque": [
+    "oco,"
+   ],
+   "busca": "ship hull"
+  },
+  {
+   "gancho": "Em bloco, afunda",
+   "destaque": [
+    "afunda"
+   ],
+   "anim": {
+    "emoji": "🧱",
+    "texto": "Aço em bloco afunda"
+   }
+  },
+  {
+   "gancho": "Entrou água? Afunda",
+   "destaque": [
+    "água?"
+   ],
+   "busca": "ship sea storm"
+  }
+ ]
+}

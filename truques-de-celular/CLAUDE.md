@@ -36,3 +36,26 @@ Código: `src/shorts/Leva2.tsx` (`ShortEtapas` = sequência de telas + dedo toca
 20 GolpePix — "Golpe do Pix no WhatsApp: os 3 sinais" / "Número novo, pressa e pedido de Pix = golpe. Ligue para o número antigo antes de qualquer coisa. #golpe #pix #whatsapp #seguranca #dicasdecelular"
 **30/09: OS 5 PUBLICADOS** (Jansey aprovou). Títulos usados no YouTube: 16 'Clonaram o WhatsApp de alguém que você conhece? Ative isso agora 🔐' · 17 'Roubaram seu celular? Faça isso ANTES para proteger seu número' · 18 'Chega de ouvir áudio de 5 minutos no WhatsApp 😅' · 19 'Pague com Pix só encostando o celular (pouca gente sabe)' · 20 '"Oi mãe, troquei de número"? CUIDADO, é golpe 🚨' (o 20 ficou 'Pendente' de processamento, fica público sozinho). Dica de upload: o 1º texto digitado logo após subir o arquivo some (o YouTube recarrega o formulário quando o envio termina) — digitar de novo.
 (histórico) STATUS (29/09 ~18h, Jansey desligou o PC): código pronto e `tsc` ok; as prévias estavam sendo geradas quando o PC foi desligado — PRÓXIMO: `python previa.py <Id> ...` de cada um e conferir, depois renderizar (`npx remotion render src/index.ts <Id> out/CelularN_<Id>.mp4`), acrescentar os 5 em `pagina.py` e mostrar ao Jansey.
+
+## LEVA 3 — shorts 21 a 25 (feita em 01/10, no PC novo; PUBLICADA em 01/10)
+Temas escolhidos pelas buscas do YouTube Brasil e pelos shorts que mais tiveram visualização (PinChip 359, Fixar 295, Transcrever 243). Silenciar desconhecidos foi feito e APAGADO por não estar em alta.
+Código: `src/shorts/Leva3.tsx` (reaproveita `ShortEtapas`, `Config`, `Centro`, `Aviso`... exportados de `Leva2.tsx`). Roteiros: `roteiros_leva3.py`. Vídeos: `video/out/Celular21..25_*.mp4` e `out/upload/` (comprimidos).
+21 FalsaCentral — "Ligaram do \"seu banco\" pedindo código? É GOLPE 🚨" / "Banco nunca pede senha, código do SMS ou Pix de teste. Desligue e ligue para o número atrás do cartão, de outro telefone. #golpe #banco #seguranca #celular #dicasdecelular"
+22 CelularSeguro — "Celular roubado: bloqueie banco e linha de uma vez 🛡️" / "No app ou site Celular Seguro (gov.br), cadastre o celular e uma pessoa de confiança. Se roubarem, emita o alerta e bancos e operadoras parceiros bloqueiam o acesso. #celularseguro #roubo #seguranca #celular #dicasdecelular"
+23 LerEscondido — "Leia a mensagem sem a pessoa saber 👀" / "Configurações › Privacidade › Confirmações de leitura (desligar). Em Visto por último e online, escolha quem vê quando você está online. Vale para os dois lados e não funciona em grupos. #whatsapp #privacidade #truques #celular #dicasdecelular"
+24 TrancarConversa — "Tranque uma conversa do WhatsApp com a digital 🔒" / "Abra a conversa › toque no nome › Bloqueio de conversa. Ela vai para a pasta Conversas trancadas. #whatsapp #privacidade #celular #truques #dicasdecelular"
+25 FotoPerfil — "Esconda sua foto do WhatsApp de quem não é contato 🙈" / "Configurações › Privacidade › Foto do perfil › Meus contatos. Faça o mesmo com Visto por último e Recado. #whatsapp #privacidade #golpe #celular #dicasdecelular"
+- **PC novo (01/10):** Node fica em `C:\Program Files\nodejs` (já no PATH) e o ffmpeg veio pelo winget. `previa.py` e `pagina.py` usam o do PATH quando o caminho antigo não existe.
+- **Regra de Jansey (01/10): só temas EM ALTA, para gerar visualização.** Antes de escolher temas, conferir (1) as visualizações dos shorts já publicados (página /@canal/shorts, `ytInitialData`) e (2) o autocompletar do YouTube Brasil (`suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&gl=BR&q=...`). Tema sem sinal de busca fica de fora.
+- **Jansey pediu: NADA de publicar sem autorização dele.**
+
+## PUBLICAÇÃO DA LEVA DE 01/10 (Jansey autorizou: "publique todos")
+**01/10 à tarde: os 15 shorts da leva foram PUBLICADOS** (públicos, "não é conteúdo para crianças"), conferido nas páginas públicas: Office 25, Truques 25, Física 20.
+Como subir neste PC (Claude in Chrome, conta janseysilva@gmail.com já logada):
+- Arquivos de upload precisam ter menos de 10 MB e ficar numa pasta que a sessão lê (usei `bolsa 1\_upload_shorts`, apagada depois). Física com muita água passa de 10 MB: usar 2 passadas com `-b:v 1650k`.
+- Studio: `studio.youtube.com/channel/<id>/videos/upload?d=ud` → `find` no input de arquivo → `file_upload`.
+- **Truque que resolveu os textos que sumiam:** esperar ~10 s depois do envio, tirar um screenshot (traz a aba pra frente), clicar no título (≈560,242), ctrl+a, conferir com JS que o foco e a seleção estão no campo, e só então digitar. A descrição: achar o campo com `find` (ele desce quando o título abre o painel de hashtags), clicar pela ref, conferir o foco com JS e digitar.
+- Antes de avançar, conferir título e descrição com JS (`ytcp-social-suggestions-textbox #textbox`). Depois: rádio `VIDEO_MADE_FOR_KIDS_NOT_MFK`, `#next-button` até aparecer o rádio `PUBLIC`, `#done-button`.
+- Aparece "Ainda estamos verificando seu conteúdo": clicar em "Publicar mesmo assim" (≈805,457).
+- **YouTube não aceita `<` nem `>` em título/descrição** (o campo fica vermelho e o Avançar trava).
+- Loops longos em `javascript_tool` estouram o tempo (45 s). Esperar com a ação `wait` e consultar rápido.

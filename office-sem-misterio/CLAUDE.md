@@ -72,3 +72,27 @@ Gerar: `python scripts/fazer_office.py xl 1 narracao/x1.json videos/Short16_Exce
 20 Copilot PPT — "O PowerPoint cria a apresentação a partir do Word" / "Página Inicial › Copilot › criar a partir de um arquivo. Para assinantes do Microsoft 365. #powerpoint #copilot #ia #office #apresentacao"
 **30/09: OS 5 DA LEVA 2 PUBLICADOS** (Jansey aprovou). Títulos usados: 16 'O Excel agora escreve a fórmula por você 🤯' · 17 'Esqueça o PROCV: essa função é muito melhor' · 18 'Planilha de gastos em 1 minuto, com gráfico automático' · 19 'Tire uma FOTO e ela vira planilha no Excel 📸' · 20 'O PowerPoint monta a apresentação SOZINHO a partir do Word'. Canal com 20 shorts no ar.
 (histórico) STATUS: leva 2 renderizando pela fila Documents\shorts-para-redes-sociais\fila_leva2.ps1 (30/09). **Short15 PPT_Alinhar PUBLICADO em 30/09 ~08h45 → os 15 da leva 1 estão todos no ar.**
+
+## LEVA 3 — shorts 21 a 25 (feita em 01/10, no PC novo; PUBLICADA em 01/10)
+Temas escolhidos pelas buscas do YouTube Brasil (planilha de controle financeiro, fórmula SE, caixa de seleção, folha deitada, dados repetidos) e pelo que mais teve visualização (Alinhar 379, Sumário 158, célula vermelha 139: resolver problema do dia a dia; os de IA/Copilot foram os mais fracos). Congelar painéis, Ditar e Remover fundo foram feitos e APAGADOS por não estarem em alta.
+`animacoes/office.html`: X5 (duplicadas), X6 (função SE), X7 (controle financeiro / saldo vermelho), X8 (caixa de seleção) e W9 (folha deitada). As narrações w6-w8/p6-p7 são das ideias REJEITADAS na leva 2, por isso a nova é w9. `xgrid` aceita `o.num(i)`; classes novas `.neg`, `.done`, `.ctr`.
+Gerar: `python scripts/fazer_office.py xl 7 narracao/x7.json videos/Short21_Excel_ControleFinanceiro.mp4` (xl 6 → Short22_Excel_FuncaoSE, xl 8 → Short23_Excel_CaixaSelecao, word 9 → Short24_Word_FolhaDeitada, xl 5 → Short25_Excel_Duplicadas).
+21 'Planilha de controle financeiro: o saldo fica VERMELHO sozinho' / "Saldo = saldo anterior + entrada − saída. Formatação Condicional › É Menor do que 0. #excel #controlefinanceiro #planilha #dicasdeexcel #financas"
+22 'Função SE: o Excel diz se bateu a meta' / "Use =SE com a condição B2 maior ou igual a 1000, o texto \"Bateu a meta\" se for verdade e \"Não bateu\" se for falso. Enter e arraste para baixo. #excel #funcaose #formulas #dicasdeexcel #office" (a versão com >= foi recusada pelo YouTube)
+23 'Caixinha de marcar no Excel: a tarefa fica verde sozinha ✅' / "Inserir › Caixa de Seleção. Formatação Condicional com =$A2=VERDADEIRO. No Excel do Microsoft 365 e no Excel online. #excel #checklist #planilha #dicasdeexcel #organizacao"
+24 'Só UMA página deitada no Word (o resto em pé)' / "Layout › Quebras › Próxima Página › Orientação › Paisagem. No fim, outra quebra e volta para Retrato. #word #dicasdeword #abnt #trabalho #office"
+25 'Nomes repetidos na planilha? Apague em 1 clique' / "Dados › Remover Duplicatas › marque as colunas › OK. Faça uma cópia antes! #excel #planilha #dicasdeexcel #office #produtividade"
+- **PC novo:** voz Faber baixada em `tts/`, Playwright + Chromium instalados, ffmpeg via winget (`fazer_office.py`/`montar_pagina.py` usam o do PATH se o caminho antigo não existir).
+- **Regra de Jansey (01/10): só temas EM ALTA, para gerar visualização.** Antes de escolher temas, conferir (1) as visualizações dos shorts já publicados (página /@canal/shorts, `ytInitialData`) e (2) o autocompletar do YouTube Brasil (`suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&gl=BR&q=...`). Tema sem sinal de busca fica de fora.
+- **Jansey pediu: NADA de publicar sem autorização dele.**
+
+## PUBLICAÇÃO DA LEVA DE 01/10 (Jansey autorizou: "publique todos")
+**01/10 à tarde: os 15 shorts da leva foram PUBLICADOS** (públicos, "não é conteúdo para crianças"), conferido nas páginas públicas: Office 25, Truques 25, Física 20.
+Como subir neste PC (Claude in Chrome, conta janseysilva@gmail.com já logada):
+- Arquivos de upload precisam ter menos de 10 MB e ficar numa pasta que a sessão lê (usei `bolsa 1\_upload_shorts`, apagada depois). Física com muita água passa de 10 MB: usar 2 passadas com `-b:v 1650k`.
+- Studio: `studio.youtube.com/channel/<id>/videos/upload?d=ud` → `find` no input de arquivo → `file_upload`.
+- **Truque que resolveu os textos que sumiam:** esperar ~10 s depois do envio, tirar um screenshot (traz a aba pra frente), clicar no título (≈560,242), ctrl+a, conferir com JS que o foco e a seleção estão no campo, e só então digitar. A descrição: achar o campo com `find` (ele desce quando o título abre o painel de hashtags), clicar pela ref, conferir o foco com JS e digitar.
+- Antes de avançar, conferir título e descrição com JS (`ytcp-social-suggestions-textbox #textbox`). Depois: rádio `VIDEO_MADE_FOR_KIDS_NOT_MFK`, `#next-button` até aparecer o rádio `PUBLIC`, `#done-button`.
+- Aparece "Ainda estamos verificando seu conteúdo": clicar em "Publicar mesmo assim" (≈805,457).
+- **YouTube não aceita `<` nem `>` em título/descrição** (o campo fica vermelho e o Avançar trava).
+- Loops longos em `javascript_tool` estouram o tempo (45 s). Esperar com a ação `wait` e consultar rápido.

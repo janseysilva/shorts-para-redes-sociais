@@ -1,0 +1,68 @@
+{
+ "id": "TerraGira",
+ "titulo": "A Terra gira a 1.600 km/h. Por que não sentimos?",
+ "legenda": "Só sentimos quando a velocidade muda. A Terra gira sempre igual e leva tudo junto: chão, ar e você. #fisica #terra #espaco #curiosidades #ciencia",
+ "final": {
+  "emoji": "🌍",
+  "frase": "Sentimos a mudança, não a velocidade."
+ },
+ "frases": [
+  "A Terra gira a mais de mil e seiscentos quilômetros por hora. Por que a gente não sente nada?",
+  "Primeiro: tudo gira junto. O chão, o ar, os prédios e você vão na mesma velocidade.",
+  "Segundo: o corpo não sente velocidade. Ele sente só quando a velocidade muda.",
+  "É como num avião a novecentos quilômetros por hora: dá para tomar café tranquilo, sem derramar.",
+  "Você só sente na decolagem, na freada ou na turbulência.",
+  "E a Terra gira sempre igual, sem acelerar nem frear. Por isso, para você, parece que está tudo parado.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "1.600 km/h e você nem sente",
+   "destaque": [
+    "1.600"
+   ],
+   "busca": "earth rotating space"
+  },
+  {
+   "gancho": "Tudo gira junto",
+   "destaque": [
+    "junto"
+   ],
+   "busca": "city timelapse"
+  },
+  {
+   "gancho": "O corpo sente a mudança",
+   "destaque": [
+    "mudança"
+   ],
+   "anim": {
+    "emoji": "🎢",
+    "texto": "Sentimos só a mudança"
+   }
+  },
+  {
+   "gancho": "Café a 900 km/h",
+   "destaque": [
+    "900"
+   ],
+   "busca": "airplane cabin passengers"
+  },
+  {
+   "gancho": "Só na decolagem e freada",
+   "destaque": [
+    "decolagem"
+   ],
+   "busca": "airplane takeoff"
+  },
+  {
+   "gancho": "Por isso parece parado",
+   "destaque": [
+    "parado"
+   ],
+   "anim": {
+    "emoji": "🌍",
+    "texto": "Sempre na mesma velocidade"
+   }
+  }
+ ]
+}

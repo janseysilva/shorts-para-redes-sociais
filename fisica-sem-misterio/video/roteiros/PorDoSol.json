@@ -1,0 +1,69 @@
+{
+ "id": "PorDoSol",
+ "titulo": "Por que o pôr do sol é LARANJA?",
+ "legenda": "No fim da tarde, a luz atravessa muito mais ar. O azul se espalha pelo caminho e só o laranja e o vermelho chegam até você. #fisica #pordosol #ceu #curiosidades #ciencia",
+ "final": {
+  "emoji": "🌅",
+  "frase": "Sobram o laranja e o vermelho."
+ },
+ "frases": [
+  "Se o céu é azul durante o dia, por que ele fica laranja no fim da tarde?",
+  "A luz do Sol é branca, uma mistura de todas as cores.",
+  "No caminho, o ar espalha mais a luz azul. Por isso, de dia, o céu fica azul.",
+  "No fim da tarde, o Sol está baixinho, e a luz atravessa muito mais ar até chegar em você.",
+  "Nesse caminho comprido, quase todo o azul se espalha antes e fica para trás.",
+  "Sobram o laranja e o vermelho. E com poeira ou fumaça no ar, o céu fica ainda mais vermelho.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o pôr do sol é LARANJA?",
+   "destaque": [
+    "LARANJA?"
+   ],
+   "busca": "sunset sky"
+  },
+  {
+   "gancho": "Luz branca = todas as cores",
+   "destaque": [
+    "todas"
+   ],
+   "anim": {
+    "emoji": "🌈",
+    "texto": "Todas as cores juntas"
+   }
+  },
+  {
+   "gancho": "O ar espalha o azul",
+   "destaque": [
+    "azul"
+   ],
+   "busca": "blue sky clouds"
+  },
+  {
+   "gancho": "Muito mais ar no caminho",
+   "destaque": [
+    "mais",
+    "ar"
+   ],
+   "anim": {
+    "emoji": "☀️",
+    "texto": "Muito mais ar no caminho"
+   }
+  },
+  {
+   "gancho": "O azul fica para trás",
+   "destaque": [
+    "trás"
+   ],
+   "busca": "sun setting horizon"
+  },
+  {
+   "gancho": "Sobra o laranja",
+   "destaque": [
+    "laranja"
+   ],
+   "busca": "red sunset clouds"
+  }
+ ]
+}

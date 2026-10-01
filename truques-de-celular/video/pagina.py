@@ -4,12 +4,15 @@ Uso: python pagina.py <pasta_saida>
 - <pasta_saida>/index.html + <pasta_saida>/v/CelularN_*.mp4 (720p leve, pra página)
 - out/upload/CelularN_*.mp4 (1080p comprimido, < 10 MB, pra subir no YouTube)
 """
+import shutil
 import os, subprocess, sys
 from html import escape
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
 FF = Path(os.environ["LOCALAPPDATA"]) / "ffmpeg/ffmpeg-8.1.2-essentials_build/bin"
+if not FF.exists():  # em outro PC: usa o ffmpeg do PATH
+    FF = Path(shutil.which("ffmpeg")).parent
 
 SHORTS = [
  ("FixarConversa", "Fixe as conversas importantes no topo do WhatsApp", "Segure a conversa e toque no alfinete: ela fica sempre no topo. Dá para fixar até 3. #whatsapp #celular #truques #dicasdecelular #android"),

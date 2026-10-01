@@ -39,6 +39,13 @@ import tTranscrever from "../public/Transcrever/tempos.json";
 import tPixAproximacao from "../public/PixAproximacao/tempos.json";
 import tGolpePix from "../public/GolpePix/tempos.json";
 
+import { LerEscondido, TrancarConversa, FotoPerfil, FalsaCentral, CelularSeguro } from "./shorts/Leva3";
+import tLerEscondido from "../public/LerEscondido/tempos.json";
+import tTrancarConversa from "../public/TrancarConversa/tempos.json";
+import tFotoPerfil from "../public/FotoPerfil/tempos.json";
+import tFalsaCentral from "../public/FalsaCentral/tempos.json";
+import tCelularSeguro from "../public/CelularSeguro/tempos.json";
+
 export const FPS = 30;
 
 // Cada short: id (= pasta em public/), componente e tempos da narração
@@ -63,6 +70,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["Transcrever", Transcrever, tTranscrever],
   ["PixAproximacao", PixAproximacao, tPixAproximacao],
   ["GolpePix", GolpePix, tGolpePix],
+  ["LerEscondido", LerEscondido, tLerEscondido],
+  ["TrancarConversa", TrancarConversa, tTrancarConversa],
+  ["FotoPerfil", FotoPerfil, tFotoPerfil],
+  ["FalsaCentral", FalsaCentral, tFalsaCentral],
+  ["CelularSeguro", CelularSeguro, tCelularSeguro],
 ];
 
 export const Root: React.FC = () => (

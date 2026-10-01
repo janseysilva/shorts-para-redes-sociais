@@ -180,6 +180,63 @@ short("MarSalgado", "Por que o mar é salgado e a chuva não?",
     ("Hoje, cada litro de água do mar tem uns trinta e cinco gramas de sal.", "35 g por litro", ["35"], a("🧂", "35 gramas por litro")),
 ])
 
+# ---------- LEVA 2 (01/10): shorts 16 a 20 ----------
+short("NavioAco", "Por que um navio de aço NÃO afunda?",
+      "Um bloco de aço afunda, mas o casco cheio de ar empurra muita água para o lado, e a água empurra o navio para cima. #fisica #navio #curiosidades #ciencia #arquimedes",
+      "🚢", "O ar no casco segura o navio.", [
+    ("Uma bolinha de aço afunda na hora. Então por que um navio de aço gigante não afunda?", "Por que o navio boia?", ["boia?"], v("cargo ship ocean")),
+    ("O segredo é o empuxo. Tudo que entra na água empurra um pouco de água para o lado.", "O segredo: empuxo", ["empuxo"], a("💧", "A água empurra de volta")),
+    ("E a água empurra de volta para cima, com a mesma força do peso da água que saiu do lugar.", "A água empurra para cima", ["cima"], v("boat floating water")),
+    ("O casco do navio é oco, cheio de ar. Ele afasta tanta água que esse empurrão aguenta o peso todo.", "Casco oco, cheio de ar", ["oco,"], v("ship hull")),
+    ("Se você amassar o mesmo aço num bloco, ele afasta pouca água e afunda.", "Em bloco, afunda", ["afunda"], a("🧱", "Aço em bloco afunda")),
+    ("Por isso, quando entra água no casco, o navio fica mais pesado que o empurrão, e aí sim ele afunda.", "Entrou água? Afunda", ["água?"], v("ship sea storm")),
+])
+
+short("TerraGira", "A Terra gira a 1.600 km/h. Por que não sentimos?",
+      "Só sentimos quando a velocidade muda. A Terra gira sempre igual e leva tudo junto: chão, ar e você. #fisica #terra #espaco #curiosidades #ciencia",
+      "🌍", "Sentimos a mudança, não a velocidade.", [
+    ("A Terra gira a mais de mil e seiscentos quilômetros por hora. Por que a gente não sente nada?", "1.600 km/h e você nem sente", ["1.600"], v("earth rotating space")),
+    ("Primeiro: tudo gira junto. O chão, o ar, os prédios e você vão na mesma velocidade.", "Tudo gira junto", ["junto"], v("city timelapse")),
+    ("Segundo: o corpo não sente velocidade. Ele sente só quando a velocidade muda.", "O corpo sente a mudança", ["mudança"], a("🎢", "Sentimos só a mudança")),
+    ("É como num avião a novecentos quilômetros por hora: dá para tomar café tranquilo, sem derramar.", "Café a 900 km/h", ["900"], v("airplane cabin passengers")),
+    ("Você só sente na decolagem, na freada ou na turbulência.", "Só na decolagem e freada", ["decolagem"], v("airplane takeoff")),
+    ("E a Terra gira sempre igual, sem acelerar nem frear. Por isso, para você, parece que está tudo parado.", "Por isso parece parado", ["parado"], a("🌍", "Sempre na mesma velocidade")),
+])
+
+# temas em alta nas buscas do YouTube (01/10): pôr do sol, mar nunca enche, água e óleo
+short("PorDoSol", "Por que o pôr do sol é LARANJA?",
+      "No fim da tarde, a luz atravessa muito mais ar. O azul se espalha pelo caminho e só o laranja e o vermelho chegam até você. #fisica #pordosol #ceu #curiosidades #ciencia",
+      "🌅", "Sobram o laranja e o vermelho.", [
+    ("Se o céu é azul durante o dia, por que ele fica laranja no fim da tarde?", "Por que o pôr do sol é LARANJA?", ["LARANJA?"], v("sunset sky")),
+    ("A luz do Sol é branca, uma mistura de todas as cores.", "Luz branca = todas as cores", ["todas"], a("🌈", "Todas as cores juntas")),
+    ("No caminho, o ar espalha mais a luz azul. Por isso, de dia, o céu fica azul.", "O ar espalha o azul", ["azul"], v("blue sky clouds")),
+    ("No fim da tarde, o Sol está baixinho, e a luz atravessa muito mais ar até chegar em você.", "Muito mais ar no caminho", ["mais", "ar"], a("☀️", "Muito mais ar no caminho")),
+    ("Nesse caminho comprido, quase todo o azul se espalha antes e fica para trás.", "O azul fica para trás", ["trás"], v("sun setting horizon")),
+    ("Sobram o laranja e o vermelho. E com poeira ou fumaça no ar, o céu fica ainda mais vermelho.", "Sobra o laranja", ["laranja"], v("red sunset clouds")),
+])
+
+short("MarNuncaEnche", "Os rios não param de encher o mar. Por que ele NUNCA transborda?",
+      "O Sol evapora do mar quase a mesma quantidade de água que os rios e a chuva colocam. É o ciclo da água! #fisica #mar #cicloagua #curiosidades #ciencia",
+      "🌊", "Entra e sai a mesma quantidade.", [
+    ("Os rios despejam água no mar sem parar, todos os dias. Por que ele nunca transborda?", "Por que o mar nunca enche?", ["nunca"], v("river flowing into sea")),
+    ("Só o rio Amazonas joga mais de duzentos milhões de litros de água no mar por segundo.", "200 milhões de litros por segundo", ["200"], a("🌊", "200 milhões de litros por segundo")),
+    ("Mas o mar também perde água o tempo todo: o calor do Sol faz a água evaporar.", "O Sol evapora o mar", ["evapora"], v("ocean sunlight waves")),
+    ("Esse vapor sobe, vira nuvem e cai como chuva, em cima do mar e em cima da terra.", "Vira nuvem e chuva", ["chuva"], v("rain clouds timelapse")),
+    ("A chuva que cai na terra enche os rios, que levam a água de volta para o mar.", "Os rios devolvem a água", ["devolvem"], a("🔄", "O ciclo da água")),
+    ("Entra e sai quase a mesma quantidade. Por isso, o nível do mar fica praticamente igual.", "Entra e sai igual", ["igual"], v("ocean aerial view")),
+])
+
+short("AguaOleo", "Por que água e óleo NÃO se misturam?",
+      "A água gruda nela mesma como um ímã e empurra o óleo para fora. O detergente junta os dois! #fisica #quimica #curiosidades #ciencia #cozinha",
+      "💧", "A água só gruda em água.", [
+    ("Você pode mexer o quanto quiser: água e óleo sempre se separam. Por quê?", "Água e óleo não se misturam?", ["não"], v("oil and water")),
+    ("A molécula da água tem um lado mais positivo e outro mais negativo, como um ímã.", "A água é como um ímã", ["ímã"], a("🧲", "Um lado + e outro −")),
+    ("Por isso, as moléculas de água se agarram umas nas outras.", "Água gruda em água", ["gruda"], a("💧", "Água gruda em água")),
+    ("O óleo não tem esses lados. A água não se agarra nele e acaba empurrando o óleo para fora.", "O óleo é empurrado", ["empurrado"], v("oil drops in water")),
+    ("E como o óleo é mais leve que a água, ele fica boiando em cima.", "O óleo boia", ["boia"], v("pouring cooking oil")),
+    ("É por isso que o detergente funciona: ele tem uma ponta que gruda na água e outra que gruda na gordura.", "O detergente junta os dois", ["detergente"], v("washing dishes")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

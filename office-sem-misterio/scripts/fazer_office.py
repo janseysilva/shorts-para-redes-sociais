@@ -4,11 +4,14 @@ Uso (na pasta do projeto):
   python scripts/fazer_office.py word 1 narracao/w1.json videos/Short6_MalaDireta.mp4
   python scripts/fazer_office.py word 1 --previa 2,9,17,27   (só tira prints desses segundos, em previa/)
 """
+import shutil
 import json, os, subprocess, sys, tempfile
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 FFMPEG = Path(os.environ["LOCALAPPDATA"]) / "ffmpeg/ffmpeg-8.1.2-essentials_build/bin/ffmpeg.exe"
+if not FFMPEG.exists():  # em outro PC: usa o ffmpeg do PATH
+    FFMPEG = Path(shutil.which("ffmpeg"))
 os.chdir(RAIZ)
 
 

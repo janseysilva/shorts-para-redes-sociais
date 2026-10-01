@@ -1,0 +1,68 @@
+{
+ "id": "AguaOleo",
+ "titulo": "Por que água e óleo NÃO se misturam?",
+ "legenda": "A água gruda nela mesma como um ímã e empurra o óleo para fora. O detergente junta os dois! #fisica #quimica #curiosidades #ciencia #cozinha",
+ "final": {
+  "emoji": "💧",
+  "frase": "A água só gruda em água."
+ },
+ "frases": [
+  "Você pode mexer o quanto quiser: água e óleo sempre se separam. Por quê?",
+  "A molécula da água tem um lado mais positivo e outro mais negativo, como um ímã.",
+  "Por isso, as moléculas de água se agarram umas nas outras.",
+  "O óleo não tem esses lados. A água não se agarra nele e acaba empurrando o óleo para fora.",
+  "E como o óleo é mais leve que a água, ele fica boiando em cima.",
+  "É por isso que o detergente funciona: ele tem uma ponta que gruda na água e outra que gruda na gordura.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Água e óleo não se misturam?",
+   "destaque": [
+    "não"
+   ],
+   "busca": "oil and water"
+  },
+  {
+   "gancho": "A água é como um ímã",
+   "destaque": [
+    "ímã"
+   ],
+   "anim": {
+    "emoji": "🧲",
+    "texto": "Um lado + e outro −"
+   }
+  },
+  {
+   "gancho": "Água gruda em água",
+   "destaque": [
+    "gruda"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "Água gruda em água"
+   }
+  },
+  {
+   "gancho": "O óleo é empurrado",
+   "destaque": [
+    "empurrado"
+   ],
+   "busca": "oil drops in water"
+  },
+  {
+   "gancho": "O óleo boia",
+   "destaque": [
+    "boia"
+   ],
+   "busca": "pouring cooking oil"
+  },
+  {
+   "gancho": "O detergente junta os dois",
+   "destaque": [
+    "detergente"
+   ],
+   "busca": "washing dishes"
+  }
+ ]
+}

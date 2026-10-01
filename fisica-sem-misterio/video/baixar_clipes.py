@@ -1,16 +1,21 @@
 """Baixa os clipes do Pexels listados em clipes.json para public/clipes/ID_cena.mp4,
 grava a duração de cada um em public/clipes/duracoes.json e monta folhas de conferência (previa/clipes_ID.jpg).
-Uso: python baixar_clipes.py
+Uso: python baixar_clipes.py [ID ...]   (com IDs, baixa só os clipes desses shorts)
 """
-import json, os, subprocess, urllib.request
+import shutil
+import json, os, subprocess, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
 FF = Path(os.environ["LOCALAPPDATA"]) / "ffmpeg/ffmpeg-8.1.2-essentials_build/bin"
+if not FF.exists():  # em outro PC: usa o ffmpeg do PATH
+    FF = Path(shutil.which("ffmpeg")).parent
 DEST = RAIZ / "public" / "clipes"; DEST.mkdir(parents=True, exist_ok=True)
 PREV = RAIZ / "previa"; PREV.mkdir(exist_ok=True)
 clipes = json.loads((RAIZ / "clipes.json").read_text(encoding="utf-8"))
+if sys.argv[1:]:
+    clipes = {k: u for k, u in clipes.items() if k.rsplit("_", 1)[0] in sys.argv[1:]}
 
 
 def baixar(item):
@@ -28,7 +33,10 @@ def baixar(item):
 
 with ThreadPoolExecutor(6) as ex:
     dur = dict(ex.map(baixar, clipes.items()))
-(DEST / "duracoes.json").write_text(json.dumps(dur, indent=1), encoding="utf-8")
+arq = DEST / "duracoes.json"
+todas = json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else {}
+todas.update(dur)
+arq.write_text(json.dumps(todas, indent=1), encoding="utf-8")
 
 # uma folha por short com os quadros dos clipes
 for s in sorted({k.split("_")[0] for k in clipes}):

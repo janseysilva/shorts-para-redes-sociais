@@ -1,10 +1,13 @@
 """Monta pagina_shorts.html (página de vídeos do artifact) com a duração real de cada short."""
+import shutil
 import json, os, subprocess
 from pathlib import Path
 from html import escape
 
 RAIZ = Path(__file__).resolve().parent.parent
 FFPROBE = Path(os.environ["LOCALAPPDATA"]) / "ffmpeg/ffmpeg-8.1.2-essentials_build/bin/ffprobe.exe"
+if not FFPROBE.exists():  # em outro PC: usa o ffprobe do PATH
+    FFPROBE = Path(shutil.which("ffprobe"))
 
 SHORTS = [
  ("Excel", "Short1_PROCV.mp4", "PROCV: o nome aparece sozinho", "Digita a matrícula e o nome aparece sozinho (PROCV no Excel)", "PROCV em 30 segundos: busque o nome do aluno pela matrícula. Salva para usar no trabalho! #excel #planilha #procv #professor #dicasdeexcel"),

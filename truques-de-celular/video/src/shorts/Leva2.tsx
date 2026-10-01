@@ -8,14 +8,14 @@ import tGolpe from "../../public/GolpePix/tempos.json";
 import { Avatar, BarraApp, BarraStatus, Chave, Dedo, Linha, Short, VERDE, mola, tela, useT, type Gancho, type Passo as PassoDedo, type Tempos } from "../kit";
 import { Balao, FundoConversa, ListaConversas, TelaInicial } from "../telas";
 
-const WPP = "#075E54";
+export const WPP = "#075E54";
 /** centro (local) da linha i de uma lista de configurações (logo abaixo da barra do app) */
-const linhaY = (i: number) => 180 + 112 * i + 56;
+export const linhaY = (i: number) => 180 + 112 * i + 56;
 
-type Etapa = { desde: number; tela: (t: number) => React.ReactNode; toque?: [number, number] };
+export type Etapa = { desde: number; tela: (t: number) => React.ReactNode; toque?: [number, number] };
 
 /** Short feito de uma sequência de telas; o dedo toca em cada ponto "toque" um pouco antes da tela seguinte aparecer. */
-const ShortEtapas: React.FC<{ id: string; tempos: Tempos; etapas: Etapa[]; ganchos: Gancho[]; final: { emoji: string; frase: React.ReactNode };
+export const ShortEtapas: React.FC<{ id: string; tempos: Tempos; etapas: Etapa[]; ganchos: Gancho[]; final: { emoji: string; frase: React.ReactNode };
   fora?: React.ReactNode; sobre?: React.ReactNode }> = ({ id, tempos, etapas, ganchos, final, fora, sobre }) => {
   const C = tempos.cenas;
   const Tela: React.FC = () => {
@@ -36,7 +36,7 @@ const ShortEtapas: React.FC<{ id: string; tempos: Tempos; etapas: Etapa[]; ganch
 };
 
 // ---------- peças de tela ----------
-const Config: React.FC<{ titulo: string; linhas: [string, string, string?][]; marca?: number; cor?: string; direita?: (i: number) => React.ReactNode }> = ({
+export const Config: React.FC<{ titulo: string; linhas: [string, string, string?][]; marca?: number; cor?: string; direita?: (i: number) => React.ReactNode }> = ({
   titulo, linhas, marca = -1, cor = WPP, direita,
 }) => (
   <div style={{ position: "absolute", inset: 0, background: "#fff" }}>
@@ -45,22 +45,22 @@ const Config: React.FC<{ titulo: string; linhas: [string, string, string?][]; ma
     {linhas.map(([ic, ti, sub], i) => <Linha key={i} icone={ic} titulo={ti} sub={sub} destaque={i === marca} direita={direita?.(i)} />)}
   </div>
 );
-const Centro: React.FC<{ cor?: string; children: React.ReactNode }> = ({ cor = "#fff", children }) => (
+export const Centro: React.FC<{ cor?: string; children: React.ReactNode }> = ({ cor = "#fff", children }) => (
   <div style={{ position: "absolute", inset: 0, background: cor, display: "flex", flexDirection: "column", alignItems: "center",
     textAlign: "center", color: "#111", fontSize: 30, padding: "170px 40px 0" }}>
     <div style={{ position: "absolute", top: 0, left: 0, right: 0 }}><BarraStatus cor="transparent" claro={cor !== "#fff"} /></div>{children}</div>
 );
-const Botao: React.FC<{ texto: string; cor?: string; y?: number }> = ({ texto, cor = VERDE, y = 800 }) => (
+export const Botao: React.FC<{ texto: string; cor?: string; y?: number }> = ({ texto, cor = VERDE, y = 800 }) => (
   <div style={{ position: "absolute", left: 95, right: 95, top: y - 45, height: 90, borderRadius: 45, background: cor, color: "#fff", fontSize: 32,
     fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center" }}>{texto}</div>
 );
-const Pontos: React.FC<{ n: number; total?: number }> = ({ n, total = 6 }) => (
+export const Pontos: React.FC<{ n: number; total?: number }> = ({ n, total = 6 }) => (
   <div style={{ display: "flex", gap: 22, margin: "40px 0", justifyContent: "center" }}>
     {Array.from({ length: total }).map((_, i) => <div key={i} style={{ width: 40, height: 40, borderRadius: 20, border: "4px solid #075E54",
       background: i < n ? "#075E54" : "transparent" }} />)}
   </div>
 );
-const Aviso: React.FC<{ emoji: string; titulo: string; texto: React.ReactNode; cor?: string; desde: number }> = ({ emoji, titulo, texto, cor = "#e53935", desde }) => {
+export const Aviso: React.FC<{ emoji: string; titulo: string; texto: React.ReactNode; cor?: string; desde: number }> = ({ emoji, titulo, texto, cor = "#e53935", desde }) => {
   const { frame, fps } = useT();
   const e = mola(frame, desde, fps, 13);
   return (
@@ -135,7 +135,7 @@ const Audio: React.FC<{ t: number; mostra: boolean; desde: number }> = ({ t, mos
       : <div style={{ marginTop: 10, fontSize: 26, color: "#0a7d5a", fontWeight: 700 }}>Transcrever</div>}
   </div>} />
 );
-const Conversa: React.FC<{ nome: string; letra: string; cor: string; children: React.ReactNode }> = ({ nome, letra, cor, children }) => (
+export const Conversa: React.FC<{ nome: string; letra: string; cor: string; children: React.ReactNode }> = ({ nome, letra, cor, children }) => (
   <FundoConversa><BarraStatus /><div style={{ height: 130, background: WPP, display: "flex", alignItems: "center", gap: 18, padding: "0 24px", color: "#fff" }}>
     <span style={{ fontSize: 36 }}>←</span><Avatar letra={letra} cor={cor} tam={70} /><span style={{ fontSize: 32, fontWeight: 700 }}>{nome}</span></div>
     <div style={{ paddingTop: 20 }}>{children}</div></FundoConversa>
