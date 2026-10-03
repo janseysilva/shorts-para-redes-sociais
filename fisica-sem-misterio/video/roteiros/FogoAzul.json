@@ -1,0 +1,68 @@
+{
+ "id": "FogoAzul",
+ "titulo": "Por que o fogo do fogão é AZUL? 🔥",
+ "legenda": "Com bastante ar, o gás queima por completo e a chama fica azul. Chama amarela no fogão é queima ruim: limpe a boca! #fisica #fogo #fogao #curiosidades #ciencia",
+ "final": {
+  "emoji": "🔥",
+  "frase": "Azul é queima completa."
+ },
+ "frases": [
+  "Por que o fogo do fogão é azul, e a fogueira é amarela?",
+  "No fogão, o gás se mistura bem com o ar antes de queimar.",
+  "Com bastante oxigênio, a queima é completa: a chama fica azul e muito quente.",
+  "Na vela e na fogueira, falta ar na mistura. Sobram pedacinhos de carvão que brilham amarelo.",
+  "Por isso, se o fogo do seu fogão ficar amarelo, ele está queimando mal.",
+  "Pode ser boca suja ou entupida. Limpar resolve e ainda economiza gás.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o fogo é AZUL?",
+   "destaque": [
+    "AZUL?"
+   ],
+   "busca": "gas stove flame"
+  },
+  {
+   "gancho": "Gás + muito ar",
+   "destaque": [
+    "ar"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "Gás + muito ar"
+   }
+  },
+  {
+   "gancho": "Queima completa = azul",
+   "destaque": [
+    "azul"
+   ],
+   "busca": "blue flame"
+  },
+  {
+   "gancho": "Falta ar = amarelo",
+   "destaque": [
+    "amarelo"
+   ],
+   "busca": "campfire flames"
+  },
+  {
+   "gancho": "Fogão amarelo? Atenção",
+   "destaque": [
+    "Atenção"
+   ],
+   "anim": {
+    "emoji": "⚠️",
+    "texto": "Chama amarela = queima ruim"
+   }
+  },
+  {
+   "gancho": "Limpe e economize gás",
+   "destaque": [
+    "economize"
+   ],
+   "busca": "cleaning stove"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "OvoMicro",
+ "titulo": "Por que o ovo EXPLODE no micro-ondas? 🥚",
+ "legenda": "O micro-ondas transforma a água do ovo em vapor, e a casca não deixa sair. A pressão sobe até estourar! #fisica #ovo #microondas #curiosidades #cozinha",
+ "final": {
+  "emoji": "🥚",
+  "frase": "Vapor preso estoura o ovo."
+ },
+ "frases": [
+  "Já viu ovo explodir no micro-ondas? Tem explicação.",
+  "O micro-ondas esquenta a água que está dentro da comida.",
+  "Dentro do ovo, essa água vira vapor, mas a casca e a película não deixam o vapor sair.",
+  "A pressão vai subindo, subindo, até o ovo estourar. Às vezes só quando você mexe nele.",
+  "É a mesma ideia da pipoca: a água vira vapor e estoura o grão.",
+  "Para não ter susto, faz furinhos na gema e na clara, ou cozinha o ovo na panela.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o ovo EXPLODE?",
+   "destaque": [
+    "EXPLODE?"
+   ],
+   "busca": "egg cracking"
+  },
+  {
+   "gancho": "Ele esquenta a água",
+   "destaque": [
+    "água"
+   ],
+   "anim": {
+    "emoji": "📡",
+    "texto": "Ele esquenta a água"
+   }
+  },
+  {
+   "gancho": "Vapor preso na casca",
+   "destaque": [
+    "preso"
+   ],
+   "anim": {
+    "emoji": "🥚",
+    "texto": "Vapor preso na casca"
+   }
+  },
+  {
+   "gancho": "A pressão sobe até estourar",
+   "destaque": [
+    "estourar"
+   ],
+   "busca": "boiled egg"
+  },
+  {
+   "gancho": "Igual à pipoca",
+   "destaque": [
+    "pipoca"
+   ],
+   "busca": "popcorn popping"
+  },
+  {
+   "gancho": "Fure antes ou use a panela",
+   "destaque": [
+    "Fure"
+   ],
+   "busca": "frying egg pan"
+  }
+ ]
+}

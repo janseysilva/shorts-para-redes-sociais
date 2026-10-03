@@ -1,0 +1,68 @@
+{
+ "id": "RastroAviao",
+ "titulo": "Que FUMAÇA é essa que o avião deixa no céu? ✈️",
+ "legenda": "Não é fumaça: é uma nuvem! O vapor do motor congela a 50 graus abaixo de zero e vira cristais de gelo. #fisica #aviao #ceu #curiosidades #ciencia",
+ "final": {
+  "emoji": "✈️",
+  "frase": "É uma nuvem feita pelo avião."
+ },
+ "frases": [
+  "Aquela linha branca que o avião deixa no céu não é fumaça.",
+  "Lá em cima, a uns dez quilômetros de altura, faz uns cinquenta graus abaixo de zero.",
+  "O motor solta gás quente cheio de vapor de água.",
+  "Esse vapor congela na hora e vira cristaizinhos de gelo. É uma nuvem feita pelo avião!",
+  "Se o ar estiver seco, o rastro some rápido. Se estiver úmido, ele dura e se espalha.",
+  "Por isso tem dia que o céu fica cheio de riscos, e tem dia que não aparece nenhum.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Não é fumaça!",
+   "destaque": [
+    "fumaça!"
+   ],
+   "busca": "airplane contrail sky"
+  },
+  {
+   "gancho": "−50 °C lá em cima",
+   "destaque": [
+    "−50"
+   ],
+   "anim": {
+    "emoji": "🥶",
+    "texto": "−50 °C lá em cima"
+   }
+  },
+  {
+   "gancho": "O motor solta vapor",
+   "destaque": [
+    "vapor"
+   ],
+   "anim": {
+    "emoji": "✈️",
+    "texto": "Motor solta vapor quente"
+   }
+  },
+  {
+   "gancho": "Uma nuvem de gelo",
+   "destaque": [
+    "nuvem"
+   ],
+   "busca": "contrail"
+  },
+  {
+   "gancho": "Ar úmido, rastro longo",
+   "destaque": [
+    "úmido,"
+   ],
+   "busca": "blue sky airplane"
+  },
+  {
+   "gancho": "Céu cheio de riscos",
+   "destaque": [
+    "riscos"
+   ],
+   "busca": "airplane flying sky"
+  }
+ ]
+}

@@ -53,6 +53,13 @@ import tClonado from "../public/Clonado/tempos.json";
 import tLetrasWhatsApp from "../public/LetrasWhatsApp/tempos.json";
 import tViciCelular from "../public/ViciCelular/tempos.json";
 
+import { MsgApagadas, CelularRapido, Bloqueado, Backup, Enquete } from "./shorts/Leva5";
+import tMsgApagadas from "../public/MsgApagadas/tempos.json";
+import tCelularRapido from "../public/CelularRapido/tempos.json";
+import tBloqueado from "../public/Bloqueado/tempos.json";
+import tBackup from "../public/Backup/tempos.json";
+import tEnquete from "../public/Enquete/tempos.json";
+
 export const FPS = 30;
 
 // Cada short: id (= pasta em public/), componente e tempos da narração
@@ -87,6 +94,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["Clonado", Clonado, tClonado],
   ["LetrasWhatsApp", LetrasWhatsApp, tLetrasWhatsApp],
   ["ViciCelular", ViciCelular, tViciCelular],
+  ["MsgApagadas", MsgApagadas, tMsgApagadas],
+  ["CelularRapido", CelularRapido, tCelularRapido],
+  ["Bloqueado", Bloqueado, tBloqueado],
+  ["Backup", Backup, tBackup],
+  ["Enquete", Enquete, tEnquete],
 ];
 
 export const Root: React.FC = () => (

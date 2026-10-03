@@ -1,0 +1,71 @@
+{
+ "id": "OvoBoia",
+ "titulo": "O teste do ovo: por que o ovo velho BOIA? 🥚",
+ "legenda": "A casca tem milhares de furinhos. Com o tempo sai água, entra ar, e o ovo fica mais leve. Boiou? Melhor não usar! #fisica #ovo #cozinha #curiosidades #dicas",
+ "final": {
+  "emoji": "🥚",
+  "frase": "Boiou? Melhor não usar."
+ },
+ "frases": [
+  "Coloca o ovo num copo de água. Se ele boiar, cuidado!",
+  "A casca do ovo tem milhares de furinhos que você não vê.",
+  "Com o tempo, a água de dentro evapora por esses furinhos e entra ar no lugar.",
+  "A bolsa de ar dentro do ovo vai crescendo, e o ovo fica mais leve.",
+  "Ovo fresco afunda e deita. Ovo mais velho fica em pé. E se boiar, é melhor não usar.",
+  "É o mesmo motivo do navio: quanto mais ar dentro, mais fácil boiar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O teste do ovo",
+   "destaque": [
+    "ovo"
+   ],
+   "busca": "egg in water glass"
+  },
+  {
+   "gancho": "Milhares de furinhos",
+   "destaque": [
+    "furinhos"
+   ],
+   "anim": {
+    "emoji": "🔍",
+    "texto": "Milhares de furinhos"
+   }
+  },
+  {
+   "gancho": "Sai água, entra ar",
+   "destaque": [
+    "ar"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "Sai água, entra ar"
+   }
+  },
+  {
+   "gancho": "A bolha de ar cresce",
+   "destaque": [
+    "cresce"
+   ],
+   "anim": {
+    "emoji": "🎈",
+    "texto": "A bolha de ar cresce"
+   }
+  },
+  {
+   "gancho": "Boiou? Não use",
+   "destaque": [
+    "Boiou?"
+   ],
+   "busca": "fresh eggs"
+  },
+  {
+   "gancho": "Mais ar, mais boia",
+   "destaque": [
+    "boia"
+   ],
+   "busca": "eggs kitchen"
+  }
+ ]
+}

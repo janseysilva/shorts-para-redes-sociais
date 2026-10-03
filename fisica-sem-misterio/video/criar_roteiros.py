@@ -293,6 +293,62 @@ short("TamanhoLua", "A Lua é MENOR que o Brasil? 🌙",
     ("Ela também se afasta da Terra uns quatro centímetros por ano.", "Ela está indo embora", ["embora"], v("moon clouds night")),
 ])
 
+# ---------- LEVA 4 (02/10): "por que" de coisas do dia a dia (o que mais teve visualização: gelo, navio, raio, água e óleo) ----------
+short("VidroEmbaca", "Por que o vidro do carro EMBAÇA? 🚗",
+      "A respiração solta vapor, que vira gotinhas no vidro frio. O ar-condicionado seca o ar e desembaça rapidinho! #fisica #carro #curiosidades #ciencia #diaadia",
+      "🚗", "Vapor + vidro frio = embaçado.", [
+    ("Por que o vidro do carro embaça quando chove ou quando tem muita gente dentro?", "Por que o vidro EMBAÇA?", ["EMBAÇA?"], v("foggy car window")),
+    ("A respiração das pessoas solta vapor de água, que é invisível.", "Vapor que você não vê", ["vapor"], a("💨", "Vapor de água invisível")),
+    ("Quando esse vapor encosta no vidro gelado, ele esfria e vira gotinhas.", "Vidro frio = gotinhas", ["gotinhas"], a("💧", "Vapor + vidro frio = gotas")),
+    ("São milhões de gotinhas minúsculas, e elas espalham a luz. Por isso você não enxerga nada.", "Milhões de gotinhas", ["Milhões"], v("rain car window")),
+    ("Para tirar rápido, liga o ar-condicionado no vidro: ele seca o ar.", "Ar-condicionado seca o ar", ["seca"], v("car air conditioning")),
+    ("E abrir um pouquinho a janela também ajuda, porque iguala a temperatura de dentro e de fora.", "Abra um pouco a janela", ["janela"], v("driving car rain")),
+])
+
+short("OvoMicro", "Por que o ovo EXPLODE no micro-ondas? 🥚",
+      "O micro-ondas transforma a água do ovo em vapor, e a casca não deixa sair. A pressão sobe até estourar! #fisica #ovo #microondas #curiosidades #cozinha",
+      "🥚", "Vapor preso estoura o ovo.", [
+    ("Já viu ovo explodir no micro-ondas? Tem explicação.", "Por que o ovo EXPLODE?", ["EXPLODE?"], v("egg cracking")),
+    ("O micro-ondas esquenta a água que está dentro da comida.", "Ele esquenta a água", ["água"], a("📡", "Ele esquenta a água")),
+    ("Dentro do ovo, essa água vira vapor, mas a casca e a película não deixam o vapor sair.", "Vapor preso na casca", ["preso"], a("🥚", "Vapor preso na casca")),
+    ("A pressão vai subindo, subindo, até o ovo estourar. Às vezes só quando você mexe nele.", "A pressão sobe até estourar", ["estourar"], v("boiled egg")),
+    ("É a mesma ideia da pipoca: a água vira vapor e estoura o grão.", "Igual à pipoca", ["pipoca"], v("popcorn popping")),
+    ("Para não ter susto, faz furinhos na gema e na clara, ou cozinha o ovo na panela.", "Fure antes ou use a panela", ["Fure"], v("frying egg pan")),
+])
+
+short("FogoAzul", "Por que o fogo do fogão é AZUL? 🔥",
+      "Com bastante ar, o gás queima por completo e a chama fica azul. Chama amarela no fogão é queima ruim: limpe a boca! #fisica #fogo #fogao #curiosidades #ciencia",
+      "🔥", "Azul é queima completa.", [
+    ("Por que o fogo do fogão é azul, e a fogueira é amarela?", "Por que o fogo é AZUL?", ["AZUL?"], v("gas stove flame")),
+    ("No fogão, o gás se mistura bem com o ar antes de queimar.", "Gás + muito ar", ["ar"], a("💨", "Gás + muito ar")),
+    ("Com bastante oxigênio, a queima é completa: a chama fica azul e muito quente.", "Queima completa = azul", ["azul"], v("blue flame")),
+    ("Na vela e na fogueira, falta ar na mistura. Sobram pedacinhos de carvão que brilham amarelo.", "Falta ar = amarelo", ["amarelo"], v("campfire flames")),
+    ("Por isso, se o fogo do seu fogão ficar amarelo, ele está queimando mal.", "Fogão amarelo? Atenção", ["Atenção"], a("⚠️", "Chama amarela = queima ruim")),
+    ("Pode ser boca suja ou entupida. Limpar resolve e ainda economiza gás.", "Limpe e economize gás", ["economize"], v("cleaning stove")),
+])
+
+short("OvoBoia", "O teste do ovo: por que o ovo velho BOIA? 🥚",
+      "A casca tem milhares de furinhos. Com o tempo sai água, entra ar, e o ovo fica mais leve. Boiou? Melhor não usar! #fisica #ovo #cozinha #curiosidades #dicas",
+      "🥚", "Boiou? Melhor não usar.", [
+    ("Coloca o ovo num copo de água. Se ele boiar, cuidado!", "O teste do ovo", ["ovo"], v("egg in water glass")),
+    ("A casca do ovo tem milhares de furinhos que você não vê.", "Milhares de furinhos", ["furinhos"], a("🔍", "Milhares de furinhos")),
+    ("Com o tempo, a água de dentro evapora por esses furinhos e entra ar no lugar.", "Sai água, entra ar", ["ar"], a("💨", "Sai água, entra ar")),
+    ("A bolsa de ar dentro do ovo vai crescendo, e o ovo fica mais leve.", "A bolha de ar cresce", ["cresce"], a("🎈", "A bolha de ar cresce")),
+    ("Ovo fresco afunda e deita. Ovo mais velho fica em pé. E se boiar, é melhor não usar.", "Boiou? Não use", ["Boiou?"], v("fresh eggs")),
+    ("É o mesmo motivo do navio: quanto mais ar dentro, mais fácil boiar.", "Mais ar, mais boia", ["boia"], v("eggs kitchen")),
+])
+
+short("RastroAviao", "Que FUMAÇA é essa que o avião deixa no céu? ✈️",
+      "Não é fumaça: é uma nuvem! O vapor do motor congela a 50 graus abaixo de zero e vira cristais de gelo. #fisica #aviao #ceu #curiosidades #ciencia",
+      "✈️", "É uma nuvem feita pelo avião.", [
+    ("Aquela linha branca que o avião deixa no céu não é fumaça.", "Não é fumaça!", ["fumaça!"], v("airplane contrail sky")),
+    ("Lá em cima, a uns dez quilômetros de altura, faz uns cinquenta graus abaixo de zero.", "−50 °C lá em cima", ["−50"], a("🥶", "−50 °C lá em cima")),
+    ("O motor solta gás quente cheio de vapor de água.", "O motor solta vapor", ["vapor"], a("✈️", "Motor solta vapor quente")),
+    ("Esse vapor congela na hora e vira cristaizinhos de gelo. É uma nuvem feita pelo avião!", "Uma nuvem de gelo", ["nuvem"], v("contrail")),
+    ("Se o ar estiver seco, o rastro some rápido. Se estiver úmido, ele dura e se espalha.", "Ar úmido, rastro longo", ["úmido,"], v("blue sky airplane")),
+    ("Por isso tem dia que o céu fica cheio de riscos, e tem dia que não aparece nenhum.", "Céu cheio de riscos", ["riscos"], v("airplane flying sky")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -65,3 +65,9 @@ Formato dos virais (busca do YouTube, 01/10): "FUNÇÕES SECRETAS do WhatsApp" 4
 Código: `src/shorts/Leva4.tsx` (usa `Chamada`, `Checklist`, `CFG` exportados de Leva3 e `Marca` de Leva2). Roteiros: `roteiros_leva4.py`.
 26 FuncoesSecretas '3 FUNÇÕES SECRETAS do WhatsApp 🤫' · 27 GolpeAdvogado 'NOVO GOLPE: mande pra sua mãe 🚨 (falso advogado)' · 28 Clonado 'Seu WhatsApp foi CLONADO? Veja em 10 segundos 🔍' · 29 LetrasWhatsApp 'Letras diferentes no WhatsApp: negrito, riscado e mais ✍️' · 30 ViciCelular 'Viciado no celular? Deixe a tela em preto e branco ⚫'.
 - Troca de canal no Chrome: youtube.com/channel_switcher → clicar no avatar do canal. Às vezes o Studio mostra "Ops, você não tem permissão" logo depois: repetir a troca e abrir o Studio de novo.
+
+## LEVA 5 — shorts 31 a 35 (02/10; PUBLICADA em 02/10 — Jansey autorizou: "publique todos")
+Escolhidos pelas visualizações de 02/10 (WhatsApp e hábitos ganham: vício 499, letras 269, clonado 250, funções secretas 247; golpe do falso advogado só 19).
+`roteiros_leva5.py` + `src/shorts/Leva5.tsx` (MsgApagadas, CelularRapido, Bloqueado, Backup, Enquete; `Grande` agora é exportado da Leva4). Saída `out/Celular31_MsgApagadas` … `Celular35_Enquete` + cópias em `out/upload/`.
+Títulos: 31 'Como ver MENSAGEM APAGADA no WhatsApp 👀' · 32 'Celular LENTO? Deixe mais rápido em 10 segundos ⚡' · 33 'Como saber se alguém te BLOQUEOU no WhatsApp 🚫' · 34 'Vai trocar de celular? NÃO perca o WhatsApp 📲' · 35 'ENQUETE no WhatsApp: acabou a bagunça no grupo 📊'.
+- Publicação 02/10: o JS de finalizar agora clica sozinho em "Publicar mesmo assim" (procura o botão pelo texto) depois do #done-button. As refs do find mudam entre canais (ex.: ref_207/211/212 no arquivo, ref_258/262/267 no título): sempre rodar find antes. Se a extensão cair no meio, conferir a tela antes de repetir (o vídeo pode já ter sido publicado).

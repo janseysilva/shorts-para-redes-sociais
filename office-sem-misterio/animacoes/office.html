@@ -745,7 +745,118 @@ function P10(t){
   if(t>=19){S.canvas=pptView(morph(1),[morph(0),morph(1)],1);}
   S.cap=t<7?'Monto o slide e duplico<br>com <span class="k3">Ctrl + D</span>':t<11?'No segundo, mudo tudo<br>de lugar e de tamanho.':t<14.5?'Transições ›<br><span class="k3">Transformar</span>':'Funciona com texto,<br>formas e fotos.';
 }
-const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10]};
+/* --- leva 5 (02/10): estoque que avisa, preço de venda, zoom de slide, quiz, currículo --- */
+const EST=[['Produto','Qtd','Mínimo','Situação'],['Arroz 5 kg',12,10],['Feijão 1 kg',4,10],['Café 500 g',18,8],['Óleo 900 ml',3,6],['Açúcar 1 kg',9,5],['Leite 1 L',20,12]];
+function X11(t){
+  S.title='Estoque.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';
+  if(t>=22)return endCard('Estoque que avisa<br>quando acabar.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Estoque que <em>avisa</em><br>quando acabar':'Controle de estoque<br><em>no Excel</em>';
+  const arroz=t>=19.8?4:12;
+  const qtd=i=>i===1?arroz:EST[i][1];
+  const sit=i=>qtd(i)<=EST[i][2]?'COMPRAR':'OK';
+  const F='=SE(B2<=C2;"COMPRAR";"OK")';
+  const cheias=t<3?6:t<12?0:t<12.6?1:Math.min(6,1+Math.floor((t-12.6)*4));
+  const verm=t<3||t>=17.4;
+  const rows=EST.map((r,i)=>i===0?r.slice():[r[0],(i===1&&t>=19.2&&t<19.8)?typed('4',19.2,t,4)+CARET:qtd(i),r[2],i<=cheias?sit(i):'']);
+  const escr=t>=7&&t<12;
+  if(escr)rows[1][3]=typed(F,7.4,t,6)+CARET;
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>0&&c<3?'num':'ctr';if(escr&&t>=9&&r===1&&(c===1||c===2))k+=' ref1';
+    if(verm&&r>0&&r<=cheias&&sit(r)==='COMPRAR')k+=' neg';if(r===1&&c===3&&t>=19.8&&t<21.4)k+=' flash';return k};
+  let rib=btn('Colar')+btn('Fonte')+btn('Formatação Condicional',st(t,15.7,16.3));
+  S.rib=rib;
+  if(t>=16.4&&t<17.4)S.ov=dlg('Texto que Contém','<div>Formatar células que contêm o texto:</div><div class="it on">COMPRAR</div><div>com <b style="color:#9c0006;background:#ffc7ce;padding:2px 8px">Preenchimento Vermelho Claro</b></div>',btn('OK',t>=17?'press':'')+btn('Cancelar'));
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([280,120,150,230],rows,{cls,sel:escr?[1,3]:t>=19.2&&t<19.8?[1,1]:null,fx:escr?F:''})}</div>`;
+  S.cap=t<3?'Acabando? Fica vermelho.':t<7?'Produto, quantidade<br>e estoque mínimo.':t<12?'<span class="k3">=SE(</span> qtd menor ou igual<br>ao mínimo: COMPRAR':t<15.5?'Arrasto para baixo:<br>confere tudo.':t<19?'Formatação Condicional:<br><span class="k3">COMPRAR</span> fica vermelho.':'Vendeu? A situação<br>muda sozinha.';
+}
+const PRC=[['Produto','Custo','Lucro','Preço'],['Brigadeiro (cento)',40,0.5],['Bolo de pote',6,0.6],['Camiseta',25,0.8],['Chaveiro',3,1],['Caneca',12,0.75]];
+const brl2=v=>'R$ '+v.toFixed(2).replace('.',',');
+function X12(t){
+  S.title='Precificacao.xlsx - Excel';S.tabs=XTABS;S.tab='Fórmulas';S.rib=btn('Inserir Função')+btn('AutoSoma')+btn('Porcentagem %');
+  if(t>=22)return endCard('Preço de venda<br>sem conta de cabeça.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Preço de venda<br><em>calculado sozinho</em>':'Precificação<br><em>no Excel</em>';
+  const custo=i=>i===1&&t>=16.4?45:PRC[i][1];
+  const F='=B2*(1+C2)';
+  const cheias=t<3?5:t<12?0:t<12.6?1:Math.min(5,1+Math.floor((t-12.6)*4));
+  const rows=PRC.map((r,i)=>i===0?r.slice():[r[0],(i===1&&t>=15.8&&t<16.4)?typed('45',15.8,t,5)+CARET:brl2(custo(i)),Math.round(r[2]*100)+'%',i<=cheias?brl2(custo(i)*(1+r[2])):'']);
+  const escr=t>=7&&t<12;
+  if(escr)rows[1][3]=typed(F,7.4,t,3)+CARET;
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>0?'num':'';if(escr&&t>=8.4&&r===1&&c===1)k+=' ref1';if(escr&&t>=10&&r===1&&c===2)k+=' ref2';
+    if(c===3&&r===1&&((t>=12&&t<13)||(t>=16.4&&t<18.2)))k+=' flash';return k};
+  if(t>=19){S.canvas=`<div style="position:absolute;inset:0;background:#fff7ef;display:flex;align-items:center;justify-content:center;gap:50px;font-size:150px">🍫<span>👕</span>🧶</div>`;S.cap='Doces, roupas,<br>artesanato...';return}
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([300,170,120,190],rows,{cls,sel:escr?[1,3]:t>=15.8&&t<16.4?[1,1]:null,fx:escr?F:''})}</div>`;
+  S.cap=t<3?'Coloca o custo,<br>sai o preço.':t<7?'Custo de cada produto<br>e o lucro que eu quero.':t<12?'<span class="k3">=B2*(1+C2)</span><br>custo × (1 + lucro)':t<15.5?'Arrasto para baixo:<br>todos os preços.':'Mudou o custo?<br>O preço muda na hora.';
+}
+const TEMAS=[['Metas 2026','#c43e1c','🎯'],['Vendas','#2b579a','📈'],['Equipe','#107c41','👥'],['Próximos passos','#7a3db8','🚀']];
+const temaSl=i=>`<div class="sl" style="background:${TEMAS[i][1]}"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff"><div style="font-size:110px">${TEMAS[i][2]}</div><div style="font:bold 54px 'Segoe UI'">${TEMAS[i][0]}</div></div></div>`;
+const resumo=(sel)=>`<div style="position:absolute;inset:0;background:#f4f4f4"></div><div style="position:absolute;left:30px;top:16px;font:bold 34px 'Segoe UI';color:#222">Resumo</div>`+
+  TEMAS.map((x,i)=>`<div style="position:absolute;left:${40+(i%2)*370}px;top:${70+Math.floor(i/2)*190}px;width:350px;height:170px;overflow:hidden;border:${sel===i?'6px solid #ffc53d':'3px solid #ccc'}"><div style="width:800px;height:450px;transform:scale(.4375);transform-origin:0 0">${temaSl(i)}</div></div>`).join('');
+function P11(t){
+  S.title='Reuniao.pptx - PowerPoint';
+  if(t>=22)return endCard('Apresentação<br>com zoom.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Slide que dá <em>zoom</em><br>no outro':'Zoom de Resumo<br><em>no PowerPoint</em>';
+  const full=(inner)=>{S.ovTop=`<div class="full"><div style="position:absolute;left:0;top:243px;width:800px;height:450px;transform:scale(1.275);transform-origin:0 0"><div class="slide">${inner}</div></div></div>`};
+  const zoomEm=(i,k)=>{const x=40+(i%2)*370,y=70+Math.floor(i/2)*190,s=0.4375;const sc=1+(1/s-1)*sm(k);
+    return `<div style="position:absolute;inset:0;transform-origin:${x+175}px ${y+85}px;transform:translate(${(400-(x+175))*sm(k)}px,${(225-(y+85))*sm(k)}px) scale(${sc})">${resumo(i)}</div>`};
+  if(t<3||(t>=14.5&&t<22)){
+    const L=t<3?t:t-14.5;const c=L%3.2;const i=t<3?1:Math.floor(L/3.2)%4;
+    const k=c<0.8?0:c<1.6?(c-0.8)/0.8:c<2.4?1:1-(c-2.4)/0.8;
+    S.tab='Página Inicial';S.rib=btn('Novo Slide');S.canvas=pptView(resumo(-1),[resumo(-1)],0);
+    full(k>=0.99?temaSl(i):zoomEm(i,k));
+    S.cap=t<3?'Parece um mapa.':t<19?'Clico no quadro:<br>zoom direto no slide.':'No fim, volta<br>para o resumo sozinho.';return}
+  let tab='Página Inicial',rib=btn('Novo Slide')+btn('Layout')+btn('Organizar');
+  if(t>=7){tab='Inserir';const m=t>=8.6&&t<10.6?menu(['Zoom de Resumo','Zoom de Seção','Zoom de Slide'],t>=9.6?'Zoom de Resumo':''):'';rib=btn('Imagens')+btn('Formas')+btn('Zoom',st(t,7.6,8.4),m)+btn('Link')}
+  S.tabs=PTABS;S.tab=tab;S.rib=rib;
+  const thumbs=TEMAS.map((_,i)=>temaSl(i));
+  if(t<11){S.canvas=pptView(temaSl(0),thumbs,0);S.cap=t<7?'Uma apresentação<br>com vários temas.':'Inserir › Zoom ›<br><span class="k3">Zoom de Resumo</span>';return}
+  if(t<12.6){S.canvas=pptView(temaSl(0),thumbs,0);S.ov=dlg('Inserir Zoom de Resumo','<div>Selecione as seções ou os slides:</div>'+TEMAS.map((x,i)=>`<div class="it ${t>=11.2+i*0.3?'on':''}">${t>=11.2+i*0.3?'☑':'☐'} ${i+2}. ${x[0]}</div>`).join(''),btn('Inserir',t>=12.3?'press':''));S.cap='Escolho os slides.';return}
+  S.canvas=pptView(resumo(-1),[resumo(-1),...thumbs],0);S.cap='Ele monta uma capa<br>com todos eles.';
+}
+const QUIZ=['Rio de Janeiro','Brasília','São Paulo'];
+const quizSl=(hl)=>`<div style="position:absolute;inset:0;background:linear-gradient(135deg,#1e3a8a,#7c3aed)"></div><div style="position:absolute;left:0;right:0;top:40px;text-align:center;color:#fff;font:bold 44px 'Segoe UI'">Qual é a capital do Brasil?</div>`+
+  QUIZ.map((x,i)=>`<div style="position:absolute;left:150px;top:${140+i*95}px;width:500px;height:75px;border-radius:40px;background:${hl===i?'#ffc53d':'#fff'};color:#1e3a8a;font:bold 32px 'Segoe UI';display:flex;align-items:center;justify-content:center;${hl===i?'box-shadow:0 0 0 6px rgba(255,197,61,.5)':''}">${'ABC'[i]}) ${x}</div>`).join('');
+const certo=`<div style="position:absolute;inset:0;background:#16a34a;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff"><div style="font-size:150px">🎉</div><div style="font:bold 70px 'Segoe UI'">Acertou!</div></div>`;
+const errado=`<div style="position:absolute;inset:0;background:#dc2626;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff"><div style="font-size:150px">😅</div><div style="font:bold 64px 'Segoe UI'">Tente de novo</div></div>`;
+function P12(t){
+  S.title='Quiz.pptx - PowerPoint';
+  if(t>=22)return endCard('Quiz pronto<br>no PowerPoint.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Jogo de perguntas<br><em>no PowerPoint</em>':'Quiz com botões<br><em>no PowerPoint</em>';
+  const full=(inner)=>{S.ovTop=`<div class="full"><div style="position:absolute;left:0;top:243px;width:800px;height:450px;transform:scale(1.275);transform-origin:0 0"><div class="slide">${inner}</div></div></div>`};
+  if(t<3){full(t<1.4?quizSl(t>=0.8?1:-1):certo);S.canvas=pptView(quizSl(-1),[quizSl(-1),certo,errado],0);S.cap='Clicou na resposta,<br>mostra se acertou.';return}
+  if(t>=15.5&&t<19){full(t<16.6?quizSl(-1):t<17.2?quizSl(1):certo);S.canvas=pptView(quizSl(-1),[quizSl(-1),certo,errado],0);S.cap='Na apresentação,<br>é só clicar!';return}
+  let tab='Página Inicial',rib=btn('Novo Slide')+btn('Layout');
+  const sel=t>=7&&t<13.4?1:t>=13.4&&t<15.5?0:-1;
+  if(t>=8.2&&t<15.5){tab='Inserir';rib=btn('Imagens')+btn('Formas')+btn('Link',st(t,8.8,9.6))+btn('Ação')}
+  S.tabs=PTABS;S.tab=tab;S.rib=rib;
+  S.canvas=pptView(quizSl(sel),[quizSl(-1),certo,errado],0);
+  if(t>=10&&t<15.5){const alvo=t>=13.6?'Slide 3: Tente de novo':'Slide 2: Acertou!';
+    S.ov=dlg('Inserir Hiperlink',`<div><b>Colocar neste documento</b></div>`+['Slide 1: Pergunta','Slide 2: Acertou!','Slide 3: Tente de novo'].map(x=>`<div class="it ${x===alvo&&(t>=11.4)?'on':''}">${x}</div>`).join(''),btn('OK',(t>=12.6&&t<13.4)||t>=14.8?'press':''));}
+  S.cap=t<7?'Pergunta e três respostas<br>em botões.':t<12?'Inserir › Link ›<br><span class="k3">Colocar neste documento</span>':t<15.5?'Certa: slide <span class="k3">Acertou</span>.<br>Erradas: <span class="k3">Tente de novo</span>.':'Ótimo para aula,<br>festa e treinamento.';
+  if(t>=19){S.canvas=`<div style="position:absolute;inset:0;background:#f4f1ff;display:flex;align-items:center;justify-content:center;gap:50px;font-size:150px">🏫<span>🎂</span>💼</div>`;S.cap='Ótimo para aula,<br>festa e treinamento.'}
+}
+const CV=(nome)=>`<div style="display:flex;gap:30px;height:100%"><div style="width:230px;background:#1f3a5f;color:#fff;margin:-60px 0 -60px -80px;padding:60px 26px;font:22px 'Segoe UI'"><div style="width:150px;height:150px;border-radius:75px;background:#cfd8dc;margin:0 auto 20px;font-size:90px;display:flex;align-items:center;justify-content:center">🙂</div><b>CONTATO</b><div style="margin:8px 0 20px">(92) 99999-0000<br>email@exemplo.com</div><b>HABILIDADES</b><div style="margin-top:8px">Excel<br>Atendimento<br>Organização</div></div>
+  <div style="flex:1;font-family:'Segoe UI'"><div style="font:bold 46px 'Segoe UI';color:#1f3a5f">${nome}</div><div style="font-size:26px;color:#c43e1c;margin-bottom:24px">Assistente Administrativo</div>
+  <b style="font-size:24px;color:#1f3a5f">EXPERIÊNCIA</b><div class="gl" style="width:94%"></div><div class="gl" style="width:80%"></div><div class="gl" style="width:88%"></div>
+  <b style="font-size:24px;color:#1f3a5f">FORMAÇÃO</b><div class="gl" style="width:90%"></div><div class="gl" style="width:70%"></div></div></div>`;
+function W12(t){
+  S.title=t<11?'Word':'Curriculo.docx - Word';
+  if(t>=20)return endCard('Currículo pronto<br>em 1 minuto.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Currículo bonito<br><em>em 1 minuto</em>':'Modelos prontos<br><em>no Word</em>';
+  if(t<3){S.canvas=page(130,30,CV('Maria Silva'));S.cap='Sem saber design.';return}
+  if(t<11){S.tabPress=t<4?'Arquivo':'';
+    const lm=['Início','Novo','Abrir','Salvar como','Imprimir'].map(x=>`<div class="${x==='Novo'&&t>=4?'on':''}">${x}</div>`).join('');
+    let rp=`<h3>Novo</h3><div class="fld ${t>=4.6&&t<7?'hot':''}">🔍 ${t>=4.6?typed('currículo',4.8,t,6)+(t<6.8?CARET:''):'Pesquisar modelos online'}</div>`;
+    if(t>=7)rp+='<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:10px">'+['#1f3a5f','#c43e1c','#107c41','#7a3db8','#455a64','#ad1457'].map((c,i)=>`<div style="height:190px;border:${i===0&&t>=8.4?'5px solid #2b579a':'2px solid #ccc'};background:#fff;position:relative"><div style="position:absolute;left:0;top:0;bottom:0;width:34%;background:${c}"></div><div style="position:absolute;left:42%;top:20px;right:10px;height:14px;background:${c}"></div><div style="position:absolute;left:42%;top:50px;right:20px;height:8px;background:#ccc"></div><div style="position:absolute;left:42%;top:70px;right:30px;height:8px;background:#ccc"></div></div>`).join('')+'</div>';
+    if(t>=9.4)rp+=`<span class="bigbtn ${t>=10.2?'press':''}" style="margin-top:16px">Criar</span>`;
+    S.ov=`<div class="back"><div class="lm">${lm}</div><div class="rp">${rp}</div></div>`;
+    S.cap=t<7?'Arquivo › Novo ›<br>pesquiso <span class="k3">currículo</span>':'Escolho um modelo<br>e clico em <span class="k3">Criar</span>.';return}
+  if(t<16){const nome=t<11.8?'[Seu Nome]':typed('Maria Silva',12,t,8);
+    S.canvas=page(130,30,CV(`<span class="${t>=11.2&&t<11.8?'hl':''}">${nome}</span>${t>=11.8&&t<14?CARET:''}`));S.cap='Clico nos textos e troco<br>pelos meus dados.';return}
+  S.tabPress='Arquivo';
+  const lm=['Início','Novo','Abrir','Salvar como','Imprimir'].map(x=>`<div class="${x==='Salvar como'?'on':''}">${x}</div>`).join('');
+  S.ov=`<div class="back"><div class="lm">${lm}</div><div class="rp"><h3>Salvar como</h3><div class="fld">Curriculo_Maria</div><div class="fld hot">${t>=17.4?'PDF (*.pdf)':'Documento do Word (*.docx)'} ▾</div><span class="bigbtn ${t>=18.6?'press':''}">Salvar</span></div></div>`;
+  S.cap='Salvo em <span class="k3">PDF</span> para mandar<br>no WhatsApp ou e-mail.';
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

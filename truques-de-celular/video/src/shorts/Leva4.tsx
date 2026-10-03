@@ -10,7 +10,7 @@ import { Balao, CampoMensagem, ListaConversas, TelaInicial } from "../telas";
 import { Aviso, Centro, Config, Conversa, Marca, ShortEtapas, linhaY } from "./Leva2";
 import { CFG, Checklist } from "./Leva3";
 
-const Grande: React.FC<{ emoji: string; titulo: React.ReactNode; sub?: React.ReactNode; cor?: string }> = ({ emoji, titulo, sub, cor = "#111" }) => {
+export const Grande: React.FC<{ emoji: string; titulo: React.ReactNode; sub?: React.ReactNode; cor?: string }> = ({ emoji, titulo, sub, cor = "#111" }) => {
   const { t } = useT();
   return (
     <Centro cor={cor}><div style={{ color: "#fff", display: "flex", flexDirection: "column", alignItems: "center" }}>

@@ -1,0 +1,68 @@
+{
+ "id": "VidroEmbaca",
+ "titulo": "Por que o vidro do carro EMBAÇA? 🚗",
+ "legenda": "A respiração solta vapor, que vira gotinhas no vidro frio. O ar-condicionado seca o ar e desembaça rapidinho! #fisica #carro #curiosidades #ciencia #diaadia",
+ "final": {
+  "emoji": "🚗",
+  "frase": "Vapor + vidro frio = embaçado."
+ },
+ "frases": [
+  "Por que o vidro do carro embaça quando chove ou quando tem muita gente dentro?",
+  "A respiração das pessoas solta vapor de água, que é invisível.",
+  "Quando esse vapor encosta no vidro gelado, ele esfria e vira gotinhas.",
+  "São milhões de gotinhas minúsculas, e elas espalham a luz. Por isso você não enxerga nada.",
+  "Para tirar rápido, liga o ar-condicionado no vidro: ele seca o ar.",
+  "E abrir um pouquinho a janela também ajuda, porque iguala a temperatura de dentro e de fora.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o vidro EMBAÇA?",
+   "destaque": [
+    "EMBAÇA?"
+   ],
+   "busca": "foggy car window"
+  },
+  {
+   "gancho": "Vapor que você não vê",
+   "destaque": [
+    "vapor"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "Vapor de água invisível"
+   }
+  },
+  {
+   "gancho": "Vidro frio = gotinhas",
+   "destaque": [
+    "gotinhas"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "Vapor + vidro frio = gotas"
+   }
+  },
+  {
+   "gancho": "Milhões de gotinhas",
+   "destaque": [
+    "Milhões"
+   ],
+   "busca": "rain car window"
+  },
+  {
+   "gancho": "Ar-condicionado seca o ar",
+   "destaque": [
+    "seca"
+   ],
+   "busca": "car air conditioning"
+  },
+  {
+   "gancho": "Abra um pouco a janela",
+   "destaque": [
+    "janela"
+   ],
+   "busca": "driving car rain"
+  }
+ ]
+}

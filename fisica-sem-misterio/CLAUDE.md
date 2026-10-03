@@ -133,3 +133,8 @@ Formato dos virais (busca do YouTube, 01/10): escala gigante e espaço ("O Sol n
 Roteiros no fim de `criar_roteiros.py`. Clipes conferidos em `previa/leva3_clipes.jpg` (BigBang_5 e TamanhoLua_5 trocados; Alavanca_4 virou animação porque não há gangorra no Pexels).
 21 'O Sol NÃO é do tamanho que você imagina ☀️' · 22 'Quanto você pesaria em Marte? 🔴' · 23 'Não é força. É FÍSICA 💪' · 24 'O Big Bang explicado em 30 segundos 💥' · 25 'A Lua é MENOR que o Brasil? 🌙'.
 - Troca de canal no Chrome: youtube.com/channel_switcher → clicar no avatar do canal. Às vezes o Studio mostra "Ops, você não tem permissão" logo depois: repetir a troca e abrir o Studio de novo.
+
+## LEVA 4 — shorts 26 a 30 (02/10; PUBLICADA em 02/10 — Jansey autorizou: "publique todos")
+Escolhidos pelas visualizações de 02/10: "por que" do dia a dia com objeto real ganha (navio 1,2 mil, gelo 1 mil, raio 690, água e óleo 574, pôr do sol 521); espaço e escala fracassaram (Sol, Marte, Big Bang, Lua: 1 a 25). Evitar espaço.
+Roteiros no bloco LEVA 4 do `criar_roteiros.py` (VidroEmbaca, OvoMicro, FogoAzul, OvoBoia, RastroAviao), clipes Pexels em `clipes.json` (conferidos em `previa/leva4_clipes.jpg`). Saída `out/Fisica26_VidroEmbaca` … `Fisica30_RastroAviao`.
+- Publicação 02/10: o JS de finalizar agora clica sozinho em "Publicar mesmo assim" (procura o botão pelo texto) depois do #done-button. As refs do find mudam entre canais (ex.: ref_207/211/212 no arquivo, ref_258/262/267 no título): sempre rodar find antes. Se a extensão cair no meio, conferir a tela antes de repetir (o vídeo pode já ter sido publicado).
