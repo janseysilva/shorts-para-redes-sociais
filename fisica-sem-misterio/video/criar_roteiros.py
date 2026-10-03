@@ -349,6 +349,62 @@ short("RastroAviao", "Que FUMAÇA é essa que o avião deixa no céu? ✈️",
     ("Por isso tem dia que o céu fica cheio de riscos, e tem dia que não aparece nenhum.", "Céu cheio de riscos", ["riscos"], v("airplane flying sky")),
 ])
 
+# ---------- LEVA 5 (03/10): "por que" de casa, cozinha e avião (buscas em alta do YouTube BR + a leva 4 bombou) ----------
+short("CelularEsquenta", "Por que o celular ESQUENTA? 📱",
+      "Carregar e jogar transformam parte da energia em calor. Tire a capinha ao carregar e evite usar na tomada para proteger a bateria! #fisica #celular #bateria #curiosidades #tecnologia",
+      "📱", "Energia que vira calor.", [
+    ("Por que o celular esquenta tanto, principalmente quando está carregando?", "Por que ele ESQUENTA?", ["ESQUENTA?"], v("smartphone charging")),
+    ("Todo aparelho elétrico perde um pouco da energia em forma de calor.", "Parte da energia vira calor", ["calor"], a("⚡", "Parte da energia vira calor")),
+    ("Quando carrega, a bateria recebe energia muito rápido, e uma parte vira calor.", "Carregar esquenta", ["Carregar"], a("🔋", "Carregar gera calor")),
+    ("O processador também esquenta quando você joga ou grava vídeo, porque trabalha no máximo.", "Jogo pesado esquenta", ["Jogo"], v("mobile gaming")),
+    ("Jogar com o celular na tomada é esquentar dos dois lados ao mesmo tempo.", "Jogar + carregar = quente", ["quente"], a("🥵", "Jogar + carregar = muito calor")),
+    ("Para proteger a bateria, tira a capinha ao carregar e não deixa o celular no sol.", "Proteja a bateria", ["bateria"], v("phone on table")),
+])
+
+short("GeloQueima", "Por que o gelo QUEIMA a pele? 🧊",
+      "O frio não entra: é o calor que sai da pele rápido demais. Use gelo sempre enrolado num pano! #fisica #gelo #corpohumano #curiosidades #saude",
+      "🧊", "É o calor saindo da pele.", [
+    ("Já segurou gelo por muito tempo e sentiu queimar?", "O gelo QUEIMA?", ["QUEIMA?"], v("ice cubes hand")),
+    ("O frio não entra na pele. O que acontece é o calor sair da sua mão para o gelo.", "O calor SAI da pele", ["SAI"], a("🔥", "O calor sai da mão para o gelo")),
+    ("Quando a pele perde calor rápido demais, as células começam a sofrer, como numa queimadura.", "Frio demais machuca", ["machuca"], a("⚠️", "Perder calor rápido machuca")),
+    ("O corpo usa o mesmo alarme de dor para o calor e para o frio forte. Por isso parece queimar.", "O mesmo alarme de dor", ["alarme"], a("🧠", "O mesmo alarme de dor")),
+    ("O gelo seco é ainda pior: ele fica a setenta e oito graus abaixo de zero.", "Gelo seco: −78 °C", ["−78"], v("dry ice smoke")),
+    ("Por isso, para aliviar uma pancada, enrola o gelo num pano e não passa de vinte minutos.", "Sempre com um pano", ["pano"], v("ice pack")),
+])
+
+short("PaoMurcha", "Por que o pão MURCHA depois de assado? 🍞",
+      "No forno o vapor estufa o pão; ao esfriar, o gás encolhe. Se o miolo não firmou, ele murcha. Asse mais um pouco e esfrie devagar! #fisica #pao #cozinha #curiosidades #receita",
+      "🍞", "Esfriou, o gás encolheu.", [
+    ("Saiu lindo do forno e murchou na bancada? Tem explicação.", "Por que o pão MURCHA?", ["MURCHA?"], v("fresh bread oven")),
+    ("No forno, a água da massa vira vapor e o gás das bolhinhas se expande. O pão estufa.", "No forno, o vapor estufa", ["estufa"], a("💨", "Vapor e gás estufam a massa")),
+    ("Quando sai, ele esfria rápido. O vapor vira água de novo e o gás encolhe.", "Esfriou, encolheu", ["encolheu"], a("❄️", "Esfriou: o gás encolhe")),
+    ("Se o miolo ainda não ficou firme, as paredes das bolhinhas não aguentam e o pão murcha.", "Miolo mole não aguenta", ["Miolo"], v("bread loaf cutting")),
+    ("É o mesmo motivo do bolo que abaixa quando você abre o forno antes da hora.", "Igual ao bolo", ["bolo"], v("cake oven")),
+    ("A dica é assar mais um pouquinho e deixar esfriar devagar, com o forno entreaberto.", "Asse mais, esfrie devagar", ["devagar"], v("baking bread")),
+])
+
+short("GeladeiraEstala", "Por que a geladeira fica ESTALANDO? ❄️",
+      "O plástico e o metal dilatam e encolhem quando a geladeira esquenta e esfria. Estalo de vez em quando é normal! #fisica #geladeira #casa #curiosidades #dilatacao",
+      "❄️", "Esquenta, dilata. Esfria, encolhe.", [
+    ("Aquele estalo da geladeira no meio da noite não é defeito.", "Por que ela ESTALA?", ["ESTALA?"], v("refrigerator kitchen")),
+    ("Os materiais aumentam um pouquinho quando esquentam e encolhem quando esfriam.", "Esquenta, dilata", ["dilata"], a("🌡️", "Esquenta dilata, esfria encolhe")),
+    ("A geladeira liga e desliga o tempo todo, e o plástico e o metal mudam de tamanho.", "Plástico e metal mexem", ["mexem"], a("🔊", "Plástico e metal mudam de tamanho")),
+    ("Nas frost free, ela ainda esquenta de propósito para derreter o gelo, e depois esfria de novo.", "Degelo automático", ["Degelo"], v("open refrigerator")),
+    ("Cada mudança faz as peças se ajeitarem com um estalo, igual ao telhado de madeira à noite.", "Igual ao telhado", ["telhado"], v("house roof night")),
+    ("Agora, se o barulho for alto e sem parar, ou se ela parar de gelar, chama o técnico.", "Barulho sem parar? Técnico", ["Técnico"], a("🛠️", "Barulho alto e contínuo: técnico")),
+])
+
+short("AviaoDeLado", "Por que o avião pousa DE LADO? ✈️",
+      "Com vento lateral, o piloto aponta o nariz contra o vento para seguir reto na pista e alinha antes de tocar o chão! #fisica #aviao #piloto #curiosidades #ciencia",
+      "✈️", "Nariz contra o vento.", [
+    ("Já viu avião chegando de lado na pista? Parece errado, mas é de propósito.", "Pousando DE LADO?", ["LADO?"], v("airplane landing")),
+    ("Quando o vento sopra de lado, ele empurra o avião para fora da pista.", "O vento empurra", ["empurra"], a("💨", "O vento empurra para o lado")),
+    ("Então o piloto aponta o nariz um pouco contra o vento, e o avião anda reto, mesmo torto.", "Nariz contra o vento", ["vento"], a("✈️", "Nariz contra o vento, anda reto")),
+    ("É igual atravessar um rio nadando: você mira um pouco acima para chegar no ponto certo.", "Igual nadar no rio", ["rio"], v("river current")),
+    ("Pouco antes de tocar o chão, o piloto alinha o avião com a pista.", "Alinha antes de tocar", ["Alinha"], v("plane runway")),
+    ("Por isso, em dia de vento, o pouso parece de lado. Mas está tudo sob controle.", "Tudo sob controle", ["controle"], v("airplane sky clouds")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -113,5 +113,22 @@
  "RastroAviao_0": 8.97,
  "RastroAviao_3": 6.7,
  "RastroAviao_4": 15.35,
- "RastroAviao_5": 9.28
+ "RastroAviao_5": 9.28,
+ "AviaoDeLado_0": 20.55,
+ "AviaoDeLado_3": 31.34,
+ "AviaoDeLado_4": 15.22,
+ "AviaoDeLado_5": 14.31,
+ "CelularEsquenta_0": 7.76,
+ "CelularEsquenta_3": 20.44,
+ "CelularEsquenta_5": 12.33,
+ "GeladeiraEstala_0": 4.61,
+ "GeladeiraEstala_3": 12.0,
+ "GeladeiraEstala_4": 18.65,
+ "GeloQueima_0": 12.01,
+ "GeloQueima_4": 10.61,
+ "GeloQueima_5": 16.8,
+ "PaoMurcha_0": 10.03,
+ "PaoMurcha_3": 6.4,
+ "PaoMurcha_4": 6.24,
+ "PaoMurcha_5": 7.36
 }

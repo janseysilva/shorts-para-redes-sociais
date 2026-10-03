@@ -71,3 +71,7 @@ Escolhidos pelas visualizações de 02/10 (WhatsApp e hábitos ganham: vício 49
 `roteiros_leva5.py` + `src/shorts/Leva5.tsx` (MsgApagadas, CelularRapido, Bloqueado, Backup, Enquete; `Grande` agora é exportado da Leva4). Saída `out/Celular31_MsgApagadas` … `Celular35_Enquete` + cópias em `out/upload/`.
 Títulos: 31 'Como ver MENSAGEM APAGADA no WhatsApp 👀' · 32 'Celular LENTO? Deixe mais rápido em 10 segundos ⚡' · 33 'Como saber se alguém te BLOQUEOU no WhatsApp 🚫' · 34 'Vai trocar de celular? NÃO perca o WhatsApp 📲' · 35 'ENQUETE no WhatsApp: acabou a bagunça no grupo 📊'.
 - Publicação 02/10: o JS de finalizar agora clica sozinho em "Publicar mesmo assim" (procura o botão pelo texto) depois do #done-button. As refs do find mudam entre canais (ex.: ref_207/211/212 no arquivo, ref_258/262/267 no título): sempre rodar find antes. Se a extensão cair no meio, conferir a tela antes de repetir (o vídeo pode já ter sido publicado).
+
+## LEVA 6 — shorts 36 a 40 (03/10; PUBLICADA em 03/10 — Jansey autorizou: "publique todos")
+Buscas em alta do YouTube BR: "whatsapp como tirar online", ver status escondido, "nova função whatsapp" (figurinha), "como saber se a pessoa leu", "truques celular samsung/xiaomi" (teclado).
+`roteiros_leva6.py` + `src/shorts/Leva6.tsx` (EsconderOnline, StatusEscondido, Figurinha, QuemLeu, TecladoTruques com id "Teclado"). Saída `out/Celular36_EsconderOnline` … `Celular40_Teclado` + cópias em `out/upload/`.

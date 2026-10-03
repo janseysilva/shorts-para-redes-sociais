@@ -67,10 +67,20 @@ import rOvoBoia from "../roteiros/OvoBoia.json";
 import tOvoBoia from "../public/OvoBoia/tempos.json";
 import rRastroAviao from "../roteiros/RastroAviao.json";
 import tRastroAviao from "../public/RastroAviao/tempos.json";
+import rCelularEsquenta from "../roteiros/CelularEsquenta.json";
+import tCelularEsquenta from "../public/CelularEsquenta/tempos.json";
+import rGeloQueima from "../roteiros/GeloQueima.json";
+import tGeloQueima from "../public/GeloQueima/tempos.json";
+import rPaoMurcha from "../roteiros/PaoMurcha.json";
+import tPaoMurcha from "../public/PaoMurcha/tempos.json";
+import rGeladeiraEstala from "../roteiros/GeladeiraEstala.json";
+import tGeladeiraEstala from "../public/GeladeiraEstala/tempos.json";
+import rAviaoDeLado from "../roteiros/AviaoDeLado.json";
+import tAviaoDeLado from "../public/AviaoDeLado/tempos.json";
 
 export const FPS = 30;
 
-// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 30; o 1 é o CeuAzulMisto).
+// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 35; o 1 é o CeuAzulMisto).
 const ROTEIROS: [Roteiro, Tempos][] = [
   [rTrovao, tTrovao], [rGelo, tGelo], [rAstronautas, tAstronautas], [rArcoIris, tArcoIris], [rLua, tLua],
   [rMicroOndas, tMicroOndas], [rMetalGelado, tMetalGelado], [rAviao, tAviao], [rPanelaPressao, tPanelaPressao],
@@ -78,6 +88,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rNavioAco, tNavioAco], [rTerraGira, tTerraGira], [rPorDoSol, tPorDoSol], [rMarNuncaEnche, tMarNuncaEnche], [rAguaOleo, tAguaOleo],
   [rSolTerra, tSolTerra], [rPesoMarte, tPesoMarte], [rAlavanca, tAlavanca], [rBigBang, tBigBang], [rTamanhoLua, tTamanhoLua],
   [rVidroEmbaca, tVidroEmbaca], [rOvoMicro, tOvoMicro], [rFogoAzul, tFogoAzul], [rOvoBoia, tOvoBoia], [rRastroAviao, tRastroAviao],
+  [rCelularEsquenta, tCelularEsquenta], [rGeloQueima, tGeloQueima], [rPaoMurcha, tPaoMurcha], [rGeladeiraEstala, tGeladeiraEstala], [rAviaoDeLado, tAviaoDeLado],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

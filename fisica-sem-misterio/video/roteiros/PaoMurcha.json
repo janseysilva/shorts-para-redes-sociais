@@ -1,0 +1,68 @@
+{
+ "id": "PaoMurcha",
+ "titulo": "Por que o pão MURCHA depois de assado? 🍞",
+ "legenda": "No forno o vapor estufa o pão; ao esfriar, o gás encolhe. Se o miolo não firmou, ele murcha. Asse mais um pouco e esfrie devagar! #fisica #pao #cozinha #curiosidades #receita",
+ "final": {
+  "emoji": "🍞",
+  "frase": "Esfriou, o gás encolheu."
+ },
+ "frases": [
+  "Saiu lindo do forno e murchou na bancada? Tem explicação.",
+  "No forno, a água da massa vira vapor e o gás das bolhinhas se expande. O pão estufa.",
+  "Quando sai, ele esfria rápido. O vapor vira água de novo e o gás encolhe.",
+  "Se o miolo ainda não ficou firme, as paredes das bolhinhas não aguentam e o pão murcha.",
+  "É o mesmo motivo do bolo que abaixa quando você abre o forno antes da hora.",
+  "A dica é assar mais um pouquinho e deixar esfriar devagar, com o forno entreaberto.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o pão MURCHA?",
+   "destaque": [
+    "MURCHA?"
+   ],
+   "busca": "fresh bread oven"
+  },
+  {
+   "gancho": "No forno, o vapor estufa",
+   "destaque": [
+    "estufa"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "Vapor e gás estufam a massa"
+   }
+  },
+  {
+   "gancho": "Esfriou, encolheu",
+   "destaque": [
+    "encolheu"
+   ],
+   "anim": {
+    "emoji": "❄️",
+    "texto": "Esfriou: o gás encolhe"
+   }
+  },
+  {
+   "gancho": "Miolo mole não aguenta",
+   "destaque": [
+    "Miolo"
+   ],
+   "busca": "bread loaf cutting"
+  },
+  {
+   "gancho": "Igual ao bolo",
+   "destaque": [
+    "bolo"
+   ],
+   "busca": "cake oven"
+  },
+  {
+   "gancho": "Asse mais, esfrie devagar",
+   "destaque": [
+    "devagar"
+   ],
+   "busca": "baking bread"
+  }
+ ]
+}

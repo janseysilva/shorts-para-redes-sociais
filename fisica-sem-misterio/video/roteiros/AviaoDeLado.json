@@ -1,0 +1,68 @@
+{
+ "id": "AviaoDeLado",
+ "titulo": "Por que o avião pousa DE LADO? ✈️",
+ "legenda": "Com vento lateral, o piloto aponta o nariz contra o vento para seguir reto na pista e alinha antes de tocar o chão! #fisica #aviao #piloto #curiosidades #ciencia",
+ "final": {
+  "emoji": "✈️",
+  "frase": "Nariz contra o vento."
+ },
+ "frases": [
+  "Já viu avião chegando de lado na pista? Parece errado, mas é de propósito.",
+  "Quando o vento sopra de lado, ele empurra o avião para fora da pista.",
+  "Então o piloto aponta o nariz um pouco contra o vento, e o avião anda reto, mesmo torto.",
+  "É igual atravessar um rio nadando: você mira um pouco acima para chegar no ponto certo.",
+  "Pouco antes de tocar o chão, o piloto alinha o avião com a pista.",
+  "Por isso, em dia de vento, o pouso parece de lado. Mas está tudo sob controle.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Pousando DE LADO?",
+   "destaque": [
+    "LADO?"
+   ],
+   "busca": "airplane landing"
+  },
+  {
+   "gancho": "O vento empurra",
+   "destaque": [
+    "empurra"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "O vento empurra para o lado"
+   }
+  },
+  {
+   "gancho": "Nariz contra o vento",
+   "destaque": [
+    "vento"
+   ],
+   "anim": {
+    "emoji": "✈️",
+    "texto": "Nariz contra o vento, anda reto"
+   }
+  },
+  {
+   "gancho": "Igual nadar no rio",
+   "destaque": [
+    "rio"
+   ],
+   "busca": "river current"
+  },
+  {
+   "gancho": "Alinha antes de tocar",
+   "destaque": [
+    "Alinha"
+   ],
+   "busca": "plane runway"
+  },
+  {
+   "gancho": "Tudo sob controle",
+   "destaque": [
+    "controle"
+   ],
+   "busca": "airplane sky clouds"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "CelularEsquenta",
+ "titulo": "Por que o celular ESQUENTA? 📱",
+ "legenda": "Carregar e jogar transformam parte da energia em calor. Tire a capinha ao carregar e evite usar na tomada para proteger a bateria! #fisica #celular #bateria #curiosidades #tecnologia",
+ "final": {
+  "emoji": "📱",
+  "frase": "Energia que vira calor."
+ },
+ "frases": [
+  "Por que o celular esquenta tanto, principalmente quando está carregando?",
+  "Todo aparelho elétrico perde um pouco da energia em forma de calor.",
+  "Quando carrega, a bateria recebe energia muito rápido, e uma parte vira calor.",
+  "O processador também esquenta quando você joga ou grava vídeo, porque trabalha no máximo.",
+  "Jogar com o celular na tomada é esquentar dos dois lados ao mesmo tempo.",
+  "Para proteger a bateria, tira a capinha ao carregar e não deixa o celular no sol.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que ele ESQUENTA?",
+   "destaque": [
+    "ESQUENTA?"
+   ],
+   "busca": "smartphone charging"
+  },
+  {
+   "gancho": "Parte da energia vira calor",
+   "destaque": [
+    "calor"
+   ],
+   "anim": {
+    "emoji": "⚡",
+    "texto": "Parte da energia vira calor"
+   }
+  },
+  {
+   "gancho": "Carregar esquenta",
+   "destaque": [
+    "Carregar"
+   ],
+   "anim": {
+    "emoji": "🔋",
+    "texto": "Carregar gera calor"
+   }
+  },
+  {
+   "gancho": "Jogo pesado esquenta",
+   "destaque": [
+    "Jogo"
+   ],
+   "busca": "mobile gaming"
+  },
+  {
+   "gancho": "Jogar + carregar = quente",
+   "destaque": [
+    "quente"
+   ],
+   "anim": {
+    "emoji": "🥵",
+    "texto": "Jogar + carregar = muito calor"
+   }
+  },
+  {
+   "gancho": "Proteja a bateria",
+   "destaque": [
+    "bateria"
+   ],
+   "busca": "phone on table"
+  }
+ ]
+}

@@ -59,6 +59,12 @@ import tCelularRapido from "../public/CelularRapido/tempos.json";
 import tBloqueado from "../public/Bloqueado/tempos.json";
 import tBackup from "../public/Backup/tempos.json";
 import tEnquete from "../public/Enquete/tempos.json";
+import { EsconderOnline, StatusEscondido, Figurinha, QuemLeu, TecladoTruques } from "./shorts/Leva6";
+import tEsconderOnline from "../public/EsconderOnline/tempos.json";
+import tStatusEscondido from "../public/StatusEscondido/tempos.json";
+import tFigurinha from "../public/Figurinha/tempos.json";
+import tQuemLeu from "../public/QuemLeu/tempos.json";
+import tTeclado from "../public/Teclado/tempos.json";
 
 export const FPS = 30;
 
@@ -99,6 +105,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["Bloqueado", Bloqueado, tBloqueado],
   ["Backup", Backup, tBackup],
   ["Enquete", Enquete, tEnquete],
+  ["EsconderOnline", EsconderOnline, tEsconderOnline],
+  ["StatusEscondido", StatusEscondido, tStatusEscondido],
+  ["Figurinha", Figurinha, tFigurinha],
+  ["QuemLeu", QuemLeu, tQuemLeu],
+  ["Teclado", TecladoTruques, tTeclado],
 ];
 
 export const Root: React.FC = () => (

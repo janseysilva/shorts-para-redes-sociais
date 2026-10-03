@@ -1,0 +1,71 @@
+{
+ "id": "GeladeiraEstala",
+ "titulo": "Por que a geladeira fica ESTALANDO? ❄️",
+ "legenda": "O plástico e o metal dilatam e encolhem quando a geladeira esquenta e esfria. Estalo de vez em quando é normal! #fisica #geladeira #casa #curiosidades #dilatacao",
+ "final": {
+  "emoji": "❄️",
+  "frase": "Esquenta, dilata. Esfria, encolhe."
+ },
+ "frases": [
+  "Aquele estalo da geladeira no meio da noite não é defeito.",
+  "Os materiais aumentam um pouquinho quando esquentam e encolhem quando esfriam.",
+  "A geladeira liga e desliga o tempo todo, e o plástico e o metal mudam de tamanho.",
+  "Nas frost free, ela ainda esquenta de propósito para derreter o gelo, e depois esfria de novo.",
+  "Cada mudança faz as peças se ajeitarem com um estalo, igual ao telhado de madeira à noite.",
+  "Agora, se o barulho for alto e sem parar, ou se ela parar de gelar, chama o técnico.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que ela ESTALA?",
+   "destaque": [
+    "ESTALA?"
+   ],
+   "busca": "refrigerator kitchen"
+  },
+  {
+   "gancho": "Esquenta, dilata",
+   "destaque": [
+    "dilata"
+   ],
+   "anim": {
+    "emoji": "🌡️",
+    "texto": "Esquenta dilata, esfria encolhe"
+   }
+  },
+  {
+   "gancho": "Plástico e metal mexem",
+   "destaque": [
+    "mexem"
+   ],
+   "anim": {
+    "emoji": "🔊",
+    "texto": "Plástico e metal mudam de tamanho"
+   }
+  },
+  {
+   "gancho": "Degelo automático",
+   "destaque": [
+    "Degelo"
+   ],
+   "busca": "open refrigerator"
+  },
+  {
+   "gancho": "Igual ao telhado",
+   "destaque": [
+    "telhado"
+   ],
+   "busca": "house roof night"
+  },
+  {
+   "gancho": "Barulho sem parar? Técnico",
+   "destaque": [
+    "Técnico"
+   ],
+   "anim": {
+    "emoji": "🛠️",
+    "texto": "Barulho alto e contínuo: técnico"
+   }
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "GeloQueima",
+ "titulo": "Por que o gelo QUEIMA a pele? 🧊",
+ "legenda": "O frio não entra: é o calor que sai da pele rápido demais. Use gelo sempre enrolado num pano! #fisica #gelo #corpohumano #curiosidades #saude",
+ "final": {
+  "emoji": "🧊",
+  "frase": "É o calor saindo da pele."
+ },
+ "frases": [
+  "Já segurou gelo por muito tempo e sentiu queimar?",
+  "O frio não entra na pele. O que acontece é o calor sair da sua mão para o gelo.",
+  "Quando a pele perde calor rápido demais, as células começam a sofrer, como numa queimadura.",
+  "O corpo usa o mesmo alarme de dor para o calor e para o frio forte. Por isso parece queimar.",
+  "O gelo seco é ainda pior: ele fica a setenta e oito graus abaixo de zero.",
+  "Por isso, para aliviar uma pancada, enrola o gelo num pano e não passa de vinte minutos.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O gelo QUEIMA?",
+   "destaque": [
+    "QUEIMA?"
+   ],
+   "busca": "ice cubes hand"
+  },
+  {
+   "gancho": "O calor SAI da pele",
+   "destaque": [
+    "SAI"
+   ],
+   "anim": {
+    "emoji": "🔥",
+    "texto": "O calor sai da mão para o gelo"
+   }
+  },
+  {
+   "gancho": "Frio demais machuca",
+   "destaque": [
+    "machuca"
+   ],
+   "anim": {
+    "emoji": "⚠️",
+    "texto": "Perder calor rápido machuca"
+   }
+  },
+  {
+   "gancho": "O mesmo alarme de dor",
+   "destaque": [
+    "alarme"
+   ],
+   "anim": {
+    "emoji": "🧠",
+    "texto": "O mesmo alarme de dor"
+   }
+  },
+  {
+   "gancho": "Gelo seco: −78 °C",
+   "destaque": [
+    "−78"
+   ],
+   "busca": "dry ice smoke"
+  },
+  {
+   "gancho": "Sempre com um pano",
+   "destaque": [
+    "pano"
+   ],
+   "busca": "ice pack"
+  }
+ ]
+}
