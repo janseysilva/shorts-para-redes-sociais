@@ -9,7 +9,7 @@ foreach ($p in $pares) {
   git -C $PSScriptRoot fetch -q $src main
   git -C $PSScriptRoot read-tree --prefix="$($p[1])/" FETCH_HEAD
 }
-git -C $PSScriptRoot add README.md atualizar.ps1
+git -C $PSScriptRoot add README.md CLAUDE.md atualizar.ps1
 git -C $PSScriptRoot checkout-index -a -f
 git -C $PSScriptRoot commit -m "Atualizacao dos shorts"
 git -C $PSScriptRoot push
