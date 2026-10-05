@@ -77,10 +77,20 @@ import rGeladeiraEstala from "../roteiros/GeladeiraEstala.json";
 import tGeladeiraEstala from "../public/GeladeiraEstala/tempos.json";
 import rAviaoDeLado from "../roteiros/AviaoDeLado.json";
 import tAviaoDeLado from "../public/AviaoDeLado/tempos.json";
+import rOuvidoAviao from "../roteiros/OuvidoAviao.json";
+import tOuvidoAviao from "../public/OuvidoAviao/tempos.json";
+import rCebolaChorar from "../roteiros/CebolaChorar.json";
+import tCebolaChorar from "../public/CebolaChorar/tempos.json";
+import rLeiteSobe from "../roteiros/LeiteSobe.json";
+import tLeiteSobe from "../public/LeiteSobe/tempos.json";
+import rChuveiroChoque from "../roteiros/ChuveiroChoque.json";
+import tChuveiroChoque from "../public/ChuveiroChoque/tempos.json";
+import rAviaoCurva from "../roteiros/AviaoCurva.json";
+import tAviaoCurva from "../public/AviaoCurva/tempos.json";
 
 export const FPS = 30;
 
-// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 35; o 1 é o CeuAzulMisto).
+// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 40; o 1 é o CeuAzulMisto).
 const ROTEIROS: [Roteiro, Tempos][] = [
   [rTrovao, tTrovao], [rGelo, tGelo], [rAstronautas, tAstronautas], [rArcoIris, tArcoIris], [rLua, tLua],
   [rMicroOndas, tMicroOndas], [rMetalGelado, tMetalGelado], [rAviao, tAviao], [rPanelaPressao, tPanelaPressao],
@@ -89,6 +99,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rSolTerra, tSolTerra], [rPesoMarte, tPesoMarte], [rAlavanca, tAlavanca], [rBigBang, tBigBang], [rTamanhoLua, tTamanhoLua],
   [rVidroEmbaca, tVidroEmbaca], [rOvoMicro, tOvoMicro], [rFogoAzul, tFogoAzul], [rOvoBoia, tOvoBoia], [rRastroAviao, tRastroAviao],
   [rCelularEsquenta, tCelularEsquenta], [rGeloQueima, tGeloQueima], [rPaoMurcha, tPaoMurcha], [rGeladeiraEstala, tGeladeiraEstala], [rAviaoDeLado, tAviaoDeLado],
+  [rOuvidoAviao, tOuvidoAviao], [rCebolaChorar, tCebolaChorar], [rLeiteSobe, tLeiteSobe], [rChuveiroChoque, tChuveiroChoque], [rAviaoCurva, tAviaoCurva],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

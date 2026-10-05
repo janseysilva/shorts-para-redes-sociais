@@ -996,7 +996,113 @@ function W13(t){
     (t<3||t>=19?`<div style="position:absolute;left:0;right:0;top:600px;text-align:center;font:bold 40px 'Segoe UI';color:#2e7d32">✓ Só a partir da introdução</div>`:'');
   S.cap=t<3?'Começa na introdução,<br>como pede a ABNT.':t<7?'Do jeito normal,<br>aparece até na capa.':t<11?'Fim da folha de rosto: Layout ›<br>Quebras › <span class="k3">Próxima Página</span>':t<15?'No cabeçalho da introdução:<br>desmarco <span class="k3">Vincular ao Anterior</span>':t<19?'<span class="k3">Número de Página</span> ›<br>Início da Página':'Capa e folha de rosto<br>sem número.';
 }
-const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15]};
+/* --- leva 7 (04/10): imagem de fundo, vídeo no slide, meta de economia, gráfico em 1 clique, % que subiu --- */
+const PTABS2=['Arquivo','Página Inicial','Inserir','Design','Transições','Animações','Apresentação'];
+const fullSl=(inner)=>{S.ovTop=`<div class="full"><div style="position:absolute;left:0;top:243px;width:800px;height:450px;transform:scale(1.275);transform-origin:0 0"><div class="slide">${inner}</div></div></div>`};
+const fundoSl=(foto,faixa,branco)=>(foto?photo(0,0,800,450):'')+(faixa>0?`<div style="position:absolute;left:0;right:0;top:130px;height:190px;background:rgba(0,0,0,${faixa})"></div>`:'')+
+  `<div style="position:absolute;left:0;right:0;top:150px;text-align:center;font:bold 58px 'Segoe UI';color:${branco?'#fff':'#111'}">Viagem de Formatura</div><div style="position:absolute;left:0;right:0;top:235px;text-align:center;font:32px 'Segoe UI';color:${branco?'#fff':'#333'}">Porto Seguro · Dezembro 2026</div>`;
+function P14(t){
+  S.title='Formatura.pptx - PowerPoint';S.tabs=PTABS2;
+  if(t>=22)return endCard('Slide profissional<br>em 30 segundos.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Slide <em>profissional</em><br>em 30 segundos':'Imagem de fundo<br><em>no PowerPoint</em>';
+  const fim=fundoSl(true,0.45,true);
+  if(t<3||t>=19){fullSl(fim);S.canvas=pptView(fim,[fim],0);S.cap=t<3?'Parece coisa<br>de agência.':'Pronto: parece<br>coisa de agência.';return}
+  const foto=t>=10.2, ret=t>=12.8, br=t>=13.6;
+  const faixa=!ret?0:t<15.4?0.95:lerp(0.95,0.45,15.4,17,t);
+  const sl=fundoSl(foto,faixa,br)+(t>=12.8&&t<15?`<div style="position:absolute;left:-3px;right:-3px;top:127px;height:196px;outline:3px dashed #c43e1c"></div>`:'');
+  let pan='',sc=1;
+  if(t>=7&&t<11){S.tab='Design';S.rib=btn('Temas')+btn('Variantes')+btn('Formatar Plano de Fundo',st(t,7.6,8.3));
+    if(t>=8.3){sc=0.7;pan=`<div class="panel"><div class="ph">Formatar Plano de Fundo</div><div style="font-size:22px;line-height:2">○ Preenchimento sólido<br>${t>=8.9?'◉':'○'} Preenchimento com imagem</div>${t>=8.9?`<span class="btn ${st(t,9.4,9.9)}" style="display:inline-block;margin-top:14px">Inserir...</span>`:''}</div>`}}
+  else if(t>=11&&t<15){S.tab='Inserir';const m=t>=11.6&&t<12.8?menu(['Retângulo','Oval','Seta'],t>=12.2?'Retângulo':''):'';S.rib=btn('Imagens')+btn('Formas',st(t,11.1,11.6),m)+btn('Caixa de Texto')}
+  else if(t>=15){S.tab='Formato da Forma';S.tabs=[...PTABS2.slice(0,5),'Formato da Forma'];S.rib=btn('Preenchimento: Preto')+btn('Contorno: Nenhum');sc=0.7;
+    const tr=Math.round(lerp(0,45,15.4,17,t));pan=`<div class="panel"><div class="ph">Formatar Forma</div><div style="font-size:22px">Transparência</div><div style="height:10px;background:#ddd;border-radius:5px;margin:16px 0;position:relative"><div style="position:absolute;left:${tr*1.8}px;top:-9px;width:28px;height:28px;border-radius:14px;background:#c43e1c"></div></div><div style="font:bold 34px 'Segoe UI'">${tr}%</div></div>`}
+  else{S.tab='Página Inicial';S.rib=btn('Novo Slide')+btn('Layout')+btn('Fonte')}
+  S.canvas=pptView(sl,[sl],0,sc)+pan;
+  S.cap=t<7?'Slide simples,<br>só com texto.':t<11?'Design › Formatar Plano de Fundo ›<br><span class="k3">Preenchimento com imagem</span>':t<15?'Um retângulo preto<br>atrás do texto.':'Transparência <span class="k3">45%</span><br>e texto branco.';
+}
+const vid=(t,x,y,w,h,toca)=>`<div style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;overflow:hidden;background:#000">
+  <div style="position:absolute;inset:0;background:linear-gradient(#ffb74d,#e65100 60%,#3e2723 60%)"></div>
+  <div style="position:absolute;left:${w*0.25}px;bottom:0;width:0;height:0;border-left:${w*0.25}px solid transparent;border-right:${w*0.25}px solid transparent;border-bottom:${h*0.55}px solid #4e342e"></div>
+  ${toca?`<div style="position:absolute;left:${w*0.5-h*0.06}px;top:${h*(0.42-((t*0.6)%0.3))}px;width:${h*0.12}px;height:${h*0.12}px;border-radius:50%;background:#ff3d00;box-shadow:0 0 ${h*0.1}px #ffab00"></div>
+  <div style="position:absolute;left:0;right:0;bottom:0;height:${h*0.06}px;background:rgba(0,0,0,.5)"><div style="width:${(t*7)%100}%;height:100%;background:#ff3d00"></div></div>`
+  :`<div style="position:absolute;left:${w/2-h*0.15}px;top:${h/2-h*0.15}px;width:${h*0.3}px;height:${h*0.3}px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:${h*0.15}px;display:flex;align-items:center;justify-content:center">▶</div>`}</div>`;
+const vulcaoSl=(t,temVid,toca)=>`<div style="position:absolute;left:40px;top:24px;font:bold 44px 'Segoe UI';color:#bf360c">Como funciona um vulcão</div>`+(temVid?vid(t,140,100,520,320,toca):`<div style="position:absolute;left:140px;top:100px;width:520px;height:320px;border:3px dashed #bbb;display:flex;align-items:center;justify-content:center;color:#999;font:26px 'Segoe UI'">vídeo aqui?</div>`);
+function P15(t){
+  S.title='Vulcao.pptx - PowerPoint';S.tabs=PTABS2;
+  if(t>=22)return endCard('Vídeo no slide,<br>tocando sozinho.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Vídeo no slide<br><em>tocando sozinho</em>':'Vídeo<br><em>no PowerPoint</em>';
+  if(t<3||t>=19.4){S.ovTop=`<div class="full">${vid(t,0,243,1020,574,true)}</div>`;S.canvas=pptView(vulcaoSl(t,true,false),[vulcaoSl(t,true,false)],0);S.cap=t<3?'Começa sozinho,<br>na tela toda.':'<span class="k3">F5</span>: o vídeo<br>começa sozinho!';return}
+  const tem=t>=10.2;
+  S.tab='Página Inicial';S.rib=btn('Novo Slide')+btn('Layout');
+  if(t>=7&&t<11){S.tab='Inserir';const m=t>=8.4&&t<10?menu(['Este Dispositivo...','Vídeos de Estoque','Vídeos Online'],t>=9.2?'Este Dispositivo...':''):'';S.rib=btn('Imagens')+btn('Formas')+btn('Vídeo ▾',st(t,7.8,8.4),m)+btn('Áudio')}
+  if(t>=11){S.tabs=[...PTABS2.slice(0,5),'Reprodução'];S.tab='Reprodução';
+    const auto=t>=13.2;const m=t>=11.8&&t<13.2?menu(['Na Sequência de Cliques','Automaticamente','Ao Clicar'],t>=12.6?'Automaticamente':''):'';
+    S.rib=btn('Iniciar: '+(auto?'Automaticamente':'Ao Clicar')+' ▾',t<15?st(t,11.2,11.8):'',m)+btn((t>=16.2?'☑':'☐')+' Reproduzir em Tela Inteira',t>=15?st(t,15.6,16.2):'')+btn('☐ Repetir até Parar')}
+  if(t>=18.8&&t<19.4)keys(['F5'],19,t);
+  const sl=vulcaoSl(t,tem,false)+(tem&&t<19?`<div style="position:absolute;left:137px;top:97px;width:520px;height:320px;outline:3px solid #c43e1c"></div>`:'');
+  S.canvas=pptView(sl,[sl],0);
+  S.cap=t<7?'Vídeo na apresentação,<br>sem abrir outro programa.':t<11?'Inserir › Vídeo ›<br><span class="k3">Este Dispositivo</span>':t<15?'Reprodução › Iniciar:<br><span class="k3">Automaticamente</span>':'<span class="k3">Reproduzir em Tela Inteira</span>';
+}
+function X16(t){
+  S.title='Meta_Economia.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Formatação Condicional')+btn('AutoSoma');
+  if(t>=22)return endCard('Sua meta<br>enchendo.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Planilha de <em>meta</em><br>de economia':'Meta de economia<br><em>no Excel</em>';
+  const META=3000,GUARD=[500,500,600,400],fim=t<3||t>=15;
+  const meta=t<3||t>=4.6?brl(META):typed('3000',3.6,t,5)+CARET, meses=t<3||t>=6?'6':t>=5.2?typed('6',5.2,t,4)+CARET:'';
+  const pm=t<3||t>=9.4?brl(META/6):t>=7.4?typed('=B1/B2',7.6,t,5)+CARET:'';
+  const cheias=fim?4:t<11?0:Math.min(4,1+Math.floor((t-11.4)*1.4));
+  const rows=[['Meta',meta,'',''],['Meses',meses,'',''],['Por mês',pm,'',''],['','','',''],['Mês','Guardei','Total','Progresso']];
+  let tot=0;for(let i=0;i<6;i++){const g=i<cheias?GUARD[i]:0;tot+=g;const p=Math.round(tot/META*100);
+    rows.push([`Mês ${i+1}`,i<cheias?brl(g):'',i<cheias?brl(tot):'',i<cheias&&(t<3||t>=15.8)?`<div style="margin:-6px -10px;padding:6px 10px;background:linear-gradient(90deg,#63be7b ${Math.min(100,p*lerp(0,1,15.8,16.8,t<3?20:t))}%,transparent 0)">${p}%</div>`:''])}
+  const falta=META-2000;
+  const cls=(r,c)=>{if(r===4)return 'th';let k=c>=1?'num':'';if(r<3&&c===0)k='th';if(r===2&&c===1&&t>=9.4&&t<11)k+=' flash';if(t>=7.6&&t<9.4&&r<2&&c===1)k+=' ref1';return k};
+  const card=(t<3||t>=19.2)?`<div style="position:absolute;left:640px;top:90px;width:330px;padding:24px;border-radius:18px;background:#fff;border:1px solid #ccc;border-top:10px solid #f59e0b;font-family:'Segoe UI';box-shadow:0 8px 20px rgba(0,0,0,.15)${t>=19.2&&t<20.8?';outline:6px solid #f59e0b':''}"><div style="font-size:24px;color:#666">Faltam para a meta</div><div style="font:bold 52px 'Segoe UI';color:#222">${brl(falta)}</div><div style="font-size:24px;color:#16a34a;margin-top:6px">67% da meta 🎯</div></div>`:'';
+  if(t>=15&&t<17){const m=t>=15.5&&t<16.4?menu(['Barras de Dados','Escalas de Cor','Conjunto de Ícones'],t>=15.9?'Barras de Dados':''):'';S.rib=btn('Colar')+btn('Fonte')+btn('Formatação Condicional',st(t,15.1,15.5),m)}
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([130,150,150,190],rows,{cls,sel:t>=7.4&&t<9.4?[2,1]:null,fx:t>=7.4&&t<11?'=B1/B2':t>=11&&t<15?'=SOMA($B$6:B6)':''})}${card}</div>`;
+  S.cap=t<3?'Mostra quanto falta<br>para juntar.':t<7?'Quanto quero juntar<br>e em quantos meses.':t<11?'<span class="k3">=B1/B2</span>: quanto<br>guardar por mês.':t<15?'Anoto quanto guardei.<br>O total soma sozinho.':t<19?'<span class="k3">Barras de Dados</span>:<br>a meta enchendo.':'E ainda mostra<br>quanto falta.';
+}
+const GV=[['Vendedor','Vendas'],['Ana',4200],['Bruno',3100],['Carla',5600],['Diego',2800]];
+const graf=(labs,vals,x,y,w,h,k,tit,cor)=>{const mx=7000,bw=(w-40)/vals.length;
+  return `<div style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:#fff;border:1px solid #bbb;box-shadow:0 8px 20px rgba(0,0,0,.15);font-family:'Segoe UI'">
+  <div style="text-align:center;font:bold ${Math.max(22,h*0.06)}px 'Segoe UI';color:#333;margin-top:10px">${tit}</div>`+
+  vals.map((v,i)=>{const bh=(h-120)*v/mx*k;return `<div style="position:absolute;left:${20+i*bw+bw*0.2}px;bottom:46px;width:${bw*0.6}px;height:${bh}px;background:${cor[i%cor.length]};border-radius:4px 4px 0 0"></div>
+  <div style="position:absolute;left:${20+i*bw}px;width:${bw}px;bottom:${52+bh}px;text-align:center;font-size:${Math.max(18,h*0.045)}px;color:#444;opacity:${k}">${brl(v)}</div>
+  <div style="position:absolute;left:${20+i*bw}px;width:${bw}px;bottom:12px;text-align:center;font-size:${Math.max(20,h*0.05)}px;color:#444">${labs[i]}</div>`}).join('')+'</div>'};
+function X17(t){
+  S.title='Vendas_Outubro.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Inserir Gráfico');
+  if(t>=22)return endCard('Gráfico em<br>1 clique.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Gráfico no Excel<br><em>em 1 clique</em>':'Gráfico em 1 clique<br><em>no Excel</em>';
+  const vals=GV.slice(1).map(r=>r[1]);if(t>=19.8)vals[3]=6100;
+  const labs=GV.slice(1).map(r=>r[0]);
+  const estilo=t<3||t>=12.4,tit=t<3||t>=14.4?'Vendas de Outubro':t>=13?typed('Vendas de Outubro',13,t,12)+CARET:'Título do Gráfico';
+  const cor=estilo?['#2563eb','#16a34a','#f59e0b','#db2777']:['#4472c4'];
+  if(t>=15&&t<19){S.tabs=[...XTABS,'Gráfico1'];S.tab='Gráfico1';S.rib=btn('Design do Gráfico')+btn('Formatar');keys(['F11'],15.4,t);
+    S.canvas=`<div style="position:absolute;inset:0;background:#fff">${graf(labs,vals,30,30,960,780,Math.min(1,(t-15.6)/0.6),tit,cor)}</div>`;S.cap='<span class="k3">F11</span>: gráfico numa<br>aba só dele.';return}
+  const rows=GV.map((r,i)=>i===0?r.slice():[r[0],(i===4&&t>=19.2&&t<19.8)?typed('6100',19.2,t,7)+CARET:brl(vals[i-1])]);
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c===1?'num':'';if(t>=7.5&&t<10&&r>=0)k+=' ref1';if(r===4&&c===1&&t>=19.8&&t<21.4)k+=' flash';return k};
+  if(t>=8.6&&t<10.4)keys(['Alt','F1'],9.2,t);
+  const temG=t<3||t>=9.8;
+  if(t>=11&&t<15){S.tabs=[...XTABS,'Design do Gráfico'];S.tab='Design do Gráfico';S.rib=btn('Estilos',st(t,11.6,12.4))+btn('Alterar Cores')+btn('Título do Gráfico',st(t,12.6,13))}
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([150,150],rows,{cls,sel:t>=19.2&&t<21.4?[4,1]:null})}${temG?graf(labs,vals,390,60,600,460,t<3?1:Math.min(1,(t-9.8)/0.6),tit,cor):''}</div>`;
+  S.cap=t<3?'Um clique.<br>Sério.':t<7?'Tabela pronta.<br>Falta o gráfico.':t<11?'Seleciono e aperto<br><span class="k3">Alt + F1</span>':t<15?'Escolho um estilo<br>e mudo o título.':'Mudou um número?<br>O gráfico acompanha.';
+}
+const MERC=[['Produto','Mês passado','Hoje','Variação'],['Arroz 5 kg',24.90,27.90],['Feijão 1 kg',8.49,7.99],['Café 500 g',18.90,22.50],['Leite 1 L',4.79,5.29],['Óleo 900 ml',7.99,7.49],['Carne 1 kg',39.90,44.90]];
+function X18(t){
+  S.title='Precos_Mercado.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('%',t>=7&&t<11?st(t,10,10.4):'')+btn('Formatação Condicional');
+  if(t>=22)return endCard('Quanto subiu,<br>em porcentagem.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Quanto o mercado<br><em>subiu</em>?':'Porcentagem<br><em>no Excel</em>';
+  const v=i=>(MERC[i][2]-MERC[i][1])/MERC[i][1];
+  const cheias=t<3||t>=15?6:t<10?0:t<11.4?1:Math.min(6,1+Math.floor((t-11.4)*4));
+  const pct=t<3||t>=10.4;const ico=t<3||t>=16.6;
+  const fmt=i=>pct?(v(i)>=0?'+':'')+Math.round(v(i)*100)+'%':v(i).toFixed(2).replace('.',',');
+  const rows=MERC.map((r,i)=>i===0?r.slice():[r[0],brl2(r[1]),brl2(r[2]),i<=cheias?(ico?`<span style="color:${v(i)>=0?'#dc2626':'#16a34a'}">${v(i)>=0?'▲':'▼'}</span> `:'')+fmt(i):'']);
+  if(t>=7.4&&t<10)rows[1][3]=typed('=(C2-B2)/B2',7.6,t,6)+CARET;
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>=1?'num':'';if(t>=7.6&&t<10&&r===1){if(c===2)k+=' ref1';if(c===1)k+=' ref2'}if(r===3&&c===3&&(t<3||(t>=19.2&&t<21)))k+=' flash';return k};
+  if(t>=15&&t<17){const m=t>=15.5&&t<16.6?menu(['Barras de Dados','Escalas de Cor','Conjunto de Ícones'],t>=16.1?'Conjunto de Ícones':''):'';S.rib=btn('Colar')+btn('Fonte')+btn('%')+btn('Formatação Condicional',st(t,15.1,15.5),m)}
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([220,190,150,170],rows,{cls,sel:t>=7.4&&t<10.6?[1,3]:null,fx:t>=7.4&&t<11?'=(C2-B2)/B2':''})}</div>`;
+  S.cap=t<3?'Cada produto,<br>em porcentagem.':t<7?'Preço do mês passado<br>e de hoje.':t<11?'<span class="k3">=(C2-B2)/B2</span><br>e o botão <span class="k3">%</span>':t<15?'Arrasto: a variação<br>de cada produto.':t<19?'<span class="k3">Conjunto de Ícones</span>:<br>subiu ou desceu.':'O café subiu 19%!<br>Agora você sabe.';
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

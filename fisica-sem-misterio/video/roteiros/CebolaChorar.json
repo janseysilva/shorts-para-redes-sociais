@@ -1,0 +1,68 @@
+{
+ "id": "CebolaChorar",
+ "titulo": "Por que a cebola faz CHORAR? 🧅",
+ "legenda": "Ao cortar, a cebola solta um gás que irrita os olhos, e as lágrimas lavam. Faca afiada e cebola gelada fazem chorar bem menos! #fisica #ciencia #cebola #cozinha #curiosidades",
+ "final": {
+  "emoji": "🧅",
+  "frase": "É um gás que irrita os olhos."
+ },
+ "frases": [
+  "Por que a gente chora quando corta cebola?",
+  "Quando a faca corta, ela rompe as células da cebola.",
+  "Duas substâncias que estavam separadas se misturam e formam um gás.",
+  "Esse gás sobe, chega nos olhos e irrita. Os olhos soltam lágrimas para lavar.",
+  "Faca afiada esmaga menos as células, e solta menos gás.",
+  "E cebola gelada também ajuda: no frio, o gás demora mais para subir.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que CHORAMOS?",
+   "destaque": [
+    "CHORAMOS?"
+   ],
+   "busca": "cutting onion"
+  },
+  {
+   "gancho": "A faca rompe as células",
+   "destaque": [
+    "rompe"
+   ],
+   "anim": {
+    "emoji": "🔪",
+    "texto": "A faca rompe as células"
+   }
+  },
+  {
+   "gancho": "Forma um gás",
+   "destaque": [
+    "gás"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "Duas substâncias viram um gás"
+   }
+  },
+  {
+   "gancho": "As lágrimas lavam",
+   "destaque": [
+    "lavam"
+   ],
+   "busca": "crying eyes"
+  },
+  {
+   "gancho": "Faca afiada ajuda",
+   "destaque": [
+    "afiada"
+   ],
+   "busca": "sharp knife chopping"
+  },
+  {
+   "gancho": "Cebola gelada",
+   "destaque": [
+    "gelada"
+   ],
+   "busca": "onions kitchen"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "LeiteSobe",
+ "titulo": "Por que o leite SOBE quando ferve? 🥛",
+ "legenda": "No leite, as proteínas e a gordura formam uma película que prende as bolhas de vapor, e a espuma sobe. Baixe o fogo e mexa! #fisica #leite #cozinha #curiosidades #ciencia",
+ "final": {
+  "emoji": "🥛",
+  "frase": "A película prende o vapor."
+ },
+ "frases": [
+  "Por que o leite derrama quando ferve, e a água não?",
+  "Quando ferve, a água vira vapor e forma bolhas que sobem.",
+  "Na água, as bolhas chegam em cima e estouram. Simples.",
+  "No leite, as proteínas e a gordura formam uma película na superfície.",
+  "Essa película prende as bolhas, a espuma cresce e o leite sobe de uma vez.",
+  "Para não derramar, baixa o fogo quando começar a esquentar e vai mexendo.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o leite SOBE?",
+   "destaque": [
+    "SOBE?"
+   ],
+   "busca": "boiling milk"
+  },
+  {
+   "gancho": "Bolhas de vapor",
+   "destaque": [
+    "vapor"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "A água vira bolhas de vapor"
+   }
+  },
+  {
+   "gancho": "Na água, elas estouram",
+   "destaque": [
+    "estouram"
+   ],
+   "busca": "boiling water pot"
+  },
+  {
+   "gancho": "Uma película em cima",
+   "destaque": [
+    "película"
+   ],
+   "anim": {
+    "emoji": "🥛",
+    "texto": "Proteína e gordura fazem uma película"
+   }
+  },
+  {
+   "gancho": "A espuma sobe",
+   "destaque": [
+    "sobe"
+   ],
+   "busca": "milk pot stove"
+  },
+  {
+   "gancho": "Baixe o fogo e mexa",
+   "destaque": [
+    "mexa"
+   ],
+   "busca": "stirring pot"
+  }
+ ]
+}

@@ -65,6 +65,12 @@ import tStatusEscondido from "../public/StatusEscondido/tempos.json";
 import tFigurinha from "../public/Figurinha/tempos.json";
 import tQuemLeu from "../public/QuemLeu/tempos.json";
 import tTeclado from "../public/Teclado/tempos.json";
+import { WifiVerSenha, BloquearAnuncios, LigacoesDesconhecidas, LimiteApps, ArquivosLimpar } from "./shorts/Leva7";
+import tWifiVerSenha from "../public/WifiVerSenha/tempos.json";
+import tBloquearAnuncios from "../public/BloquearAnuncios/tempos.json";
+import tLigacoesDesconhecidas from "../public/LigacoesDesconhecidas/tempos.json";
+import tLimiteApps from "../public/LimiteApps/tempos.json";
+import tArquivosLimpar from "../public/ArquivosLimpar/tempos.json";
 
 export const FPS = 30;
 
@@ -110,6 +116,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["Figurinha", Figurinha, tFigurinha],
   ["QuemLeu", QuemLeu, tQuemLeu],
   ["Teclado", TecladoTruques, tTeclado],
+  ["WifiVerSenha", WifiVerSenha, tWifiVerSenha],
+  ["BloquearAnuncios", BloquearAnuncios, tBloquearAnuncios],
+  ["LigacoesDesconhecidas", LigacoesDesconhecidas, tLigacoesDesconhecidas],
+  ["LimiteApps", LimiteApps, tLimiteApps],
+  ["ArquivosLimpar", ArquivosLimpar, tArquivosLimpar],
 ];
 
 export const Root: React.FC = () => (

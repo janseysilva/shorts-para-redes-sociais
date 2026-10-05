@@ -1,0 +1,71 @@
+{
+ "id": "OuvidoAviao",
+ "titulo": "Por que o ouvido ENTOPE no avião? ✈️",
+ "legenda": "A pressão da cabine muda na subida e na descida, e o ar atrás do tímpano fica diferente do de fora. Engolir, bocejar ou mascar chiclete iguala tudo! #fisica #aviao #ouvido #curiosidades #viagem",
+ "final": {
+  "emoji": "👂",
+  "frase": "Engole, e a pressão iguala."
+ },
+ "frases": [
+  "Por que o ouvido entope quando o avião sobe ou desce?",
+  "Lá em cima, a pressão do ar dentro da cabine muda bastante.",
+  "Atrás do tímpano tem um pouquinho de ar, que fica com a pressão antiga.",
+  "A diferença empurra o tímpano para um lado. É isso que dá a sensação de entupido.",
+  "Quando você engole ou boceja, um canal se abre e a pressão se iguala.",
+  "Por isso, mascar chiclete na descida ajuda. E para bebê, dar mamadeira ou mamar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o ouvido ENTOPE?",
+   "destaque": [
+    "ENTOPE?"
+   ],
+   "busca": "airplane window view"
+  },
+  {
+   "gancho": "A pressão muda",
+   "destaque": [
+    "pressão"
+   ],
+   "anim": {
+    "emoji": "✈️",
+    "texto": "A pressão da cabine muda"
+   }
+  },
+  {
+   "gancho": "Ar preso atrás do tímpano",
+   "destaque": [
+    "tímpano"
+   ],
+   "anim": {
+    "emoji": "👂",
+    "texto": "Ar preso atrás do tímpano"
+   }
+  },
+  {
+   "gancho": "O tímpano é empurrado",
+   "destaque": [
+    "empurrado"
+   ],
+   "anim": {
+    "emoji": "⚠️",
+    "texto": "Diferença de pressão empurra o tímpano"
+   }
+  },
+  {
+   "gancho": "Engolir abre o canal",
+   "destaque": [
+    "Engolir"
+   ],
+   "busca": "woman yawning"
+  },
+  {
+   "gancho": "Chiclete na descida",
+   "destaque": [
+    "Chiclete"
+   ],
+   "busca": "chewing gum"
+  }
+ ]
+}

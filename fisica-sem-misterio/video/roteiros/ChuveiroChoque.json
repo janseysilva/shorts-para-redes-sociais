@@ -1,0 +1,71 @@
+{
+ "id": "ChuveiroChoque",
+ "titulo": "Por que o chuveiro dá CHOQUE? ⚡",
+ "legenda": "A água conduz eletricidade. Sem fio terra ou com resistência danificada, a corrente passa pelo seu corpo. Chame um eletricista e use fio terra! #fisica #chuveiro #eletricidade #casa #seguranca",
+ "final": {
+  "emoji": "⚡",
+  "frase": "Fio terra salva."
+ },
+ "frases": [
+  "Já levou choque no chuveiro? Isso é sinal de perigo.",
+  "O chuveiro elétrico esquenta a água com uma resistência ligada na energia.",
+  "A água da torneira conduz eletricidade, por causa dos sais dissolvidos nela.",
+  "Se falta o fio terra, ou a resistência estragou, a corrente escapa pela água e pelo metal.",
+  "E ela passa pelo seu corpo até o chão. É o choque.",
+  "A solução é fio terra e um disjuntor DR. Nunca mexe no chuveiro ligado: chama um eletricista.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Choque no CHUVEIRO?",
+   "destaque": [
+    "CHUVEIRO?"
+   ],
+   "busca": "shower water"
+  },
+  {
+   "gancho": "Resistência esquenta a água",
+   "destaque": [
+    "Resistência"
+   ],
+   "anim": {
+    "emoji": "🔥",
+    "texto": "A resistência esquenta a água"
+   }
+  },
+  {
+   "gancho": "A água conduz",
+   "destaque": [
+    "conduz"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "Água com sais conduz eletricidade"
+   }
+  },
+  {
+   "gancho": "A corrente escapa",
+   "destaque": [
+    "escapa"
+   ],
+   "anim": {
+    "emoji": "⚡",
+    "texto": "Sem fio terra, a corrente escapa"
+   }
+  },
+  {
+   "gancho": "Passa pelo seu corpo",
+   "destaque": [
+    "corpo"
+   ],
+   "busca": "bathroom shower"
+  },
+  {
+   "gancho": "Chame um eletricista",
+   "destaque": [
+    "eletricista"
+   ],
+   "busca": "electrician working"
+  }
+ ]
+}

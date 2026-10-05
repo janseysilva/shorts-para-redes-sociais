@@ -75,3 +75,9 @@ Títulos: 31 'Como ver MENSAGEM APAGADA no WhatsApp 👀' · 32 'Celular LENTO? 
 ## LEVA 6 — shorts 36 a 40 (03/10; PUBLICADA em 03/10 — Jansey autorizou: "publique todos")
 Buscas em alta do YouTube BR: "whatsapp como tirar online", ver status escondido, "nova função whatsapp" (figurinha), "como saber se a pessoa leu", "truques celular samsung/xiaomi" (teclado).
 `roteiros_leva6.py` + `src/shorts/Leva6.tsx` (EsconderOnline, StatusEscondido, Figurinha, QuemLeu, TecladoTruques com id "Teclado"). Saída `out/Celular36_EsconderOnline` … `Celular40_Teclado` + cópias em `out/upload/`.
+
+## LEVA 7 — shorts 41 a 45 (04/10; PUBLICADA em 04/10 — Jansey autorizou: "publique todos")
+Buscas em alta: "como descobrir senha do wifi que estou conectado", "como bloquear anúncio no celular" (DNS privado dns.adguard-dns.com), "bloquear chamadas desconhecidas", limite de tempo (o do vício é o melhor do canal), "como liberar espaço no celular" (app Arquivos).
+`roteiros_leva7.py` + `src/shorts/Leva7.tsx` (WifiVerSenha, BloquearAnuncios, LigacoesDesconhecidas, LimiteApps, ArquivosLimpar).
+CUIDADO: os IDs SenhaWifi e LiberarEspaco JÁ EXISTIAM (shorts antigos) e foram sobrescritos por engano — restaurados com git checkout. Antes de criar um ID novo, conferir se `roteiros/ID.json` já existe.
+- Publicação 04/10: o Chrome conectou primeiro num OUTRO perfil/conta Google (canal "JANSEY FELIX SILVA" @janseyfelixsilva1291, sem os 3 canais). Sempre conferir em youtube.com/channel_switcher que aparecem Office/Truques/Física antes de publicar; se não, pedir para Jansey trocar o perfil do Chrome.

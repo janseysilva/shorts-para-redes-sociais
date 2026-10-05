@@ -130,5 +130,22 @@
  "PaoMurcha_0": 10.03,
  "PaoMurcha_3": 6.4,
  "PaoMurcha_4": 6.24,
- "PaoMurcha_5": 7.36
+ "PaoMurcha_5": 7.36,
+ "AviaoCurva_0": 9.63,
+ "AviaoCurva_4": 30.0,
+ "AviaoCurva_5": 12.88,
+ "CebolaChorar_0": 7.68,
+ "CebolaChorar_3": 10.01,
+ "CebolaChorar_4": 10.81,
+ "CebolaChorar_5": 6.88,
+ "ChuveiroChoque_0": 23.77,
+ "ChuveiroChoque_4": 10.23,
+ "ChuveiroChoque_5": 20.47,
+ "LeiteSobe_0": 8.63,
+ "LeiteSobe_2": 11.23,
+ "LeiteSobe_4": 10.03,
+ "LeiteSobe_5": 15.25,
+ "OuvidoAviao_0": 15.91,
+ "OuvidoAviao_4": 10.01,
+ "OuvidoAviao_5": 7.27
 }

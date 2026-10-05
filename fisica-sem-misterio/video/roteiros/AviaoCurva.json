@@ -1,0 +1,71 @@
+{
+ "id": "AviaoCurva",
+ "titulo": "Como o avião faz CURVA no ar? ✈️",
+ "legenda": "O piloto inclina as asas. A força que segura o avião fica inclinada e puxa ele para o lado da curva, igual a bicicleta deitando! #fisica #aviao #piloto #curiosidades #ciencia",
+ "final": {
+  "emoji": "✈️",
+  "frase": "Inclina a asa, faz a curva."
+ },
+ "frases": [
+  "No ar não tem estrada nem volante. Então, como o avião faz curva?",
+  "As asas criam uma força para cima, que segura o avião no ar.",
+  "Para virar, o piloto inclina o avião, abaixando uma asa e levantando a outra.",
+  "Agora essa força fica inclinada, e uma parte dela puxa o avião para o lado.",
+  "É igual andar de bicicleta: para fazer curva, você deita a bicicleta.",
+  "Por isso, numa curva, a janela de um lado mostra o céu e a do outro mostra o chão.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Como ele faz CURVA?",
+   "destaque": [
+    "CURVA?"
+   ],
+   "busca": "airplane banking turn"
+  },
+  {
+   "gancho": "Força para cima",
+   "destaque": [
+    "cima"
+   ],
+   "anim": {
+    "emoji": "⬆️",
+    "texto": "As asas empurram para cima"
+   }
+  },
+  {
+   "gancho": "O piloto inclina",
+   "destaque": [
+    "inclina"
+   ],
+   "anim": {
+    "emoji": "✈️",
+    "texto": "Uma asa desce, a outra sobe"
+   }
+  },
+  {
+   "gancho": "A força puxa de lado",
+   "destaque": [
+    "lado"
+   ],
+   "anim": {
+    "emoji": "↗️",
+    "texto": "A força inclinada puxa de lado"
+   }
+  },
+  {
+   "gancho": "Igual a bicicleta",
+   "destaque": [
+    "bicicleta"
+   ],
+   "busca": "cyclist turning"
+  },
+  {
+   "gancho": "Céu de um lado, chão do outro",
+   "destaque": [
+    "chão"
+   ],
+   "busca": "airplane wing sky"
+  }
+ ]
+}

@@ -405,6 +405,62 @@ short("AviaoDeLado", "Por que o avião pousa DE LADO? ✈️",
     ("Por isso, em dia de vento, o pouso parece de lado. Mas está tudo sob controle.", "Tudo sob controle", ["controle"], v("airplane sky clouds")),
 ])
 
+# ---------- LEVA 6 (04/10): avião, cozinha e casa (avião pousa de lado = 2 mil, o melhor do canal) ----------
+short("OuvidoAviao", "Por que o ouvido ENTOPE no avião? ✈️",
+      "A pressão da cabine muda na subida e na descida, e o ar atrás do tímpano fica diferente do de fora. Engolir, bocejar ou mascar chiclete iguala tudo! #fisica #aviao #ouvido #curiosidades #viagem",
+      "👂", "Engole, e a pressão iguala.", [
+    ("Por que o ouvido entope quando o avião sobe ou desce?", "Por que o ouvido ENTOPE?", ["ENTOPE?"], v("airplane window view")),
+    ("Lá em cima, a pressão do ar dentro da cabine muda bastante.", "A pressão muda", ["pressão"], a("✈️", "A pressão da cabine muda")),
+    ("Atrás do tímpano tem um pouquinho de ar, que fica com a pressão antiga.", "Ar preso atrás do tímpano", ["tímpano"], a("👂", "Ar preso atrás do tímpano")),
+    ("A diferença empurra o tímpano para um lado. É isso que dá a sensação de entupido.", "O tímpano é empurrado", ["empurrado"], a("⚠️", "Diferença de pressão empurra o tímpano")),
+    ("Quando você engole ou boceja, um canal se abre e a pressão se iguala.", "Engolir abre o canal", ["Engolir"], v("woman yawning")),
+    ("Por isso, mascar chiclete na descida ajuda. E para bebê, dar mamadeira ou mamar.", "Chiclete na descida", ["Chiclete"], v("chewing gum")),
+])
+
+short("CebolaChorar", "Por que a cebola faz CHORAR? 🧅",
+      "Ao cortar, a cebola solta um gás que irrita os olhos, e as lágrimas lavam. Faca afiada e cebola gelada fazem chorar bem menos! #fisica #ciencia #cebola #cozinha #curiosidades",
+      "🧅", "É um gás que irrita os olhos.", [
+    ("Por que a gente chora quando corta cebola?", "Por que CHORAMOS?", ["CHORAMOS?"], v("cutting onion")),
+    ("Quando a faca corta, ela rompe as células da cebola.", "A faca rompe as células", ["rompe"], a("🔪", "A faca rompe as células")),
+    ("Duas substâncias que estavam separadas se misturam e formam um gás.", "Forma um gás", ["gás"], a("💨", "Duas substâncias viram um gás")),
+    ("Esse gás sobe, chega nos olhos e irrita. Os olhos soltam lágrimas para lavar.", "As lágrimas lavam", ["lavam"], v("crying eyes")),
+    ("Faca afiada esmaga menos as células, e solta menos gás.", "Faca afiada ajuda", ["afiada"], v("sharp knife chopping")),
+    ("E cebola gelada também ajuda: no frio, o gás demora mais para subir.", "Cebola gelada", ["gelada"], v("onions kitchen")),
+])
+
+short("LeiteSobe", "Por que o leite SOBE quando ferve? 🥛",
+      "No leite, as proteínas e a gordura formam uma película que prende as bolhas de vapor, e a espuma sobe. Baixe o fogo e mexa! #fisica #leite #cozinha #curiosidades #ciencia",
+      "🥛", "A película prende o vapor.", [
+    ("Por que o leite derrama quando ferve, e a água não?", "Por que o leite SOBE?", ["SOBE?"], v("boiling milk")),
+    ("Quando ferve, a água vira vapor e forma bolhas que sobem.", "Bolhas de vapor", ["vapor"], a("💨", "A água vira bolhas de vapor")),
+    ("Na água, as bolhas chegam em cima e estouram. Simples.", "Na água, elas estouram", ["estouram"], v("boiling water pot")),
+    ("No leite, as proteínas e a gordura formam uma película na superfície.", "Uma película em cima", ["película"], a("🥛", "Proteína e gordura fazem uma película")),
+    ("Essa película prende as bolhas, a espuma cresce e o leite sobe de uma vez.", "A espuma sobe", ["sobe"], v("milk pot stove")),
+    ("Para não derramar, baixa o fogo quando começar a esquentar e vai mexendo.", "Baixe o fogo e mexa", ["mexa"], v("stirring pot")),
+])
+
+short("ChuveiroChoque", "Por que o chuveiro dá CHOQUE? ⚡",
+      "A água conduz eletricidade. Sem fio terra ou com resistência danificada, a corrente passa pelo seu corpo. Chame um eletricista e use fio terra! #fisica #chuveiro #eletricidade #casa #seguranca",
+      "⚡", "Fio terra salva.", [
+    ("Já levou choque no chuveiro? Isso é sinal de perigo.", "Choque no CHUVEIRO?", ["CHUVEIRO?"], v("shower water")),
+    ("O chuveiro elétrico esquenta a água com uma resistência ligada na energia.", "Resistência esquenta a água", ["Resistência"], a("🔥", "A resistência esquenta a água")),
+    ("A água da torneira conduz eletricidade, por causa dos sais dissolvidos nela.", "A água conduz", ["conduz"], a("💧", "Água com sais conduz eletricidade")),
+    ("Se falta o fio terra, ou a resistência estragou, a corrente escapa pela água e pelo metal.", "A corrente escapa", ["escapa"], a("⚡", "Sem fio terra, a corrente escapa")),
+    ("E ela passa pelo seu corpo até o chão. É o choque.", "Passa pelo seu corpo", ["corpo"], v("bathroom shower")),
+    ("A solução é fio terra e um disjuntor DR. Nunca mexe no chuveiro ligado: chama um eletricista.", "Chame um eletricista", ["eletricista"], v("electrician working")),
+])
+
+short("AviaoCurva", "Como o avião faz CURVA no ar? ✈️",
+      "O piloto inclina as asas. A força que segura o avião fica inclinada e puxa ele para o lado da curva, igual a bicicleta deitando! #fisica #aviao #piloto #curiosidades #ciencia",
+      "✈️", "Inclina a asa, faz a curva.", [
+    ("No ar não tem estrada nem volante. Então, como o avião faz curva?", "Como ele faz CURVA?", ["CURVA?"], v("airplane banking turn")),
+    ("As asas criam uma força para cima, que segura o avião no ar.", "Força para cima", ["cima"], a("⬆️", "As asas empurram para cima")),
+    ("Para virar, o piloto inclina o avião, abaixando uma asa e levantando a outra.", "O piloto inclina", ["inclina"], a("✈️", "Uma asa desce, a outra sobe")),
+    ("Agora essa força fica inclinada, e uma parte dela puxa o avião para o lado.", "A força puxa de lado", ["lado"], a("↗️", "A força inclinada puxa de lado")),
+    ("É igual andar de bicicleta: para fazer curva, você deita a bicicleta.", "Igual a bicicleta", ["bicicleta"], v("cyclist turning")),
+    ("Por isso, numa curva, a janela de um lado mostra o céu e a do outro mostra o chão.", "Céu de um lado, chão do outro", ["chão"], v("airplane wing sky")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")
