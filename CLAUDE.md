@@ -29,8 +29,9 @@ Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publi
 - **Office** (14 inscritos): PowerPoint visual, dinheiro/planilhas úteis, ABNT. Slide que parece filme (995), PDF vira Word (710).
 - **Truques** (11 inscritos): WhatsApp, privacidade e vício no celular. Vício (715), letras (592), mensagem apagada (584).
 
-## Totais publicados em 04/10
-Office 45 · Truques 45 · Física 40.
+## Totais publicados em 05/10
+Office 50 · Truques 50 · Física 45.
+(05/10, PC da SEMED: Física com objetos novos — Jansey pediu para NÃO repetir assunto, nem o mesmo objeto de vídeos anteriores, como ovo e avião.)
 
 ## Próximo passo combinado
 Levar os vídeos para **TikTok, Instagram e Facebook**, começando pelo Física:
