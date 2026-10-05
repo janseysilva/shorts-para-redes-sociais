@@ -81,3 +81,11 @@ Buscas em alta: "como descobrir senha do wifi que estou conectado", "como bloque
 `roteiros_leva7.py` + `src/shorts/Leva7.tsx` (WifiVerSenha, BloquearAnuncios, LigacoesDesconhecidas, LimiteApps, ArquivosLimpar).
 CUIDADO: os IDs SenhaWifi e LiberarEspaco JÁ EXISTIAM (shorts antigos) e foram sobrescritos por engano — restaurados com git checkout. Antes de criar um ID novo, conferir se `roteiros/ID.json` já existe.
 - Publicação 04/10: o Chrome conectou primeiro num OUTRO perfil/conta Google (canal "JANSEY FELIX SILVA" @janseyfelixsilva1291, sem os 3 canais). Sempre conferir em youtube.com/channel_switcher que aparecem Office/Truques/Física antes de publicar; se não, pedir para Jansey trocar o perfil do Chrome.
+
+## LEVA 8 — shorts 46 a 50 (05/10; PUBLICADA em 05/10 — Jansey autorizou: "publique todos")
+Buscas em alta: "celular como webcam no pc", "como recuperar fotos apagadas da lixeira", "como descobrir o número do chip", "instagram como tirar o online", "câmera do celular embaçada / não foca" (saindo um pouco do WhatsApp, que já tem muitos).
+`roteiros_leva8.py` (agora com trava: não sobrescreve roteiro existente com outro texto) + `src/shorts/Leva8.tsx` (CelularWebcam, FotosApagadas, NumeroChip, InstagramOnline, CameraEmbacada). Saída `out/Celular46_CelularWebcam` … `Celular50_CameraEmbacada`.
+- Cuidado no `Config` com `cor="#fff"`: o título da barra fica branco no branco. Usar cor escura (Instagram usa ROXO #3b1650).
+- Botões na parte de baixo da tela do celular ficam escondidos atrás da legenda: colocar ações importantes no topo.
+
+- Publicação 05/10: Física 41-45, Office 46-50 e Celular 46-50 PUBLICADOS (15 de 15, conferidos como Público). Descrição do Office termina com "  Segue para mais dicas de Office!", do Celular com "  Segue para mais truques de celular!". Depois do envio, esperar ~15 s antes de digitar (senão o YouTube recarrega o formulário e apaga o texto). Se a ferramenta find falhar, o input de arquivo fica 2 refs depois do botão "Selecionar arquivos" no read_page. No canal Celular a URL ?d=ud às vezes não abre o diálogo: clicar em "Enviar vídeos".

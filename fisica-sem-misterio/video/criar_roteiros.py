@@ -461,6 +461,62 @@ short("AviaoCurva", "Como o avião faz CURVA no ar? ✈️",
     ("Por isso, numa curva, a janela de um lado mostra o céu e a do outro mostra o chão.", "Céu de um lado, chão do outro", ["chão"], v("airplane wing sky")),
 ])
 
+# ---------- LEVA 7 (05/10): objetos novos de casa (buscas em alta; sem ovo nem avião, que já têm vários) ----------
+short("CopoStanley", "Por que o copo Stanley segura o gelo por HORAS? 🥤",
+      "Entre as duas paredes de aço do copo tem vácuo, e sem ar o calor quase não passa. É o mesmo segredo da garrafa térmica, e serve para o café quente também! #fisica #stanley #copo #curiosidades #ciencia",
+      "🥤", "Sem ar, o calor não passa.", [
+    ("Por que o gelo dura tanto tempo dentro do copo Stanley?", "Por que dura HORAS?", ["HORAS?"], v("tumbler ice drink")),
+    ("O calor passa de três jeitos: encostando, pelo ar que circula e por radiação.", "3 caminhos do calor", ["calor"], a("🔥", "Encostando, pelo ar e por radiação")),
+    ("O copo tem duas paredes de aço, uma dentro da outra.", "Parede dupla", ["dupla"], a("🥤", "Uma parede dentro da outra")),
+    ("E entre elas a fábrica tira o ar e deixa vácuo. Sem ar, o calor quase não atravessa.", "Vácuo no meio", ["Vácuo"], a("🚫", "Sem ar, o calor quase não passa")),
+    ("O mesmo segredo funciona ao contrário: o café continua quente.", "Café quente também", ["quente"], v("hot coffee steam")),
+    ("O ponto fraco é a tampa. Por isso, com a tampa fechada, ele dura bem mais.", "Feche a tampa", ["tampa"], v("drinking from tumbler")),
+])
+
+short("VozGravacao", "Por que sua voz fica ESTRANHA na gravação? 🎙️",
+      "Quando você fala, ouve a voz pelo ar e também pelos ossos da cabeça, que deixam ela mais grave. A gravação só pega o som do ar: é a voz que os outros ouvem! #fisica #som #voz #curiosidades #ciencia",
+      "🎙️", "Os outros ouvem a da gravação.", [
+    ("Por que a sua voz parece tão estranha quando você ouve uma gravação?", "Sua voz é ESTRANHA?", ["ESTRANHA?"], v("woman recording voice phone")),
+    ("Quando você fala, o som sai pela boca e chega no seu ouvido pelo ar.", "Pelo ar", ["ar"], a("🗣️", "O som sai e volta pelo ar")),
+    ("Mas ele também vibra os ossos da sua cabeça e chega no ouvido por dentro.", "Pelos ossos", ["ossos"], a("🦴", "A vibração passa pelos ossos")),
+    ("Os ossos passam melhor os sons graves. Por isso, você se ouve com a voz mais grossa.", "Mais grave por dentro", ["grave"], a("🔊", "Os ossos reforçam o grave")),
+    ("O microfone só pega o som que veio pelo ar.", "O microfone só pega o ar", ["microfone"], v("microphone podcast")),
+    ("Ou seja, a voz da gravação é exatamente a que as outras pessoas ouvem.", "É a que os outros ouvem", ["outros"], v("friends talking laughing")),
+])
+
+short("BoxEstoura", "Por que o vidro do box ESTOURA sozinho? 🚿",
+      "O vidro temperado tem a superfície apertada e o miolo esticado. Uma lasca na borda ou uma impureza libera essa tensão de uma vez, e ele vira pedacinhos. Confira roldanas e borrachas! #fisica #vidro #box #banheiro #casa",
+      "🚿", "A tensão escapa de uma vez.", [
+    ("O vidro do box pode estourar sozinho, sem ninguém encostar. Por quê?", "Estoura SOZINHO?", ["SOZINHO?"], v("glass shower door bathroom")),
+    ("O box é de vidro temperado: ele é aquecido e depois resfriado de repente.", "Vidro temperado", ["temperado"], a("🔥", "Aquecido e resfriado de repente")),
+    ("Isso deixa a superfície apertada e o miolo esticado, como uma mola presa.", "Uma mola presa", ["mola"], a("🌀", "Superfície apertada, miolo esticado")),
+    ("Uma lasca na borda, ou uma impureza que cresce com o calor do banho, solta essa tensão.", "Lasca ou impureza", ["Lasca"], a("💥", "Uma lasca libera a tensão")),
+    ("E o vidro inteiro se parte em pedacinhos. Isso é de propósito: os cacos cortam menos.", "Pedacinhos de propósito", ["propósito"], v("broken glass pieces")),
+    ("Para evitar, confira roldanas e borrachas, e não bata a porta do box.", "Confira as roldanas", ["roldanas"], v("bathroom cleaning shower")),
+])
+
+short("TomadaDerrete", "Por que a tomada da airfryer DERRETE? 🔌",
+      "A airfryer puxa muita corrente. Num encaixe frouxo, num benjamim ou num fio fino, essa corrente vira calor e o plástico derrete. Use tomada de 20 A, direto na parede! #fisica #airfryer #tomada #eletricidade #casa",
+      "🔌", "Mau contato vira calor.", [
+    ("Já viu tomada derretida atrás da airfryer ou do ar-condicionado?", "A tomada DERRETEU?", ["DERRETEU?"], v("air fryer kitchen")),
+    ("Esses aparelhos puxam muita corrente elétrica ao mesmo tempo.", "Muita corrente", ["corrente"], a("⚡", "Airfryer puxa muita corrente")),
+    ("Quando o plugue está frouxo, a corrente passa por um contato pequeno, e ali esquenta.", "Encaixe frouxo esquenta", ["frouxo"], a("🔥", "Contato pequeno vira calor")),
+    ("Quanto pior o contato, mais calor. Até o plástico amolecer e derreter.", "O plástico derrete", ["derrete"], a("🌡️", "Mais calor, plástico mole")),
+    ("Benjamim, extensão fina e tomada velha pioram tudo.", "Nada de benjamim", ["benjamim"], a("🚫", "Benjamim e extensão fina: perigo")),
+    ("O certo é tomada de vinte amperes, de pino grosso, direto na parede.", "Tomada de 20 A", ["20"], a("🔌", "Tomada de 20 A, direto na parede")),
+])
+
+short("NuvemNaoCai", "Se a nuvem pesa TONELADAS, por que ela não cai? ☁️",
+      "Uma nuvem pequena pesa centenas de toneladas, mas são gotinhas minúsculas, que caem devagar demais, e o ar quente subindo segura elas. Quando as gotas crescem, cai a chuva! #fisica #nuvem #chuva #curiosidades #ciencia",
+      "☁️", "Gotinhas leves, ar subindo.", [
+    ("Uma nuvem pequena pesa centenas de toneladas. Por que ela não cai?", "Por que ela NÃO CAI?", ["CAI?"], v("white clouds blue sky")),
+    ("Esse peso está espalhado em bilhões de gotinhas minúsculas.", "Bilhões de gotinhas", ["gotinhas"], a("💧", "Gotinhas menores que um fio de cabelo")),
+    ("Uma gota tão pequena cai muito devagar: o ar freia ela o tempo todo.", "O ar freia a gota", ["freia"], a("🍃", "Cai devagar, igual folha seca")),
+    ("E o ar quente que sobe do chão empurra essas gotinhas para cima.", "O ar quente sobe", ["sobe"], a("⬆️", "Ar quente empurra para cima")),
+    ("Quando as gotas se juntam e ficam pesadas, o ar não segura mais.", "Ficou pesada", ["pesada"], v("dark rain clouds")),
+    ("E aí ela cai. É a chuva.", "Aí cai a chuva", ["chuva"], v("rain falling window")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

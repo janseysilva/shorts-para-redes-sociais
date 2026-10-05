@@ -1,0 +1,71 @@
+{
+ "id": "NuvemNaoCai",
+ "titulo": "Se a nuvem pesa TONELADAS, por que ela não cai? ☁️",
+ "legenda": "Uma nuvem pequena pesa centenas de toneladas, mas são gotinhas minúsculas, que caem devagar demais, e o ar quente subindo segura elas. Quando as gotas crescem, cai a chuva! #fisica #nuvem #chuva #curiosidades #ciencia",
+ "final": {
+  "emoji": "☁️",
+  "frase": "Gotinhas leves, ar subindo."
+ },
+ "frases": [
+  "Uma nuvem pequena pesa centenas de toneladas. Por que ela não cai?",
+  "Esse peso está espalhado em bilhões de gotinhas minúsculas.",
+  "Uma gota tão pequena cai muito devagar: o ar freia ela o tempo todo.",
+  "E o ar quente que sobe do chão empurra essas gotinhas para cima.",
+  "Quando as gotas se juntam e ficam pesadas, o ar não segura mais.",
+  "E aí ela cai. É a chuva.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que ela NÃO CAI?",
+   "destaque": [
+    "CAI?"
+   ],
+   "busca": "white clouds blue sky"
+  },
+  {
+   "gancho": "Bilhões de gotinhas",
+   "destaque": [
+    "gotinhas"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "Gotinhas menores que um fio de cabelo"
+   }
+  },
+  {
+   "gancho": "O ar freia a gota",
+   "destaque": [
+    "freia"
+   ],
+   "anim": {
+    "emoji": "🍃",
+    "texto": "Cai devagar, igual folha seca"
+   }
+  },
+  {
+   "gancho": "O ar quente sobe",
+   "destaque": [
+    "sobe"
+   ],
+   "anim": {
+    "emoji": "⬆️",
+    "texto": "Ar quente empurra para cima"
+   }
+  },
+  {
+   "gancho": "Ficou pesada",
+   "destaque": [
+    "pesada"
+   ],
+   "busca": "dark rain clouds"
+  },
+  {
+   "gancho": "Aí cai a chuva",
+   "destaque": [
+    "chuva"
+   ],
+   "busca": "rain falling window"
+  }
+ ]
+}

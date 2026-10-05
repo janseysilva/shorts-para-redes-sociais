@@ -1,0 +1,71 @@
+{
+ "id": "VozGravacao",
+ "titulo": "Por que sua voz fica ESTRANHA na gravação? 🎙️",
+ "legenda": "Quando você fala, ouve a voz pelo ar e também pelos ossos da cabeça, que deixam ela mais grave. A gravação só pega o som do ar: é a voz que os outros ouvem! #fisica #som #voz #curiosidades #ciencia",
+ "final": {
+  "emoji": "🎙️",
+  "frase": "Os outros ouvem a da gravação."
+ },
+ "frases": [
+  "Por que a sua voz parece tão estranha quando você ouve uma gravação?",
+  "Quando você fala, o som sai pela boca e chega no seu ouvido pelo ar.",
+  "Mas ele também vibra os ossos da sua cabeça e chega no ouvido por dentro.",
+  "Os ossos passam melhor os sons graves. Por isso, você se ouve com a voz mais grossa.",
+  "O microfone só pega o som que veio pelo ar.",
+  "Ou seja, a voz da gravação é exatamente a que as outras pessoas ouvem.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Sua voz é ESTRANHA?",
+   "destaque": [
+    "ESTRANHA?"
+   ],
+   "busca": "woman recording voice phone"
+  },
+  {
+   "gancho": "Pelo ar",
+   "destaque": [
+    "ar"
+   ],
+   "anim": {
+    "emoji": "🗣️",
+    "texto": "O som sai e volta pelo ar"
+   }
+  },
+  {
+   "gancho": "Pelos ossos",
+   "destaque": [
+    "ossos"
+   ],
+   "anim": {
+    "emoji": "🦴",
+    "texto": "A vibração passa pelos ossos"
+   }
+  },
+  {
+   "gancho": "Mais grave por dentro",
+   "destaque": [
+    "grave"
+   ],
+   "anim": {
+    "emoji": "🔊",
+    "texto": "Os ossos reforçam o grave"
+   }
+  },
+  {
+   "gancho": "O microfone só pega o ar",
+   "destaque": [
+    "microfone"
+   ],
+   "busca": "microphone podcast"
+  },
+  {
+   "gancho": "É a que os outros ouvem",
+   "destaque": [
+    "outros"
+   ],
+   "busca": "friends talking laughing"
+  }
+ ]
+}

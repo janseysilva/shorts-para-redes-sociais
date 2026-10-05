@@ -71,6 +71,12 @@ import tBloquearAnuncios from "../public/BloquearAnuncios/tempos.json";
 import tLigacoesDesconhecidas from "../public/LigacoesDesconhecidas/tempos.json";
 import tLimiteApps from "../public/LimiteApps/tempos.json";
 import tArquivosLimpar from "../public/ArquivosLimpar/tempos.json";
+import { CelularWebcam, FotosApagadas, NumeroChip, InstagramOnline, CameraEmbacada } from "./shorts/Leva8";
+import tCelularWebcam from "../public/CelularWebcam/tempos.json";
+import tFotosApagadas from "../public/FotosApagadas/tempos.json";
+import tNumeroChip from "../public/NumeroChip/tempos.json";
+import tInstagramOnline from "../public/InstagramOnline/tempos.json";
+import tCameraEmbacada from "../public/CameraEmbacada/tempos.json";
 
 export const FPS = 30;
 
@@ -121,6 +127,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["LigacoesDesconhecidas", LigacoesDesconhecidas, tLigacoesDesconhecidas],
   ["LimiteApps", LimiteApps, tLimiteApps],
   ["ArquivosLimpar", ArquivosLimpar, tArquivosLimpar],
+  ["CelularWebcam", CelularWebcam, tCelularWebcam],
+  ["FotosApagadas", FotosApagadas, tFotosApagadas],
+  ["NumeroChip", NumeroChip, tNumeroChip],
+  ["InstagramOnline", InstagramOnline, tInstagramOnline],
+  ["CameraEmbacada", CameraEmbacada, tCameraEmbacada],
 ];
 
 export const Root: React.FC = () => (

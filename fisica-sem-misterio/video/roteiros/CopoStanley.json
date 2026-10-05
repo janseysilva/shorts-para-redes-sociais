@@ -1,0 +1,71 @@
+{
+ "id": "CopoStanley",
+ "titulo": "Por que o copo Stanley segura o gelo por HORAS? 🥤",
+ "legenda": "Entre as duas paredes de aço do copo tem vácuo, e sem ar o calor quase não passa. É o mesmo segredo da garrafa térmica, e serve para o café quente também! #fisica #stanley #copo #curiosidades #ciencia",
+ "final": {
+  "emoji": "🥤",
+  "frase": "Sem ar, o calor não passa."
+ },
+ "frases": [
+  "Por que o gelo dura tanto tempo dentro do copo Stanley?",
+  "O calor passa de três jeitos: encostando, pelo ar que circula e por radiação.",
+  "O copo tem duas paredes de aço, uma dentro da outra.",
+  "E entre elas a fábrica tira o ar e deixa vácuo. Sem ar, o calor quase não atravessa.",
+  "O mesmo segredo funciona ao contrário: o café continua quente.",
+  "O ponto fraco é a tampa. Por isso, com a tampa fechada, ele dura bem mais.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que dura HORAS?",
+   "destaque": [
+    "HORAS?"
+   ],
+   "busca": "tumbler ice drink"
+  },
+  {
+   "gancho": "3 caminhos do calor",
+   "destaque": [
+    "calor"
+   ],
+   "anim": {
+    "emoji": "🔥",
+    "texto": "Encostando, pelo ar e por radiação"
+   }
+  },
+  {
+   "gancho": "Parede dupla",
+   "destaque": [
+    "dupla"
+   ],
+   "anim": {
+    "emoji": "🥤",
+    "texto": "Uma parede dentro da outra"
+   }
+  },
+  {
+   "gancho": "Vácuo no meio",
+   "destaque": [
+    "Vácuo"
+   ],
+   "anim": {
+    "emoji": "🚫",
+    "texto": "Sem ar, o calor quase não passa"
+   }
+  },
+  {
+   "gancho": "Café quente também",
+   "destaque": [
+    "quente"
+   ],
+   "busca": "hot coffee steam"
+  },
+  {
+   "gancho": "Feche a tampa",
+   "destaque": [
+    "tampa"
+   ],
+   "busca": "drinking from tumbler"
+  }
+ ]
+}

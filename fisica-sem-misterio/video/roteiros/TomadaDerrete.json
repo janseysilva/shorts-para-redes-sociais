@@ -1,0 +1,77 @@
+{
+ "id": "TomadaDerrete",
+ "titulo": "Por que a tomada da airfryer DERRETE? 🔌",
+ "legenda": "A airfryer puxa muita corrente. Num encaixe frouxo, num benjamim ou num fio fino, essa corrente vira calor e o plástico derrete. Use tomada de 20 A, direto na parede! #fisica #airfryer #tomada #eletricidade #casa",
+ "final": {
+  "emoji": "🔌",
+  "frase": "Mau contato vira calor."
+ },
+ "frases": [
+  "Já viu tomada derretida atrás da airfryer ou do ar-condicionado?",
+  "Esses aparelhos puxam muita corrente elétrica ao mesmo tempo.",
+  "Quando o plugue está frouxo, a corrente passa por um contato pequeno, e ali esquenta.",
+  "Quanto pior o contato, mais calor. Até o plástico amolecer e derreter.",
+  "Benjamim, extensão fina e tomada velha pioram tudo.",
+  "O certo é tomada de vinte amperes, de pino grosso, direto na parede.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "A tomada DERRETEU?",
+   "destaque": [
+    "DERRETEU?"
+   ],
+   "busca": "air fryer kitchen"
+  },
+  {
+   "gancho": "Muita corrente",
+   "destaque": [
+    "corrente"
+   ],
+   "anim": {
+    "emoji": "⚡",
+    "texto": "Airfryer puxa muita corrente"
+   }
+  },
+  {
+   "gancho": "Encaixe frouxo esquenta",
+   "destaque": [
+    "frouxo"
+   ],
+   "anim": {
+    "emoji": "🔥",
+    "texto": "Contato pequeno vira calor"
+   }
+  },
+  {
+   "gancho": "O plástico derrete",
+   "destaque": [
+    "derrete"
+   ],
+   "anim": {
+    "emoji": "🌡️",
+    "texto": "Mais calor, plástico mole"
+   }
+  },
+  {
+   "gancho": "Nada de benjamim",
+   "destaque": [
+    "benjamim"
+   ],
+   "anim": {
+    "emoji": "🚫",
+    "texto": "Benjamim e extensão fina: perigo"
+   }
+  },
+  {
+   "gancho": "Tomada de 20 A",
+   "destaque": [
+    "20"
+   ],
+   "anim": {
+    "emoji": "🔌",
+    "texto": "Tomada de 20 A, direto na parede"
+   }
+  }
+ ]
+}

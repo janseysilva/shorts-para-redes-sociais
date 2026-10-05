@@ -1102,7 +1102,131 @@ function X18(t){
   S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([220,190,150,170],rows,{cls,sel:t>=7.4&&t<10.6?[1,3]:null,fx:t>=7.4&&t<11?'=(C2-B2)/B2':''})}</div>`;
   S.cap=t<3?'Cada produto,<br>em porcentagem.':t<7?'Preço do mês passado<br>e de hoje.':t<11?'<span class="k3">=(C2-B2)/B2</span><br>e o botão <span class="k3">%</span>':t<15?'Arrasto: a variação<br>de cada produto.':t<19?'<span class="k3">Conjunto de Ícones</span>:<br>subiu ou desceu.':'O café subiu 19%!<br>Agora você sabe.';
 }
-const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18]};
+/* --- leva 8 (05/10): capa ABNT, texto em cima da imagem, soma Alt+=, slide mestre, 5 atalhos --- */
+const okBadge=(s,top)=>`<div style="position:absolute;left:0;right:0;top:${top}px;text-align:center"><span style="display:inline-block;padding:10px 26px;border-radius:30px;background:#2e7d32;color:#fff;font:bold 34px 'Segoe UI'">✓ ${s}</span></div>`;
+function W14(t){
+  S.title='Trabalho.docx - Word';
+  if(t>=22)return endCard('Capa ABNT<br>em 1 minuto.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Capa no padrão <em>ABNT</em><br>em 1 minuto':'Capa ABNT<br><em>no Word</em>';
+  const fim=t<3||t>=19;
+  const arial=fim||t>=5.0, doze=fim||t>=6.2, centro=fim||t>=8.8, negr=fim||t>=12.6, gap=fim?1:lerp(0,1,16.6,18.2,t);
+  const sel=t>=3.4&&t<7;
+  const hl=s=>sel?`<span class="hl">${s}</span>`:s;
+  const fs=doze?30:26, ff=arial?'Arial':'Calibri';
+  const capaTxt=`<div style="font-family:${ff};font-size:${fs}px;line-height:1.45;text-align:${centro?'center':'left'};position:relative;height:955px">
+    <div>${hl('FACULDADE DO NORTE')}</div><div>${hl('MARIA SILVA')}</div>
+    <div style="position:absolute;left:0;right:0;top:${100+330*gap}px;${t>=11.4&&t<12.6?'background:#b4d7ff':''}"><span style="font-weight:${negr?'bold':'normal'}">${hl('A ÁGUA NO DIA A DIA:')}</span><br>${hl('como economizar em casa')}</div>
+    <div style="position:absolute;left:0;right:0;top:${190+660*gap}px">${hl('MANAUS')}<br>${hl('2026')}</div></div>`;
+  const sc=0.75, X=225;
+  const desl=t>=20.2?lerp(0,560,20.2,21.2,t):0;
+  const p2=t>=20.2?page(X,20+806+30,`<div style="font:22px Arial;color:#2b579a">Página 2 — começa limpa ${CARET}</div>`,sc):'';
+  S.canvas=`<div style="position:absolute;inset:0;transform:translateY(${-desl}px)">${page(X,20,capaTxt,sc)}${p2}</div>`;
+  S.rib=btn('Fonte: '+ff+' ▾',t>=3&&t<7?st(t,3.9,4.4):'',t>=4.4&&t<5.4?menu(['Arial','Calibri','Times New Roman'],t>=4.9?'Arial':''):'')+btn('Tamanho: '+(doze?'12':'11')+' ▾',t>=3&&t<7?st(t,5.6,6.1):'')+btn('Centralizar',t>=7&&t<11?st(t,8.2,8.8):'')+btn('<b>N</b>',t>=11&&t<15?st(t,12,12.6):'');
+  keys(['Ctrl','E'],8.8,t);keys(['Ctrl','N'],12.6,t);if(t>=15&&t<19)keys(['Enter'],16.8,t);if(t>=19)keys(['Ctrl','Enter'],20.2,t);
+  S.cap=t<3?'Capa no padrão ABNT,<br>sem sofrimento.':t<7?'Arial ou Times,<br>tamanho <span class="k3">12</span>.':t<11?'<span class="k3">Ctrl + E</span>:<br>tudo centralizado.':t<15?'Título em negrito:<br><span class="k3">Ctrl + N</span>':t<19?'Cidade e ano<br>lá embaixo.':'<span class="k3">Ctrl + Enter</span>:<br>página nova e limpa.';
+}
+function W15(t){
+  S.title='Convite.docx - Word';
+  if(t>=22)return endCard('Texto em cima<br>da imagem.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Texto <em>em cima</em><br>da imagem':'Texto na imagem<br><em>no Word</em>';
+  const fim=t<3||t>=19;
+  const atras=fim||t>=10, ty=atras?(fim?140:lerp(430,140,10,10.8,t)):430;
+  const linha2=fim?'Sábado, às 15h':t>=11.6?typed('Sábado, às 15h',11.6,t,8)+(t<14?CARET:''):'';
+  const grande=fim||t>=16.4, branco=fim||t>=17.2, neg=fim||t>=17.8, selT=t>=15.3&&t<18.4;
+  const txt=`<div style="position:absolute;left:0;right:0;top:${ty}px;text-align:center;font-family:'Segoe UI',Arial;font-size:${grande?58:30}px;line-height:1.25;font-weight:${neg?'bold':'normal'};color:${branco?'#fff':'#111'};${branco?'text-shadow:0 3px 10px rgba(0,0,0,.7)':''}"><span class="${selT?'hl':''}">FESTA DA FAMÍLIA</span><br><span style="font-size:${grande?38:30}px" class="${selT?'hl':''}">${linha2}</span></div>`;
+  const selImg=t>=7.2&&t<10.4;
+  const lo=t>=7.6&&t<10.4?`<div style="position:absolute;left:612px;top:0;width:44px;height:44px;border:2px solid ${t>=8.2?'#2b579a':'#999'};background:#fff;font-size:26px;display:flex;align-items:center;justify-content:center">⌒</div>`+(t>=8.4?`<div class="menu" style="left:300px;top:52px;min-width:300px">${['Alinhado com o Texto','Quadrado','Comprimido','Atrás do Texto','Na Frente do Texto'].map(x=>`<div class="${t>=9.4&&x==='Atrás do Texto'?'on':''}">${x}</div>`).join('')}</div>`:''):'';
+  const inner=`<div style="position:relative;height:955px">${photo(0,0,600,420)}${selImg?'<div style="position:absolute;left:-4px;top:-4px;width:608px;height:428px;outline:4px solid #2b579a"></div>':''}${txt}${lo}</div>`;
+  S.canvas=page(225,20,inner,0.75)+(t<3?okBadge('Convite pronto',720):'');
+  if(t>=15&&t<19){S.rib=btn('Tamanho: '+(grande?'48':'16')+' ▾',st(t,15.8,16.4))+btn('Cor: '+(branco?'Branco':'Automático')+' ▾',st(t,16.7,17.2))+btn('<b>N</b>',st(t,17.4,17.8))+btn('Centralizar')}
+  else if(t>=7&&t<11){S.tabs=[...WTABS.slice(0,4),'Formato da Imagem'];S.tab='Formato da Imagem';S.rib=btn('Correções')+btn('Cor')+btn('Quebra de Texto ▾')+btn('Opções de Layout',st(t,7.6,8.2))}
+  S.cap=t<3?'Convite ou cartaz<br>em segundos.':t<7?'O texto foi parar<br>embaixo da foto.':t<11?'Opções de Layout ›<br><span class="k3">Atrás do Texto</span>':t<15?'Agora o texto fica<br>por cima da foto.':t<19?'Letra <span class="k3">grande</span>, <span class="k3">branca</span><br>e em <span class="k3">negrito</span>.':'Pronto!<br>Convite feito.';
+}
+const GASTOS=[['Conta','Janeiro','Fevereiro'],['Mercado',850,910],['Luz',210,195],['Água',95,102],['Internet',120,120],['Gás',115,115],['Farmácia',80,140]];
+function X19(t){
+  S.title='Gastos_Casa.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Σ AutoSoma',t>=7&&t<11?st(t,8.6,9.2):'');
+  if(t>=22)return endCard('Soma em<br>1 segundo.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Soma no Excel<br><em>em 1 segundo</em>':'Atalho da soma<br><em>no Excel</em>';
+  const fim=t<3||t>=19;
+  const vals=GASTOS.map(r=>r.slice());if(t>=20)vals[1][2]=1200;
+  const soma=c=>vals.slice(1).reduce((a,r)=>a+r[c],0);
+  const totB=fim||t>=12.2, totC=fim||t>=17.2;
+  const rows=vals.map((r,i)=>i===0?r:[r[0],brl(r[1]),i===1&&t>=19.4&&t<20?typed('1200',19.4,t,7)+CARET:brl(r[2])]);
+  const fB='=SOMA(B2:B7)',fC='=SOMA(C2:C7)';
+  rows.push(['Total',totB?brl(soma(1)):(t>=9.2&&t<12.2?fB:''),totC?brl(soma(2)):'']);
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>=1?'num':'';if(r===7)k+=' tot';
+    if(t>=9.2&&t<12.2&&c===1&&r>=1&&r<=6)k+=' ref1';
+    if(t>=15.4&&t<17.2&&c>=1&&r>=1)k+=' ref1';
+    if(r===7&&((c===1&&t>=12.2&&t<13.8)||(c===2&&t>=17.2&&t<18.8)||(c===2&&t>=20&&t<21.6)||(t<3&&c>=1)))k+=' flash';return k};
+  if(t>=7&&t<11)keys(['Alt','='],9.2,t);if(t>=11&&t<15)keys(['Enter'],12.2,t);if(t>=15&&t<19)keys(['Alt','='],17.2,t);q('#keys').style.top='1310px';
+  const sel=t>=7&&t<12.2?[7,1]:t>=19.4&&t<20?[1,2]:null;
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([240,230,230],rows,{cls,sel,fx:t>=9.2&&t<15?fB:t>=17&&t<19?fC:''})}</div>`+(t>=3&&t<7?`<div style="position:absolute;left:330px;top:560px;font:bold 40px 'Segoe UI';color:#e53935">Total? 🤔</div>`:'');
+  S.cap=t<3?'Total de cada mês,<br>num atalho só.':t<7?'Gastos da casa.<br>Quanto deu no total?':t<11?'Célula embaixo e<br><span class="k3">Alt + =</span>':t<15?'<span class="k3">=SOMA</span> aparece sozinha.<br>Enter!':t<19?'Várias colunas?<br>Seleciona e <span class="k3">Alt + =</span>':'Mudou um valor?<br>O total acompanha.';
+}
+const LOGO=(x,y,s)=>`<div style="position:absolute;left:${x}px;top:${y}px;width:${110*s}px;height:${110*s}px;border-radius:50%;background:#fce4ec;border:${4*s}px solid #d81b60;display:flex;flex-direction:column;align-items:center;justify-content:center;font:bold ${17*s}px 'Segoe UI';color:#ad1457;line-height:1.1"><span style="font-size:${40*s}px">🧁</span>Doce Sabor</div>`;
+const DS=[['Cardápio da Semana',['Bolo de cenoura','Brigadeiro gourmet','Torta de limão']],['Promoções',['Leve 3, pague 2','Café + fatia: R$ 12','Sexta: 20% off']],['Contato',['(92) 9 0000-0000','@docesabor','Entrega no bairro']]];
+const dsSl=(k,logo)=>`<div style="position:absolute;inset:0;background:linear-gradient(135deg,#fff,#fff3f6)"></div><div class="stit" style="color:#ad1457">${DS[k][0]}</div><div class="bul">${DS[k][1].map(x=>'• '+x).join('<br>')}</div>`+(logo===1?LOGO(660,20,1):logo===2?[LOGO(600,300,0.8),LOGO(30,330,0.7),LOGO(680,40,1.1)][k]:'');
+const mestre=(logo,sel,tit)=>`<div style="position:absolute;inset:0;background:linear-gradient(135deg,#fff,#fff3f6)"></div><div style="position:absolute;left:30px;top:20px;right:170px;height:90px;border:3px dashed #999;font:30px 'Segoe UI';color:#777;display:flex;align-items:center;padding-left:16px">${tit||'Clique para editar o título Mestre'}</div><div style="position:absolute;left:30px;top:130px;right:30px;bottom:30px;border:3px dashed #999;font:24px 'Segoe UI';color:#777;padding:16px">• Clique para editar o texto Mestre</div>`+(logo?LOGO(660,20,1)+(sel?'<div style="position:absolute;left:654px;top:14px;width:122px;height:122px;outline:3px dashed #555"></div>':''):'');
+function P16(t){
+  S.title='Doce_Sabor.pptx - PowerPoint';S.tabs=PTABS2;S.tab='Página Inicial';S.rib=btn('Novo Slide')+btn('Layout');
+  if(t>=22)return endCard('Logo em todos<br>os slides.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Seu logo em <em>todos</em><br>os slides':'Slide Mestre<br><em>no PowerPoint</em>';
+  const fim=t<3||t>=19;
+  if(fim||t>=16.4){const k=t<3?Math.floor(t)%3:t>=19?Math.floor((t-19)/0.9)%3:0;const sls=[0,1,2].map(i=>dsSl(i,1));S.canvas=pptView(sls[k],sls,k)+(fim?okBadge('Mesmo lugar em todos',690):'');
+    S.cap=t<3?'Um logo.<br>Todos os slides.':t<19?'<span class="k3">Fechar Modo de</span><br><span class="k3">Exibição Mestre</span>':'Todos com o logo,<br>no mesmo lugar.';return}
+  if(t<7){const k=Math.floor((t-3)/1.2)%3;const sls=[0,1,2].map(i=>dsSl(i,2));S.canvas=pptView(sls[k],sls,k)+`<div style="position:absolute;left:0;right:0;top:690px;text-align:center;font:bold 40px 'Segoe UI';color:#e53935">✗ Cada um num lugar</div>`;S.cap='Colando um por um:<br>fica tudo torto.';return}
+  if(t<9){S.tabs=[...PTABS2,'Exibir'];S.tab='Exibir';S.rib=btn('Normal')+btn('Classificação de Slides')+btn('Slide Mestre',st(t,8,8.6));const sls=[0,1,2].map(i=>dsSl(i,0));S.canvas=pptView(sls[0],sls,0);S.cap='<span class="k3">Exibir</span> ›<br><span class="k3">Slide Mestre</span>';return}
+  const logo=t>=12.6, ins=t>=11&&t<13.4;
+  S.tabs=[ins?'Inserir':'Slide Mestre','Página Inicial','Inserir','Transições','Animações'];S.tab=ins?'Inserir':'Slide Mestre';
+  S.rib=ins?btn('Imagens',st(t,11.6,12.2),t>=12.2&&t<12.6?menu(['Este Dispositivo...','Imagens de Estoque'],'Este Dispositivo...'):'')+btn('Formas')+btn('Ícones'):btn('Inserir Layout')+btn('Renomear')+btn('Fechar Modo de Exibição Mestre',t>=15?st(t,15.6,16.2):'');
+  const thumbs=[mestre(logo,false),mestre(logo,false,'Título'),mestre(logo,false,'Título e Conteúdo')];
+  S.canvas=pptView(mestre(logo,logo&&t<15),thumbs,0);
+  S.cap=t<11?'O primeiro, o maior,<br>manda em todos.':t<15?'Insiro o logo<br>no canto.':'<span class="k3">Fechar Modo de</span><br><span class="k3">Exibição Mestre</span>';
+}
+const CLI8=['Ana Souza','Bruno Lima','Carla Dias','Diego Reis','Elisa Prado','Fábio Nunes','Gabi Rocha','Hugo Matos','Íris Gomes','João Melo','Kátia Luz','Léo Vieira'];
+const CID8=['Manaus','Belém','Manaus','Recife','Belém','Manaus','Recife','Manaus','Belém','Recife','Manaus','Belém'];
+const numA=(n)=>`<div style="position:absolute;right:20px;top:90px;width:110px;height:110px;border-radius:55px;background:#107c41;color:#fff;font:bold 64px 'Segoe UI';display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(0,0,0,.3);z-index:8">${n}</div>`;
+function X20(t){
+  S.title='Clientes.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Classificar e Filtrar')+btn('Formatar');
+  if(t>=22)return endCard('5 atalhos<br>que salvam tempo.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'5 atalhos do Excel<br><em>que ninguém ensina</em>':'5 atalhos<br><em>do Excel</em>';
+  let h='',n='';
+  const W=[300,220,200];
+  if(t<7){ // 1: Ctrl + seta para baixo
+    const baixo=t>=5.0;const ini=baixo?28:0;
+    const rows=[['Cliente','Cidade','Valor']].concat(Array.from({length:12},(_,i)=>{const k=ini+i;return k<39?[CLI8[k%12]+(k>=12?' '+(k+1):''),CID8[k%12],brl(100+((k*37)%9)*25)]:['','','']}));
+    h=xgrid(W,rows,{cls:(r,c)=>r===0?'th':c===2?'num':'',sel:baixo?[11,0]:[1,0],num:r=>r===0?1:ini+r+1});n=t<3?'':1;
+    if(t>=3)keys(['Ctrl','↓'],5.0,t);
+    S.cap=t<3?'Cinco atalhos<br>que salvam tempo.':'<span class="k3">Ctrl + ↓</span>: vai direto<br>para o fim da lista.';
+  }else if(t<11){ // 2: Alt + Enter
+    const l1=typed('Rua das Flores, 120',7.3,t,14), quebra=t>=9.0, l2=quebra?typed('Bairro Centro',9.2,t,12):'';
+    const end=l1+(quebra?'<br>'+l2:'')+(t<10.6?CARET:'');
+    h=xgrid([260,460],[['Cliente','Endereço'],['Ana Souza',end],['Bruno Lima','Av. Brasil, 45<br>Bairro Aleixo']],{cls:(r,c)=>r===0?'th':'',sel:[1,1],fx:l1+(quebra?' ↵ '+l2:'')});n=2;keys(['Alt','Enter'],9.0,t);
+    S.cap='<span class="k3">Alt + Enter</span>: duas linhas<br>na mesma célula.';
+  }else if(t<15){ // 3: Ctrl + D
+    const c2=t>=12.6, c3=t>=13.8;
+    const rows=[['Cliente','Cidade','Valor'],['Ana Souza','Manaus','R$ 150'],['Bruno Lima',c2?'Manaus':'','R$ 200'],['Carla Dias',c3?'Manaus':'','R$ 175'],['Diego Reis','Belém','R$ 300']];
+    h=xgrid(W,rows,{cls:(r,c)=>r===0?'th':c===1&&((r===2&&t>=12.6&&t<13.4)||(r===3&&t>=13.8&&t<14.6))?'flash':c===2?'num':'',sel:[t<13.4?2:3,1]});n=3;
+    if(t<13.4)keys(['Ctrl','D'],12.6,t);else keys(['Ctrl','D'],13.8,t);
+    S.cap='<span class="k3">Ctrl + D</span>: copia<br>a célula de cima.';
+  }else if(t<19){ // 4: Ctrl + Shift + L
+    const filt=t>=16.2, so=t>=18.2;
+    const dados=CLI8.slice(0,10).map((c,i)=>[c,CID8[i],brl(100+((i*37)%9)*25)]).filter(r=>!so||r[1]==='Manaus');
+    const hdr=['Cliente','Cidade','Valor'].map(x=>filt?`${x} <span style="float:right;border:1px solid #fff;padding:0 6px;font-size:18px">${x==='Cidade'&&so?'⧩':'▾'}</span>`:x);
+    h=xgrid(W,[hdr].concat(dados),{cls:(r,c)=>r===0?'th':c===2?'num':'',num:r=>r===0?1:so?[2,4,7,9][r-1]:r+1})+
+      (t>=17.0&&t<18.2?`<div class="menu" style="left:345px;top:150px;min-width:260px"><div>☑ Manaus</div><div>${t>=17.6?'☐':'☑'} Belém</div><div>${t>=17.6?'☐':'☑'} Recife</div><div class="on">OK</div></div>`:'');n=4;
+    keys(['Ctrl','Shift','L'],16.2,t);
+    S.cap='<span class="k3">Ctrl + Shift + L</span>:<br>filtro na hora.';
+  }else{ // 5: F4
+    const f=typed('=B2*E1',19.2,t,8), trav=t>=20.4;
+    const fx=trav?'=B2*<span style="background:#ffe066">$E$1</span>':f;
+    h=xgrid([200,170,200,40,170],[['Produto','Preço','Com taxa','','Taxa'],['Bolo','R$ 40',trav?fx:f+CARET,'','1,1'],['Torta','R$ 55','','','']],{cls:(r,c)=>r===0&&c!==3?'th':c===4&&r===1?'ref2':'',sel:[1,2],fx});n=5;
+    keys(['F4'],20.4,t);
+    S.cap='<span class="k3">F4</span>: trava a célula<br>com cifrão.';
+  }
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${h}</div>`+(n?numA(n):'');
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13,W14,W15],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15,P16],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18,X19,X20]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

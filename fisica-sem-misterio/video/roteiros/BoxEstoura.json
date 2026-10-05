@@ -1,0 +1,71 @@
+{
+ "id": "BoxEstoura",
+ "titulo": "Por que o vidro do box ESTOURA sozinho? 🚿",
+ "legenda": "O vidro temperado tem a superfície apertada e o miolo esticado. Uma lasca na borda ou uma impureza libera essa tensão de uma vez, e ele vira pedacinhos. Confira roldanas e borrachas! #fisica #vidro #box #banheiro #casa",
+ "final": {
+  "emoji": "🚿",
+  "frase": "A tensão escapa de uma vez."
+ },
+ "frases": [
+  "O vidro do box pode estourar sozinho, sem ninguém encostar. Por quê?",
+  "O box é de vidro temperado: ele é aquecido e depois resfriado de repente.",
+  "Isso deixa a superfície apertada e o miolo esticado, como uma mola presa.",
+  "Uma lasca na borda, ou uma impureza que cresce com o calor do banho, solta essa tensão.",
+  "E o vidro inteiro se parte em pedacinhos. Isso é de propósito: os cacos cortam menos.",
+  "Para evitar, confira roldanas e borrachas, e não bata a porta do box.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Estoura SOZINHO?",
+   "destaque": [
+    "SOZINHO?"
+   ],
+   "busca": "glass shower door bathroom"
+  },
+  {
+   "gancho": "Vidro temperado",
+   "destaque": [
+    "temperado"
+   ],
+   "anim": {
+    "emoji": "🔥",
+    "texto": "Aquecido e resfriado de repente"
+   }
+  },
+  {
+   "gancho": "Uma mola presa",
+   "destaque": [
+    "mola"
+   ],
+   "anim": {
+    "emoji": "🌀",
+    "texto": "Superfície apertada, miolo esticado"
+   }
+  },
+  {
+   "gancho": "Lasca ou impureza",
+   "destaque": [
+    "Lasca"
+   ],
+   "anim": {
+    "emoji": "💥",
+    "texto": "Uma lasca libera a tensão"
+   }
+  },
+  {
+   "gancho": "Pedacinhos de propósito",
+   "destaque": [
+    "propósito"
+   ],
+   "busca": "broken glass pieces"
+  },
+  {
+   "gancho": "Confira as roldanas",
+   "destaque": [
+    "roldanas"
+   ],
+   "busca": "bathroom cleaning shower"
+  }
+ ]
+}
