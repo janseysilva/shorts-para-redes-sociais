@@ -1226,7 +1226,92 @@ function X20(t){
   }
   S.canvas=`<div style="position:absolute;inset:0;background:#fff">${h}</div>`+(n?numA(n):'');
 }
-const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13,W14,W15],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15,P16],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18,X19,X20]};
+/* --- leva 9 (06/10): idade, horas trabalhadas, página em branco, imprimir em uma folha, marca d'água --- */
+const PESS9=[['Ana Souza','15/03/1990',36],['Bruno Lima','22/07/1985',41],['Carla Dias','03/11/2001',24],['Diego Reis','30/01/1978',48],['Elisa Prado','09/09/2010',16],['Fábio Nunes','18/05/1995',31]];
+function X21(t){
+  S.title='Aniversarios.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('AutoSoma');
+  if(t>=22)return endCard('Idade calculada<br>sozinha.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Calcular a <em>idade</em><br>no Excel':'Idade pela data<br><em>de nascimento</em>';
+  const fim=t<3||t>=19, F='=DATADIF(B2;HOJE();"Y")';
+  const cheias=fim?6:t<11.2?0:t<15.4?1:Math.min(6,1+Math.floor((t-15.6)*3.5));
+  const rows=[['Nome','Nascimento','Idade']].concat(PESS9.map((p,i)=>[p[0],p[1],i<cheias?p[2]+' anos':(i===0&&t>=7.4&&t<11.2?typed(F,7.6,t,7)+CARET:'')]));
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c===2?'num':'';if(t>=7.6&&t<11.2&&r===1&&c===1)k+=' ref1';if(c===2&&r>=1&&((r===1&&t>=11.2&&t<12.8)||(t<3)))k+=' flash';return k};
+  const card=fim?`<div style="position:absolute;left:640px;top:120px;width:330px;padding:24px;border-radius:18px;background:#fff;border:1px solid #ccc;border-top:10px solid #f59e0b;font-family:'Segoe UI';box-shadow:0 8px 20px rgba(0,0,0,.15)"><div style="font-size:60px">🎂</div><div style="font:bold 30px 'Segoe UI';color:#222">Muda sozinha</div><div style="font-size:24px;color:#666;margin-top:6px">no dia do aniversário</div></div>`:'';
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([210,190,170],rows,{cls,sel:t>=7.4&&t<11.2?[1,2]:null,fx:t>=7.4&&t<15?F:''})}${card}</div>`;
+  S.cap=t<3?'A idade de todo mundo,<br>sem fazer conta.':t<7?'Nome e data<br>de nascimento.':t<11?'<span class="k3">=DATADIF(B2;HOJE();"Y")</span>':t<15?'Pronto: idade em<br>anos completos.':t<19?'Arrasta para baixo:<br>todo mundo.':'Muda sozinha no<br>aniversário.';
+}
+const HOR9=[['Seg','08:00','17:00','1:00','8:00','0:00'],['Ter','08:00','19:00','1:00','10:00','2:00'],['Qua','07:30','17:30','1:00','9:00','1:00'],['Qui','08:00','17:00','1:00','8:00','0:00'],['Sex','08:00','18:30','1:00','9:30','1:30']];
+function X22(t){
+  S.title='Ponto_Semana.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Formatar');
+  if(t>=22)return endCard('Hora extra<br>calculada sozinha.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Horas trabalhadas<br>e <em>hora extra</em>':'Horas trabalhadas<br><em>no Excel</em>';
+  const fim=t<3||t>=19, FE='=C2-B2-D2', FX2='=MÁXIMO(0;E2-"8:00")';
+  const hE=fim?5:t<9.8?0:Math.min(5,1+Math.floor((t-10)*4)), hX=fim?5:t<13.6?0:Math.min(5,1+Math.floor((t-13.8)*4));
+  const rows=[['Dia','Entrada','Saída','Intervalo','Horas','Extra']].concat(HOR9.map((r,i)=>[r[0],r[1],r[2],r[3],
+    i<hE?r[4]:(i===0&&t>=7.4&&t<9.8?typed(FE,7.6,t,6)+CARET:''), i<hX?r[5]:(i===0&&t>=11.4&&t<13.6?typed(FX2,11.6,t,10)+CARET:'')]));
+  const certo=fim||t>=17.6, temTot=fim||t>=15;
+  rows.push(['Total','','','',temTot?(certo?'44:30':'20:30'):'',temTot?'4:30':'']);
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>=1?'num':'';if(r===6)k+=' tot';if(t>=7.6&&t<9.8&&r===1&&c>=1&&c<=3)k+=' ref1';if(t>=11.6&&t<13.6&&r===1&&c===4)k+=' ref1';
+    if(r===6&&c===4&&temTot)k+=certo?' flash':' neg';if(c===5&&r>=1&&r<=5&&HOR9[r-1][5]!=='0:00'&&(fim||t>=14))k+=' flash';return k};
+  let dl='';
+  if(t>=16.2&&t<17.6)dl=`<div class="dlg" style="top:250px;left:180px;width:640px"><div class="hd">Formatar Células</div><div class="bd"><div class="it">Hora</div><div class="it on">Personalizado</div><div style="font:26px Consolas">Tipo: <b style="background:#ffe066">${typed('[h]:mm',16.4,t,8)}</b></div></div><div class="ft">${btn('OK',st(t,17.1,17.4))}</div></div>`;
+  S.canvas=`<div style="position:absolute;inset:0;background:#fff">${xgrid([110,150,140,160,140,140],rows,{cls,sel:t>=7.4&&t<9.8?[1,4]:t>=11.4&&t<13.6?[1,5]:t>=15&&t<17.6?[6,4]:null,fx:t>=7.4&&t<11?FE:t>=11.4&&t<15?FX2:''})}${dl}</div>`;
+  S.cap=t<3?'Ponto da semana,<br>sem calculadora.':t<7?'Entrada, saída<br>e intervalo.':t<11?'<span class="k3">=C2-B2-D2</span>:<br>horas do dia.':t<15?'Passou de 8 horas?<br>Vira <span class="k3">hora extra</span>.':t<19?'Total zerou? Formato<br><span class="k3">[h]:mm</span>':'Semana inteira<br>calculada.';
+}
+const txt9=(n)=>Array.from({length:n},(_,i)=>`<div class="gl" style="width:${[100,96,100,82,100,90][i%6]}%"></div>`).join('');
+const marca9=(s)=>`<span style="color:#2b579a;font:bold 26px 'Segoe UI'">${s}</span>`;
+function W16(t){
+  S.title='Relatorio.docx - Word';
+  if(t>=22)return endCard('Página em branco<br>apagada.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'A página em branco<br><em>que não sai</em>':'Página em branco<br><em>no Word</em>';
+  const marcas=(t>=8.6&&t<20.4), sumiu=t<3||t>=16.6, sel=t>=15.2&&t<16.6;
+  const fimP1=marcas?`<div style="margin-top:16px;${sel?'background:#b4d7ff;':''}border-top:3px dotted #2b579a;color:#2b579a;font:22px 'Segoe UI';text-align:center;padding-top:4px">·········· Quebra de Página ··········</div>`:'';
+  const p1=`<div style="font:bold 34px Arial;margin-bottom:20px">Relatório de Vendas${marcas?marca9(' ¶'):''}</div>${txt9(10)}<table class="wt" style="margin-top:20px;font-size:24px"><tr><th>Mês</th><th>Total</th></tr><tr><td>Agosto</td><td>R$ 4.200</td></tr><tr><td>Setembro</td><td>R$ 5.100</td></tr></table>${fimP1}`;
+  const p2=`<div style="${sel?'background:#b4d7ff':''}">${marcas?marca9('¶<br>¶'):''}</div>`;
+  const sc=0.5, op=t>=16.6&&t<17.4?1-(t-16.6)/0.8:1;
+  S.canvas=page(sumiu?255:60,30,p1,sc)+(sumiu?'':`<div style="opacity:${op}">${page(500,30,p2,sc)}<div style="position:absolute;left:500px;top:270px;width:380px;text-align:center;font:bold 30px 'Segoe UI';color:#e53935">${t>=3&&t<15?'✗ Página em branco':''}</div></div>`)+(t<3||t>=19?okBadge('Só o que importa',620):'');
+  S.rib=btn('Colar')+btn('Fonte')+btn('¶ Mostrar Tudo',t>=7&&t<11?st(t,7.8,8.6):(t>=19&&t<21?st(t,19.8,20.4):''))+btn('Estilos');
+  if(t>=3&&t<7)keys(['Delete'],5,t);if(t>=15&&t<19)keys(['Delete'],16.6,t);
+  S.cap=t<3?'Página em branco<br>no fim do documento?':t<7?'Delete não<br>resolve.':t<11?'Clique em <span class="k3">¶ Mostrar Tudo</span>':t<15?'Apareceu a <span class="k3">quebra<br>de página</span> escondida.':t<19?'Seleciona e apaga:<br>a página some!':'Clique de novo<br>para esconder.';
+}
+const plan9=(cols)=>`<table style="border-collapse:collapse;font:13px Arial;color:#111">${[['Produto','Jan','Fev','Mar','Abr','Mai','Jun','Total'],['Arroz','120','130','118','140','150','160','818'],['Feijão','90','85','92','99','101','97','564'],['Café','60','64','70','66','72','75','407'],['Leite','200','210','205','215','220','230','1.280'],['Óleo','45','48','50','47','52','55','297']].map((r,i)=>'<tr>'+r.slice(0,cols).map(v=>`<td style="border:1px solid #bbb;padding:4px 8px;${i===0?'background:#107c41;color:#fff;font-weight:bold':''}">${v}</td>`).join('')+'</tr>').join('')}</table>`;
+const folha9=(x,y,w,h,inner,lab)=>`<div style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.25);padding:18px;overflow:hidden">${inner}</div>${lab?`<div style="position:absolute;left:${x}px;top:${y+h+10}px;width:${w}px;text-align:center;font:22px 'Segoe UI';color:#444">${lab}</div>`:''}`;
+function X23(t){
+  S.title='Compras_Semestre.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Layout da Página');
+  if(t>=22)return endCard('Tudo numa<br>folha só.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Planilha cortada?<br><em>Uma folha só</em>':'Imprimir em<br><em>uma página</em>';
+  const fim=t<3||t>=15, deit=t<3||t>=20;
+  if(t>=3&&t<7){S.canvas=`<div style="position:absolute;inset:0;background:#e3e3e3">${folha9(90,60,380,520,plan9(5),'Página 1')}${folha9(550,60,380,520,'<div style="display:flex;gap:0">'+plan9(8).replace(/<td[^>]*>(Produto|Arroz|Feijão|Café|Leite|Óleo|Jan|Fev|Mar|Abr|120|130|118|140|90|85|92|99|60|64|70|66|200|210|205|215|45|48|50|47)<\/td>/g,'')+'</div>','Página 2')}<div style="position:absolute;left:0;right:0;top:660px;text-align:center;font:bold 38px 'Segoe UI';color:#e53935">✗ Coluna cortada para outra página</div></div>`;
+    S.cap='Uma coluna sempre<br>vai para outra folha.';return}
+  if(t>=7&&t<9.4){S.canvas=`<div style="position:absolute;inset:0;background:#fff">${plan9(8).replace('font:13px','font:24px')}</div>`;keys(['Ctrl','P'],8.6,t);S.cap='<span class="k3">Ctrl + P</span>:<br>abre a impressão.';return}
+  const opt=fim?'Ajustar Planilha em Uma Página':'Sem Dimensionamento';
+  const m=t>=11.8&&t<13.4?`<div class="menu" style="left:0;top:58px;min-width:440px">${['Sem Dimensionamento','Ajustar Planilha em Uma Página','Ajustar Todas as Colunas em Uma Página'].map(x=>`<div class="${t>=12.6&&x==='Ajustar Planilha em Uma Página'?'on':''}">${x}</div>`).join('')}</div>`:'';
+  const ori=deit?'Orientação Paisagem':'Orientação Retrato';
+  const prev=fim?(deit?folha9(560,160,440,330,plan9(8).replace('font:13px','font:16px'),'Página 1 de 1'):folha9(620,60,380,520,plan9(8).replace('font:13px','font:11px'),'Página 1 de 1')):folha9(620,60,380,520,plan9(5),'Página 1 de 2');
+  S.canvas=`<div class="back" style="top:0"><div class="lm"><div>Início</div><div>Salvar</div><div class="on">Imprimir</div><div>Exportar</div></div><div class="rp" style="padding:24px"><h3 style="font-size:32px">Imprimir</h3>
+    <div class="opt" style="width:250px;font-size:22px">🖨️ Impressora padrão</div><div class="opt ${t>=19.4&&t<20.4?'on':''}" style="width:250px;font-size:22px">📄 ${ori}</div>
+    <div style="position:relative;width:250px"><div class="opt ${t>=11&&t<13.4?'on':''}" style="width:250px;font-size:22px">📐 ${opt} ▾</div>${m}</div></div></div>${prev}`;
+  S.cap=t<11?'<span class="k3">Ctrl + P</span>:<br>abre a impressão.':t<15?'Dimensionamento ›<br><span class="k3">Ajustar em Uma Página</span>':t<19?'Tudo numa folha!':'Pequeno? <span class="k3">Paisagem</span>.';
+  if(t<3)S.cap='Planilha inteira<br>numa folha só.';
+}
+const wm9=(tipo)=>tipo==='c'?`<div style="position:absolute;left:-150px;top:400px;width:900px;text-align:center;transform:rotate(-40deg);font:bold 88px Arial;color:rgba(160,160,160,.35)">CONFIDENCIAL</div>`:tipo==='l'?`<div style="position:absolute;left:180px;top:330px;width:400px;height:400px;border-radius:50%;border:30px solid rgba(43,87,154,.15);display:flex;align-items:center;justify-content:center;font:bold 80px 'Segoe UI';color:rgba(43,87,154,.18)">LOGO</div>`:'';
+const doc9=(tipo,tit)=>`<div style="position:relative;height:955px">${wm9(tipo)}<div style="position:relative;font:bold 34px Arial;margin-bottom:20px">${tit}</div><div style="position:relative">${txt9(16)}</div></div>`;
+function W17(t){
+  S.title='Proposta.docx - Word';S.tabs=['Arquivo','Página Inicial','Inserir','Design','Layout','Referências'];S.tab='Página Inicial';
+  if(t>=22)return endCard('Marca d\'água<br>em 10 segundos.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Marca d\'água<br><em>no Word</em>':'Marca d\'água<br><em>no Word</em>';
+  const tipo=t<3?'c':t>=17.4?'l':t>=13?'c':'';
+  if(t>=7){S.tab='Design';
+    const gal=t>=9.4&&t<13?`<div class="menu" style="left:auto;right:0;min-width:470px;padding:12px"><div style="display:flex;gap:10px;padding:0">${['CONFIDENCIAL','URGENTE','RASCUNHO'].map(x=>`<div style="padding:30px 10px;width:140px;text-align:center;border:3px solid ${x==='CONFIDENCIAL'&&t>=11.6?'#2b579a':'#ccc'};font:bold 16px Arial;color:#999;transform:none">${x}</div>`).join('')}</div><div>Marca d'Água Personalizada...</div><div>Remover Marca d'Água</div></div>`:
+      t>=15.2&&t<16.2?`<div class="menu" style="left:auto;right:0;min-width:420px"><div>CONFIDENCIAL · URGENTE · RASCUNHO</div><div class="${t>=15.6?'on':''}">Marca d'Água Personalizada...</div><div>Remover Marca d'Água</div></div>`:'';
+    S.rib=btn('Temas')+btn('Cores')+btn('Fontes')+btn('💧 Marca d\'Água',t<13?st(t,8.6,9.4):(t>=15&&t<16.2?st(t,14.8,15.2):''),gal)+btn('Cor da Página')}
+  let dl='';
+  if(t>=16.2&&t<17.4)dl=dlg('Marca d\'Água Impressa',`<div class="it">○ Sem marca d'água</div><div class="it on">◉ Marca d'água de imagem &nbsp; <span class="btn">Selecionar Imagem...</span></div><div class="it">○ Marca d'água de texto</div>`,btn('OK',st(t,16.9,17.2)));
+  const sc=0.5;
+  S.canvas=page(t>=19||t<3?60:255,30,doc9(tipo,'Proposta Comercial'),sc)+(t>=19||t<3?page(500,30,doc9(tipo,'Condições de Pagamento'),sc):'')+dl;
+  S.cap=t<3?'Documento com<br>cara de profissional.':t<7?'Confidencial ou<br>com o seu logo?':t<11?'<span class="k3">Design</span> ›<br><span class="k3">Marca d\'Água</span>':t<15?'Escolha <span class="k3">CONFIDENCIAL</span>':t<19?'Personalizada ›<br><span class="k3">Imagem</span>: seu logo.':'Em todas<br>as páginas!';
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13,W14,W15,W16,W17],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15,P16],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18,X19,X20,X21,X22,X23]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

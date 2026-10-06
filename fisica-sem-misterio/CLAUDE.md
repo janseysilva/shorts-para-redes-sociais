@@ -152,3 +152,8 @@ Primeira proposta (ovo pelas pontas, ovo racha, pipoca, avião baleia, carro fer
 Temas aprovados (buscas em alta, objetos novos): CopoStanley ("porque o copo stanley conserva"), VozGravacao ("porque a voz fica diferente em gravações"), BoxEstoura ("porque o vidro do box estoura"), TomadaDerrete ("tomada da airfryer derrete"), NuvemNaoCai ("porque a nuvem não cai"). Bloco LEVA 7 do `criar_roteiros.py`. Clipes conferidos em `previa/leva7_clipes.jpg`; Pexels não tem tomada vertical boa → TomadaDerrete_4/_5 viraram animação; BoxEstoura_0 = box de vidro de 3,3 s (fica um pouco mais lento).
 Emojis novos (🫠, 🪶) não existem na fonte do Windows 10: usar só emoji antigo (trocados por 🌡️ e 🍃; 💀→🦴).
 Saída `out/Fisica41_CopoStanley` … `Fisica45_NuvemNaoCai`. **Tarefa em segundo plano do Claude tem limite de ~1 h**: renderizar no máximo 2 vídeos do Física por tarefa (cada um leva ~18-25 min quando outras renderizações rodam juntas).
+
+## LEVA 8 — shorts 46 a 50 (06/10; PUBLICADA em 06/10 — Jansey autorizou: "publique todos")
+Temas (buscas em alta, objetos novos): CocaVidro, BateriaIncha, CervejaGelo (super-resfriamento), TremTrilho (rodas cônicas), ImasRepelem. Bloco LEVA 8 do `criar_roteiros.py`; fila `Documentsila_fisica.ps1` (via WMI). Saída `out/Fisica46_CocaVidro` … `Fisica50_ImasRepelem`.
+- Clipes trocados na conferência: ImasRepelem_0 era pêndulo de Newton (trocado por quadro magnético), CervejaGelo_3 mostrava marca de cerveja (virou animação), CervejaGelo_5 repetia o GeloQueima_5.
+- Já no 1º dia: Coca de vidro 935 visualizações.

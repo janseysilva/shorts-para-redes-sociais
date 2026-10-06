@@ -1,0 +1,75 @@
+{
+ "id": "ImasRepelem",
+ "titulo": "Por que os ÍMÃS se empurram? 🧲",
+ "legenda": "Todo ímã tem polo norte e polo sul. Polos iguais se empurram e diferentes se puxam, por causa de bilhões de átomos alinhados lá dentro. Quebre um ímã e nascem dois ímãs! #fisica #ima #magnetismo #curiosidades #ciencia",
+ "final": {
+  "emoji": "🧲",
+  "frase": "Iguais se empurram."
+ },
+ "frases": [
+  "Por que dois ímãs às vezes grudam e às vezes se empurram sozinhos?",
+  "Todo ímã tem dois lados diferentes: o polo norte e o polo sul.",
+  "Lados diferentes se puxam. Lados iguais se empurram.",
+  "Isso acontece porque, dentro do ímã, bilhões de átomos estão alinhados, como pequenos ímãs na mesma direção.",
+  "E se você quebrar um ímã no meio? Nascem dois ímãs, cada um com norte e sul.",
+  "É o mesmo que faz a bússola apontar para o norte: a Terra também é um ímã gigante.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Grudam ou EMPURRAM?",
+   "destaque": [
+    "EMPURRAM?"
+   ],
+   "busca": "magnets closeup"
+  },
+  {
+   "gancho": "Polo norte e polo sul",
+   "destaque": [
+    "norte",
+    "sul"
+   ],
+   "anim": {
+    "emoji": "🧲",
+    "texto": "Todo ímã tem norte e sul"
+   }
+  },
+  {
+   "gancho": "Iguais se empurram",
+   "destaque": [
+    "empurram"
+   ],
+   "anim": {
+    "emoji": "↔️",
+    "texto": "Iguais se empurram, diferentes se puxam"
+   }
+  },
+  {
+   "gancho": "Átomos alinhados",
+   "destaque": [
+    "alinhados"
+   ],
+   "anim": {
+    "emoji": "⚛️",
+    "texto": "Bilhões de mini ímãs alinhados"
+   }
+  },
+  {
+   "gancho": "Quebrou? Virou dois",
+   "destaque": [
+    "dois"
+   ],
+   "anim": {
+    "emoji": "✂️",
+    "texto": "Cada pedaço vira um ímã"
+   }
+  },
+  {
+   "gancho": "A Terra é um ímã",
+   "destaque": [
+    "Terra"
+   ],
+   "busca": "compass needle"
+  }
+ ]
+}

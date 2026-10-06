@@ -1,0 +1,71 @@
+{
+ "id": "CocaVidro",
+ "titulo": "Por que a Coca de VIDRO é mais gostosa? 🥤",
+ "legenda": "O plástico da garrafa PET deixa o gás escapar devagarinho, e o vidro segura tudo. Por isso o refrigerante de vidro tem mais gás e gosto mais puro! #fisica #cocacola #refrigerante #curiosidades #ciencia",
+ "final": {
+  "emoji": "🥤",
+  "frase": "O vidro não deixa o gás fugir."
+ },
+ "frases": [
+  "Por que o refrigerante de garrafa de vidro parece mais gostoso?",
+  "O segredo é o gás: as bolhinhas que dão aquele sabor e a sensação de pinicar.",
+  "A garrafa de plástico parece fechada, mas o plástico tem espaços minúsculos.",
+  "Com o tempo, o gás vai escapando por eles. O refrigerante perde força.",
+  "O vidro é fechado de verdade: não deixa passar gás nem pega cheiro de nada.",
+  "Por isso o de vidro chega mais borbulhante, com o gosto mais puro.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o VIDRO é melhor?",
+   "destaque": [
+    "VIDRO"
+   ],
+   "busca": "soda glass bottle"
+  },
+  {
+   "gancho": "O segredo é o gás",
+   "destaque": [
+    "gás"
+   ],
+   "busca": "soda bubbles glass"
+  },
+  {
+   "gancho": "Plástico tem frestas",
+   "destaque": [
+    "frestas"
+   ],
+   "anim": {
+    "emoji": "🔍",
+    "texto": "Espaços minúsculos no plástico"
+   }
+  },
+  {
+   "gancho": "O gás vai escapando",
+   "destaque": [
+    "escapando"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "O gás escapa pelo plástico"
+   }
+  },
+  {
+   "gancho": "O vidro segura tudo",
+   "destaque": [
+    "vidro"
+   ],
+   "anim": {
+    "emoji": "🍾",
+    "texto": "O vidro não deixa o gás sair"
+   }
+  },
+  {
+   "gancho": "Mais gás, mais sabor",
+   "destaque": [
+    "sabor"
+   ],
+   "busca": "pouring soda glass ice"
+  }
+ ]
+}

@@ -77,6 +77,12 @@ import tFotosApagadas from "../public/FotosApagadas/tempos.json";
 import tNumeroChip from "../public/NumeroChip/tempos.json";
 import tInstagramOnline from "../public/InstagramOnline/tempos.json";
 import tCameraEmbacada from "../public/CameraEmbacada/tempos.json";
+import { TirarVirus, DesligaSozinho, SenhasSalvas, EsconderApps, TalkBack } from "./shorts/Leva9";
+import tTirarVirus from "../public/TirarVirus/tempos.json";
+import tDesligaSozinho from "../public/DesligaSozinho/tempos.json";
+import tSenhasSalvas from "../public/SenhasSalvas/tempos.json";
+import tEsconderApps from "../public/EsconderApps/tempos.json";
+import tTalkBack from "../public/TalkBack/tempos.json";
 
 export const FPS = 30;
 
@@ -132,6 +138,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["NumeroChip", NumeroChip, tNumeroChip],
   ["InstagramOnline", InstagramOnline, tInstagramOnline],
   ["CameraEmbacada", CameraEmbacada, tCameraEmbacada],
+  ["TirarVirus", TirarVirus, tTirarVirus],
+  ["DesligaSozinho", DesligaSozinho, tDesligaSozinho],
+  ["SenhasSalvas", SenhasSalvas, tSenhasSalvas],
+  ["EsconderApps", EsconderApps, tEsconderApps],
+  ["TalkBack", TalkBack, tTalkBack],
 ];
 
 export const Root: React.FC = () => (

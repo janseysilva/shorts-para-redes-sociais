@@ -1,0 +1,71 @@
+{
+ "id": "TremTrilho",
+ "titulo": "Por que o trem NÃO sai do trilho? 🚆",
+ "legenda": "As rodas do trem não são retas: são cones! Na curva, a roda de fora roda na parte mais larga, anda mais e o trem se ajeita sozinho no trilho. A borda da roda é só a segurança! #fisica #trem #engenharia #curiosidades #ciencia",
+ "final": {
+  "emoji": "🚆",
+  "frase": "A roda é um cone."
+ },
+ "frases": [
+  "O trem é pesadíssimo e corre rápido. Por que ele não escapa do trilho na curva?",
+  "O segredo está na roda: ela não é reta, ela é um cone, mais larga do lado de dentro.",
+  "As duas rodas são presas no mesmo eixo, então giram juntas, na mesma velocidade.",
+  "Na curva, o trem escorrega um pouco para fora, e a roda de fora encosta na parte mais larga.",
+  "Roda maior anda mais em cada volta. Isso vira o trem sozinho e ele volta para o centro.",
+  "A borda da roda, encostada no trilho, é só a segurança extra.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que não ESCAPA?",
+   "destaque": [
+    "ESCAPA?"
+   ],
+   "busca": "train curve railway"
+  },
+  {
+   "gancho": "A roda é um cone",
+   "destaque": [
+    "cone"
+   ],
+   "anim": {
+    "emoji": "🛞",
+    "texto": "Roda em forma de cone"
+   }
+  },
+  {
+   "gancho": "Rodas no mesmo eixo",
+   "destaque": [
+    "eixo"
+   ],
+   "busca": "train wheels closeup"
+  },
+  {
+   "gancho": "A roda de fora cresce",
+   "destaque": [
+    "fora"
+   ],
+   "anim": {
+    "emoji": "↗️",
+    "texto": "A roda de fora fica maior"
+   }
+  },
+  {
+   "gancho": "Ele se ajeita sozinho",
+   "destaque": [
+    "sozinho"
+   ],
+   "anim": {
+    "emoji": "🔄",
+    "texto": "O trem volta para o centro"
+   }
+  },
+  {
+   "gancho": "A borda é segurança",
+   "destaque": [
+    "segurança"
+   ],
+   "busca": "train passing fast"
+  }
+ ]
+}

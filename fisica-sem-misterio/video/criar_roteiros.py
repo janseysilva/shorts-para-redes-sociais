@@ -517,6 +517,62 @@ short("NuvemNaoCai", "Se a nuvem pesa TONELADAS, por que ela não cai? ☁️",
     ("E aí ela cai. É a chuva.", "Aí cai a chuva", ["chuva"], v("rain falling window")),
 ])
 
+# ---------- LEVA 8 (06/10): produtos famosos e objetos novos (o copo Stanley foi o melhor da leva 7) ----------
+short("CocaVidro", "Por que a Coca de VIDRO é mais gostosa? 🥤",
+      "O plástico da garrafa PET deixa o gás escapar devagarinho, e o vidro segura tudo. Por isso o refrigerante de vidro tem mais gás e gosto mais puro! #fisica #cocacola #refrigerante #curiosidades #ciencia",
+      "🥤", "O vidro não deixa o gás fugir.", [
+    ("Por que o refrigerante de garrafa de vidro parece mais gostoso?", "Por que o VIDRO é melhor?", ["VIDRO"], v("soda glass bottle")),
+    ("O segredo é o gás: as bolhinhas que dão aquele sabor e a sensação de pinicar.", "O segredo é o gás", ["gás"], v("soda bubbles glass")),
+    ("A garrafa de plástico parece fechada, mas o plástico tem espaços minúsculos.", "Plástico tem frestas", ["frestas"], a("🔍", "Espaços minúsculos no plástico")),
+    ("Com o tempo, o gás vai escapando por eles. O refrigerante perde força.", "O gás vai escapando", ["escapando"], a("💨", "O gás escapa pelo plástico")),
+    ("O vidro é fechado de verdade: não deixa passar gás nem pega cheiro de nada.", "O vidro segura tudo", ["vidro"], a("🍾", "O vidro não deixa o gás sair")),
+    ("Por isso o de vidro chega mais borbulhante, com o gosto mais puro.", "Mais gás, mais sabor", ["sabor"], v("pouring soda glass ice")),
+])
+
+short("BateriaIncha", "Por que a bateria do celular INCHA? 🔋",
+      "Calor, carga demais e o tempo fazem o líquido de dentro da bateria virar gás, e o gás fica preso e estufa tudo. Viu inchada? Pare de usar e leve na assistência! #fisica #celular #bateria #seguranca #curiosidades",
+      "🔋", "É gás preso lá dentro.", [
+    ("Já viu a tampa do celular estufando sozinha? É a bateria inchando.", "A bateria INCHOU?", ["INCHOU?"], v("smartphone battery")),
+    ("Dentro da bateria tem um líquido que leva a carga de um lado para o outro.", "Um líquido por dentro", ["líquido"], a("🔋", "Um líquido carrega a energia")),
+    ("Com calor, carga demais ou bateria velha, esse líquido se desfaz e vira gás.", "O líquido vira gás", ["gás"], a("🔥", "Calor transforma o líquido em gás")),
+    ("A bateria é lacrada. O gás não tem por onde sair, então estufa tudo, igual um balão.", "Igual um balão", ["balão"], a("🎈", "O gás fica preso e estufa")),
+    ("Viu inchada? Pare de usar, não fure e não aperte. Leve na assistência.", "Não fure, não aperte", ["fure"], v("phone repair technician")),
+    ("Para evitar: nada de celular no sol, e use o carregador certo.", "Evite calor", ["calor"], v("phone charging cable")),
+])
+
+short("CervejaGelo", "A cerveja vira GELO na hora? O truque da física 🍺",
+      "No congelador, a bebida pode passar de zero grau e continuar líquida: é o super-resfriamento. Uma batida ou bolhas dão o ponto de partida e o gelo se espalha em segundos! #fisica #cerveja #gelo #curiosidades #ciencia",
+      "🧊", "Só faltava o empurrãozinho.", [
+    ("Já viu a cerveja virar gelo na hora que você abre ou bate na garrafa?", "Vira GELO na hora?", ["GELO"], v("beer bottle freezer")),
+    ("No congelador, a bebida pode ficar abaixo de zero e mesmo assim continuar líquida.", "Abaixo de zero, ainda líquida", ["líquida"], a("🌡️", "Abaixo de zero e ainda líquida")),
+    ("Isso se chama super-resfriamento. O gelo quer se formar, mas falta um ponto de partida.", "Super-resfriamento", ["Super-resfriamento"], a("❄️", "Falta um ponto de partida")),
+    ("Quando você abre, as bolhas aparecem. Quando bate, a garrafa vibra.", "Bolhas e batida", ["batida"], a("🍾", "Abriu ou bateu: bolhas e vibração")),
+    ("Esse é o empurrãozinho: o primeiro cristal nasce e puxa os outros.", "O primeiro cristal", ["cristal"], a("💥", "Um cristal puxa o outro")),
+    ("E o gelo se espalha pela garrafa em poucos segundos. Funciona com água também.", "Funciona com água", ["água"], v("ice crystals forming")),
+])
+
+short("TremTrilho", "Por que o trem NÃO sai do trilho? 🚆",
+      "As rodas do trem não são retas: são cones! Na curva, a roda de fora roda na parte mais larga, anda mais e o trem se ajeita sozinho no trilho. A borda da roda é só a segurança! #fisica #trem #engenharia #curiosidades #ciencia",
+      "🚆", "A roda é um cone.", [
+    ("O trem é pesadíssimo e corre rápido. Por que ele não escapa do trilho na curva?", "Por que não ESCAPA?", ["ESCAPA?"], v("train curve railway")),
+    ("O segredo está na roda: ela não é reta, ela é um cone, mais larga do lado de dentro.", "A roda é um cone", ["cone"], a("🛞", "Roda em forma de cone")),
+    ("As duas rodas são presas no mesmo eixo, então giram juntas, na mesma velocidade.", "Rodas no mesmo eixo", ["eixo"], v("train wheels closeup")),
+    ("Na curva, o trem escorrega um pouco para fora, e a roda de fora encosta na parte mais larga.", "A roda de fora cresce", ["fora"], a("↗️", "A roda de fora fica maior")),
+    ("Roda maior anda mais em cada volta. Isso vira o trem sozinho e ele volta para o centro.", "Ele se ajeita sozinho", ["sozinho"], a("🔄", "O trem volta para o centro")),
+    ("A borda da roda, encostada no trilho, é só a segurança extra.", "A borda é segurança", ["segurança"], v("train passing fast")),
+])
+
+short("ImasRepelem", "Por que os ÍMÃS se empurram? 🧲",
+      "Todo ímã tem polo norte e polo sul. Polos iguais se empurram e diferentes se puxam, por causa de bilhões de átomos alinhados lá dentro. Quebre um ímã e nascem dois ímãs! #fisica #ima #magnetismo #curiosidades #ciencia",
+      "🧲", "Iguais se empurram.", [
+    ("Por que dois ímãs às vezes grudam e às vezes se empurram sozinhos?", "Grudam ou EMPURRAM?", ["EMPURRAM?"], v("magnets closeup")),
+    ("Todo ímã tem dois lados diferentes: o polo norte e o polo sul.", "Polo norte e polo sul", ["norte", "sul"], a("🧲", "Todo ímã tem norte e sul")),
+    ("Lados diferentes se puxam. Lados iguais se empurram.", "Iguais se empurram", ["empurram"], a("↔️", "Iguais se empurram, diferentes se puxam")),
+    ("Isso acontece porque, dentro do ímã, bilhões de átomos estão alinhados, como pequenos ímãs na mesma direção.", "Átomos alinhados", ["alinhados"], a("⚛️", "Bilhões de mini ímãs alinhados")),
+    ("E se você quebrar um ímã no meio? Nascem dois ímãs, cada um com norte e sul.", "Quebrou? Virou dois", ["dois"], a("✂️", "Cada pedaço vira um ímã")),
+    ("É o mesmo que faz a bússola apontar para o norte: a Terra também é um ímã gigante.", "A Terra é um ímã", ["Terra"], v("compass needle")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

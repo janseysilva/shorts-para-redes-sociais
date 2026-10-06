@@ -1,0 +1,71 @@
+{
+ "id": "BateriaIncha",
+ "titulo": "Por que a bateria do celular INCHA? 🔋",
+ "legenda": "Calor, carga demais e o tempo fazem o líquido de dentro da bateria virar gás, e o gás fica preso e estufa tudo. Viu inchada? Pare de usar e leve na assistência! #fisica #celular #bateria #seguranca #curiosidades",
+ "final": {
+  "emoji": "🔋",
+  "frase": "É gás preso lá dentro."
+ },
+ "frases": [
+  "Já viu a tampa do celular estufando sozinha? É a bateria inchando.",
+  "Dentro da bateria tem um líquido que leva a carga de um lado para o outro.",
+  "Com calor, carga demais ou bateria velha, esse líquido se desfaz e vira gás.",
+  "A bateria é lacrada. O gás não tem por onde sair, então estufa tudo, igual um balão.",
+  "Viu inchada? Pare de usar, não fure e não aperte. Leve na assistência.",
+  "Para evitar: nada de celular no sol, e use o carregador certo.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "A bateria INCHOU?",
+   "destaque": [
+    "INCHOU?"
+   ],
+   "busca": "smartphone battery"
+  },
+  {
+   "gancho": "Um líquido por dentro",
+   "destaque": [
+    "líquido"
+   ],
+   "anim": {
+    "emoji": "🔋",
+    "texto": "Um líquido carrega a energia"
+   }
+  },
+  {
+   "gancho": "O líquido vira gás",
+   "destaque": [
+    "gás"
+   ],
+   "anim": {
+    "emoji": "🔥",
+    "texto": "Calor transforma o líquido em gás"
+   }
+  },
+  {
+   "gancho": "Igual um balão",
+   "destaque": [
+    "balão"
+   ],
+   "anim": {
+    "emoji": "🎈",
+    "texto": "O gás fica preso e estufa"
+   }
+  },
+  {
+   "gancho": "Não fure, não aperte",
+   "destaque": [
+    "fure"
+   ],
+   "busca": "phone repair technician"
+  },
+  {
+   "gancho": "Evite calor",
+   "destaque": [
+    "calor"
+   ],
+   "busca": "phone charging cable"
+  }
+ ]
+}

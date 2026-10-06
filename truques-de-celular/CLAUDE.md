@@ -89,3 +89,9 @@ Buscas em alta: "celular como webcam no pc", "como recuperar fotos apagadas da l
 - Botões na parte de baixo da tela do celular ficam escondidos atrás da legenda: colocar ações importantes no topo.
 
 - Publicação 05/10: Física 41-45, Office 46-50 e Celular 46-50 PUBLICADOS (15 de 15, conferidos como Público). Descrição do Office termina com "  Segue para mais dicas de Office!", do Celular com "  Segue para mais truques de celular!". Depois do envio, esperar ~15 s antes de digitar (senão o YouTube recarrega o formulário e apaga o texto). Se a ferramenta find falhar, o input de arquivo fica 2 refs depois do botão "Selecionar arquivos" no read_page. No canal Celular a URL ?d=ud às vezes não abre o diálogo: clicar em "Enviar vídeos".
+
+## LEVA 9 — shorts 51 a 55 (06/10; PUBLICADA em 06/10 — Jansey autorizou: "publique todos")
+Buscas em alta: "como tirar vírus do celular", "celular desligando sozinho", "como ver senhas salvas no celular", "como esconder aplicativos", "como desativar talkback".
+`roteiros_leva9.py` + `src/shorts/Leva9.tsx` (TirarVirus, DesligaSozinho, SenhasSalvas, EsconderApps, TalkBack). Saída `out/Celular51_TirarVirus` … `Celular55_TalkBack`.
+- Emoji de bandeira de letra (🇬) não renderiza: usar 🌐.
+- Upload: cópia ≤ 10 MB com 2 passadas a 2000k (vídeos de ~30 s ficam com 7-9 MB). Trocar de canal: no channel_switcher usar `find` "Truques de Celular" e clicar no item (clicar por coordenada às vezes não troca e o Studio mostra "Ops, sem permissão").

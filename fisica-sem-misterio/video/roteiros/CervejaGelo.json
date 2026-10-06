@@ -1,0 +1,74 @@
+{
+ "id": "CervejaGelo",
+ "titulo": "A cerveja vira GELO na hora? O truque da física 🍺",
+ "legenda": "No congelador, a bebida pode passar de zero grau e continuar líquida: é o super-resfriamento. Uma batida ou bolhas dão o ponto de partida e o gelo se espalha em segundos! #fisica #cerveja #gelo #curiosidades #ciencia",
+ "final": {
+  "emoji": "🧊",
+  "frase": "Só faltava o empurrãozinho."
+ },
+ "frases": [
+  "Já viu a cerveja virar gelo na hora que você abre ou bate na garrafa?",
+  "No congelador, a bebida pode ficar abaixo de zero e mesmo assim continuar líquida.",
+  "Isso se chama super-resfriamento. O gelo quer se formar, mas falta um ponto de partida.",
+  "Quando você abre, as bolhas aparecem. Quando bate, a garrafa vibra.",
+  "Esse é o empurrãozinho: o primeiro cristal nasce e puxa os outros.",
+  "E o gelo se espalha pela garrafa em poucos segundos. Funciona com água também.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Vira GELO na hora?",
+   "destaque": [
+    "GELO"
+   ],
+   "busca": "beer bottle freezer"
+  },
+  {
+   "gancho": "Abaixo de zero, ainda líquida",
+   "destaque": [
+    "líquida"
+   ],
+   "anim": {
+    "emoji": "🌡️",
+    "texto": "Abaixo de zero e ainda líquida"
+   }
+  },
+  {
+   "gancho": "Super-resfriamento",
+   "destaque": [
+    "Super-resfriamento"
+   ],
+   "anim": {
+    "emoji": "❄️",
+    "texto": "Falta um ponto de partida"
+   }
+  },
+  {
+   "gancho": "Bolhas e batida",
+   "destaque": [
+    "batida"
+   ],
+   "anim": {
+    "emoji": "🍾",
+    "texto": "Abriu ou bateu: bolhas e vibração"
+   }
+  },
+  {
+   "gancho": "O primeiro cristal",
+   "destaque": [
+    "cristal"
+   ],
+   "anim": {
+    "emoji": "💥",
+    "texto": "Um cristal puxa o outro"
+   }
+  },
+  {
+   "gancho": "Funciona com água",
+   "destaque": [
+    "água"
+   ],
+   "busca": "ice crystals forming"
+  }
+ ]
+}
