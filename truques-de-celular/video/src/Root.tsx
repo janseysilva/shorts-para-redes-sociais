@@ -83,6 +83,12 @@ import tDesligaSozinho from "../public/DesligaSozinho/tempos.json";
 import tSenhasSalvas from "../public/SenhasSalvas/tempos.json";
 import tEsconderApps from "../public/EsconderApps/tempos.json";
 import tTalkBack from "../public/TalkBack/tempos.json";
+import { CelularSemSom, NaoCarrega, GmailCheio, ModoSeguranca, WifiSemInternet } from "./shorts/Leva10";
+import tCelularSemSom from "../public/CelularSemSom/tempos.json";
+import tNaoCarrega from "../public/NaoCarrega/tempos.json";
+import tGmailCheio from "../public/GmailCheio/tempos.json";
+import tModoSeguranca from "../public/ModoSeguranca/tempos.json";
+import tWifiSemInternet from "../public/WifiSemInternet/tempos.json";
 
 export const FPS = 30;
 
@@ -143,6 +149,11 @@ const SHORTS: [string, React.FC, { total: number }][] = [
   ["SenhasSalvas", SenhasSalvas, tSenhasSalvas],
   ["EsconderApps", EsconderApps, tEsconderApps],
   ["TalkBack", TalkBack, tTalkBack],
+  ["CelularSemSom", CelularSemSom, tCelularSemSom],
+  ["NaoCarrega", NaoCarrega, tNaoCarrega],
+  ["GmailCheio", GmailCheio, tGmailCheio],
+  ["ModoSeguranca", ModoSeguranca, tModoSeguranca],
+  ["WifiSemInternet", WifiSemInternet, tWifiSemInternet],
 ];
 
 export const Root: React.FC = () => (

@@ -1,0 +1,71 @@
+{
+ "id": "Silencio",
+ "titulo": "A sala mais SILENCIOSA do mundo 🤫",
+ "legenda": "Numa sala à prova de eco, a espuma engole quase todo o som. Sem barulho nenhum, você passa a ouvir o próprio coração, e muita gente fica tonta. #fisica #som #silencio #curiosidades #ciencia",
+ "final": {
+  "emoji": "🤫",
+  "frase": "Silêncio demais incomoda."
+ },
+ "frases": [
+  "Existe uma sala tão silenciosa que você começa a ouvir o próprio coração.",
+  "Ela fica nos Estados Unidos e serve para testar aparelhos: alto-falantes, fones, celulares.",
+  "Paredes, chão e teto são cobertos de cunhas de espuma que engolem quase todo o som.",
+  "Sem eco nenhum, o barulho mais alto ali é o seu corpo: coração, respiração, até o sangue correndo.",
+  "E muita gente fica tonta, porque o cérebro usa os ecos do ambiente para se orientar.",
+  "O silêncio total, que parece paz, acaba sendo desconfortável.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "A sala mais SILENCIOSA",
+   "destaque": [
+    "SILENCIOSA"
+   ],
+   "busca": "anechoic chamber"
+  },
+  {
+   "gancho": "Feita para testes",
+   "destaque": [
+    "testes"
+   ],
+   "busca": "acoustic foam wall"
+  },
+  {
+   "gancho": "A espuma engole o som",
+   "destaque": [
+    "engole"
+   ],
+   "anim": {
+    "emoji": "🔇",
+    "texto": "Nenhum eco volta"
+   }
+  },
+  {
+   "gancho": "Você ouve o seu corpo",
+   "destaque": [
+    "corpo"
+   ],
+   "anim": {
+    "emoji": "❤️",
+    "texto": "Coração, respiração e sangue"
+   }
+  },
+  {
+   "gancho": "Muita gente fica TONTA",
+   "destaque": [
+    "TONTA"
+   ],
+   "anim": {
+    "emoji": "😵",
+    "texto": "O cérebro perde a referência"
+   }
+  },
+  {
+   "gancho": "Silêncio que incomoda",
+   "destaque": [
+    "incomoda"
+   ],
+   "busca": "man sitting alone dark room"
+  }
+ ]
+}

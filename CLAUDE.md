@@ -29,8 +29,9 @@ Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publi
 - **Office** (14 inscritos): PowerPoint visual, dinheiro/planilhas úteis, ABNT. Slide que parece filme (995), PDF vira Word (710).
 - **Truques** (11 inscritos): WhatsApp, privacidade e vício no celular. Vício (715), letras (592), mensagem apagada (584).
 
-## Totais publicados em 06/10
-Office 55 · Truques 55 · Física 50.
+## Totais publicados em 07/10
+Office 60 · Truques 60 · Física 55.
+**Regra do Jansey (07/10): na Física, usar FOTOS/VÍDEOS REAIS do que está sendo citado em cada cena, para parecer o mais real possível (animação só quando não houver imagem real).**
 (05/10, PC da SEMED: Física com objetos novos — Jansey pediu para NÃO repetir assunto, nem o mesmo objeto de vídeos anteriores, como ovo e avião.)
 
 ## Próximo passo combinado
@@ -43,3 +44,8 @@ Levar os vídeos para **TikTok, Instagram e Facebook**, começando pelo Física:
 
 ## PC novo
 Instalar Node, ffmpeg (winget) e Python com `edge-tts numpy soundfile sherpa-onnx playwright pillow` + `playwright install chromium`, depois `npm install` nas 3 pastas `video/`. Itens no .gitignore precisam ser gerados de novo: voz Faber (`office-sem-misterio/tts/`), clipes do Pexels (`fisica-sem-misterio/video/public/clipes/`, com `python baixar_clipes.py`).
+
+## Leva de 07/10 — PUBLICADA em 07/10 (temas aprovados abaixo)
+- **Física (46→51 a 55):** lugar mais silencioso do mundo (câmara anecoica); fundo do mar / Fossa das Marianas (pressão, sem citar o submarino Titan); viajar no tempo é possível (dilatação do tempo: astronautas e GPS); dedos enrugam na água; maçã escurece depois de cortada. Jansey REJEITOU: lâmpada LED piscando, ar-condicionado pingando, roupa escura molhada, vela que chora, pneu gasto de um lado, manteiga dura. Ele pediu temas que deixem as pessoas **impressionadas** (efeito "uau"), não coisas comuns de cozinha.
+- **Office (56 a 60):** congelar painéis/1ª linha; CONT.SE; senha e proteger células no Excel; espaçamento 1,5 no Word (ABNT); salvar o PowerPoint como vídeo.
+- **Celular (56 a 60):** celular sem som (acha que tem fone conectado); celular não carrega (só no raio / umidade); Gmail cheio; sair do modo de segurança; Wi-Fi conectado sem internet.

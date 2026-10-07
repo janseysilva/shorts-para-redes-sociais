@@ -1311,7 +1311,101 @@ function W17(t){
   S.canvas=page(t>=19||t<3?60:255,30,doc9(tipo,'Proposta Comercial'),sc)+(t>=19||t<3?page(500,30,doc9(tipo,'Condições de Pagamento'),sc):'')+dl;
   S.cap=t<3?'Documento com<br>cara de profissional.':t<7?'Confidencial ou<br>com o seu logo?':t<11?'<span class="k3">Design</span> ›<br><span class="k3">Marca d\'Água</span>':t<15?'Escolha <span class="k3">CONFIDENCIAL</span>':t<19?'Personalizada ›<br><span class="k3">Imagem</span>: seu logo.':'Em todas<br>as páginas!';
 }
-const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13,W14,W15,W16,W17],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15,P16],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18,X19,X20,X21,X22,X23]};
+/* --- leva 10 (07/10): congelar painéis, CONT.SE, proteger planilha, espaçamento 1,5, PowerPoint em vídeo --- */
+const CLI10=['Ana Souza','Bruno Lima','Carla Dias','Diego Reis','Elisa Prado','Fábio Nunes','Gabi Rocha','Hugo Matos','Íris Gomes','João Melo','Kátia Luz','Léo Vieira'];
+const PROD10=['Café','Bolo','Suco','Pão','Torta'];
+const lin10=k=>[`0${1+k%9}/10`,CLI10[k%12],PROD10[(k*3)%5],brl(20+((k*37)%9)*15)];
+const FZ10='<style>.grid td.fz{border-bottom:5px solid #107c41!important}.grid td.fzr{border-right:5px solid #107c41!important}</style>';
+function X24(t){
+  S.title='Pedidos_Outubro.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Formatar');
+  if(t>=22)return endCard('O título fica<br>sempre no topo.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'O título <em>sumiu</em><br>quando rolou?':'Congelar a<br><em>1ª linha</em>';
+  const W=[150,230,170,160];const H=['Data','Cliente','Produto','Valor'];
+  const frozen=t<3||t>=12.4;
+  let ini=0;
+  if(t>=3&&t<7)ini=Math.round(lerp(0,18,3.6,6.2,t));
+  if(t>=15&&t<19)ini=Math.round(lerp(0,24,15.4,18.2,t));
+  if(t<3||t>=19)ini=24;
+  let rows,num;
+  if(frozen){rows=[H].concat(Array.from({length:11},(_,i)=>lin10(ini+i)));num=r=>r===0?1:ini+r+1}
+  else{rows=Array.from({length:12},(_,i)=>ini+i===0?H:lin10(ini+i-1));num=r=>ini+r+1}
+  const cls=(r,c)=>{let k=(frozen&&r===0)||(!frozen&&ini===0&&r===0)?'th':(c===3?'num':'');if(frozen&&r===0)k+=' fz';if(t>=19&&c===0)k+=' fzr';return k};
+  if(t>=7&&t<12.4){S.tab='Exibir';S.rib=btn('Normal')+btn('Zoom')+btn('Congelar Painéis',st(t,8.4,9.2),t>=9.2&&t<12.4?menu(['Congelar Painéis','Congelar Linha Superior','Congelar Primeira Coluna'],t>=11.2?'Congelar Linha Superior':''):'')+btn('Nova Janela')}
+  if(t>=19&&t<22){S.tab='Exibir';S.rib=btn('Normal')+btn('Zoom')+btn('Congelar Painéis',st(t,19.6,20.2))+btn('Nova Janela')}
+  S.canvas=FZ10+xgrid(W,rows,{cls,num,sel:t>=19?[1,1]:null})+(t>=3&&t<7&&ini>3?`<div style="position:absolute;left:0;right:0;top:640px;text-align:center;font:bold 38px 'Segoe UI';color:#e53935">✗ Qual coluna é qual?</div>`:'')+(t<3||(t>=15&&t<19)?okBadge('Cabeçalho sempre visível',690):'');
+  S.cap=t<3?'Rola à vontade, o título<br>não sai do lugar.':t<7?'Rolou e o nome<br>das colunas sumiu.':t<11?'<span class="k3">Exibir</span> ›<br><span class="k3">Congelar Painéis</span>':t<15?'<span class="k3">Congelar Linha Superior</span>':t<19?'O cabeçalho fica<br>sempre no topo.':'Linha e coluna? Clica<br>em <span class="k3">B2</span> e congela.';
+}
+const PED10=['Café','Bolo','Café','Suco','Pão','Café','Bolo','Suco','Café','Pão'];
+const RES10=[['Café',4],['Bolo',2],['Suco',2],['Pão',2]];
+function X25(t){
+  S.title='Pedidos_do_Dia.xlsx - Excel';S.tabs=XTABS;S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('AutoSoma')+btn('Formatar');
+  if(t>=22)return endCard('Contagem<br>sem contar.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Quantas vezes<br><em>aparece?</em>':'CONT.SE<br><em>no Excel</em>';
+  const F1='=CONT.SE($B$2:$B$11;',F='=CONT.SE($B$2:$B$11;D2)';
+  const fim=t<3||t>=19;
+  const feitos=t<3?4:t>=19?Math.min(4,1+Math.floor((t-19.2)*4)):t>=15?1:0;
+  let e2='';
+  if(t>=7&&t<11)e2=typed(F1,7.4,t,7)+CARET;
+  else if(t>=11&&t<15)e2=F1+typed('D2)',11.6,t,3)+CARET;
+  const rows=[['Pedido','Produto','','Produto','Quantos']].concat(PED10.map((p,i)=>{const r=['Nº '+(i+1),p,''];if(i<4){r.push(RES10[i][0]);r.push(i<feitos?RES10[i][1]:(i===0?e2:''))}return r}));
+  const cls=(r,c)=>{if(r===0)return c===2?'':'th';let k=c===4?'num':'';if(t>=7.4&&t<15&&c===1&&r>=1)k+=' ref1';if(t>=11.6&&t<15&&r===1&&c===3)k+=' ref2';if(c===4&&r>=1&&r<=4&&r<=feitos&&(t<3||(t>=15&&t<16.6&&r===1)||(t>=19&&t<20.4)))k+=' flash';if(r>=1&&c===1&&PED10[r-1]==='Café'&&(t<3||(t>=15&&t<19)))k+=' flash';return k};
+  S.canvas=xgrid([130,170,40,170,160],rows,{cls,sel:t>=7&&t<19?[1,4]:null,fx:t>=7&&t<19?F:''});
+  S.cap=t<3?'O Excel conta<br>para você.':t<7?'Quantos pedidos<br>de cada produto?':t<11?'<span class="k3">=CONT.SE(</span> + a coluna,<br>travada com <span class="k3">F4</span>':t<15?'<span class="k3">;</span> e o produto<br>que quer contar':t<19?'Café: 4 vezes.':'Arrasta e conta<br>todos de uma vez.';
+}
+const ORC10=[['Arroz 5 kg',2,27.9],['Feijão 1 kg',3,8.5],['Café 500 g',1,18.9],['Óleo 900 ml',2,8],['Leite 1 L',6,5.3]];
+const rs10=v=>'R$ '+v.toFixed(2).replace('.',',');
+function X26(t){
+  S.title='Orcamento.xlsx - Excel';S.tabs=[...XTABS.slice(0,5),'Revisão','Exibir'];S.tab='Página Inicial';S.rib=btn('Colar')+btn('Fonte')+btn('Número')+btn('Formatar');
+  if(t>=22)return endCard('Fórmulas<br>protegidas.','Salva esse vídeo','Segue para mais dicas de Excel');
+  S.hook=t<3?'Ninguém mexe na<br><em>sua planilha</em>':'Senha na<br><em>planilha</em>';
+  const qtd=t>=19.6?[2,3,1,4,6]:ORC10.map(r=>r[1]);
+  const rows=[['Item','Qtd','Preço','Total']].concat(ORC10.map((r,i)=>[r[0],String(qtd[i]),rs10(r[2]),rs10(qtd[i]*r[2])]));
+  const selQ=t>=3&&t<11;
+  const cls=(r,c)=>{if(r===0)return 'th';let k=c>=1?'num':'';if(selQ&&c===1&&t>=4.6)k+=' ref1';if(c===3&&(t<3||t>=15))k+=' tot';if(t>=19.6&&r===4&&(c===1||c===3))k+=' flash';return k};
+  let dl='';
+  if(t>=7.4&&t<10.8){dl=dlg('Formatar Células',`<div style="display:flex;gap:18px;font-size:22px;color:#666"><span>Número</span><span>Alinhamento</span><span>Fonte</span><b style="color:#107c41;border-bottom:3px solid #107c41">Proteção</b></div>${chk(t<9.6,'Bloqueadas')}${chk(false,'Ocultas')}`,btn('OK',st(t,10.1,10.5)));keys(['Ctrl','1'],7.6,t)}
+  if(t>=11)S.tab='Revisão';
+  if(t>=11&&t<15)S.rib=btn('Ortografia')+btn('Comentário')+btn('🔒 Proteger Planilha',st(t,12,12.8))+btn('Proteger Pasta');
+  if(t>=12.8&&t<15.8){const pw='•'.repeat(Math.max(0,Math.min(6,Math.floor((t-13.2)*5))));dl=dlg('Proteger Planilha',`<div>Senha para desproteger a planilha:</div><div style="border:2px solid #107c41;padding:10px 14px;font:30px Consolas;letter-spacing:6px;min-height:52px">${pw}${t<15?CARET:''}</div>${chk(true,'Selecionar células desbloqueadas')}`,btn('OK',st(t,15,15.5)))}
+  if(t>=15)S.rib=btn('Ortografia')+btn('Comentário')+btn('🔓 Desproteger Planilha')+btn('Proteger Pasta');
+  let aviso='';
+  if(t>=16.4&&t<19)aviso=`<div class="dlg" style="top:400px;left:120px;width:780px"><div class="hd">Microsoft Excel</div><div class="bd" style="font-size:26px">⚠️ A célula que você está tentando alterar está em uma planilha protegida.</div><div class="ft">${btn('OK')}</div></div>`;
+  S.canvas=xgrid([280,130,190,200],rows,{cls,sel:t>=16?(t>=19?[4,1]:[2,3]):selQ?[1,1]:null,fx:t>=16&&t<19?'=B3*C3':''})+dl+aviso+(t<3?okBadge('🔒 Protegida com senha',560):'');
+  S.cap=t<3?'Fórmulas travadas,<br>só o que você liberar.':t<7?'Seleciona o que<br>pode ser editado.':t<11?'<span class="k3">Ctrl + 1</span> › Proteção ›<br>desmarca <span class="k3">Bloqueadas</span>':t<15?'<span class="k3">Revisão</span> ›<br><span class="k3">Proteger Planilha</span>':t<19?'Mexeu na fórmula?<br>Bloqueado!':'Na quantidade,<br>digita normal.';
+}
+const PARA10=[[100,96,98,94,60],[97,100,92,99,70],[95,98,100,55]];
+const corpo10=(esp,dep,sel)=>`<div style="font:bold 34px Arial;text-align:center;margin-bottom:24px">INTRODUÇÃO</div>`+PARA10.map(p=>`<div style="margin-bottom:${dep}px">`+p.map(w=>`<div style="height:14px;width:${w}%;background:${sel?'#9cc3f5':'#d4d4d4'};border-radius:7px;margin:${esp}px 0"></div>`).join('')+'</div>').join('');
+function W18(t){
+  S.title='TCC_Introducao.docx - Word';
+  if(t>=22)return endCard('Espaçamento<br>da ABNT.','Salva esse vídeo','Segue para mais dicas de Word');
+  S.hook=t<3?'Espaçamento <em>1,5</em><br>da ABNT':'Espaçamento<br><em>no Word</em>';
+  const esp=t<3||t>=13?lerp(6,20,13,14.2,t<3?99:t):6, dep=t>=20.4||t<3?4:t>=13?lerp(40,40,0,1,t):40;
+  const sel=t>=5&&t<19;
+  const m=t>=8.8&&t<13?`<div class="menu" style="min-width:420px">${['1,0','1,15','1,5','2,0','2,5','3,0'].map(x=>`<div class="${t>=11.6&&x==='1,5'?'on':''}">${x}</div>`).join('')}<div>Remover Espaço Depois do Parágrafo</div></div>`:t>=19.8&&t<20.4?`<div class="menu" style="min-width:420px"><div>1,0</div><div>1,5</div><div class="on">Remover Espaço Depois do Parágrafo</div></div>`:'';
+  S.rib=btn('Colar')+btn('Fonte')+btn('↕ Espaçamento',t<13?st(t,8.2,8.8):(t>=19?st(t,19.4,19.8):''),m)+btn('Estilos');
+  if(t>=3&&t<7)keys(['Ctrl','T'],5,t);
+  S.canvas=page(255,20,corpo10(esp,dep,sel),0.75)+(t<3||t>=15&&t<19?okBadge('Espaçamento 1,5',700):'')+(t>=3&&t<7?`<div style="position:absolute;left:0;right:0;top:610px;text-align:center;font:bold 34px 'Segoe UI';color:#e53935;opacity:${t<5?1:0}">✗ Texto apertado</div>`:'');
+  S.cap=t<3?'Do jeito que<br>a norma pede.':t<7?'<span class="k3">Ctrl + T</span>:<br>seleciona tudo.':t<11?'Botão de<br><span class="k3">espaçamento entre linhas</span>':t<15?'Escolhe <span class="k3">1,5</span>':t<19?'Texto arejado,<br>dentro da norma.':'Tira o espaço<br><span class="k3">depois do parágrafo</span>';
+}
+const SL10=[['#ff7043','Promoção de Outubro','Bolos caseiros 🍰'],['#26a69a','A partir de R$ 8','Bolo de pote'],['#5c6bc0','Peça pelo WhatsApp','Entrega no bairro']];
+const sl10=i=>`<div style="position:absolute;inset:0;background:${SL10[i][0]}"></div><div style="position:absolute;left:50px;top:140px;color:#fff;font:bold 58px 'Segoe UI'">${SL10[i][1]}</div><div style="position:absolute;left:54px;top:240px;color:#fff;font:34px 'Segoe UI';opacity:.9">${SL10[i][2]}</div>`;
+const tel10=(i,p)=>celular(`<div style="position:absolute;inset:0;background:#000"></div><div style="position:absolute;left:0;right:0;top:250px;height:272px;overflow:hidden"><div style="width:800px;height:450px;transform:scale(.605);transform-origin:0 0;position:relative">${sl10(i)}</div></div><div style="position:absolute;left:24px;right:24px;bottom:80px;height:8px;background:#555;border-radius:4px"><div style="width:${p}%;height:100%;background:#e53935;border-radius:4px"></div></div><div style="position:absolute;left:0;right:0;bottom:110px;text-align:center;color:#fff;font:24px 'Segoe UI'">▶ Promocao.mp4</div>`);
+function P17(t){
+  S.title='Promocao.pptx - PowerPoint';S.tabs=PTABS2;S.tab='Página Inicial';S.rib=btn('Novo Slide')+btn('Layout')+btn('Fonte');
+  if(t>=22)return endCard('Apresentação<br>virou vídeo.','Salva esse vídeo','Segue para mais dicas de PowerPoint');
+  S.hook=t<3?'Apresentação<br><em>vira vídeo</em>':'PowerPoint<br><em>em vídeo</em>';
+  if(t<3||t>=19.6){const k=Math.floor((t<3?t:t-19.6)/1)%3;S.canvas=tel10(k,(t<3?t/3:(t-19.6)/2.4)*100)+(t>=19.6?okBadge('Pronto para enviar',720):'');S.cap=t<3?'Roda sozinha<br>em qualquer celular.':'MP4 prontinho<br>para o WhatsApp.';return}
+  if(t<7){const k=Math.floor((t-3)/1.3)%3;S.canvas=pptView(sl10(k),[0,1,2].map(sl10),k);S.cap='Nem todo mundo<br>tem PowerPoint.';return}
+  const exp=t>=8.6;
+  const opts=['Criar PDF/XPS','Criar um Vídeo','Criar GIF Animado','Alterar Tipo de Arquivo'];
+  let rp='';
+  if(t<11)rp=`<h3 style="font-size:32px">Exportar</h3>`+(exp?opts.map(o=>`<div class="opt ${t>=10&&o==='Criar um Vídeo'?'on':''}" style="width:360px;font-size:22px">${o}</div>`).join(''):'');
+  else{const pr=t>=17.6?Math.min(100,(t-17.6)/1.3*100):0;
+    rp=`<h3 style="font-size:32px">Criar um Vídeo</h3><div class="opt ${t<15?'on':''}" style="width:460px;font-size:22px">🎞️ Full HD (1080p) ▾</div><div class="opt ${t>=15&&t<17.6?'on':''}" style="width:460px;font-size:22px">⏱️ Segundos em cada slide: <b>${typed('05,00',15.4,t,6)||'01,00'}</b></div><div style="margin-top:14px">${btn('Criar Vídeo',st(t,17,17.6))}</div>`+(t>=17.6?`<div style="margin-top:20px;font-size:22px">Exportando Promocao.mp4…<div style="height:14px;background:#ddd;border-radius:7px;margin-top:8px"><div style="width:${pr}%;height:100%;background:#c43e1c;border-radius:7px"></div></div></div>`:'')}
+  S.canvas=`<div class="back" style="top:0"><div class="lm"><div>Início</div><div>Salvar</div><div>Imprimir</div><div class="${exp?'on':''}">Exportar</div></div><div class="rp" style="padding:24px">${rp}</div></div>`;
+  S.cap=t<11?'<span class="k3">Arquivo</span> ›<br><span class="k3">Exportar</span>':t<15?'<span class="k3">Criar um Vídeo</span><br>e a qualidade':t<19?'Segundos por slide ›<br><span class="k3">Criar Vídeo</span>':'Pronto!';
+}
+const FN={word:[null,W1,W2,W3,W4,W5,null,null,null,W9,W10,W11,W12,W13,W14,W15,W16,W17,W18],ppt:[null,P1,P2,P3,P4,P5,null,null,P8,null,P10,P11,P12,P13,P14,P15,P16,P17],xl:[null,X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,X13,X14,X15,X16,X17,X18,X19,X20,X21,X22,X23,X24,X25,X26]};
 function render(t){
   q('#end').style.display='none';q('#keys').style.display='none';
   S={title:'',tabs:APP==='word'?WTABS:PTABS,tab:'Página Inicial',rib:'',canvas:'',ov:'',ovTop:'',hook:'',cap:'',tabPress:''};

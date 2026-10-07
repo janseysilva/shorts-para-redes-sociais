@@ -1,0 +1,71 @@
+{
+ "id": "DedosEnrugam",
+ "titulo": "Por que os dedos ENRUGAM na água? 🖐️",
+ "legenda": "Não é a pele bebendo água: é o seu sistema nervoso que aperta os vasinhos da ponta dos dedos. Quem tem o nervo do dedo cortado não enruga! E o dedo enrugado segura melhor coisas molhadas. #fisica #corpo #curiosidades #ciencia #banho",
+ "final": {
+  "emoji": "🖐️",
+  "frase": "O corpo faz de propósito."
+ },
+ "frases": [
+  "Ficou muito tempo no banho e os dedos enrugaram? Não é a pele inchando de água.",
+  "Por muito tempo, todo mundo achou que era isso: a pele bebendo água e sobrando.",
+  "Mas os médicos perceberam: quem tem o nervo do dedo cortado não fica com o dedo enrugado.",
+  "O seu corpo aperta os vasinhos debaixo da pele. A ponta do dedo murcha e enruga.",
+  "E tem vantagem: dedo enrugado segura melhor coisa molhada, como os sulcos de um tênis.",
+  "Uns cinco minutos de água e o seu corpo já se prepara sozinho.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que os dedos ENRUGAM?",
+   "destaque": [
+    "ENRUGAM?"
+   ],
+   "busca": "hand water close up"
+  },
+  {
+   "gancho": "Não é só água",
+   "destaque": [
+    "água"
+   ],
+   "anim": {
+    "emoji": "💧",
+    "texto": "Não é a pele inchando"
+   }
+  },
+  {
+   "gancho": "Sem nervo, sem ruga",
+   "destaque": [
+    "nervo"
+   ],
+   "anim": {
+    "emoji": "🧠",
+    "texto": "Quem manda é o sistema nervoso"
+   }
+  },
+  {
+   "gancho": "Os vasinhos se apertam",
+   "destaque": [
+    "vasinhos"
+   ],
+   "anim": {
+    "emoji": "🩸",
+    "texto": "A ponta do dedo murcha"
+   }
+  },
+  {
+   "gancho": "Segura melhor",
+   "destaque": [
+    "melhor"
+   ],
+   "busca": "hand holding wet stones"
+  },
+  {
+   "gancho": "O corpo se prepara",
+   "destaque": [
+    "prepara"
+   ],
+   "busca": "bath tub water hand"
+  }
+ ]
+}

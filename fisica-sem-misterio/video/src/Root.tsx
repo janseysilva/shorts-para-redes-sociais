@@ -107,10 +107,20 @@ import rTremTrilho from "../roteiros/TremTrilho.json";
 import tTremTrilho from "../public/TremTrilho/tempos.json";
 import rImasRepelem from "../roteiros/ImasRepelem.json";
 import tImasRepelem from "../public/ImasRepelem/tempos.json";
+import rSilencio from "../roteiros/Silencio.json";
+import tSilencio from "../public/Silencio/tempos.json";
+import rFundoMar from "../roteiros/FundoMar.json";
+import tFundoMar from "../public/FundoMar/tempos.json";
+import rViagemTempo from "../roteiros/ViagemTempo.json";
+import tViagemTempo from "../public/ViagemTempo/tempos.json";
+import rDedosEnrugam from "../roteiros/DedosEnrugam.json";
+import tDedosEnrugam from "../public/DedosEnrugam/tempos.json";
+import rMacaEscurece from "../roteiros/MacaEscurece.json";
+import tMacaEscurece from "../public/MacaEscurece/tempos.json";
 
 export const FPS = 30;
 
-// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 50; o 1 é o CeuAzulMisto).
+// Shorts feitos a partir do roteiro (estilo misto). A ordem aqui é a ordem de publicação (2 a 55; o 1 é o CeuAzulMisto).
 const ROTEIROS: [Roteiro, Tempos][] = [
   [rTrovao, tTrovao], [rGelo, tGelo], [rAstronautas, tAstronautas], [rArcoIris, tArcoIris], [rLua, tLua],
   [rMicroOndas, tMicroOndas], [rMetalGelado, tMetalGelado], [rAviao, tAviao], [rPanelaPressao, tPanelaPressao],
@@ -122,6 +132,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rOuvidoAviao, tOuvidoAviao], [rCebolaChorar, tCebolaChorar], [rLeiteSobe, tLeiteSobe], [rChuveiroChoque, tChuveiroChoque], [rAviaoCurva, tAviaoCurva],
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
+  [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

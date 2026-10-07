@@ -95,3 +95,7 @@ Buscas em alta: "como tirar vírus do celular", "celular desligando sozinho", "c
 `roteiros_leva9.py` + `src/shorts/Leva9.tsx` (TirarVirus, DesligaSozinho, SenhasSalvas, EsconderApps, TalkBack). Saída `out/Celular51_TirarVirus` … `Celular55_TalkBack`.
 - Emoji de bandeira de letra (🇬) não renderiza: usar 🌐.
 - Upload: cópia ≤ 10 MB com 2 passadas a 2000k (vídeos de ~30 s ficam com 7-9 MB). Trocar de canal: no channel_switcher usar `find` "Truques de Celular" e clicar no item (clicar por coordenada às vezes não troca e o Studio mostra "Ops, sem permissão").
+
+## LEVA 10 — shorts 56 a 60 (07/10; PUBLICADA em 07/10)
+`roteiros_leva10.py` + `src/shorts/Leva10.tsx` (CelularSemSom, NaoCarrega, GmailCheio, ModoSeguranca, WifiSemInternet). Helpers locais: `Painel` (notificações + atalhos rápidos), `Entrada` (entrada do carregador com escova), `MenuDesligar`, `Armazenamento`, `CaixaGmail`, `Inicio`, `ListaWifi`, `Roteador`.
+- Emojis que NÃO existem no Windows 10 (saem como quadrado): 🪫, 🪥, ⏻. Usar 🔌, 🖌️, 📴.

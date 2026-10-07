@@ -173,5 +173,18 @@
  "TremTrilho_2": 8.03,
  "TremTrilho_5": 8.43,
  "ImasRepelem_5": 11.93,
- "ImasRepelem_0": 14.24
+ "ImasRepelem_0": 14.24,
+ "Silencio_0": 23.04,
+ "Silencio_1": 9.76,
+ "Silencio_5": 20.28,
+ "FundoMar_0": 10.07,
+ "FundoMar_5": 16.79,
+ "ViagemTempo_0": 4.14,
+ "ViagemTempo_4": 6.47,
+ "ViagemTempo_5": 10.6,
+ "DedosEnrugam_0": 11.43,
+ "DedosEnrugam_4": 4.77,
+ "DedosEnrugam_5": 11.2,
+ "MacaEscurece_0": 17.44,
+ "MacaEscurece_4": 26.3
 }

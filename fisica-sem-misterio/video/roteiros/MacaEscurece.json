@@ -1,0 +1,74 @@
+{
+ "id": "MacaEscurece",
+ "titulo": "Por que a maçã ESCURECE depois de cortada? 🍎",
+ "legenda": "Quando você corta, uma substância de dentro da maçã encontra o oxigênio do ar e vira um pigmento marrom. Gotas de limão ou água gelada atrasam a reação! #fisica #quimica #maca #curiosidades #ciencia",
+ "final": {
+  "emoji": "🍎",
+  "frase": "É o ar reagindo."
+ },
+ "frases": [
+  "Cortou a maçã e em poucos minutos ela ficou marrom? Não é sujeira nem que estragou.",
+  "Dentro da maçã existe uma substância que só espera um encontro: com o ar.",
+  "Quando você corta, as células se rompem e essa substância encontra o oxigênio.",
+  "Os dois reagem e formam um pigmento marrom. O mesmo acontece com a banana e a batata.",
+  "Para evitar, pingue umas gotas de limão: o ácido atrapalha essa reação.",
+  "Ou deixe na água gelada, longe do ar. A maçã continua boa, só muda de cor.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que a maçã ESCURECE?",
+   "destaque": [
+    "ESCURECE?"
+   ],
+   "busca": "apple slices"
+  },
+  {
+   "gancho": "Um encontro com o ar",
+   "destaque": [
+    "ar"
+   ],
+   "anim": {
+    "emoji": "🍎",
+    "texto": "Uma substância escondida"
+   }
+  },
+  {
+   "gancho": "Encontra o oxigênio",
+   "destaque": [
+    "oxigênio"
+   ],
+   "anim": {
+    "emoji": "💨",
+    "texto": "Células rompidas + oxigênio"
+   }
+  },
+  {
+   "gancho": "Vira pigmento MARROM",
+   "destaque": [
+    "MARROM"
+   ],
+   "anim": {
+    "emoji": "🟤",
+    "texto": "Igual banana e batata"
+   }
+  },
+  {
+   "gancho": "Gotas de LIMÃO",
+   "destaque": [
+    "LIMÃO"
+   ],
+   "busca": "lemon squeeze"
+  },
+  {
+   "gancho": "Continua boa",
+   "destaque": [
+    "boa"
+   ],
+   "anim": {
+    "emoji": "🧊",
+    "texto": "Água gelada, longe do ar"
+   }
+  }
+ ]
+}

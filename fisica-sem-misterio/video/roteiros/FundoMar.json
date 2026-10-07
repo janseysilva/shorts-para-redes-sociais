@@ -1,0 +1,75 @@
+{
+ "id": "FundoMar",
+ "titulo": "O fundo do mar ESMAGA tudo 🌊",
+ "legenda": "Na Fossa das Marianas, a quase 11 km de profundidade, a pressão passa de mil atmosferas: mais de uma tonelada em cada centímetro quadrado. O Everest caberia lá dentro! #fisica #oceano #pressao #curiosidades #ciencia",
+ "final": {
+  "emoji": "🌊",
+  "frase": "A água pesa muito."
+ },
+ "frases": [
+  "No ponto mais fundo do oceano, a pressão esmagaria você num instante.",
+  "É a Fossa das Marianas, no Pacífico: quase 11 quilômetros de fundura. O Everest caberia lá dentro, com sobra.",
+  "Toda a água que está em cima de você pesa. A cada 10 metros, a pressão aumenta uma atmosfera inteira.",
+  "Lá embaixo são mais de mil atmosferas: mais de uma tonelada em cada centímetro quadrado.",
+  "Por isso os submarinos de pesquisa têm paredes grossíssimas e janelinhas pequenas e grossas.",
+  "E mesmo assim tem vida lá: bichinhos de corpo mole, cheio de água, que não tem como ser esmagada.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O fundo do mar ESMAGA",
+   "destaque": [
+    "ESMAGA"
+   ],
+   "busca": "deep ocean dark water"
+  },
+  {
+   "gancho": "O Everest caberia lá",
+   "destaque": [
+    "Everest"
+   ],
+   "anim": {
+    "emoji": "🏔️",
+    "texto": "Quase 11 km de fundura"
+   }
+  },
+  {
+   "gancho": "+1 atmosfera a cada 10 m",
+   "destaque": [
+    "10",
+    "m"
+   ],
+   "anim": {
+    "emoji": "⬇️",
+    "texto": "Cada metro de água pesa"
+   }
+  },
+  {
+   "gancho": "Um carro no seu dedo",
+   "destaque": [
+    "carro"
+   ],
+   "anim": {
+    "emoji": "🚗",
+    "texto": "1 tonelada por centímetro²"
+   }
+  },
+  {
+   "gancho": "Paredes grossíssimas",
+   "destaque": [
+    "grossíssimas"
+   ],
+   "anim": {
+    "emoji": "🔩",
+    "texto": "Aço grosso e janela pequena"
+   }
+  },
+  {
+   "gancho": "Tem VIDA lá embaixo",
+   "destaque": [
+    "VIDA"
+   ],
+   "busca": "jellyfish deep sea"
+  }
+ ]
+}

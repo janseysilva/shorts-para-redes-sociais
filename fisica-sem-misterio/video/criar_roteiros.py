@@ -573,6 +573,63 @@ short("ImasRepelem", "Por que os ÍMÃS se empurram? 🧲",
     ("É o mesmo que faz a bússola apontar para o norte: a Terra também é um ímã gigante.", "A Terra é um ímã", ["Terra"], v("compass needle")),
 ])
 
+
+# ---------- LEVA 9 (07/10): temas "uau" pedidos pelo Jansey + dedos/maçã ----------
+short("Silencio", "A sala mais SILENCIOSA do mundo 🤫",
+      "Numa sala à prova de eco, a espuma engole quase todo o som. Sem barulho nenhum, você passa a ouvir o próprio coração, e muita gente fica tonta. #fisica #som #silencio #curiosidades #ciencia",
+      "🤫", "Silêncio demais incomoda.", [
+    ("Existe uma sala tão silenciosa que você começa a ouvir o próprio coração.", "A sala mais SILENCIOSA", ["SILENCIOSA"], v("anechoic chamber")),
+    ("Ela fica nos Estados Unidos e serve para testar aparelhos: alto-falantes, fones, celulares.", "Feita para testes", ["testes"], v("acoustic foam wall")),
+    ("Paredes, chão e teto são cobertos de cunhas de espuma que engolem quase todo o som.", "A espuma engole o som", ["engole"], a("🔇", "Nenhum eco volta")),
+    ("Sem eco nenhum, o barulho mais alto ali é o seu corpo: coração, respiração, até o sangue correndo.", "Você ouve o seu corpo", ["corpo"], a("❤️", "Coração, respiração e sangue")),
+    ("E muita gente fica tonta, porque o cérebro usa os ecos do ambiente para se orientar.", "Muita gente fica TONTA", ["TONTA"], a("😵", "O cérebro perde a referência")),
+    ("O silêncio total, que parece paz, acaba sendo desconfortável.", "Silêncio que incomoda", ["incomoda"], v("man sitting alone dark room")),
+])
+
+short("FundoMar", "O fundo do mar ESMAGA tudo 🌊",
+      "Na Fossa das Marianas, a quase 11 km de profundidade, a pressão passa de mil atmosferas: mais de uma tonelada em cada centímetro quadrado. O Everest caberia lá dentro! #fisica #oceano #pressao #curiosidades #ciencia",
+      "🌊", "A água pesa muito.", [
+    ("No ponto mais fundo do oceano, a pressão esmagaria você num instante.", "O fundo do mar ESMAGA", ["ESMAGA"], v("deep ocean dark water")),
+    ("É a Fossa das Marianas, no Pacífico: quase 11 quilômetros de fundura. O Everest caberia lá dentro, com sobra.", "O Everest caberia lá", ["Everest"], a("🏔️", "Quase 11 km de fundura")),
+    ("Toda a água que está em cima de você pesa. A cada 10 metros, a pressão aumenta uma atmosfera inteira.", "+1 atmosfera a cada 10 m", ["10", "m"], a("⬇️", "Cada metro de água pesa")),
+    ("Lá embaixo são mais de mil atmosferas: mais de uma tonelada em cada centímetro quadrado.", "Um carro no seu dedo", ["carro"], a("🚗", "1 tonelada por centímetro²")),
+    ("Por isso os submarinos de pesquisa têm paredes grossíssimas e janelinhas pequenas e grossas.", "Paredes grossíssimas", ["grossíssimas"], a("🔩", "Aço grosso e janela pequena")),
+    ("E mesmo assim tem vida lá: bichinhos de corpo mole, cheio de água, que não tem como ser esmagada.", "Tem VIDA lá embaixo", ["VIDA"], v("jellyfish deep sea")),
+])
+
+short("ViagemTempo", "Viajar no TEMPO é possível (e já acontece) ⏳",
+      "Quanto mais rápido você anda, mais devagar o tempo passa. Astronautas voltam milésimos de segundo mais novos, e o GPS do celular erraria uns 10 km por dia se não corrigisse isso! #fisica #einstein #tempo #gps #curiosidades",
+      "⏳", "O tempo estica.", [
+    ("Viajar no tempo existe, e acontece todo dia, bem em cima da sua cabeça.", "Viajar no TEMPO existe", ["TEMPO"], v("clock time lapse")),
+    ("Einstein descobriu que o tempo não passa igual para todo mundo: quanto mais rápido você anda, mais devagar ele passa.", "O tempo não é igual", ["igual"], a("⏳", "Mais rápido, tempo mais lento")),
+    ("Na estação espacial, a quase 28 mil quilômetros por hora, o tempo passa um pouquinho mais devagar.", "28 mil km por hora", ["28", "mil"], a("🚀", "28 mil km por hora")),
+    ("Quem passa meses lá volta alguns milésimos de segundo mais novo que a gente.", "Voltam mais NOVOS", ["NOVOS"], a("🧓", "Alguns milésimos mais novos")),
+    ("E o seu celular depende disso: os satélites do GPS têm relógios que andam diferente dos nossos.", "Relógios lá em cima", ["Relógios"], v("satellite orbit earth")),
+    ("Se ninguém corrigisse essa diferença, o mapa do celular erraria uns 10 quilômetros por dia.", "Erro de 10 km por dia", ["10", "km"], v("phone map navigation car")),
+])
+
+short("DedosEnrugam", "Por que os dedos ENRUGAM na água? 🖐️",
+      "Não é a pele bebendo água: é o seu sistema nervoso que aperta os vasinhos da ponta dos dedos. Quem tem o nervo do dedo cortado não enruga! E o dedo enrugado segura melhor coisas molhadas. #fisica #corpo #curiosidades #ciencia #banho",
+      "🖐️", "O corpo faz de propósito.", [
+    ("Ficou muito tempo no banho e os dedos enrugaram? Não é a pele inchando de água.", "Por que os dedos ENRUGAM?", ["ENRUGAM?"], v("hand water close up")),
+    ("Por muito tempo, todo mundo achou que era isso: a pele bebendo água e sobrando.", "Não é só água", ["água"], a("💧", "Não é a pele inchando")),
+    ("Mas os médicos perceberam: quem tem o nervo do dedo cortado não fica com o dedo enrugado.", "Sem nervo, sem ruga", ["nervo"], a("🧠", "Quem manda é o sistema nervoso")),
+    ("O seu corpo aperta os vasinhos debaixo da pele. A ponta do dedo murcha e enruga.", "Os vasinhos se apertam", ["vasinhos"], a("🩸", "A ponta do dedo murcha")),
+    ("E tem vantagem: dedo enrugado segura melhor coisa molhada, como os sulcos de um tênis.", "Segura melhor", ["melhor"], v("hand holding wet stones")),
+    ("Uns cinco minutos de água e o seu corpo já se prepara sozinho.", "O corpo se prepara", ["prepara"], v("bath tub water hand")),
+])
+
+short("MacaEscurece", "Por que a maçã ESCURECE depois de cortada? 🍎",
+      "Quando você corta, uma substância de dentro da maçã encontra o oxigênio do ar e vira um pigmento marrom. Gotas de limão ou água gelada atrasam a reação! #fisica #quimica #maca #curiosidades #ciencia",
+      "🍎", "É o ar reagindo.", [
+    ("Cortou a maçã e em poucos minutos ela ficou marrom? Não é sujeira nem que estragou.", "Por que a maçã ESCURECE?", ["ESCURECE?"], v("apple slices")),
+    ("Dentro da maçã existe uma substância que só espera um encontro: com o ar.", "Um encontro com o ar", ["ar"], a("🍎", "Uma substância escondida")),
+    ("Quando você corta, as células se rompem e essa substância encontra o oxigênio.", "Encontra o oxigênio", ["oxigênio"], a("💨", "Células rompidas + oxigênio")),
+    ("Os dois reagem e formam um pigmento marrom. O mesmo acontece com a banana e a batata.", "Vira pigmento MARROM", ["MARROM"], a("🟤", "Igual banana e batata")),
+    ("Para evitar, pingue umas gotas de limão: o ácido atrapalha essa reação.", "Gotas de LIMÃO", ["LIMÃO"], v("lemon squeeze")),
+    ("Ou deixe na água gelada, longe do ar. A maçã continua boa, só muda de cor.", "Continua boa", ["boa"], a("🧊", "Água gelada, longe do ar")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -1,0 +1,73 @@
+{
+ "id": "ViagemTempo",
+ "titulo": "Viajar no TEMPO é possível (e já acontece) ⏳",
+ "legenda": "Quanto mais rápido você anda, mais devagar o tempo passa. Astronautas voltam milésimos de segundo mais novos, e o GPS do celular erraria uns 10 km por dia se não corrigisse isso! #fisica #einstein #tempo #gps #curiosidades",
+ "final": {
+  "emoji": "⏳",
+  "frase": "O tempo estica."
+ },
+ "frases": [
+  "Viajar no tempo existe, e acontece todo dia, bem em cima da sua cabeça.",
+  "Einstein descobriu que o tempo não passa igual para todo mundo: quanto mais rápido você anda, mais devagar ele passa.",
+  "Na estação espacial, a quase 28 mil quilômetros por hora, o tempo passa um pouquinho mais devagar.",
+  "Quem passa meses lá volta alguns milésimos de segundo mais novo que a gente.",
+  "E o seu celular depende disso: os satélites do GPS têm relógios que andam diferente dos nossos.",
+  "Se ninguém corrigisse essa diferença, o mapa do celular erraria uns 10 quilômetros por dia.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Viajar no TEMPO existe",
+   "destaque": [
+    "TEMPO"
+   ],
+   "busca": "clock time lapse"
+  },
+  {
+   "gancho": "O tempo não é igual",
+   "destaque": [
+    "igual"
+   ],
+   "anim": {
+    "emoji": "⏳",
+    "texto": "Mais rápido, tempo mais lento"
+   }
+  },
+  {
+   "gancho": "28 mil km por hora",
+   "destaque": [
+    "28",
+    "mil"
+   ],
+   "anim": {
+    "emoji": "🚀",
+    "texto": "28 mil km por hora"
+   }
+  },
+  {
+   "gancho": "Voltam mais NOVOS",
+   "destaque": [
+    "NOVOS"
+   ],
+   "anim": {
+    "emoji": "🧓",
+    "texto": "Alguns milésimos mais novos"
+   }
+  },
+  {
+   "gancho": "Relógios lá em cima",
+   "destaque": [
+    "Relógios"
+   ],
+   "busca": "satellite orbit earth"
+  },
+  {
+   "gancho": "Erro de 10 km por dia",
+   "destaque": [
+    "10",
+    "km"
+   ],
+   "busca": "phone map navigation car"
+  }
+ ]
+}
