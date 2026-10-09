@@ -1,0 +1,369 @@
+{
+ "id": "Oymyakon",
+ "longo": true,
+ "titulo": "A vila mais FRIA do mundo: −67 °C 🥶 O que a física faz com tudo lá",
+ "descricao": "Oymyakon, na Sibéria: água fervendo que vira neve no ar, celular que apaga, carro ligado o dia inteiro e por que lá é tão frio.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Imagine sair de casa e sentir o ar tão gelado que os seus cílios congelam em poucos minutos.",
+     "busca": "frozen eyelashes",
+     "desde": 0,
+     "clipe": "Oymyakon_30"
+    },
+    {
+     "frase": "Aqui, jogar uma panela de água fervendo para o alto faz nevar. E o carro precisa ficar ligado o dia inteiro, senão não liga nunca mais.",
+     "busca": "boiling water freezing air",
+     "desde": 12.5,
+     "clipe": "Oymyakon_1"
+    },
+    {
+     "frase": "Bem-vindo a Oymyakon, na Sibéria: a vila habitada mais fria do planeta.",
+     "busca": "siberia village winter",
+     "desde": 0,
+     "foto": "Oym_panorama",
+     "legenda": "Oymyakon, Rússia"
+    },
+    {
+     "frase": "Neste vídeo você vai entender por que lá é tão frio, o que a física faz com as coisas a quase setenta graus negativos, e como quinhentas pessoas conseguem viver ali.",
+     "busca": "snowy village smoke chimney",
+     "desde": 0,
+     "clipe": "Oymyakon_3"
+    }
+   ]
+  },
+  {
+   "titulo": "Onde fica o lugar mais frio",
+   "cenas": [
+    {
+     "frase": "Oymyakon fica na Iacútia, no extremo leste da Rússia, a mais de cinco mil quilômetros de Moscou.",
+     "busca": "siberia aerial winter",
+     "desde": 0,
+     "foto": "Oym_floresta",
+     "legenda": "Perto de Oymyakon, Iacútia"
+    },
+    {
+     "frase": "Em janeiro, a média fica em torno de quarenta e seis graus negativos. E em mil novecentos e trinta e três, os termômetros marcaram sessenta e sete vírgula sete graus negativos: o recorde oficial de frio num lugar onde vivem pessoas.",
+     "anim": {
+      "emoji": "🌡️",
+      "texto": "Recorde: −67,7 °C"
+     }
+    },
+    {
+     "frase": "Existe até um registro antigo, de mil novecentos e vinte e quatro, de setenta e um graus negativos, mas ele nunca foi confirmado oficialmente.",
+     "anim": {
+      "emoji": "📜",
+      "texto": "−71 °C? Nunca confirmado"
+     }
+    },
+    {
+     "frase": "Para comparar: o congelador da sua casa fica em uns dezoito graus negativos. Um dia comum de inverno em Oymyakon é mais que o dobro disso.",
+     "busca": "freezer ice",
+     "desde": 0,
+     "clipe": "Oymyakon_7"
+    },
+    {
+     "frase": "E o mais curioso: no verão, a temperatura pode passar de trinta graus. É uma diferença de mais de cem graus entre o inverno e o verão.",
+     "anim": {
+      "emoji": "☀️",
+      "texto": "Mais de 100 °C de diferença"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Por que lá é tão frio",
+   "cenas": [
+    {
+     "frase": "Mas por que justamente ali? São quatro motivos, e todos são física pura.",
+     "busca": "snow mountains winter",
+     "desde": 0,
+     "clipe": "Oymyakon_9"
+    },
+    {
+     "frase": "Primeiro: fica muito ao norte. No auge do inverno, o Sol aparece só umas três horas por dia, baixinho no horizonte, e quase não esquenta nada.",
+     "busca": "low sun winter snow",
+     "desde": 0,
+     "clipe": "Oymyakon_10"
+    },
+    {
+     "frase": "Segundo: fica longe do mar, e ainda é cercada de montanhas. A água do oceano guarda calor e esquenta o ar do litoral no inverno, mas esse ar mais ameno não chega até lá.",
+     "busca": "snowy mountains aerial",
+     "desde": 0,
+     "clipe": "Oymyakon_11"
+    },
+    {
+     "frase": "Terceiro: o céu quase sempre limpo. Sem nuvens fazendo papel de cobertor, o calor do chão escapa direto para o espaço durante as noites longuíssimas.",
+     "busca": "starry sky winter night",
+     "desde": 0,
+     "clipe": "Oymyakon_12"
+    },
+    {
+     "frase": "E quarto, o mais importante: a vila fica no fundo de um vale, rodeado de montanhas.",
+     "busca": "valley snow aerial",
+     "desde": 0,
+     "clipe": "Oymyakon_13"
+    },
+    {
+     "frase": "O ar frio é mais pesado que o ar quente. À noite, ele escorre das montanhas, desce como se fosse água e fica preso no fundo do vale, cada vez mais gelado.",
+     "anim": {
+      "emoji": "⬇️",
+      "texto": "O ar frio é pesado e desce"
+     }
+    },
+    {
+     "frase": "É a chamada inversão térmica: lá embaixo, onde as pessoas moram, faz mais frio do que no alto das montanhas em volta.",
+     "busca": "fog valley winter",
+     "desde": 0,
+     "clipe": "Oymyakon_15"
+    }
+   ]
+  },
+  {
+   "titulo": "A água que vira neve no ar",
+   "cenas": [
+    {
+     "frase": "Agora, o lado divertido da física. O truque mais famoso de Oymyakon é jogar água fervendo para cima.",
+     "busca": "throwing boiling water cold",
+     "desde": 5,
+     "clipe": "Oymyakon_16"
+    },
+    {
+     "frase": "A água quente se espalha em milhões de gotinhas minúsculas, e boa parte dela vira vapor na hora.",
+     "busca": "hot water steam winter",
+     "desde": 9,
+     "clipe": "Oymyakon_16"
+    },
+    {
+     "frase": "Em contato com o ar a quarenta graus negativos, o vapor e as gotinhas congelam em menos de um segundo e caem como neve, ou ficam no ar como uma nuvem branca.",
+     "busca": "snow falling slow motion",
+     "desde": 0,
+     "clipe": "Oymyakon_18"
+    },
+    {
+     "frase": "E tem que ser água quente mesmo: ela solta muito mais vapor que a água fria, por isso o efeito fica muito maior.",
+     "anim": {
+      "emoji": "💨",
+      "texto": "Água quente solta mais vapor"
+     }
+    },
+    {
+     "frase": "Pelo mesmo motivo, a vila vive coberta por uma neblina de gelo: o vapor das casas, dos carros e até da respiração das pessoas congela e fica pairando no ar.",
+     "busca": "frosty town fog winter",
+     "desde": 0,
+     "foto": "Oym_yakutsk",
+     "legenda": "Neblina de gelo em Iacutsk"
+    },
+    {
+     "frase": "Os moradores contam que, abaixo de cinquenta graus negativos, dá para ouvir a própria respiração congelando: um barulhinho de cristais de gelo que eles chamam de sussurro das estrelas.",
+     "busca": "breath vapor cold",
+     "desde": 0,
+     "clipe": "Oymyakon_21"
+    }
+   ]
+  },
+  {
+   "titulo": "O que quebra no frio",
+   "cenas": [
+    {
+     "frase": "Nesse frio, quase tudo para de funcionar.",
+     "busca": "frozen car snow",
+     "desde": 0,
+     "clipe": "Oymyakon_22"
+    },
+    {
+     "frase": "A bateria do celular apaga em minutos. Ela funciona com uma reação química, e reação química fica lentíssima no frio. O celular acha que a bateria acabou.",
+     "busca": "phone snow cold",
+     "desde": 0,
+     "clipe": "Oymyakon_23"
+    },
+    {
+     "frase": "O óleo do motor engrossa como manteiga e o diesel vira uma pasta. Por isso muitos moradores deixam o carro ligado o dia inteiro, ou guardam numa garagem aquecida.",
+     "busca": "car exhaust winter cold",
+     "desde": 0,
+     "clipe": "Oymyakon_24"
+    },
+    {
+     "frase": "A borracha do pneu fica dura e pode rachar, o plástico se quebra como vidro, e a tinta da caneta congela dentro dela.",
+     "busca": "ice frost close up",
+     "desde": 0,
+     "clipe": "Oymyakon_25"
+    },
+    {
+     "frase": "Até a neve muda de som. Em vez de fofa, ela range debaixo das botas, porque os cristais estão tão gelados que raspam uns nos outros em vez de derreter um pouquinho.",
+     "busca": "walking snow boots",
+     "desde": 0,
+     "clipe": "Oymyakon_26"
+    },
+    {
+     "frase": "E quem usa óculos precisa de cuidado: a armação de metal gruda na pele, porque a umidade do rosto congela na hora.",
+     "busca": "frost face winter",
+     "desde": 0,
+     "foto": "Oym_termometro",
+     "legenda": "Geada na Iacútia"
+    }
+   ]
+  },
+  {
+   "titulo": "O corpo humano no limite",
+   "cenas": [
+    {
+     "frase": "E o corpo humano? A primeira coisa que ele faz no frio extremo é se proteger por dentro.",
+     "busca": "person winter coat snow",
+     "desde": 0,
+     "clipe": "Oymyakon_28"
+    },
+    {
+     "frase": "Ele aperta os vasos sanguíneos das mãos, dos pés, do nariz e das orelhas, e manda o sangue quente para o coração e o cérebro.",
+     "anim": {
+      "emoji": "🩸",
+      "texto": "O sangue vai para o centro"
+     }
+    },
+    {
+     "frase": "O problema é que essas pontas ficam sem calor, e a pele exposta pode congelar em poucos minutos. Por isso todo mundo anda coberto dos pés à cabeça, só com os olhos de fora.",
+     "busca": "person covered face snow",
+     "desde": 0,
+     "foto": "Oym_pessoa",
+     "legenda": "Morador de Oymyakon"
+    },
+    {
+     "frase": "E o ar gelado demais machuca até por dentro. As pessoas respiram através do cachecol, que esquenta um pouco o ar antes de ele chegar aos pulmões.",
+     "busca": "scarf winter cold",
+     "desde": 0,
+     "clipe": "Oymyakon_31"
+    }
+   ]
+  },
+  {
+   "titulo": "Como eles vivem",
+   "cenas": [
+    {
+     "frase": "Mesmo assim, umas quinhentas pessoas moram em Oymyakon.",
+     "busca": "snowy village houses",
+     "desde": 0,
+     "foto": "Oym_vila1",
+     "legenda": "Oymyakon"
+    },
+    {
+     "frase": "As casas têm paredes grossas de madeira, janelas duplas ou triplas, e o aquecimento fica ligado o inverno inteiro.",
+     "busca": "wooden house snow",
+     "desde": 0,
+     "clipe": "Oymyakon_33"
+    },
+    {
+     "frase": "O chão é congelado o ano todo, o chamado permafrost. Um cano enterrado congelaria e racharia, por isso em muitas casas o banheiro fica do lado de fora.",
+     "busca": "frozen ground snow",
+     "desde": 0,
+     "clipe": "Oymyakon_34"
+    },
+    {
+     "frase": "Quase nada cresce no inverno, então a comida é carne de rena, de cavalo e muito peixe.",
+     "busca": "reindeer snow",
+     "desde": 0,
+     "clipe": "Oymyakon_35"
+    },
+    {
+     "frase": "O peixe congela tão duro que é comido cru, em lascas finas, raspado com a faca como se fosse madeira. É a stroganina, o prato típico da região.",
+     "busca": "frozen fish",
+     "desde": 0,
+     "foto": "Oym_stroganina",
+     "legenda": "Stroganina: peixe congelado raspado"
+    },
+    {
+     "frase": "E as crianças vão para a escola normalmente. As aulas só são canceladas quando o frio passa de uns cinquenta graus negativos.",
+     "busca": "children playing snow",
+     "desde": 0,
+     "clipe": "Oymyakon_37"
+    }
+   ]
+  },
+  {
+   "titulo": "Existe lugar mais frio?",
+   "cenas": [
+    {
+     "frase": "Mas Oymyakon não é o lugar mais frio da Terra. Esse título fica com a Antártida.",
+     "busca": "antarctica",
+     "desde": 0,
+     "clipe": "Oymyakon_38"
+    },
+    {
+     "frase": "Lá, numa estação de pesquisa chamada Vostok, já fez oitenta e nove graus negativos, em mil novecentos e oitenta e três. Só que ninguém mora lá de verdade: são pesquisadores que ficam alguns meses.",
+     "busca": "antarctica research station",
+     "desde": 0,
+     "foto": "Oym_vostok",
+     "legenda": "Estação Vostok, Antártida"
+    },
+    {
+     "frase": "Oymyakon é especial porque é o lugar mais frio onde pessoas nascem, crescem e vivem a vida inteira.",
+     "busca": "siberia village winter",
+     "desde": 6,
+     "foto": "Oym_vila2",
+     "legenda": "Casa em Oymyakon"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Da próxima vez que você reclamar do frio do ar-condicionado, lembre de Oymyakon, onde a física transforma água fervendo em neve.",
+     "busca": "snow falling night",
+     "desde": 0,
+     "clipe": "Oymyakon_41"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: quanto tempo você aguentaria lá fora?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Imagine sair de casa e sentir o ar tão gelado que os seus cílios congelam em poucos minutos.",
+  "Aqui, jogar uma panela de água fervendo para o alto faz nevar. E o carro precisa ficar ligado o dia inteiro, senão não liga nunca mais.",
+  "Bem-vindo a Oymyakon, na Sibéria: a vila habitada mais fria do planeta.",
+  "Neste vídeo você vai entender por que lá é tão frio, o que a física faz com as coisas a quase setenta graus negativos, e como quinhentas pessoas conseguem viver ali.",
+  "Oymyakon fica na Iacútia, no extremo leste da Rússia, a mais de cinco mil quilômetros de Moscou.",
+  "Em janeiro, a média fica em torno de quarenta e seis graus negativos. E em mil novecentos e trinta e três, os termômetros marcaram sessenta e sete vírgula sete graus negativos: o recorde oficial de frio num lugar onde vivem pessoas.",
+  "Existe até um registro antigo, de mil novecentos e vinte e quatro, de setenta e um graus negativos, mas ele nunca foi confirmado oficialmente.",
+  "Para comparar: o congelador da sua casa fica em uns dezoito graus negativos. Um dia comum de inverno em Oymyakon é mais que o dobro disso.",
+  "E o mais curioso: no verão, a temperatura pode passar de trinta graus. É uma diferença de mais de cem graus entre o inverno e o verão.",
+  "Mas por que justamente ali? São quatro motivos, e todos são física pura.",
+  "Primeiro: fica muito ao norte. No auge do inverno, o Sol aparece só umas três horas por dia, baixinho no horizonte, e quase não esquenta nada.",
+  "Segundo: fica longe do mar, e ainda é cercada de montanhas. A água do oceano guarda calor e esquenta o ar do litoral no inverno, mas esse ar mais ameno não chega até lá.",
+  "Terceiro: o céu quase sempre limpo. Sem nuvens fazendo papel de cobertor, o calor do chão escapa direto para o espaço durante as noites longuíssimas.",
+  "E quarto, o mais importante: a vila fica no fundo de um vale, rodeado de montanhas.",
+  "O ar frio é mais pesado que o ar quente. À noite, ele escorre das montanhas, desce como se fosse água e fica preso no fundo do vale, cada vez mais gelado.",
+  "É a chamada inversão térmica: lá embaixo, onde as pessoas moram, faz mais frio do que no alto das montanhas em volta.",
+  "Agora, o lado divertido da física. O truque mais famoso de Oymyakon é jogar água fervendo para cima.",
+  "A água quente se espalha em milhões de gotinhas minúsculas, e boa parte dela vira vapor na hora.",
+  "Em contato com o ar a quarenta graus negativos, o vapor e as gotinhas congelam em menos de um segundo e caem como neve, ou ficam no ar como uma nuvem branca.",
+  "E tem que ser água quente mesmo: ela solta muito mais vapor que a água fria, por isso o efeito fica muito maior.",
+  "Pelo mesmo motivo, a vila vive coberta por uma neblina de gelo: o vapor das casas, dos carros e até da respiração das pessoas congela e fica pairando no ar.",
+  "Os moradores contam que, abaixo de cinquenta graus negativos, dá para ouvir a própria respiração congelando: um barulhinho de cristais de gelo que eles chamam de sussurro das estrelas.",
+  "Nesse frio, quase tudo para de funcionar.",
+  "A bateria do celular apaga em minutos. Ela funciona com uma reação química, e reação química fica lentíssima no frio. O celular acha que a bateria acabou.",
+  "O óleo do motor engrossa como manteiga e o diesel vira uma pasta. Por isso muitos moradores deixam o carro ligado o dia inteiro, ou guardam numa garagem aquecida.",
+  "A borracha do pneu fica dura e pode rachar, o plástico se quebra como vidro, e a tinta da caneta congela dentro dela.",
+  "Até a neve muda de som. Em vez de fofa, ela range debaixo das botas, porque os cristais estão tão gelados que raspam uns nos outros em vez de derreter um pouquinho.",
+  "E quem usa óculos precisa de cuidado: a armação de metal gruda na pele, porque a umidade do rosto congela na hora.",
+  "E o corpo humano? A primeira coisa que ele faz no frio extremo é se proteger por dentro.",
+  "Ele aperta os vasos sanguíneos das mãos, dos pés, do nariz e das orelhas, e manda o sangue quente para o coração e o cérebro.",
+  "O problema é que essas pontas ficam sem calor, e a pele exposta pode congelar em poucos minutos. Por isso todo mundo anda coberto dos pés à cabeça, só com os olhos de fora.",
+  "E o ar gelado demais machuca até por dentro. As pessoas respiram através do cachecol, que esquenta um pouco o ar antes de ele chegar aos pulmões.",
+  "Mesmo assim, umas quinhentas pessoas moram em Oymyakon.",
+  "As casas têm paredes grossas de madeira, janelas duplas ou triplas, e o aquecimento fica ligado o inverno inteiro.",
+  "O chão é congelado o ano todo, o chamado permafrost. Um cano enterrado congelaria e racharia, por isso em muitas casas o banheiro fica do lado de fora.",
+  "Quase nada cresce no inverno, então a comida é carne de rena, de cavalo e muito peixe.",
+  "O peixe congela tão duro que é comido cru, em lascas finas, raspado com a faca como se fosse madeira. É a stroganina, o prato típico da região.",
+  "E as crianças vão para a escola normalmente. As aulas só são canceladas quando o frio passa de uns cinquenta graus negativos.",
+  "Mas Oymyakon não é o lugar mais frio da Terra. Esse título fica com a Antártida.",
+  "Lá, numa estação de pesquisa chamada Vostok, já fez oitenta e nove graus negativos, em mil novecentos e oitenta e três. Só que ninguém mora lá de verdade: são pesquisadores que ficam alguns meses.",
+  "Oymyakon é especial porque é o lugar mais frio onde pessoas nascem, crescem e vivem a vida inteira.",
+  "Da próxima vez que você reclamar do frio do ar-condicionado, lembre de Oymyakon, onde a física transforma água fervendo em neve.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: quanto tempo você aguentaria lá fora?"
+ ]
+}

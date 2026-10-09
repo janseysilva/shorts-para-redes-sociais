@@ -1,0 +1,68 @@
+{
+ "id": "OndaNazare",
+ "titulo": "A MAIOR onda do mundo: por que Nazaré tem ondas de 26 metros? 🌊",
+ "legenda": "Em Nazaré, Portugal, um cânion submarino de 5 km de fundura chega quase até a praia. As ondas que passam por cima dele e as da parte rasa se encontram e se SOMAM. Recorde: 26,21 metros, surfada por Sebastian Steudtner em 2020. #fisica #nazare #onda #surf #curiosidades",
+ "final": {
+  "emoji": "🌊",
+  "frase": "As ondas se somam."
+ },
+ "frases": [
+  "Em Nazaré, Portugal, o mar levanta paredes de água da altura de um prédio de oito andares.",
+  "O recorde é de 2020: o alemão Sebastian Steudtner surfou ali uma onda de 26 metros.",
+  "O segredo está escondido no fundo do mar: um cânion submarino com até 5 quilômetros de fundura, que chega quase até a praia.",
+  "Em cima do cânion, a onda corre rápido, sem perder força. Do lado, na parte rasa, ela freia e se curva em direção ao meio.",
+  "Perto da praia, as duas se encontram e se somam. A onda cresce de repente, como se fossem duas em uma.",
+  "E ainda tem uma corrente saindo da praia, que empurra contra a onda e deixa ela ainda mais em pé.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "A MAIOR onda do mundo",
+   "destaque": [
+    "MAIOR"
+   ],
+   "busca": "nazare big wave",
+   "foto": "Naz_onda"
+  },
+  {
+   "gancho": "Recorde: 26 metros",
+   "destaque": [
+    "26",
+    "metros"
+   ],
+   "busca": "big wave surfer",
+   "foto": "Naz_surf"
+  },
+  {
+   "gancho": "Um CÂNION debaixo d'água",
+   "destaque": [
+    "CÂNION"
+   ],
+   "busca": "aerial ocean coast cliff portugal"
+  },
+  {
+   "gancho": "Uma rápida, outra freia",
+   "destaque": [
+    "rápida,",
+    "freia"
+   ],
+   "busca": "ocean swell waves aerial"
+  },
+  {
+   "gancho": "Duas ondas viram UMA",
+   "destaque": [
+    "UMA"
+   ],
+   "busca": "huge wave breaking"
+  },
+  {
+   "gancho": "Mais em pé ainda",
+   "destaque": [
+    "em",
+    "pé"
+   ],
+   "busca": "nazare lighthouse waves",
+   "foto": "Naz_norte"
+  }
+ ]
+}

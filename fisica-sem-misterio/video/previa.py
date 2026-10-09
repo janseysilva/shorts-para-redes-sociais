@@ -18,9 +18,12 @@ for s in tempos:
     out = RAIZ / "previa" / f"{comp}_{int(s*30)}.png"
     subprocess.run([str(NODE / "npx.cmd"), "remotion", "still", "src/index.ts", comp, str(out), f"--frame={int(s*30)}", "--log=error"],
                    cwd=RAIZ, env=env, check=True)
-    ims.append(Image.open(out).convert("RGB").resize((300, 533)))
-folha = Image.new("RGB", (300 * len(ims), 533))
+    im = Image.open(out).convert("RGB")
+    ims.append(im.resize((300, 533)) if im.height > im.width else im.resize((640, 360)))
+W, H = ims[0].size
+cols = len(ims) if H > W else 3
+folha = Image.new("RGB", (W * min(cols, len(ims)), H * ((len(ims) + cols - 1) // cols)))
 for i, im in enumerate(ims):
-    folha.paste(im, (i * 300, 0))
+    folha.paste(im, ((i % cols) * W, (i // cols) * H))
 folha.save(RAIZ / "previa" / f"{comp}_folha.jpg", quality=85)
 print("ok")

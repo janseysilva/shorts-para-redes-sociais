@@ -115,6 +115,15 @@ import rViagemTempo from "../roteiros/ViagemTempo.json";
 import tViagemTempo from "../public/ViagemTempo/tempos.json";
 import rDedosEnrugam from "../roteiros/DedosEnrugam.json";
 import tDedosEnrugam from "../public/DedosEnrugam/tempos.json";
+import rOndaNazare from "../roteiros/OndaNazare.json";
+import tOndaNazare from "../public/OndaNazare/tempos.json";
+import rPassaroFio from "../roteiros/PassaroFio.json";
+import tPassaroFio from "../public/PassaroFio/tempos.json";
+import { Longo, type RoteiroLongo, type TemposLongo } from "./Longo";
+import rVulcao from "../roteiros/Vulcao.json";
+import tVulcao from "../public/Vulcao/tempos.json";
+import rOymyakon from "../roteiros/Oymyakon.json";
+import tOymyakon from "../public/Oymyakon/tempos.json";
 import rMacaEscurece from "../roteiros/MacaEscurece.json";
 import tMacaEscurece from "../public/MacaEscurece/tempos.json";
 
@@ -133,6 +142,13 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio],
+];
+
+// Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
+const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
+  [rVulcao as RoteiroLongo, tVulcao, ["VULCÃO", "Por que a Terra cospe fogo?"], "Vulcao_48"],
+  [rOymyakon as RoteiroLongo, tOymyakon, ["OYMYAKON", "A vila mais fria do mundo"], "Oymyakon_41"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (
@@ -147,6 +163,10 @@ export const Root: React.FC = () => (
     {ROTEIROS.map(([r, t]) => (
       <Composition key={r.id} id={r.id} component={ShortRoteiro} defaultProps={{ roteiro: r, tempos: t }}
         durationInFrames={Math.ceil(t.total * FPS)} fps={FPS} width={1080} height={1920} />
+    ))}
+    {LONGOS.map(([r, t, ab, fundo]) => (
+      <Composition key={r.id} id={r.id} component={Longo} defaultProps={{ roteiro: r, tempos: t, abertura: ab, fundoFinal: fundo }}
+        durationInFrames={Math.ceil(t.total * FPS)} fps={FPS} width={1920} height={1080} />
     ))}
   </>
 );

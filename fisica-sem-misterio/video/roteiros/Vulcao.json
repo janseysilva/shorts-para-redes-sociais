@@ -1,0 +1,434 @@
+{
+ "id": "Vulcao",
+ "longo": true,
+ "titulo": "VULCÃO: por que a Terra cospe fogo? 🌋 (e a cidade enterrada em um dia)",
+ "descricao": "De onde vem a lava a mais de mil graus, por que alguns vulcões só escorrem e outros explodem, o que aconteceu em Pompeia, o barulho mais alto da história, os raios dentro da fumaça e os vulcões que já existiram no Brasil.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Isso é rocha. Rocha derretida, a mais de mil graus, escorrendo como se fosse água.",
+     "busca": "lava flow close up",
+     "desde": 0,
+     "clipe": "Vulcao_0"
+    },
+    {
+     "frase": "Neste vídeo você vai entender de onde ela vem, por que alguns vulcões só escorrem lava e outros explodem com uma força assustadora, e o que aconteceu com uma cidade inteira que foi enterrada em um único dia.",
+     "busca": "volcano eruption night",
+     "desde": 0,
+     "clipe": "Vulcao_1"
+    },
+    {
+     "frase": "E no final, a pergunta que muita gente faz: existe vulcão no Brasil?",
+     "busca": "volcano aerial smoke",
+     "desde": 0,
+     "clipe": "Vulcao_2"
+    }
+   ]
+  },
+  {
+   "titulo": "O fogo embaixo dos seus pés",
+   "cenas": [
+    {
+     "frase": "Debaixo do chão que você pisa, a temperatura sobe uns vinte e cinco graus a cada quilômetro de profundidade.",
+     "anim": {
+      "emoji": "🌍",
+      "texto": "+25 °C a cada quilômetro para baixo"
+     }
+    },
+    {
+     "frase": "A uns cem quilômetros para baixo, já passa de mil graus. É calor de sobra para derreter rocha, mas a pressão lá embaixo é tão grande que quase tudo continua sólido.",
+     "anim": {
+      "emoji": "🔥",
+      "texto": "Mais de 1.000 °C lá embaixo"
+     }
+    },
+    {
+     "frase": "A rocha só derrete de verdade quando essa pressão alivia, ou quando entra água no meio dela. E isso acontece principalmente nas bordas das placas tectônicas, as peças gigantes que formam a casca da Terra.",
+     "busca": "iceland rift aerial",
+     "desde": 0,
+     "clipe": "Vulcao_5"
+    },
+    {
+     "frase": "Quando uma placa afunda por baixo da outra, ou quando duas se afastam, nasce o magma: rocha derretida, cheia de gases dissolvidos.",
+     "busca": "magma lava bubbling",
+     "desde": 0,
+     "clipe": "Vulcao_6"
+    },
+    {
+     "frase": "Como é mais leve que a rocha em volta, o magma sobe devagar, ao longo de milhares de anos, e se acumula em bolsões a poucos quilômetros da superfície. É a câmara magmática.",
+     "busca": "volcano crater smoke",
+     "desde": 0,
+     "clipe": "Vulcao_7"
+    },
+    {
+     "frase": "Por isso três de cada quatro vulcões do planeta ficam em volta do Oceano Pacífico, no chamado Anel de Fogo, onde várias placas se encontram.",
+     "anim": {
+      "emoji": "🌋",
+      "texto": "Anel de Fogo: 75% dos vulcões"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Por que o vulcão explode",
+   "cenas": [
+    {
+     "frase": "Agora, a parte mais importante: o que faz um vulcão entrar em erupção?",
+     "busca": "volcano eruption lava fountain",
+     "desde": 0,
+     "clipe": "Vulcao_9"
+    },
+    {
+     "frase": "Pense numa garrafa de refrigerante. Enquanto está fechada, o gás fica escondido dentro do líquido, preso pela pressão.",
+     "busca": "soda bottle",
+     "desde": 0,
+     "clipe": "Vulcao_10"
+    },
+    {
+     "frase": "Quando você abre, a pressão cai, o gás vira bolhas, as bolhas crescem e o refrigerante espirra para fora.",
+     "busca": "soda bubbles pouring",
+     "desde": 0,
+     "clipe": "Vulcao_11"
+    },
+    {
+     "frase": "Com o magma acontece a mesma coisa. Ele carrega vapor d'água, gás carbônico e enxofre dissolvidos. Quando sobe e a pressão diminui, esses gases viram bolhas que crescem centenas de vezes.",
+     "anim": {
+      "emoji": "🫧",
+      "texto": "Os gases viram bolhas"
+     }
+    },
+    {
+     "frase": "Se o magma for mole e escorregadio, as bolhas escapam fácil, e a lava sai escorrendo e jorrando, como no Havaí e na Islândia.",
+     "busca": "lava fountain iceland",
+     "desde": 0,
+     "clipe": "Vulcao_13"
+    },
+    {
+     "frase": "Mas se o magma for grosso e pegajoso, como mel gelado, as bolhas ficam presas. A pressão vai acumulando até que tudo estoura de uma vez, e a rocha é despedaçada em cinzas.",
+     "busca": "volcanic ash plume",
+     "desde": 0,
+     "clipe": "Vulcao_14"
+    }
+   ]
+  },
+  {
+   "titulo": "Rios de fogo",
+   "cenas": [
+    {
+     "frase": "Nos vulcões mais calmos, a lava sai entre mil e mil e duzentos graus. Ela brilha em amarelo e laranja, como o filamento de uma lâmpada.",
+     "busca": "lava river night",
+     "desde": 0,
+     "clipe": "Vulcao_15"
+    },
+    {
+     "frase": "Conforme esfria, a cor muda para vermelho escuro, e a superfície forma uma casca preta, enquanto por baixo ela continua correndo.",
+     "busca": "lava crust cooling",
+     "desde": 0,
+     "clipe": "Vulcao_16"
+    },
+    {
+     "frase": "A lava pode andar devagar, como uma pessoa caminhando, ou descer uma encosta mais rápido que um carro. Ela queima e enterra tudo no caminho: estradas, casas, florestas.",
+     "busca": "lava flow road",
+     "desde": 0,
+     "clipe": "Vulcao_17"
+    },
+    {
+     "frase": "Em 2023, na Islândia, a cidade de Grindavík teve que ser esvaziada às pressas quando o chão começou a rachar. Semanas depois, a lava apareceu do lado das casas.",
+     "busca": "iceland eruption aerial",
+     "desde": 0,
+     "foto": "Vulcao_grindavik",
+     "legenda": "Grindavík, Islândia, 2023"
+    },
+    {
+     "frase": "Quando esfria de vez, a lava vira rocha nova, o basalto. E se esfriar muito rápido, ela vira um vidro preto e brilhante, a obsidiana.",
+     "busca": "basalt lava rock",
+     "desde": 0,
+     "foto": "Vulcao_obsidiana",
+     "legenda": "Obsidiana: lava que virou vidro"
+    }
+   ]
+  },
+  {
+   "titulo": "A cidade enterrada em um dia",
+   "cenas": [
+    {
+     "frase": "Agora vamos voltar quase dois mil anos, para o ano setenta e nove, no sul da Itália.",
+     "busca": "pompeii ruins",
+     "desde": 0,
+     "foto": "Vulcao_forum",
+     "legenda": "Pompeia, com o Vesúvio ao fundo"
+    },
+    {
+     "frase": "A cidade de Pompeia ficava ao pé do Vesúvio. Os moradores nem desconfiavam que aquela montanha verde era um vulcão: ele estava quieto havia séculos.",
+     "busca": "vesuvius mountain",
+     "desde": 0,
+     "clipe": "Vulcao_21"
+    },
+    {
+     "frase": "Num dia de verão, o Vesúvio explodiu. Uma coluna de cinzas e pedras subiu mais de trinta quilômetros no céu e começou a cair sobre a cidade como chuva.",
+     "busca": "volcano ash column eruption",
+     "desde": 0,
+     "clipe": "Vulcao_22"
+    },
+    {
+     "frase": "Durante horas, pedras-pomes e cinzas cobriram telhados e ruas. Muita gente fugiu, mas outros ficaram, se protegendo dentro de casa.",
+     "busca": "pompeii street",
+     "desde": 0,
+     "clipe": "Vulcao_23"
+    },
+    {
+     "frase": "Na manhã seguinte veio o pior: as nuvens ardentes. São avalanches de gás e cinzas a centenas de graus, que descem a montanha a mais de cem quilômetros por hora.",
+     "foto": "Vulcao_mayon",
+     "legenda": "Nuvem ardente descendo um vulcão"
+    },
+    {
+     "frase": "Ninguém consegue correr disso. Em poucos minutos, Pompeia ficou enterrada debaixo de uns cinco metros de cinzas.",
+     "busca": "pompeii aerial",
+     "desde": 0,
+     "foto": "Vulcao_pompeia",
+     "legenda": "Ruínas de Pompeia e o Vesúvio"
+    },
+    {
+     "frase": "A cidade ficou esquecida por mais de mil e seiscentos anos. Quando os arqueólogos escavaram, encontraram pães nos fornos, pinturas nas paredes e até o formato das pessoas, marcado nas cinzas endurecidas.",
+     "busca": "pompeii fresco",
+     "desde": 0,
+     "foto": "Vulcao_fresco",
+     "legenda": "Pintura em parede de Pompeia"
+    },
+    {
+     "frase": "Hoje o Vesúvio continua ativo, e cerca de seiscentas mil pessoas vivem na zona de perigo em volta dele.",
+     "busca": "naples bay vesuvius",
+     "desde": 0,
+     "clipe": "Vulcao_27"
+    }
+   ]
+  },
+  {
+   "titulo": "O barulho mais alto da história",
+   "cenas": [
+    {
+     "frase": "Em mil oitocentos e oitenta e três, o vulcão Krakatoa, na Indonésia, explodiu com tanta força que a ilha praticamente desapareceu.",
+     "busca": "volcano island ocean",
+     "desde": 0,
+     "foto": "Vulcao_krakatoa",
+     "legenda": "Krakatoa, 1883 (gravura da época)"
+    },
+    {
+     "frase": "O estrondo foi ouvido a quase cinco mil quilômetros de distância. É mais longe do que de Manaus até Porto Alegre.",
+     "anim": {
+      "emoji": "🔊",
+      "texto": "Ouvido a quase 5.000 km"
+     }
+    },
+    {
+     "frase": "Foi o som mais alto já registrado. A onda de pressão deu a volta na Terra sete vezes e apareceu nos barômetros do mundo inteiro.",
+     "anim": {
+      "emoji": "🌍",
+      "texto": "Deu 7 voltas na Terra"
+     }
+    },
+    {
+     "frase": "E em 2022, o vulcão Hunga Tonga, no meio do Oceano Pacífico, lançou uma coluna de fumaça a cinquenta e sete quilômetros de altura, a mais alta já vista por satélite.",
+     "busca": "earth from space clouds",
+     "desde": 0,
+     "foto": "Vulcao_tonga",
+     "legenda": "Hunga Tonga, 2022, visto da Estação Espacial"
+    }
+   ]
+  },
+  {
+   "titulo": "Cinza não é fumaça",
+   "cenas": [
+    {
+     "frase": "Aquela nuvem cinza que sai do vulcão parece fumaça, mas não é. É rocha e vidro moídos em pedacinhos menores que um grão de areia.",
+     "busca": "volcanic ash cloud",
+     "desde": 0,
+     "clipe": "Vulcao_32"
+    },
+    {
+     "frase": "Essa cinza é afiada, não derrete na chuva e é pesada: poucos centímetros dela em cima de um telhado podem derrubar uma casa.",
+     "busca": "volcanic ash ground",
+     "desde": 0,
+     "foto": "Vulcao_cinzateto",
+     "legenda": "Telhados esmagados por cinzas, Filipinas, 1991"
+    },
+    {
+     "frase": "E ela é um perigo enorme para os aviões. Dentro da turbina, a mais de mil graus, a cinza derrete, gruda nas peças e apaga o motor.",
+     "busca": "airplane jet engine",
+     "desde": 0,
+     "clipe": "Vulcao_34"
+    },
+    {
+     "frase": "Em mil novecentos e oitenta e dois, um avião de passageiros atravessou uma nuvem de cinzas na Indonésia e os quatro motores pararam. Ele planou por vários minutos até os pilotos conseguirem religar as turbinas, e todos sobreviveram.",
+     "busca": "airplane flying clouds",
+     "desde": 0,
+     "clipe": "Vulcao_35"
+    },
+    {
+     "frase": "Por isso, em 2010, quando um vulcão da Islândia entrou em erupção, quase todo o céu da Europa foi fechado, e mais de cem mil voos foram cancelados.",
+     "busca": "airport airplanes parked",
+     "desde": 0,
+     "foto": "Vulcao_eyja",
+     "legenda": "Cinzas do vulcão da Islândia vistas por satélite, 2010"
+    }
+   ]
+  },
+  {
+   "titulo": "Raios dentro da fumaça",
+   "cenas": [
+    {
+     "frase": "E existe um fenômeno ainda mais estranho: raios dentro da nuvem do vulcão.",
+     "busca": "volcano lightning",
+     "desde": 0,
+     "foto": "Vulcao_galunggung",
+     "legenda": "Raios na erupção do Galunggung, Indonésia, 1982"
+    },
+    {
+     "frase": "As partículas de cinza, gelo e rocha se chocam umas contra as outras e vão ganhando carga elétrica, como quando você esfrega um balão no cabelo.",
+     "anim": {
+      "emoji": "⚡",
+      "texto": "Partículas que se chocam"
+     }
+    },
+    {
+     "frase": "Quando a carga fica grande demais, ela se descarrega em raios no meio da erupção. É uma tempestade elétrica criada pelo próprio vulcão.",
+     "busca": "lightning storm night",
+     "desde": 0,
+     "foto": "Vulcao_vesuvio1944",
+     "legenda": "Raios na erupção do Vesúvio, 1944"
+    }
+   ]
+  },
+  {
+   "titulo": "E no Brasil?",
+   "cenas": [
+    {
+     "frase": "Agora, a pergunta que todo mundo faz: existe vulcão no Brasil?",
+     "busca": "brazil aerial landscape",
+     "desde": 0,
+     "clipe": "Vulcao_40"
+    },
+    {
+     "frase": "Ativo, não. O Brasil fica bem no meio da placa Sul-Americana, longe das bordas, onde o chão é estável.",
+     "anim": {
+      "emoji": "🇧🇷",
+      "texto": "Longe das bordas da placa"
+     }
+    },
+    {
+     "frase": "Mas já teve. O arquipélago de Fernando de Noronha é o que sobrou de um vulcão que se apagou há milhões de anos, e o Morro do Pico é a antiga chaminé dele.",
+     "busca": "fernando de noronha",
+     "desde": 0,
+     "clipe": "Vulcao_42"
+    },
+    {
+     "frase": "E a cidade de Poços de Caldas, em Minas Gerais, fica dentro de uma cratera gigante, com mais de trinta quilômetros de largura, de um vulcão que se apagou há uns oitenta milhões de anos.",
+     "busca": "minas gerais hills aerial",
+     "desde": 0,
+     "foto": "Vulcao_pocos",
+     "legenda": "Poços de Caldas (MG)"
+    }
+   ]
+  },
+  {
+   "titulo": "O vulcão também cria",
+   "cenas": [
+    {
+     "frase": "Apesar de todo o perigo, os vulcões também constroem.",
+     "busca": "lava ocean steam",
+     "desde": 0,
+     "foto": "Vulcao_mar2",
+     "legenda": "Lava chegando ao mar, Havaí"
+    },
+    {
+     "frase": "Quando a lava chega no mar e esfria, nasce terra nova. O Havaí, a Islândia e o próprio Fernando de Noronha surgiram assim, do fundo do oceano.",
+     "busca": "lava entering ocean",
+     "desde": 0,
+     "foto": "Vulcao_mar1",
+     "legenda": "Lava chegando ao mar, Havaí"
+    },
+    {
+     "frase": "A cinza, com o tempo, vira um dos solos mais férteis do mundo. É por isso que tanta gente planta e mora perto de vulcões.",
+     "busca": "vineyard volcano",
+     "desde": 0,
+     "clipe": "Vulcao_46"
+    },
+    {
+     "frase": "E na Islândia, o calor que vem de baixo da terra aquece as casas, a água do banho e ainda gera energia elétrica.",
+     "busca": "geothermal iceland steam",
+     "desde": 0,
+     "clipe": "Vulcao_47"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Então, da próxima vez que você vir um vulcão, lembre: é o planeta mostrando que, por baixo da casca fria, a Terra ainda está viva e quente.",
+     "busca": "volcano eruption night",
+     "desde": 6,
+     "clipe": "Vulcao_48"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de ver um vulcão de perto?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Isso é rocha. Rocha derretida, a mais de mil graus, escorrendo como se fosse água.",
+  "Neste vídeo você vai entender de onde ela vem, por que alguns vulcões só escorrem lava e outros explodem com uma força assustadora, e o que aconteceu com uma cidade inteira que foi enterrada em um único dia.",
+  "E no final, a pergunta que muita gente faz: existe vulcão no Brasil?",
+  "Debaixo do chão que você pisa, a temperatura sobe uns vinte e cinco graus a cada quilômetro de profundidade.",
+  "A uns cem quilômetros para baixo, já passa de mil graus. É calor de sobra para derreter rocha, mas a pressão lá embaixo é tão grande que quase tudo continua sólido.",
+  "A rocha só derrete de verdade quando essa pressão alivia, ou quando entra água no meio dela. E isso acontece principalmente nas bordas das placas tectônicas, as peças gigantes que formam a casca da Terra.",
+  "Quando uma placa afunda por baixo da outra, ou quando duas se afastam, nasce o magma: rocha derretida, cheia de gases dissolvidos.",
+  "Como é mais leve que a rocha em volta, o magma sobe devagar, ao longo de milhares de anos, e se acumula em bolsões a poucos quilômetros da superfície. É a câmara magmática.",
+  "Por isso três de cada quatro vulcões do planeta ficam em volta do Oceano Pacífico, no chamado Anel de Fogo, onde várias placas se encontram.",
+  "Agora, a parte mais importante: o que faz um vulcão entrar em erupção?",
+  "Pense numa garrafa de refrigerante. Enquanto está fechada, o gás fica escondido dentro do líquido, preso pela pressão.",
+  "Quando você abre, a pressão cai, o gás vira bolhas, as bolhas crescem e o refrigerante espirra para fora.",
+  "Com o magma acontece a mesma coisa. Ele carrega vapor d'água, gás carbônico e enxofre dissolvidos. Quando sobe e a pressão diminui, esses gases viram bolhas que crescem centenas de vezes.",
+  "Se o magma for mole e escorregadio, as bolhas escapam fácil, e a lava sai escorrendo e jorrando, como no Havaí e na Islândia.",
+  "Mas se o magma for grosso e pegajoso, como mel gelado, as bolhas ficam presas. A pressão vai acumulando até que tudo estoura de uma vez, e a rocha é despedaçada em cinzas.",
+  "Nos vulcões mais calmos, a lava sai entre mil e mil e duzentos graus. Ela brilha em amarelo e laranja, como o filamento de uma lâmpada.",
+  "Conforme esfria, a cor muda para vermelho escuro, e a superfície forma uma casca preta, enquanto por baixo ela continua correndo.",
+  "A lava pode andar devagar, como uma pessoa caminhando, ou descer uma encosta mais rápido que um carro. Ela queima e enterra tudo no caminho: estradas, casas, florestas.",
+  "Em 2023, na Islândia, a cidade de Grindavík teve que ser esvaziada às pressas quando o chão começou a rachar. Semanas depois, a lava apareceu do lado das casas.",
+  "Quando esfria de vez, a lava vira rocha nova, o basalto. E se esfriar muito rápido, ela vira um vidro preto e brilhante, a obsidiana.",
+  "Agora vamos voltar quase dois mil anos, para o ano setenta e nove, no sul da Itália.",
+  "A cidade de Pompeia ficava ao pé do Vesúvio. Os moradores nem desconfiavam que aquela montanha verde era um vulcão: ele estava quieto havia séculos.",
+  "Num dia de verão, o Vesúvio explodiu. Uma coluna de cinzas e pedras subiu mais de trinta quilômetros no céu e começou a cair sobre a cidade como chuva.",
+  "Durante horas, pedras-pomes e cinzas cobriram telhados e ruas. Muita gente fugiu, mas outros ficaram, se protegendo dentro de casa.",
+  "Na manhã seguinte veio o pior: as nuvens ardentes. São avalanches de gás e cinzas a centenas de graus, que descem a montanha a mais de cem quilômetros por hora.",
+  "Ninguém consegue correr disso. Em poucos minutos, Pompeia ficou enterrada debaixo de uns cinco metros de cinzas.",
+  "A cidade ficou esquecida por mais de mil e seiscentos anos. Quando os arqueólogos escavaram, encontraram pães nos fornos, pinturas nas paredes e até o formato das pessoas, marcado nas cinzas endurecidas.",
+  "Hoje o Vesúvio continua ativo, e cerca de seiscentas mil pessoas vivem na zona de perigo em volta dele.",
+  "Em mil oitocentos e oitenta e três, o vulcão Krakatoa, na Indonésia, explodiu com tanta força que a ilha praticamente desapareceu.",
+  "O estrondo foi ouvido a quase cinco mil quilômetros de distância. É mais longe do que de Manaus até Porto Alegre.",
+  "Foi o som mais alto já registrado. A onda de pressão deu a volta na Terra sete vezes e apareceu nos barômetros do mundo inteiro.",
+  "E em 2022, o vulcão Hunga Tonga, no meio do Oceano Pacífico, lançou uma coluna de fumaça a cinquenta e sete quilômetros de altura, a mais alta já vista por satélite.",
+  "Aquela nuvem cinza que sai do vulcão parece fumaça, mas não é. É rocha e vidro moídos em pedacinhos menores que um grão de areia.",
+  "Essa cinza é afiada, não derrete na chuva e é pesada: poucos centímetros dela em cima de um telhado podem derrubar uma casa.",
+  "E ela é um perigo enorme para os aviões. Dentro da turbina, a mais de mil graus, a cinza derrete, gruda nas peças e apaga o motor.",
+  "Em mil novecentos e oitenta e dois, um avião de passageiros atravessou uma nuvem de cinzas na Indonésia e os quatro motores pararam. Ele planou por vários minutos até os pilotos conseguirem religar as turbinas, e todos sobreviveram.",
+  "Por isso, em 2010, quando um vulcão da Islândia entrou em erupção, quase todo o céu da Europa foi fechado, e mais de cem mil voos foram cancelados.",
+  "E existe um fenômeno ainda mais estranho: raios dentro da nuvem do vulcão.",
+  "As partículas de cinza, gelo e rocha se chocam umas contra as outras e vão ganhando carga elétrica, como quando você esfrega um balão no cabelo.",
+  "Quando a carga fica grande demais, ela se descarrega em raios no meio da erupção. É uma tempestade elétrica criada pelo próprio vulcão.",
+  "Agora, a pergunta que todo mundo faz: existe vulcão no Brasil?",
+  "Ativo, não. O Brasil fica bem no meio da placa Sul-Americana, longe das bordas, onde o chão é estável.",
+  "Mas já teve. O arquipélago de Fernando de Noronha é o que sobrou de um vulcão que se apagou há milhões de anos, e o Morro do Pico é a antiga chaminé dele.",
+  "E a cidade de Poços de Caldas, em Minas Gerais, fica dentro de uma cratera gigante, com mais de trinta quilômetros de largura, de um vulcão que se apagou há uns oitenta milhões de anos.",
+  "Apesar de todo o perigo, os vulcões também constroem.",
+  "Quando a lava chega no mar e esfria, nasce terra nova. O Havaí, a Islândia e o próprio Fernando de Noronha surgiram assim, do fundo do oceano.",
+  "A cinza, com o tempo, vira um dos solos mais férteis do mundo. É por isso que tanta gente planta e mora perto de vulcões.",
+  "E na Islândia, o calor que vem de baixo da terra aquece as casas, a água do banho e ainda gera energia elétrica.",
+  "Então, da próxima vez que você vir um vulcão, lembre: é o planeta mostrando que, por baixo da casca fria, a Terra ainda está viva e quente.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de ver um vulcão de perto?"
+ ]
+}

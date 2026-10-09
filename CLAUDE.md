@@ -29,6 +29,10 @@ Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publi
 - **Office** (14 inscritos): PowerPoint visual, dinheiro/planilhas úteis, ABNT. Slide que parece filme (995), PDF vira Word (710).
 - **Truques** (11 inscritos): WhatsApp, privacidade e vício no celular. Vício (715), letras (592), mensagem apagada (584).
 
+## ⚠️ 08/10: SÓ O CANAL DE FÍSICA CONTINUA
+Jansey decidiu ficar só com a **Física Sem Mistério**. Ele mesmo vai excluir os canais **Office Sem Mistério** e **Truques de Celular** no YouTube. **Não produzir nem publicar mais nada para Office/Truques.** As pastas e o código desses dois continuam no PC e no GitHub (não foram apagados). Física em 08/10: 74 inscritos, 5,8 mil visualizações qualificadas de Shorts (meta YPP: 1.000 inscritos + 10 mi em 90 dias). Aviso dado: vídeos excluídos/privados deixam de contar nas visualizações qualificadas, então a sugestão foi NÃO excluir os Shorts fracos da Física.
+Próxima leva da Física (temas já aprovados em 08/10): lugar mais frio do mundo (Oymyakon), maior onda (Nazaré), pássaros no fio sem choque, aurora boreal, raio no carro, todos com fotos/vídeos reais em cada cena.
+
 ## Totais publicados em 07/10
 Office 60 · Truques 60 · Física 55.
 **Regra do Jansey (07/10): na Física, usar FOTOS/VÍDEOS REAIS do que está sendo citado em cada cena, para parecer o mais real possível (animação só quando não houver imagem real).**

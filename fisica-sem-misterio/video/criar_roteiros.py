@@ -630,6 +630,29 @@ short("MacaEscurece", "Por que a maçã ESCURECE depois de cortada? 🍎",
     ("Ou deixe na água gelada, longe do ar. A maçã continua boa, só muda de cor.", "Continua boa", ["boa"], a("🧊", "Água gelada, longe do ar")),
 ])
 
+# ---------- LEVA 10 (08/10): só canal de Física; temas pedidos pelo Jansey ----------
+short("OndaNazare", "A MAIOR onda do mundo: por que Nazaré tem ondas de 26 metros? 🌊",
+      "Em Nazaré, Portugal, um cânion submarino de 5 km de fundura chega quase até a praia. As ondas que passam por cima dele e as da parte rasa se encontram e se SOMAM. Recorde: 26,21 metros, surfada por Sebastian Steudtner em 2020. #fisica #nazare #onda #surf #curiosidades",
+      "🌊", "As ondas se somam.", [
+    ("Em Nazaré, Portugal, o mar levanta paredes de água da altura de um prédio de oito andares.", "A MAIOR onda do mundo", ["MAIOR"], {"busca": "nazare big wave", "foto": "Naz_onda"}),
+    ("O recorde é de 2020: o alemão Sebastian Steudtner surfou ali uma onda de 26 metros.", "Recorde: 26 metros", ["26", "metros"], {"busca": "big wave surfer", "foto": "Naz_surf"}),
+    ("O segredo está escondido no fundo do mar: um cânion submarino com até 5 quilômetros de fundura, que chega quase até a praia.", "Um CÂNION debaixo d'água", ["CÂNION"], v("aerial ocean coast cliff portugal")),
+    ("Em cima do cânion, a onda corre rápido, sem perder força. Do lado, na parte rasa, ela freia e se curva em direção ao meio.", "Uma rápida, outra freia", ["rápida,", "freia"], v("ocean swell waves aerial")),
+    ("Perto da praia, as duas se encontram e se somam. A onda cresce de repente, como se fossem duas em uma.", "Duas ondas viram UMA", ["UMA"], v("huge wave breaking")),
+    ("E ainda tem uma corrente saindo da praia, que empurra contra a onda e deixa ela ainda mais em pé.", "Mais em pé ainda", ["em", "pé"], {"busca": "nazare lighthouse waves", "foto": "Naz_norte"}),
+])
+
+short("PassaroFio", "Por que o passarinho NÃO leva choque no fio de alta tensão? ⚡",
+      "A corrente só atravessa um corpo quando existe diferença de tensão entre dois pontos. Os dois pés do pássaro estão no mesmo fio, na mesma tensão. O perigo é encostar a asa em outro fio ou no poste! #fisica #eletricidade #passaro #choque #curiosidades",
+      "🐦", "Um fio só não dá choque.", [
+    ("Esse fio carrega milhares de volts. Encostar mata. E o passarinho está tranquilo em cima dele.", "Por que ele NÃO leva choque?", ["NÃO"], v("birds on power line")),
+    ("A corrente elétrica só atravessa alguma coisa quando existe diferença de tensão entre dois pontos.", "Precisa de DIFERENÇA", ["DIFERENÇA"], v("high voltage power lines")),
+    ("Os dois pés do pássaro estão no mesmo fio, na mesma tensão. A corrente não passa por ele: segue pelo fio, que é muito mais fácil.", "Mesmo fio, mesma tensão", ["mesma", "tensão"], v("bird perched on wire close up")),
+    ("O perigo é encostar em duas coisas ao mesmo tempo: a asa em outro fio ou no poste. Aí o caminho se fecha.", "Asa no outro fio = CHOQUE", ["CHOQUE"], v("electricity pole sparks")),
+    ("É assim que morrem urubus e corujas de asa grande. Por isso as companhias de energia colocam protetores nos postes.", "Asas grandes correm risco", ["risco"], v("vulture on electric pole")),
+    ("E tem eletricista que faz igual ao pássaro: trabalha com a linha ligada, usando uma roupa de metal que deixa o corpo todo na mesma tensão do fio.", "Trabalham com a linha LIGADA", ["LIGADA"], v("electrician lineman power line")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

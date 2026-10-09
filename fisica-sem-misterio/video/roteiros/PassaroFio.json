@@ -1,0 +1,63 @@
+{
+ "id": "PassaroFio",
+ "titulo": "Por que o passarinho NÃO leva choque no fio de alta tensão? ⚡",
+ "legenda": "A corrente só atravessa um corpo quando existe diferença de tensão entre dois pontos. Os dois pés do pássaro estão no mesmo fio, na mesma tensão. O perigo é encostar a asa em outro fio ou no poste! #fisica #eletricidade #passaro #choque #curiosidades",
+ "final": {
+  "emoji": "🐦",
+  "frase": "Um fio só não dá choque."
+ },
+ "frases": [
+  "Esse fio carrega milhares de volts. Encostar mata. E o passarinho está tranquilo em cima dele.",
+  "A corrente elétrica só atravessa alguma coisa quando existe diferença de tensão entre dois pontos.",
+  "Os dois pés do pássaro estão no mesmo fio, na mesma tensão. A corrente não passa por ele: segue pelo fio, que é muito mais fácil.",
+  "O perigo é encostar em duas coisas ao mesmo tempo: a asa em outro fio ou no poste. Aí o caminho se fecha.",
+  "É assim que morrem urubus e corujas de asa grande. Por isso as companhias de energia colocam protetores nos postes.",
+  "E tem eletricista que faz igual ao pássaro: trabalha com a linha ligada, usando uma roupa de metal que deixa o corpo todo na mesma tensão do fio.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que ele NÃO leva choque?",
+   "destaque": [
+    "NÃO"
+   ],
+   "busca": "birds on power line"
+  },
+  {
+   "gancho": "Precisa de DIFERENÇA",
+   "destaque": [
+    "DIFERENÇA"
+   ],
+   "busca": "high voltage power lines"
+  },
+  {
+   "gancho": "Mesmo fio, mesma tensão",
+   "destaque": [
+    "mesma",
+    "tensão"
+   ],
+   "busca": "bird perched on wire close up"
+  },
+  {
+   "gancho": "Asa no outro fio = CHOQUE",
+   "destaque": [
+    "CHOQUE"
+   ],
+   "busca": "electricity pole sparks"
+  },
+  {
+   "gancho": "Asas grandes correm risco",
+   "destaque": [
+    "risco"
+   ],
+   "busca": "vulture on electric pole"
+  },
+  {
+   "gancho": "Trabalham com a linha LIGADA",
+   "destaque": [
+    "LIGADA"
+   ],
+   "busca": "electrician lineman power line"
+  }
+ ]
+}

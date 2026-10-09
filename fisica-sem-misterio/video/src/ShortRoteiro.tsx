@@ -1,11 +1,26 @@
 // Short montado direto do roteiro (roteiros/ID.json): cada cena é um vídeo real (public/clipes/ID_i.mp4)
 // ou uma animação simples (emoji grande + texto) no fundo de espaço. Estilo "misto" aprovado por Jansey em 29/09.
 import React from "react";
-import { interpolate } from "remotion";
+import { AbsoluteFill, Img, Sequence, interpolate, staticFile } from "remotion";
 import { CLAMP, Cena, Clipe, FONTE, OURO, Short, mola, useT, type Tempos } from "./espaco";
 import duracoes from "../public/clipes/duracoes.json";
 
-export type CenaRoteiro = { gancho: string; destaque: string[]; busca?: string; anim?: { emoji: string; texto: string } };
+export type CenaRoteiro = { gancho: string; destaque: string[]; busca?: string; foto?: string; anim?: { emoji: string; texto: string } };
+
+// Foto real (public/fotos_short/NOME.jpg, na altura da tela): a câmera passeia pela foto inteira durante a cena.
+const FotoShort: React.FC<{ nome: string; ini: number; fim: number }> = ({ nome, ini, fim }) => {
+  const { t, f } = useT();
+  const p = interpolate(t, [ini, fim + 0.5], [0, 1], CLAMP);
+  return (
+    <Sequence from={f(ini)}>
+      <AbsoluteFill style={{ overflow: "hidden" }}>
+        <Img src={staticFile(`fotos_short/${nome}.jpg`)} style={{ position: "absolute", height: 1920, left: "50%",
+          transform: `translateX(calc(-50% + ${(0.5 - p) * 2} * (50% - 540px)))` }} />
+      </AbsoluteFill>
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.1) 25%, rgba(0,0,0,.1) 70%, rgba(0,0,0,.6) 100%)" }} />
+    </Sequence>
+  );
+};
 export type Roteiro = { id: string; cenas: CenaRoteiro[]; final: { emoji: string; frase: string } };
 
 const Animacao: React.FC<{ emoji: string; texto: string; ini: number }> = ({ emoji, texto, ini }) => {
@@ -42,6 +57,7 @@ export const ShortRoteiro: React.FC<{ roteiro: Roteiro; tempos: Tempos }> = ({ r
         return (
           <Cena key={i} ini={i === 0 ? 0 : C[i]} fim={C[i + 1]} zoom={c.anim ? 0.03 : 0.05}>
             {c.anim ? <Animacao emoji={c.anim.emoji} texto={c.anim.texto} ini={C[i]} />
+              : c.foto ? <FotoShort nome={c.foto} ini={i === 0 ? 0 : C[i]} fim={C[i + 1]} />
               : <Clipe nome={nome} ini={i === 0 ? 0 : C[i]} fim={C[i + 1]} duracao={DUR[nome] ?? 10} desde={DUR[nome] > 12 ? 1 : 0} />}
           </Cena>
         );

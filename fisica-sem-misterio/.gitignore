@@ -4,3 +4,7 @@ video/out/
 video/public/clipes/*.mp4
 __pycache__/
 *.pyc
+video/public/clipes_longo/*.mp4
+video/public/fotos_longo/
+video/public/fotos_short/
+video/capas/q_*.jpg
