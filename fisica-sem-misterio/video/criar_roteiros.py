@@ -653,6 +653,29 @@ short("PassaroFio", "Por que o passarinho NÃO leva choque no fio de alta tensã
     ("E tem eletricista que faz igual ao pássaro: trabalha com a linha ligada, usando uma roupa de metal que deixa o corpo todo na mesma tensão do fio.", "Trabalham com a linha LIGADA", ["LIGADA"], v("electrician lineman power line")),
 ])
 
+# ---------- LEVA 11 (12/10): mistério e extremos, com fotos reais ----------
+short("TrianguloBermudas", "Triângulo das BERMUDAS: o que a física diz sobre o mistério 🔺",
+      "Uma corrente marítima muito rápida, tempestades que surgem de repente e muito tráfego explicam os acidentes. Estudos mostram que ali não somem mais navios do que em outras áreas movimentadas do oceano! #fisica #triangulodasbermudas #misterio #oceano #curiosidades",
+      "🔺", "Mais fama que mistério.", [
+    ("O Triângulo das Bermudas ficou famoso por fazer navios e aviões sumirem. Mas o que a física diz?", "Triângulo das BERMUDAS", ["BERMUDAS"], v("ocean aerial deep blue")),
+    ("É um pedaço do Oceano Atlântico entre a Flórida, Porto Rico e as ilhas Bermudas, com navios e aviões passando o tempo todo.", "Muito tráfego", ["tráfego"], v("cargo ship ocean aerial")),
+    ("Ali passa a Corrente do Golfo, um rio dentro do mar, que corre rápido e leva para longe qualquer destroço.", "Um RIO dentro do mar", ["RIO"], {"busca": "ocean current", "foto": "B_golfo"}),
+    ("O tempo muda de repente: tempestades fortes e trombas-d'água podem aparecer em poucos minutos.", "Tempestade de repente", ["repente"], {"busca": "storm ocean", "foto": "B_tromba"}),
+    ("O caso mais famoso é o de cinco aviões da Marinha americana, em mil novecentos e quarenta e cinco. Eles se perderam e ficaram sem combustível.", "O Voo 19, em 1945", ["1945"], {"busca": "old airplanes", "foto": "B_avenger"}),
+    ("Os estudos mostram que ali não somem mais navios do que em outras partes movimentadas do oceano. É mais fama do que mistério.", "Mais FAMA que mistério", ["FAMA"], v("ship sailing sea sunset")),
+])
+
+short("LugarQuente", "O lugar mais QUENTE do mundo: 56 °C 🔥",
+      "No Vale da Morte, nos Estados Unidos, o ar chegou a 56,7 °C em 1913, o recorde oficial. O vale fica abaixo do nível do mar e cercado de montanhas que prendem o ar quente. E no deserto de Lut, no Irã, satélites mediram o chão a 70 °C! #fisica #valedamorte #calor #deserto #curiosidades",
+      "🔥", "Um forno natural.", [
+    ("Este é o lugar onde foi registrada a temperatura do ar mais alta da história: cinquenta e seis graus.", "56 °C", ["56"], {"busca": "death valley", "foto": "Q_termometro"}),
+    ("É o Vale da Morte, nos Estados Unidos. Uma parte dele fica oitenta e seis metros abaixo do nível do mar.", "86 m ABAIXO do mar", ["ABAIXO"], {"busca": "salt flats desert", "foto": "Q_badwater"}),
+    ("Ele é cercado de montanhas. O ar que desce delas é comprimido e esquenta, e fica preso no fundo do vale.", "O ar desce e esquenta", ["esquenta"], a("⛰️", "O ar desce, é comprimido e esquenta")),
+    ("Quase não chove e quase não tem plantas. O chão seco e as rochas escuras absorvem o sol o dia inteiro e devolvem o calor para o ar.", "O chão vira forno", ["forno"], v("desert heat haze")),
+    ("Mas o chão mais quente fica no Irã: no deserto de Lut, um satélite mediu a superfície a setenta graus.", "Chão a 70 °C", ["70"], {"busca": "desert rock formations", "foto": "Q_lut"}),
+    ("Nesse calor, o corpo perde água muito rápido. Sem beber, em poucas horas a pessoa pode passar mal e desmaiar.", "Perigo: desidratação", ["desidratação"], v("hiker desert water bottle")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -6,6 +6,7 @@ Saída em public/ID/: narracao.mp3 e tempos.json ({palavras, cenas, capitulos:[{
 import asyncio, json, shutil, subprocess, sys, tempfile
 from pathlib import Path
 import edge_tts
+import edge_fix  # noqa: F401 (host novo da síntese)
 
 VOZ = "pt-BR-AntonioNeural"
 VELOCIDADE = "+3%"   # um pouco mais calmo que os shorts
@@ -66,7 +67,7 @@ async def main(roteiro):
         filtros.append(f"[{i}]adelay={int(ini * 1000)}|{int(ini * 1000)}[a{i}]")
     filtros.append("".join(f"[a{i}]" for i in range(len(partes))) + f"amix=inputs={len(partes)}:normalize=0,atrim=0:{total:.2f}[s]")
     (tmp / "f.txt").write_text(";".join(filtros), encoding="utf-8")
-    subprocess.run([FF, "-v", "error", "-y", *args, "-filter_complex_script", str(tmp / "f.txt"), "-map", "[s]", "-c:a", "libmp3lame",
+    subprocess.run([FF, "-v", "error", "-y", *args, "-/filter_complex", str(tmp / "f.txt"), "-map", "[s]", "-c:a", "libmp3lame",
                     "-b:a", "160k", str(pub / "narracao.mp3")], check=True)
     (pub / "tempos.json").write_text(json.dumps({"palavras": palavras, "cenas": cenas, "capitulos": caps, "total": round(total, 2)},
                                                 ensure_ascii=False), encoding="utf-8")

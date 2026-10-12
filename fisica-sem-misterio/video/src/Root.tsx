@@ -119,11 +119,19 @@ import rOndaNazare from "../roteiros/OndaNazare.json";
 import tOndaNazare from "../public/OndaNazare/tempos.json";
 import rPassaroFio from "../roteiros/PassaroFio.json";
 import tPassaroFio from "../public/PassaroFio/tempos.json";
+import rTrianguloBermudas from "../roteiros/TrianguloBermudas.json";
+import tTrianguloBermudas from "../public/TrianguloBermudas/tempos.json";
+import rLugarQuente from "../roteiros/LugarQuente.json";
+import tLugarQuente from "../public/LugarQuente/tempos.json";
 import { Longo, type RoteiroLongo, type TemposLongo } from "./Longo";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
 import rOymyakon from "../roteiros/Oymyakon.json";
 import tOymyakon from "../public/Oymyakon/tempos.json";
+import rTornado from "../roteiros/Tornado.json";
+import tTornado from "../public/Tornado/tempos.json";
+import rTerraParar from "../roteiros/TerraParar.json";
+import tTerraParar from "../public/TerraParar/tempos.json";
 import rMacaEscurece from "../roteiros/MacaEscurece.json";
 import tMacaEscurece from "../public/MacaEscurece/tempos.json";
 
@@ -142,13 +150,15 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
 const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rVulcao as RoteiroLongo, tVulcao, ["VULCÃO", "Por que a Terra cospe fogo?"], "Vulcao_48"],
   [rOymyakon as RoteiroLongo, tOymyakon, ["OYMYAKON", "A vila mais fria do mundo"], "Oymyakon_41"],
+  [rTornado as RoteiroLongo, tTornado, ["TORNADO", "Como nasce um monstro de vento"], "Tornado_42"],
+  [rTerraParar as RoteiroLongo, tTerraParar, ["TERRA PARADA", "E se ela parasse de girar?"], "TerraParar_40"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

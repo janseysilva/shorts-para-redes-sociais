@@ -1,0 +1,68 @@
+{
+ "id": "LugarQuente",
+ "titulo": "O lugar mais QUENTE do mundo: 56 °C 🔥",
+ "legenda": "No Vale da Morte, nos Estados Unidos, o ar chegou a 56,7 °C em 1913, o recorde oficial. O vale fica abaixo do nível do mar e cercado de montanhas que prendem o ar quente. E no deserto de Lut, no Irã, satélites mediram o chão a 70 °C! #fisica #valedamorte #calor #deserto #curiosidades",
+ "final": {
+  "emoji": "🔥",
+  "frase": "Um forno natural."
+ },
+ "frases": [
+  "Este é o lugar onde foi registrada a temperatura do ar mais alta da história: cinquenta e seis graus.",
+  "É o Vale da Morte, nos Estados Unidos. Uma parte dele fica oitenta e seis metros abaixo do nível do mar.",
+  "Ele é cercado de montanhas. O ar que desce delas é comprimido e esquenta, e fica preso no fundo do vale.",
+  "Quase não chove e quase não tem plantas. O chão seco e as rochas escuras absorvem o sol o dia inteiro e devolvem o calor para o ar.",
+  "Mas o chão mais quente fica no Irã: no deserto de Lut, um satélite mediu a superfície a setenta graus.",
+  "Nesse calor, o corpo perde água muito rápido. Sem beber, em poucas horas a pessoa pode passar mal e desmaiar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "56 °C",
+   "destaque": [
+    "56"
+   ],
+   "busca": "death valley",
+   "foto": "Q_termometro"
+  },
+  {
+   "gancho": "86 m ABAIXO do mar",
+   "destaque": [
+    "ABAIXO"
+   ],
+   "busca": "salt flats desert",
+   "foto": "Q_badwater"
+  },
+  {
+   "gancho": "O ar desce e esquenta",
+   "destaque": [
+    "esquenta"
+   ],
+   "anim": {
+    "emoji": "⛰️",
+    "texto": "O ar desce, é comprimido e esquenta"
+   }
+  },
+  {
+   "gancho": "O chão vira forno",
+   "destaque": [
+    "forno"
+   ],
+   "busca": "desert heat haze"
+  },
+  {
+   "gancho": "Chão a 70 °C",
+   "destaque": [
+    "70"
+   ],
+   "busca": "desert rock formations",
+   "foto": "Q_lut"
+  },
+  {
+   "gancho": "Perigo: desidratação",
+   "destaque": [
+    "desidratação"
+   ],
+   "busca": "hiker desert water bottle"
+  }
+ ]
+}

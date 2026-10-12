@@ -171,10 +171,168 @@ longo("Oymyakon", "A vila mais FRIA do mundo: −67 °C 🥶 O que a física faz
     ]),
 ])
 
+longo("Tornado", "TORNADO: como nasce um monstro de vento 🌪️ (e sim, o Brasil tem tornados)",
+      "Como uma tempestade comum vira um funil girando a mais de 300 km/h, por que ele gira tão rápido, a escala que mede a força, "
+      "o Beco dos Tornados dos Estados Unidos, os tornados que já atingiram o Brasil e o que a física diz sobre como se proteger.", [
+    ("Abertura", [
+        ("Um funil de vento girando a mais de trezentos quilômetros por hora, capaz de levantar carros e arrancar casas do chão.", v("tornado")),
+        ("Neste vídeo você vai entender como uma tempestade comum se transforma num tornado, por que ele gira tão rápido e por que alguns lugares do mundo têm tantos.", v("storm clouds timelapse")),
+        ("E vamos falar de uma coisa que muita gente não sabe: o Brasil também tem tornados, e alguns foram muito fortes.", v("dark storm clouds field")),
+    ]),
+    ("Tudo começa numa tempestade", [
+        ("Quase todo tornado forte nasce dentro de um tipo especial de tempestade, chamada supercélula.", v("supercell storm")),
+        ("Para ela se formar, é preciso uma receita: ar quente e úmido perto do chão, e ar frio e seco lá em cima.", a("🌡️", "Quente e úmido embaixo, frio e seco em cima")),
+        ("Ar quente é mais leve. Ele sobe com força, como uma bolha numa panela, e forma nuvens enormes, que podem passar de quinze quilômetros de altura.", v("cumulonimbus cloud")),
+        ("O segundo ingrediente é o vento mudando de direção e de velocidade conforme a altura: fraco e de um lado perto do chão, forte e de outro lado lá no alto.", a("💨", "O vento muda com a altura")),
+        ("Essa diferença faz o ar perto do chão começar a rolar, como um rolo de massa deitado, girando na horizontal.", a("🌀", "Um rolo de ar deitado")),
+        ("Quando a corrente de ar quente da tempestade sobe, ela levanta esse rolo e deixa ele em pé. Agora a nuvem inteira começa a girar.", v("rotating storm clouds")),
+        ("Essa parte que gira dentro da tempestade se chama mesociclone. Ela pode ter vários quilômetros de largura.", v("supercell thunderstorm")),
+    ]),
+    ("O funil desce", [
+        ("Nem todo mesociclone vira tornado. Os cientistas ainda estudam exatamente o que faz a rotação descer até o chão.", v("storm clouds dark")),
+        ("Quando acontece, aparece primeiro uma nuvem baixa e escura, que gira devagar: a nuvem-parede.", v("wall cloud")),
+        ("Dela desce o funil. Ele fica visível porque, dentro dele, a pressão cai muito, o ar esfria e o vapor de água vira gotinhas, formando a nuvem em forma de cone.", v("tornado funnel cloud")),
+        ("No chão, o tornado levanta poeira e destroços, que formam uma nuvem em volta da base. Às vezes a gente só vê essa poeira girando.", v("dust devil")),
+    ]),
+    ("Por que ele gira tão rápido", [
+        ("A rotação começa larga e lenta. Então por que o tornado gira tão rápido?", v("tornado storm")),
+        ("Pense numa patinadora girando no gelo. Quando ela fecha os braços, gira muito mais rápido, sem fazer força nenhuma.", v("figure skater spinning")),
+        ("Isso se chama conservação do momento angular. Quanto mais perto do centro a coisa gira, mais rápido ela precisa girar.", a("⛸️", "Fechou os braços, girou mais rápido")),
+        ("No tornado é igual: o ar que girava num círculo de quilômetros é apertado num funil de algumas centenas de metros, e a velocidade dispara.", a("🌪️", "Círculo menor, vento mais rápido")),
+        ("É o mesmo motivo de a água girar mais rápido quando se aproxima do ralo da pia.", v("water draining sink")),
+    ]),
+    ("Quanto um tornado pode ser forte", [
+        ("Para medir a força de um tornado, os cientistas usam a escala Fujita melhorada, que vai de zero a cinco.", a("📏", "Escala Fujita: de EF0 a EF5")),
+        ("Ela é calculada pelo estrago: um EF zero arranca telhas e galhos. Um EF cinco, com ventos acima de trezentos e vinte quilômetros por hora, varre casas inteiras do chão.", v("storm damage houses")),
+        ("Em mil novecentos e noventa e nove, perto da cidade de Moore, nos Estados Unidos, um radar mediu ventos de cerca de quatrocentos e oitenta quilômetros por hora dentro de um tornado, um dos ventos mais rápidos já registrados na Terra.", v("tornado storm field")),
+        ("E o tornado mais largo já medido, em El Reno, em dois mil e treze, chegou a quatro quilômetros de largura.", v("huge storm")),
+        ("Mas a maioria dos tornados é bem menor: dura poucos minutos e anda alguns quilômetros.", v("thunderstorm plains")),
+    ]),
+    ("O Beco dos Tornados", [
+        ("Os Estados Unidos têm mais de mil tornados por ano, mais do que qualquer outro país.", v("great plains storm")),
+        ("Isso acontece por causa da geografia. Do Golfo do México vem ar quente e úmido. Do Canadá, ar frio. E das Montanhas Rochosas, ar seco por cima.", a("🗺️", "Quente do Golfo + frio do Canadá + seco das montanhas")),
+        ("Essas massas de ar se encontram nas grandes planícies do centro do país, uma região plana chamada de Beco dos Tornados.", v("prairie storm")),
+        ("Na primavera, a receita da supercélula aparece quase todo dia por lá.", v("storm road clouds")),
+    ]),
+    ("Sim, o Brasil tem tornados", [
+        ("E aqui vem a surpresa: a segunda região com mais tornados no mundo fica na América do Sul.", a("🌎", "2ª região com mais tornados do mundo")),
+        ("Ela pega o sul do Brasil, o Paraguai, o Uruguai e o norte da Argentina. O ar quente e úmido vem da Amazônia e encontra o ar frio que sobe do sul, com a Cordilheira dos Andes ajudando a montar a receita.", a("🌪️", "Amazônia + ar frio do sul + Andes")),
+        ("Em dois mil e quinze, um tornado atingiu Xanxerê, em Santa Catarina, destelhou centenas de casas e deixou vítimas.", v("destroyed roof")),
+        ("E em novembro de dois mil e vinte e cinco, um tornado muito forte passou por Rio Bonito do Iguaçu, no Paraná, destruiu grande parte da cidade e também deixou mortos e muitos feridos.", v("storm damage town")),
+        ("Por isso a Defesa Civil emite alertas de tempestade severa no Sul. Entender o tornado ajuda a levar esses avisos a sério.", v("rain storm city")),
+    ]),
+    ("Como se proteger, segundo a física", [
+        ("O que mais machuca num tornado nem é o vento em si. São as coisas que ele arremessa: telhas, vidros e tábuas, voando como projéteis.", v("strong wind debris")),
+        ("Por isso o lugar mais seguro é o cômodo mais interno da casa, sem janelas, no andar mais baixo. Banheiro ou corredor, abaixado e protegendo a cabeça.", a("🏠", "Cômodo interno, sem janelas, andar mais baixo")),
+        ("Um mito antigo dizia para abrir as janelas, para a casa não explodir com a diferença de pressão. Isso é falso: o que derruba a casa é o vento, e abrir janela só perde tempo e deixa os destroços entrarem.", a("❌", "Abrir as janelas: mito")),
+        ("Debaixo de viaduto também não é abrigo. O vento passa espremido ali, fica ainda mais rápido e cheio de destroços.", v("highway overpass")),
+        ("E carro não protege: o tornado consegue levantar e virar carros. Se não der para chegar a um abrigo, o melhor é deitar numa vala, longe dos carros e das árvores.", v("car driving storm")),
+    ]),
+    ("Como os cientistas caçam tornados", [
+        ("Hoje, radares meteorológicos conseguem enxergar a rotação dentro da tempestade antes mesmo de o funil aparecer.", v("weather radar")),
+        ("O radar Doppler mede se as gotas de chuva estão vindo na direção dele ou indo embora. Quando, lado a lado, umas vêm e outras vão, é sinal de que o ar está girando.", a("📡", "Radar Doppler: vê o ar girando")),
+        ("E existem os caçadores de tempestades: cientistas que dirigem até perto das supercélulas com instrumentos, para entender melhor como o tornado nasce.", v("storm chaser")),
+        ("Graças a esse trabalho, os alertas nos Estados Unidos saem, em média, uns dez minutos antes de o tornado chegar. Parece pouco, mas salva muitas vidas.", v("storm sky town")),
+    ]),
+    ("Final", [
+        ("Um tornado é a física juntando calor, umidade e vento até virar uma das forças mais violentas da natureza.", v("storm clouds sunset")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já viu uma tempestade dessas de perto?", {"fim": True}),
+    ]),
+])
+
+longo("TerraParar", "E se a Terra PARASSE de girar? 🌍 O que a física diz que aconteceria",
+      "A Terra gira a até 1.670 km/h no Equador. O que aconteceria se ela parasse de repente, e se ela parasse aos poucos: "
+      "ventos mais fortes que qualquer tornado, oceanos fugindo para os polos, um dia de seis meses, o escudo magnético enfraquecendo "
+      "e a Lua, que está mesmo freando o nosso planeta.", [
+    ("Abertura", [
+        ("Agora mesmo, você está girando junto com a Terra a mais de mil quilômetros por hora. E não sente nada.", v("earth rotation space")),
+        ("Mas o que aconteceria se, de uma hora para outra, a Terra parasse de girar?", v("earth from space")),
+        ("Neste vídeo, a física responde: o que acontece se ela parar de repente, o que acontece se ela parar devagar, e uma notícia curiosa: a Terra está mesmo freando.", v("earth night city lights space")),
+    ]),
+    ("A velocidade que você não sente", [
+        ("A Terra dá uma volta em si mesma a cada vinte e quatro horas. Na linha do Equador, isso dá mil seiscentos e setenta quilômetros por hora.", a("🌍", "1.670 km/h no Equador")),
+        ("Aqui em Manaus, pertinho do Equador, é quase isso. Em Porto Alegre, mais ao sul, uns mil e quatrocentos e cinquenta. E nos polos, quase zero.", a("📍", "Manaus ≈ 1.665 km/h · Porto Alegre ≈ 1.450 km/h")),
+        ("A gente não sente porque tudo gira junto: o chão, o ar, os prédios e você. É como estar num avião em velocidade de cruzeiro: se ele não balança, parece parado.", v("airplane cabin")),
+        ("O que o corpo sente é mudança de velocidade. E é exatamente isso que tornaria uma parada tão perigosa.", v("car braking")),
+    ]),
+    ("Se parasse de repente", [
+        ("Imagine que a rocha do planeta parasse num instante. Tudo que está solto em cima dela continuaria indo para o leste, a mais de mil e seiscentos quilômetros por hora.", a("➡️", "Tudo continua indo para o leste")),
+        ("É a inércia, a mesma coisa que te joga para frente quando o ônibus freia. Só que muito, mas muito mais forte.", v("bus interior passengers")),
+        ("Pessoas, carros, árvores e prédios seriam arrancados e arremessados. O ar também: viriam ventos de mais de mil quilômetros por hora, mais fortes que qualquer tornado.", v("hurricane wind trees")),
+        ("Os oceanos sairiam do lugar e invadiriam os continentes em ondas gigantes.", v("huge waves storm")),
+        ("A boa notícia: isso é impossível. Não existe nada perto de nós capaz de frear um planeta inteiro de uma vez. É só um experimento de pensamento.", v("earth sunrise space")),
+    ]),
+    ("Se parasse devagar", [
+        ("E se a Terra fosse parando bem devagar, ao longo de milhares de anos? Aí ninguém seria arremessado. Mas o planeta mudaria completamente.", v("earth globe rotating")),
+        ("Por causa do giro, a Terra não é uma bola perfeita. Ela é um pouco achatada nos polos e mais larga no Equador: uns quarenta e três quilômetros a mais de diâmetro.", a("🌐", "43 km mais larga no Equador")),
+        ("Os oceanos também ficam empurrados para o Equador, como uma barriga de água em volta do planeta.", a("🌊", "Os oceanos se acumulam no Equador")),
+        ("Sem o giro, essa água escorreria para os polos. Surgiriam dois oceanos gigantes, um no norte e outro no sul.", a("🧭", "Dois oceanos: um em cada polo")),
+        ("E no meio, ao longo do Equador, apareceria um continente enorme, dando a volta no planeta inteiro.", a("🗺️", "Um supercontinente no Equador")),
+        ("Esse cálculo foi feito por cientistas, usando mapas do relevo e da profundidade do fundo do mar.", v("world map globe")),
+    ]),
+    ("Um dia de seis meses", [
+        ("Mesmo parada, a Terra continuaria dando a volta em torno do Sol, uma vez por ano.", v("sun space")),
+        ("Então o Sol passaria a nascer e se pôr só uma vez por ano. Seriam seis meses de dia e seis meses de noite.", a("☀️", "6 meses de dia, 6 meses de noite")),
+        ("Do lado de dia, o Sol esquentaria o chão sem parar, por meses. Do lado de noite, o frio seria de inverno polar, também por meses.", v("desert heat sun")),
+        ("O ar quente do lado iluminado correria para o lado escuro, criando ventos constantes ao redor do planeta.", v("clouds timelapse")),
+        ("Plantas e animais que dependem do ciclo de dia e noite teriam que se adaptar, ou desapareceriam.", v("sunflower field")),
+    ]),
+    ("Sem furacões e sem escudo", [
+        ("O giro da Terra é o que faz os furacões girarem. Sem ele, as grandes tempestades não teriam aquele formato de redemoinho.", v("hurricane satellite")),
+        ("E tem um problema mais sério. O campo magnético da Terra nasce do ferro derretido que se move lá no núcleo, e o giro do planeta ajuda a organizar esse movimento.", a("🧲", "O giro ajuda a manter o campo magnético")),
+        ("Muitos cientistas acham que, sem rotação, esse campo ficaria bem mais fraco.", v("aurora borealis")),
+        ("Ele é o nosso escudo contra as partículas que saem do Sol. Sem ele, mais radiação chegaria aqui, e as auroras poderiam aparecer em lugares onde hoje nunca aparecem.", v("northern lights")),
+        ("Marte é um exemplo de planeta que perdeu o campo magnético: ao longo de bilhões de anos, o vento solar foi levando boa parte do ar dele.", v("mars planet")),
+    ]),
+    ("Você ficaria mais pesado", [
+        ("E um detalhe curioso: hoje, no Equador, o giro da Terra deixa você um pouquinho mais leve.", v("bathroom scale")),
+        ("É o mesmo efeito de um brinquedo de parque que gira: parece que algo te empurra para fora. Esse efeito diminui o seu peso em cerca de três décimos por cento.", v("carousel spinning")),
+        ("Se a Terra parasse, uma pessoa de setenta quilos no Equador ia pesar uns duzentos e cinquenta gramas a mais.", a("⚖️", "70 kg → cerca de 70,25 kg")),
+    ]),
+    ("E se ela girasse mais rápido?", [
+        ("E o contrário? Se a Terra girasse mais rápido, os dias ficariam mais curtos, e aquele efeito que empurra para fora ficaria mais forte.", v("earth rotating fast")),
+        ("Se ela desse uma volta completa em pouco menos de uma hora e meia, quem estivesse no Equador ficaria praticamente sem peso, quase flutuando.", a("🪶", "1 volta a cada ~1h25 = sem peso no Equador")),
+        ("Não é coincidência: a Estação Espacial Internacional dá uma volta na Terra em cerca de noventa minutos, e é justamente por isso que os astronautas flutuam lá dentro.", v("international space station")),
+        ("E os oceanos se acumulariam ainda mais no Equador, invadindo as cidades da faixa do meio do planeta, enquanto os polos ficariam quase sem mar.", v("flooded city")),
+    ]),
+    ("A Terra está mesmo freando", [
+        ("Agora a parte real: a Terra está, sim, girando cada vez mais devagar. E quem freia ela é a Lua.", v("full moon night")),
+        ("A gravidade da Lua puxa os oceanos e forma as marés. O atrito dessas marés com o fundo do mar funciona como um freio bem fraquinho.", v("ocean tide beach")),
+        ("Por causa disso, o dia fica cerca de dois milésimos de segundo mais longo a cada século.", a("⏱️", "+2 milésimos de segundo por século")),
+        ("Parece nada, mas em milhões de anos faz diferença. No tempo dos dinossauros, um dia tinha cerca de vinte e três horas e meia.", v("dinosaur")),
+        ("Mesmo assim, a Terra não vai parar. Muito antes disso, daqui a bilhões de anos, o Sol vai mudar, e a história do nosso planeta será outra.", v("sun surface")),
+    ]),
+    ("Final", [
+        ("Então pode ficar tranquilo: a Terra continua girando, e a física garante que ela não vai parar de repente.", v("earth rotating")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: o que você faria num dia de seis meses?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "Tornado": {
+        10: dict(foto="Tor_backlit", legenda="Funil começando a se formar, Estados Unidos"),
+        11: dict(foto="Tor_parede", legenda="Nuvem-parede girando"),
+        12: dict(foto="Tor_funil", legenda="Funil descendo até o chão"),
+        13: dict(foto="Tor_cordell", legenda="Tornado em Cordell, Oklahoma, 1981"),
+        14: dict(foto="Tor_enid", legenda="Tornado em Enid, Oklahoma"),
+        21: dict(foto="Tor_moore", legenda="Tornado de Moore, Oklahoma, 3 de maio de 1999"),
+        30: dict(foto="Tor_estrago", legenda="Casa destruída por um tornado (Estados Unidos, 2013)"),
+        31: dict(foto="Tor_rb2", legenda="Rio Bonito do Iguaçu (PR), novembro de 2025"),
+        32: dict(foto="Tor_rb1", legenda="Rio Bonito do Iguaçu (PR), depois do tornado"),
+        40: dict(foto="Tor_vortex", legenda="Radar móvel de caçadores de tempestade"),
+    },
+    "TerraParar": {
+        11: dict(foto="Ter_nascer", legenda="Nascer do Sol visto da Estação Espacial"),
+        23: dict(foto="Ter_catarina", legenda="Furacão Catarina (2004), no sul do Brasil, visto do espaço"),
+        25: dict(foto="Ter_aurora", legenda="Aurora vista da Estação Espacial"),
+        27: dict(foto="Ter_marte", legenda="Marte"),
+        31: dict(foto="Ter_bluemarble", legenda="A Terra vista pela Apollo 17"),
+        33: dict(foto="Ter_iss", legenda="Estação Espacial Internacional"),
+        38: dict(foto="Ter_trex", legenda="Esqueleto de Tyrannosaurus rex"),
+    },
     "Vulcao": {
         18: dict(foto="Vulcao_grindavik", legenda="Grindavík, Islândia, 2023"),
         19: dict(foto="Vulcao_obsidiana", legenda="Obsidiana: lava que virou vidro"),

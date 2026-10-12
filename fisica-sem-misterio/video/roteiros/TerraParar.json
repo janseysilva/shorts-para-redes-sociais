@@ -1,0 +1,371 @@
+{
+ "id": "TerraParar",
+ "longo": true,
+ "titulo": "E se a Terra PARASSE de girar? 🌍 O que a física diz que aconteceria",
+ "descricao": "A Terra gira a até 1.670 km/h no Equador. O que aconteceria se ela parasse de repente, e se ela parasse aos poucos: ventos mais fortes que qualquer tornado, oceanos fugindo para os polos, um dia de seis meses, o escudo magnético enfraquecendo e a Lua, que está mesmo freando o nosso planeta.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Agora mesmo, você está girando junto com a Terra a mais de mil quilômetros por hora. E não sente nada.",
+     "busca": "earth rotation space",
+     "desde": 0,
+     "clipe": "TerraParar_0"
+    },
+    {
+     "frase": "Mas o que aconteceria se, de uma hora para outra, a Terra parasse de girar?",
+     "busca": "earth from space",
+     "desde": 0,
+     "clipe": "TerraParar_1"
+    },
+    {
+     "frase": "Neste vídeo, a física responde: o que acontece se ela parar de repente, o que acontece se ela parar devagar, e uma notícia curiosa: a Terra está mesmo freando.",
+     "busca": "earth night city lights space",
+     "desde": 0,
+     "clipe": "TerraParar_2"
+    }
+   ]
+  },
+  {
+   "titulo": "A velocidade que você não sente",
+   "cenas": [
+    {
+     "frase": "A Terra dá uma volta em si mesma a cada vinte e quatro horas. Na linha do Equador, isso dá mil seiscentos e setenta quilômetros por hora.",
+     "anim": {
+      "emoji": "🌍",
+      "texto": "1.670 km/h no Equador"
+     }
+    },
+    {
+     "frase": "Aqui em Manaus, pertinho do Equador, é quase isso. Em Porto Alegre, mais ao sul, uns mil e quatrocentos e cinquenta. E nos polos, quase zero.",
+     "anim": {
+      "emoji": "📍",
+      "texto": "Manaus ≈ 1.665 km/h · Porto Alegre ≈ 1.450 km/h"
+     }
+    },
+    {
+     "frase": "A gente não sente porque tudo gira junto: o chão, o ar, os prédios e você. É como estar num avião em velocidade de cruzeiro: se ele não balança, parece parado.",
+     "busca": "airplane cabin",
+     "desde": 0,
+     "clipe": "TerraParar_5"
+    },
+    {
+     "frase": "O que o corpo sente é mudança de velocidade. E é exatamente isso que tornaria uma parada tão perigosa.",
+     "busca": "car braking",
+     "desde": 0,
+     "clipe": "TerraParar_6"
+    }
+   ]
+  },
+  {
+   "titulo": "Se parasse de repente",
+   "cenas": [
+    {
+     "frase": "Imagine que a rocha do planeta parasse num instante. Tudo que está solto em cima dela continuaria indo para o leste, a mais de mil e seiscentos quilômetros por hora.",
+     "anim": {
+      "emoji": "➡️",
+      "texto": "Tudo continua indo para o leste"
+     }
+    },
+    {
+     "frase": "É a inércia, a mesma coisa que te joga para frente quando o ônibus freia. Só que muito, mas muito mais forte.",
+     "busca": "bus interior passengers",
+     "desde": 0,
+     "clipe": "TerraParar_8"
+    },
+    {
+     "frase": "Pessoas, carros, árvores e prédios seriam arrancados e arremessados. O ar também: viriam ventos de mais de mil quilômetros por hora, mais fortes que qualquer tornado.",
+     "busca": "hurricane wind trees",
+     "desde": 0,
+     "clipe": "TerraParar_9"
+    },
+    {
+     "frase": "Os oceanos sairiam do lugar e invadiriam os continentes em ondas gigantes.",
+     "busca": "huge waves storm",
+     "desde": 0,
+     "clipe": "TerraParar_10"
+    },
+    {
+     "frase": "A boa notícia: isso é impossível. Não existe nada perto de nós capaz de frear um planeta inteiro de uma vez. É só um experimento de pensamento.",
+     "busca": "earth sunrise space",
+     "desde": 0,
+     "foto": "Ter_nascer",
+     "legenda": "Nascer do Sol visto da Estação Espacial"
+    }
+   ]
+  },
+  {
+   "titulo": "Se parasse devagar",
+   "cenas": [
+    {
+     "frase": "E se a Terra fosse parando bem devagar, ao longo de milhares de anos? Aí ninguém seria arremessado. Mas o planeta mudaria completamente.",
+     "busca": "earth globe rotating",
+     "desde": 0,
+     "clipe": "TerraParar_12"
+    },
+    {
+     "frase": "Por causa do giro, a Terra não é uma bola perfeita. Ela é um pouco achatada nos polos e mais larga no Equador: uns quarenta e três quilômetros a mais de diâmetro.",
+     "anim": {
+      "emoji": "🌐",
+      "texto": "43 km mais larga no Equador"
+     }
+    },
+    {
+     "frase": "Os oceanos também ficam empurrados para o Equador, como uma barriga de água em volta do planeta.",
+     "anim": {
+      "emoji": "🌊",
+      "texto": "Os oceanos se acumulam no Equador"
+     }
+    },
+    {
+     "frase": "Sem o giro, essa água escorreria para os polos. Surgiriam dois oceanos gigantes, um no norte e outro no sul.",
+     "anim": {
+      "emoji": "🧭",
+      "texto": "Dois oceanos: um em cada polo"
+     }
+    },
+    {
+     "frase": "E no meio, ao longo do Equador, apareceria um continente enorme, dando a volta no planeta inteiro.",
+     "anim": {
+      "emoji": "🗺️",
+      "texto": "Um supercontinente no Equador"
+     }
+    },
+    {
+     "frase": "Esse cálculo foi feito por cientistas, usando mapas do relevo e da profundidade do fundo do mar.",
+     "busca": "world map globe",
+     "desde": 0,
+     "clipe": "TerraParar_17"
+    }
+   ]
+  },
+  {
+   "titulo": "Um dia de seis meses",
+   "cenas": [
+    {
+     "frase": "Mesmo parada, a Terra continuaria dando a volta em torno do Sol, uma vez por ano.",
+     "busca": "sun space",
+     "desde": 0,
+     "clipe": "TerraParar_18"
+    },
+    {
+     "frase": "Então o Sol passaria a nascer e se pôr só uma vez por ano. Seriam seis meses de dia e seis meses de noite.",
+     "anim": {
+      "emoji": "☀️",
+      "texto": "6 meses de dia, 6 meses de noite"
+     }
+    },
+    {
+     "frase": "Do lado de dia, o Sol esquentaria o chão sem parar, por meses. Do lado de noite, o frio seria de inverno polar, também por meses.",
+     "busca": "desert heat sun",
+     "desde": 0,
+     "clipe": "TerraParar_20"
+    },
+    {
+     "frase": "O ar quente do lado iluminado correria para o lado escuro, criando ventos constantes ao redor do planeta.",
+     "busca": "clouds timelapse",
+     "desde": 0,
+     "clipe": "TerraParar_21"
+    },
+    {
+     "frase": "Plantas e animais que dependem do ciclo de dia e noite teriam que se adaptar, ou desapareceriam.",
+     "busca": "sunflower field",
+     "desde": 0,
+     "clipe": "TerraParar_22"
+    }
+   ]
+  },
+  {
+   "titulo": "Sem furacões e sem escudo",
+   "cenas": [
+    {
+     "frase": "O giro da Terra é o que faz os furacões girarem. Sem ele, as grandes tempestades não teriam aquele formato de redemoinho.",
+     "busca": "hurricane satellite",
+     "desde": 0,
+     "foto": "Ter_catarina",
+     "legenda": "Furacão Catarina (2004), no sul do Brasil, visto do espaço"
+    },
+    {
+     "frase": "E tem um problema mais sério. O campo magnético da Terra nasce do ferro derretido que se move lá no núcleo, e o giro do planeta ajuda a organizar esse movimento.",
+     "anim": {
+      "emoji": "🧲",
+      "texto": "O giro ajuda a manter o campo magnético"
+     }
+    },
+    {
+     "frase": "Muitos cientistas acham que, sem rotação, esse campo ficaria bem mais fraco.",
+     "busca": "aurora borealis",
+     "desde": 0,
+     "foto": "Ter_aurora",
+     "legenda": "Aurora vista da Estação Espacial"
+    },
+    {
+     "frase": "Ele é o nosso escudo contra as partículas que saem do Sol. Sem ele, mais radiação chegaria aqui, e as auroras poderiam aparecer em lugares onde hoje nunca aparecem.",
+     "busca": "northern lights",
+     "desde": 0,
+     "clipe": "TerraParar_26"
+    },
+    {
+     "frase": "Marte é um exemplo de planeta que perdeu o campo magnético: ao longo de bilhões de anos, o vento solar foi levando boa parte do ar dele.",
+     "busca": "mars planet",
+     "desde": 0,
+     "foto": "Ter_marte",
+     "legenda": "Marte"
+    }
+   ]
+  },
+  {
+   "titulo": "Você ficaria mais pesado",
+   "cenas": [
+    {
+     "frase": "E um detalhe curioso: hoje, no Equador, o giro da Terra deixa você um pouquinho mais leve.",
+     "busca": "bathroom scale",
+     "desde": 0,
+     "clipe": "TerraParar_28"
+    },
+    {
+     "frase": "É o mesmo efeito de um brinquedo de parque que gira: parece que algo te empurra para fora. Esse efeito diminui o seu peso em cerca de três décimos por cento.",
+     "busca": "carousel spinning",
+     "desde": 0,
+     "clipe": "TerraParar_29"
+    },
+    {
+     "frase": "Se a Terra parasse, uma pessoa de setenta quilos no Equador ia pesar uns duzentos e cinquenta gramas a mais.",
+     "anim": {
+      "emoji": "⚖️",
+      "texto": "70 kg → cerca de 70,25 kg"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "E se ela girasse mais rápido?",
+   "cenas": [
+    {
+     "frase": "E o contrário? Se a Terra girasse mais rápido, os dias ficariam mais curtos, e aquele efeito que empurra para fora ficaria mais forte.",
+     "busca": "earth rotating fast",
+     "desde": 0,
+     "foto": "Ter_bluemarble",
+     "legenda": "A Terra vista pela Apollo 17"
+    },
+    {
+     "frase": "Se ela desse uma volta completa em pouco menos de uma hora e meia, quem estivesse no Equador ficaria praticamente sem peso, quase flutuando.",
+     "anim": {
+      "emoji": "🪶",
+      "texto": "1 volta a cada ~1h25 = sem peso no Equador"
+     }
+    },
+    {
+     "frase": "Não é coincidência: a Estação Espacial Internacional dá uma volta na Terra em cerca de noventa minutos, e é justamente por isso que os astronautas flutuam lá dentro.",
+     "busca": "international space station",
+     "desde": 0,
+     "foto": "Ter_iss",
+     "legenda": "Estação Espacial Internacional"
+    },
+    {
+     "frase": "E os oceanos se acumulariam ainda mais no Equador, invadindo as cidades da faixa do meio do planeta, enquanto os polos ficariam quase sem mar.",
+     "busca": "flooded city",
+     "desde": 0,
+     "clipe": "TerraParar_34"
+    }
+   ]
+  },
+  {
+   "titulo": "A Terra está mesmo freando",
+   "cenas": [
+    {
+     "frase": "Agora a parte real: a Terra está, sim, girando cada vez mais devagar. E quem freia ela é a Lua.",
+     "busca": "full moon night",
+     "desde": 0,
+     "clipe": "TerraParar_35"
+    },
+    {
+     "frase": "A gravidade da Lua puxa os oceanos e forma as marés. O atrito dessas marés com o fundo do mar funciona como um freio bem fraquinho.",
+     "busca": "ocean tide beach",
+     "desde": 0,
+     "clipe": "TerraParar_36"
+    },
+    {
+     "frase": "Por causa disso, o dia fica cerca de dois milésimos de segundo mais longo a cada século.",
+     "anim": {
+      "emoji": "⏱️",
+      "texto": "+2 milésimos de segundo por século"
+     }
+    },
+    {
+     "frase": "Parece nada, mas em milhões de anos faz diferença. No tempo dos dinossauros, um dia tinha cerca de vinte e três horas e meia.",
+     "busca": "dinosaur",
+     "desde": 0,
+     "foto": "Ter_trex",
+     "legenda": "Esqueleto de Tyrannosaurus rex"
+    },
+    {
+     "frase": "Mesmo assim, a Terra não vai parar. Muito antes disso, daqui a bilhões de anos, o Sol vai mudar, e a história do nosso planeta será outra.",
+     "busca": "sun surface",
+     "desde": 0,
+     "clipe": "TerraParar_39"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Então pode ficar tranquilo: a Terra continua girando, e a física garante que ela não vai parar de repente.",
+     "busca": "earth rotating",
+     "desde": 0,
+     "clipe": "TerraParar_40"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: o que você faria num dia de seis meses?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Agora mesmo, você está girando junto com a Terra a mais de mil quilômetros por hora. E não sente nada.",
+  "Mas o que aconteceria se, de uma hora para outra, a Terra parasse de girar?",
+  "Neste vídeo, a física responde: o que acontece se ela parar de repente, o que acontece se ela parar devagar, e uma notícia curiosa: a Terra está mesmo freando.",
+  "A Terra dá uma volta em si mesma a cada vinte e quatro horas. Na linha do Equador, isso dá mil seiscentos e setenta quilômetros por hora.",
+  "Aqui em Manaus, pertinho do Equador, é quase isso. Em Porto Alegre, mais ao sul, uns mil e quatrocentos e cinquenta. E nos polos, quase zero.",
+  "A gente não sente porque tudo gira junto: o chão, o ar, os prédios e você. É como estar num avião em velocidade de cruzeiro: se ele não balança, parece parado.",
+  "O que o corpo sente é mudança de velocidade. E é exatamente isso que tornaria uma parada tão perigosa.",
+  "Imagine que a rocha do planeta parasse num instante. Tudo que está solto em cima dela continuaria indo para o leste, a mais de mil e seiscentos quilômetros por hora.",
+  "É a inércia, a mesma coisa que te joga para frente quando o ônibus freia. Só que muito, mas muito mais forte.",
+  "Pessoas, carros, árvores e prédios seriam arrancados e arremessados. O ar também: viriam ventos de mais de mil quilômetros por hora, mais fortes que qualquer tornado.",
+  "Os oceanos sairiam do lugar e invadiriam os continentes em ondas gigantes.",
+  "A boa notícia: isso é impossível. Não existe nada perto de nós capaz de frear um planeta inteiro de uma vez. É só um experimento de pensamento.",
+  "E se a Terra fosse parando bem devagar, ao longo de milhares de anos? Aí ninguém seria arremessado. Mas o planeta mudaria completamente.",
+  "Por causa do giro, a Terra não é uma bola perfeita. Ela é um pouco achatada nos polos e mais larga no Equador: uns quarenta e três quilômetros a mais de diâmetro.",
+  "Os oceanos também ficam empurrados para o Equador, como uma barriga de água em volta do planeta.",
+  "Sem o giro, essa água escorreria para os polos. Surgiriam dois oceanos gigantes, um no norte e outro no sul.",
+  "E no meio, ao longo do Equador, apareceria um continente enorme, dando a volta no planeta inteiro.",
+  "Esse cálculo foi feito por cientistas, usando mapas do relevo e da profundidade do fundo do mar.",
+  "Mesmo parada, a Terra continuaria dando a volta em torno do Sol, uma vez por ano.",
+  "Então o Sol passaria a nascer e se pôr só uma vez por ano. Seriam seis meses de dia e seis meses de noite.",
+  "Do lado de dia, o Sol esquentaria o chão sem parar, por meses. Do lado de noite, o frio seria de inverno polar, também por meses.",
+  "O ar quente do lado iluminado correria para o lado escuro, criando ventos constantes ao redor do planeta.",
+  "Plantas e animais que dependem do ciclo de dia e noite teriam que se adaptar, ou desapareceriam.",
+  "O giro da Terra é o que faz os furacões girarem. Sem ele, as grandes tempestades não teriam aquele formato de redemoinho.",
+  "E tem um problema mais sério. O campo magnético da Terra nasce do ferro derretido que se move lá no núcleo, e o giro do planeta ajuda a organizar esse movimento.",
+  "Muitos cientistas acham que, sem rotação, esse campo ficaria bem mais fraco.",
+  "Ele é o nosso escudo contra as partículas que saem do Sol. Sem ele, mais radiação chegaria aqui, e as auroras poderiam aparecer em lugares onde hoje nunca aparecem.",
+  "Marte é um exemplo de planeta que perdeu o campo magnético: ao longo de bilhões de anos, o vento solar foi levando boa parte do ar dele.",
+  "E um detalhe curioso: hoje, no Equador, o giro da Terra deixa você um pouquinho mais leve.",
+  "É o mesmo efeito de um brinquedo de parque que gira: parece que algo te empurra para fora. Esse efeito diminui o seu peso em cerca de três décimos por cento.",
+  "Se a Terra parasse, uma pessoa de setenta quilos no Equador ia pesar uns duzentos e cinquenta gramas a mais.",
+  "E o contrário? Se a Terra girasse mais rápido, os dias ficariam mais curtos, e aquele efeito que empurra para fora ficaria mais forte.",
+  "Se ela desse uma volta completa em pouco menos de uma hora e meia, quem estivesse no Equador ficaria praticamente sem peso, quase flutuando.",
+  "Não é coincidência: a Estação Espacial Internacional dá uma volta na Terra em cerca de noventa minutos, e é justamente por isso que os astronautas flutuam lá dentro.",
+  "E os oceanos se acumulariam ainda mais no Equador, invadindo as cidades da faixa do meio do planeta, enquanto os polos ficariam quase sem mar.",
+  "Agora a parte real: a Terra está, sim, girando cada vez mais devagar. E quem freia ela é a Lua.",
+  "A gravidade da Lua puxa os oceanos e forma as marés. O atrito dessas marés com o fundo do mar funciona como um freio bem fraquinho.",
+  "Por causa disso, o dia fica cerca de dois milésimos de segundo mais longo a cada século.",
+  "Parece nada, mas em milhões de anos faz diferença. No tempo dos dinossauros, um dia tinha cerca de vinte e três horas e meia.",
+  "Mesmo assim, a Terra não vai parar. Muito antes disso, daqui a bilhões de anos, o Sol vai mudar, e a história do nosso planeta será outra.",
+  "Então pode ficar tranquilo: a Terra continua girando, e a física garante que ela não vai parar de repente.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: o que você faria num dia de seis meses?"
+ ]
+}

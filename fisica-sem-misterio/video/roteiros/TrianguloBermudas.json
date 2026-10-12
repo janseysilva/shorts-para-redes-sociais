@@ -1,0 +1,65 @@
+{
+ "id": "TrianguloBermudas",
+ "titulo": "Triângulo das BERMUDAS: o que a física diz sobre o mistério 🔺",
+ "legenda": "Uma corrente marítima muito rápida, tempestades que surgem de repente e muito tráfego explicam os acidentes. Estudos mostram que ali não somem mais navios do que em outras áreas movimentadas do oceano! #fisica #triangulodasbermudas #misterio #oceano #curiosidades",
+ "final": {
+  "emoji": "🔺",
+  "frase": "Mais fama que mistério."
+ },
+ "frases": [
+  "O Triângulo das Bermudas ficou famoso por fazer navios e aviões sumirem. Mas o que a física diz?",
+  "É um pedaço do Oceano Atlântico entre a Flórida, Porto Rico e as ilhas Bermudas, com navios e aviões passando o tempo todo.",
+  "Ali passa a Corrente do Golfo, um rio dentro do mar, que corre rápido e leva para longe qualquer destroço.",
+  "O tempo muda de repente: tempestades fortes e trombas-d'água podem aparecer em poucos minutos.",
+  "O caso mais famoso é o de cinco aviões da Marinha americana, em mil novecentos e quarenta e cinco. Eles se perderam e ficaram sem combustível.",
+  "Os estudos mostram que ali não somem mais navios do que em outras partes movimentadas do oceano. É mais fama do que mistério.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Triângulo das BERMUDAS",
+   "destaque": [
+    "BERMUDAS"
+   ],
+   "busca": "ocean aerial deep blue"
+  },
+  {
+   "gancho": "Muito tráfego",
+   "destaque": [
+    "tráfego"
+   ],
+   "busca": "cargo ship ocean aerial"
+  },
+  {
+   "gancho": "Um RIO dentro do mar",
+   "destaque": [
+    "RIO"
+   ],
+   "busca": "ocean current",
+   "foto": "B_golfo"
+  },
+  {
+   "gancho": "Tempestade de repente",
+   "destaque": [
+    "repente"
+   ],
+   "busca": "storm ocean",
+   "foto": "B_tromba"
+  },
+  {
+   "gancho": "O Voo 19, em 1945",
+   "destaque": [
+    "1945"
+   ],
+   "busca": "old airplanes",
+   "foto": "B_avenger"
+  },
+  {
+   "gancho": "Mais FAMA que mistério",
+   "destaque": [
+    "FAMA"
+   ],
+   "busca": "ship sailing sea sunset"
+  }
+ ]
+}

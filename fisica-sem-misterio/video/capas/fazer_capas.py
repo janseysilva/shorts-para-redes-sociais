@@ -35,3 +35,19 @@ texto(d, (58, 455), "DO MUNDO", 74, "#FFFFFF", 8)
 d.rounded_rectangle((58, 580, 640, 660), 18, fill="#1D7FD6"); texto(d, (349, 620), "água fervendo vira neve", 44, "white", 0, "mm")
 im.save(D / "capa_Oymyakon.jpg", quality=92)
 print("ok")
+
+# Tornado
+im = base("q_Tornado_0.jpg"); d = ImageDraw.Draw(im)
+texto(d, (50, 110), "TORNADO", 190, "#FFFFFF", 12)
+texto(d, (58, 350), "COMO NASCE UM", 74, "#FFC94A", 8)
+texto(d, (58, 435), "MONSTRO DE VENTO", 74, "#FFC94A", 8)
+d.rounded_rectangle((58, 570, 620, 655), 18, fill="#E8401C"); texto(d, (339, 612), "o Brasil também tem!", 50, "white", 0, "mm")
+im.save(D / "capa_Tornado.jpg", quality=92)
+
+# Terra parada
+im = base("q_TerraParar_0.jpg", escurece_esq=False, espelha=True); d = ImageDraw.Draw(im)
+texto(d, (50, 120), "E SE A TERRA", 110, "#FFFFFF", 10)
+texto(d, (50, 250), "PARASSE?", 170, "#FFC94A", 12)
+d.rounded_rectangle((58, 560, 600, 645), 18, fill="#1D7FD6"); texto(d, (329, 602), "1.670 km/h → zero", 52, "white", 0, "mm")
+im.save(D / "capa_TerraParar.jpg", quality=92)
+print("ok2")

@@ -1,0 +1,388 @@
+{
+ "id": "Tornado",
+ "longo": true,
+ "titulo": "TORNADO: como nasce um monstro de vento 🌪️ (e sim, o Brasil tem tornados)",
+ "descricao": "Como uma tempestade comum vira um funil girando a mais de 300 km/h, por que ele gira tão rápido, a escala que mede a força, o Beco dos Tornados dos Estados Unidos, os tornados que já atingiram o Brasil e o que a física diz sobre como se proteger.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Um funil de vento girando a mais de trezentos quilômetros por hora, capaz de levantar carros e arrancar casas do chão.",
+     "busca": "tornado",
+     "desde": 0,
+     "clipe": "Tornado_0"
+    },
+    {
+     "frase": "Neste vídeo você vai entender como uma tempestade comum se transforma num tornado, por que ele gira tão rápido e por que alguns lugares do mundo têm tantos.",
+     "busca": "storm clouds timelapse",
+     "desde": 0,
+     "clipe": "Tornado_1"
+    },
+    {
+     "frase": "E vamos falar de uma coisa que muita gente não sabe: o Brasil também tem tornados, e alguns foram muito fortes.",
+     "busca": "dark storm clouds field",
+     "desde": 0,
+     "clipe": "Tornado_2"
+    }
+   ]
+  },
+  {
+   "titulo": "Tudo começa numa tempestade",
+   "cenas": [
+    {
+     "frase": "Quase todo tornado forte nasce dentro de um tipo especial de tempestade, chamada supercélula.",
+     "busca": "supercell storm",
+     "desde": 0,
+     "clipe": "Tornado_3"
+    },
+    {
+     "frase": "Para ela se formar, é preciso uma receita: ar quente e úmido perto do chão, e ar frio e seco lá em cima.",
+     "anim": {
+      "emoji": "🌡️",
+      "texto": "Quente e úmido embaixo, frio e seco em cima"
+     }
+    },
+    {
+     "frase": "Ar quente é mais leve. Ele sobe com força, como uma bolha numa panela, e forma nuvens enormes, que podem passar de quinze quilômetros de altura.",
+     "busca": "cumulonimbus cloud",
+     "desde": 0,
+     "clipe": "Tornado_5"
+    },
+    {
+     "frase": "O segundo ingrediente é o vento mudando de direção e de velocidade conforme a altura: fraco e de um lado perto do chão, forte e de outro lado lá no alto.",
+     "anim": {
+      "emoji": "💨",
+      "texto": "O vento muda com a altura"
+     }
+    },
+    {
+     "frase": "Essa diferença faz o ar perto do chão começar a rolar, como um rolo de massa deitado, girando na horizontal.",
+     "anim": {
+      "emoji": "🌀",
+      "texto": "Um rolo de ar deitado"
+     }
+    },
+    {
+     "frase": "Quando a corrente de ar quente da tempestade sobe, ela levanta esse rolo e deixa ele em pé. Agora a nuvem inteira começa a girar.",
+     "busca": "rotating storm clouds",
+     "desde": 0,
+     "clipe": "Tornado_8"
+    },
+    {
+     "frase": "Essa parte que gira dentro da tempestade se chama mesociclone. Ela pode ter vários quilômetros de largura.",
+     "busca": "supercell thunderstorm",
+     "desde": 0,
+     "clipe": "Tornado_9"
+    }
+   ]
+  },
+  {
+   "titulo": "O funil desce",
+   "cenas": [
+    {
+     "frase": "Nem todo mesociclone vira tornado. Os cientistas ainda estudam exatamente o que faz a rotação descer até o chão.",
+     "busca": "storm clouds dark",
+     "desde": 0,
+     "foto": "Tor_backlit",
+     "legenda": "Funil começando a se formar, Estados Unidos"
+    },
+    {
+     "frase": "Quando acontece, aparece primeiro uma nuvem baixa e escura, que gira devagar: a nuvem-parede.",
+     "busca": "wall cloud",
+     "desde": 0,
+     "foto": "Tor_parede",
+     "legenda": "Nuvem-parede girando"
+    },
+    {
+     "frase": "Dela desce o funil. Ele fica visível porque, dentro dele, a pressão cai muito, o ar esfria e o vapor de água vira gotinhas, formando a nuvem em forma de cone.",
+     "busca": "tornado funnel cloud",
+     "desde": 0,
+     "foto": "Tor_funil",
+     "legenda": "Funil descendo até o chão"
+    },
+    {
+     "frase": "No chão, o tornado levanta poeira e destroços, que formam uma nuvem em volta da base. Às vezes a gente só vê essa poeira girando.",
+     "busca": "dust devil",
+     "desde": 0,
+     "foto": "Tor_cordell",
+     "legenda": "Tornado em Cordell, Oklahoma, 1981"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que ele gira tão rápido",
+   "cenas": [
+    {
+     "frase": "A rotação começa larga e lenta. Então por que o tornado gira tão rápido?",
+     "busca": "tornado storm",
+     "desde": 0,
+     "foto": "Tor_enid",
+     "legenda": "Tornado em Enid, Oklahoma"
+    },
+    {
+     "frase": "Pense numa patinadora girando no gelo. Quando ela fecha os braços, gira muito mais rápido, sem fazer força nenhuma.",
+     "busca": "figure skater spinning",
+     "desde": 0,
+     "clipe": "Tornado_15"
+    },
+    {
+     "frase": "Isso se chama conservação do momento angular. Quanto mais perto do centro a coisa gira, mais rápido ela precisa girar.",
+     "anim": {
+      "emoji": "⛸️",
+      "texto": "Fechou os braços, girou mais rápido"
+     }
+    },
+    {
+     "frase": "No tornado é igual: o ar que girava num círculo de quilômetros é apertado num funil de algumas centenas de metros, e a velocidade dispara.",
+     "anim": {
+      "emoji": "🌪️",
+      "texto": "Círculo menor, vento mais rápido"
+     }
+    },
+    {
+     "frase": "É o mesmo motivo de a água girar mais rápido quando se aproxima do ralo da pia.",
+     "busca": "water draining sink",
+     "desde": 0,
+     "clipe": "Tornado_18"
+    }
+   ]
+  },
+  {
+   "titulo": "Quanto um tornado pode ser forte",
+   "cenas": [
+    {
+     "frase": "Para medir a força de um tornado, os cientistas usam a escala Fujita melhorada, que vai de zero a cinco.",
+     "anim": {
+      "emoji": "📏",
+      "texto": "Escala Fujita: de EF0 a EF5"
+     }
+    },
+    {
+     "frase": "Ela é calculada pelo estrago: um EF zero arranca telhas e galhos. Um EF cinco, com ventos acima de trezentos e vinte quilômetros por hora, varre casas inteiras do chão.",
+     "busca": "storm damage houses",
+     "desde": 0,
+     "clipe": "Tornado_20"
+    },
+    {
+     "frase": "Em mil novecentos e noventa e nove, perto da cidade de Moore, nos Estados Unidos, um radar mediu ventos de cerca de quatrocentos e oitenta quilômetros por hora dentro de um tornado, um dos ventos mais rápidos já registrados na Terra.",
+     "busca": "tornado storm field",
+     "desde": 0,
+     "foto": "Tor_moore",
+     "legenda": "Tornado de Moore, Oklahoma, 3 de maio de 1999"
+    },
+    {
+     "frase": "E o tornado mais largo já medido, em El Reno, em dois mil e treze, chegou a quatro quilômetros de largura.",
+     "busca": "huge storm",
+     "desde": 0,
+     "clipe": "Tornado_22"
+    },
+    {
+     "frase": "Mas a maioria dos tornados é bem menor: dura poucos minutos e anda alguns quilômetros.",
+     "busca": "thunderstorm plains",
+     "desde": 0,
+     "clipe": "Tornado_23"
+    }
+   ]
+  },
+  {
+   "titulo": "O Beco dos Tornados",
+   "cenas": [
+    {
+     "frase": "Os Estados Unidos têm mais de mil tornados por ano, mais do que qualquer outro país.",
+     "busca": "great plains storm",
+     "desde": 0,
+     "clipe": "Tornado_24"
+    },
+    {
+     "frase": "Isso acontece por causa da geografia. Do Golfo do México vem ar quente e úmido. Do Canadá, ar frio. E das Montanhas Rochosas, ar seco por cima.",
+     "anim": {
+      "emoji": "🗺️",
+      "texto": "Quente do Golfo + frio do Canadá + seco das montanhas"
+     }
+    },
+    {
+     "frase": "Essas massas de ar se encontram nas grandes planícies do centro do país, uma região plana chamada de Beco dos Tornados.",
+     "busca": "prairie storm",
+     "desde": 0,
+     "clipe": "Tornado_26"
+    },
+    {
+     "frase": "Na primavera, a receita da supercélula aparece quase todo dia por lá.",
+     "busca": "storm road clouds",
+     "desde": 0,
+     "clipe": "Tornado_27"
+    }
+   ]
+  },
+  {
+   "titulo": "Sim, o Brasil tem tornados",
+   "cenas": [
+    {
+     "frase": "E aqui vem a surpresa: a segunda região com mais tornados no mundo fica na América do Sul.",
+     "anim": {
+      "emoji": "🌎",
+      "texto": "2ª região com mais tornados do mundo"
+     }
+    },
+    {
+     "frase": "Ela pega o sul do Brasil, o Paraguai, o Uruguai e o norte da Argentina. O ar quente e úmido vem da Amazônia e encontra o ar frio que sobe do sul, com a Cordilheira dos Andes ajudando a montar a receita.",
+     "anim": {
+      "emoji": "🌪️",
+      "texto": "Amazônia + ar frio do sul + Andes"
+     }
+    },
+    {
+     "frase": "Em dois mil e quinze, um tornado atingiu Xanxerê, em Santa Catarina, destelhou centenas de casas e deixou vítimas.",
+     "busca": "destroyed roof",
+     "desde": 0,
+     "foto": "Tor_estrago",
+     "legenda": "Casa destruída por um tornado (Estados Unidos, 2013)"
+    },
+    {
+     "frase": "E em novembro de dois mil e vinte e cinco, um tornado muito forte passou por Rio Bonito do Iguaçu, no Paraná, destruiu grande parte da cidade e também deixou mortos e muitos feridos.",
+     "busca": "storm damage town",
+     "desde": 0,
+     "foto": "Tor_rb2",
+     "legenda": "Rio Bonito do Iguaçu (PR), novembro de 2025"
+    },
+    {
+     "frase": "Por isso a Defesa Civil emite alertas de tempestade severa no Sul. Entender o tornado ajuda a levar esses avisos a sério.",
+     "busca": "rain storm city",
+     "desde": 0,
+     "foto": "Tor_rb1",
+     "legenda": "Rio Bonito do Iguaçu (PR), depois do tornado"
+    }
+   ]
+  },
+  {
+   "titulo": "Como se proteger, segundo a física",
+   "cenas": [
+    {
+     "frase": "O que mais machuca num tornado nem é o vento em si. São as coisas que ele arremessa: telhas, vidros e tábuas, voando como projéteis.",
+     "busca": "strong wind debris",
+     "desde": 0,
+     "clipe": "Tornado_33"
+    },
+    {
+     "frase": "Por isso o lugar mais seguro é o cômodo mais interno da casa, sem janelas, no andar mais baixo. Banheiro ou corredor, abaixado e protegendo a cabeça.",
+     "anim": {
+      "emoji": "🏠",
+      "texto": "Cômodo interno, sem janelas, andar mais baixo"
+     }
+    },
+    {
+     "frase": "Um mito antigo dizia para abrir as janelas, para a casa não explodir com a diferença de pressão. Isso é falso: o que derruba a casa é o vento, e abrir janela só perde tempo e deixa os destroços entrarem.",
+     "anim": {
+      "emoji": "❌",
+      "texto": "Abrir as janelas: mito"
+     }
+    },
+    {
+     "frase": "Debaixo de viaduto também não é abrigo. O vento passa espremido ali, fica ainda mais rápido e cheio de destroços.",
+     "busca": "highway overpass",
+     "desde": 0,
+     "clipe": "Tornado_36"
+    },
+    {
+     "frase": "E carro não protege: o tornado consegue levantar e virar carros. Se não der para chegar a um abrigo, o melhor é deitar numa vala, longe dos carros e das árvores.",
+     "busca": "car driving storm",
+     "desde": 0,
+     "clipe": "Tornado_37"
+    }
+   ]
+  },
+  {
+   "titulo": "Como os cientistas caçam tornados",
+   "cenas": [
+    {
+     "frase": "Hoje, radares meteorológicos conseguem enxergar a rotação dentro da tempestade antes mesmo de o funil aparecer.",
+     "busca": "weather radar",
+     "desde": 0,
+     "clipe": "Tornado_38"
+    },
+    {
+     "frase": "O radar Doppler mede se as gotas de chuva estão vindo na direção dele ou indo embora. Quando, lado a lado, umas vêm e outras vão, é sinal de que o ar está girando.",
+     "anim": {
+      "emoji": "📡",
+      "texto": "Radar Doppler: vê o ar girando"
+     }
+    },
+    {
+     "frase": "E existem os caçadores de tempestades: cientistas que dirigem até perto das supercélulas com instrumentos, para entender melhor como o tornado nasce.",
+     "busca": "storm chaser",
+     "desde": 0,
+     "foto": "Tor_vortex",
+     "legenda": "Radar móvel de caçadores de tempestade"
+    },
+    {
+     "frase": "Graças a esse trabalho, os alertas nos Estados Unidos saem, em média, uns dez minutos antes de o tornado chegar. Parece pouco, mas salva muitas vidas.",
+     "busca": "storm sky town",
+     "desde": 0,
+     "clipe": "Tornado_41"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Um tornado é a física juntando calor, umidade e vento até virar uma das forças mais violentas da natureza.",
+     "busca": "storm clouds sunset",
+     "desde": 0,
+     "clipe": "Tornado_42"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já viu uma tempestade dessas de perto?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Um funil de vento girando a mais de trezentos quilômetros por hora, capaz de levantar carros e arrancar casas do chão.",
+  "Neste vídeo você vai entender como uma tempestade comum se transforma num tornado, por que ele gira tão rápido e por que alguns lugares do mundo têm tantos.",
+  "E vamos falar de uma coisa que muita gente não sabe: o Brasil também tem tornados, e alguns foram muito fortes.",
+  "Quase todo tornado forte nasce dentro de um tipo especial de tempestade, chamada supercélula.",
+  "Para ela se formar, é preciso uma receita: ar quente e úmido perto do chão, e ar frio e seco lá em cima.",
+  "Ar quente é mais leve. Ele sobe com força, como uma bolha numa panela, e forma nuvens enormes, que podem passar de quinze quilômetros de altura.",
+  "O segundo ingrediente é o vento mudando de direção e de velocidade conforme a altura: fraco e de um lado perto do chão, forte e de outro lado lá no alto.",
+  "Essa diferença faz o ar perto do chão começar a rolar, como um rolo de massa deitado, girando na horizontal.",
+  "Quando a corrente de ar quente da tempestade sobe, ela levanta esse rolo e deixa ele em pé. Agora a nuvem inteira começa a girar.",
+  "Essa parte que gira dentro da tempestade se chama mesociclone. Ela pode ter vários quilômetros de largura.",
+  "Nem todo mesociclone vira tornado. Os cientistas ainda estudam exatamente o que faz a rotação descer até o chão.",
+  "Quando acontece, aparece primeiro uma nuvem baixa e escura, que gira devagar: a nuvem-parede.",
+  "Dela desce o funil. Ele fica visível porque, dentro dele, a pressão cai muito, o ar esfria e o vapor de água vira gotinhas, formando a nuvem em forma de cone.",
+  "No chão, o tornado levanta poeira e destroços, que formam uma nuvem em volta da base. Às vezes a gente só vê essa poeira girando.",
+  "A rotação começa larga e lenta. Então por que o tornado gira tão rápido?",
+  "Pense numa patinadora girando no gelo. Quando ela fecha os braços, gira muito mais rápido, sem fazer força nenhuma.",
+  "Isso se chama conservação do momento angular. Quanto mais perto do centro a coisa gira, mais rápido ela precisa girar.",
+  "No tornado é igual: o ar que girava num círculo de quilômetros é apertado num funil de algumas centenas de metros, e a velocidade dispara.",
+  "É o mesmo motivo de a água girar mais rápido quando se aproxima do ralo da pia.",
+  "Para medir a força de um tornado, os cientistas usam a escala Fujita melhorada, que vai de zero a cinco.",
+  "Ela é calculada pelo estrago: um EF zero arranca telhas e galhos. Um EF cinco, com ventos acima de trezentos e vinte quilômetros por hora, varre casas inteiras do chão.",
+  "Em mil novecentos e noventa e nove, perto da cidade de Moore, nos Estados Unidos, um radar mediu ventos de cerca de quatrocentos e oitenta quilômetros por hora dentro de um tornado, um dos ventos mais rápidos já registrados na Terra.",
+  "E o tornado mais largo já medido, em El Reno, em dois mil e treze, chegou a quatro quilômetros de largura.",
+  "Mas a maioria dos tornados é bem menor: dura poucos minutos e anda alguns quilômetros.",
+  "Os Estados Unidos têm mais de mil tornados por ano, mais do que qualquer outro país.",
+  "Isso acontece por causa da geografia. Do Golfo do México vem ar quente e úmido. Do Canadá, ar frio. E das Montanhas Rochosas, ar seco por cima.",
+  "Essas massas de ar se encontram nas grandes planícies do centro do país, uma região plana chamada de Beco dos Tornados.",
+  "Na primavera, a receita da supercélula aparece quase todo dia por lá.",
+  "E aqui vem a surpresa: a segunda região com mais tornados no mundo fica na América do Sul.",
+  "Ela pega o sul do Brasil, o Paraguai, o Uruguai e o norte da Argentina. O ar quente e úmido vem da Amazônia e encontra o ar frio que sobe do sul, com a Cordilheira dos Andes ajudando a montar a receita.",
+  "Em dois mil e quinze, um tornado atingiu Xanxerê, em Santa Catarina, destelhou centenas de casas e deixou vítimas.",
+  "E em novembro de dois mil e vinte e cinco, um tornado muito forte passou por Rio Bonito do Iguaçu, no Paraná, destruiu grande parte da cidade e também deixou mortos e muitos feridos.",
+  "Por isso a Defesa Civil emite alertas de tempestade severa no Sul. Entender o tornado ajuda a levar esses avisos a sério.",
+  "O que mais machuca num tornado nem é o vento em si. São as coisas que ele arremessa: telhas, vidros e tábuas, voando como projéteis.",
+  "Por isso o lugar mais seguro é o cômodo mais interno da casa, sem janelas, no andar mais baixo. Banheiro ou corredor, abaixado e protegendo a cabeça.",
+  "Um mito antigo dizia para abrir as janelas, para a casa não explodir com a diferença de pressão. Isso é falso: o que derruba a casa é o vento, e abrir janela só perde tempo e deixa os destroços entrarem.",
+  "Debaixo de viaduto também não é abrigo. O vento passa espremido ali, fica ainda mais rápido e cheio de destroços.",
+  "E carro não protege: o tornado consegue levantar e virar carros. Se não der para chegar a um abrigo, o melhor é deitar numa vala, longe dos carros e das árvores.",
+  "Hoje, radares meteorológicos conseguem enxergar a rotação dentro da tempestade antes mesmo de o funil aparecer.",
+  "O radar Doppler mede se as gotas de chuva estão vindo na direção dele ou indo embora. Quando, lado a lado, umas vêm e outras vão, é sinal de que o ar está girando.",
+  "E existem os caçadores de tempestades: cientistas que dirigem até perto das supercélulas com instrumentos, para entender melhor como o tornado nasce.",
+  "Graças a esse trabalho, os alertas nos Estados Unidos saem, em média, uns dez minutos antes de o tornado chegar. Parece pouco, mas salva muitas vidas.",
+  "Um tornado é a física juntando calor, umidade e vento até virar uma das forças mais violentas da natureza.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já viu uma tempestade dessas de perto?"
+ ]
+}
