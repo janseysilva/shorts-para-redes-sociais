@@ -8,6 +8,13 @@ Jansey publica Shorts todo dia em 3 canais da conta Google **janseysilva@gmail.c
 
 Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publicação. Leia o do canal antes de mexer.
 
+## Situação em 12/10 (resumo rápido)
+- **Física Sem Mistério** é o único canal ativo: 59 shorts e 4 vídeos longos no YouTube (Vulcão, Oymyakon, Tornado, Terra parada). Ritmo combinado: 2 shorts + 2 longos por dia, temas "uau" e em alta, sempre com fotos/vídeos reais.
+- **Instagram @fisicasemmisteriobr** ligado à Página do Facebook: Reels publicados pelo Meta Business Suite (FB+IG juntos). Já nas redes: avião de lado, navio de aço, Coca de vidro, passarinho no fio, Triângulo das Bermudas, lugar mais quente, dedos enrugam, água e óleo.
+- Voz (edge-tts): desde 12/10 a síntese usa o host novo da Microsoft via `fisica-sem-misterio/video/edge_fix.py`.
+- Vídeo longo (>10 MB): o Claude abre a tela de envio numa aba do Claude in Chrome, o Jansey arrasta o .mp4 e o Claude preenche o resto.
+- Detalhes do passo a passo: `fisica-sem-misterio/CLAUDE.md`.
+
 ## Regras de Jansey (sempre)
 1. Responder em **português (pt-BR)**.
 2. **Mostrar os temas primeiro e esperar o OK** antes de produzir qualquer vídeo.
