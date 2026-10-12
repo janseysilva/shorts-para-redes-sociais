@@ -316,5 +316,209 @@
   "autor": "National Weather Service Office in Norman, Oklahoma",
   "licenca": "Public domain",
   "pagina": "https://commons.wikimedia.org/wiki/File:EF3_damage_from_2013_El_Reno_tornado.jpeg"
+ },
+ "E_topo": {
+  "arquivo": "Everest Summit.jpg",
+  "autor": "Alfonso.mnr",
+  "licenca": "CC0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Everest_Summit.jpg"
+ },
+ "E_fila": {
+  "arquivo": "Traffic near Yellow Band Rock.jpg",
+  "autor": "AngeliSherpa",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Traffic_near_Yellow_Band_Rock.jpg"
+ },
+ "E_faixa": {
+  "arquivo": "Mount Everest a close view with south summit and yellow band.jpg",
+  "autor": "Goutam1962",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mount_Everest_a_close_view_with_south_summit_and_yellow_band.jpg"
+ },
+ "D_horn": {
+  "arquivo": "00 4479 Cape Horn.jpg",
+  "autor": "W. Bulach",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:00_4479_Cape_Horn.jpg"
+ },
+ "D_corrente": {
+  "arquivo": "Antarctic Circumpolar Current.jpg",
+  "autor": "NASA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Antarctic_Circumpolar_Current.jpg"
+ },
+ "D_aster": {
+  "arquivo": "Cape Horn, Chile (ASTER).jpg",
+  "autor": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Cape_Horn,_Chile_(ASTER).jpg"
+ },
+ "D_mar": {
+  "arquivo": "119 1920 Drake Passage (Kap Hoorn - Antarktis).jpg",
+  "autor": "W. Bulach",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:119_1920_Drake_Passage_(Kap_Hoorn_-_Antarktis).jpg"
+ },
+ "D_mar2": {
+  "arquivo": "00 1922 Drake Passage - (South America - Antarctic).jpg",
+  "autor": "W. Bulach",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:00_1922_Drake_Passage_-_(South_America_-_Antarctic).jpg"
+ },
+ "E_monte": {
+  "arquivo": "Everest kalapatthar crop.jpg",
+  "autor": "Photo by Pavel Novak",
+  "licenca": "CC BY-SA 2.5",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Everest_kalapatthar_crop.jpg"
+ },
+ "M_chicx": {
+  "arquivo": "Chicxulub2.jpg",
+  "autor": "NASA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chicxulub2.jpg"
+ },
+ "M_grav": {
+  "arquivo": "Chicxulub Free-Air Gravity anomaly.png",
+  "autor": "J. Klokočník, J. Kostelecký, I. Pešek, P. Novák, C. A. Wagner, and J. Sebera",
+  "licenca": "CC BY 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chicxulub_Free-Air_Gravity_anomaly.png"
+ },
+ "M_gubbio": {
+  "arquivo": "Walter Alvarez and Alessandro Montanari at K Pg (KT) Boundary at Bottaccione Gorge near Gubbio Italy.jpg",
+  "autor": "Orangeboxes2",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Walter_Alvarez_and_Alessandro_Montanari_at_K_Pg_(KT)_Boundary_at_Bottaccione_Gorge_near_Gubbio_Italy.jpg"
+ },
+ "M_alvarez": {
+  "arquivo": "LWA with Walt.JPG",
+  "autor": "U S Government",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:LWA_with_Walt.JPG"
+ },
+ "M_kt": {
+  "arquivo": "K-T boundary TLSP.jpg",
+  "autor": "w:en:User:Nationalparks",
+  "licenca": "CC BY-SA 2.5",
+  "pagina": "https://commons.wikimedia.org/wiki/File:K-T_boundary_TLSP.jpg"
+ },
+ "M_chel1": {
+  "arquivo": "Chelyabinsk meteor trace 15-02-2013.jpg",
+  "autor": "Nikita Plekhanov",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chelyabinsk_meteor_trace_15-02-2013.jpg"
+ },
+ "M_chel2": {
+  "arquivo": "A trace of the meteorite in Chelyabinsk.JPG",
+  "autor": "Uragan. TT",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:A_trace_of_the_meteorite_in_Chelyabinsk.JPG"
+ },
+ "M_tung": {
+  "arquivo": "Tunguska Ereignis-1.jpg",
+  "autor": "Leonid Kulik, the expedition to the Tunguska event",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg"
+ },
+ "M_crater": {
+  "arquivo": "Meteor Crater - Arizona.jpg",
+  "autor": "National Map Seamless Server",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Meteor_Crater_-_Arizona.jpg"
+ },
+ "M_aragua": {
+  "arquivo": "Araguainha crater LC08 L1TP 224072 20200518 20200820 02 T1.jpg",
+  "autor": "NASA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Araguainha_crater_LC08_L1TP_224072_20200518_20200820_02_T1.jpg"
+ },
+ "M_bende": {
+  "arquivo": "Saguão do Museu Nacional, com o Meteorito do Bendegó ao centro.jpg",
+  "autor": "Dornicke",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sagu%C3%A3o_do_Museu_Nacional,_com_o_Meteorito_do_Bendeg%C3%B3_ao_centro.jpg"
+ },
+ "M_dimor": {
+  "arquivo": "Dimorphos high res image.jpg",
+  "autor": "National Aeronautics and Space Administration",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Dimorphos_high_res_image.jpg"
+ },
+ "M_perseid": {
+  "arquivo": "2016 Meteor.jpg",
+  "autor": "Jacek Halicki",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2016_Meteor.jpg"
+ },
+ "B_m87": {
+  "arquivo": "Black hole - Messier 87 crop max res.jpg",
+  "autor": "Event Horizon Telescope, uploader cropped and converted TIF to JPG",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+ },
+ "B_sgra": {
+  "arquivo": "Sag A*.jpg",
+  "autor": "EHT Collaboration",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sag_A*.jpg"
+ },
+ "B_crab": {
+  "arquivo": "Crab Nebula.jpg",
+  "autor": "NASA, ESA, J. Hester and A. Loll (Arizona State University)",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Crab_Nebula.jpg"
+ },
+ "B_alma": {
+  "arquivo": "ALMA antennas on Chajnantor.jpg",
+  "autor": "ESO/B. Tafreshi (twanight.org)",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:ALMA_antennas_on_Chajnantor.jpg"
+ },
+ "B_s301": {
+  "arquivo": "VLT images of the S301 star orbiting Sagittarius A* (eso2612a).jpg",
+  "autor": "ESO/GRAVITY collaboration",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:VLT_images_of_the_S301_star_orbiting_Sagittarius_A*_(eso2612a).jpg"
+ },
+ "B_ligo": {
+  "arquivo": "LIGO Hanford aerial 05.jpg",
+  "autor": "LIGO Laboratory",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:LIGO_Hanford_aerial_05.jpg"
+ },
+ "B_hawking": {
+  "arquivo": "Stephen Hawking NASA 50th 200804210001HQ.jpg",
+  "autor": "NASA/Paul E. Alers",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking_NASA_50th_200804210001HQ.jpg"
+ },
+ "B_eta": {
+  "arquivo": "EtaCarinae.jpg",
+  "autor": "Nathan Smith (University of California, Berkeley), and NASA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:EtaCarinae.jpg"
+ },
+ "B_galaxia": {
+  "arquivo": "Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg",
+  "autor": "NASA, ESA, and The Hubble Heritage Team STScI/AURA)",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg"
+ },
+ "B_jato": {
+  "arquivo": "M87 jet.jpg",
+  "autor": "NASA and The Hubble Heritage Team (STScI/AURA)",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:M87_jet.jpg"
+ },
+ "B_cyg": {
+  "arquivo": "Chandra image of Cygnus X-1.jpg",
+  "autor": "NASA's Chandra X-ray Observatory; Credits: NASA/CXC",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chandra_image_of_Cygnus_X-1.jpg"
+ },
+ "M_meteorito": {
+  "arquivo": "Willamette Meteorite AMNH.jpg",
+  "autor": "User:Dante Alighieri",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Willamette_Meteorite_AMNH.jpg"
  }
 }

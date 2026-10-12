@@ -1,0 +1,69 @@
+{
+ "id": "LugarAlto",
+ "titulo": "O lugar mais ALTO do mundo: 8.849 metros 🏔️",
+ "legenda": "O topo do Everest fica a 8.849 m. Lá o ar tem só um terço do oxigênio, a água ferve a uns 70 °C e a rocha do topo já foi fundo de mar, com fósseis de animais marinhos! #fisica #everest #montanha #curiosidades #ciencia",
+ "final": {
+  "emoji": "🏔️",
+  "frase": "O teto do mundo."
+ },
+ "frases": [
+  "Este é o lugar mais alto do planeta: o topo do Everest, a oito mil oitocentos e quarenta e nove metros de altura.",
+  "Lá em cima, o ar é tão rarefeito que cada respiração traz só um terço do oxigênio que você respira aqui embaixo.",
+  "Acima de oito mil metros fica a zona da morte: o corpo não consegue se adaptar, e quase todo mundo sobe com cilindro de oxigênio.",
+  "Com tão pouca pressão, a água ferve a uns setenta graus. Ela borbulha, mas não fica quente o bastante para cozinhar direito um macarrão.",
+  "E o mais surpreendente: a rocha do topo do Everest já foi fundo de mar. Nela existem fósseis de animais marinhos.",
+  "A Índia bateu na Ásia e empurrou esse fundo de mar para o céu. E continua empurrando: o Everest ainda cresce alguns milímetros por ano.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "8.849 metros",
+   "destaque": [
+    "8.849"
+   ],
+   "busca": "mount everest",
+   "foto": "E_monte"
+  },
+  {
+   "gancho": "1/3 do oxigênio",
+   "destaque": [
+    "1/3"
+   ],
+   "busca": "everest summit",
+   "foto": "E_topo"
+  },
+  {
+   "gancho": "Zona da MORTE",
+   "destaque": [
+    "MORTE"
+   ],
+   "busca": "climbers everest",
+   "foto": "E_fila"
+  },
+  {
+   "gancho": "Água ferve a 70 °C",
+   "destaque": [
+    "70"
+   ],
+   "anim": {
+    "emoji": "♨️",
+    "texto": "Menos pressão, a água ferve mais cedo"
+   }
+  },
+  {
+   "gancho": "Fóssil de MAR no topo",
+   "destaque": [
+    "MAR"
+   ],
+   "busca": "everest summit rock",
+   "foto": "E_faixa"
+  },
+  {
+   "gancho": "Ainda CRESCE",
+   "destaque": [
+    "CRESCE"
+   ],
+   "busca": "himalaya mountains aerial"
+  }
+ ]
+}

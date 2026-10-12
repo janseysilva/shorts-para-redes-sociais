@@ -123,6 +123,10 @@ import rTrianguloBermudas from "../roteiros/TrianguloBermudas.json";
 import tTrianguloBermudas from "../public/TrianguloBermudas/tempos.json";
 import rLugarQuente from "../roteiros/LugarQuente.json";
 import tLugarQuente from "../public/LugarQuente/tempos.json";
+import rLugarAlto from "../roteiros/LugarAlto.json";
+import tLugarAlto from "../public/LugarAlto/tempos.json";
+import rMarDrake from "../roteiros/MarDrake.json";
+import tMarDrake from "../public/MarDrake/tempos.json";
 import { Longo, type RoteiroLongo, type TemposLongo } from "./Longo";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
@@ -132,6 +136,10 @@ import rTornado from "../roteiros/Tornado.json";
 import tTornado from "../public/Tornado/tempos.json";
 import rTerraParar from "../roteiros/TerraParar.json";
 import tTerraParar from "../public/TerraParar/tempos.json";
+import rMeteoro from "../roteiros/Meteoro.json";
+import tMeteoro from "../public/Meteoro/tempos.json";
+import rBuracoNegro from "../roteiros/BuracoNegro.json";
+import tBuracoNegro from "../public/BuracoNegro/tempos.json";
 import rMacaEscurece from "../roteiros/MacaEscurece.json";
 import tMacaEscurece from "../public/MacaEscurece/tempos.json";
 
@@ -150,7 +158,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -159,6 +167,8 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rOymyakon as RoteiroLongo, tOymyakon, ["OYMYAKON", "A vila mais fria do mundo"], "Oymyakon_41"],
   [rTornado as RoteiroLongo, tTornado, ["TORNADO", "Como nasce um monstro de vento"], "Tornado_42"],
   [rTerraParar as RoteiroLongo, tTerraParar, ["TERRA PARADA", "E se ela parasse de girar?"], "TerraParar_40"],
+  [rMeteoro as RoteiroLongo, tMeteoro, ["METEORO", "O dia em que os dinossauros acabaram"], "Meteoro_46"],
+  [rBuracoNegro as RoteiroLongo, tBuracoNegro, ["BURACO NEGRO", "Onde nem a luz escapa"], "BuracoNegro_46"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

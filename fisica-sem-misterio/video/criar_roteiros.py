@@ -676,6 +676,29 @@ short("LugarQuente", "O lugar mais QUENTE do mundo: 56 °C 🔥",
     ("Nesse calor, o corpo perde água muito rápido. Sem beber, em poucas horas a pessoa pode passar mal e desmaiar.", "Perigo: desidratação", ["desidratação"], v("hiker desert water bottle")),
 ])
 
+# ---------- LEVA 12 (12/10): série "o lugar mais...", com fotos reais ----------
+short("LugarAlto", "O lugar mais ALTO do mundo: 8.849 metros 🏔️",
+      "O topo do Everest fica a 8.849 m. Lá o ar tem só um terço do oxigênio, a água ferve a uns 70 °C e a rocha do topo já foi fundo de mar, com fósseis de animais marinhos! #fisica #everest #montanha #curiosidades #ciencia",
+      "🏔️", "O teto do mundo.", [
+    ("Este é o lugar mais alto do planeta: o topo do Everest, a oito mil oitocentos e quarenta e nove metros de altura.", "8.849 metros", ["8.849"], {"busca": "mount everest", "foto": "E_monte"}),
+    ("Lá em cima, o ar é tão rarefeito que cada respiração traz só um terço do oxigênio que você respira aqui embaixo.", "1/3 do oxigênio", ["1/3"], {"busca": "everest summit", "foto": "E_topo"}),
+    ("Acima de oito mil metros fica a zona da morte: o corpo não consegue se adaptar, e quase todo mundo sobe com cilindro de oxigênio.", "Zona da MORTE", ["MORTE"], {"busca": "climbers everest", "foto": "E_fila"}),
+    ("Com tão pouca pressão, a água ferve a uns setenta graus. Ela borbulha, mas não fica quente o bastante para cozinhar direito um macarrão.", "Água ferve a 70 °C", ["70"], a("♨️", "Menos pressão, a água ferve mais cedo")),
+    ("E o mais surpreendente: a rocha do topo do Everest já foi fundo de mar. Nela existem fósseis de animais marinhos.", "Fóssil de MAR no topo", ["MAR"], {"busca": "everest summit rock", "foto": "E_faixa"}),
+    ("A Índia bateu na Ásia e empurrou esse fundo de mar para o céu. E continua empurrando: o Everest ainda cresce alguns milímetros por ano.", "Ainda CRESCE", ["CRESCE"], v("himalaya mountains aerial")),
+])
+
+short("MarDrake", "O lugar mais PERIGOSO do oceano: a Passagem de Drake 🌊",
+      "Entre a América do Sul e a Antártida não existe nenhum continente em volta do planeta: o vento dá a volta na Terra sem freio, levanta ondas enormes e empurra a maior corrente marinha do mundo. Ali fica o Cabo Horn, o cemitério de navios! #fisica #oceano #passagemdedrake #mar #curiosidades",
+      "🌊", "Onde o vento não tem freio.", [
+    ("O mar mais perigoso do mundo fica no fim da América do Sul: a Passagem de Drake, entre o Chile e a Antártida.", "Passagem de DRAKE", ["DRAKE"], {"busca": "drake passage", "foto": "D_mar"}),
+    ("Em tempestade, as ondas ali passam de dez metros e cobrem o convés de navios enormes.", "Ondas de 10 METROS", ["METROS"], {"busca": "ship big waves", "foto": "D_mar2"}),
+    ("O motivo: nessa faixa do planeta não existe nenhum continente. O vento sopra dando a volta na Terra inteira, sem nada para frear.", "Nada para FREAR", ["FREAR"], a("🌍", "O vento dá a volta na Terra sem parar")),
+    ("Esse vento empurra a maior corrente marinha do mundo, que carrega mais de cem vezes a água de todos os rios da Terra juntos.", "A MAIOR corrente do mundo", ["MAIOR"], {"busca": "ocean current map", "foto": "D_corrente"}),
+    ("Bem ali fica o Cabo Horn, chamado de cemitério de navios: centenas de barcos afundaram tentando passar.", "Cemitério de NAVIOS", ["NAVIOS"], {"busca": "cape horn", "foto": "D_horn"}),
+    ("Até hoje, quem vai de navio para a Antártida precisa atravessar o Drake. E muita gente diz que são os dois dias mais longos da vida.", "Até HOJE", ["HOJE"], v("ship stormy sea waves")),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

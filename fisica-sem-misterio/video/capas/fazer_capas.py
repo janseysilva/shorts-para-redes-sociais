@@ -51,3 +51,20 @@ texto(d, (50, 250), "PARASSE?", 170, "#FFC94A", 12)
 d.rounded_rectangle((58, 560, 600, 645), 18, fill="#1D7FD6"); texto(d, (329, 602), "1.670 km/h → zero", 52, "white", 0, "mm")
 im.save(D / "capa_TerraParar.jpg", quality=92)
 print("ok2")
+
+# Meteoro
+im = base("q_Meteoro_0.jpg"); d = ImageDraw.Draw(im)
+texto(d, (50, 110), "METEORO", 190, "#FFFFFF", 12)
+texto(d, (58, 350), "O DIA EM QUE OS", 74, "#FFC94A", 8)
+texto(d, (58, 435), "DINOSSAUROS ACABARAM", 74, "#FFC94A", 8)
+d.rounded_rectangle((58, 570, 560, 655), 18, fill="#E8401C"); texto(d, (309, 612), "e se cair outro?", 54, "white", 0, "mm")
+im.save(D / "capa_Meteoro.jpg", quality=92)
+
+# Buraco negro
+im = base("q_BuracoNegro_0.jpg"); d = ImageDraw.Draw(im)
+texto(d, (50, 110), "BURACO", 170, "#FFFFFF", 12)
+texto(d, (50, 290), "NEGRO", 170, "#FFFFFF", 12)
+texto(d, (58, 500), "E SE VOCÊ CAÍSSE?", 74, "#FFC94A", 8)
+d.rounded_rectangle((58, 600, 640, 680), 18, fill="#1D7FD6"); texto(d, (349, 640), "a primeira foto real", 50, "white", 0, "mm")
+im.save(D / "capa_BuracoNegro.jpg", quality=92)
+print("ok3")

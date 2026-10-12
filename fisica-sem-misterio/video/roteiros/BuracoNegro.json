@@ -1,0 +1,428 @@
+{
+ "id": "BuracoNegro",
+ "longo": true,
+ "titulo": "BURACO NEGRO: o que acontece se você cair em um? 🕳️ (e a primeira foto de verdade)",
+ "descricao": "O que é um buraco negro, como ele nasce da morte de estrelas gigantes, o que aconteceria se você caísse em um, as primeiras fotos reais (M87 e o centro da Via Láctea), o gigante TON 618 e o que a física ainda não sabe sobre o que tem lá dentro.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Existe um lugar no universo de onde nada consegue sair. Nem a luz.",
+     "busca": "black hole space",
+     "desde": 0,
+     "clipe": "BuracoNegro_0"
+    },
+    {
+     "frase": "Neste vídeo você vai entender o que é um buraco negro, como ele nasce, o que aconteceria se você caísse em um e como a gente conseguiu fotografar um deles.",
+     "busca": "galaxy space stars",
+     "desde": 0,
+     "clipe": "BuracoNegro_1"
+    },
+    {
+     "frase": "E no final, uma pergunta que nem a física sabe responder: o que tem lá dentro?",
+     "busca": "space nebula",
+     "desde": 0,
+     "clipe": "BuracoNegro_2"
+    }
+   ]
+  },
+  {
+   "titulo": "A gravidade que prende a luz",
+   "cenas": [
+    {
+     "frase": "Jogue uma pedra para cima: ela volta. Quanto mais força, mais alto ela vai antes de cair.",
+     "busca": "throwing ball up",
+     "desde": 0,
+     "clipe": "BuracoNegro_3"
+    },
+    {
+     "frase": "Para escapar de vez da gravidade da Terra, um foguete precisa chegar a onze quilômetros por segundo. É a velocidade de escape.",
+     "busca": "rocket launch",
+     "desde": 0,
+     "clipe": "BuracoNegro_4"
+    },
+    {
+     "frase": "Quanto mais massa espremida num espaço pequeno, maior fica essa velocidade.",
+     "anim": {
+      "emoji": "🪨",
+      "texto": "Mais massa, mais apertada: gravidade mais forte"
+     }
+    },
+    {
+     "frase": "Num buraco negro, a velocidade de escape passa da velocidade da luz, trezentos mil quilômetros por segundo. E nada é mais rápido que a luz. Por isso nada sai.",
+     "anim": {
+      "emoji": "💡",
+      "texto": "Nem a luz escapa"
+     }
+    },
+    {
+     "frase": "Para a Terra virar um buraco negro, ela teria que ser espremida até o tamanho de uma bolinha de gude.",
+     "busca": "marbles",
+     "desde": 0,
+     "clipe": "BuracoNegro_7"
+    },
+    {
+     "frase": "E o Sol inteiro caberia numa bola de seis quilômetros, menor que muitos bairros.",
+     "busca": "sun surface",
+     "desde": 0,
+     "clipe": "BuracoNegro_8"
+    }
+   ]
+  },
+  {
+   "titulo": "Como nasce um buraco negro",
+   "cenas": [
+    {
+     "frase": "A maioria nasce da morte de estrelas gigantes, com mais de vinte vezes a massa do Sol.",
+     "busca": "stars space",
+     "desde": 0,
+     "foto": "B_eta",
+     "legenda": "Eta Carinae: estrela com mais de 100 vezes a massa do Sol"
+    },
+    {
+     "frase": "Durante a vida, a estrela queima seu combustível, e a energia lá de dentro empurra para fora, segurando o próprio peso.",
+     "anim": {
+      "emoji": "⭐",
+      "texto": "A energia empurra para fora, a gravidade puxa para dentro"
+     }
+    },
+    {
+     "frase": "Quando o combustível acaba, nada mais segura. O centro da estrela desaba sobre si mesmo em menos de um segundo.",
+     "anim": {
+      "emoji": "💥",
+      "texto": "O centro desaba em menos de um segundo"
+     }
+    },
+    {
+     "frase": "As camadas de fora explodem numa supernova, que pode brilhar mais que uma galáxia inteira. E o que sobra no centro vira um buraco negro.",
+     "busca": "supernova explosion",
+     "desde": 0,
+     "foto": "B_crab",
+     "legenda": "Restos de uma supernova: Nebulosa do Caranguejo (Hubble)"
+    }
+   ]
+  },
+  {
+   "titulo": "O ponto sem volta",
+   "cenas": [
+    {
+     "frase": "A fronteira de um buraco negro se chama horizonte de eventos. Não é uma parede: é um ponto sem volta.",
+     "anim": {
+      "emoji": "⭕",
+      "texto": "Horizonte de eventos: o ponto sem volta"
+     }
+    },
+    {
+     "frase": "Fora dele, ainda dá para escapar. Depois de cruzar, nem a luz volta.",
+     "busca": "whirlpool water",
+     "desde": 0,
+     "clipe": "BuracoNegro_14"
+    },
+    {
+     "frase": "E aqui vai um mito: buraco negro não é um aspirador que suga tudo pelo universo.",
+     "anim": {
+      "emoji": "❌",
+      "texto": "Não é um aspirador"
+     }
+    },
+    {
+     "frase": "Se o Sol virasse um buraco negro com a mesma massa, a Terra continuaria girando na mesma órbita. Só ficaria escuro e muito frio.",
+     "busca": "earth space",
+     "desde": 0,
+     "clipe": "BuracoNegro_16"
+    }
+   ]
+  },
+  {
+   "titulo": "Caindo num buraco negro",
+   "cenas": [
+    {
+     "frase": "Agora imagine que você cai num buraco negro, de pés para baixo.",
+     "busca": "astronaut space",
+     "desde": 0,
+     "clipe": "BuracoNegro_17"
+    },
+    {
+     "frase": "Seus pés estão mais perto dele que a cabeça, então são puxados com mais força. Essa diferença estica o seu corpo.",
+     "anim": {
+      "emoji": "📏",
+      "texto": "Os pés são puxados mais que a cabeça"
+     }
+    },
+    {
+     "frase": "Os cientistas chamam isso, de verdade, de espaguetificação: você vira macarrão.",
+     "busca": "spaghetti",
+     "desde": 0,
+     "clipe": "BuracoNegro_19"
+    },
+    {
+     "frase": "Num buraco negro pequeno, você seria esticado antes mesmo de chegar ao horizonte. Num gigante, cruzaria o horizonte sem sentir nada de especial.",
+     "anim": {
+      "emoji": "🕳️",
+      "texto": "Pequeno: estica antes. Gigante: você nem percebe"
+     }
+    },
+    {
+     "frase": "E quem estivesse olhando de longe veria uma coisa estranha: você ficando cada vez mais lento e mais vermelho, até parecer congelado na borda e sumir.",
+     "busca": "clock",
+     "desde": 0,
+     "clipe": "BuracoNegro_21"
+    },
+    {
+     "frase": "É a gravidade deixando o tempo mais lento, como no filme Interestelar, em que uma hora perto do buraco negro valia sete anos na Terra.",
+     "anim": {
+      "emoji": "⏳",
+      "texto": "1 hora lá = 7 anos aqui"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "A primeira foto de um buraco negro",
+   "cenas": [
+    {
+     "frase": "Se nem a luz sai, como tirar uma foto? O truque é fotografar o que está em volta.",
+     "busca": "radio telescope",
+     "desde": 0,
+     "clipe": "BuracoNegro_23"
+    },
+    {
+     "frase": "O gás que gira em volta do buraco negro fica tão quente que brilha. O buraco aparece como uma sombra no meio desse anel de luz.",
+     "anim": {
+      "emoji": "💍",
+      "texto": "Uma sombra num anel de luz"
+     }
+    },
+    {
+     "frase": "Em dois mil e dezenove, oito radiotelescópios espalhados pelo mundo trabalharam juntos, como se fossem um único telescópio do tamanho da Terra.",
+     "busca": "radio telescope dish",
+     "desde": 0,
+     "foto": "B_alma",
+     "legenda": "Radiotelescópios ALMA, no Chile, parte do Event Horizon Telescope"
+    },
+    {
+     "frase": "E saiu a primeira foto de um buraco negro: o da galáxia M87, a cinquenta e cinco milhões de anos-luz, com seis bilhões e meio de vezes a massa do Sol.",
+     "busca": "galaxy",
+     "desde": 0,
+     "foto": "B_m87",
+     "legenda": "Buraco negro da galáxia M87 (EHT, 2019)"
+    },
+    {
+     "frase": "Em dois mil e vinte e dois veio a foto do buraco negro do centro da nossa própria galáxia, Sagitário A estrela, com quatro milhões de vezes a massa do Sol.",
+     "busca": "milky way",
+     "desde": 0,
+     "foto": "B_sgra",
+     "legenda": "Sagitário A*, o buraco negro do centro da Via Láctea (EHT, 2022)"
+    }
+   ]
+  },
+  {
+   "titulo": "Como sabemos que eles existem",
+   "cenas": [
+    {
+     "frase": "Antes da foto, já havia provas. No centro da Via Láctea, estrelas dão voltas muito rápidas em torno de um ponto escuro e invisível.",
+     "busca": "milky way timelapse",
+     "desde": 0,
+     "foto": "B_s301",
+     "legenda": "Estrela dando voltas em Sagitário A* (VLT/ESO)"
+    },
+    {
+     "frase": "Uma delas passa a mais de sete mil quilômetros por segundo. Só um objeto muito pesado e muito pequeno segura uma estrela assim. Essa descoberta ganhou o Nobel de Física de dois mil e vinte.",
+     "anim": {
+      "emoji": "🏆",
+      "texto": "Nobel de Física 2020"
+     }
+    },
+    {
+     "frase": "E em dois mil e quinze, um detector chamado LIGO sentiu o espaço tremer: eram ondas gravitacionais, vindas de dois buracos negros que se juntaram há mais de um bilhão de anos.",
+     "foto": "B_ligo",
+     "legenda": "Detector de ondas gravitacionais LIGO, em Hanford, EUA"
+    }
+   ]
+  },
+  {
+   "titulo": "O primeiro buraco negro encontrado",
+   "cenas": [
+    {
+     "frase": "O primeiro buraco negro descoberto se chama Cygnus X-1, na constelação do Cisne, a uns sete mil anos-luz daqui.",
+     "busca": "night sky constellation",
+     "desde": 0,
+     "clipe": "BuracoNegro_31"
+    },
+    {
+     "frase": "Ele chamou atenção nos anos sessenta porque soltava muitos raios X. Ali, uma estrela gigante dá voltas em torno de algo invisível, com umas vinte vezes a massa do Sol.",
+     "foto": "B_cyg",
+     "legenda": "Cygnus X-1 visto em raios X (Chandra/NASA)"
+    },
+    {
+     "frase": "O buraco negro puxa o gás da estrela vizinha. Esse gás forma um disco que gira muito rápido e esquenta a milhões de graus. Por isso brilha em raios X.",
+     "busca": "swirling gas space",
+     "desde": 0,
+     "clipe": "BuracoNegro_33"
+    },
+    {
+     "frase": "Stephen Hawking chegou a apostar que aquilo não era um buraco negro. Em mil novecentos e noventa, ele admitiu que tinha perdido a aposta.",
+     "anim": {
+      "emoji": "🤝",
+      "texto": "Hawking perdeu a aposta"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Um buraco negro pode crescer?",
+   "cenas": [
+    {
+     "frase": "Pode. Buraco negro cresce comendo gás, estrelas e até outros buracos negros.",
+     "busca": "galaxy space",
+     "desde": 0,
+     "clipe": "BuracoNegro_35"
+    },
+    {
+     "frase": "Quando come muito, o gás em volta brilha tanto que vira um quasar, o tipo de objeto mais brilhante do universo, capaz de brilhar mais que mil galáxias juntas.",
+     "anim": {
+      "emoji": "💡",
+      "texto": "Quasar: mais brilhante que mil galáxias"
+     }
+    },
+    {
+     "frase": "Alguns ainda disparam jatos de partículas quase na velocidade da luz, com milhares de anos-luz de comprimento. A galáxia M87 tem um jato assim, fotografado pelo Hubble.",
+     "busca": "space light beam",
+     "desde": 0,
+     "foto": "B_jato",
+     "legenda": "Jato que sai do buraco negro da galáxia M87 (Hubble)"
+    }
+   ]
+  },
+  {
+   "titulo": "Os gigantes",
+   "cenas": [
+    {
+     "frase": "No centro de quase toda galáxia grande existe um buraco negro supermassivo.",
+     "busca": "spiral galaxy",
+     "desde": 0,
+     "foto": "B_galaxia",
+     "legenda": "Galáxia espiral NGC 1300 (Hubble)"
+    },
+    {
+     "frase": "Um dos maiores já medidos se chama TON seiscentos e dezoito. Ele teria dezenas de bilhões de vezes a massa do Sol.",
+     "anim": {
+      "emoji": "🕳️",
+      "texto": "TON 618: dezenas de bilhões de sóis"
+     }
+    },
+    {
+     "frase": "O horizonte dele é tão grande que caberia o nosso Sistema Solar inteiro lá dentro, com sobra.",
+     "busca": "solar system planets",
+     "desde": 0,
+     "clipe": "BuracoNegro_40"
+    },
+    {
+     "frase": "E às vezes um buraco negro engole uma estrela. Ela é esticada numa longa fita de gás, e o clarão aparece nos telescópios do outro lado do universo.",
+     "busca": "star space glow",
+     "desde": 0,
+     "clipe": "BuracoNegro_41"
+    }
+   ]
+  },
+  {
+   "titulo": "O que tem lá dentro?",
+   "cenas": [
+    {
+     "frase": "E dentro do buraco negro? A teoria de Einstein diz que toda a massa vai parar num ponto infinitamente pequeno: a singularidade.",
+     "anim": {
+      "emoji": "•",
+      "texto": "A singularidade"
+     }
+    },
+    {
+     "frase": "Mas a maioria dos físicos acha que isso é só sinal de que a teoria não funciona ali. Para entender, seria preciso juntar a relatividade com a física quântica, e ninguém conseguiu ainda.",
+     "anim": {
+      "emoji": "❓",
+      "texto": "Relatividade + quântica: ninguém juntou ainda"
+     }
+    },
+    {
+     "frase": "Stephen Hawking mostrou que os buracos negros devem soltar um pouquinho de energia e um dia evaporar. Mas um do tamanho do Sol levaria muito mais tempo que a idade do universo.",
+     "busca": "space stars dark",
+     "desde": 0,
+     "foto": "B_hawking",
+     "legenda": "Stephen Hawking"
+    },
+    {
+     "frase": "E o buraco branco, o contrário do buraco negro, de onde as coisas só sairiam? Ele aparece nas contas, mas ninguém nunca viu um.",
+     "anim": {
+      "emoji": "⚪",
+      "texto": "Buraco branco: só nas contas"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "E pode ficar tranquilo: o buraco negro conhecido mais perto da Terra está a mais de mil e quinhentos anos-luz. Nenhum vai engolir a gente.",
+     "busca": "night sky stars",
+     "desde": 0,
+     "clipe": "BuracoNegro_46"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: se pudesse, você chegaria perto de um buraco negro?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Existe um lugar no universo de onde nada consegue sair. Nem a luz.",
+  "Neste vídeo você vai entender o que é um buraco negro, como ele nasce, o que aconteceria se você caísse em um e como a gente conseguiu fotografar um deles.",
+  "E no final, uma pergunta que nem a física sabe responder: o que tem lá dentro?",
+  "Jogue uma pedra para cima: ela volta. Quanto mais força, mais alto ela vai antes de cair.",
+  "Para escapar de vez da gravidade da Terra, um foguete precisa chegar a onze quilômetros por segundo. É a velocidade de escape.",
+  "Quanto mais massa espremida num espaço pequeno, maior fica essa velocidade.",
+  "Num buraco negro, a velocidade de escape passa da velocidade da luz, trezentos mil quilômetros por segundo. E nada é mais rápido que a luz. Por isso nada sai.",
+  "Para a Terra virar um buraco negro, ela teria que ser espremida até o tamanho de uma bolinha de gude.",
+  "E o Sol inteiro caberia numa bola de seis quilômetros, menor que muitos bairros.",
+  "A maioria nasce da morte de estrelas gigantes, com mais de vinte vezes a massa do Sol.",
+  "Durante a vida, a estrela queima seu combustível, e a energia lá de dentro empurra para fora, segurando o próprio peso.",
+  "Quando o combustível acaba, nada mais segura. O centro da estrela desaba sobre si mesmo em menos de um segundo.",
+  "As camadas de fora explodem numa supernova, que pode brilhar mais que uma galáxia inteira. E o que sobra no centro vira um buraco negro.",
+  "A fronteira de um buraco negro se chama horizonte de eventos. Não é uma parede: é um ponto sem volta.",
+  "Fora dele, ainda dá para escapar. Depois de cruzar, nem a luz volta.",
+  "E aqui vai um mito: buraco negro não é um aspirador que suga tudo pelo universo.",
+  "Se o Sol virasse um buraco negro com a mesma massa, a Terra continuaria girando na mesma órbita. Só ficaria escuro e muito frio.",
+  "Agora imagine que você cai num buraco negro, de pés para baixo.",
+  "Seus pés estão mais perto dele que a cabeça, então são puxados com mais força. Essa diferença estica o seu corpo.",
+  "Os cientistas chamam isso, de verdade, de espaguetificação: você vira macarrão.",
+  "Num buraco negro pequeno, você seria esticado antes mesmo de chegar ao horizonte. Num gigante, cruzaria o horizonte sem sentir nada de especial.",
+  "E quem estivesse olhando de longe veria uma coisa estranha: você ficando cada vez mais lento e mais vermelho, até parecer congelado na borda e sumir.",
+  "É a gravidade deixando o tempo mais lento, como no filme Interestelar, em que uma hora perto do buraco negro valia sete anos na Terra.",
+  "Se nem a luz sai, como tirar uma foto? O truque é fotografar o que está em volta.",
+  "O gás que gira em volta do buraco negro fica tão quente que brilha. O buraco aparece como uma sombra no meio desse anel de luz.",
+  "Em dois mil e dezenove, oito radiotelescópios espalhados pelo mundo trabalharam juntos, como se fossem um único telescópio do tamanho da Terra.",
+  "E saiu a primeira foto de um buraco negro: o da galáxia M87, a cinquenta e cinco milhões de anos-luz, com seis bilhões e meio de vezes a massa do Sol.",
+  "Em dois mil e vinte e dois veio a foto do buraco negro do centro da nossa própria galáxia, Sagitário A estrela, com quatro milhões de vezes a massa do Sol.",
+  "Antes da foto, já havia provas. No centro da Via Láctea, estrelas dão voltas muito rápidas em torno de um ponto escuro e invisível.",
+  "Uma delas passa a mais de sete mil quilômetros por segundo. Só um objeto muito pesado e muito pequeno segura uma estrela assim. Essa descoberta ganhou o Nobel de Física de dois mil e vinte.",
+  "E em dois mil e quinze, um detector chamado LIGO sentiu o espaço tremer: eram ondas gravitacionais, vindas de dois buracos negros que se juntaram há mais de um bilhão de anos.",
+  "O primeiro buraco negro descoberto se chama Cygnus X-1, na constelação do Cisne, a uns sete mil anos-luz daqui.",
+  "Ele chamou atenção nos anos sessenta porque soltava muitos raios X. Ali, uma estrela gigante dá voltas em torno de algo invisível, com umas vinte vezes a massa do Sol.",
+  "O buraco negro puxa o gás da estrela vizinha. Esse gás forma um disco que gira muito rápido e esquenta a milhões de graus. Por isso brilha em raios X.",
+  "Stephen Hawking chegou a apostar que aquilo não era um buraco negro. Em mil novecentos e noventa, ele admitiu que tinha perdido a aposta.",
+  "Pode. Buraco negro cresce comendo gás, estrelas e até outros buracos negros.",
+  "Quando come muito, o gás em volta brilha tanto que vira um quasar, o tipo de objeto mais brilhante do universo, capaz de brilhar mais que mil galáxias juntas.",
+  "Alguns ainda disparam jatos de partículas quase na velocidade da luz, com milhares de anos-luz de comprimento. A galáxia M87 tem um jato assim, fotografado pelo Hubble.",
+  "No centro de quase toda galáxia grande existe um buraco negro supermassivo.",
+  "Um dos maiores já medidos se chama TON seiscentos e dezoito. Ele teria dezenas de bilhões de vezes a massa do Sol.",
+  "O horizonte dele é tão grande que caberia o nosso Sistema Solar inteiro lá dentro, com sobra.",
+  "E às vezes um buraco negro engole uma estrela. Ela é esticada numa longa fita de gás, e o clarão aparece nos telescópios do outro lado do universo.",
+  "E dentro do buraco negro? A teoria de Einstein diz que toda a massa vai parar num ponto infinitamente pequeno: a singularidade.",
+  "Mas a maioria dos físicos acha que isso é só sinal de que a teoria não funciona ali. Para entender, seria preciso juntar a relatividade com a física quântica, e ninguém conseguiu ainda.",
+  "Stephen Hawking mostrou que os buracos negros devem soltar um pouquinho de energia e um dia evaporar. Mas um do tamanho do Sol levaria muito mais tempo que a idade do universo.",
+  "E o buraco branco, o contrário do buraco negro, de onde as coisas só sairiam? Ele aparece nas contas, mas ninguém nunca viu um.",
+  "E pode ficar tranquilo: o buraco negro conhecido mais perto da Terra está a mais de mil e quinhentos anos-luz. Nenhum vai engolir a gente.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: se pudesse, você chegaria perto de um buraco negro?"
+ ]
+}

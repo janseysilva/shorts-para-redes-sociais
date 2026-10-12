@@ -1,0 +1,69 @@
+{
+ "id": "MarDrake",
+ "titulo": "O lugar mais PERIGOSO do oceano: a Passagem de Drake 🌊",
+ "legenda": "Entre a América do Sul e a Antártida não existe nenhum continente em volta do planeta: o vento dá a volta na Terra sem freio, levanta ondas enormes e empurra a maior corrente marinha do mundo. Ali fica o Cabo Horn, o cemitério de navios! #fisica #oceano #passagemdedrake #mar #curiosidades",
+ "final": {
+  "emoji": "🌊",
+  "frase": "Onde o vento não tem freio."
+ },
+ "frases": [
+  "O mar mais perigoso do mundo fica no fim da América do Sul: a Passagem de Drake, entre o Chile e a Antártida.",
+  "Em tempestade, as ondas ali passam de dez metros e cobrem o convés de navios enormes.",
+  "O motivo: nessa faixa do planeta não existe nenhum continente. O vento sopra dando a volta na Terra inteira, sem nada para frear.",
+  "Esse vento empurra a maior corrente marinha do mundo, que carrega mais de cem vezes a água de todos os rios da Terra juntos.",
+  "Bem ali fica o Cabo Horn, chamado de cemitério de navios: centenas de barcos afundaram tentando passar.",
+  "Até hoje, quem vai de navio para a Antártida precisa atravessar o Drake. E muita gente diz que são os dois dias mais longos da vida.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Passagem de DRAKE",
+   "destaque": [
+    "DRAKE"
+   ],
+   "busca": "drake passage",
+   "foto": "D_mar"
+  },
+  {
+   "gancho": "Ondas de 10 METROS",
+   "destaque": [
+    "METROS"
+   ],
+   "busca": "ship big waves",
+   "foto": "D_mar2"
+  },
+  {
+   "gancho": "Nada para FREAR",
+   "destaque": [
+    "FREAR"
+   ],
+   "anim": {
+    "emoji": "🌍",
+    "texto": "O vento dá a volta na Terra sem parar"
+   }
+  },
+  {
+   "gancho": "A MAIOR corrente do mundo",
+   "destaque": [
+    "MAIOR"
+   ],
+   "busca": "ocean current map",
+   "foto": "D_corrente"
+  },
+  {
+   "gancho": "Cemitério de NAVIOS",
+   "destaque": [
+    "NAVIOS"
+   ],
+   "busca": "cape horn",
+   "foto": "D_horn"
+  },
+  {
+   "gancho": "Até HOJE",
+   "destaque": [
+    "HOJE"
+   ],
+   "busca": "ship stormy sea waves"
+  }
+ ]
+}

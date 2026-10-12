@@ -308,6 +308,159 @@ longo("TerraParar", "E se a Terra PARASSE de girar? 🌍 O que a física diz que
     ]),
 ])
 
+longo("Meteoro", "O METEORO que acabou com os dinossauros ☄️ (e se cair outro?)",
+      "Como uma pedra de 10 km vinda do espaço mudou a vida na Terra há 66 milhões de anos: a energia do impacto, a cratera de 180 km, "
+      "o inverno que veio depois, como os cientistas descobriram, os meteoros de Chelyabinsk e Tunguska, as crateras do Brasil "
+      "e o que a NASA já faz para desviar asteroides.", [
+    ("Abertura", [
+        ("Há sessenta e seis milhões de anos, uma pedra do tamanho de uma cidade caiu do céu e mudou a história da vida na Terra.", v("asteroid space")),
+        ("Neste vídeo você vai entender o que aconteceu no dia em que os dinossauros acabaram, como os cientistas descobriram isso e se poderia acontecer de novo.", v("dinosaur skeleton museum")),
+        ("E vamos ver meteoros de verdade, que caíram nos nossos dias e foram filmados.", v("meteor night sky")),
+    ]),
+    ("O dia do impacto", [
+        ("O asteroide tinha uns dez quilômetros de largura, mais alto que o Monte Everest.", v("asteroid")),
+        ("Ele vinha a cerca de vinte quilômetros por segundo. Nessa velocidade, atravessaria o Brasil de norte a sul em menos de quatro minutos.", a("☄️", "20 km por segundo")),
+        ("Ele caiu onde hoje é a Península de Iucatã, no México, num mar raso.", v("mexico coast aerial")),
+        ("A energia da batida foi a de bilhões de bombas atômicas juntas, num instante.", a("💥", "Bilhões de bombas atômicas")),
+    ]),
+    ("A cratera e o tsunami", [
+        ("A pancada abriu uma cratera de cento e oitenta quilômetros de largura: a cratera de Chicxulub.", v("crater aerial")),
+        ("A rocha do local virou vapor, e uma montanha de material foi jogada para fora da atmosfera.", v("explosion smoke cloud")),
+        ("O impacto criou um tsunami gigantesco, com ondas de mais de cem metros, que atravessaram o Golfo do México.", v("huge ocean waves")),
+        ("E um terremoto mais forte que qualquer um já registrado sacudiu o planeta.", v("earthquake damage")),
+        ("Os pedaços que voltaram do espaço entraram na atmosfera pegando fogo, como milhões de estrelas cadentes. O céu ficou tão quente que florestas inteiras pegaram fogo.", v("forest fire night")),
+    ]),
+    ("O inverno que veio depois", [
+        ("Mas o pior veio depois. Fuligem e enxofre ficaram no ar e cobriram o céu do planeta inteiro.", v("dark smoke sky")),
+        ("A luz do Sol quase não chegava ao chão. Por meses, foi como uma noite sem fim, e a temperatura despencou.", v("dark cloudy sky")),
+        ("E foi muito azar: a pedra caiu numa região cheia de rochas com enxofre. Isso jogou ainda mais gases no ar e deixou o inverno pior.", a("🍀", "Azar: rochas cheias de enxofre")),
+        ("Um estudo calculou que, se ela tivesse caído em quase qualquer outro lugar da Terra, talvez os dinossauros tivessem sobrevivido.", a("🌍", "Em quase qualquer outro lugar, talvez sobrevivessem")),
+        ("Sem luz, as plantas pararam de fazer fotossíntese. Sem plantas, morreram os animais que comiam plantas, e depois os que comiam esses animais.", a("🌱", "Sem luz, sem plantas, sem comida")),
+        ("Cerca de três quartos das espécies da Terra desapareceram, incluindo todos os dinossauros que não voavam.", v("dinosaur fossil")),
+        ("Sobreviveram os pequenos: mamíferos do tamanho de ratos e um grupo de dinossauros com penas, que hoje a gente chama de aves.", v("bird flying slow motion")),
+        ("Sim: a galinha e o pardal são parentes diretos dos dinossauros.", v("chicken")),
+    ]),
+    ("Como os cientistas descobriram", [
+        ("Por muito tempo, ninguém sabia por que os dinossauros sumiram. A pista apareceu numa camada fina de argila, na Itália.", v("rock layers cliff")),
+        ("Em mil novecentos e oitenta, o físico Luis Alvarez e o filho Walter, geólogo, analisaram essa argila e acharam muito irídio, um metal raríssimo na crosta da Terra, mas comum em asteroides.", a("🔬", "Irídio: raro na Terra, comum em asteroides")),
+        ("A mesma camada, com o mesmo irídio, foi achada no mundo inteiro, exatamente na época em que os dinossauros desapareceram.", v("geology rock strata")),
+        ("Faltava a cratera. Ela estava enterrada embaixo de sedimentos no México, e foi confirmada em mil novecentos e noventa e um.", v("yucatan aerial")),
+    ]),
+    ("Meteoro, meteorito ou asteroide?", [
+        ("Um asteroide é a pedra viajando pelo espaço.", v("asteroid space")),
+        ("Quando ela entra na atmosfera e brilha, o rastro de luz se chama meteoro: a famosa estrela cadente.", v("shooting star")),
+        ("E se sobra um pedaço que chega ao chão, esse pedaço se chama meteorito.", v("meteorite rock")),
+        ("Ela brilha porque espreme o ar na frente com tanta força que esse ar esquenta a milhares de graus, como a bomba de encher pneu, que esquenta quando a gente aperta.", a("🔥", "Ar espremido esquenta a milhares de graus")),
+        ("A maioria dessas pedras é do tamanho de um grão de areia e some a dezenas de quilômetros de altura.", v("meteor shower")),
+    ]),
+    ("Estrelas cadentes que você pode ver", [
+        ("E dá para ver estrelas cadentes de graça. Em algumas noites do ano, aparecem dezenas por hora: são as chuvas de meteoros.", v("meteor shower night")),
+        ("Elas acontecem quando a Terra passa pelo rastro de poeira deixado por um cometa. Cada grãozinho que entra na atmosfera vira um risco de luz.", a("☄️", "A Terra atravessa a poeira de um cometa")),
+        ("As Perseidas aparecem em agosto, e as Geminídeas em dezembro. No Brasil, as Geminídeas e as Eta Aquáridas, em maio, costumam ser as melhores.", a("📅", "Agosto, dezembro e maio")),
+        ("A dica é ir para longe das luzes da cidade, deitar, olhar para o céu e esperar uns vinte minutos para os olhos se acostumarem com o escuro.", v("person looking at stars night")),
+        ("E não precisa de telescópio: meteoro se vê a olho nu.", v("starry night sky")),
+    ]),
+    ("Os meteoros dos nossos dias", [
+        ("Em quinze de fevereiro de dois mil e treze, uma pedra de uns vinte metros entrou na atmosfera sobre Chelyabinsk, na Rússia.", v("meteor sky")),
+        ("Por alguns segundos, o clarão foi mais forte que o Sol. Centenas de câmeras de carro filmaram tudo.", v("dashcam road winter")),
+        ("Ela explodiu a uns trinta quilômetros de altura. A onda de choque chegou depois e quebrou janelas em milhares de prédios. Cerca de mil e quinhentas pessoas se feriram, a maioria com cacos de vidro.", v("broken window glass")),
+        ("Em mil novecentos e oito, algo parecido explodiu sobre Tunguska, na Sibéria, e derrubou cerca de oitenta milhões de árvores, numa área maior que a cidade de São Paulo.", v("fallen trees forest")),
+    ]),
+    ("Crateras no mundo e no Brasil", [
+        ("No Arizona, nos Estados Unidos, um meteorito de ferro de uns cinquenta metros abriu esta cratera, há cerca de cinquenta mil anos. Ela tem mais de um quilômetro de largura.", v("crater desert")),
+        ("E o Brasil tem a maior cratera de impacto da América do Sul: o Domo de Araguainha, entre Mato Grosso e Goiás, com uns quarenta quilômetros de largura e mais de duzentos e cinquenta milhões de anos.", v("brazil cerrado aerial")),
+        ("No Museu Nacional, no Rio de Janeiro, fica o Bendegó, um meteorito de mais de cinco toneladas achado na Bahia. Ele sobreviveu até ao incêndio do museu, em dois mil e dezoito.", v("museum")),
+    ]),
+    ("E se cair outro?", [
+        ("Pedras pequenas caem o tempo todo. Uma do tamanho de um carro entra na atmosfera mais ou menos uma vez por ano, e quase sempre se desfaz antes de chegar ao chão.", v("night sky stars timelapse")),
+        ("As do tamanho da que acabou com os dinossauros são raríssimas: uma a cada dezenas de milhões de anos.", a("📅", "Uma a cada dezenas de milhões de anos")),
+        ("Telescópios do mundo inteiro vigiam o céu. Hoje, nenhum asteroide grande conhecido tem chance real de bater na Terra nos próximos cem anos.", v("observatory telescope night")),
+        ("E em dois mil e vinte e dois, a NASA fez um teste: jogou a nave DART contra o asteroide Dimorfo, de propósito.", v("spacecraft space")),
+        ("A batida encurtou em trinta e dois minutos a volta que ele dá em torno de outro asteroide. Foi a primeira vez que a humanidade mudou o caminho de um corpo celeste.", a("🎯", "A primeira defesa planetária da história")),
+    ]),
+    ("Final", [
+        ("Os dinossauros não tinham telescópios. Nós temos, e estamos aprendendo a desviar pedras do espaço.", v("milky way night sky")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já viu uma estrela cadente?", {"fim": True}),
+    ]),
+])
+
+longo("BuracoNegro", "BURACO NEGRO: o que acontece se você cair em um? 🕳️ (e a primeira foto de verdade)",
+      "O que é um buraco negro, como ele nasce da morte de estrelas gigantes, o que aconteceria se você caísse em um, "
+      "as primeiras fotos reais (M87 e o centro da Via Láctea), o gigante TON 618 e o que a física ainda não sabe sobre o que tem lá dentro.", [
+    ("Abertura", [
+        ("Existe um lugar no universo de onde nada consegue sair. Nem a luz.", v("black hole space")),
+        ("Neste vídeo você vai entender o que é um buraco negro, como ele nasce, o que aconteceria se você caísse em um e como a gente conseguiu fotografar um deles.", v("galaxy space stars")),
+        ("E no final, uma pergunta que nem a física sabe responder: o que tem lá dentro?", v("space nebula")),
+    ]),
+    ("A gravidade que prende a luz", [
+        ("Jogue uma pedra para cima: ela volta. Quanto mais força, mais alto ela vai antes de cair.", v("throwing ball up")),
+        ("Para escapar de vez da gravidade da Terra, um foguete precisa chegar a onze quilômetros por segundo. É a velocidade de escape.", v("rocket launch")),
+        ("Quanto mais massa espremida num espaço pequeno, maior fica essa velocidade.", a("🪨", "Mais massa, mais apertada: gravidade mais forte")),
+        ("Num buraco negro, a velocidade de escape passa da velocidade da luz, trezentos mil quilômetros por segundo. E nada é mais rápido que a luz. Por isso nada sai.", a("💡", "Nem a luz escapa")),
+        ("Para a Terra virar um buraco negro, ela teria que ser espremida até o tamanho de uma bolinha de gude.", v("marbles")),
+        ("E o Sol inteiro caberia numa bola de seis quilômetros, menor que muitos bairros.", v("sun surface")),
+    ]),
+    ("Como nasce um buraco negro", [
+        ("A maioria nasce da morte de estrelas gigantes, com mais de vinte vezes a massa do Sol.", v("stars space")),
+        ("Durante a vida, a estrela queima seu combustível, e a energia lá de dentro empurra para fora, segurando o próprio peso.", a("⭐", "A energia empurra para fora, a gravidade puxa para dentro")),
+        ("Quando o combustível acaba, nada mais segura. O centro da estrela desaba sobre si mesmo em menos de um segundo.", a("💥", "O centro desaba em menos de um segundo")),
+        ("As camadas de fora explodem numa supernova, que pode brilhar mais que uma galáxia inteira. E o que sobra no centro vira um buraco negro.", v("supernova explosion")),
+    ]),
+    ("O ponto sem volta", [
+        ("A fronteira de um buraco negro se chama horizonte de eventos. Não é uma parede: é um ponto sem volta.", a("⭕", "Horizonte de eventos: o ponto sem volta")),
+        ("Fora dele, ainda dá para escapar. Depois de cruzar, nem a luz volta.", v("whirlpool water")),
+        ("E aqui vai um mito: buraco negro não é um aspirador que suga tudo pelo universo.", a("❌", "Não é um aspirador")),
+        ("Se o Sol virasse um buraco negro com a mesma massa, a Terra continuaria girando na mesma órbita. Só ficaria escuro e muito frio.", v("earth space")),
+    ]),
+    ("Caindo num buraco negro", [
+        ("Agora imagine que você cai num buraco negro, de pés para baixo.", v("astronaut space")),
+        ("Seus pés estão mais perto dele que a cabeça, então são puxados com mais força. Essa diferença estica o seu corpo.", a("📏", "Os pés são puxados mais que a cabeça")),
+        ("Os cientistas chamam isso, de verdade, de espaguetificação: você vira macarrão.", v("spaghetti")),
+        ("Num buraco negro pequeno, você seria esticado antes mesmo de chegar ao horizonte. Num gigante, cruzaria o horizonte sem sentir nada de especial.", a("🕳️", "Pequeno: estica antes. Gigante: você nem percebe")),
+        ("E quem estivesse olhando de longe veria uma coisa estranha: você ficando cada vez mais lento e mais vermelho, até parecer congelado na borda e sumir.", v("clock")),
+        ("É a gravidade deixando o tempo mais lento, como no filme Interestelar, em que uma hora perto do buraco negro valia sete anos na Terra.", a("⏳", "1 hora lá = 7 anos aqui")),
+    ]),
+    ("A primeira foto de um buraco negro", [
+        ("Se nem a luz sai, como tirar uma foto? O truque é fotografar o que está em volta.", v("radio telescope")),
+        ("O gás que gira em volta do buraco negro fica tão quente que brilha. O buraco aparece como uma sombra no meio desse anel de luz.", a("💍", "Uma sombra num anel de luz")),
+        ("Em dois mil e dezenove, oito radiotelescópios espalhados pelo mundo trabalharam juntos, como se fossem um único telescópio do tamanho da Terra.", v("radio telescope dish")),
+        ("E saiu a primeira foto de um buraco negro: o da galáxia M87, a cinquenta e cinco milhões de anos-luz, com seis bilhões e meio de vezes a massa do Sol.", v("galaxy")),
+        ("Em dois mil e vinte e dois veio a foto do buraco negro do centro da nossa própria galáxia, Sagitário A estrela, com quatro milhões de vezes a massa do Sol.", v("milky way")),
+    ]),
+    ("Como sabemos que eles existem", [
+        ("Antes da foto, já havia provas. No centro da Via Láctea, estrelas dão voltas muito rápidas em torno de um ponto escuro e invisível.", v("milky way timelapse")),
+        ("Uma delas passa a mais de sete mil quilômetros por segundo. Só um objeto muito pesado e muito pequeno segura uma estrela assim. Essa descoberta ganhou o Nobel de Física de dois mil e vinte.", a("🏆", "Nobel de Física 2020")),
+        ("E em dois mil e quinze, um detector chamado LIGO sentiu o espaço tremer: eram ondas gravitacionais, vindas de dois buracos negros que se juntaram há mais de um bilhão de anos.", a("〰️", "Ondas gravitacionais: o espaço tremendo")),
+    ]),
+    ("O primeiro buraco negro encontrado", [
+        ("O primeiro buraco negro descoberto se chama Cygnus X-1, na constelação do Cisne, a uns sete mil anos-luz daqui.", v("night sky constellation")),
+        ("Ele chamou atenção nos anos sessenta porque soltava muitos raios X. Ali, uma estrela gigante dá voltas em torno de algo invisível, com umas vinte vezes a massa do Sol.", a("🔭", "Uma estrela girando em volta do nada")),
+        ("O buraco negro puxa o gás da estrela vizinha. Esse gás forma um disco que gira muito rápido e esquenta a milhões de graus. Por isso brilha em raios X.", v("swirling gas space")),
+        ("Stephen Hawking chegou a apostar que aquilo não era um buraco negro. Em mil novecentos e noventa, ele admitiu que tinha perdido a aposta.", a("🤝", "Hawking perdeu a aposta")),
+    ]),
+    ("Um buraco negro pode crescer?", [
+        ("Pode. Buraco negro cresce comendo gás, estrelas e até outros buracos negros.", v("galaxy space")),
+        ("Quando come muito, o gás em volta brilha tanto que vira um quasar, o tipo de objeto mais brilhante do universo, capaz de brilhar mais que mil galáxias juntas.", a("💡", "Quasar: mais brilhante que mil galáxias")),
+        ("Alguns ainda disparam jatos de partículas quase na velocidade da luz, com milhares de anos-luz de comprimento. A galáxia M87 tem um jato assim, fotografado pelo Hubble.", v("space light beam")),
+    ]),
+    ("Os gigantes", [
+        ("No centro de quase toda galáxia grande existe um buraco negro supermassivo.", v("spiral galaxy")),
+        ("Um dos maiores já medidos se chama TON seiscentos e dezoito. Ele teria dezenas de bilhões de vezes a massa do Sol.", a("🕳️", "TON 618: dezenas de bilhões de sóis")),
+        ("O horizonte dele é tão grande que caberia o nosso Sistema Solar inteiro lá dentro, com sobra.", v("solar system planets")),
+        ("E às vezes um buraco negro engole uma estrela. Ela é esticada numa longa fita de gás, e o clarão aparece nos telescópios do outro lado do universo.", v("star space glow")),
+    ]),
+    ("O que tem lá dentro?", [
+        ("E dentro do buraco negro? A teoria de Einstein diz que toda a massa vai parar num ponto infinitamente pequeno: a singularidade.", a("•", "A singularidade")),
+        ("Mas a maioria dos físicos acha que isso é só sinal de que a teoria não funciona ali. Para entender, seria preciso juntar a relatividade com a física quântica, e ninguém conseguiu ainda.", a("❓", "Relatividade + quântica: ninguém juntou ainda")),
+        ("Stephen Hawking mostrou que os buracos negros devem soltar um pouquinho de energia e um dia evaporar. Mas um do tamanho do Sol levaria muito mais tempo que a idade do universo.", v("space stars dark")),
+        ("E o buraco branco, o contrário do buraco negro, de onde as coisas só sairiam? Ele aparece nas contas, mas ninguém nunca viu um.", a("⚪", "Buraco branco: só nas contas")),
+    ]),
+    ("Final", [
+        ("E pode ficar tranquilo: o buraco negro conhecido mais perto da Terra está a mais de mil e quinhentos anos-luz. Nenhum vai engolir a gente.", v("night sky stars")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: se pudesse, você chegaria perto de um buraco negro?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
@@ -332,6 +485,35 @@ VIS = {
         31: dict(foto="Ter_bluemarble", legenda="A Terra vista pela Apollo 17"),
         33: dict(foto="Ter_iss", legenda="Estação Espacial Internacional"),
         38: dict(foto="Ter_trex", legenda="Esqueleto de Tyrannosaurus rex"),
+    },
+    "Meteoro": {
+        7: dict(foto="M_chicx", legenda="Relevo da cratera de Chicxulub, no México (NASA)"),
+        20: dict(foto="M_gubbio", legenda="Geólogos na camada do fim dos dinossauros, em Gubbio, Itália"),
+        21: dict(foto="M_alvarez", legenda="Luis e Walter Alvarez, pai e filho"),
+        22: dict(foto="M_kt", legenda="A mesma camada nos Estados Unidos (Trinidad Lake, Colorado)"),
+        23: dict(foto="M_grav", legenda="Mapa de gravidade mostra a cratera enterrada no México"),
+        26: dict(foto="M_meteorito", legenda="Meteorito de Willamette, 15 toneladas (Museu de História Natural, Nova York)"),
+        28: dict(foto="M_perseid", legenda="Meteoro riscando o céu à noite"),
+        34: dict(foto="M_chel1", legenda="Rastro do meteoro de Chelyabinsk, 15/02/2013"),
+        35: dict(foto="M_chel2", legenda="O rastro visto da cidade de Chelyabinsk, Rússia"),
+        37: dict(foto="M_tung", legenda="Árvores derrubadas em Tunguska (expedição de 1927)"),
+        38: dict(foto="M_crater", legenda="Cratera do Meteoro, Arizona, EUA"),
+        39: dict(foto="M_aragua", legenda="Domo de Araguainha (MT/GO) visto por satélite"),
+        40: dict(foto="M_bende", legenda="Meteorito do Bendegó no Museu Nacional (RJ)"),
+        44: dict(foto="M_dimor", legenda="Asteroide Dimorfo, fotografado pela DART pouco antes da batida"),
+    },
+    "BuracoNegro": {
+        9: dict(foto="B_eta", legenda="Eta Carinae: estrela com mais de 100 vezes a massa do Sol"),
+        12: dict(foto="B_crab", legenda="Restos de uma supernova: Nebulosa do Caranguejo (Hubble)"),
+        25: dict(foto="B_alma", legenda="Radiotelescópios ALMA, no Chile, parte do Event Horizon Telescope"),
+        26: dict(foto="B_m87", legenda="Buraco negro da galáxia M87 (EHT, 2019)"),
+        27: dict(foto="B_sgra", legenda="Sagitário A*, o buraco negro do centro da Via Láctea (EHT, 2022)"),
+        28: dict(foto="B_s301", legenda="Estrela dando voltas em Sagitário A* (VLT/ESO)"),
+        30: dict(foto="B_ligo", legenda="Detector de ondas gravitacionais LIGO, em Hanford, EUA"),
+        32: dict(foto="B_cyg", legenda="Cygnus X-1 visto em raios X (Chandra/NASA)"),
+        37: dict(foto="B_jato", legenda="Jato que sai do buraco negro da galáxia M87 (Hubble)"),
+        38: dict(foto="B_galaxia", legenda="Galáxia espiral NGC 1300 (Hubble)"),
+        44: dict(foto="B_hawking", legenda="Stephen Hawking"),
     },
     "Vulcao": {
         18: dict(foto="Vulcao_grindavik", legenda="Grindavík, Islândia, 2023"),

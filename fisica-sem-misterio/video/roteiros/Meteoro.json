@@ -1,0 +1,421 @@
+{
+ "id": "Meteoro",
+ "longo": true,
+ "titulo": "O METEORO que acabou com os dinossauros ☄️ (e se cair outro?)",
+ "descricao": "Como uma pedra de 10 km vinda do espaço mudou a vida na Terra há 66 milhões de anos: a energia do impacto, a cratera de 180 km, o inverno que veio depois, como os cientistas descobriram, os meteoros de Chelyabinsk e Tunguska, as crateras do Brasil e o que a NASA já faz para desviar asteroides.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Há sessenta e seis milhões de anos, uma pedra do tamanho de uma cidade caiu do céu e mudou a história da vida na Terra.",
+     "busca": "asteroid space",
+     "desde": 0,
+     "clipe": "Meteoro_0"
+    },
+    {
+     "frase": "Neste vídeo você vai entender o que aconteceu no dia em que os dinossauros acabaram, como os cientistas descobriram isso e se poderia acontecer de novo.",
+     "busca": "dinosaur skeleton museum",
+     "desde": 0,
+     "clipe": "Meteoro_1"
+    },
+    {
+     "frase": "E vamos ver meteoros de verdade, que caíram nos nossos dias e foram filmados.",
+     "busca": "meteor night sky",
+     "desde": 0,
+     "clipe": "Meteoro_2"
+    }
+   ]
+  },
+  {
+   "titulo": "O dia do impacto",
+   "cenas": [
+    {
+     "frase": "O asteroide tinha uns dez quilômetros de largura, mais alto que o Monte Everest.",
+     "busca": "asteroid",
+     "desde": 0,
+     "clipe": "Meteoro_3"
+    },
+    {
+     "frase": "Ele vinha a cerca de vinte quilômetros por segundo. Nessa velocidade, atravessaria o Brasil de norte a sul em menos de quatro minutos.",
+     "anim": {
+      "emoji": "☄️",
+      "texto": "20 km por segundo"
+     }
+    },
+    {
+     "frase": "Ele caiu onde hoje é a Península de Iucatã, no México, num mar raso.",
+     "busca": "mexico coast aerial",
+     "desde": 0,
+     "clipe": "Meteoro_5"
+    },
+    {
+     "frase": "A energia da batida foi a de bilhões de bombas atômicas juntas, num instante.",
+     "anim": {
+      "emoji": "💥",
+      "texto": "Bilhões de bombas atômicas"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "A cratera e o tsunami",
+   "cenas": [
+    {
+     "frase": "A pancada abriu uma cratera de cento e oitenta quilômetros de largura: a cratera de Chicxulub.",
+     "busca": "crater aerial",
+     "desde": 0,
+     "foto": "M_chicx",
+     "legenda": "Relevo da cratera de Chicxulub, no México (NASA)"
+    },
+    {
+     "frase": "A rocha do local virou vapor, e uma montanha de material foi jogada para fora da atmosfera.",
+     "busca": "explosion smoke cloud",
+     "desde": 0,
+     "clipe": "Meteoro_8"
+    },
+    {
+     "frase": "O impacto criou um tsunami gigantesco, com ondas de mais de cem metros, que atravessaram o Golfo do México.",
+     "busca": "huge ocean waves",
+     "desde": 0,
+     "clipe": "Meteoro_9"
+    },
+    {
+     "frase": "E um terremoto mais forte que qualquer um já registrado sacudiu o planeta.",
+     "busca": "earthquake damage",
+     "desde": 0,
+     "clipe": "Meteoro_10"
+    },
+    {
+     "frase": "Os pedaços que voltaram do espaço entraram na atmosfera pegando fogo, como milhões de estrelas cadentes. O céu ficou tão quente que florestas inteiras pegaram fogo.",
+     "busca": "forest fire night",
+     "desde": 0,
+     "clipe": "Meteoro_11"
+    }
+   ]
+  },
+  {
+   "titulo": "O inverno que veio depois",
+   "cenas": [
+    {
+     "frase": "Mas o pior veio depois. Fuligem e enxofre ficaram no ar e cobriram o céu do planeta inteiro.",
+     "busca": "dark smoke sky",
+     "desde": 0,
+     "clipe": "Meteoro_12"
+    },
+    {
+     "frase": "A luz do Sol quase não chegava ao chão. Por meses, foi como uma noite sem fim, e a temperatura despencou.",
+     "busca": "dark cloudy sky",
+     "desde": 0,
+     "clipe": "Meteoro_13"
+    },
+    {
+     "frase": "E foi muito azar: a pedra caiu numa região cheia de rochas com enxofre. Isso jogou ainda mais gases no ar e deixou o inverno pior.",
+     "anim": {
+      "emoji": "🍀",
+      "texto": "Azar: rochas cheias de enxofre"
+     }
+    },
+    {
+     "frase": "Um estudo calculou que, se ela tivesse caído em quase qualquer outro lugar da Terra, talvez os dinossauros tivessem sobrevivido.",
+     "anim": {
+      "emoji": "🌍",
+      "texto": "Em quase qualquer outro lugar, talvez sobrevivessem"
+     }
+    },
+    {
+     "frase": "Sem luz, as plantas pararam de fazer fotossíntese. Sem plantas, morreram os animais que comiam plantas, e depois os que comiam esses animais.",
+     "anim": {
+      "emoji": "🌱",
+      "texto": "Sem luz, sem plantas, sem comida"
+     }
+    },
+    {
+     "frase": "Cerca de três quartos das espécies da Terra desapareceram, incluindo todos os dinossauros que não voavam.",
+     "busca": "dinosaur fossil",
+     "desde": 0,
+     "clipe": "Meteoro_17"
+    },
+    {
+     "frase": "Sobreviveram os pequenos: mamíferos do tamanho de ratos e um grupo de dinossauros com penas, que hoje a gente chama de aves.",
+     "busca": "bird flying slow motion",
+     "desde": 0,
+     "clipe": "Meteoro_18"
+    },
+    {
+     "frase": "Sim: a galinha e o pardal são parentes diretos dos dinossauros.",
+     "busca": "chicken",
+     "desde": 0,
+     "clipe": "Meteoro_19"
+    }
+   ]
+  },
+  {
+   "titulo": "Como os cientistas descobriram",
+   "cenas": [
+    {
+     "frase": "Por muito tempo, ninguém sabia por que os dinossauros sumiram. A pista apareceu numa camada fina de argila, na Itália.",
+     "busca": "rock layers cliff",
+     "desde": 0,
+     "foto": "M_gubbio",
+     "legenda": "Geólogos na camada do fim dos dinossauros, em Gubbio, Itália"
+    },
+    {
+     "frase": "Em mil novecentos e oitenta, o físico Luis Alvarez e o filho Walter, geólogo, analisaram essa argila e acharam muito irídio, um metal raríssimo na crosta da Terra, mas comum em asteroides.",
+     "foto": "M_alvarez",
+     "legenda": "Luis e Walter Alvarez, pai e filho"
+    },
+    {
+     "frase": "A mesma camada, com o mesmo irídio, foi achada no mundo inteiro, exatamente na época em que os dinossauros desapareceram.",
+     "busca": "geology rock strata",
+     "desde": 0,
+     "foto": "M_kt",
+     "legenda": "A mesma camada nos Estados Unidos (Trinidad Lake, Colorado)"
+    },
+    {
+     "frase": "Faltava a cratera. Ela estava enterrada embaixo de sedimentos no México, e foi confirmada em mil novecentos e noventa e um.",
+     "busca": "yucatan aerial",
+     "desde": 0,
+     "foto": "M_grav",
+     "legenda": "Mapa de gravidade mostra a cratera enterrada no México"
+    }
+   ]
+  },
+  {
+   "titulo": "Meteoro, meteorito ou asteroide?",
+   "cenas": [
+    {
+     "frase": "Um asteroide é a pedra viajando pelo espaço.",
+     "busca": "asteroid space",
+     "desde": 0,
+     "clipe": "Meteoro_24"
+    },
+    {
+     "frase": "Quando ela entra na atmosfera e brilha, o rastro de luz se chama meteoro: a famosa estrela cadente.",
+     "busca": "shooting star",
+     "desde": 0,
+     "clipe": "Meteoro_25"
+    },
+    {
+     "frase": "E se sobra um pedaço que chega ao chão, esse pedaço se chama meteorito.",
+     "busca": "meteorite rock",
+     "desde": 0,
+     "foto": "M_meteorito",
+     "legenda": "Meteorito de Willamette, 15 toneladas (Museu de História Natural, Nova York)"
+    },
+    {
+     "frase": "Ela brilha porque espreme o ar na frente com tanta força que esse ar esquenta a milhares de graus, como a bomba de encher pneu, que esquenta quando a gente aperta.",
+     "anim": {
+      "emoji": "🔥",
+      "texto": "Ar espremido esquenta a milhares de graus"
+     }
+    },
+    {
+     "frase": "A maioria dessas pedras é do tamanho de um grão de areia e some a dezenas de quilômetros de altura.",
+     "busca": "meteor shower",
+     "desde": 0,
+     "foto": "M_perseid",
+     "legenda": "Meteoro riscando o céu à noite"
+    }
+   ]
+  },
+  {
+   "titulo": "Estrelas cadentes que você pode ver",
+   "cenas": [
+    {
+     "frase": "E dá para ver estrelas cadentes de graça. Em algumas noites do ano, aparecem dezenas por hora: são as chuvas de meteoros.",
+     "busca": "meteor shower night",
+     "desde": 0,
+     "clipe": "Meteoro_29"
+    },
+    {
+     "frase": "Elas acontecem quando a Terra passa pelo rastro de poeira deixado por um cometa. Cada grãozinho que entra na atmosfera vira um risco de luz.",
+     "anim": {
+      "emoji": "☄️",
+      "texto": "A Terra atravessa a poeira de um cometa"
+     }
+    },
+    {
+     "frase": "As Perseidas aparecem em agosto, e as Geminídeas em dezembro. No Brasil, as Geminídeas e as Eta Aquáridas, em maio, costumam ser as melhores.",
+     "anim": {
+      "emoji": "📅",
+      "texto": "Agosto, dezembro e maio"
+     }
+    },
+    {
+     "frase": "A dica é ir para longe das luzes da cidade, deitar, olhar para o céu e esperar uns vinte minutos para os olhos se acostumarem com o escuro.",
+     "busca": "person looking at stars night",
+     "desde": 0,
+     "clipe": "Meteoro_32"
+    },
+    {
+     "frase": "E não precisa de telescópio: meteoro se vê a olho nu.",
+     "busca": "starry night sky",
+     "desde": 0,
+     "clipe": "Meteoro_33"
+    }
+   ]
+  },
+  {
+   "titulo": "Os meteoros dos nossos dias",
+   "cenas": [
+    {
+     "frase": "Em quinze de fevereiro de dois mil e treze, uma pedra de uns vinte metros entrou na atmosfera sobre Chelyabinsk, na Rússia.",
+     "busca": "meteor sky",
+     "desde": 0,
+     "foto": "M_chel1",
+     "legenda": "Rastro do meteoro de Chelyabinsk, 15/02/2013"
+    },
+    {
+     "frase": "Por alguns segundos, o clarão foi mais forte que o Sol. Centenas de câmeras de carro filmaram tudo.",
+     "busca": "dashcam road winter",
+     "desde": 0,
+     "foto": "M_chel2",
+     "legenda": "O rastro visto da cidade de Chelyabinsk, Rússia"
+    },
+    {
+     "frase": "Ela explodiu a uns trinta quilômetros de altura. A onda de choque chegou depois e quebrou janelas em milhares de prédios. Cerca de mil e quinhentas pessoas se feriram, a maioria com cacos de vidro.",
+     "busca": "broken window glass",
+     "desde": 0,
+     "clipe": "Meteoro_36"
+    },
+    {
+     "frase": "Em mil novecentos e oito, algo parecido explodiu sobre Tunguska, na Sibéria, e derrubou cerca de oitenta milhões de árvores, numa área maior que a cidade de São Paulo.",
+     "busca": "fallen trees forest",
+     "desde": 0,
+     "foto": "M_tung",
+     "legenda": "Árvores derrubadas em Tunguska (expedição de 1927)"
+    }
+   ]
+  },
+  {
+   "titulo": "Crateras no mundo e no Brasil",
+   "cenas": [
+    {
+     "frase": "No Arizona, nos Estados Unidos, um meteorito de ferro de uns cinquenta metros abriu esta cratera, há cerca de cinquenta mil anos. Ela tem mais de um quilômetro de largura.",
+     "busca": "crater desert",
+     "desde": 0,
+     "foto": "M_crater",
+     "legenda": "Cratera do Meteoro, Arizona, EUA"
+    },
+    {
+     "frase": "E o Brasil tem a maior cratera de impacto da América do Sul: o Domo de Araguainha, entre Mato Grosso e Goiás, com uns quarenta quilômetros de largura e mais de duzentos e cinquenta milhões de anos.",
+     "busca": "brazil cerrado aerial",
+     "desde": 0,
+     "foto": "M_aragua",
+     "legenda": "Domo de Araguainha (MT/GO) visto por satélite"
+    },
+    {
+     "frase": "No Museu Nacional, no Rio de Janeiro, fica o Bendegó, um meteorito de mais de cinco toneladas achado na Bahia. Ele sobreviveu até ao incêndio do museu, em dois mil e dezoito.",
+     "busca": "museum",
+     "desde": 0,
+     "foto": "M_bende",
+     "legenda": "Meteorito do Bendegó no Museu Nacional (RJ)"
+    }
+   ]
+  },
+  {
+   "titulo": "E se cair outro?",
+   "cenas": [
+    {
+     "frase": "Pedras pequenas caem o tempo todo. Uma do tamanho de um carro entra na atmosfera mais ou menos uma vez por ano, e quase sempre se desfaz antes de chegar ao chão.",
+     "busca": "night sky stars timelapse",
+     "desde": 0,
+     "clipe": "Meteoro_41"
+    },
+    {
+     "frase": "As do tamanho da que acabou com os dinossauros são raríssimas: uma a cada dezenas de milhões de anos.",
+     "anim": {
+      "emoji": "📅",
+      "texto": "Uma a cada dezenas de milhões de anos"
+     }
+    },
+    {
+     "frase": "Telescópios do mundo inteiro vigiam o céu. Hoje, nenhum asteroide grande conhecido tem chance real de bater na Terra nos próximos cem anos.",
+     "busca": "observatory telescope night",
+     "desde": 0,
+     "clipe": "Meteoro_43"
+    },
+    {
+     "frase": "E em dois mil e vinte e dois, a NASA fez um teste: jogou a nave DART contra o asteroide Dimorfo, de propósito.",
+     "busca": "spacecraft space",
+     "desde": 0,
+     "foto": "M_dimor",
+     "legenda": "Asteroide Dimorfo, fotografado pela DART pouco antes da batida"
+    },
+    {
+     "frase": "A batida encurtou em trinta e dois minutos a volta que ele dá em torno de outro asteroide. Foi a primeira vez que a humanidade mudou o caminho de um corpo celeste.",
+     "anim": {
+      "emoji": "🎯",
+      "texto": "A primeira defesa planetária da história"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Os dinossauros não tinham telescópios. Nós temos, e estamos aprendendo a desviar pedras do espaço.",
+     "busca": "milky way night sky",
+     "desde": 0,
+     "clipe": "Meteoro_46"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já viu uma estrela cadente?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Há sessenta e seis milhões de anos, uma pedra do tamanho de uma cidade caiu do céu e mudou a história da vida na Terra.",
+  "Neste vídeo você vai entender o que aconteceu no dia em que os dinossauros acabaram, como os cientistas descobriram isso e se poderia acontecer de novo.",
+  "E vamos ver meteoros de verdade, que caíram nos nossos dias e foram filmados.",
+  "O asteroide tinha uns dez quilômetros de largura, mais alto que o Monte Everest.",
+  "Ele vinha a cerca de vinte quilômetros por segundo. Nessa velocidade, atravessaria o Brasil de norte a sul em menos de quatro minutos.",
+  "Ele caiu onde hoje é a Península de Iucatã, no México, num mar raso.",
+  "A energia da batida foi a de bilhões de bombas atômicas juntas, num instante.",
+  "A pancada abriu uma cratera de cento e oitenta quilômetros de largura: a cratera de Chicxulub.",
+  "A rocha do local virou vapor, e uma montanha de material foi jogada para fora da atmosfera.",
+  "O impacto criou um tsunami gigantesco, com ondas de mais de cem metros, que atravessaram o Golfo do México.",
+  "E um terremoto mais forte que qualquer um já registrado sacudiu o planeta.",
+  "Os pedaços que voltaram do espaço entraram na atmosfera pegando fogo, como milhões de estrelas cadentes. O céu ficou tão quente que florestas inteiras pegaram fogo.",
+  "Mas o pior veio depois. Fuligem e enxofre ficaram no ar e cobriram o céu do planeta inteiro.",
+  "A luz do Sol quase não chegava ao chão. Por meses, foi como uma noite sem fim, e a temperatura despencou.",
+  "E foi muito azar: a pedra caiu numa região cheia de rochas com enxofre. Isso jogou ainda mais gases no ar e deixou o inverno pior.",
+  "Um estudo calculou que, se ela tivesse caído em quase qualquer outro lugar da Terra, talvez os dinossauros tivessem sobrevivido.",
+  "Sem luz, as plantas pararam de fazer fotossíntese. Sem plantas, morreram os animais que comiam plantas, e depois os que comiam esses animais.",
+  "Cerca de três quartos das espécies da Terra desapareceram, incluindo todos os dinossauros que não voavam.",
+  "Sobreviveram os pequenos: mamíferos do tamanho de ratos e um grupo de dinossauros com penas, que hoje a gente chama de aves.",
+  "Sim: a galinha e o pardal são parentes diretos dos dinossauros.",
+  "Por muito tempo, ninguém sabia por que os dinossauros sumiram. A pista apareceu numa camada fina de argila, na Itália.",
+  "Em mil novecentos e oitenta, o físico Luis Alvarez e o filho Walter, geólogo, analisaram essa argila e acharam muito irídio, um metal raríssimo na crosta da Terra, mas comum em asteroides.",
+  "A mesma camada, com o mesmo irídio, foi achada no mundo inteiro, exatamente na época em que os dinossauros desapareceram.",
+  "Faltava a cratera. Ela estava enterrada embaixo de sedimentos no México, e foi confirmada em mil novecentos e noventa e um.",
+  "Um asteroide é a pedra viajando pelo espaço.",
+  "Quando ela entra na atmosfera e brilha, o rastro de luz se chama meteoro: a famosa estrela cadente.",
+  "E se sobra um pedaço que chega ao chão, esse pedaço se chama meteorito.",
+  "Ela brilha porque espreme o ar na frente com tanta força que esse ar esquenta a milhares de graus, como a bomba de encher pneu, que esquenta quando a gente aperta.",
+  "A maioria dessas pedras é do tamanho de um grão de areia e some a dezenas de quilômetros de altura.",
+  "E dá para ver estrelas cadentes de graça. Em algumas noites do ano, aparecem dezenas por hora: são as chuvas de meteoros.",
+  "Elas acontecem quando a Terra passa pelo rastro de poeira deixado por um cometa. Cada grãozinho que entra na atmosfera vira um risco de luz.",
+  "As Perseidas aparecem em agosto, e as Geminídeas em dezembro. No Brasil, as Geminídeas e as Eta Aquáridas, em maio, costumam ser as melhores.",
+  "A dica é ir para longe das luzes da cidade, deitar, olhar para o céu e esperar uns vinte minutos para os olhos se acostumarem com o escuro.",
+  "E não precisa de telescópio: meteoro se vê a olho nu.",
+  "Em quinze de fevereiro de dois mil e treze, uma pedra de uns vinte metros entrou na atmosfera sobre Chelyabinsk, na Rússia.",
+  "Por alguns segundos, o clarão foi mais forte que o Sol. Centenas de câmeras de carro filmaram tudo.",
+  "Ela explodiu a uns trinta quilômetros de altura. A onda de choque chegou depois e quebrou janelas em milhares de prédios. Cerca de mil e quinhentas pessoas se feriram, a maioria com cacos de vidro.",
+  "Em mil novecentos e oito, algo parecido explodiu sobre Tunguska, na Sibéria, e derrubou cerca de oitenta milhões de árvores, numa área maior que a cidade de São Paulo.",
+  "No Arizona, nos Estados Unidos, um meteorito de ferro de uns cinquenta metros abriu esta cratera, há cerca de cinquenta mil anos. Ela tem mais de um quilômetro de largura.",
+  "E o Brasil tem a maior cratera de impacto da América do Sul: o Domo de Araguainha, entre Mato Grosso e Goiás, com uns quarenta quilômetros de largura e mais de duzentos e cinquenta milhões de anos.",
+  "No Museu Nacional, no Rio de Janeiro, fica o Bendegó, um meteorito de mais de cinco toneladas achado na Bahia. Ele sobreviveu até ao incêndio do museu, em dois mil e dezoito.",
+  "Pedras pequenas caem o tempo todo. Uma do tamanho de um carro entra na atmosfera mais ou menos uma vez por ano, e quase sempre se desfaz antes de chegar ao chão.",
+  "As do tamanho da que acabou com os dinossauros são raríssimas: uma a cada dezenas de milhões de anos.",
+  "Telescópios do mundo inteiro vigiam o céu. Hoje, nenhum asteroide grande conhecido tem chance real de bater na Terra nos próximos cem anos.",
+  "E em dois mil e vinte e dois, a NASA fez um teste: jogou a nave DART contra o asteroide Dimorfo, de propósito.",
+  "A batida encurtou em trinta e dois minutos a volta que ele dá em torno de outro asteroide. Foi a primeira vez que a humanidade mudou o caminho de um corpo celeste.",
+  "Os dinossauros não tinham telescópios. Nós temos, e estamos aprendendo a desviar pedras do espaço.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já viu uma estrela cadente?"
+ ]
+}
