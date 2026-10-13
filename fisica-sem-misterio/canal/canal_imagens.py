@@ -91,7 +91,7 @@ def banner():
     tx = x0 + icone * 2 + 60
     d.text((tx, cy + 15), t1, font=ft, fill=BRANCO, anchor="ls")
     d.text((tx + d.textlength(t1, font=ft), cy + 15), t2, font=ft, fill=OURO, anchor="ls")
-    d.text((tx + 6, cy + 85), "Curiosidades da física explicadas em menos de 1 minuto", font=fs, fill=(205, 225, 245), anchor="ls")
+    d.text((tx + 6, cy + 85), "Shorts todo dia e documentários com imagens reais", font=fs, fill=(205, 225, 245), anchor="ls")
     img.save(os.path.join(AQUI, "banner.png"))
 
 
