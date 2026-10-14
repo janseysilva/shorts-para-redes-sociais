@@ -127,7 +127,13 @@ import rLugarAlto from "../roteiros/LugarAlto.json";
 import tLugarAlto from "../public/LugarAlto/tempos.json";
 import rMarDrake from "../roteiros/MarDrake.json";
 import tMarDrake from "../public/MarDrake/tempos.json";
+import rTerraAneis from "../roteiros/TerraAneis.json";
+import tTerraAneis from "../public/TerraAneis/tempos.json";
+import rLugarSeco from "../roteiros/LugarSeco.json";
+import tLugarSeco from "../public/LugarSeco/tempos.json";
 import { Longo, type RoteiroLongo, type TemposLongo } from "./Longo";
+import rMultigerador from "../roteiros/Multigerador.json";
+import tMultigerador from "../public/Multigerador/tempos.json";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
 import rOymyakon from "../roteiros/Oymyakon.json";
@@ -158,7 +164,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -169,6 +175,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rTerraParar as RoteiroLongo, tTerraParar, ["TERRA PARADA", "E se ela parasse de girar?"], "TerraParar_40"],
   [rMeteoro as RoteiroLongo, tMeteoro, ["METEORO", "O dia em que os dinossauros acabaram"], "Meteoro_46"],
   [rBuracoNegro as RoteiroLongo, tBuracoNegro, ["BURACO NEGRO", "Onde nem a luz escapa"], "BuracoNegro_46"],
+  [rMultigerador as RoteiroLongo, tMultigerador, ["ENERGIA INFINITA?", "O Multigerador Quântico explicado"], "Multigerador_15"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

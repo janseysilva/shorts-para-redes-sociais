@@ -699,6 +699,29 @@ short("MarDrake", "O lugar mais PERIGOSO do oceano: a Passagem de Drake 🌊",
     ("Até hoje, quem vai de navio para a Antártida precisa atravessar o Drake. E muita gente diz que são os dois dias mais longos da vida.", "Até HOJE", ["HOJE"], v("ship stormy sea waves")),
 ])
 
+# ---------- LEVA 13 (14/10): "e se...?" e "o lugar mais...", com fotos reais ----------
+short("TerraAneis", "E se a Terra tivesse ANÉIS como Saturno? 🪐",
+      "Os anéis de Saturno são bilhões de pedaços de gelo e rocha. Se a Terra tivesse um anel sobre a Linha do Equador, o Brasil veria um arco gigante no céu de dia e de noite, as noites seriam mais claras e a sombra do anel deixaria alguns invernos mais frios. E um estudo de 2024 sugere que a Terra pode ter tido um anel há 466 milhões de anos! #fisica #saturno #espaco #terra #curiosidades",
+      "🪐", "Um arco gigante no céu.", [
+    ("Saturno tem os anéis mais famosos do Sistema Solar. Agora imagine a Terra com um anel assim.", "E se a Terra tivesse ANÉIS?", ["ANÉIS"], {"busca": "saturn", "foto": "A_saturno"}),
+    ("Esses anéis não são sólidos: são bilhões de pedaços de gelo e rocha, de grãos de areia até blocos do tamanho de uma casa, girando juntos.", "Gelo e ROCHA girando", ["ROCHA"], {"busca": "saturn rings", "foto": "A_topo"}),
+    ("O anel ficaria em cima da Linha do Equador. Do Brasil, você veria um arco enorme cruzando o céu, de dia e de noite.", "Um ARCO no céu", ["ARCO"], v("night sky milky way time lapse")),
+    ("À noite, o anel refletiria a luz do Sol. As noites seriam bem mais claras, como uma lua cheia que nunca vai embora.", "Noites mais CLARAS", ["CLARAS"], v("full moon night sky")),
+    ("E ele faria sombra: em parte do ano, uma faixa do planeta ficaria à sombra do anel, com invernos mais frios.", "A SOMBRA do anel", ["SOMBRA"], {"busca": "saturn ring shadow", "foto": "A_sombra"}),
+    ("O mais curioso: um estudo de dois mil e vinte e quatro sugere que a Terra pode ter tido um anel de verdade, há quatrocentos e sessenta e seis milhões de anos.", "A Terra JÁ teve anel?", ["JÁ"], v("earth from space rotating")),
+])
+
+short("LugarSeco", "O lugar mais SECO do mundo 🏜️",
+      "Nos Vales Secos de McMurdo, na Antártida, partes do chão podem estar há cerca de 2 milhões de anos sem chuva: ventos que descem das montanhas a até 320 km/h secam tudo. No Atacama, no Chile, há estações que nunca registraram chuva, a NASA e a ESA testam robôs de Marte ali, e quando chove o deserto vira um jardim de flores! #fisica #antartida #atacama #deserto #curiosidades",
+      "🏜️", "Onde quase nunca chove.", [
+    ("O lugar mais seco do planeta não é um deserto de areia quente. Ele fica na Antártida, cercado de gelo.", "Fica na ANTÁRTIDA", ["ANTÁRTIDA"], {"busca": "mcmurdo dry valleys", "foto": "S_vale"}),
+    ("São os Vales Secos de McMurdo. Algumas partes desse chão podem estar há cerca de dois milhões de anos sem chuva.", "2 MILHÕES de anos sem chuva", ["MILHÕES"], {"busca": "dry valleys glacier", "foto": "S_glaciar"}),
+    ("O segredo é o vento: ar gelado e pesado desce das montanhas a até trezentos e vinte quilômetros por hora e seca qualquer umidade.", "Vento de 320 km/h", ["320"], v("snow blowing wind mountains")),
+    ("Fora dos polos, o campeão é o Atacama, no Chile. Ali existem estações de medição que nunca registraram uma única chuva.", "NUNCA choveu", ["NUNCA"], v("atacama desert")),
+    ("O chão é tão parecido com o de Marte que a NASA e a agência espacial europeia testam seus robôs ali antes de mandá-los para o espaço.", "Parece MARTE", ["MARTE"], {"busca": "mars rover test atacama", "foto": "S_rover"}),
+    ("E quando uma chuva rara aparece, sementes que esperavam há anos brotam juntas, e o deserto vira um jardim de flores.", "O deserto FLORIDO", ["FLORIDO"], {"busca": "atacama bloom", "foto": "S_flor"}),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

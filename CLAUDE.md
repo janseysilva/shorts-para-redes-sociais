@@ -8,6 +8,8 @@ Jansey publica Shorts todo dia em 3 canais da conta Google **janseysilva@gmail.c
 
 Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publicação. Leia o do canal antes de mexer.
 
+## 14/10: leva 13 (longo Multigerador + shorts TerraAneis e LugarSeco), ver `fisica-sem-misterio/CLAUDE.md`
+
 ## Situação em 12/10 (resumo rápido)
 - **Física Sem Mistério** é o único canal ativo: 59 shorts e 4 vídeos longos no YouTube (Vulcão, Oymyakon, Tornado, Terra parada). Ritmo combinado: 2 shorts + 2 longos por dia, temas "uau" e em alta, sempre com fotos/vídeos reais.
 - **Instagram @fisicasemmisteriobr** ligado à Página do Facebook: Reels publicados pelo Meta Business Suite (FB+IG juntos). Já nas redes: avião de lado, navio de aço, Coca de vidro, passarinho no fio, Triângulo das Bermudas, lugar mais quente, dedos enrugam, água e óleo.
@@ -18,7 +20,7 @@ Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publi
 ## Regras de Jansey (sempre)
 1. Responder em **português (pt-BR)**.
 2. **Mostrar os temas primeiro e esperar o OK** antes de produzir qualquer vídeo.
-3. **Nunca publicar sem autorização** ("publique todos" = autorizado para aquela leva).
+3. **Nunca publicar sem autorização** ("publique todos" = autorizado para aquela leva). **Desde 14/10: "publique" = YouTube + Facebook + Instagram, os 3 juntos.**
 4. Só temas **em alta**: autocomplete do YouTube Brasil (`https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&gl=BR&q=...`) + as visualizações dos próprios canais (páginas públicas `youtube.com/@CANAL/shorts`).
 5. O tamanho do vídeo não é o problema, e sim o assunto.
 6. Perguntar antes de dar push no GitHub.

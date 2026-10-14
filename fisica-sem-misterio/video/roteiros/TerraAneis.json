@@ -1,0 +1,65 @@
+{
+ "id": "TerraAneis",
+ "titulo": "E se a Terra tivesse ANÉIS como Saturno? 🪐",
+ "legenda": "Os anéis de Saturno são bilhões de pedaços de gelo e rocha. Se a Terra tivesse um anel sobre a Linha do Equador, o Brasil veria um arco gigante no céu de dia e de noite, as noites seriam mais claras e a sombra do anel deixaria alguns invernos mais frios. E um estudo de 2024 sugere que a Terra pode ter tido um anel há 466 milhões de anos! #fisica #saturno #espaco #terra #curiosidades",
+ "final": {
+  "emoji": "🪐",
+  "frase": "Um arco gigante no céu."
+ },
+ "frases": [
+  "Saturno tem os anéis mais famosos do Sistema Solar. Agora imagine a Terra com um anel assim.",
+  "Esses anéis não são sólidos: são bilhões de pedaços de gelo e rocha, de grãos de areia até blocos do tamanho de uma casa, girando juntos.",
+  "O anel ficaria em cima da Linha do Equador. Do Brasil, você veria um arco enorme cruzando o céu, de dia e de noite.",
+  "À noite, o anel refletiria a luz do Sol. As noites seriam bem mais claras, como uma lua cheia que nunca vai embora.",
+  "E ele faria sombra: em parte do ano, uma faixa do planeta ficaria à sombra do anel, com invernos mais frios.",
+  "O mais curioso: um estudo de dois mil e vinte e quatro sugere que a Terra pode ter tido um anel de verdade, há quatrocentos e sessenta e seis milhões de anos.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "E se a Terra tivesse ANÉIS?",
+   "destaque": [
+    "ANÉIS"
+   ],
+   "busca": "saturn",
+   "foto": "A_saturno"
+  },
+  {
+   "gancho": "Gelo e ROCHA girando",
+   "destaque": [
+    "ROCHA"
+   ],
+   "busca": "saturn rings",
+   "foto": "A_topo"
+  },
+  {
+   "gancho": "Um ARCO no céu",
+   "destaque": [
+    "ARCO"
+   ],
+   "busca": "night sky milky way time lapse"
+  },
+  {
+   "gancho": "Noites mais CLARAS",
+   "destaque": [
+    "CLARAS"
+   ],
+   "busca": "full moon night sky"
+  },
+  {
+   "gancho": "A SOMBRA do anel",
+   "destaque": [
+    "SOMBRA"
+   ],
+   "busca": "saturn ring shadow",
+   "foto": "A_sombra"
+  },
+  {
+   "gancho": "A Terra JÁ teve anel?",
+   "destaque": [
+    "JÁ"
+   ],
+   "busca": "earth from space rotating"
+  }
+ ]
+}

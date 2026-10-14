@@ -1,0 +1,66 @@
+{
+ "id": "LugarSeco",
+ "titulo": "O lugar mais SECO do mundo 🏜️",
+ "legenda": "Nos Vales Secos de McMurdo, na Antártida, partes do chão podem estar há cerca de 2 milhões de anos sem chuva: ventos que descem das montanhas a até 320 km/h secam tudo. No Atacama, no Chile, há estações que nunca registraram chuva, a NASA e a ESA testam robôs de Marte ali, e quando chove o deserto vira um jardim de flores! #fisica #antartida #atacama #deserto #curiosidades",
+ "final": {
+  "emoji": "🏜️",
+  "frase": "Onde quase nunca chove."
+ },
+ "frases": [
+  "O lugar mais seco do planeta não é um deserto de areia quente. Ele fica na Antártida, cercado de gelo.",
+  "São os Vales Secos de McMurdo. Algumas partes desse chão podem estar há cerca de dois milhões de anos sem chuva.",
+  "O segredo é o vento: ar gelado e pesado desce das montanhas a até trezentos e vinte quilômetros por hora e seca qualquer umidade.",
+  "Fora dos polos, o campeão é o Atacama, no Chile. Ali existem estações de medição que nunca registraram uma única chuva.",
+  "O chão é tão parecido com o de Marte que a NASA e a agência espacial europeia testam seus robôs ali antes de mandá-los para o espaço.",
+  "E quando uma chuva rara aparece, sementes que esperavam há anos brotam juntas, e o deserto vira um jardim de flores.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Fica na ANTÁRTIDA",
+   "destaque": [
+    "ANTÁRTIDA"
+   ],
+   "busca": "mcmurdo dry valleys",
+   "foto": "S_vale"
+  },
+  {
+   "gancho": "2 MILHÕES de anos sem chuva",
+   "destaque": [
+    "MILHÕES"
+   ],
+   "busca": "dry valleys glacier",
+   "foto": "S_glaciar"
+  },
+  {
+   "gancho": "Vento de 320 km/h",
+   "destaque": [
+    "320"
+   ],
+   "busca": "snow blowing wind mountains"
+  },
+  {
+   "gancho": "NUNCA choveu",
+   "destaque": [
+    "NUNCA"
+   ],
+   "busca": "atacama desert"
+  },
+  {
+   "gancho": "Parece MARTE",
+   "destaque": [
+    "MARTE"
+   ],
+   "busca": "mars rover test atacama",
+   "foto": "S_rover"
+  },
+  {
+   "gancho": "O deserto FLORIDO",
+   "destaque": [
+    "FLORIDO"
+   ],
+   "busca": "atacama bloom",
+   "foto": "S_flor"
+  }
+ ]
+}

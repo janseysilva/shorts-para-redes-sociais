@@ -461,10 +461,97 @@ longo("BuracoNegro", "BURACO NEGRO: o que acontece se você cair em um? 🕳️ 
     ]),
 ])
 
+longo("Multigerador", "GERADOR de energia INFINITA? 🔋 O Multigerador Quântico e o que mudaria SE funcionasse",
+      "O que foi anunciado no lançamento do Multigerador de Energia Quântica (Dakila, Corguinho-MS, 11/10/2026), como os organizadores dizem que "
+      "ele funciona, o que mudaria no mundo se desse certo, o que a física diz sobre máquinas que se alimentam sozinhas e como um invento desses pode ser comprovado.", [
+    ("Abertura", [
+        ("Imagine uma máquina que gera a própria energia, sem tomada, sem combustível e sem sol. Uma conta de luz que nunca mais chega.", v("electric meter")),
+        ("No dia onze de outubro, um grupo de Mato Grosso do Sul apresentou ao vivo um equipamento que promete exatamente isso: o Multigerador de Energia Quântica.", v("power lines sunset")),
+        ("Neste vídeo você vai ver o que foi anunciado, como dizem que ele funciona, o que mudaria no mundo se desse certo, e o que a física diz sobre uma máquina assim.", v("electricity sparks")),
+    ]),
+    ("O que foi anunciado", [
+        ("O lançamento foi feito pelo Ecossistema Dakila, um grupo de pesquisa fundado por Urandir Fernandes de Oliveira, na sede do grupo em Corguinho, perto de Campo Grande.", v("brazil countryside aerial")),
+        ("Segundo os organizadores, mais de mil pessoas, de vários estados e de outros países, foram até lá ver a apresentação, que também foi transmitida ao vivo na internet.", v("crowd event night")),
+        ("O projeto é coordenado por Elton Marques, tem a participação do engenheiro eletricista Severiano Castelo e foi feito em parceria com uma empresa chamada S e S Tecnologia.", v("engineer electrical panel")),
+        ("O grupo diz que a ideia foi inspirada nos estudos de Nikola Tesla, o inventor que ajudou a criar a energia elétrica que usamos hoje nas tomadas.", v("tesla coil")),
+        ("E a promessa é ambiciosa: um gerador que, um dia, poderia mover carros, aviões e até abastecer a rede elétrica. A previsão divulgada é começar a vender em março do ano que vem.", v("electric car charging")),
+    ]),
+    ("Como dizem que ele funciona", [
+        ("Pelo que foi divulgado, tudo começa num banco de capacitores, peças que guardam energia elétrica, como uma bateria que carrega e descarrega muito rápido.", v("capacitors electronics")),
+        ("Essa energia passa por circuitos de controle, com tensão de duzentos e vinte volts, a mesma da tomada de muitas casas.", v("electrical circuit board")),
+        ("Ela liga um motor elétrico de cerca de dois quilowatts. O motor gira um volante, uma roda pesada de metal, que move polias e correias.", v("electric motor spinning")),
+        ("As correias giram um alternador de sete vírgula cinco quilowatts, a mesma peça que gera eletricidade no motor do carro, só que maior.", v("car alternator")),
+        ("A ideia central é a retroalimentação: parte da energia que o alternador gera volta para recarregar o sistema, e o resto sobraria para ser usado fora.", a("🔁", "Parte da energia volta para o próprio sistema")),
+        ("O grupo também fala em uma entrada chamada energia solar artificial, que ajudaria a manter o giro, e num sistema de frequências programáveis. Esses detalhes ainda não foram explicados.", v("laboratory equipment")),
+        ("No site oficial, os dados de desempenho aparecem como em breve. Até agora, nenhuma medição foi publicada.", a("📄", "Dados de desempenho: \"em breve\"")),
+    ]),
+    ("E se der certo?", [
+        ("Agora vamos imaginar: e se funcionar exatamente como prometido? O mundo mudaria de um jeito que é difícil até de imaginar.", v("city lights night aerial")),
+        ("A conta de luz das casas simplesmente acabaria. Cada família teria um gerador em casa, sem depender de usina nem de fio.", v("family home living room")),
+        ("Os carros elétricos rodariam sem parar para recarregar. Caminhões, ônibus e navios deixariam de queimar diesel.", v("electric car driving")),
+        ("Um avião poderia voar dias sem pousar para abastecer, e o preço das passagens despencaria.", v("airplane flying clouds")),
+        ("Comunidades isoladas da Amazônia, que hoje dependem de geradores a diesel trazidos de barco, teriam energia de graça, todos os dias.", v("amazon river village")),
+        ("O petróleo e o carvão perderiam o sentido. Seria a maior queda de poluição da história, e uma chance real contra o aquecimento global.", v("coal power plant smoke")),
+        ("Com energia sem limite, daria até para transformar água do mar em água potável em qualquer lugar do planeta, acabando com a falta d'água.", v("desalination plant")),
+        ("E os países que vivem de vender petróleo teriam que mudar toda a sua economia. Seria a maior revolução desde a invenção da eletricidade.", v("oil rig sea")),
+    ]),
+    ("O grande desafio: a lei da energia", [
+        ("Mas aqui entra a lei mais testada de toda a física: a conservação da energia. Energia não se cria do nada nem desaparece. Ela só muda de forma.", a("⚖️", "Energia não se cria: só muda de forma")),
+        ("O motor transforma eletricidade em movimento. O alternador transforma movimento de volta em eletricidade. E em cada etapa, uma parte vira calor, no atrito, nas correias e nos fios.", v("machine gears rotating")),
+        ("Um bom motor aproveita uns noventa por cento. Um alternador, uns oitenta e cinco. As correias perdem mais um pouco.", a("🔥", "Cada etapa perde energia em calor")),
+        ("Então um motor que consome dois quilowatts faz o alternador entregar, no máximo, uns um vírgula cinco. Os sete vírgula cinco da etiqueta são o limite que o alternador aguenta, não o que ele produz.", a("🔌", "2 kW entram → cerca de 1,5 kW saem")),
+        ("Quanto mais voltas a energia dá dentro da máquina, mais ela perde. Sem uma fonte de fora, o sistema vai parando aos poucos.", v("spinning wheel slowing")),
+    ]),
+    ("Já tentaram antes", [
+        ("A ideia de uma máquina que se move sozinha para sempre tem nome: moto-perpétuo. E ela é muito mais antiga do que parece.", v("old clock mechanism")),
+        ("Por volta do ano mil cento e cinquenta, o matemático indiano Bhaskara descreveu uma roda que giraria para sempre. Ela nunca girou sozinha.", a("☸️", "Roda de Bhaskara, ano 1150")),
+        ("Leonardo da Vinci desenhou várias dessas rodas. E foi ele mesmo que concluiu que nenhuma funcionaria.", a("📜", "Da Vinci: \"não funciona\"")),
+        ("Em mil setecentos e setenta e cinco, a Academia de Ciências de Paris decidiu nem analisar mais pedidos de moto-perpétuo. Eram muitos, e nenhum funcionava.", a("🏛️", "Paris, 1775: pedidos recusados")),
+        ("Até hoje, o escritório de patentes dos Estados Unidos pede um modelo funcionando para analisar esse tipo de invento. Em séculos, nenhum passou no teste.", a("📑", "Patente só com modelo funcionando")),
+    ]),
+    ("Como provar que funciona", [
+        ("Se o Multigerador funcionar, existe um jeito simples de provar: medir a energia que entra e a que sai.", v("multimeter measuring")),
+        ("Seria só desligar qualquer fonte de fora, ligar uma carga, como lâmpadas ou um chuveiro, e deixar a máquina trabalhando sozinha por dias, com medidores ligados o tempo todo.", v("light bulbs glowing")),
+        ("O teste teria que ser repetido por laboratórios independentes, como os de universidades, que não têm ligação com o grupo.", v("university laboratory")),
+        ("Se a energia que sai for maior que a que entra, sem nenhuma fonte escondida, seria a maior descoberta da história da ciência. Valeria um prêmio Nobel.", a("🏆", "Seria a maior descoberta da história")),
+        ("Até que isso aconteça, a física pede o que pede para qualquer descoberta: provas que qualquer um possa repetir.", v("scientist microscope")),
+    ]),
+    ("Energias novas que já funcionam", [
+        ("Enquanto isso, existem novidades reais em energia acontecendo agora. A fusão nuclear, a mesma energia do Sol, bateu recordes em reatores na China e na França.", v("plasma glowing")),
+        ("Nos Estados Unidos, uma usina nova começou a gerar energia a partir do calor das rochas, a quilômetros de profundidade.", v("geothermal power plant")),
+        ("E a energia solar fica mais barata a cada ano. Nenhuma delas cria energia do nada: todas tiram energia de algum lugar.", v("solar panels field")),
+    ]),
+    ("Final", [
+        ("Se o Multigerador passar nos testes independentes, a gente volta aqui para contar. A física adora ser surpreendida, desde que com provas.", v("power lines sunset", 4)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você acredita que um gerador assim pode existir?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "Multigerador": {
+        1: dict(foto="Mg_azul", legenda="O Multigerador no lançamento, 11/10 (transmissão TV Dakila)"),
+        3: dict(foto="Mg_coberto", legenda="Equipamento coberto antes da revelação, Corguinho (MS)"),
+        4: dict(foto="Mg_publico", legenda="Público no lançamento (transmissão TV Dakila)"),
+        5: dict(foto="Mg_tecnico", legenda="Equipe técnica no lançamento (transmissão TV Dakila)"),
+        6: dict(foto="Mg_bobina", legenda="Bobina dentro da pirâmide do equipamento"),
+        7: dict(foto="Mg_palco1", legenda="O Multigerador no palco (transmissão TV Dakila)"),
+        8: dict(foto="Mg_projeto", legenda="Imagem do projeto mostrada na transmissão"),
+        11: dict(foto="Mg_alternador", legenda="O alternador do Multigerador (transmissão TV Dakila)"),
+        13: dict(foto="Mg_piramide", legenda="A pirâmide iluminada do equipamento"),
+        14: dict(foto="Mg_painel", legenda="Mostrador do equipamento durante a apresentação"),
+        23: dict(foto="Mg_joule", legenda="Aparelho de James Joule, que mediu a energia no século 19"),
+        28: dict(foto="Mg_redheffer", legenda="Máquina de moto-perpétuo de Redheffer (1812), Franklin Institute"),
+        30: dict(foto="Mg_davinci", legenda="Desenho de Leonardo da Vinci (Códice Forster)"),
+        31: dict(foto="Mg_bockler", legenda="Projeto de moto-perpétuo, gravura de 1661"),
+        33: dict(foto="Mg_medidor", legenda="Mostrador do Multigerador no lançamento"),
+        41: dict(foto="Mg_palco2", legenda="Equipe do Multigerador no palco (transmissão TV Dakila)"),
+        21: dict(foto="Mg_dessal", legenda="Usina que transforma água do mar em água potável, Emirados Árabes"),
+        38: dict(foto="Mg_east", legenda="Plasma dentro do EAST, o \"sol artificial\" da China"),
+        39: dict(clipe="Vulcao_47"),
+    },
     "Tornado": {
         10: dict(foto="Tor_backlit", legenda="Funil começando a se formar, Estados Unidos"),
         11: dict(foto="Tor_parede", legenda="Nuvem-parede girando"),
