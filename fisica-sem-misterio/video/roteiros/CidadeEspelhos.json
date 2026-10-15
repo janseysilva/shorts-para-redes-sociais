@@ -1,0 +1,72 @@
+{
+ "id": "CidadeEspelhos",
+ "titulo": "A cidade que ficava 6 meses SEM SOL e instalou espelhos gigantes 🪞",
+ "legenda": "Rjukan, na Noruega, fica no fundo de um vale tão estreito que, de setembro a março, as montanhas tapam o Sol. Em 2013, a cidade instalou três espelhos a 450 metros de altura, girados por computador, que refletem a luz do Sol direto na praça. A ideia tinha mais de 100 anos! #fisica #luz #noruega #espelho #curiosidades",
+ "final": {
+  "emoji": "🪞",
+  "frase": "Sol por encomenda."
+ },
+ "frases": [
+  "Esta cidade na Noruega passa quase metade do ano sem ver o Sol.",
+  "Rjukan fica no fundo de um vale estreito. No inverno, o Sol fica tão baixo que as montanhas tapam a luz o dia inteiro.",
+  "A solução veio em dois mil e treze: três espelhos gigantes no alto da montanha, a quatrocentos e cinquenta metros de altura.",
+  "Um computador gira os espelhos o dia inteiro, seguindo o Sol, e joga a luz direto na praça da cidade.",
+  "É a lei da reflexão: a luz sai do espelho com o mesmo ângulo em que chegou. Basta inclinar o espelho na medida certa.",
+  "E a ideia tinha mais de cem anos. Em mil novecentos e vinte e oito, construíram até um teleférico só para os moradores subirem e pegarem sol.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "6 MESES sem sol",
+   "destaque": [
+    "MESES"
+   ],
+   "busca": "rjukan",
+   "foto": "R_panorama"
+  },
+  {
+   "gancho": "As montanhas TAPAM o sol",
+   "destaque": [
+    "TAPAM"
+   ],
+   "busca": "rjukan valley winter",
+   "foto": "R_vale"
+  },
+  {
+   "gancho": "ESPELHOS na montanha",
+   "destaque": [
+    "ESPELHOS"
+   ],
+   "anim": {
+    "emoji": "🪞",
+    "texto": "3 espelhos a 450 m de altura"
+   }
+  },
+  {
+   "gancho": "Luz na PRAÇA",
+   "destaque": [
+    "PRAÇA"
+   ],
+   "busca": "rjukan square",
+   "foto": "R_torget"
+  },
+  {
+   "gancho": "Mesmo ÂNGULO",
+   "destaque": [
+    "ÂNGULO"
+   ],
+   "anim": {
+    "emoji": "☀️",
+    "texto": "Ângulo de chegada = ângulo de saída"
+   }
+  },
+  {
+   "gancho": "Um teleférico pra pegar SOL",
+   "destaque": [
+    "SOL"
+   ],
+   "busca": "rjukan cable car",
+   "foto": "R_kross"
+  }
+ ]
+}

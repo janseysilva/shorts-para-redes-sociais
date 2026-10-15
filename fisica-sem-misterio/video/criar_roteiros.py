@@ -722,6 +722,52 @@ short("LugarSeco", "O lugar mais SECO do mundo 🏜️",
     ("E quando uma chuva rara aparece, sementes que esperavam há anos brotam juntas, e o deserto vira um jardim de flores.", "O deserto FLORIDO", ["FLORIDO"], {"busca": "atacama bloom", "foto": "S_flor"}),
 ])
 
+# ---------- LEVA 14 (15/10): série "o lugar mais...", com fotos reais ----------
+short("LugarChuva", "O lugar onde mais CHOVE no mundo: 12 metros por ano 🌧️",
+      "Em Mawsynram, na Índia, caem quase 12 mil milímetros de chuva por ano, cerca de oito vezes mais que em São Paulo. O vento das monções chega do oceano carregado de umidade, bate nas montanhas, sobe, esfria e despenca como chuva. Os moradores fazem pontes de raízes vivas e usam o knup, um guarda-chuva de bambu que cobre o corpo inteiro! #fisica #chuva #india #clima #curiosidades",
+      "🌧️", "Chove até cansar.", [
+    ("Este é o lugar onde mais chove no planeta: Mawsynram, um vilarejo nas montanhas da Índia.", "Onde MAIS chove", ["MAIS"], {"busca": "mawsynram", "foto": "C_vila"}),
+    ("Lá caem quase doze mil milímetros de chuva por ano. É oito vezes mais do que em São Paulo.", "12 METROS de chuva", ["METROS"], v("heavy rain tropical")),
+    ("O segredo é o vento das monções, que chega do oceano carregado de umidade e encontra essas montanhas.", "O vento do OCEANO", ["OCEANO"], {"busca": "clouds mountains", "foto": "C_nuvens"}),
+    ("O ar é obrigado a subir pela encosta. Lá em cima ele esfria, o vapor vira gota e despenca como chuva.", "Sobe, esfria e CAI", ["CAI"], a("⛰️", "O ar sobe, esfria e vira chuva")),
+    ("Para atravessar os rios, os moradores fazem pontes de raízes vivas: guiam as raízes das árvores por anos até virarem uma ponte.", "Ponte de RAÍZES vivas", ["RAÍZES"], {"busca": "root bridge", "foto": "C_ponte"}),
+    ("E para trabalhar na chuva, usam o knup, um guarda-chuva de bambu que cobre o corpo inteiro e deixa as mãos livres.", "O guarda-chuva de CORPO", ["CORPO"], {"busca": "monsoon", "foto": "C_sohra"}),
+])
+
+short("LugarEscuro", "O lugar mais ESCURO do mundo 🌑",
+      "Abaixo de mil metros de profundidade fica a zona da meia-noite do oceano: a água engole toda a luz do Sol, primeiro o vermelho e por último o azul. Lá é escuro o ano inteiro, e os animais fazem a própria luz, a bioluminescência. O peixe-diabo-negro usa uma lanterna na cabeça para atrair as presas! #fisica #oceano #luz #fundodomar #curiosidades",
+      "🌑", "Onde o Sol nunca chega.", [
+    ("O lugar mais escuro da Terra fica embaixo do mar: a zona da meia-noite, a mais de mil metros de profundidade.", "Escuridão TOTAL", ["TOTAL"], v("deep ocean dark underwater")),
+    ("A água vai engolindo a luz do Sol. O vermelho some primeiro, nos primeiros metros, e o azul é o que chega mais fundo.", "A água ENGOLE as cores", ["ENGOLE"], a("🌊", "Vermelho some primeiro, azul vai mais fundo")),
+    ("Depois de mil metros, não chega nem um raio de sol. É noite o dia inteiro, o ano inteiro.", "Noite o ANO inteiro", ["ANO"], v("underwater light rays fading")),
+    ("Para enxergar e caçar nesse escuro, muitos animais fazem a própria luz. Isso se chama bioluminescência.", "Animais que BRILHAM", ["BRILHAM"], {"busca": "bioluminescence", "foto": "N_machado"}),
+    ("O peixe-diabo-negro tem uma espécie de lanterna na cabeça, que brilha e atrai as presas direto para a boca.", "Uma LANTERNA na cabeça", ["LANTERNA"], {"busca": "anglerfish", "foto": "N_diabo"}),
+    ("E esse escuro é a maior parte do oceano: quase toda a água do mar nunca viu a luz do dia.", "Quase TODO o oceano", ["TODO"], v("deep blue ocean underwater")),
+])
+
+# ---------- LEVA 15 (15/10): temas que quase ninguém explicou em português ----------
+short("RioFerve", "O rio que FERVE no meio da Amazônia ♨️",
+      "No Peru, em plena floresta amazônica, o rio Shanay-Timpishka chega a 86 °C e tem mais de 6 km. E não há vulcão por perto: a chuva desce por rachaduras até onde o interior da Terra é quente e volta fervendo pelas falhas da rocha. Animais que caem nele morrem cozidos! #fisica #amazonia #peru #rio #curiosidades",
+      "♨️", "A Terra cozinhando por baixo.", [
+    ("No meio da floresta amazônica, no Peru, existe um rio que ferve: a água chega a oitenta e seis graus.", "Um rio que FERVE", ["FERVE"], {"busca": "boiling river", "foto": "F_rio"}),
+    ("Ele tem mais de seis quilômetros e é tão quente que os animais que caem nele morrem cozidos em poucos segundos.", "86 °C", ["86"], v("hot river steam")),
+    ("O mais estranho: não existe nenhum vulcão por perto. O mais próximo fica a uns setecentos quilômetros.", "SEM vulcão por perto", ["SEM"], a("🌋", "O vulcão mais perto fica a 700 km")),
+    ("A água da chuva entra por rachaduras no chão e desce muito fundo, onde o calor do interior da Terra esquenta tudo.", "O calor vem de BAIXO", ["BAIXO"], a("⬇️", "A chuva desce e esquenta lá no fundo")),
+    ("Depois ela sobe de volta pelas falhas da rocha e sai fervendo no rio, como uma panela gigante no fundo da Terra.", "Uma panela GIGANTE", ["GIGANTE"], v("hot spring steam")),
+    ("Os povos da região chamam o rio de Shanay-Timpishka, que quer dizer: fervido com o calor do sol.", "Fervido pelo SOL", ["SOL"], v("amazon rainforest river aerial")),
+])
+
+short("CidadeEspelhos", "A cidade que ficava 6 meses SEM SOL e instalou espelhos gigantes 🪞",
+      "Rjukan, na Noruega, fica no fundo de um vale tão estreito que, de setembro a março, as montanhas tapam o Sol. Em 2013, a cidade instalou três espelhos a 450 metros de altura, girados por computador, que refletem a luz do Sol direto na praça. A ideia tinha mais de 100 anos! #fisica #luz #noruega #espelho #curiosidades",
+      "🪞", "Sol por encomenda.", [
+    ("Esta cidade na Noruega passa quase metade do ano sem ver o Sol.", "6 MESES sem sol", ["MESES"], {"busca": "rjukan", "foto": "R_panorama"}),
+    ("Rjukan fica no fundo de um vale estreito. No inverno, o Sol fica tão baixo que as montanhas tapam a luz o dia inteiro.", "As montanhas TAPAM o sol", ["TAPAM"], {"busca": "rjukan valley winter", "foto": "R_vale"}),
+    ("A solução veio em dois mil e treze: três espelhos gigantes no alto da montanha, a quatrocentos e cinquenta metros de altura.", "ESPELHOS na montanha", ["ESPELHOS"], a("🪞", "3 espelhos a 450 m de altura")),
+    ("Um computador gira os espelhos o dia inteiro, seguindo o Sol, e joga a luz direto na praça da cidade.", "Luz na PRAÇA", ["PRAÇA"], {"busca": "rjukan square", "foto": "R_torget"}),
+    ("É a lei da reflexão: a luz sai do espelho com o mesmo ângulo em que chegou. Basta inclinar o espelho na medida certa.", "Mesmo ÂNGULO", ["ÂNGULO"], a("☀️", "Ângulo de chegada = ângulo de saída")),
+    ("E a ideia tinha mais de cem anos. Em mil novecentos e vinte e oito, construíram até um teleférico só para os moradores subirem e pegarem sol.", "Um teleférico pra pegar SOL", ["SOL"], {"busca": "rjukan cable car", "foto": "R_kross"}),
+])
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

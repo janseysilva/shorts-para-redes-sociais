@@ -6,7 +6,6 @@ Saída em public/ID/: narracao.mp3 e tempos.json ({palavras, cenas, capitulos:[{
 import asyncio, json, shutil, subprocess, sys, tempfile
 from pathlib import Path
 import edge_tts
-import edge_fix  # noqa: F401 (host novo da síntese)
 
 VOZ = "pt-BR-AntonioNeural"
 VELOCIDADE = "+3%"   # um pouco mais calmo que os shorts

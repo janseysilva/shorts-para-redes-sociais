@@ -210,5 +210,12 @@
  "TerraAneis_3": 8.27,
  "TerraAneis_5": 6.47,
  "LugarSeco_2": 10.1,
- "LugarSeco_3": 15.73
+ "LugarSeco_3": 15.73,
+ "LugarChuva_1": 15.6,
+ "LugarEscuro_0": 8.02,
+ "LugarEscuro_2": 8.11,
+ "LugarEscuro_5": 9.85,
+ "RioFerve_1": 10.57,
+ "RioFerve_4": 8.03,
+ "RioFerve_5": 13.95
 }

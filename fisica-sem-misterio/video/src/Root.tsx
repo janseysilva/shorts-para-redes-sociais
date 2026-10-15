@@ -131,6 +131,14 @@ import rTerraAneis from "../roteiros/TerraAneis.json";
 import tTerraAneis from "../public/TerraAneis/tempos.json";
 import rLugarSeco from "../roteiros/LugarSeco.json";
 import tLugarSeco from "../public/LugarSeco/tempos.json";
+import rLugarChuva from "../roteiros/LugarChuva.json";
+import tLugarChuva from "../public/LugarChuva/tempos.json";
+import rLugarEscuro from "../roteiros/LugarEscuro.json";
+import tLugarEscuro from "../public/LugarEscuro/tempos.json";
+import rRioFerve from "../roteiros/RioFerve.json";
+import tRioFerve from "../public/RioFerve/tempos.json";
+import rCidadeEspelhos from "../roteiros/CidadeEspelhos.json";
+import tCidadeEspelhos from "../public/CidadeEspelhos/tempos.json";
 import { Longo, type RoteiroLongo, type TemposLongo } from "./Longo";
 import rMultigerador from "../roteiros/Multigerador.json";
 import tMultigerador from "../public/Multigerador/tempos.json";
@@ -164,7 +172,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.

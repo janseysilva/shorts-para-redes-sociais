@@ -1,0 +1,67 @@
+{
+ "id": "LugarEscuro",
+ "titulo": "O lugar mais ESCURO do mundo 🌑",
+ "legenda": "Abaixo de mil metros de profundidade fica a zona da meia-noite do oceano: a água engole toda a luz do Sol, primeiro o vermelho e por último o azul. Lá é escuro o ano inteiro, e os animais fazem a própria luz, a bioluminescência. O peixe-diabo-negro usa uma lanterna na cabeça para atrair as presas! #fisica #oceano #luz #fundodomar #curiosidades",
+ "final": {
+  "emoji": "🌑",
+  "frase": "Onde o Sol nunca chega."
+ },
+ "frases": [
+  "O lugar mais escuro da Terra fica embaixo do mar: a zona da meia-noite, a mais de mil metros de profundidade.",
+  "A água vai engolindo a luz do Sol. O vermelho some primeiro, nos primeiros metros, e o azul é o que chega mais fundo.",
+  "Depois de mil metros, não chega nem um raio de sol. É noite o dia inteiro, o ano inteiro.",
+  "Para enxergar e caçar nesse escuro, muitos animais fazem a própria luz. Isso se chama bioluminescência.",
+  "O peixe-diabo-negro tem uma espécie de lanterna na cabeça, que brilha e atrai as presas direto para a boca.",
+  "E esse escuro é a maior parte do oceano: quase toda a água do mar nunca viu a luz do dia.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Escuridão TOTAL",
+   "destaque": [
+    "TOTAL"
+   ],
+   "busca": "deep ocean dark underwater"
+  },
+  {
+   "gancho": "A água ENGOLE as cores",
+   "destaque": [
+    "ENGOLE"
+   ],
+   "anim": {
+    "emoji": "🌊",
+    "texto": "Vermelho some primeiro, azul vai mais fundo"
+   }
+  },
+  {
+   "gancho": "Noite o ANO inteiro",
+   "destaque": [
+    "ANO"
+   ],
+   "busca": "underwater light rays fading"
+  },
+  {
+   "gancho": "Animais que BRILHAM",
+   "destaque": [
+    "BRILHAM"
+   ],
+   "busca": "bioluminescence",
+   "foto": "N_machado"
+  },
+  {
+   "gancho": "Uma LANTERNA na cabeça",
+   "destaque": [
+    "LANTERNA"
+   ],
+   "busca": "anglerfish",
+   "foto": "N_diabo"
+  },
+  {
+   "gancho": "Quase TODO o oceano",
+   "destaque": [
+    "TODO"
+   ],
+   "busca": "deep blue ocean underwater"
+  }
+ ]
+}

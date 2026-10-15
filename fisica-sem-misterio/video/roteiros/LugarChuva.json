@@ -1,0 +1,69 @@
+{
+ "id": "LugarChuva",
+ "titulo": "O lugar onde mais CHOVE no mundo: 12 metros por ano 🌧️",
+ "legenda": "Em Mawsynram, na Índia, caem quase 12 mil milímetros de chuva por ano, cerca de oito vezes mais que em São Paulo. O vento das monções chega do oceano carregado de umidade, bate nas montanhas, sobe, esfria e despenca como chuva. Os moradores fazem pontes de raízes vivas e usam o knup, um guarda-chuva de bambu que cobre o corpo inteiro! #fisica #chuva #india #clima #curiosidades",
+ "final": {
+  "emoji": "🌧️",
+  "frase": "Chove até cansar."
+ },
+ "frases": [
+  "Este é o lugar onde mais chove no planeta: Mawsynram, um vilarejo nas montanhas da Índia.",
+  "Lá caem quase doze mil milímetros de chuva por ano. É oito vezes mais do que em São Paulo.",
+  "O segredo é o vento das monções, que chega do oceano carregado de umidade e encontra essas montanhas.",
+  "O ar é obrigado a subir pela encosta. Lá em cima ele esfria, o vapor vira gota e despenca como chuva.",
+  "Para atravessar os rios, os moradores fazem pontes de raízes vivas: guiam as raízes das árvores por anos até virarem uma ponte.",
+  "E para trabalhar na chuva, usam o knup, um guarda-chuva de bambu que cobre o corpo inteiro e deixa as mãos livres.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Onde MAIS chove",
+   "destaque": [
+    "MAIS"
+   ],
+   "busca": "mawsynram",
+   "foto": "C_vila"
+  },
+  {
+   "gancho": "12 METROS de chuva",
+   "destaque": [
+    "METROS"
+   ],
+   "busca": "heavy rain tropical"
+  },
+  {
+   "gancho": "O vento do OCEANO",
+   "destaque": [
+    "OCEANO"
+   ],
+   "busca": "clouds mountains",
+   "foto": "C_nuvens"
+  },
+  {
+   "gancho": "Sobe, esfria e CAI",
+   "destaque": [
+    "CAI"
+   ],
+   "anim": {
+    "emoji": "⛰️",
+    "texto": "O ar sobe, esfria e vira chuva"
+   }
+  },
+  {
+   "gancho": "Ponte de RAÍZES vivas",
+   "destaque": [
+    "RAÍZES"
+   ],
+   "busca": "root bridge",
+   "foto": "C_ponte"
+  },
+  {
+   "gancho": "O guarda-chuva de CORPO",
+   "destaque": [
+    "CORPO"
+   ],
+   "busca": "monsoon",
+   "foto": "C_sohra"
+  }
+ ]
+}

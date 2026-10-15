@@ -1,0 +1,69 @@
+{
+ "id": "RioFerve",
+ "titulo": "O rio que FERVE no meio da Amazônia ♨️",
+ "legenda": "No Peru, em plena floresta amazônica, o rio Shanay-Timpishka chega a 86 °C e tem mais de 6 km. E não há vulcão por perto: a chuva desce por rachaduras até onde o interior da Terra é quente e volta fervendo pelas falhas da rocha. Animais que caem nele morrem cozidos! #fisica #amazonia #peru #rio #curiosidades",
+ "final": {
+  "emoji": "♨️",
+  "frase": "A Terra cozinhando por baixo."
+ },
+ "frases": [
+  "No meio da floresta amazônica, no Peru, existe um rio que ferve: a água chega a oitenta e seis graus.",
+  "Ele tem mais de seis quilômetros e é tão quente que os animais que caem nele morrem cozidos em poucos segundos.",
+  "O mais estranho: não existe nenhum vulcão por perto. O mais próximo fica a uns setecentos quilômetros.",
+  "A água da chuva entra por rachaduras no chão e desce muito fundo, onde o calor do interior da Terra esquenta tudo.",
+  "Depois ela sobe de volta pelas falhas da rocha e sai fervendo no rio, como uma panela gigante no fundo da Terra.",
+  "Os povos da região chamam o rio de Shanay-Timpishka, que quer dizer: fervido com o calor do sol.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Um rio que FERVE",
+   "destaque": [
+    "FERVE"
+   ],
+   "busca": "boiling river",
+   "foto": "F_rio"
+  },
+  {
+   "gancho": "86 °C",
+   "destaque": [
+    "86"
+   ],
+   "busca": "hot river steam"
+  },
+  {
+   "gancho": "SEM vulcão por perto",
+   "destaque": [
+    "SEM"
+   ],
+   "anim": {
+    "emoji": "🌋",
+    "texto": "O vulcão mais perto fica a 700 km"
+   }
+  },
+  {
+   "gancho": "O calor vem de BAIXO",
+   "destaque": [
+    "BAIXO"
+   ],
+   "anim": {
+    "emoji": "⬇️",
+    "texto": "A chuva desce e esquenta lá no fundo"
+   }
+  },
+  {
+   "gancho": "Uma panela GIGANTE",
+   "destaque": [
+    "GIGANTE"
+   ],
+   "busca": "hot spring steam"
+  },
+  {
+   "gancho": "Fervido pelo SOL",
+   "destaque": [
+    "SOL"
+   ],
+   "busca": "amazon rainforest river aerial"
+  }
+ ]
+}
