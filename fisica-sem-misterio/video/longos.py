@@ -527,6 +527,89 @@ longo("Multigerador", "GERADOR de energia INFINITA? 🔋 O Multigerador Quântic
     ]),
 ])
 
+longo("Apagao", "E se o Brasil ficasse 3 dias SEM ENERGIA? ⚡ (e por que um apagão derruba o país inteiro)",
+      "Por que uma falha em um único lugar pode apagar quase o Brasil inteiro em segundos? A física da rede elétrica, o equilíbrio dos 60 hertz, "
+      "o efeito dominó, os apagões de 2009, 2023 e 2025, o que aconteceria hora a hora em três dias sem energia, o caso real do Amapá "
+      "e como se religa um país inteiro.", [
+    ("Abertura", [
+        ("Imagine acordar e não ter luz. Nem no seu bairro, nem na sua cidade: em quase todo o Brasil.", v("city blackout night")),
+        ("Neste vídeo você vai entender por que uma falha num único lugar consegue apagar o país inteiro em segundos, e o que aconteceria se a energia sumisse por três dias.", v("power lines sunset")),
+        ("E vamos ver o lugar do Brasil onde isso aconteceu de verdade.", v("dark street night")),
+    ]),
+    ("O dia em que o Brasil apagou", [
+        ("Em novembro de dois mil e nove, uma tempestade derrubou as linhas que trazem a energia de Itaipu. Dezoito estados ficaram no escuro.", v("lightning storm night")),
+        ("Em agosto de dois mil e vinte e três, foi pior: numa manhã de terça-feira, vinte e cinco estados e o Distrito Federal perderam energia ao mesmo tempo.", v("traffic lights off city")),
+        ("E em outubro de dois mil e vinte e cinco, um incêndio numa subestação no Paraná apagou cerca de vinte estados de madrugada.", v("electrical substation")),
+        ("Em todos esses casos, a falha começou num único ponto. Para entender como ela se espalha, a gente precisa ver como a energia chega até a sua tomada.", v("electric outlet")),
+    ]),
+    ("Como a energia chega na sua tomada", [
+        ("Quase todo o Brasil está ligado numa única rede gigante, o Sistema Interligado Nacional.", v("transmission towers aerial")),
+        ("São quase cento e oitenta mil quilômetros de linhas de transmissão. Dá para dar mais de quatro voltas na Terra.", v("power lines landscape")),
+        ("Boa parte da energia vem de usinas hidrelétricas, que ficam longe das grandes cidades.", v("hydroelectric dam")),
+        ("A energia de Belo Monte, no Pará, viaja mais de dois mil quilômetros até o Sudeste, por linhas de altíssima tensão.", v("high voltage lines")),
+        ("A vantagem de tudo estar ligado é que uma região ajuda a outra. A desvantagem é que um problema também pode viajar pela rede inteira.", a("🕸️", "Tudo ligado: uma região ajuda a outra")),
+    ]),
+    ("O equilíbrio dos 60 hertz", [
+        ("A energia elétrica quase não é guardada. Ela precisa ser gerada no mesmo instante em que é usada.", v("light bulb turning on")),
+        ("Cada vez que alguém liga um chuveiro, alguma usina precisa gerar um pouquinho mais, naquele mesmo segundo.", v("electric shower")),
+        ("Os geradores das usinas giram todos sincronizados, como uma orquestra. É esse giro que faz a corrente ir e voltar sessenta vezes por segundo: os sessenta hertz.", v("power plant turbine")),
+        ("Se o consumo fica maior que a geração, os geradores perdem um pouco de velocidade e a frequência cai.", a("⚖️", "Consumo maior que geração: a frequência cai")),
+        ("E os aparelhos e as usinas só aguentam uma variação muito pequena. É aí que começa o perigo.", a("〰️", "60 Hz: quase sem margem")),
+    ]),
+    ("O efeito dominó", [
+        ("Quando uma linha importante cai, a energia que passava por ela tenta seguir por outros caminhos, que ficam sobrecarregados.", v("power lines storm")),
+        ("Para não queimar, os equipamentos de proteção desligam essas linhas também. E a sobrecarga pula para as próximas.", a("🧱", "Uma cai, sobrecarrega a outra, que também cai")),
+        ("Para segurar o resto do país, o sistema desliga bairros e cidades inteiras de propósito, em segundos. É um sacrifício para não perder tudo.", v("city lights going off")),
+        ("Foi assim em dois mil e vinte e três: uma falha no Ceará virou um apagão em quase todo o Brasil em menos de um minuto.", a("⏱️", "Do Ceará ao Brasil em menos de 1 minuto")),
+    ]),
+    ("E se faltasse energia por 3 dias: as primeiras horas", [
+        ("Agora imagine que a energia não volta. Nos primeiros minutos, param os elevadores, os semáforos e o metrô.", v("subway train station")),
+        ("As torres de celular têm baterias, mas elas duram só algumas horas. Depois disso, o sinal some e a internet cai.", v("cell tower")),
+        ("Nos prédios, a água chega até a caixa por bombas elétricas. Quando a caixa esvazia, a torneira seca.", v("water tap dripping")),
+        ("Sem energia, o pagamento com cartão e com Pix para de funcionar. Quem não tem dinheiro vivo não consegue comprar nada.", v("credit card payment")),
+        ("E à noite, as cidades ficam escuras como no tempo em que não existia eletricidade.", v("dark city night")),
+    ]),
+    ("O segundo dia", [
+        ("A geladeira fechada segura o frio por umas quatro horas. O congelador cheio aguenta uns dois dias, porque o gelo ajuda a manter a temperatura.", v("refrigerator food")),
+        ("Os postos de combustível também precisam de energia: a gasolina é puxada dos tanques por bombas elétricas.", v("gas station")),
+        ("Sem combustível, caminhões param, e começa a faltar comida fresca nos mercados.", v("supermarket shelves")),
+        ("As estações que tratam e bombeiam a água das cidades também param. Muitos bairros ficam sem água na torneira.", v("water treatment plant")),
+    ]),
+    ("O terceiro dia", [
+        ("Os hospitais têm geradores a diesel, mas eles funcionam só enquanto houver combustível para abastecê-los.", v("hospital corridor")),
+        ("Remédios que precisam de geladeira, como a insulina, começam a estragar.", v("insulin pen")),
+        ("Sem bombas, o esgoto também para de ser levado embora. Três dias sem energia viram um problema de saúde.", v("city street rain")),
+        ("Por isso a energia elétrica é considerada um serviço essencial: quase tudo depende dela.", a("🔌", "Quase tudo depende da energia")),
+    ]),
+    ("Isso já aconteceu: o Amapá", [
+        ("Em novembro de dois mil e vinte, um incêndio atingiu a principal subestação do Amapá.", v("fire night")),
+        ("Treze dos dezesseis municípios do estado ficaram sem energia. A maior parte da população ficou totalmente no escuro por quatro dias.", v("candle light dark room")),
+        ("Faltou água, as filas nos postos de gasolina viraram quilômetros e muita gente perdeu toda a comida.", v("queue people")),
+        ("Depois disso, ainda foram cerca de três semanas de rodízio, com energia só algumas horas por dia.", a("🕯️", "4 dias no escuro + 3 semanas de rodízio")),
+    ]),
+    ("E na Europa?", [
+        ("Isso não acontece só aqui. Em abril de dois mil e vinte e cinco, Espanha e Portugal apagaram quase inteiros, no meio do dia.", v("madrid street")),
+        ("Trens pararam no meio do caminho, pessoas ficaram presas em elevadores, e o trânsito virou um caos sem semáforos.", v("train station people waiting")),
+        ("Em poucos segundos, a rede perdeu o equilíbrio e as proteções foram desligando tudo, no mesmo efeito dominó.", a("🇪🇸", "Espanha e Portugal: apagão em segundos")),
+    ]),
+    ("Como se preparar", [
+        ("Não precisa ter medo, mas vale ter algumas coisas em casa.", v("flashlight dark")),
+        ("Uma lanterna com pilhas é melhor que vela: vela acesa em casa escura é uma das maiores causas de incêndio durante apagões.", v("flashlight batteries")),
+        ("Água guardada, um pouco de dinheiro vivo e um carregador portátil com bateria cheia ajudam muito nos primeiros dias.", v("power bank charging phone")),
+        ("E um rádio a pilha: quando o celular e a internet caem, é por ele que chegam as notícias.", v("old radio")),
+    ]),
+    ("Como religar um país inteiro", [
+        ("Religar a rede não é só apertar um botão. Se todo mundo voltar ao mesmo tempo, a rede cai de novo.", v("control room screens")),
+        ("Primeiro ligam as usinas que conseguem partir sozinhas, sem energia de fora. As hidrelétricas são ótimas nisso.", v("hydroelectric dam water")),
+        ("Depois, os operadores religam as linhas aos poucos, cidade por cidade, sempre segurando o equilíbrio dos sessenta hertz.", a("🧩", "Religa aos poucos, cidade por cidade")),
+        ("Em dois mil e vinte e três, quase todo o país já tinha energia de volta em algumas horas.", v("city lights night timelapse")),
+    ]),
+    ("Final", [
+        ("Um apagão de três dias no Brasil inteiro é muito improvável. Mas entender a física da rede ajuda a ver por que ela é tão poderosa, e tão frágil.", v("power lines sunset", 5)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já ficou muito tempo sem energia? Como foi?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
@@ -588,6 +671,20 @@ VIS = {
         39: dict(foto="M_aragua", legenda="Domo de Araguainha (MT/GO) visto por satélite"),
         40: dict(foto="M_bende", legenda="Meteorito do Bendegó no Museu Nacional (RJ)"),
         44: dict(foto="M_dimor", legenda="Asteroide Dimorfo, fotografado pela DART pouco antes da batida"),
+    },
+    "Apagao": {
+        3: dict(foto="Ap_sp2009b", legenda="São Paulo durante o apagão de novembro de 2009"),
+        9: dict(foto="Ap_itaipu", legenda="Usina de Itaipu (PR/Paraguai)"),
+        10: dict(foto="Ap_belomonte", legenda="Sala das turbinas da usina de Belo Monte (PA)"),
+        13: dict(anim={"emoji": "🚿", "texto": "Ligou o chuveiro: alguma usina gera mais na hora"}),
+        14: dict(anim={"emoji": "⚙️", "texto": "Geradores girando juntos: 60 vezes por segundo"}),
+        43: dict(anim={"emoji": "🔋", "texto": "Água, dinheiro vivo e bateria cheia"}),
+        35: dict(foto="Ap_ama2", legenda="Macapá no escuro, novembro de 2020"),
+        36: dict(foto="Ap_ama5", legenda="Fila em Macapá durante o apagão de 2020"),
+        37: dict(foto="Ap_ama6", legenda="Moradores de Macapá sem energia, 2020"),
+        38: dict(foto="Ap_sat", legenda="Espanha e Portugal vistos por satélite na noite do apagão, abril de 2025 (NOAA)"),
+        39: dict(foto="Ap_chamartin", legenda="Estação de Chamartín, Madri, no apagão de 28/04/2025"),
+        40: dict(foto="Ap_freq", legenda="Medição real: a frequência da rede caindo segundos antes do apagão (na Europa a rede é de 50 Hz)"),
     },
     "BuracoNegro": {
         9: dict(foto="B_eta", legenda="Eta Carinae: estrela com mais de 100 vezes a massa do Sol"),

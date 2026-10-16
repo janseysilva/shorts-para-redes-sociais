@@ -1,0 +1,451 @@
+{
+ "id": "Apagao",
+ "longo": true,
+ "titulo": "E se o Brasil ficasse 3 dias SEM ENERGIA? ⚡ (e por que um apagão derruba o país inteiro)",
+ "descricao": "Por que uma falha em um único lugar pode apagar quase o Brasil inteiro em segundos? A física da rede elétrica, o equilíbrio dos 60 hertz, o efeito dominó, os apagões de 2009, 2023 e 2025, o que aconteceria hora a hora em três dias sem energia, o caso real do Amapá e como se religa um país inteiro.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Imagine acordar e não ter luz. Nem no seu bairro, nem na sua cidade: em quase todo o Brasil.",
+     "busca": "city blackout night",
+     "desde": 0,
+     "clipe": "Apagao_0"
+    },
+    {
+     "frase": "Neste vídeo você vai entender por que uma falha num único lugar consegue apagar o país inteiro em segundos, e o que aconteceria se a energia sumisse por três dias.",
+     "busca": "power lines sunset",
+     "desde": 0,
+     "clipe": "Apagao_1"
+    },
+    {
+     "frase": "E vamos ver o lugar do Brasil onde isso aconteceu de verdade.",
+     "busca": "dark street night",
+     "desde": 0,
+     "clipe": "Apagao_2"
+    }
+   ]
+  },
+  {
+   "titulo": "O dia em que o Brasil apagou",
+   "cenas": [
+    {
+     "frase": "Em novembro de dois mil e nove, uma tempestade derrubou as linhas que trazem a energia de Itaipu. Dezoito estados ficaram no escuro.",
+     "busca": "lightning storm night",
+     "desde": 0,
+     "foto": "Ap_sp2009b",
+     "legenda": "São Paulo durante o apagão de novembro de 2009"
+    },
+    {
+     "frase": "Em agosto de dois mil e vinte e três, foi pior: numa manhã de terça-feira, vinte e cinco estados e o Distrito Federal perderam energia ao mesmo tempo.",
+     "busca": "traffic lights off city",
+     "desde": 0,
+     "clipe": "Apagao_4"
+    },
+    {
+     "frase": "E em outubro de dois mil e vinte e cinco, um incêndio numa subestação no Paraná apagou cerca de vinte estados de madrugada.",
+     "busca": "electrical substation",
+     "desde": 0,
+     "clipe": "Apagao_5"
+    },
+    {
+     "frase": "Em todos esses casos, a falha começou num único ponto. Para entender como ela se espalha, a gente precisa ver como a energia chega até a sua tomada.",
+     "busca": "electric outlet",
+     "desde": 0,
+     "clipe": "Apagao_6"
+    }
+   ]
+  },
+  {
+   "titulo": "Como a energia chega na sua tomada",
+   "cenas": [
+    {
+     "frase": "Quase todo o Brasil está ligado numa única rede gigante, o Sistema Interligado Nacional.",
+     "busca": "transmission towers aerial",
+     "desde": 0,
+     "clipe": "Apagao_7"
+    },
+    {
+     "frase": "São quase cento e oitenta mil quilômetros de linhas de transmissão. Dá para dar mais de quatro voltas na Terra.",
+     "busca": "power lines landscape",
+     "desde": 0,
+     "clipe": "Apagao_8"
+    },
+    {
+     "frase": "Boa parte da energia vem de usinas hidrelétricas, que ficam longe das grandes cidades.",
+     "busca": "hydroelectric dam",
+     "desde": 0,
+     "foto": "Ap_itaipu",
+     "legenda": "Usina de Itaipu (PR/Paraguai)"
+    },
+    {
+     "frase": "A energia de Belo Monte, no Pará, viaja mais de dois mil quilômetros até o Sudeste, por linhas de altíssima tensão.",
+     "busca": "high voltage lines",
+     "desde": 0,
+     "foto": "Ap_belomonte",
+     "legenda": "Sala das turbinas da usina de Belo Monte (PA)"
+    },
+    {
+     "frase": "A vantagem de tudo estar ligado é que uma região ajuda a outra. A desvantagem é que um problema também pode viajar pela rede inteira.",
+     "anim": {
+      "emoji": "🕸️",
+      "texto": "Tudo ligado: uma região ajuda a outra"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "O equilíbrio dos 60 hertz",
+   "cenas": [
+    {
+     "frase": "A energia elétrica quase não é guardada. Ela precisa ser gerada no mesmo instante em que é usada.",
+     "busca": "light bulb turning on",
+     "desde": 0,
+     "clipe": "Apagao_12"
+    },
+    {
+     "frase": "Cada vez que alguém liga um chuveiro, alguma usina precisa gerar um pouquinho mais, naquele mesmo segundo.",
+     "busca": "electric shower",
+     "desde": 0,
+     "anim": {
+      "emoji": "🚿",
+      "texto": "Ligou o chuveiro: alguma usina gera mais na hora"
+     }
+    },
+    {
+     "frase": "Os geradores das usinas giram todos sincronizados, como uma orquestra. É esse giro que faz a corrente ir e voltar sessenta vezes por segundo: os sessenta hertz.",
+     "busca": "power plant turbine",
+     "desde": 0,
+     "anim": {
+      "emoji": "⚙️",
+      "texto": "Geradores girando juntos: 60 vezes por segundo"
+     }
+    },
+    {
+     "frase": "Se o consumo fica maior que a geração, os geradores perdem um pouco de velocidade e a frequência cai.",
+     "anim": {
+      "emoji": "⚖️",
+      "texto": "Consumo maior que geração: a frequência cai"
+     }
+    },
+    {
+     "frase": "E os aparelhos e as usinas só aguentam uma variação muito pequena. É aí que começa o perigo.",
+     "anim": {
+      "emoji": "〰️",
+      "texto": "60 Hz: quase sem margem"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "O efeito dominó",
+   "cenas": [
+    {
+     "frase": "Quando uma linha importante cai, a energia que passava por ela tenta seguir por outros caminhos, que ficam sobrecarregados.",
+     "busca": "power lines storm",
+     "desde": 0,
+     "clipe": "Apagao_17"
+    },
+    {
+     "frase": "Para não queimar, os equipamentos de proteção desligam essas linhas também. E a sobrecarga pula para as próximas.",
+     "anim": {
+      "emoji": "🧱",
+      "texto": "Uma cai, sobrecarrega a outra, que também cai"
+     }
+    },
+    {
+     "frase": "Para segurar o resto do país, o sistema desliga bairros e cidades inteiras de propósito, em segundos. É um sacrifício para não perder tudo.",
+     "busca": "city lights going off",
+     "desde": 0,
+     "clipe": "Apagao_19"
+    },
+    {
+     "frase": "Foi assim em dois mil e vinte e três: uma falha no Ceará virou um apagão em quase todo o Brasil em menos de um minuto.",
+     "anim": {
+      "emoji": "⏱️",
+      "texto": "Do Ceará ao Brasil em menos de 1 minuto"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "E se faltasse energia por 3 dias: as primeiras horas",
+   "cenas": [
+    {
+     "frase": "Agora imagine que a energia não volta. Nos primeiros minutos, param os elevadores, os semáforos e o metrô.",
+     "busca": "subway train station",
+     "desde": 0,
+     "clipe": "Apagao_21"
+    },
+    {
+     "frase": "As torres de celular têm baterias, mas elas duram só algumas horas. Depois disso, o sinal some e a internet cai.",
+     "busca": "cell tower",
+     "desde": 0,
+     "clipe": "Apagao_22"
+    },
+    {
+     "frase": "Nos prédios, a água chega até a caixa por bombas elétricas. Quando a caixa esvazia, a torneira seca.",
+     "busca": "water tap dripping",
+     "desde": 0,
+     "clipe": "Apagao_23"
+    },
+    {
+     "frase": "Sem energia, o pagamento com cartão e com Pix para de funcionar. Quem não tem dinheiro vivo não consegue comprar nada.",
+     "busca": "credit card payment",
+     "desde": 0,
+     "clipe": "Apagao_24"
+    },
+    {
+     "frase": "E à noite, as cidades ficam escuras como no tempo em que não existia eletricidade.",
+     "busca": "dark city night",
+     "desde": 0,
+     "clipe": "Apagao_25"
+    }
+   ]
+  },
+  {
+   "titulo": "O segundo dia",
+   "cenas": [
+    {
+     "frase": "A geladeira fechada segura o frio por umas quatro horas. O congelador cheio aguenta uns dois dias, porque o gelo ajuda a manter a temperatura.",
+     "busca": "refrigerator food",
+     "desde": 0,
+     "clipe": "Apagao_26"
+    },
+    {
+     "frase": "Os postos de combustível também precisam de energia: a gasolina é puxada dos tanques por bombas elétricas.",
+     "busca": "gas station",
+     "desde": 0,
+     "clipe": "Apagao_27"
+    },
+    {
+     "frase": "Sem combustível, caminhões param, e começa a faltar comida fresca nos mercados.",
+     "busca": "supermarket shelves",
+     "desde": 0,
+     "clipe": "Apagao_28"
+    },
+    {
+     "frase": "As estações que tratam e bombeiam a água das cidades também param. Muitos bairros ficam sem água na torneira.",
+     "busca": "water treatment plant",
+     "desde": 0,
+     "clipe": "Apagao_29"
+    }
+   ]
+  },
+  {
+   "titulo": "O terceiro dia",
+   "cenas": [
+    {
+     "frase": "Os hospitais têm geradores a diesel, mas eles funcionam só enquanto houver combustível para abastecê-los.",
+     "busca": "hospital corridor",
+     "desde": 0,
+     "clipe": "Apagao_30"
+    },
+    {
+     "frase": "Remédios que precisam de geladeira, como a insulina, começam a estragar.",
+     "busca": "insulin pen",
+     "desde": 0,
+     "clipe": "Apagao_31"
+    },
+    {
+     "frase": "Sem bombas, o esgoto também para de ser levado embora. Três dias sem energia viram um problema de saúde.",
+     "busca": "city street rain",
+     "desde": 0,
+     "clipe": "Apagao_32"
+    },
+    {
+     "frase": "Por isso a energia elétrica é considerada um serviço essencial: quase tudo depende dela.",
+     "anim": {
+      "emoji": "🔌",
+      "texto": "Quase tudo depende da energia"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Isso já aconteceu: o Amapá",
+   "cenas": [
+    {
+     "frase": "Em novembro de dois mil e vinte, um incêndio atingiu a principal subestação do Amapá.",
+     "busca": "fire night",
+     "desde": 0,
+     "clipe": "Apagao_34"
+    },
+    {
+     "frase": "Treze dos dezesseis municípios do estado ficaram sem energia. A maior parte da população ficou totalmente no escuro por quatro dias.",
+     "busca": "candle light dark room",
+     "desde": 0,
+     "foto": "Ap_ama2",
+     "legenda": "Macapá no escuro, novembro de 2020"
+    },
+    {
+     "frase": "Faltou água, as filas nos postos de gasolina viraram quilômetros e muita gente perdeu toda a comida.",
+     "busca": "queue people",
+     "desde": 0,
+     "foto": "Ap_ama5",
+     "legenda": "Fila em Macapá durante o apagão de 2020"
+    },
+    {
+     "frase": "Depois disso, ainda foram cerca de três semanas de rodízio, com energia só algumas horas por dia.",
+     "foto": "Ap_ama6",
+     "legenda": "Moradores de Macapá sem energia, 2020"
+    }
+   ]
+  },
+  {
+   "titulo": "E na Europa?",
+   "cenas": [
+    {
+     "frase": "Isso não acontece só aqui. Em abril de dois mil e vinte e cinco, Espanha e Portugal apagaram quase inteiros, no meio do dia.",
+     "busca": "madrid street",
+     "desde": 0,
+     "foto": "Ap_sat",
+     "legenda": "Espanha e Portugal vistos por satélite na noite do apagão, abril de 2025 (NOAA)"
+    },
+    {
+     "frase": "Trens pararam no meio do caminho, pessoas ficaram presas em elevadores, e o trânsito virou um caos sem semáforos.",
+     "busca": "train station people waiting",
+     "desde": 0,
+     "foto": "Ap_chamartin",
+     "legenda": "Estação de Chamartín, Madri, no apagão de 28/04/2025"
+    },
+    {
+     "frase": "Em poucos segundos, a rede perdeu o equilíbrio e as proteções foram desligando tudo, no mesmo efeito dominó.",
+     "foto": "Ap_freq",
+     "legenda": "Medição real: a frequência da rede caindo segundos antes do apagão (na Europa a rede é de 50 Hz)"
+    }
+   ]
+  },
+  {
+   "titulo": "Como se preparar",
+   "cenas": [
+    {
+     "frase": "Não precisa ter medo, mas vale ter algumas coisas em casa.",
+     "busca": "flashlight dark",
+     "desde": 0,
+     "clipe": "Apagao_41"
+    },
+    {
+     "frase": "Uma lanterna com pilhas é melhor que vela: vela acesa em casa escura é uma das maiores causas de incêndio durante apagões.",
+     "busca": "flashlight batteries",
+     "desde": 0,
+     "clipe": "Apagao_42"
+    },
+    {
+     "frase": "Água guardada, um pouco de dinheiro vivo e um carregador portátil com bateria cheia ajudam muito nos primeiros dias.",
+     "busca": "power bank charging phone",
+     "desde": 0,
+     "anim": {
+      "emoji": "🔋",
+      "texto": "Água, dinheiro vivo e bateria cheia"
+     }
+    },
+    {
+     "frase": "E um rádio a pilha: quando o celular e a internet caem, é por ele que chegam as notícias.",
+     "busca": "old radio",
+     "desde": 0,
+     "clipe": "Apagao_44"
+    }
+   ]
+  },
+  {
+   "titulo": "Como religar um país inteiro",
+   "cenas": [
+    {
+     "frase": "Religar a rede não é só apertar um botão. Se todo mundo voltar ao mesmo tempo, a rede cai de novo.",
+     "busca": "control room screens",
+     "desde": 0,
+     "clipe": "Apagao_45"
+    },
+    {
+     "frase": "Primeiro ligam as usinas que conseguem partir sozinhas, sem energia de fora. As hidrelétricas são ótimas nisso.",
+     "busca": "hydroelectric dam water",
+     "desde": 0,
+     "clipe": "Apagao_46"
+    },
+    {
+     "frase": "Depois, os operadores religam as linhas aos poucos, cidade por cidade, sempre segurando o equilíbrio dos sessenta hertz.",
+     "anim": {
+      "emoji": "🧩",
+      "texto": "Religa aos poucos, cidade por cidade"
+     }
+    },
+    {
+     "frase": "Em dois mil e vinte e três, quase todo o país já tinha energia de volta em algumas horas.",
+     "busca": "city lights night timelapse",
+     "desde": 0,
+     "clipe": "Apagao_48"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Um apagão de três dias no Brasil inteiro é muito improvável. Mas entender a física da rede ajuda a ver por que ela é tão poderosa, e tão frágil.",
+     "busca": "power lines sunset",
+     "desde": 5,
+     "clipe": "Apagao_49"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já ficou muito tempo sem energia? Como foi?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Imagine acordar e não ter luz. Nem no seu bairro, nem na sua cidade: em quase todo o Brasil.",
+  "Neste vídeo você vai entender por que uma falha num único lugar consegue apagar o país inteiro em segundos, e o que aconteceria se a energia sumisse por três dias.",
+  "E vamos ver o lugar do Brasil onde isso aconteceu de verdade.",
+  "Em novembro de dois mil e nove, uma tempestade derrubou as linhas que trazem a energia de Itaipu. Dezoito estados ficaram no escuro.",
+  "Em agosto de dois mil e vinte e três, foi pior: numa manhã de terça-feira, vinte e cinco estados e o Distrito Federal perderam energia ao mesmo tempo.",
+  "E em outubro de dois mil e vinte e cinco, um incêndio numa subestação no Paraná apagou cerca de vinte estados de madrugada.",
+  "Em todos esses casos, a falha começou num único ponto. Para entender como ela se espalha, a gente precisa ver como a energia chega até a sua tomada.",
+  "Quase todo o Brasil está ligado numa única rede gigante, o Sistema Interligado Nacional.",
+  "São quase cento e oitenta mil quilômetros de linhas de transmissão. Dá para dar mais de quatro voltas na Terra.",
+  "Boa parte da energia vem de usinas hidrelétricas, que ficam longe das grandes cidades.",
+  "A energia de Belo Monte, no Pará, viaja mais de dois mil quilômetros até o Sudeste, por linhas de altíssima tensão.",
+  "A vantagem de tudo estar ligado é que uma região ajuda a outra. A desvantagem é que um problema também pode viajar pela rede inteira.",
+  "A energia elétrica quase não é guardada. Ela precisa ser gerada no mesmo instante em que é usada.",
+  "Cada vez que alguém liga um chuveiro, alguma usina precisa gerar um pouquinho mais, naquele mesmo segundo.",
+  "Os geradores das usinas giram todos sincronizados, como uma orquestra. É esse giro que faz a corrente ir e voltar sessenta vezes por segundo: os sessenta hertz.",
+  "Se o consumo fica maior que a geração, os geradores perdem um pouco de velocidade e a frequência cai.",
+  "E os aparelhos e as usinas só aguentam uma variação muito pequena. É aí que começa o perigo.",
+  "Quando uma linha importante cai, a energia que passava por ela tenta seguir por outros caminhos, que ficam sobrecarregados.",
+  "Para não queimar, os equipamentos de proteção desligam essas linhas também. E a sobrecarga pula para as próximas.",
+  "Para segurar o resto do país, o sistema desliga bairros e cidades inteiras de propósito, em segundos. É um sacrifício para não perder tudo.",
+  "Foi assim em dois mil e vinte e três: uma falha no Ceará virou um apagão em quase todo o Brasil em menos de um minuto.",
+  "Agora imagine que a energia não volta. Nos primeiros minutos, param os elevadores, os semáforos e o metrô.",
+  "As torres de celular têm baterias, mas elas duram só algumas horas. Depois disso, o sinal some e a internet cai.",
+  "Nos prédios, a água chega até a caixa por bombas elétricas. Quando a caixa esvazia, a torneira seca.",
+  "Sem energia, o pagamento com cartão e com Pix para de funcionar. Quem não tem dinheiro vivo não consegue comprar nada.",
+  "E à noite, as cidades ficam escuras como no tempo em que não existia eletricidade.",
+  "A geladeira fechada segura o frio por umas quatro horas. O congelador cheio aguenta uns dois dias, porque o gelo ajuda a manter a temperatura.",
+  "Os postos de combustível também precisam de energia: a gasolina é puxada dos tanques por bombas elétricas.",
+  "Sem combustível, caminhões param, e começa a faltar comida fresca nos mercados.",
+  "As estações que tratam e bombeiam a água das cidades também param. Muitos bairros ficam sem água na torneira.",
+  "Os hospitais têm geradores a diesel, mas eles funcionam só enquanto houver combustível para abastecê-los.",
+  "Remédios que precisam de geladeira, como a insulina, começam a estragar.",
+  "Sem bombas, o esgoto também para de ser levado embora. Três dias sem energia viram um problema de saúde.",
+  "Por isso a energia elétrica é considerada um serviço essencial: quase tudo depende dela.",
+  "Em novembro de dois mil e vinte, um incêndio atingiu a principal subestação do Amapá.",
+  "Treze dos dezesseis municípios do estado ficaram sem energia. A maior parte da população ficou totalmente no escuro por quatro dias.",
+  "Faltou água, as filas nos postos de gasolina viraram quilômetros e muita gente perdeu toda a comida.",
+  "Depois disso, ainda foram cerca de três semanas de rodízio, com energia só algumas horas por dia.",
+  "Isso não acontece só aqui. Em abril de dois mil e vinte e cinco, Espanha e Portugal apagaram quase inteiros, no meio do dia.",
+  "Trens pararam no meio do caminho, pessoas ficaram presas em elevadores, e o trânsito virou um caos sem semáforos.",
+  "Em poucos segundos, a rede perdeu o equilíbrio e as proteções foram desligando tudo, no mesmo efeito dominó.",
+  "Não precisa ter medo, mas vale ter algumas coisas em casa.",
+  "Uma lanterna com pilhas é melhor que vela: vela acesa em casa escura é uma das maiores causas de incêndio durante apagões.",
+  "Água guardada, um pouco de dinheiro vivo e um carregador portátil com bateria cheia ajudam muito nos primeiros dias.",
+  "E um rádio a pilha: quando o celular e a internet caem, é por ele que chegam as notícias.",
+  "Religar a rede não é só apertar um botão. Se todo mundo voltar ao mesmo tempo, a rede cai de novo.",
+  "Primeiro ligam as usinas que conseguem partir sozinhas, sem energia de fora. As hidrelétricas são ótimas nisso.",
+  "Depois, os operadores religam as linhas aos poucos, cidade por cidade, sempre segurando o equilíbrio dos sessenta hertz.",
+  "Em dois mil e vinte e três, quase todo o país já tinha energia de volta em algumas horas.",
+  "Um apagão de três dias no Brasil inteiro é muito improvável. Mas entender a física da rede ajuda a ver por que ela é tão poderosa, e tão frágil.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já ficou muito tempo sem energia? Como foi?"
+ ]
+}

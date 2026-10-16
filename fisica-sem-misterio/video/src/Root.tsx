@@ -142,6 +142,8 @@ import tCidadeEspelhos from "../public/CidadeEspelhos/tempos.json";
 import { Longo, type RoteiroLongo, type TemposLongo } from "./Longo";
 import rMultigerador from "../roteiros/Multigerador.json";
 import tMultigerador from "../public/Multigerador/tempos.json";
+import rApagao from "../roteiros/Apagao.json";
+import tApagao from "../public/Apagao/tempos.json";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
 import rOymyakon from "../roteiros/Oymyakon.json";
@@ -184,6 +186,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rMeteoro as RoteiroLongo, tMeteoro, ["METEORO", "O dia em que os dinossauros acabaram"], "Meteoro_46"],
   [rBuracoNegro as RoteiroLongo, tBuracoNegro, ["BURACO NEGRO", "Onde nem a luz escapa"], "BuracoNegro_46"],
   [rMultigerador as RoteiroLongo, tMultigerador, ["ENERGIA INFINITA?", "O Multigerador Quântico explicado"], "Multigerador_15"],
+  [rApagao as RoteiroLongo, tApagao, ["SEM ENERGIA", "E se o Brasil apagasse por 3 dias?"], "Apagao_49"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

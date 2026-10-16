@@ -68,3 +68,12 @@ texto(d, (58, 500), "E SE VOCÊ CAÍSSE?", 74, "#FFC94A", 8)
 d.rounded_rectangle((58, 600, 640, 680), 18, fill="#1D7FD6"); texto(d, (349, 640), "a primeira foto real", 50, "white", 0, "mm")
 im.save(D / "capa_BuracoNegro.jpg", quality=92)
 print("ok3")
+
+# Apagão
+im = base("q_Apagao_0.jpg"); d = ImageDraw.Draw(im)
+texto(d, (50, 100), "E SE O BRASIL", 110, "#FFFFFF", 11)
+texto(d, (50, 230), "APAGASSE?", 175, "#FFC94A", 13)
+texto(d, (58, 455), "3 DIAS SEM ENERGIA", 70, "#FFFFFF", 8)
+d.rounded_rectangle((58, 570, 700, 655), 18, fill="#E8401C"); texto(d, (379, 612), "a física do apagão", 56, "white", 0, "mm")
+im.save(D / "capa_Apagao.jpg", quality=92)
+print("ok apagao")
