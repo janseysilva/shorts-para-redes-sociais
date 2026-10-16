@@ -12,8 +12,9 @@ FIM = "Segue o Física Sem Mistério para mais curiosidades."
 S = []
 
 
-def short(id_, titulo, legenda, final_emoji, final_frase, cenas):
-    S.append(dict(id=id_, titulo=titulo, legenda=legenda, final={"emoji": final_emoji, "frase": final_frase},
+def short(id_, titulo, legenda, final_emoji, final_frase, cenas, pergunta=None):
+    """pergunta: frase que puxa comentário na legenda das redes (opcional; sem ela usa uma pergunta padrão)."""
+    S.append(dict(id=id_, titulo=titulo, legenda=legenda, final={"emoji": final_emoji, "frase": final_frase}, pergunta=pergunta,
                   frases=[c[0] for c in cenas] + [FIM],
                   cenas=[dict(gancho=c[1], destaque=c[2], **c[3]) for c in cenas]))
 

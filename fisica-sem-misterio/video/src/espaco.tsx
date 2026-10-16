@@ -133,8 +133,10 @@ export const Final: React.FC<{ desde: number; emoji: string; frase: React.ReactN
         <div style={{ fontSize: 160, transform: `scale(${fim}) translateY(${Math.sin(t * 2) * 12}px)`, filter: "drop-shadow(0 0 40px rgba(255,201,74,.6))" }}>{emoji}</div>
         <div style={{ fontSize: 84, fontWeight: 900, lineHeight: 1.1, textShadow: "0 0 30px rgba(92,225,255,.5)" }}>{frase}</div>
         <div style={{ fontSize: 58, fontWeight: 800, color: "#140d00", background: OURO, borderRadius: 18, padding: "10px 30px",
-          marginTop: 60, transform: `scale(${1 + Math.sin(t * 6) * 0.03})` }}>Salva esse vídeo</div>
-        <div style={{ fontSize: 42, color: "#cfe8ff", marginTop: 30 }}>Segue para mais curiosidades da física</div>
+          marginTop: 60, transform: `scale(${1 + Math.sin(t * 6) * 0.03})` }}>Siga: 1 curiosidade por dia</div>
+        <div style={{ fontSize: 50, fontWeight: 800, color: "#5ce1ff", marginTop: 34 }}>@fisicasemmisteriobr</div>
+        <div style={{ fontSize: 36, color: "#cfe8ff", marginTop: 10 }}>Física Sem Mistério no YouTube, Instagram e Facebook</div>
+        <div style={{ fontSize: 34, color: "#9fb4cc", marginTop: 26 }}>Salva esse vídeo para mostrar para alguém</div>
       </AbsoluteFill>
     </AbsoluteFill>
   );
