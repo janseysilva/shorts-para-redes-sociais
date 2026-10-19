@@ -265,3 +265,10 @@ Jansey excluiu Office e Truques e pediu: todo dia 2 shorts + 2 vídeos longos, a
 - Escolha de clipes: miniaturas renderizadas DENTRO da página do Pexels no navegador embutido (grade HTML + screenshots), sem precisar baixar candidatos.
 - Kit em `Desktop\trabalhos jansey\_upload_longo\`: `Longo8_Apagao.mp4` (214 MB), `capa_Apagao.jpg` (capa nova "E SE O BRASIL APAGASSE?"), `descricao_Apagao.txt`, e **`Story_Apagao.mp4`** (24 s, em pé, para divulgar no FB+IG com link quando o longo for publicado). Falta: Jansey arrastar o .mp4 no YouTube + autorizar publicar e postar o story.
 - Outros temas levantados (reserva): foguete que pousa em pé (quase zero em PT), tempestade solar hoje + anomalia do Atlântico Sul, cometa 3I/ATLAS, escudo magnético, sem atrito, gravidade 5 s.
+
+## 19/10 — PUBLICADOS os que estavam prontos (Jansey: "vamos postar os que ja estão prontos")
+- Antes, conferido no Studio (inclui rascunhos/agendados) que nenhum dos dois tinha sido publicado pelo outro PC.
+- **LONGO 8 Apagão PUBLICADO no YouTube:** https://youtu.be/kmEXaK4YIpc (capa, descrição com capítulos e créditos, playlist "Documentários de Física"). **Story_Apagao** publicado no FB+IG com link de deslizar para o vídeo. Kit movido para `_upload_longo\ja_publicados`.
+- **SHORT 64 LugarChuva PUBLICADO nos 3:** https://youtube.com/shorts/0nzzOJu9fkU (playlist "Os lugares mais EXTREMOS"; descrição começa com "⚡ Vídeo completo: ... Apagão 👉 link"). Re-renderizado antes com o final novo ("Siga @fisicasemmisteriobr"). Reel FB+IG com `out/legenda_redes_LugarChuva.txt`.
+- **ATENÇÃO Business Suite (19/10): a caixa de legenda dos Reels QUEBRA com `execCommand('insertText')`** (o texto some/duplica e a seção "Detalhes do reel" desaparece; precisei descartar e recomeçar). O que funciona: clicar na caixa e usar a ação `type` do computer (digitação real), com `shift+Enter` entre parágrafos; terminar as hashtags com espaço.
+- O Facebook tinha deslogado no Chrome; o Jansey entrou de novo.
