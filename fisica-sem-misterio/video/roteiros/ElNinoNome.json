@@ -1,0 +1,70 @@
+{
+ "id": "ElNinoNome",
+ "titulo": "Por que esse fenômeno se chama EL NIÑO, \"o Menino\"? 🎄🌊",
+ "legenda": "El Niño quer dizer \"o menino\" em espanhol. O nome veio dos pescadores do Peru: em alguns anos, o mar da costa esquentava perto do Natal, a época do Menino Jesus. Normalmente lá sobe água fria do fundo, cheia de nutrientes e de peixes. Quando a água quente chegava por cima, os peixes sumiam. Hoje sabemos que esse aquecimento do Pacífico mexe com o clima do planeta inteiro, e o de 2026 é o mais forte já medido para esta época do ano! #fisica #elnino #clima #oceano #curiosidades",
+ "final": {
+  "emoji": "🌊",
+  "frase": "O menino que mexe com o mundo."
+ },
+ "pergunta": "Você sabia de onde vinha esse nome? Conta aqui nos comentários 👇",
+ "frases": [
+  "Todo mundo está falando do El Niño. Mas você sabe por que ele tem esse nome? Em espanhol, El Niño quer dizer: o menino.",
+  "Quem deu o nome foram os pescadores do Peru. Eles percebiam que, em alguns anos, o mar da costa esquentava perto do Natal.",
+  "Como era a época do nascimento do Menino Jesus, eles chamaram aquela água quente de El Niño, o menino.",
+  "Normalmente o mar do Peru é gelado: sobe água fria do fundo, cheia de nutrientes. Por isso lá tem tanto peixe.",
+  "Mas quando a água quente chegava por cima, os peixes sumiam, e os pescadores voltavam com as redes vazias.",
+  "Hoje a gente sabe que esse aquecimento mexe com o clima do planeta inteiro. E o deste ano é o mais forte já medido para esta época: o Super El Niño.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O MENINO?",
+   "destaque": [
+    "MENINO"
+   ],
+   "busca": "pacific ocean",
+   "foto": "En_cop26"
+  },
+  {
+   "gancho": "Esquenta no NATAL",
+   "destaque": [
+    "NATAL"
+   ],
+   "busca": "peru fishermen",
+   "foto": "Nm_totora"
+  },
+  {
+   "gancho": "O Menino JESUS",
+   "destaque": [
+    "JESUS"
+   ],
+   "anim": {
+    "emoji": "🎄",
+    "texto": "Água quente no Natal = El Niño"
+   }
+  },
+  {
+   "gancho": "Mar GELADO e cheio de peixe",
+   "destaque": [
+    "GELADO"
+   ],
+   "busca": "school of fish underwater"
+  },
+  {
+   "gancho": "Redes VAZIAS",
+   "destaque": [
+    "VAZIAS"
+   ],
+   "busca": "fishermen nets",
+   "foto": "Nm_pesc"
+  },
+  {
+   "gancho": "O SUPER El Niño",
+   "destaque": [
+    "SUPER"
+   ],
+   "busca": "el nino 2026",
+   "foto": "En_ssta26"
+  }
+ ]
+}

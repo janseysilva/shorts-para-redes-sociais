@@ -77,3 +77,12 @@ texto(d, (58, 455), "3 DIAS SEM ENERGIA", 70, "#FFFFFF", 8)
 d.rounded_rectangle((58, 570, 700, 655), 18, fill="#E8401C"); texto(d, (379, 612), "a física do apagão", 56, "white", 0, "mm")
 im.save(D / "capa_Apagao.jpg", quality=92)
 print("ok apagao")
+
+# El Niño
+im = base("q_ElNino_0.jpg"); d = ImageDraw.Draw(im)
+texto(d, (50, 70), "SUPER", 120, "#FFC94A", 11)
+texto(d, (50, 200), "EL NIÑO", 170, "#FFFFFF", 13)
+texto(d, (58, 420), "O MONSTRO DO PACÍFICO", 62, "#FFFFFF", 8)
+d.rounded_rectangle((58, 530, 640, 615), 18, fill="#E8401C"); texto(d, (349, 572), "chegando ao Brasil", 56, "white", 0, "mm")
+im.save(D / "capa_ElNino.jpg", quality=92)
+print("ok elnino")

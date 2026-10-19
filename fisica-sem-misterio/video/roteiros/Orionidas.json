@@ -1,0 +1,70 @@
+{
+ "id": "Orionidas",
+ "titulo": "Nesta semana vão cair pedaços do COMETA HALLEY no céu ☄️",
+ "legenda": "Na noite de 21 para 22 de outubro acontece o pico das Oriônidas, a chuva de meteoros feita da poeira que o cometa Halley deixou pelo caminho. Cada risco de luz é um grão do tamanho de um grão de areia que entra no ar a 66 km por segundo: ele espreme o ar da frente, que esquenta a milhares de graus e brilha. Para ver, olhe para o leste depois da meia-noite, perto das Três Marias, longe das luzes da cidade. O Halley mesmo só volta em 2061! #fisica #astronomia #meteoros #cometahalley #curiosidades",
+ "final": {
+  "emoji": "☄️",
+  "frase": "Poeira de cometa pegando fogo."
+ },
+ "pergunta": "Você vai tentar ver? Me conta da sua cidade aqui nos comentários 👇",
+ "frases": [
+  "Nesta semana, pedaços do cometa mais famoso da história vão riscar o céu do Brasil: o cometa Halley.",
+  "O Halley passa perto do Sol a cada setenta e seis anos. Em cada volta, o calor solta poeira e pedrinhas, que ficam espalhadas pelo caminho.",
+  "Todo mês de outubro, a Terra atravessa essa trilha. É a chuva de meteoros Oriônidas, com pico na noite de vinte e um para vinte e dois.",
+  "Cada risco de luz é um grãozinho do tamanho de um grão de areia, que entra no ar a sessenta e seis quilômetros por segundo.",
+  "Nessa velocidade, ele espreme o ar da frente com tanta força que o ar esquenta a milhares de graus e brilha. O grão vira vapor a cem quilômetros de altura.",
+  "Para ver, olhe para o leste depois da meia-noite, perto das Três Marias, longe das luzes da cidade. E o Halley mesmo? Só volta em dois mil e sessenta e um.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Pedaços do HALLEY",
+   "destaque": [
+    "HALLEY"
+   ],
+   "busca": "halley comet",
+   "foto": "Ha_halley"
+  },
+  {
+   "gancho": "Uma trilha de POEIRA",
+   "destaque": [
+    "POEIRA"
+   ],
+   "busca": "halley nucleus",
+   "foto": "Ha_nucleo"
+  },
+  {
+   "gancho": "Chuva de METEOROS",
+   "destaque": [
+    "METEOROS"
+   ],
+   "busca": "orionid meteor shower",
+   "foto": "Ha_comp"
+  },
+  {
+   "gancho": "66 km por SEGUNDO",
+   "destaque": [
+    "SEGUNDO"
+   ],
+   "anim": {
+    "emoji": "☄️",
+    "texto": "Um grão de areia a 66 km/s"
+   }
+  },
+  {
+   "gancho": "O ar BRILHA",
+   "destaque": [
+    "BRILHA"
+   ],
+   "busca": "meteor shower night",
+   "foto": "Ha_chile"
+  },
+  {
+   "gancho": "Ele volta em 2061",
+   "destaque": [
+    "2061"
+   ],
+   "busca": "night sky through trees"
+  }
+ ]
+}

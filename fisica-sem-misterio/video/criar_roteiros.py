@@ -769,6 +769,29 @@ short("CidadeEspelhos", "A cidade que ficava 6 meses SEM SOL e instalou espelhos
     ("E a ideia tinha mais de cem anos. Em mil novecentos e vinte e oito, construíram até um teleférico só para os moradores subirem e pegarem sol.", "Um teleférico pra pegar SOL", ["SOL"], {"busca": "rjukan cable car", "foto": "R_kross"}),
 ])
 
+# ---------- LEVA 16 (19/10): Super El Niño ----------
+short("ElNinoNome", "Por que esse fenômeno se chama EL NIÑO, \"o Menino\"? 🎄🌊",
+      "El Niño quer dizer \"o menino\" em espanhol. O nome veio dos pescadores do Peru: em alguns anos, o mar da costa esquentava perto do Natal, a época do Menino Jesus. Normalmente lá sobe água fria do fundo, cheia de nutrientes e de peixes. Quando a água quente chegava por cima, os peixes sumiam. Hoje sabemos que esse aquecimento do Pacífico mexe com o clima do planeta inteiro, e o de 2026 é o mais forte já medido para esta época do ano! #fisica #elnino #clima #oceano #curiosidades",
+      "🌊", "O menino que mexe com o mundo.", [
+    ("Todo mundo está falando do El Niño. Mas você sabe por que ele tem esse nome? Em espanhol, El Niño quer dizer: o menino.", "O MENINO?", ["MENINO"], {"busca": "pacific ocean", "foto": "En_cop26"}),
+    ("Quem deu o nome foram os pescadores do Peru. Eles percebiam que, em alguns anos, o mar da costa esquentava perto do Natal.", "Esquenta no NATAL", ["NATAL"], {"busca": "peru fishermen", "foto": "Nm_totora"}),
+    ("Como era a época do nascimento do Menino Jesus, eles chamaram aquela água quente de El Niño, o menino.", "O Menino JESUS", ["JESUS"], a("🎄", "Água quente no Natal = El Niño")),
+    ("Normalmente o mar do Peru é gelado: sobe água fria do fundo, cheia de nutrientes. Por isso lá tem tanto peixe.", "Mar GELADO e cheio de peixe", ["GELADO"], v("school of fish underwater")),
+    ("Mas quando a água quente chegava por cima, os peixes sumiam, e os pescadores voltavam com as redes vazias.", "Redes VAZIAS", ["VAZIAS"], {"busca": "fishermen nets", "foto": "Nm_pesc"}),
+    ("Hoje a gente sabe que esse aquecimento mexe com o clima do planeta inteiro. E o deste ano é o mais forte já medido para esta época: o Super El Niño.", "O SUPER El Niño", ["SUPER"], {"busca": "el nino 2026", "foto": "En_ssta26"}),
+], pergunta="Você sabia de onde vinha esse nome? Conta aqui nos comentários 👇")
+
+short("Orionidas", "Nesta semana vão cair pedaços do COMETA HALLEY no céu ☄️",
+      "Na noite de 21 para 22 de outubro acontece o pico das Oriônidas, a chuva de meteoros feita da poeira que o cometa Halley deixou pelo caminho. Cada risco de luz é um grão do tamanho de um grão de areia que entra no ar a 66 km por segundo: ele espreme o ar da frente, que esquenta a milhares de graus e brilha. Para ver, olhe para o leste depois da meia-noite, perto das Três Marias, longe das luzes da cidade. O Halley mesmo só volta em 2061! #fisica #astronomia #meteoros #cometahalley #curiosidades",
+      "☄️", "Poeira de cometa pegando fogo.", [
+    ("Nesta semana, pedaços do cometa mais famoso da história vão riscar o céu do Brasil: o cometa Halley.", "Pedaços do HALLEY", ["HALLEY"], {"busca": "halley comet", "foto": "Ha_halley"}),
+    ("O Halley passa perto do Sol a cada setenta e seis anos. Em cada volta, o calor solta poeira e pedrinhas, que ficam espalhadas pelo caminho.", "Uma trilha de POEIRA", ["POEIRA"], {"busca": "halley nucleus", "foto": "Ha_nucleo"}),
+    ("Todo mês de outubro, a Terra atravessa essa trilha. É a chuva de meteoros Oriônidas, com pico na noite de vinte e um para vinte e dois.", "Chuva de METEOROS", ["METEOROS"], {"busca": "orionid meteor shower", "foto": "Ha_comp"}),
+    ("Cada risco de luz é um grãozinho do tamanho de um grão de areia, que entra no ar a sessenta e seis quilômetros por segundo.", "66 km por SEGUNDO", ["SEGUNDO"], a("☄️", "Um grão de areia a 66 km/s")),
+    ("Nessa velocidade, ele espreme o ar da frente com tanta força que o ar esquenta a milhares de graus e brilha. O grão vira vapor a cem quilômetros de altura.", "O ar BRILHA", ["BRILHA"], {"busca": "meteor shower night", "foto": "Ha_chile"}),
+    ("Para ver, olhe para o leste depois da meia-noite, perto das Três Marias, longe das luzes da cidade. E o Halley mesmo? Só volta em dois mil e sessenta e um.", "Ele volta em 2061", ["2061"], v("night sky through trees")),
+], pergunta="Você vai tentar ver? Me conta da sua cidade aqui nos comentários 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

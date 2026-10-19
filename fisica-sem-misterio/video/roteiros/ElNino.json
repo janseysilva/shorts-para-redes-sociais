@@ -1,0 +1,447 @@
+{
+ "id": "ElNino",
+ "longo": true,
+ "titulo": "SUPER EL NIÑO: o monstro do Pacífico que já está chegando ao Brasil 🌊🔥",
+ "descricao": "O El Niño de 2026 é o mais forte já medido para esta época do ano. Como uma faixa do Oceano Pacífico só 3 graus mais quente, do outro lado do mundo, muda a chuva e o calor no Brasil inteiro: os ventos alísios, a água quente que atravessa o oceano, por que o Sul alaga e o Norte seca, as ondas de calor, os El Niños de 1982, 1997 e 2015 e quando ele vai embora.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Do outro lado do mundo, no meio do Oceano Pacífico, uma mancha de água quente maior que o Brasil está crescendo.",
+     "busca": "pacific ocean aerial",
+     "desde": 0,
+     "foto": "En_cop26",
+     "legenda": "A mancha quente no Pacífico em agosto de 2026 (Copernicus)"
+    },
+    {
+     "frase": "Ela é tão poderosa que consegue trazer enchentes para o Sul, secar os rios da Amazônia e esquentar o seu verão.",
+     "busca": "flood street rain",
+     "desde": 0,
+     "clipe": "ElNino_1"
+    },
+    {
+     "frase": "Ela se chama El Niño. E o deste ano está quebrando recordes. Neste vídeo você vai entender a física desse monstro.",
+     "busca": "ocean waves storm",
+     "desde": 0,
+     "clipe": "ElNino_2"
+    }
+   ]
+  },
+  {
+   "titulo": "O monstro acordou",
+   "cenas": [
+    {
+     "frase": "Em junho de dois mil e vinte e seis, a Organização Meteorológica Mundial confirmou: o El Niño tinha começado.",
+     "busca": "weather satellite earth",
+     "desde": 0,
+     "clipe": "ElNino_3"
+    },
+    {
+     "frase": "Em poucos meses, a água no centro do Pacífico ficou mais de três graus acima do normal. É o El Niño mais forte já medido para esta época do ano.",
+     "busca": "tropical ocean sun",
+     "desde": 0,
+     "foto": "En_ssta26",
+     "legenda": "Pacífico em outubro de 2026 (em cima) e 2025 (embaixo): vermelho é água mais quente que o normal (NASA)"
+    },
+    {
+     "frase": "Os cientistas chamam isso de El Niño muito forte. O apelido é Super El Niño.",
+     "busca": "ocean surface sunlight",
+     "desde": 0,
+     "clipe": "ElNino_5"
+    },
+    {
+     "frase": "E o pico ainda nem chegou: ele deve ficar ainda mais forte até dezembro e pode ser o maior desde mil novecentos e cinquenta, quando as medições começaram.",
+     "anim": {
+      "emoji": "📈",
+      "texto": "Pico em novembro e dezembro"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Um nome que veio do Natal",
+   "cenas": [
+    {
+     "frase": "O nome é espanhol e quer dizer o menino. Quem batizou foram os pescadores do Peru, há mais de cem anos.",
+     "busca": "fishing boats harbor",
+     "desde": 0,
+     "clipe": "ElNino_7"
+    },
+    {
+     "frase": "Eles percebiam que, em alguns anos, o mar perto da costa esquentava por volta do Natal, a época do Menino Jesus.",
+     "busca": "fisherman boat sea",
+     "desde": 0,
+     "clipe": "ElNino_8"
+    },
+    {
+     "frase": "E quando o mar esquentava, os peixes sumiam. Os pescadores não sabiam, mas estavam vendo um fenômeno que mexe com o planeta inteiro.",
+     "busca": "empty fishing nets",
+     "desde": 0,
+     "clipe": "ElNino_9"
+    }
+   ]
+  },
+  {
+   "titulo": "O Pacífico num ano normal",
+   "cenas": [
+    {
+     "frase": "Para entender o El Niño, primeiro a gente precisa ver como o Pacífico funciona num ano normal.",
+     "busca": "pacific ocean waves",
+     "desde": 0,
+     "clipe": "ElNino_10"
+    },
+    {
+     "frase": "Perto da linha do Equador, sopram os ventos alísios, sempre do leste para o oeste, da América do Sul em direção à Ásia.",
+     "busca": "palm trees wind beach",
+     "desde": 0,
+     "clipe": "ElNino_11"
+    },
+    {
+     "frase": "Esses ventos empurram a água quente da superfície para o outro lado do oceano, perto da Indonésia e da Austrália.",
+     "anim": {
+      "emoji": "🌬️",
+      "texto": "Os alísios empurram a água quente para a Ásia"
+     }
+    },
+    {
+     "frase": "A água se acumula tanto que o mar lá fica uns cinquenta centímetros mais alto do que aqui do lado da América.",
+     "busca": "indonesia beach",
+     "desde": 0,
+     "clipe": "ElNino_13"
+    },
+    {
+     "frase": "E na costa do Peru, para ocupar o lugar da água que foi embora, sobe água fria do fundo do mar, cheia de nutrientes. É por isso que lá tem tanto peixe.",
+     "busca": "school of fish underwater",
+     "desde": 0,
+     "clipe": "ElNino_14"
+    }
+   ]
+  },
+  {
+   "titulo": "Quando o vento cansa",
+   "cenas": [
+    {
+     "frase": "Em alguns anos, os ventos alísios enfraquecem. E aí a água quente que estava presa do lado da Ásia começa a voltar.",
+     "busca": "calm ocean surface",
+     "desde": 0,
+     "clipe": "ElNino_15"
+    },
+    {
+     "frase": "Ela atravessa o Pacífico como uma onda gigante e lenta, que quase não se vê na superfície. Os cientistas chamam de onda de Kelvin.",
+     "foto": "En_ssha26",
+     "legenda": "Outubro de 2026: a água quente se acumulando do lado da América (NASA)"
+    },
+    {
+     "frase": "Essa onda leva uns dois meses para cruzar o oceano, e quando chega, a água fria do Peru fica coberta por uma camada quente.",
+     "busca": "warm ocean water",
+     "desde": 0,
+     "clipe": "ElNino_17"
+    },
+    {
+     "frase": "E tem um detalhe que deixa tudo pior: com o mar mais quente do lado da América, o vento enfraquece ainda mais. Um alimenta o outro.",
+     "anim": {
+      "emoji": "🔁",
+      "texto": "Mar quente enfraquece o vento, que esquenta o mar"
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Por que três graus é tanta coisa",
+   "cenas": [
+    {
+     "frase": "Três graus parece pouco. No seu copo de água, você nem sentiria. Mas no oceano é outra história.",
+     "busca": "glass of water",
+     "desde": 0,
+     "clipe": "ElNino_19"
+    },
+    {
+     "frase": "A água guarda muito calor. Só os três primeiros metros do oceano guardam tanto calor quanto a atmosfera inteira da Terra.",
+     "busca": "ocean underwater sunlight",
+     "desde": 0,
+     "clipe": "ElNino_20"
+    },
+    {
+     "frase": "Agora imagine milhões de quilômetros quadrados de mar, mais quentes que o normal, soltando esse calor para o ar.",
+     "busca": "ocean aerial view",
+     "desde": 0,
+     "clipe": "ElNino_21"
+    },
+    {
+     "frase": "Mar mais quente evapora mais. O vapor sobe, vira nuvens gigantes de tempestade, e o lugar das chuvas no planeta muda.",
+     "busca": "storm clouds over ocean",
+     "desde": 0,
+     "clipe": "ElNino_22"
+    }
+   ]
+  },
+  {
+   "titulo": "Como o calor atravessa o mundo",
+   "cenas": [
+    {
+     "frase": "A atmosfera funciona como uma esteira gigante. Onde o ar quente sobe, formam-se nuvens e chove. Onde o ar desce, o céu fica limpo e seco.",
+     "busca": "cumulonimbus cloud timelapse",
+     "desde": 0,
+     "clipe": "ElNino_23"
+    },
+    {
+     "frase": "Com o El Niño, a grande região de ar subindo se muda para o meio do Pacífico. E o ar que sobe lá tem que descer em algum lugar.",
+     "anim": {
+      "emoji": "🔄",
+      "texto": "O ar sobe no Pacífico e desce sobre a Amazônia"
+     }
+    },
+    {
+     "frase": "Uma parte desce justamente sobre a Amazônia e o Nordeste. Ar descendo impede as nuvens de crescer, e a chuva diminui.",
+     "busca": "dry cracked earth",
+     "desde": 0,
+     "foto": "En_amazon",
+     "legenda": "Rio Amazonas na seca, visto por satélite em cores falsas (NASA)"
+    },
+    {
+     "frase": "Ao mesmo tempo, um rio de vento lá no alto, a corrente de jato, fica mais forte e segura as frentes frias em cima do Sul do Brasil.",
+     "busca": "clouds moving fast sky",
+     "desde": 0,
+     "clipe": "ElNino_26"
+    }
+   ]
+  },
+  {
+   "titulo": "O que muda no Brasil",
+   "cenas": [
+    {
+     "frase": "O resultado é um Brasil dividido. No Sul, as frentes frias ficam paradas e a chuva não para: o risco de enchente aumenta muito.",
+     "busca": "heavy rain flood",
+     "desde": 0,
+     "foto": "En_poa",
+     "legenda": "Enchente em Porto Alegre, maio de 2024"
+    },
+    {
+     "frase": "No Norte e no Nordeste, falta chuva. Em dois mil e vinte e três, durante o último El Niño, o Rio Negro, em Manaus, chegou ao nível mais baixo em mais de cem anos.",
+     "busca": "dry river boats",
+     "desde": 0,
+     "foto": "En_negro",
+     "legenda": "Rio Negro em 2022 e na seca de 2023, visto por satélite (Copernicus)"
+    },
+    {
+     "frase": "Barcos ficaram encalhados, comunidades ficaram isoladas e a água dos lagos esquentou tanto que botos morreram.",
+     "busca": "amazon river",
+     "desde": 0,
+     "foto": "En_tefe",
+     "legenda": "Seca de 2023 no lago Tefé (AM)"
+    },
+    {
+     "frase": "E no Sudeste e no Centro-Oeste, o que mais aparece é o calor: dias seguidos muito acima da média.",
+     "busca": "hot sun city",
+     "desde": 0,
+     "clipe": "ElNino_30"
+    }
+   ]
+  },
+  {
+   "titulo": "As ondas de calor",
+   "cenas": [
+    {
+     "frase": "Uma onda de calor é quando a temperatura fica bem acima do normal por vários dias seguidos.",
+     "busca": "thermometer heat",
+     "desde": 0,
+     "anim": {
+      "emoji": "🌡️",
+      "texto": "Vários dias seguidos bem acima do normal"
+     }
+    },
+    {
+     "frase": "O nosso corpo se resfria suando: o suor evapora e leva o calor da pele embora.",
+     "busca": "sweating man sun",
+     "desde": 0,
+     "clipe": "ElNino_32"
+    },
+    {
+     "frase": "Mas quando o ar está quente e úmido ao mesmo tempo, o suor quase não evapora. O corpo perde o seu principal jeito de se resfriar.",
+     "anim": {
+      "emoji": "💧",
+      "texto": "Calor + umidade: o suor não evapora"
+     }
+    },
+    {
+     "frase": "Por isso, nas ondas de calor, vale beber água antes de sentir sede, evitar o sol do meio do dia e cuidar dos idosos e das crianças.",
+     "busca": "drinking water bottle",
+     "desde": 0,
+     "clipe": "ElNino_34"
+    }
+   ]
+  },
+  {
+   "titulo": "O mundo inteiro sente",
+   "cenas": [
+    {
+     "frase": "O El Niño mexe com o planeta todo. Em setembro de dois mil e vinte e seis, não se formou nenhum furacão no Oceano Atlântico, algo que não acontecia desde mil novecentos e catorze.",
+     "busca": "hurricane satellite",
+     "desde": 0,
+     "foto": "En_atl",
+     "legenda": "Atlântico no pico da temporada, setembro de 2026: nenhum furacão (NOAA)"
+    },
+    {
+     "frase": "Enquanto isso, no Pacífico, os furacões se multiplicaram. No Peru e no Equador, chove forte até no deserto.",
+     "busca": "desert rain",
+     "desde": 0,
+     "foto": "En_lowell",
+     "legenda": "Furacão Lowell no Pacífico, setembro de 2026"
+    },
+    {
+     "frase": "Já a Austrália e a Indonésia, que normalmente recebem a água quente, ficam com seca e incêndios florestais.",
+     "busca": "bushfire australia",
+     "desde": 0,
+     "foto": "En_aus",
+     "legenda": "Fumaça de incêndios na Austrália vista do espaço, 2019 (ESA)"
+    },
+    {
+     "frase": "E como o oceano solta tanto calor, os anos de El Niño forte costumam bater recordes de temperatura no planeta inteiro.",
+     "busca": "sun heat haze",
+     "desde": 0,
+     "clipe": "ElNino_38"
+    }
+   ]
+  },
+  {
+   "titulo": "Os monstros do passado",
+   "cenas": [
+    {
+     "frase": "Esse não é o primeiro Super El Niño. Os de mil novecentos e oitenta e dois e de mil novecentos e noventa e sete foram gigantes.",
+     "busca": "old weather station",
+     "desde": 0,
+     "foto": "En_1997b",
+     "legenda": "A mancha quente crescendo no Pacífico, março a agosto de 1997 (NOAA)"
+    },
+    {
+     "frase": "No de noventa e sete, satélites mostraram pela primeira vez, com detalhes, a mancha quente se espalhando pelo Pacífico.",
+     "busca": "satellite orbit earth",
+     "desde": 0,
+     "foto": "En_1997",
+     "legenda": "O El Niño de 1997 visto pelo satélite TOPEX/Poseidon (NASA)"
+    },
+    {
+     "frase": "E o de dois mil e quinze ajudou a fazer de dois mil e dezesseis o ano mais quente que já tinha sido medido até então.",
+     "busca": "drought landscape",
+     "desde": 0,
+     "clipe": "ElNino_41"
+    }
+   ]
+  },
+  {
+   "titulo": "Energia e comida",
+   "cenas": [
+    {
+     "frase": "Lembra do nosso vídeo sobre o apagão? O El Niño também mexe com a energia.",
+     "busca": "hydroelectric dam",
+     "desde": 0,
+     "clipe": "ElNino_42"
+    },
+    {
+     "frase": "Com menos chuva em algumas regiões, os reservatórios das hidrelétricas baixam. E com mais calor, todo mundo liga o ar-condicionado e o ventilador.",
+     "busca": "air conditioner",
+     "desde": 0,
+     "clipe": "ElNino_43"
+    },
+    {
+     "frase": "Na agricultura, chuva demais no Sul e seca no Norte podem estragar safras e deixar a comida mais cara.",
+     "busca": "farm field drought",
+     "desde": 0,
+     "clipe": "ElNino_44"
+    }
+   ]
+  },
+  {
+   "titulo": "Quando ele vai embora",
+   "cenas": [
+    {
+     "frase": "Todo El Niño acaba. O deste ano deve chegar ao pico entre novembro e dezembro e enfraquecer no começo de dois mil e vinte e sete.",
+     "busca": "ocean sunset calm",
+     "desde": 0,
+     "clipe": "ElNino_45"
+    },
+    {
+     "frase": "Quando os ventos alísios voltam com força, a água quente é empurrada de novo para a Ásia, e a água fria volta a subir no Peru.",
+     "anim": {
+      "emoji": "🌬️",
+      "texto": "Os alísios voltam e o Pacífico esfria"
+     }
+    },
+    {
+     "frase": "Às vezes o Pacífico passa do ponto e esfria demais. Aí vem a irmã do El Niño, a La Niña, que traz quase o efeito contrário.",
+     "busca": "cold ocean waves",
+     "desde": 0,
+     "clipe": "ElNino_47"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Uma mancha de água três graus mais quente, a milhares de quilômetros daqui, consegue mudar a chuva, o calor e até a conta de luz no Brasil. Isso é física.",
+     "busca": "pacific ocean aerial",
+     "desde": 5,
+     "clipe": "ElNino_48"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: como está o calor ou a chuva aí na sua cidade?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Do outro lado do mundo, no meio do Oceano Pacífico, uma mancha de água quente maior que o Brasil está crescendo.",
+  "Ela é tão poderosa que consegue trazer enchentes para o Sul, secar os rios da Amazônia e esquentar o seu verão.",
+  "Ela se chama El Niño. E o deste ano está quebrando recordes. Neste vídeo você vai entender a física desse monstro.",
+  "Em junho de dois mil e vinte e seis, a Organização Meteorológica Mundial confirmou: o El Niño tinha começado.",
+  "Em poucos meses, a água no centro do Pacífico ficou mais de três graus acima do normal. É o El Niño mais forte já medido para esta época do ano.",
+  "Os cientistas chamam isso de El Niño muito forte. O apelido é Super El Niño.",
+  "E o pico ainda nem chegou: ele deve ficar ainda mais forte até dezembro e pode ser o maior desde mil novecentos e cinquenta, quando as medições começaram.",
+  "O nome é espanhol e quer dizer o menino. Quem batizou foram os pescadores do Peru, há mais de cem anos.",
+  "Eles percebiam que, em alguns anos, o mar perto da costa esquentava por volta do Natal, a época do Menino Jesus.",
+  "E quando o mar esquentava, os peixes sumiam. Os pescadores não sabiam, mas estavam vendo um fenômeno que mexe com o planeta inteiro.",
+  "Para entender o El Niño, primeiro a gente precisa ver como o Pacífico funciona num ano normal.",
+  "Perto da linha do Equador, sopram os ventos alísios, sempre do leste para o oeste, da América do Sul em direção à Ásia.",
+  "Esses ventos empurram a água quente da superfície para o outro lado do oceano, perto da Indonésia e da Austrália.",
+  "A água se acumula tanto que o mar lá fica uns cinquenta centímetros mais alto do que aqui do lado da América.",
+  "E na costa do Peru, para ocupar o lugar da água que foi embora, sobe água fria do fundo do mar, cheia de nutrientes. É por isso que lá tem tanto peixe.",
+  "Em alguns anos, os ventos alísios enfraquecem. E aí a água quente que estava presa do lado da Ásia começa a voltar.",
+  "Ela atravessa o Pacífico como uma onda gigante e lenta, que quase não se vê na superfície. Os cientistas chamam de onda de Kelvin.",
+  "Essa onda leva uns dois meses para cruzar o oceano, e quando chega, a água fria do Peru fica coberta por uma camada quente.",
+  "E tem um detalhe que deixa tudo pior: com o mar mais quente do lado da América, o vento enfraquece ainda mais. Um alimenta o outro.",
+  "Três graus parece pouco. No seu copo de água, você nem sentiria. Mas no oceano é outra história.",
+  "A água guarda muito calor. Só os três primeiros metros do oceano guardam tanto calor quanto a atmosfera inteira da Terra.",
+  "Agora imagine milhões de quilômetros quadrados de mar, mais quentes que o normal, soltando esse calor para o ar.",
+  "Mar mais quente evapora mais. O vapor sobe, vira nuvens gigantes de tempestade, e o lugar das chuvas no planeta muda.",
+  "A atmosfera funciona como uma esteira gigante. Onde o ar quente sobe, formam-se nuvens e chove. Onde o ar desce, o céu fica limpo e seco.",
+  "Com o El Niño, a grande região de ar subindo se muda para o meio do Pacífico. E o ar que sobe lá tem que descer em algum lugar.",
+  "Uma parte desce justamente sobre a Amazônia e o Nordeste. Ar descendo impede as nuvens de crescer, e a chuva diminui.",
+  "Ao mesmo tempo, um rio de vento lá no alto, a corrente de jato, fica mais forte e segura as frentes frias em cima do Sul do Brasil.",
+  "O resultado é um Brasil dividido. No Sul, as frentes frias ficam paradas e a chuva não para: o risco de enchente aumenta muito.",
+  "No Norte e no Nordeste, falta chuva. Em dois mil e vinte e três, durante o último El Niño, o Rio Negro, em Manaus, chegou ao nível mais baixo em mais de cem anos.",
+  "Barcos ficaram encalhados, comunidades ficaram isoladas e a água dos lagos esquentou tanto que botos morreram.",
+  "E no Sudeste e no Centro-Oeste, o que mais aparece é o calor: dias seguidos muito acima da média.",
+  "Uma onda de calor é quando a temperatura fica bem acima do normal por vários dias seguidos.",
+  "O nosso corpo se resfria suando: o suor evapora e leva o calor da pele embora.",
+  "Mas quando o ar está quente e úmido ao mesmo tempo, o suor quase não evapora. O corpo perde o seu principal jeito de se resfriar.",
+  "Por isso, nas ondas de calor, vale beber água antes de sentir sede, evitar o sol do meio do dia e cuidar dos idosos e das crianças.",
+  "O El Niño mexe com o planeta todo. Em setembro de dois mil e vinte e seis, não se formou nenhum furacão no Oceano Atlântico, algo que não acontecia desde mil novecentos e catorze.",
+  "Enquanto isso, no Pacífico, os furacões se multiplicaram. No Peru e no Equador, chove forte até no deserto.",
+  "Já a Austrália e a Indonésia, que normalmente recebem a água quente, ficam com seca e incêndios florestais.",
+  "E como o oceano solta tanto calor, os anos de El Niño forte costumam bater recordes de temperatura no planeta inteiro.",
+  "Esse não é o primeiro Super El Niño. Os de mil novecentos e oitenta e dois e de mil novecentos e noventa e sete foram gigantes.",
+  "No de noventa e sete, satélites mostraram pela primeira vez, com detalhes, a mancha quente se espalhando pelo Pacífico.",
+  "E o de dois mil e quinze ajudou a fazer de dois mil e dezesseis o ano mais quente que já tinha sido medido até então.",
+  "Lembra do nosso vídeo sobre o apagão? O El Niño também mexe com a energia.",
+  "Com menos chuva em algumas regiões, os reservatórios das hidrelétricas baixam. E com mais calor, todo mundo liga o ar-condicionado e o ventilador.",
+  "Na agricultura, chuva demais no Sul e seca no Norte podem estragar safras e deixar a comida mais cara.",
+  "Todo El Niño acaba. O deste ano deve chegar ao pico entre novembro e dezembro e enfraquecer no começo de dois mil e vinte e sete.",
+  "Quando os ventos alísios voltam com força, a água quente é empurrada de novo para a Ásia, e a água fria volta a subir no Peru.",
+  "Às vezes o Pacífico passa do ponto e esfria demais. Aí vem a irmã do El Niño, a La Niña, que traz quase o efeito contrário.",
+  "Uma mancha de água três graus mais quente, a milhares de quilômetros daqui, consegue mudar a chuva, o calor e até a conta de luz no Brasil. Isso é física.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: como está o calor ou a chuva aí na sua cidade?"
+ ]
+}

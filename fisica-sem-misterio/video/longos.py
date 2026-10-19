@@ -610,10 +610,109 @@ longo("Apagao", "E se o Brasil ficasse 3 dias SEM ENERGIA? ⚡ (e por que um apa
     ]),
 ])
 
+longo("ElNino", "SUPER EL NIÑO: o monstro do Pacífico que já está chegando ao Brasil 🌊🔥",
+      "O El Niño de 2026 é o mais forte já medido para esta época do ano. Como uma faixa do Oceano Pacífico só 3 graus mais quente, do outro lado do mundo, "
+      "muda a chuva e o calor no Brasil inteiro: os ventos alísios, a água quente que atravessa o oceano, por que o Sul alaga e o Norte seca, "
+      "as ondas de calor, os El Niños de 1982, 1997 e 2015 e quando ele vai embora.", [
+    ("Abertura", [
+        ("Do outro lado do mundo, no meio do Oceano Pacífico, uma mancha de água quente maior que o Brasil está crescendo.", v("pacific ocean aerial")),
+        ("Ela é tão poderosa que consegue trazer enchentes para o Sul, secar os rios da Amazônia e esquentar o seu verão.", v("flood street rain")),
+        ("Ela se chama El Niño. E o deste ano está quebrando recordes. Neste vídeo você vai entender a física desse monstro.", v("ocean waves storm")),
+    ]),
+    ("O monstro acordou", [
+        ("Em junho de dois mil e vinte e seis, a Organização Meteorológica Mundial confirmou: o El Niño tinha começado.", v("weather satellite earth")),
+        ("Em poucos meses, a água no centro do Pacífico ficou mais de três graus acima do normal. É o El Niño mais forte já medido para esta época do ano.", v("tropical ocean sun")),
+        ("Os cientistas chamam isso de El Niño muito forte. O apelido é Super El Niño.", v("ocean surface sunlight")),
+        ("E o pico ainda nem chegou: ele deve ficar ainda mais forte até dezembro e pode ser o maior desde mil novecentos e cinquenta, quando as medições começaram.", a("📈", "Pico em novembro e dezembro")),
+    ]),
+    ("Um nome que veio do Natal", [
+        ("O nome é espanhol e quer dizer o menino. Quem batizou foram os pescadores do Peru, há mais de cem anos.", v("fishing boats harbor")),
+        ("Eles percebiam que, em alguns anos, o mar perto da costa esquentava por volta do Natal, a época do Menino Jesus.", v("fisherman boat sea")),
+        ("E quando o mar esquentava, os peixes sumiam. Os pescadores não sabiam, mas estavam vendo um fenômeno que mexe com o planeta inteiro.", v("empty fishing nets")),
+    ]),
+    ("O Pacífico num ano normal", [
+        ("Para entender o El Niño, primeiro a gente precisa ver como o Pacífico funciona num ano normal.", v("pacific ocean waves")),
+        ("Perto da linha do Equador, sopram os ventos alísios, sempre do leste para o oeste, da América do Sul em direção à Ásia.", v("palm trees wind beach")),
+        ("Esses ventos empurram a água quente da superfície para o outro lado do oceano, perto da Indonésia e da Austrália.", a("🌬️", "Os alísios empurram a água quente para a Ásia")),
+        ("A água se acumula tanto que o mar lá fica uns cinquenta centímetros mais alto do que aqui do lado da América.", v("indonesia beach")),
+        ("E na costa do Peru, para ocupar o lugar da água que foi embora, sobe água fria do fundo do mar, cheia de nutrientes. É por isso que lá tem tanto peixe.", v("school of fish underwater")),
+    ]),
+    ("Quando o vento cansa", [
+        ("Em alguns anos, os ventos alísios enfraquecem. E aí a água quente que estava presa do lado da Ásia começa a voltar.", v("calm ocean surface")),
+        ("Ela atravessa o Pacífico como uma onda gigante e lenta, que quase não se vê na superfície. Os cientistas chamam de onda de Kelvin.", a("🌊", "A água quente volta para o leste")),
+        ("Essa onda leva uns dois meses para cruzar o oceano, e quando chega, a água fria do Peru fica coberta por uma camada quente.", v("warm ocean water")),
+        ("E tem um detalhe que deixa tudo pior: com o mar mais quente do lado da América, o vento enfraquece ainda mais. Um alimenta o outro.", a("🔁", "Mar quente enfraquece o vento, que esquenta o mar")),
+    ]),
+    ("Por que três graus é tanta coisa", [
+        ("Três graus parece pouco. No seu copo de água, você nem sentiria. Mas no oceano é outra história.", v("glass of water")),
+        ("A água guarda muito calor. Só os três primeiros metros do oceano guardam tanto calor quanto a atmosfera inteira da Terra.", v("ocean underwater sunlight")),
+        ("Agora imagine milhões de quilômetros quadrados de mar, mais quentes que o normal, soltando esse calor para o ar.", v("ocean aerial view")),
+        ("Mar mais quente evapora mais. O vapor sobe, vira nuvens gigantes de tempestade, e o lugar das chuvas no planeta muda.", v("storm clouds over ocean")),
+    ]),
+    ("Como o calor atravessa o mundo", [
+        ("A atmosfera funciona como uma esteira gigante. Onde o ar quente sobe, formam-se nuvens e chove. Onde o ar desce, o céu fica limpo e seco.", v("cumulonimbus cloud timelapse")),
+        ("Com o El Niño, a grande região de ar subindo se muda para o meio do Pacífico. E o ar que sobe lá tem que descer em algum lugar.", a("🔄", "O ar sobe no Pacífico e desce sobre a Amazônia")),
+        ("Uma parte desce justamente sobre a Amazônia e o Nordeste. Ar descendo impede as nuvens de crescer, e a chuva diminui.", v("dry cracked earth")),
+        ("Ao mesmo tempo, um rio de vento lá no alto, a corrente de jato, fica mais forte e segura as frentes frias em cima do Sul do Brasil.", v("clouds moving fast sky")),
+    ]),
+    ("O que muda no Brasil", [
+        ("O resultado é um Brasil dividido. No Sul, as frentes frias ficam paradas e a chuva não para: o risco de enchente aumenta muito.", v("heavy rain flood")),
+        ("No Norte e no Nordeste, falta chuva. Em dois mil e vinte e três, durante o último El Niño, o Rio Negro, em Manaus, chegou ao nível mais baixo em mais de cem anos.", v("dry river boats")),
+        ("Barcos ficaram encalhados, comunidades ficaram isoladas e a água dos lagos esquentou tanto que botos morreram.", v("amazon river")),
+        ("E no Sudeste e no Centro-Oeste, o que mais aparece é o calor: dias seguidos muito acima da média.", v("hot sun city")),
+    ]),
+    ("As ondas de calor", [
+        ("Uma onda de calor é quando a temperatura fica bem acima do normal por vários dias seguidos.", v("thermometer heat")),
+        ("O nosso corpo se resfria suando: o suor evapora e leva o calor da pele embora.", v("sweating man sun")),
+        ("Mas quando o ar está quente e úmido ao mesmo tempo, o suor quase não evapora. O corpo perde o seu principal jeito de se resfriar.", a("💧", "Calor + umidade: o suor não evapora")),
+        ("Por isso, nas ondas de calor, vale beber água antes de sentir sede, evitar o sol do meio do dia e cuidar dos idosos e das crianças.", v("drinking water bottle")),
+    ]),
+    ("O mundo inteiro sente", [
+        ("O El Niño mexe com o planeta todo. Em setembro de dois mil e vinte e seis, não se formou nenhum furacão no Oceano Atlântico, algo que não acontecia desde mil novecentos e catorze.", v("hurricane satellite")),
+        ("Enquanto isso, no Pacífico, os furacões se multiplicaram. No Peru e no Equador, chove forte até no deserto.", v("desert rain")),
+        ("Já a Austrália e a Indonésia, que normalmente recebem a água quente, ficam com seca e incêndios florestais.", v("bushfire australia")),
+        ("E como o oceano solta tanto calor, os anos de El Niño forte costumam bater recordes de temperatura no planeta inteiro.", v("sun heat haze")),
+    ]),
+    ("Os monstros do passado", [
+        ("Esse não é o primeiro Super El Niño. Os de mil novecentos e oitenta e dois e de mil novecentos e noventa e sete foram gigantes.", v("old weather station")),
+        ("No de noventa e sete, satélites mostraram pela primeira vez, com detalhes, a mancha quente se espalhando pelo Pacífico.", v("satellite orbit earth")),
+        ("E o de dois mil e quinze ajudou a fazer de dois mil e dezesseis o ano mais quente que já tinha sido medido até então.", v("drought landscape")),
+    ]),
+    ("Energia e comida", [
+        ("Lembra do nosso vídeo sobre o apagão? O El Niño também mexe com a energia.", v("hydroelectric dam")),
+        ("Com menos chuva em algumas regiões, os reservatórios das hidrelétricas baixam. E com mais calor, todo mundo liga o ar-condicionado e o ventilador.", v("air conditioner")),
+        ("Na agricultura, chuva demais no Sul e seca no Norte podem estragar safras e deixar a comida mais cara.", v("farm field drought")),
+    ]),
+    ("Quando ele vai embora", [
+        ("Todo El Niño acaba. O deste ano deve chegar ao pico entre novembro e dezembro e enfraquecer no começo de dois mil e vinte e sete.", v("ocean sunset calm")),
+        ("Quando os ventos alísios voltam com força, a água quente é empurrada de novo para a Ásia, e a água fria volta a subir no Peru.", a("🌬️", "Os alísios voltam e o Pacífico esfria")),
+        ("Às vezes o Pacífico passa do ponto e esfria demais. Aí vem a irmã do El Niño, a La Niña, que traz quase o efeito contrário.", v("cold ocean waves")),
+    ]),
+    ("Final", [
+        ("Uma mancha de água três graus mais quente, a milhares de quilômetros daqui, consegue mudar a chuva, o calor e até a conta de luz no Brasil. Isso é física.", v("pacific ocean aerial", 5)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: como está o calor ou a chuva aí na sua cidade?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "ElNino": {
+        0: dict(foto="En_cop26", legenda="A mancha quente no Pacífico em agosto de 2026 (Copernicus)"),
+        4: dict(foto="En_ssta26", legenda="Pacífico em outubro de 2026 (em cima) e 2025 (embaixo): vermelho é água mais quente que o normal (NASA)"),
+        16: dict(foto="En_ssha26", legenda="Outubro de 2026: a água quente se acumulando do lado da América (NASA)"),
+        25: dict(foto="En_amazon", legenda="Rio Amazonas na seca, visto por satélite em cores falsas (NASA)"),
+        27: dict(foto="En_poa", legenda="Enchente em Porto Alegre, maio de 2024"),
+        28: dict(foto="En_negro", legenda="Rio Negro em 2022 e na seca de 2023, visto por satélite (Copernicus)"),
+        29: dict(foto="En_tefe", legenda="Seca de 2023 no lago Tefé (AM)"),
+        31: dict(anim={"emoji": "🌡️", "texto": "Vários dias seguidos bem acima do normal"}),
+        35: dict(foto="En_atl", legenda="Atlântico no pico da temporada, setembro de 2026: nenhum furacão (NOAA)"),
+        36: dict(foto="En_lowell", legenda="Furacão Lowell no Pacífico, setembro de 2026"),
+        37: dict(foto="En_aus", legenda="Fumaça de incêndios na Austrália vista do espaço, 2019 (ESA)"),
+        39: dict(foto="En_1997b", legenda="A mancha quente crescendo no Pacífico, março a agosto de 1997 (NOAA)"),
+        40: dict(foto="En_1997", legenda="O El Niño de 1997 visto pelo satélite TOPEX/Poseidon (NASA)"),
+    },
     "Multigerador": {
         1: dict(foto="Mg_azul", legenda="O Multigerador no lançamento, 11/10 (transmissão TV Dakila)"),
         3: dict(foto="Mg_coberto", legenda="Equipamento coberto antes da revelação, Corguinho (MS)"),
