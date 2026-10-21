@@ -1,0 +1,57 @@
+{
+ "id": "AviaoAlto",
+ "titulo": "Por que o avião voa TÃO ALTO? ✈️☁️ | Perguntas de passageiro #2",
+ "legenda": "Os aviões de passageiros voam a uns 11 km de altura, mais alto que o Everest. Lá o ar é três vezes mais ralo: freia menos o avião, e ele gasta bem menos combustível. E o voo fica acima da maioria das nuvens e tempestades. Só que esse ar não dá para respirar, por isso a cabine é pressurizada! #fisica #aviao #aviacao #viagem #curiosidades",
+ "final": {
+  "emoji": "☁️",
+  "frase": "Mais alto, mais econômico."
+ },
+ "pergunta": "Você prefere janela ou corredor? 👇",
+ "frases": [
+  "O avião em que você viaja voa a onze quilômetros de altura. Mais alto que o Monte Everest. Por quê?",
+  "Lá em cima, o ar é três vezes mais ralo. Tem menos ar freando o avião, e ele gasta bem menos combustível.",
+  "E ele passa por cima da maioria das nuvens e das tempestades, onde o voo costuma ser mais calmo.",
+  "Só que esse ar ralo não dá para respirar. Por isso o avião bombeia ar para dentro e pressuriza a cabine.",
+  "E é essa mesma pressão que deixa a porta do avião impossível de abrir lá em cima. Mas isso é o próximo episódio.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que voa TÃO ALTO?",
+   "destaque": [
+    "ALTO"
+   ],
+   "busca": "airplane contrail",
+   "foto": "Av_rastro"
+  },
+  {
+   "gancho": "Ar 3x mais RALO",
+   "destaque": [
+    "RALO"
+   ],
+   "busca": "airplane above clouds"
+  },
+  {
+   "gancho": "Acima das TEMPESTADES",
+   "destaque": [
+    "TEMPESTADES"
+   ],
+   "busca": "storm clouds aerial"
+  },
+  {
+   "gancho": "A cabine é PRESSURIZADA",
+   "destaque": [
+    "PRESSURIZADA"
+   ],
+   "busca": "airplane cabin passengers"
+  },
+  {
+   "gancho": "Próximo: a PORTA",
+   "destaque": [
+    "PORTA"
+   ],
+   "busca": "aircraft door",
+   "foto": "Av_porta"
+  }
+ ]
+}

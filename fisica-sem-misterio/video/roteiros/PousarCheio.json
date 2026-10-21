@@ -1,0 +1,61 @@
+{
+ "id": "PousarCheio",
+ "titulo": "Por que o avião NÃO pode pousar cheio de combustível? ✈️⛽ | Perguntas de passageiro #1",
+ "legenda": "Decolar é suave, mas pousar é um tranco: o avião bate na pista a mais de 200 km/h, e o trem de pouso só aguenta isso até o peso máximo de pouso. Um Boeing 777 pode decolar com uns 350 mil quilos, mas só pode pousar com uns 250 mil. Se precisar voltar logo depois de decolar, os aviões grandes jogam combustível fora lá no alto, e os menores dão voltas para gastar! #fisica #aviao #aviacao #piloto #curiosidades",
+ "final": {
+  "emoji": "✈️",
+  "frase": "Pesado demais para pousar."
+ },
+ "pergunta": "Qual dúvida de avião você quer que eu responda no próximo? 👇",
+ "frases": [
+  "Esse avião decola pesando trezentas e cinquenta toneladas. Mas, se precisar voltar agora, ele não pode pousar.",
+  "Decolar é suave. Pousar é um tranco: o avião bate na pista a mais de duzentos quilômetros por hora.",
+  "O trem de pouso só aguenta esse tranco até um certo peso. No Boeing 777, é cem toneladas a menos que o peso de decolagem.",
+  "Se precisar voltar logo, os aviões grandes jogam combustível fora, bem alto. Ele vira vapor antes de chegar ao chão.",
+  "Os menores não têm essa válvula: ficam dando voltas no céu para gastar, ou pousam pesados com cuidado e passam por inspeção.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que NÃO pode pousar cheio?",
+   "destaque": [
+    "NÃO"
+   ],
+   "busca": "boeing 777 takeoff",
+   "foto": "Av_777"
+  },
+  {
+   "gancho": "Pousar é um TRANCO",
+   "destaque": [
+    "TRANCO"
+   ],
+   "busca": "airplane touchdown smoke",
+   "foto": "Av_toque"
+  },
+  {
+   "gancho": "100 toneladas a MENOS",
+   "destaque": [
+    "MENOS"
+   ],
+   "anim": {
+    "emoji": "⚖️",
+    "texto": "Decola com 350 t, pousa com 250 t"
+   }
+  },
+  {
+   "gancho": "Ele JOGA combustível fora",
+   "destaque": [
+    "JOGA"
+   ],
+   "busca": "fuel jettison",
+   "foto": "Av_jett"
+  },
+  {
+   "gancho": "Ou fica dando VOLTAS",
+   "destaque": [
+    "VOLTAS"
+   ],
+   "busca": "airplane flying sky clouds"
+  }
+ ]
+}

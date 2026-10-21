@@ -1,0 +1,326 @@
+{
+ "id": "AviaoPassageiro",
+ "longo": true,
+ "titulo": "Por que o avião NÃO pode pousar cheio de combustível? ✈️ (e outras 6 dúvidas de PASSAGEIRO)",
+ "descricao": "As dúvidas de avião que mais se procuram, respondidas pela física: como uma máquina de centenas de toneladas voa, por que ela voa tão alto, o que é a turbulência (e por que ela não derruba o avião), por que ele pousa de lado, que risco branco é aquele no céu, por que não pode pousar cheio de combustível e se dá para abrir a porta em pleno voo.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Esse avião pesa mais de trezentas toneladas e acabou de decolar. Mas, se precisar voltar agora, ele não pode pousar.",
+     "busca": "airplane takeoff runway",
+     "desde": 0,
+     "foto": "Av_777",
+     "legenda": "Boeing 777 decolando em Barcelona"
+    },
+    {
+     "frase": "Não é defeito: é física. E ela também explica a turbulência, o pouso de lado e aquele risco branco que fica no céu.",
+     "busca": "airplane window clouds",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_1"
+    },
+    {
+     "frase": "Neste vídeo eu respondo as dúvidas de avião que mais se procuram no Brasil, uma por uma.",
+     "busca": "airport airplane taxiing",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_2"
+    }
+   ]
+  },
+  {
+   "titulo": "Como uma coisa tão pesada voa",
+   "cenas": [
+    {
+     "frase": "A primeira dúvida é a mais antiga: como uma máquina de centenas de toneladas fica no ar?",
+     "busca": "airplane flying sky",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_3"
+    },
+    {
+     "frase": "O segredo está na asa. Ela é curvada e vai um pouco inclinada para cima, e assim empurra uma quantidade enorme de ar para baixo.",
+     "anim": {
+      "emoji": "✈️",
+      "texto": "A asa empurra o ar para baixo"
+     }
+    },
+    {
+     "frase": "Pela terceira lei de Newton, se a asa empurra o ar para baixo, o ar empurra a asa para cima. Essa força se chama sustentação.",
+     "busca": "airplane wing flight",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_5"
+    },
+    {
+     "frase": "Ao mesmo tempo, o ar passa mais rápido por cima da asa, e a pressão ali fica menor que embaixo. As duas coisas juntas seguram o avião.",
+     "busca": "condensation airplane wing",
+     "desde": 0,
+     "foto": "Av_cond",
+     "legenda": "Condensação em cima da asa: ali a pressão do ar é menor"
+    },
+    {
+     "frase": "Por isso o avião precisa de velocidade. Um jato grande só sai do chão perto de trezentos quilômetros por hora.",
+     "busca": "airplane takeoff speed",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_7"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que ele voa tão alto",
+   "cenas": [
+    {
+     "frase": "Os aviões de passageiros voam a uns onze quilômetros de altura. Mais alto que o Monte Everest.",
+     "busca": "airplane above clouds",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_8"
+    },
+    {
+     "frase": "Lá em cima, o ar é três vezes mais ralo. Tem menos ar para frear o avião, então ele gasta bem menos combustível.",
+     "anim": {
+      "emoji": "🌬️",
+      "texto": "Ar 3 vezes mais ralo: menos atrito"
+     }
+    },
+    {
+     "frase": "E o voo fica acima da maior parte das nuvens e das tempestades, onde o ar costuma ser mais calmo.",
+     "busca": "cloudscape aerial",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_10"
+    },
+    {
+     "frase": "Só que esse ar ralo não dá para respirar. Por isso a cabine é pressurizada: o avião bombeia ar para dentro e deixa a cabine como se estivesse no alto de uma serra.",
+     "busca": "airplane cabin passengers",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_11"
+    }
+   ]
+  },
+  {
+   "titulo": "Turbulência",
+   "cenas": [
+    {
+     "frase": "Agora, o momento que muita gente teme: a turbulência.",
+     "busca": "airplane turbulence cabin",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_12"
+    },
+    {
+     "frase": "O ar não é parado. Ele forma correntes que sobem, descem e mudam de direção, como as ondas e os redemoinhos de um rio.",
+     "busca": "clouds timelapse",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_13"
+    },
+    {
+     "frase": "Quando o avião passa por uma dessas correntes, ele sobe ou desce um pouco de repente. Não existe buraco no ar: é só o ar mudando de rumo.",
+     "anim": {
+      "emoji": "🌀",
+      "texto": "Não é buraco no ar: é corrente de ar"
+     }
+    },
+    {
+     "frase": "A asa é feita para dobrar e aguentar muito mais força do que qualquer turbulência normal. Nos testes, ela entorta vários metros antes de quebrar.",
+     "busca": "airplane wing flex flight",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_15"
+    },
+    {
+     "frase": "O perigo real é se soltar e bater a cabeça. Por isso a dica dos pilotos é simples: sentado, cinto sempre afivelado.",
+     "busca": "airplane seat belt",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_16"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que ele pousa de lado",
+   "cenas": [
+    {
+     "frase": "Já viu um avião chegando torto na pista, quase de lado? Ele não está com problema.",
+     "busca": "airplane landing crosswind",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_17"
+    },
+    {
+     "frase": "Quando o vento sopra de lado, ele empurra o avião para fora da pista. Então o piloto aponta o nariz um pouco contra o vento.",
+     "anim": {
+      "emoji": "🧭",
+      "texto": "O nariz aponta contra o vento"
+     }
+    },
+    {
+     "frase": "O avião anda de lado, mas em linha reta sobre a pista. Pouco antes de tocar o chão, o piloto endireita tudo.",
+     "busca": "airplane landing",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_19"
+    }
+   ]
+  },
+  {
+   "titulo": "O risco branco no céu",
+   "cenas": [
+    {
+     "frase": "E aquele risco branco que fica no céu depois que o avião passa?",
+     "busca": "contrail sky",
+     "desde": 0,
+     "foto": "Av_rastro",
+     "legenda": "Rastro de condensação de um avião de passageiros"
+    },
+    {
+     "frase": "Não é fumaça nem veneno. O motor solta vapor de água quente, e lá em cima faz uns quarenta graus negativos.",
+     "busca": "airplane contrail blue sky",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_21"
+    },
+    {
+     "frase": "O vapor congela na hora e vira cristais de gelo: é uma nuvem fininha feita pelo próprio avião.",
+     "busca": "contrails sunset",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_22"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que não pode pousar cheio",
+   "cenas": [
+    {
+     "frase": "Agora, a dúvida do título: por que o avião não pode pousar cheio de combustível?",
+     "busca": "airplane fuel truck",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_23"
+    },
+    {
+     "frase": "Decolar é suave: o avião vai ganhando velocidade e sai do chão aos poucos. Pousar é um tranco: ele bate na pista a mais de duzentos quilômetros por hora.",
+     "busca": "airplane touchdown runway",
+     "desde": 0,
+     "foto": "Av_toque",
+     "legenda": "Airbus A380 tocando a pista em San Francisco"
+    },
+    {
+     "frase": "O trem de pouso e a estrutura são feitos para aguentar esse tranco só até um certo peso: o peso máximo de pouso.",
+     "anim": {
+      "emoji": "⚖️",
+      "texto": "Peso máximo de pouso"
+     }
+    },
+    {
+     "frase": "Num Boeing 777, por exemplo, ele pode decolar com uns trezentos e cinquenta mil quilos, mas só pode pousar com uns duzentos e cinquenta mil. São cem toneladas de diferença.",
+     "anim": {
+      "emoji": "⛽",
+      "texto": "Decola com 350 t, pousa com 250 t"
+     }
+    },
+    {
+     "frase": "Num voo normal, isso não é problema: o combustível vai sendo queimado durante a viagem e o avião chega leve.",
+     "busca": "airplane flying sunset",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_27"
+    },
+    {
+     "frase": "O problema é quando ele precisa voltar logo depois de decolar, por um passageiro passando mal ou um aviso no painel.",
+     "busca": "airplane cockpit pilots",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_28"
+    },
+    {
+     "frase": "Os aviões grandes têm uma solução: eles jogam combustível fora pelas pontas das asas, bem alto, e ele vira vapor antes de chegar ao chão.",
+     "busca": "airplane high altitude",
+     "desde": 0,
+     "foto": "Av_jett",
+     "legenda": "Boeing 747 da British Airways jogando combustível fora em voo"
+    },
+    {
+     "frase": "Os aviões menores não têm essa válvula. Eles ficam dando voltas no céu para gastar combustível, ou pousam pesados com muito cuidado e passam por uma inspeção depois.",
+     "busca": "airplane circling sky",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_30"
+    }
+   ]
+  },
+  {
+   "titulo": "Dá para abrir a porta em pleno voo?",
+   "cenas": [
+    {
+     "frase": "E a última: dá para abrir a porta do avião lá em cima? A resposta é não, nem com toda a força do mundo.",
+     "busca": "airplane door cabin",
+     "desde": 0,
+     "foto": "Av_porta",
+     "legenda": "Aviso na porta: não abra com a cabine pressurizada"
+    },
+    {
+     "frase": "Lembra da pressurização? O ar de dentro da cabine empurra a porta para fora com muito mais força que o ar ralo de fora.",
+     "anim": {
+      "emoji": "🚪",
+      "texto": "Pressão de dentro empurra a porta"
+     }
+    },
+    {
+     "frase": "Essa diferença aperta a porta contra o batente com umas dez toneladas de força, como se houvesse um caminhão encostado nela.",
+     "anim": {
+      "emoji": "🚚",
+      "texto": "Umas 10 toneladas na porta"
+     }
+    },
+    {
+     "frase": "E a porta é de encaixe: para abrir, ela primeiro tem que vir um pouco para dentro, justamente contra essa força. Só no chão, com a pressão igual, ela abre.",
+     "busca": "airplane door opening",
+     "desde": 0,
+     "clipe": "AviaoPassageiro_34"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Da asa empurrando o ar até a porta que ninguém consegue abrir, voar é física do começo ao fim. E é por isso que o avião é o meio de transporte mais seguro que existe.",
+     "busca": "airplane sunset sky",
+     "desde": 2,
+     "clipe": "AviaoPassageiro_35"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual dúvida de avião você ainda tem?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Esse avião pesa mais de trezentas toneladas e acabou de decolar. Mas, se precisar voltar agora, ele não pode pousar.",
+  "Não é defeito: é física. E ela também explica a turbulência, o pouso de lado e aquele risco branco que fica no céu.",
+  "Neste vídeo eu respondo as dúvidas de avião que mais se procuram no Brasil, uma por uma.",
+  "A primeira dúvida é a mais antiga: como uma máquina de centenas de toneladas fica no ar?",
+  "O segredo está na asa. Ela é curvada e vai um pouco inclinada para cima, e assim empurra uma quantidade enorme de ar para baixo.",
+  "Pela terceira lei de Newton, se a asa empurra o ar para baixo, o ar empurra a asa para cima. Essa força se chama sustentação.",
+  "Ao mesmo tempo, o ar passa mais rápido por cima da asa, e a pressão ali fica menor que embaixo. As duas coisas juntas seguram o avião.",
+  "Por isso o avião precisa de velocidade. Um jato grande só sai do chão perto de trezentos quilômetros por hora.",
+  "Os aviões de passageiros voam a uns onze quilômetros de altura. Mais alto que o Monte Everest.",
+  "Lá em cima, o ar é três vezes mais ralo. Tem menos ar para frear o avião, então ele gasta bem menos combustível.",
+  "E o voo fica acima da maior parte das nuvens e das tempestades, onde o ar costuma ser mais calmo.",
+  "Só que esse ar ralo não dá para respirar. Por isso a cabine é pressurizada: o avião bombeia ar para dentro e deixa a cabine como se estivesse no alto de uma serra.",
+  "Agora, o momento que muita gente teme: a turbulência.",
+  "O ar não é parado. Ele forma correntes que sobem, descem e mudam de direção, como as ondas e os redemoinhos de um rio.",
+  "Quando o avião passa por uma dessas correntes, ele sobe ou desce um pouco de repente. Não existe buraco no ar: é só o ar mudando de rumo.",
+  "A asa é feita para dobrar e aguentar muito mais força do que qualquer turbulência normal. Nos testes, ela entorta vários metros antes de quebrar.",
+  "O perigo real é se soltar e bater a cabeça. Por isso a dica dos pilotos é simples: sentado, cinto sempre afivelado.",
+  "Já viu um avião chegando torto na pista, quase de lado? Ele não está com problema.",
+  "Quando o vento sopra de lado, ele empurra o avião para fora da pista. Então o piloto aponta o nariz um pouco contra o vento.",
+  "O avião anda de lado, mas em linha reta sobre a pista. Pouco antes de tocar o chão, o piloto endireita tudo.",
+  "E aquele risco branco que fica no céu depois que o avião passa?",
+  "Não é fumaça nem veneno. O motor solta vapor de água quente, e lá em cima faz uns quarenta graus negativos.",
+  "O vapor congela na hora e vira cristais de gelo: é uma nuvem fininha feita pelo próprio avião.",
+  "Agora, a dúvida do título: por que o avião não pode pousar cheio de combustível?",
+  "Decolar é suave: o avião vai ganhando velocidade e sai do chão aos poucos. Pousar é um tranco: ele bate na pista a mais de duzentos quilômetros por hora.",
+  "O trem de pouso e a estrutura são feitos para aguentar esse tranco só até um certo peso: o peso máximo de pouso.",
+  "Num Boeing 777, por exemplo, ele pode decolar com uns trezentos e cinquenta mil quilos, mas só pode pousar com uns duzentos e cinquenta mil. São cem toneladas de diferença.",
+  "Num voo normal, isso não é problema: o combustível vai sendo queimado durante a viagem e o avião chega leve.",
+  "O problema é quando ele precisa voltar logo depois de decolar, por um passageiro passando mal ou um aviso no painel.",
+  "Os aviões grandes têm uma solução: eles jogam combustível fora pelas pontas das asas, bem alto, e ele vira vapor antes de chegar ao chão.",
+  "Os aviões menores não têm essa válvula. Eles ficam dando voltas no céu para gastar combustível, ou pousam pesados com muito cuidado e passam por uma inspeção depois.",
+  "E a última: dá para abrir a porta do avião lá em cima? A resposta é não, nem com toda a força do mundo.",
+  "Lembra da pressurização? O ar de dentro da cabine empurra a porta para fora com muito mais força que o ar ralo de fora.",
+  "Essa diferença aperta a porta contra o batente com umas dez toneladas de força, como se houvesse um caminhão encostado nela.",
+  "E a porta é de encaixe: para abrir, ela primeiro tem que vir um pouco para dentro, justamente contra essa força. Só no chão, com a pressão igual, ela abre.",
+  "Da asa empurrando o ar até a porta que ninguém consegue abrir, voar é física do começo ao fim. E é por isso que o avião é o meio de transporte mais seguro que existe.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual dúvida de avião você ainda tem?"
+ ]
+}

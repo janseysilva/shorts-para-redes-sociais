@@ -90,7 +90,8 @@ export const Ganchos: React.FC<{ lista: Gancho[] }> = ({ lista }) => {
         background: "rgba(4,7,20,.62)", border: "2px solid rgba(255,201,74,.35)", borderRadius: 30, padding: "18px 32px",
         boxShadow: "0 0 50px rgba(92,225,255,.15)" }}>
         {g.texto.split(" ").map((p, i) => {
-          const s = spring({ frame: frame - Math.round(g.desde * fps) - i * 3, fps, config: { damping: 13, stiffness: 140 } });
+          // 1º gancho já aparece inteiro no quadro 0 (o 1º segundo decide se a pessoa fica); os outros entram palavra por palavra
+          const s = g === lista[0] ? 1 : spring({ frame: frame - Math.round(g.desde * fps) - i * 3, fps, config: { damping: 13, stiffness: 140 } });
           const hl = g.destaque.includes(p);
           return (
             <span key={i} style={{ display: "inline-block", fontFamily: FONTE, fontWeight: 900, fontSize: 78, lineHeight: 1.12,

@@ -769,10 +769,79 @@ longo("SolExplodir", "O que aconteceria se o SOL EXPLODISSE? ☀️💥 (e o que
     ]),
 ])
 
+longo("AviaoPassageiro", "Por que o avião NÃO pode pousar cheio de combustível? ✈️ (e outras 6 dúvidas de PASSAGEIRO)",
+      "As dúvidas de avião que mais se procuram, respondidas pela física: como uma máquina de centenas de toneladas voa, por que ela voa tão alto, "
+      "o que é a turbulência (e por que ela não derruba o avião), por que ele pousa de lado, que risco branco é aquele no céu, "
+      "por que não pode pousar cheio de combustível e se dá para abrir a porta em pleno voo.", [
+    ("Abertura", [
+        ("Esse avião pesa mais de trezentas toneladas e acabou de decolar. Mas, se precisar voltar agora, ele não pode pousar.", v("airplane takeoff runway")),
+        ("Não é defeito: é física. E ela também explica a turbulência, o pouso de lado e aquele risco branco que fica no céu.", v("airplane window clouds")),
+        ("Neste vídeo eu respondo as dúvidas de avião que mais se procuram no Brasil, uma por uma.", v("airport airplane taxiing")),
+    ]),
+    ("Como uma coisa tão pesada voa", [
+        ("A primeira dúvida é a mais antiga: como uma máquina de centenas de toneladas fica no ar?", v("airplane flying sky")),
+        ("O segredo está na asa. Ela é curvada e vai um pouco inclinada para cima, e assim empurra uma quantidade enorme de ar para baixo.", a("✈️", "A asa empurra o ar para baixo")),
+        ("Pela terceira lei de Newton, se a asa empurra o ar para baixo, o ar empurra a asa para cima. Essa força se chama sustentação.", v("airplane wing flight")),
+        ("Ao mesmo tempo, o ar passa mais rápido por cima da asa, e a pressão ali fica menor que embaixo. As duas coisas juntas seguram o avião.", v("condensation airplane wing")),
+        ("Por isso o avião precisa de velocidade. Um jato grande só sai do chão perto de trezentos quilômetros por hora.", v("airplane takeoff speed")),
+    ]),
+    ("Por que ele voa tão alto", [
+        ("Os aviões de passageiros voam a uns onze quilômetros de altura. Mais alto que o Monte Everest.", v("airplane above clouds")),
+        ("Lá em cima, o ar é três vezes mais ralo. Tem menos ar para frear o avião, então ele gasta bem menos combustível.", a("🌬️", "Ar 3 vezes mais ralo: menos atrito")),
+        ("E o voo fica acima da maior parte das nuvens e das tempestades, onde o ar costuma ser mais calmo.", v("cloudscape aerial")),
+        ("Só que esse ar ralo não dá para respirar. Por isso a cabine é pressurizada: o avião bombeia ar para dentro e deixa a cabine como se estivesse no alto de uma serra.", v("airplane cabin passengers")),
+    ]),
+    ("Turbulência", [
+        ("Agora, o momento que muita gente teme: a turbulência.", v("airplane turbulence cabin")),
+        ("O ar não é parado. Ele forma correntes que sobem, descem e mudam de direção, como as ondas e os redemoinhos de um rio.", v("clouds timelapse")),
+        ("Quando o avião passa por uma dessas correntes, ele sobe ou desce um pouco de repente. Não existe buraco no ar: é só o ar mudando de rumo.", a("🌀", "Não é buraco no ar: é corrente de ar")),
+        ("A asa é feita para dobrar e aguentar muito mais força do que qualquer turbulência normal. Nos testes, ela entorta vários metros antes de quebrar.", v("airplane wing flex flight")),
+        ("O perigo real é se soltar e bater a cabeça. Por isso a dica dos pilotos é simples: sentado, cinto sempre afivelado.", v("airplane seat belt")),
+    ]),
+    ("Por que ele pousa de lado", [
+        ("Já viu um avião chegando torto na pista, quase de lado? Ele não está com problema.", v("airplane landing crosswind")),
+        ("Quando o vento sopra de lado, ele empurra o avião para fora da pista. Então o piloto aponta o nariz um pouco contra o vento.", a("🧭", "O nariz aponta contra o vento")),
+        ("O avião anda de lado, mas em linha reta sobre a pista. Pouco antes de tocar o chão, o piloto endireita tudo.", v("airplane landing")),
+    ]),
+    ("O risco branco no céu", [
+        ("E aquele risco branco que fica no céu depois que o avião passa?", v("contrail sky")),
+        ("Não é fumaça nem veneno. O motor solta vapor de água quente, e lá em cima faz uns quarenta graus negativos.", v("airplane contrail blue sky")),
+        ("O vapor congela na hora e vira cristais de gelo: é uma nuvem fininha feita pelo próprio avião.", v("contrails sunset")),
+    ]),
+    ("Por que não pode pousar cheio", [
+        ("Agora, a dúvida do título: por que o avião não pode pousar cheio de combustível?", v("airplane fuel truck")),
+        ("Decolar é suave: o avião vai ganhando velocidade e sai do chão aos poucos. Pousar é um tranco: ele bate na pista a mais de duzentos quilômetros por hora.", v("airplane touchdown runway")),
+        ("O trem de pouso e a estrutura são feitos para aguentar esse tranco só até um certo peso: o peso máximo de pouso.", a("⚖️", "Peso máximo de pouso")),
+        ("Num Boeing 777, por exemplo, ele pode decolar com uns trezentos e cinquenta mil quilos, mas só pode pousar com uns duzentos e cinquenta mil. São cem toneladas de diferença.", a("⛽", "Decola com 350 t, pousa com 250 t")),
+        ("Num voo normal, isso não é problema: o combustível vai sendo queimado durante a viagem e o avião chega leve.", v("airplane flying sunset")),
+        ("O problema é quando ele precisa voltar logo depois de decolar, por um passageiro passando mal ou um aviso no painel.", v("airplane cockpit pilots")),
+        ("Os aviões grandes têm uma solução: eles jogam combustível fora pelas pontas das asas, bem alto, e ele vira vapor antes de chegar ao chão.", v("airplane high altitude")),
+        ("Os aviões menores não têm essa válvula. Eles ficam dando voltas no céu para gastar combustível, ou pousam pesados com muito cuidado e passam por uma inspeção depois.", v("airplane circling sky")),
+    ]),
+    ("Dá para abrir a porta em pleno voo?", [
+        ("E a última: dá para abrir a porta do avião lá em cima? A resposta é não, nem com toda a força do mundo.", v("airplane door cabin")),
+        ("Lembra da pressurização? O ar de dentro da cabine empurra a porta para fora com muito mais força que o ar ralo de fora.", a("🚪", "Pressão de dentro empurra a porta")),
+        ("Essa diferença aperta a porta contra o batente com umas dez toneladas de força, como se houvesse um caminhão encostado nela.", a("🚚", "Umas 10 toneladas na porta")),
+        ("E a porta é de encaixe: para abrir, ela primeiro tem que vir um pouco para dentro, justamente contra essa força. Só no chão, com a pressão igual, ela abre.", v("airplane door opening")),
+    ]),
+    ("Final", [
+        ("Da asa empurrando o ar até a porta que ninguém consegue abrir, voar é física do começo ao fim. E é por isso que o avião é o meio de transporte mais seguro que existe.", v("airplane sunset sky", 2)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual dúvida de avião você ainda tem?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "AviaoPassageiro": {
+        0: dict(foto="Av_777", legenda="Boeing 777 decolando em Barcelona"),
+        6: dict(foto="Av_cond", legenda="Condensação em cima da asa: ali a pressão do ar é menor"),
+        20: dict(foto="Av_rastro", legenda="Rastro de condensação de um avião de passageiros"),
+        24: dict(foto="Av_toque", legenda="Airbus A380 tocando a pista em San Francisco"),
+        29: dict(foto="Av_jett", legenda="Boeing 747 da British Airways jogando combustível fora em voo"),
+        31: dict(foto="Av_porta", legenda="Aviso na porta: não abra com a cabine pressurizada"),
+    },
     "SolExplodir": {
         5: dict(foto="Sol_fil", legenda="O Sol visto pelo satélite SDO da NASA"),
         6: dict(foto="Sol_sdo", legenda="O Sol em luz ultravioleta (NASA/SDO)"),

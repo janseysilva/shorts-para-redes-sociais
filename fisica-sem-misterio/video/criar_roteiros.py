@@ -813,6 +813,37 @@ short("CidadeAlta", "A cidade mais ALTA do mundo: 5.100 metros e quase sem ar �
     ("E o corpo se adapta: o sangue de quem vive lá tem mais glóbulos vermelhos, para pegar o pouco oxigênio que existe.", "O SANGUE muda", ["SANGUE"], {"busca": "red blood cells", "foto": "Ri_sangue"}),
 ], pergunta="Você moraria a 5.100 metros por causa de ouro? Conta aqui 👇")
 
+# ---------- LEVA 18 (21/10, semana autônoma): série "Perguntas de PASSAGEIRO" (trailers do longo AviaoPassageiro) ----------
+short("PousarCheio", "Por que o avião NÃO pode pousar cheio de combustível? ✈️⛽ | Perguntas de passageiro #1",
+      "Decolar é suave, mas pousar é um tranco: o avião bate na pista a mais de 200 km/h, e o trem de pouso só aguenta isso até o peso máximo de pouso. Um Boeing 777 pode decolar com uns 350 mil quilos, mas só pode pousar com uns 250 mil. Se precisar voltar logo depois de decolar, os aviões grandes jogam combustível fora lá no alto, e os menores dão voltas para gastar! #fisica #aviao #aviacao #piloto #curiosidades",
+      "✈️", "Pesado demais para pousar.", [
+    ("Esse avião decola pesando trezentas e cinquenta toneladas. Mas, se precisar voltar agora, ele não pode pousar.", "Por que NÃO pode pousar cheio?", ["NÃO"], {"busca": "boeing 777 takeoff", "foto": "Av_777"}),
+    ("Decolar é suave. Pousar é um tranco: o avião bate na pista a mais de duzentos quilômetros por hora.", "Pousar é um TRANCO", ["TRANCO"], {"busca": "airplane touchdown smoke", "foto": "Av_toque"}),
+    ("O trem de pouso só aguenta esse tranco até um certo peso. No Boeing 777, é cem toneladas a menos que o peso de decolagem.", "100 toneladas a MENOS", ["MENOS"], a("⚖️", "Decola com 350 t, pousa com 250 t")),
+    ("Se precisar voltar logo, os aviões grandes jogam combustível fora, bem alto. Ele vira vapor antes de chegar ao chão.", "Ele JOGA combustível fora", ["JOGA"], {"busca": "fuel jettison", "foto": "Av_jett"}),
+    ("Os menores não têm essa válvula: ficam dando voltas no céu para gastar, ou pousam pesados com cuidado e passam por inspeção.", "Ou fica dando VOLTAS", ["VOLTAS"], v("airplane flying sky clouds")),
+], pergunta="Qual dúvida de avião você quer que eu responda no próximo? 👇")
+
+short("AviaoAlto", "Por que o avião voa TÃO ALTO? ✈️☁️ | Perguntas de passageiro #2",
+      "Os aviões de passageiros voam a uns 11 km de altura, mais alto que o Everest. Lá o ar é três vezes mais ralo: freia menos o avião, e ele gasta bem menos combustível. E o voo fica acima da maioria das nuvens e tempestades. Só que esse ar não dá para respirar, por isso a cabine é pressurizada! #fisica #aviao #aviacao #viagem #curiosidades",
+      "☁️", "Mais alto, mais econômico.", [
+    ("O avião em que você viaja voa a onze quilômetros de altura. Mais alto que o Monte Everest. Por quê?", "Por que voa TÃO ALTO?", ["ALTO"], {"busca": "airplane contrail", "foto": "Av_rastro"}),
+    ("Lá em cima, o ar é três vezes mais ralo. Tem menos ar freando o avião, e ele gasta bem menos combustível.", "Ar 3x mais RALO", ["RALO"], v("airplane above clouds")),
+    ("E ele passa por cima da maioria das nuvens e das tempestades, onde o voo costuma ser mais calmo.", "Acima das TEMPESTADES", ["TEMPESTADES"], v("storm clouds aerial")),
+    ("Só que esse ar ralo não dá para respirar. Por isso o avião bombeia ar para dentro e pressuriza a cabine.", "A cabine é PRESSURIZADA", ["PRESSURIZADA"], v("airplane cabin passengers")),
+    ("E é essa mesma pressão que deixa a porta do avião impossível de abrir lá em cima. Mas isso é o próximo episódio.", "Próximo: a PORTA", ["PORTA"], {"busca": "aircraft door", "foto": "Av_porta"}),
+], pergunta="Você prefere janela ou corredor? 👇")
+
+short("PortaAviao", "Dá pra abrir a PORTA do avião em pleno voo? 🚪✈️ | Perguntas de passageiro #3",
+      "Não, nem com toda a força do mundo. Lá em cima, a cabine é pressurizada e o ar de dentro empurra a porta contra o batente com umas 10 toneladas de força. E a porta é de encaixe: para abrir, ela precisa primeiro vir para dentro, justamente contra essa força. Só no chão, com a pressão igual, ela abre! #fisica #aviao #aviacao #pressao #curiosidades",
+      "🚪", "Dez toneladas segurando a porta.", [
+    ("Dá para abrir a porta do avião no meio do voo? Nem com toda a força do mundo.", "Dá pra ABRIR a porta?", ["ABRIR"], {"busca": "aircraft door", "foto": "Av_porta"}),
+    ("Lá em cima, a cabine é pressurizada: o ar de dentro empurra a porta para fora muito mais que o ar ralo de fora.", "A PRESSÃO de dentro", ["PRESSÃO"], v("airplane cabin aisle")),
+    ("Essa diferença aperta a porta contra o batente com umas dez toneladas de força. É como um caminhão encostado nela.", "10 TONELADAS na porta", ["TONELADAS"], a("🚚", "Umas 10 toneladas na porta")),
+    ("E a porta é de encaixe: para abrir, ela primeiro tem que vir para dentro, justamente contra essa força.", "Ela abre para DENTRO", ["DENTRO"], a("🚪", "Para abrir, a porta precisa vir para dentro")),
+    ("Só no chão, quando a pressão de dentro e de fora fica igual, é que a porta abre. Pode voar tranquilo.", "Só abre no CHÃO", ["CHÃO"], v("airplane landing runway")),
+], pergunta="Você já ficou com medo de alguém abrir a porta? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

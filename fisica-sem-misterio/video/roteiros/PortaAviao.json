@@ -1,0 +1,62 @@
+{
+ "id": "PortaAviao",
+ "titulo": "Dá pra abrir a PORTA do avião em pleno voo? 🚪✈️ | Perguntas de passageiro #3",
+ "legenda": "Não, nem com toda a força do mundo. Lá em cima, a cabine é pressurizada e o ar de dentro empurra a porta contra o batente com umas 10 toneladas de força. E a porta é de encaixe: para abrir, ela precisa primeiro vir para dentro, justamente contra essa força. Só no chão, com a pressão igual, ela abre! #fisica #aviao #aviacao #pressao #curiosidades",
+ "final": {
+  "emoji": "🚪",
+  "frase": "Dez toneladas segurando a porta."
+ },
+ "pergunta": "Você já ficou com medo de alguém abrir a porta? 👇",
+ "frases": [
+  "Dá para abrir a porta do avião no meio do voo? Nem com toda a força do mundo.",
+  "Lá em cima, a cabine é pressurizada: o ar de dentro empurra a porta para fora muito mais que o ar ralo de fora.",
+  "Essa diferença aperta a porta contra o batente com umas dez toneladas de força. É como um caminhão encostado nela.",
+  "E a porta é de encaixe: para abrir, ela primeiro tem que vir para dentro, justamente contra essa força.",
+  "Só no chão, quando a pressão de dentro e de fora fica igual, é que a porta abre. Pode voar tranquilo.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Dá pra ABRIR a porta?",
+   "destaque": [
+    "ABRIR"
+   ],
+   "busca": "aircraft door",
+   "foto": "Av_porta"
+  },
+  {
+   "gancho": "A PRESSÃO de dentro",
+   "destaque": [
+    "PRESSÃO"
+   ],
+   "busca": "airplane cabin aisle"
+  },
+  {
+   "gancho": "10 TONELADAS na porta",
+   "destaque": [
+    "TONELADAS"
+   ],
+   "anim": {
+    "emoji": "🚚",
+    "texto": "Umas 10 toneladas na porta"
+   }
+  },
+  {
+   "gancho": "Ela abre para DENTRO",
+   "destaque": [
+    "DENTRO"
+   ],
+   "anim": {
+    "emoji": "🚪",
+    "texto": "Para abrir, a porta precisa vir para dentro"
+   }
+  },
+  {
+   "gancho": "Só abre no CHÃO",
+   "destaque": [
+    "CHÃO"
+   ],
+   "busca": "airplane landing runway"
+  }
+ ]
+}
