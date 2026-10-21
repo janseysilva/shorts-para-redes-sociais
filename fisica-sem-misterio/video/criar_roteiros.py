@@ -817,7 +817,7 @@ short("CidadeAlta", "A cidade mais ALTA do mundo: 5.100 metros e quase sem ar �
 short("PousarCheio", "Por que o avião NÃO pode pousar cheio de combustível? ✈️⛽ | Perguntas de passageiro #1",
       "Decolar é suave, mas pousar é um tranco: o avião bate na pista a mais de 200 km/h, e o trem de pouso só aguenta isso até o peso máximo de pouso. Um Boeing 777 pode decolar com uns 350 mil quilos, mas só pode pousar com uns 250 mil. Se precisar voltar logo depois de decolar, os aviões grandes jogam combustível fora lá no alto, e os menores dão voltas para gastar! #fisica #aviao #aviacao #piloto #curiosidades",
       "✈️", "Pesado demais para pousar.", [
-    ("Esse avião decola pesando trezentas e cinquenta toneladas. Mas, se precisar voltar agora, ele não pode pousar.", "Por que NÃO pode pousar cheio?", ["NÃO"], {"busca": "boeing 777 takeoff", "foto": "Av_777"}),
+    ("Esse avião decola pesando trezentas e cinquenta toneladas. Mas, se precisar voltar agora, ele não pode pousar.", "Por que NÃO pode pousar cheio?", ["NÃO"], {"busca": "boeing 777 takeoff", "foto": "Av_777c"}),
     ("Decolar é suave. Pousar é um tranco: o avião bate na pista a mais de duzentos quilômetros por hora.", "Pousar é um TRANCO", ["TRANCO"], {"busca": "airplane touchdown smoke", "foto": "Av_toque"}),
     ("O trem de pouso só aguenta esse tranco até um certo peso. No Boeing 777, é cem toneladas a menos que o peso de decolagem.", "100 toneladas a MENOS", ["MENOS"], a("⚖️", "Decola com 350 t, pousa com 250 t")),
     ("Se precisar voltar logo, os aviões grandes jogam combustível fora, bem alto. Ele vira vapor antes de chegar ao chão.", "Ele JOGA combustível fora", ["JOGA"], {"busca": "fuel jettison", "foto": "Av_jett"}),
@@ -827,8 +827,8 @@ short("PousarCheio", "Por que o avião NÃO pode pousar cheio de combustível? �
 short("AviaoAlto", "Por que o avião voa TÃO ALTO? ✈️☁️ | Perguntas de passageiro #2",
       "Os aviões de passageiros voam a uns 11 km de altura, mais alto que o Everest. Lá o ar é três vezes mais ralo: freia menos o avião, e ele gasta bem menos combustível. E o voo fica acima da maioria das nuvens e tempestades. Só que esse ar não dá para respirar, por isso a cabine é pressurizada! #fisica #aviao #aviacao #viagem #curiosidades",
       "☁️", "Mais alto, mais econômico.", [
-    ("O avião em que você viaja voa a onze quilômetros de altura. Mais alto que o Monte Everest. Por quê?", "Por que voa TÃO ALTO?", ["ALTO"], {"busca": "airplane contrail", "foto": "Av_rastro"}),
-    ("Lá em cima, o ar é três vezes mais ralo. Tem menos ar freando o avião, e ele gasta bem menos combustível.", "Ar 3x mais RALO", ["RALO"], v("airplane above clouds")),
+    ("O avião em que você viaja voa a onze quilômetros de altura. Mais alto que o Monte Everest. Por quê?", "Por que voa TÃO ALTO?", ["ALTO"], v("airplane above clouds")),
+    ("Lá em cima, o ar é três vezes mais ralo. Tem menos ar freando o avião, e ele gasta bem menos combustível.", "Ar 3x mais RALO", ["RALO"], {"busca": "airplane contrail", "foto": "Av_rastro"}),
     ("E ele passa por cima da maioria das nuvens e das tempestades, onde o voo costuma ser mais calmo.", "Acima das TEMPESTADES", ["TEMPESTADES"], v("storm clouds aerial")),
     ("Só que esse ar ralo não dá para respirar. Por isso o avião bombeia ar para dentro e pressuriza a cabine.", "A cabine é PRESSURIZADA", ["PRESSURIZADA"], v("airplane cabin passengers")),
     ("E é essa mesma pressão que deixa a porta do avião impossível de abrir lá em cima. Mas isso é o próximo episódio.", "Próximo: a PORTA", ["PORTA"], {"busca": "aircraft door", "foto": "Av_porta"}),
@@ -843,6 +843,37 @@ short("PortaAviao", "Dá pra abrir a PORTA do avião em pleno voo? 🚪✈️ | 
     ("E a porta é de encaixe: para abrir, ela primeiro tem que vir para dentro, justamente contra essa força.", "Ela abre para DENTRO", ["DENTRO"], a("🚪", "Para abrir, a porta precisa vir para dentro")),
     ("Só no chão, quando a pressão de dentro e de fora fica igual, é que a porta abre. Pode voar tranquilo.", "Só abre no CHÃO", ["CHÃO"], v("airplane landing runway")),
 ], pergunta="Você já ficou com medo de alguém abrir a porta? 👇")
+
+# ---------- LEVA 19 (21/10, semana autônoma): quântica de verdade x propaganda + Mistérios da Terra #1 ----------
+short("PulseiraQuantica", "PULSEIRA QUÂNTICA funciona? A física responde ⚛️",
+      "Os efeitos quânticos são reais, mas muito frágeis: aparecem em coisas minúsculas, isoladas e muitas vezes perto do zero absoluto. No calor de um corpo humano, eles se desfazem num instante. Em 2010, uma marca de pulseira famosa no mundo todo admitiu na Austrália que não tinha prova científica, e nos testes contra uma pulseira falsa as pessoas se saíram igual. A quântica de verdade está no chip do seu celular, não no pulso! #fisica #quantica #ciencia #curiosidades #fisicaquantica",
+      "⚛️", "Quântica de verdade: no chip, não no pulso.", [
+    ("Pulseira quântica, água quântica, terapia quântica. Isso funciona? A física responde.", "Pulseira QUÂNTICA funciona?", ["QUÂNTICA"], {"busca": "bracelet wrist", "foto": "Qt_pbpulso"}),
+    ("Os efeitos quânticos são reais, mas muito frágeis. Eles aparecem em coisas minúsculas, isoladas e muitas vezes geladas.", "Efeitos MUITO frágeis", ["FRÁGEIS"], v("atom animation")),
+    ("No calor do corpo humano, eles se desfazem num piscar de olhos. Os físicos chamam isso de decoerência.", "No corpo, eles SOMEM", ["SOMEM"], a("🌡️", "No calor do corpo, a quântica some")),
+    ("Em dois mil e dez, uma marca famosa de pulseira admitiu na Austrália que não tinha nenhuma prova científica.", "Admitiu: SEM PROVA", ["PROVA"], {"busca": "bracelet", "foto": "Qt_pb"}),
+    ("A quântica de verdade está aqui: no chip do seu celular, no laser e na ressonância do hospital. Não no pulso.", "Está no seu CELULAR", ["CELULAR"], v("computer chip macro")),
+], pergunta="Qual produto \"quântico\" você já viu por aí? 👇")
+
+short("FogosQuantica", "As cores dos FOGOS DE ARTIFÍCIO são física quântica 🎆",
+      "Cada cor dos fogos vem de um metal diferente: estrôncio dá vermelho, sódio dá amarelo, bário dá verde e cobre dá azul. O calor da explosão joga os elétrons desses átomos para degraus de energia mais altos, e quando eles caem de volta, soltam luz de uma cor exata. Esse pulo é o famoso salto quântico, que na física é um dos menores pulos do universo! #fisica #quantica #fogosdeartificio #quimica #curiosidades",
+      "🎆", "Cada cor é um salto quântico.", [
+    ("Essas cores não são tinta. Cada uma é um salto quântico acontecendo bilhões de vezes.", "Cada cor é um SALTO QUÂNTICO", ["SALTO"], v("fireworks night colorful")),
+    ("Cada cor vem de um metal: estrôncio dá vermelho, sódio dá amarelo, bário dá verde e cobre dá azul.", "Cada METAL, uma cor", ["METAL"], v("red fireworks")),
+    ("O calor da explosão joga os elétrons desses átomos para degraus de energia mais altos.", "Elétrons SOBEM de degrau", ["SOBEM"], a("🪜", "O calor joga o elétron para cima")),
+    ("Quando eles caem de volta, soltam luz de uma cor exata. Esse é o salto quântico de verdade.", "Ao cair, soltam LUZ", ["LUZ"], v("green fireworks")),
+    ("E ele é minúsculo: um dos menores pulos do universo. Quem diz que deu um salto quântico na vida, na verdade quase não saiu do lugar.", "Um pulo MINÚSCULO", ["MINÚSCULO"], v("fireworks finale")),
+], pergunta="Qual a sua cor de fogos preferida? 👇")
+
+short("PedrasAndam", "As PEDRAS QUE ANDAM sozinhas no deserto 🪨 | Mistérios da Terra #1",
+      "No Vale da Morte, nos Estados Unidos, pedras de até 300 quilos deixam rastros de centenas de metros no chão seco, e ninguém nunca tinha visto elas se mexerem. Em 2014, cientistas instalaram GPS nas pedras e câmeras e resolveram o mistério: no inverno, a chuva forma uma lagoa rasa que congela à noite numa placa de gelo fininha. De manhã o gelo racha, e um vento fraco empurra as placas, que empurram as pedras devagarinho! #fisica #misterio #deserto #curiosidades #ciencia",
+      "🪨", "O gelo empurrou as pedras.", [
+    ("Essas pedras andam sozinhas. Algumas pesam trezentos quilos e deixam rastros de centenas de metros.", "As pedras ANDAM sozinhas", ["ANDAM"], {"busca": "desert", "foto": "Pd_rastro"}),
+    ("Isso acontece no Vale da Morte, nos Estados Unidos. E por décadas ninguém conseguiu ver uma delas se mexer.", "Ninguém VIA acontecer", ["VIA"], {"busca": "death valley", "foto": "Pd_playa"}),
+    ("Em dois mil e catorze, cientistas colocaram GPS nas pedras e câmeras no deserto. E filmaram.", "Colocaram GPS nas PEDRAS", ["PEDRAS"], {"busca": "desert rocks", "foto": "Pd_pedra"}),
+    ("No inverno, a chuva forma uma lagoa rasa que congela à noite numa placa de gelo fininha, de poucos milímetros.", "Uma placa de GELO", ["GELO"], {"busca": "thin ice", "foto": "Pd_gelo"}),
+    ("De manhã, o gelo racha e um vento fraco empurra as placas, que empurram as pedras, devagarinho. O mistério era gelo.", "O vento empurra o GELO", ["VENTO"], {"busca": "desert", "foto": "Pd_trilha"}),
+], pergunta="Você já tinha ouvido falar dessas pedras? 👇")
 
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:

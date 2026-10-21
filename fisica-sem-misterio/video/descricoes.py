@@ -25,10 +25,10 @@ for id_ in sys.argv[1:]:
         fotos = list(dict.fromkeys(c["foto"] for cap in r["capitulos"] for c in cap["cenas"] if "foto" in c))
         txt = [r["descricao"], "", "Capítulos:", *caps, "",
                "Imagens: vídeos do Pexels e do Pixabay (licença livre). Fotos reais:", *creditos(fotos), "",
-               "Inscreva-se no Física Sem Mistério para mais curiosidades da física!", "#fisica #ciencia #curiosidades #documentario"]
+               "Inscreva-se no Física Sem Mistério para mais curiosidades da física!", "⚡ Gostou? Aperte o botão HYPE embaixo do vídeo: ele ajuda canais pequenos a aparecer para mais gente.", "#fisica #ciencia #curiosidades #documentario"]
     else:
         fotos = [c["foto"] for c in r["cenas"] if "foto" in c]
-        txt = [r["legenda"] + " Segue o canal para mais curiosidades!"]
+        txt = [r["legenda"] + " Segue o canal para mais curiosidades! ⚡ Gostou? Aperte o HYPE: ajuda canais pequenos a aparecer."]
         if fotos:
             txt += ["", "Fotos reais:", *creditos(fotos)]
         corpo, _, tags = r["legenda"].partition(" #")

@@ -1,0 +1,60 @@
+{
+ "id": "PulseiraQuantica",
+ "titulo": "PULSEIRA QUÂNTICA funciona? A física responde ⚛️",
+ "legenda": "Os efeitos quânticos são reais, mas muito frágeis: aparecem em coisas minúsculas, isoladas e muitas vezes perto do zero absoluto. No calor de um corpo humano, eles se desfazem num instante. Em 2010, uma marca de pulseira famosa no mundo todo admitiu na Austrália que não tinha prova científica, e nos testes contra uma pulseira falsa as pessoas se saíram igual. A quântica de verdade está no chip do seu celular, não no pulso! #fisica #quantica #ciencia #curiosidades #fisicaquantica",
+ "final": {
+  "emoji": "⚛️",
+  "frase": "Quântica de verdade: no chip, não no pulso."
+ },
+ "pergunta": "Qual produto \"quântico\" você já viu por aí? 👇",
+ "frases": [
+  "Pulseira quântica, água quântica, terapia quântica. Isso funciona? A física responde.",
+  "Os efeitos quânticos são reais, mas muito frágeis. Eles aparecem em coisas minúsculas, isoladas e muitas vezes geladas.",
+  "No calor do corpo humano, eles se desfazem num piscar de olhos. Os físicos chamam isso de decoerência.",
+  "Em dois mil e dez, uma marca famosa de pulseira admitiu na Austrália que não tinha nenhuma prova científica.",
+  "A quântica de verdade está aqui: no chip do seu celular, no laser e na ressonância do hospital. Não no pulso.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Pulseira QUÂNTICA funciona?",
+   "destaque": [
+    "QUÂNTICA"
+   ],
+   "busca": "bracelet wrist",
+   "foto": "Qt_pbpulso"
+  },
+  {
+   "gancho": "Efeitos MUITO frágeis",
+   "destaque": [
+    "FRÁGEIS"
+   ],
+   "busca": "atom animation"
+  },
+  {
+   "gancho": "No corpo, eles SOMEM",
+   "destaque": [
+    "SOMEM"
+   ],
+   "anim": {
+    "emoji": "🌡️",
+    "texto": "No calor do corpo, a quântica some"
+   }
+  },
+  {
+   "gancho": "Admitiu: SEM PROVA",
+   "destaque": [
+    "PROVA"
+   ],
+   "busca": "bracelet",
+   "foto": "Qt_pb"
+  },
+  {
+   "gancho": "Está no seu CELULAR",
+   "destaque": [
+    "CELULAR"
+   ],
+   "busca": "computer chip macro"
+  }
+ ]
+}

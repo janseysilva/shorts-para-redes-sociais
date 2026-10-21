@@ -830,10 +830,95 @@ longo("AviaoPassageiro", "Por que o avião NÃO pode pousar cheio de combustíve
     ]),
 ])
 
+longo("Quantica", "ENERGIA QUÂNTICA existe? ⚛️ O que é física quântica de verdade (e o que é só propaganda)",
+      "Pulseira quântica, água quântica, terapia quântica, energia quântica: a palavra está em todo lugar. Neste vídeo, o que a física quântica é de verdade, "
+      "de onde veio a palavra quântico, o salto quântico (que é minúsculo), as coisas estranhas do mundo dos átomos, a quântica que já está no seu celular, "
+      "por que a pulseira não funciona, como reconhecer a propaganda e o que é um computador quântico de verdade.", [
+    ("Abertura", [
+        ("Pulseira quântica. Água quântica. Terapia quântica. Colchão quântico. Hoje parece que tudo é quântico.", v("bracelet wrist")),
+        ("Mas a física quântica de verdade é uma das ideias mais estranhas e mais bem testadas da ciência. E ela não tem nada a ver com a maioria desses produtos.", v("atom animation")),
+        ("Neste vídeo você vai entender o que é quântico de verdade, onde a quântica já está na sua mão, e como reconhecer quando a palavra é só propaganda.", v("smartphone hand")),
+    ]),
+    ("De onde veio a palavra", [
+        ("Tudo começou em mil e novecentos, com um físico alemão chamado Max Planck, tentando explicar a cor da luz que sai de um metal muito quente.", v("hot metal glowing")),
+        ("A única conta que funcionou foi esquisita: a energia da luz não sai de forma contínua, como água de uma torneira. Ela sai em pacotinhos.", a("📦", "A luz sai em pacotinhos de energia")),
+        ("Em latim, quantidade se diz quantum. Por isso esses pacotinhos ganharam o nome de quanta, e a física deles virou física quântica.", a("⚛️", "Quantum = quantidade, pacote")),
+        ("Cinco anos depois, Albert Einstein mostrou que a luz realmente chega em pacotes, que hoje chamamos de fótons. Foi por isso, e não pela relatividade, que ele ganhou o prêmio Nobel.", v("light rays sun")),
+    ]),
+    ("O salto quântico é minúsculo", [
+        ("Você já ouviu alguém dizer que vai dar um salto quântico na vida, como se fosse um pulo gigante?", v("man jumping")),
+        ("Na física, é o contrário. Dentro do átomo, o elétron só pode ficar em certos degraus de energia, nunca no meio do caminho.", a("🪜", "O elétron só fica em certos degraus")),
+        ("Quando ele pula de um degrau para outro, ele solta ou absorve um fóton. Esse é o salto quântico: um dos menores pulos que existem no universo.", v("neon sign glowing")),
+        ("E é por isso que cada gás brilha com uma cor só dele. O neon é vermelho alaranjado, o sódio dos postes antigos é amarelo.", v("neon lights night")),
+    ]),
+    ("O mundo estranho dos átomos", [
+        ("No mundo dos átomos, as coisas não se comportam como bolinhas. Elas também se comportam como ondas.", v("water ripples")),
+        ("Se você atira elétrons, um de cada vez, contra uma parede com duas fendas, eles formam do outro lado listras, como duas ondas se cruzando na água.", a("🌊", "Um elétron de cada vez forma listras")),
+        ("Outra estranheza é o efeito túnel: uma partícula às vezes atravessa uma barreira que, pelas regras do dia a dia, ela não teria força para passar.", a("🚇", "Efeito túnel: atravessar a barreira")),
+        ("É como uma bola que, de vez em quando, aparecesse do outro lado do muro sem pular. Com bolas, não acontece. Com elétrons, acontece o tempo todo.", v("ball wall")),
+        ("E o efeito túnel é tão real que existe dentro do Sol: sem ele, o Sol nem conseguiria brilhar.", v("sun surface")),
+    ]),
+    ("A quântica que está no seu bolso", [
+        ("Agora, a parte que pouca gente sabe: a física quântica de verdade está na sua mão neste momento.", v("smartphone hand")),
+        ("O chip do celular tem bilhões de transistores, pecinhas que só funcionam porque os engenheiros entendem como os elétrons se comportam dentro do silício.", v("computer chip macro")),
+        ("O laser, do leitor de código de barras do mercado à cirurgia de olho, nasceu direto da física quântica.", v("laser beam")),
+        ("A lâmpada de LED e o painel solar também: os dois trocam eletricidade e luz, fóton por fóton.", v("solar panels")),
+        ("A ressonância magnética, no hospital, enxerga dentro do corpo usando uma propriedade quântica dos núcleos dos átomos.", v("mri scanner hospital")),
+        ("E o GPS do seu celular depende de relógios atômicos nos satélites, que medem o tempo pelos saltos quânticos dos átomos.", v("satellite orbit earth")),
+        ("Então, sim, a quântica mudou o mundo. Só que ela mudou o mundo dentro de chips, lasers e hospitais, e não dentro de uma pulseira.", v("electronics circuit board")),
+    ]),
+    ("Onde a palavra virou propaganda", [
+        ("Por que, então, tanta coisa usa a palavra quântico para vender?", v("shopping mall")),
+        ("Porque quântico soa moderno, misterioso e científico. E quase ninguém sabe exatamente o que significa.", a("🏷️", "\"Quântico\" soa científico e vende")),
+        ("Mas existe um motivo forte para a pulseira não fazer nada: os efeitos quânticos são muito frágeis.", v("bracelet wrist")),
+        ("Eles aparecem com clareza em coisas muito pequenas, muito isoladas, e muitas vezes muito frias. No calor e no barulho de um corpo humano, eles se desfazem num piscar de olhos.", a("🌡️", "No calor do corpo, os efeitos quânticos somem")),
+        ("Os físicos chamam isso de decoerência. É o motivo pelo qual você nunca vai ver uma pessoa atravessar uma parede por efeito túnel.", v("brick wall")),
+        ("E tem um caso famoso. Em dois mil e dez, uma marca de pulseira muito vendida no mundo inteiro teve que admitir, na Austrália, que não tinha nenhuma prova científica do que prometia.", a("⚖️", "2010: a pulseira sem provas")),
+        ("Quando a pulseira foi testada contra uma pulseira falsa, igualzinha, as pessoas se saíram do mesmo jeito com as duas. O efeito estava na cabeça, não no pulso.", v("people balance test")),
+    ]),
+    ("E energia quântica, existe?", [
+        ("E energia quântica? Não existe um tipo de energia chamado energia quântica.", a("⚡", "Não existe uma \"energia quântica\" à parte")),
+        ("Toda energia, a da tomada, a do Sol, a da comida, segue as regras da quântica no mundo dos átomos. Quântico descreve como a energia funciona, não é uma energia diferente.", v("power lines sunset")),
+        ("E nenhuma regra da quântica permite criar energia do nada. A conservação da energia vale também no mundo dos átomos.", v("electricity sparks")),
+    ]),
+    ("Como reconhecer a propaganda", [
+        ("Então, como saber se um produto quântico é ciência ou propaganda? Fique de olho em quatro sinais.", v("magnifying glass")),
+        ("Primeiro: promete curar ou resolver quase tudo. Dor, ansiedade, cansaço, sono. Coisa de verdade costuma servir para uma coisa só.", a("1️⃣", "Promete resolver quase tudo")),
+        ("Segundo: fala em frequência, vibração e energia, mas não diz qual número, nem como foi medido.", a("2️⃣", "Fala em frequência, mas sem números")),
+        ("Terceiro: as provas são só depoimentos de clientes, e não testes comparando com um produto falso.", a("3️⃣", "Só depoimentos, sem teste comparando")),
+        ("E quarto: diz que a ciência ainda não entende, mas usa o nome da ciência para vender.", a("4️⃣", "Usa o nome da ciência sem provas")),
+    ]),
+    ("A quântica de verdade hoje", [
+        ("Enquanto isso, a quântica de verdade está vivendo um momento histórico.", v("quantum computer")),
+        ("Em dois mil e vinte e cinco, o prêmio Nobel de Física foi para três cientistas que fizeram o efeito túnel aparecer num circuito elétrico do tamanho de um chip, e não só num átomo.", v("electronic chip close up")),
+        ("Mas repare no detalhe: esse circuito precisa ficar perto do zero absoluto, uns duzentos e setenta e três graus negativos. Bem longe do calor de um pulso.", v("liquid nitrogen vapor")),
+        ("É assim que funcionam os computadores quânticos. Em vez de bits que são zero ou um, eles usam qubits, que podem ficar numa mistura dos dois ao mesmo tempo.", a("💻", "Qubit: zero e um ao mesmo tempo")),
+        ("Em dois mil e vinte e quatro, um chip quântico do Google resolveu em menos de cinco minutos um teste que o supercomputador mais rápido levaria mais tempo que a idade do universo para terminar.", v("server room data center")),
+        ("No futuro, eles podem ajudar a criar remédios e materiais novos. Esse é o quântico de verdade: estranho, frio, difícil, e muito real.", v("laboratory scientist")),
+    ]),
+    ("Final", [
+        ("Da luz em pacotinhos ao chip do seu celular, a física quântica é real e está em todo lugar. Só não está na pulseira.", v("smartphone hand", 3)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual produto quântico você já viu por aí?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "Quantica": {
+        3: dict(foto="Qt_planck", legenda="Max Planck, que criou a ideia dos pacotes de energia em 1900"),
+        6: dict(foto="Qt_einstein", legenda="Albert Einstein em 1921, ano do seu prêmio Nobel"),
+        10: dict(foto="Qt_neon", legenda="Tubo de gás neon: cada salto quântico solta luz dessa cor"),
+        15: dict(foto="Sol_sdo", legenda="O Sol: sem o efeito túnel, ele não brilharia (NASA/SDO)"),
+        12: dict(foto="Qt_fendas", legenda="Experimento real: elétrons chegando um a um formam listras (Tonomura)"),
+        20: dict(foto="Qt_ressonancia", legenda="Aparelho de ressonância magnética"),
+        25: dict(foto="Qt_pbpulso", legenda="Pulseira de holograma vendida como \"equilíbrio de energia\""),
+        28: dict(foto="Qt_pb", legenda="2010: a fabricante admitiu não ter prova científica"),
+        38: dict(foto="Qt_ibm", legenda="Montagem de um computador quântico da IBM na Alemanha"),
+        39: dict(foto="Qt_martinis", legenda="John Martinis, um dos vencedores do Nobel de Física de 2025"),
+        40: dict(foto="Qt_fridge", legenda="Refrigerador que deixa os qubits perto do zero absoluto"),
+    },
     "AviaoPassageiro": {
         0: dict(foto="Av_777", legenda="Boeing 777 decolando em Barcelona"),
         6: dict(foto="Av_cond", legenda="Condensação em cima da asa: ali a pressão do ar é menor"),

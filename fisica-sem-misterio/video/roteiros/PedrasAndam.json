@@ -1,0 +1,60 @@
+{
+ "id": "PedrasAndam",
+ "titulo": "As PEDRAS QUE ANDAM sozinhas no deserto 🪨 | Mistérios da Terra #1",
+ "legenda": "No Vale da Morte, nos Estados Unidos, pedras de até 300 quilos deixam rastros de centenas de metros no chão seco, e ninguém nunca tinha visto elas se mexerem. Em 2014, cientistas instalaram GPS nas pedras e câmeras e resolveram o mistério: no inverno, a chuva forma uma lagoa rasa que congela à noite numa placa de gelo fininha. De manhã o gelo racha, e um vento fraco empurra as placas, que empurram as pedras devagarinho! #fisica #misterio #deserto #curiosidades #ciencia",
+ "final": {
+  "emoji": "🪨",
+  "frase": "O gelo empurrou as pedras."
+ },
+ "pergunta": "Você já tinha ouvido falar dessas pedras? 👇",
+ "frases": [
+  "Essas pedras andam sozinhas. Algumas pesam trezentos quilos e deixam rastros de centenas de metros.",
+  "Isso acontece no Vale da Morte, nos Estados Unidos. E por décadas ninguém conseguiu ver uma delas se mexer.",
+  "Em dois mil e catorze, cientistas colocaram GPS nas pedras e câmeras no deserto. E filmaram.",
+  "No inverno, a chuva forma uma lagoa rasa que congela à noite numa placa de gelo fininha, de poucos milímetros.",
+  "De manhã, o gelo racha e um vento fraco empurra as placas, que empurram as pedras, devagarinho. O mistério era gelo.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "As pedras ANDAM sozinhas",
+   "destaque": [
+    "ANDAM"
+   ],
+   "busca": "desert",
+   "foto": "Pd_rastro"
+  },
+  {
+   "gancho": "Ninguém VIA acontecer",
+   "destaque": [
+    "VIA"
+   ],
+   "busca": "death valley",
+   "foto": "Pd_playa"
+  },
+  {
+   "gancho": "Colocaram GPS nas PEDRAS",
+   "destaque": [
+    "PEDRAS"
+   ],
+   "busca": "desert rocks",
+   "foto": "Pd_pedra"
+  },
+  {
+   "gancho": "Uma placa de GELO",
+   "destaque": [
+    "GELO"
+   ],
+   "busca": "thin ice",
+   "foto": "Pd_gelo"
+  },
+  {
+   "gancho": "O vento empurra o GELO",
+   "destaque": [
+    "VENTO"
+   ],
+   "busca": "desert",
+   "foto": "Pd_trilha"
+  }
+ ]
+}

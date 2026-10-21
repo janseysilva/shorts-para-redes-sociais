@@ -1,0 +1,58 @@
+{
+ "id": "FogosQuantica",
+ "titulo": "As cores dos FOGOS DE ARTIFÍCIO são física quântica 🎆",
+ "legenda": "Cada cor dos fogos vem de um metal diferente: estrôncio dá vermelho, sódio dá amarelo, bário dá verde e cobre dá azul. O calor da explosão joga os elétrons desses átomos para degraus de energia mais altos, e quando eles caem de volta, soltam luz de uma cor exata. Esse pulo é o famoso salto quântico, que na física é um dos menores pulos do universo! #fisica #quantica #fogosdeartificio #quimica #curiosidades",
+ "final": {
+  "emoji": "🎆",
+  "frase": "Cada cor é um salto quântico."
+ },
+ "pergunta": "Qual a sua cor de fogos preferida? 👇",
+ "frases": [
+  "Essas cores não são tinta. Cada uma é um salto quântico acontecendo bilhões de vezes.",
+  "Cada cor vem de um metal: estrôncio dá vermelho, sódio dá amarelo, bário dá verde e cobre dá azul.",
+  "O calor da explosão joga os elétrons desses átomos para degraus de energia mais altos.",
+  "Quando eles caem de volta, soltam luz de uma cor exata. Esse é o salto quântico de verdade.",
+  "E ele é minúsculo: um dos menores pulos do universo. Quem diz que deu um salto quântico na vida, na verdade quase não saiu do lugar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Cada cor é um SALTO QUÂNTICO",
+   "destaque": [
+    "SALTO"
+   ],
+   "busca": "fireworks night colorful"
+  },
+  {
+   "gancho": "Cada METAL, uma cor",
+   "destaque": [
+    "METAL"
+   ],
+   "busca": "red fireworks"
+  },
+  {
+   "gancho": "Elétrons SOBEM de degrau",
+   "destaque": [
+    "SOBEM"
+   ],
+   "anim": {
+    "emoji": "🪜",
+    "texto": "O calor joga o elétron para cima"
+   }
+  },
+  {
+   "gancho": "Ao cair, soltam LUZ",
+   "destaque": [
+    "LUZ"
+   ],
+   "busca": "green fireworks"
+  },
+  {
+   "gancho": "Um pulo MINÚSCULO",
+   "destaque": [
+    "MINÚSCULO"
+   ],
+   "busca": "fireworks finale"
+  }
+ ]
+}
