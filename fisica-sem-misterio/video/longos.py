@@ -694,10 +694,97 @@ longo("ElNino", "SUPER EL NIÑO: o monstro do Pacífico que já está chegando a
     ]),
 ])
 
+longo("SolExplodir", "O que aconteceria se o SOL EXPLODISSE? ☀️💥 (e o que vai acontecer de verdade)",
+      "O que aconteceria com a Terra se o Sol explodisse agora: os 8 minutos de atraso da luz, a onda de choque hora a hora e o que aconteceria se ele simplesmente sumisse. "
+      "Depois, a física de verdade: por que o Sol não tem massa para explodir, como ele vai virar uma gigante vermelha e uma anã branca, "
+      "as supernovas reais de 1054 e 1987, a estrela Betelgeuse e por que o ferro do seu sangue veio de estrelas que explodiram.", [
+    ("Abertura", [
+        ("Se o Sol explodisse agora, neste exato segundo, você não ia perceber nada. O céu ia continuar azul, e o dia, normal.", v("sun sky clouds")),
+        ("Por oito minutos e vinte segundos, tudo ia parecer tranquilo. Depois disso, a Terra teria poucas horas.", v("sunrise earth from space")),
+        ("Neste vídeo você vai ver o que aconteceria, minuto a minuto, e o que a física diz que vai acontecer com o Sol de verdade.", v("solar flare sun surface")),
+    ]),
+    ("O que é o Sol", [
+        ("O Sol é uma estrela comum, mas gigante para nós: dentro dele caberiam mais de um milhão de Terras.", v("sun close up")),
+        ("Ele guarda quase toda a massa do Sistema Solar: noventa e nove vírgula oito por cento. Todos os planetas juntos são o resto.", a("☀️", "99,8% da massa do Sistema Solar")),
+        ("No centro, a temperatura passa de quinze milhões de graus, e a pressão é tão grande que os átomos de hidrogênio se fundem e viram hélio.", v("plasma energy glow")),
+        ("Essa fusão solta uma energia imensa. A cada segundo, o Sol transforma cerca de seiscentos milhões de toneladas de hidrogênio.", v("sun surface plasma")),
+        ("E a energia que sai do centro leva milhares de anos para chegar à superfície. A luz que esquenta você hoje começou a viagem antes das pirâmides.", v("sunlight through trees")),
+    ]),
+    ("Os oito minutos de atraso", [
+        ("A luz do Sol viaja a trezentos mil quilômetros por segundo. Mesmo assim, demora oito minutos e vinte segundos para chegar até aqui.", v("sunbeams clouds")),
+        ("Isso quer dizer que você nunca vê o Sol como ele é agora, e sim como ele era oito minutos atrás.", v("sunset ocean horizon")),
+        ("E não é só a luz. Até a gravidade do Sol, que segura a Terra em órbita, leva esses mesmos oito minutos para chegar.", a("🌍", "A gravidade também viaja na velocidade da luz")),
+        ("Então, se o Sol explodisse, a Terra ia continuar girando em volta de um Sol que já não existe, sem saber de nada.", v("earth orbit space")),
+    ]),
+    ("O Sol pode explodir?", [
+        ("Agora a boa notícia: o Sol não tem como explodir. Para uma estrela explodir, ela precisa de muita massa.", v("stars night sky timelapse")),
+        ("Só as estrelas com mais de oito vezes a massa do Sol terminam numa explosão chamada supernova.", v("galaxy stars space")),
+        ("No fim da vida, o centro dessas gigantes não aguenta o próprio peso e desaba em menos de um segundo. O resto da estrela é arremessado no espaço.", a("💥", "O centro desaba e a estrela é arremessada")),
+        ("O Sol é pequeno demais para isso. Mas vamos imaginar que, por algum motivo, ele explodisse mesmo assim.", v("sun flare")),
+    ]),
+    ("Se ele explodisse mesmo", [
+        ("Nos primeiros oito minutos, nada. Até que um clarão milhões de vezes mais forte que o Sol de sempre iluminaria metade do planeta.", v("bright light flash sky")),
+        ("O lado da Terra virado para o Sol seria queimado no mesmo instante. Rios, florestas e a superfície do mar ferveriam.", v("forest fire")),
+        ("Quem estivesse do lado da noite teria só algumas horas. A matéria da explosão viria a uns dez mil quilômetros por segundo.", v("night city lights")),
+        ("Em umas quatro horas, essa onda chegaria aqui e arrancaria a atmosfera e os oceanos. A Terra, como a conhecemos, deixaria de existir.", v("earth atmosphere space")),
+    ]),
+    ("E se ele só sumisse?", [
+        ("E se o Sol, em vez de explodir, simplesmente sumisse? Aí a história é mais lenta, e muito mais fria.", v("dark sky night")),
+        ("Depois dos oito minutos, a Terra sairia em linha reta pelo espaço, como uma pedra que escapa de um estilingue.", a("🌍", "Sem a gravidade do Sol, a Terra segue em linha reta")),
+        ("A temperatura despencaria: em cerca de uma semana, a média do planeta já estaria abaixo de zero.", v("frozen landscape snow")),
+        ("Em um ano, passaria de setenta graus negativos. As plantas morreriam sem luz, e os oceanos congelariam por cima.", v("frozen lake ice")),
+        ("Só ia sobrar vida perto das fontes quentes do fundo do mar, onde o calor vem de dentro da Terra, e não do Sol.", v("deep sea hydrothermal vent")),
+    ]),
+    ("O que vai acontecer de verdade", [
+        ("Agora, o que vai acontecer de verdade. O Sol tem uns quatro bilhões e seiscentos milhões de anos. Ele está mais ou menos na metade da vida.", v("sun space")),
+        ("Ele fica um pouquinho mais forte com o tempo. Daqui a um bilhão de anos, vai brilhar uns dez por cento mais, o suficiente para secar os oceanos da Terra.", v("dry cracked earth")),
+        ("Daqui a uns cinco bilhões de anos, o hidrogênio do centro acaba. O Sol incha e vira uma gigante vermelha, centenas de vezes maior.", a("🔴", "O Sol vira uma gigante vermelha")),
+        ("Ele vai engolir Mercúrio e Vênus. A Terra talvez escape por pouco, mas vai virar uma pedra torrada.", v("mercury planet")),
+        ("Depois, ele solta as camadas de fora no espaço, formando uma nuvem colorida chamada nebulosa planetária.", v("nebula space")),
+        ("O que sobra é o centro: uma anã branca, do tamanho da Terra e tão densa que uma colher de chá dela pesaria toneladas.", a("⚪", "Uma colher de anã branca pesaria toneladas")),
+        ("Ela vai esfriar devagar por bilhões e bilhões de anos. Sem explosão nenhuma.", v("stars night sky")),
+    ]),
+    ("Explosões de verdade", [
+        ("Mas supernovas de verdade acontecem, e a humanidade já viu algumas.", v("milky way night")),
+        ("Em mil e cinquenta e quatro, astrônomos chineses anotaram uma estrela nova tão brilhante que dava para ver de dia, por vinte e três dias.", v("ancient chinese astronomy")),
+        ("O que sobrou dela está lá até hoje: a Nebulosa do Caranguejo, ainda se espalhando pelo espaço.", v("nebula")),
+        ("Em mil novecentos e oitenta e sete, uma estrela explodiu numa galáxia vizinha. Detectores no Japão captaram as partículas da explosão horas antes da luz chegar.", v("telescope observatory night")),
+        ("E existe uma candidata famosa: Betelgeuse, a estrela avermelhada do ombro de Órion. Em dois mil e dezenove, o brilho dela caiu de repente, e muita gente achou que ia explodir.", v("orion constellation")),
+        ("Era uma nuvem de poeira que ela mesma soltou. Mas um dia ela vai explodir, pode ser amanhã ou daqui a cem mil anos.", v("red star space")),
+        ("Quando isso acontecer, ela vai brilhar quase como a Lua cheia e vai dar para ver até de dia. E nós estaremos seguros.", v("full moon night sky")),
+    ]),
+    ("Por que estamos seguros", [
+        ("Para uma supernova fazer mal à Terra, ela teria que estar a menos de uns cinquenta anos-luz daqui.", a("🛡️", "Perigo só a menos de uns 50 anos-luz")),
+        ("Betelgeuse fica a mais de quinhentos anos-luz. E não existe nenhuma estrela grande o bastante para explodir tão perto de nós.", v("stars space")),
+        ("Além disso, a Terra tem um escudo: a atmosfera e o campo magnético, que barram boa parte da radiação que vem do espaço.", v("aurora borealis")),
+    ]),
+    ("Somos poeira de estrela", [
+        ("E tem uma parte bonita nessa história. Os átomos do seu corpo vieram das estrelas.", v("starry sky person")),
+        ("O cálcio dos seus ossos e o ferro do seu sangue foram feitos dentro de estrelas, há bilhões de anos, e espalhados pelo espaço quando elas morreram.", v("blood cells")),
+        ("Sem estrelas explodindo, não existiria a Terra, nem você.", v("earth from space")),
+    ]),
+    ("Final", [
+        ("Então pode ficar tranquilo: o Sol não vai explodir. Ele vai inchar, encolher e apagar devagar, daqui a bilhões de anos.", v("sunset sky", 3)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual outro e se você quer ver aqui?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "SolExplodir": {
+        5: dict(foto="Sol_fil", legenda="O Sol visto pelo satélite SDO da NASA"),
+        6: dict(foto="Sol_sdo", legenda="O Sol em luz ultravioleta (NASA/SDO)"),
+        24: dict(foto="Sol_vent", legenda="Fonte hidrotermal no fundo do oceano (MARUM)"),
+        28: dict(foto="Sol_merc", legenda="Mercúrio fotografado pela sonda MESSENGER (NASA)"),
+        29: dict(foto="Sol_helix", legenda="Nebulosa da Hélice: o que sobra de uma estrela como o Sol (Hubble)"),
+        33: dict(anim={"emoji": "📜", "texto": "1054: uma estrela visível de dia por 23 dias"}),
+        34: dict(foto="Sol_crab", legenda="Nebulosa do Caranguejo, os restos da supernova de 1054 (Hubble)"),
+        35: dict(foto="Sol_1987a", legenda="Supernova 1987A, na Grande Nuvem de Magalhães (Hubble)"),
+        36: dict(foto="Sol_betel", legenda="Betelgeuse antes, durante e depois do Grande Escurecimento (ESO)"),
+        43: dict(foto="Ri_sangue", legenda="Células do sangue vistas no microscópio eletrônico"),
+    },
     "ElNino": {
         0: dict(foto="En_cop26", legenda="A mancha quente no Pacífico em agosto de 2026 (Copernicus)"),
         4: dict(foto="En_ssta26", legenda="Pacífico em outubro de 2026 (em cima) e 2025 (embaixo): vermelho é água mais quente que o normal (NASA)"),

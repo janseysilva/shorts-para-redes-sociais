@@ -146,10 +146,16 @@ import rApagao from "../roteiros/Apagao.json";
 import tApagao from "../public/Apagao/tempos.json";
 import rElNino from "../roteiros/ElNino.json";
 import tElNino from "../public/ElNino/tempos.json";
+import rSolExplodir from "../roteiros/SolExplodir.json";
+import tSolExplodir from "../public/SolExplodir/tempos.json";
 import rElNinoNome from "../roteiros/ElNinoNome.json";
 import tElNinoNome from "../public/ElNinoNome/tempos.json";
 import rOrionidas from "../roteiros/Orionidas.json";
 import tOrionidas from "../public/Orionidas/tempos.json";
+import rTsunamiRecua from "../roteiros/TsunamiRecua.json";
+import tTsunamiRecua from "../public/TsunamiRecua/tempos.json";
+import rCidadeAlta from "../roteiros/CidadeAlta.json";
+import tCidadeAlta from "../public/CidadeAlta/tempos.json";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
 import rOymyakon from "../roteiros/Oymyakon.json";
@@ -180,7 +186,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -194,6 +200,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rMultigerador as RoteiroLongo, tMultigerador, ["ENERGIA INFINITA?", "O Multigerador Quântico explicado"], "Multigerador_15"],
   [rApagao as RoteiroLongo, tApagao, ["SEM ENERGIA", "E se o Brasil apagasse por 3 dias?"], "Apagao_49"],
   [rElNino as RoteiroLongo, tElNino, ["SUPER EL NIÑO", "O monstro do Pacífico chegando ao Brasil"], "ElNino_48"],
+  [rSolExplodir as RoteiroLongo, tSolExplodir, ["E SE O SOL EXPLODISSE?", "O que a física diz que aconteceria"], "SolExplodir_45"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

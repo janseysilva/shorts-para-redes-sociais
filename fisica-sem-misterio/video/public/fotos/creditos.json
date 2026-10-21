@@ -964,5 +964,125 @@
   "autor": "ESO/P. Horalek",
   "licenca": "CC BY 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Meteor_shower_in_the_Chilean_Desert_(potw2227a).jpg"
+ },
+ "Ts_recua": {
+  "arquivo": "KataNoiReceding.jpg",
+  "autor": "",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:KataNoiReceding.jpg"
+ },
+ "Ts_onda2": {
+  "arquivo": "2ndTsunamiWave.jpg",
+  "autor": "The original uploader was Per Honor et Gloria at English Wikipedia.",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2ndTsunamiWave.jpg"
+ },
+ "Ts_alto": {
+  "arquivo": "KataNoiHighest.jpg",
+  "autor": "",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:KataNoiHighest.jpg"
+ },
+ "Ts_aonang": {
+  "arquivo": "2004-tsunami.jpg",
+  "autor": "David Rydevik (email: david.rydevikgmail.com), Stockholm, Sweden.",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:2004-tsunami.jpg"
+ },
+ "Ts_placa": {
+  "arquivo": "Tsunami warning signs Ao Nang.jpg",
+  "autor": "kallerna",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Tsunami_warning_signs_Ao_Nang.jpg"
+ },
+ "Ri_cidade": {
+  "arquivo": "La Rinconada Peru.jpg",
+  "autor": "Hildegard Willer",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:La_Rinconada_Peru.jpg"
+ },
+ "Ri_puno": {
+  "arquivo": "Rinconadapuno.JPG",
+  "autor": "yo",
+  "licenca": "CC0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Rinconadapuno.JPG"
+ },
+ "Ri_sat": {
+  "arquivo": "La Rinconada in Perú, the highest city on earth (Copernicus 2024-02-11).jpg",
+  "autor": "European Union, Copernicus Sentinel-2 imagery",
+  "licenca": "Attribution",
+  "pagina": "https://commons.wikimedia.org/wiki/File:La_Rinconada_in_Per%C3%BA,_the_highest_city_on_earth_(Copernicus_2024-02-11).jpg"
+ },
+ "Ri_posto": {
+  "arquivo": "Puesto de salud La Rinconada.jpg",
+  "autor": "Isabel Mamani",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Puesto_de_salud_La_Rinconada.jpg"
+ },
+ "Ri_sangue": {
+  "arquivo": "SEM blood cells.jpg",
+  "autor": "Bruce Wetzel (photographer). Harry Schaefer (photographer)",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:SEM_blood_cells.jpg"
+ },
+ "Sol_tam": {
+  "arquivo": "Planets and sun size comparison.jpg",
+  "autor": "Lsmpascal",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Planets_and_sun_size_comparison.jpg"
+ },
+ "Sol_fil": {
+  "arquivo": "SDO AIA Full-Disk View of Launching Filament (4540790187).jpg",
+  "autor": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:SDO_AIA_Full-Disk_View_of_Launching_Filament_(4540790187).jpg"
+ },
+ "Sol_sdo": {
+  "arquivo": "Full disk view of the sun June 21, 2010 (4721839258).jpg",
+  "autor": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Full_disk_view_of_the_sun_June_21,_2010_(4721839258).jpg"
+ },
+ "Sol_vent": {
+  "arquivo": "MARUM Schwarzer Raucher.jpg",
+  "autor": "MARUM − Zentrum für Marine Umweltwissenschaften, Universität Bremen",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:MARUM_Schwarzer_Raucher.jpg"
+ },
+ "Sol_helix": {
+  "arquivo": "NGC7293 (2004).jpg",
+  "autor": "NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:NGC7293_(2004).jpg"
+ },
+ "Sol_crab": {
+  "arquivo": "Crab Nebula.jpg",
+  "autor": "NASA, ESA, J. Hester and A. Loll (Arizona State University)",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Crab_Nebula.jpg"
+ },
+ "Sol_1987a": {
+  "arquivo": "SN 1987A HST.jpg",
+  "autor": "ESA/Hubble &amp; NASA",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:SN_1987A_HST.jpg"
+ },
+ "Sol_betel": {
+  "arquivo": "Betelgeuse’s Great Dimming Event in high resolution (potw2343a).jpg",
+  "autor": "ESO/J. Drevon et al.",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Betelgeuse%E2%80%99s_Great_Dimming_Event_in_high_resolution_(potw2343a).jpg"
+ },
+ "Sol_kamioka": {
+  "arquivo": "Super Kamiokande, 1 to 135th.jpg",
+  "autor": "Motokoka",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Super_Kamiokande,_1_to_135th.jpg"
+ },
+ "Sol_merc": {
+  "arquivo": "Mercury in color - Prockter07-edit1.jpg",
+  "autor": "National Aeronautics and Space Administration/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mercury_in_color_-_Prockter07-edit1.jpg"
  }
 }

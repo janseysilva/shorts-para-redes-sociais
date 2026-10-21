@@ -792,6 +792,27 @@ short("Orionidas", "Nesta semana vão cair pedaços do COMETA HALLEY no céu ☄
     ("Para ver, olhe para o leste depois da meia-noite, perto das Três Marias, longe das luzes da cidade. E o Halley mesmo? Só volta em dois mil e sessenta e um.", "Ele volta em 2061", ["2061"], v("night sky through trees")),
 ], pergunta="Você vai tentar ver? Me conta da sua cidade aqui nos comentários 👇")
 
+# ---------- LEVA 17 (21/10): regras novas (1º segundo forte, ~35 s, tema buscado) ----------
+short("TsunamiRecua", "Por que o MAR RECUA antes do tsunami? 🌊",
+      "Quando um terremoto no fundo do oceano levanta e afunda o mar, às vezes a parte baixa da onda chega primeiro na praia: ela puxa a água para trás e deixa o fundo do mar à mostra. Minutos depois chega a crista, uma parede de água. Em 2004, uma menina inglesa de 10 anos reconheceu o sinal, que tinha aprendido na escola, e salvou cerca de 100 pessoas na Tailândia. Se o mar recuar de repente, corra para um lugar alto! #fisica #tsunami #oceano #seguranca #curiosidades",
+      "🌊", "O mar sumiu? Corra.", [
+    ("Se o mar recuar assim, de repente, não vá ver o que ficou na areia. Corra!", "Por que o mar RECUA?", ["RECUA"], {"busca": "beach low tide", "foto": "Ts_recua"}),
+    ("Um terremoto no fundo do oceano empurra a água, e às vezes a parte baixa da onda chega primeiro: ela puxa o mar para trás.", "A onda chega pelo VALE", ["VALE"], a("🌊", "O vale da onda chega primeiro e puxa o mar")),
+    ("Minutos depois, chega a crista: uma parede de água que não para de entrar.", "Minutos DEPOIS", ["DEPOIS"], {"busca": "tsunami wave", "foto": "Ts_alto"}),
+    ("Em 2004, na Tailândia, uma menina de dez anos lembrou da aula de geografia e tirou cerca de cem pessoas da praia.", "Aprendeu na ESCOLA", ["ESCOLA"], {"busca": "tsunami people running", "foto": "Ts_aonang"}),
+    ("Então guarde: se o mar sumir de repente, corra para um lugar alto. Não espere ver a onda.", "Corra para o ALTO", ["ALTO"], {"busca": "tsunami evacuation sign", "foto": "Ts_placa"}),
+], pergunta="Você sabia desse sinal? Marca aqui alguém que mora perto da praia 👇")
+
+short("CidadeAlta", "A cidade mais ALTA do mundo: 5.100 metros e quase sem ar 🏔️",
+      "La Rinconada, nos Andes do Peru, fica a cerca de 5.100 metros de altura. Lá o ar é tão rarefeito que cada respiração traz só metade do oxigênio do nível do mar, a água ferve a uns 83 °C e o feijão quase não cozinha sem panela de pressão. Mesmo assim, dezenas de milhares de pessoas vivem ali por causa de uma mina de ouro embaixo da geleira, e o corpo delas se adapta produzindo mais glóbulos vermelhos! #fisica #peru #andes #altitude #curiosidades",
+      "🏔️", "Quase sem ar.", [
+    ("Esta é a cidade mais alta do mundo: La Rinconada, no Peru, a cinco mil e cem metros de altura.", "A cidade mais ALTA do mundo", ["ALTA"], {"busca": "la rinconada peru", "foto": "Ri_cidade"}),
+    ("Lá em cima, cada respiração traz só metade do oxigênio que você respira na praia.", "METADE do oxigênio", ["METADE"], v("hiker breathing cold mountain")),
+    ("E mesmo assim dezenas de milhares de pessoas vivem ali, por causa de uma mina de ouro embaixo da geleira.", "Uma mina de OURO", ["OURO"], {"busca": "la rinconada glacier", "foto": "Ri_puno"}),
+    ("Com o ar tão fraco, a água ferve a uns oitenta e três graus. Sem panela de pressão, o feijão quase não cozinha.", "Ferve a 83 °C", ["83"], a("♨️", "Menos ar em cima, a água ferve mais cedo")),
+    ("E o corpo se adapta: o sangue de quem vive lá tem mais glóbulos vermelhos, para pegar o pouco oxigênio que existe.", "O SANGUE muda", ["SANGUE"], {"busca": "red blood cells", "foto": "Ri_sangue"}),
+], pergunta="Você moraria a 5.100 metros por causa de ouro? Conta aqui 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

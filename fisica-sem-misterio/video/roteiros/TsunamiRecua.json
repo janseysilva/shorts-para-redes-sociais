@@ -1,0 +1,62 @@
+{
+ "id": "TsunamiRecua",
+ "titulo": "Por que o MAR RECUA antes do tsunami? 🌊",
+ "legenda": "Quando um terremoto no fundo do oceano levanta e afunda o mar, às vezes a parte baixa da onda chega primeiro na praia: ela puxa a água para trás e deixa o fundo do mar à mostra. Minutos depois chega a crista, uma parede de água. Em 2004, uma menina inglesa de 10 anos reconheceu o sinal, que tinha aprendido na escola, e salvou cerca de 100 pessoas na Tailândia. Se o mar recuar de repente, corra para um lugar alto! #fisica #tsunami #oceano #seguranca #curiosidades",
+ "final": {
+  "emoji": "🌊",
+  "frase": "O mar sumiu? Corra."
+ },
+ "pergunta": "Você sabia desse sinal? Marca aqui alguém que mora perto da praia 👇",
+ "frases": [
+  "Se o mar recuar assim, de repente, não vá ver o que ficou na areia. Corra!",
+  "Um terremoto no fundo do oceano empurra a água, e às vezes a parte baixa da onda chega primeiro: ela puxa o mar para trás.",
+  "Minutos depois, chega a crista: uma parede de água que não para de entrar.",
+  "Em 2004, na Tailândia, uma menina de dez anos lembrou da aula de geografia e tirou cerca de cem pessoas da praia.",
+  "Então guarde: se o mar sumir de repente, corra para um lugar alto. Não espere ver a onda.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o mar RECUA?",
+   "destaque": [
+    "RECUA"
+   ],
+   "busca": "beach low tide",
+   "foto": "Ts_recua"
+  },
+  {
+   "gancho": "A onda chega pelo VALE",
+   "destaque": [
+    "VALE"
+   ],
+   "anim": {
+    "emoji": "🌊",
+    "texto": "O vale da onda chega primeiro e puxa o mar"
+   }
+  },
+  {
+   "gancho": "Minutos DEPOIS",
+   "destaque": [
+    "DEPOIS"
+   ],
+   "busca": "tsunami wave",
+   "foto": "Ts_alto"
+  },
+  {
+   "gancho": "Aprendeu na ESCOLA",
+   "destaque": [
+    "ESCOLA"
+   ],
+   "busca": "tsunami people running",
+   "foto": "Ts_aonang"
+  },
+  {
+   "gancho": "Corra para o ALTO",
+   "destaque": [
+    "ALTO"
+   ],
+   "busca": "tsunami evacuation sign",
+   "foto": "Ts_placa"
+  }
+ ]
+}

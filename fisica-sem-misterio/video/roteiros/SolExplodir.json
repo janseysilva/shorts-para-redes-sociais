@@ -1,0 +1,411 @@
+{
+ "id": "SolExplodir",
+ "longo": true,
+ "titulo": "O que aconteceria se o SOL EXPLODISSE? ☀️💥 (e o que vai acontecer de verdade)",
+ "descricao": "O que aconteceria com a Terra se o Sol explodisse agora: os 8 minutos de atraso da luz, a onda de choque hora a hora e o que aconteceria se ele simplesmente sumisse. Depois, a física de verdade: por que o Sol não tem massa para explodir, como ele vai virar uma gigante vermelha e uma anã branca, as supernovas reais de 1054 e 1987, a estrela Betelgeuse e por que o ferro do seu sangue veio de estrelas que explodiram.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Se o Sol explodisse agora, neste exato segundo, você não ia perceber nada. O céu ia continuar azul, e o dia, normal.",
+     "busca": "sun sky clouds",
+     "desde": 0,
+     "clipe": "SolExplodir_0"
+    },
+    {
+     "frase": "Por oito minutos e vinte segundos, tudo ia parecer tranquilo. Depois disso, a Terra teria poucas horas.",
+     "busca": "sunrise earth from space",
+     "desde": 0,
+     "clipe": "SolExplodir_1"
+    },
+    {
+     "frase": "Neste vídeo você vai ver o que aconteceria, minuto a minuto, e o que a física diz que vai acontecer com o Sol de verdade.",
+     "busca": "solar flare sun surface",
+     "desde": 0,
+     "clipe": "SolExplodir_2"
+    }
+   ]
+  },
+  {
+   "titulo": "O que é o Sol",
+   "cenas": [
+    {
+     "frase": "O Sol é uma estrela comum, mas gigante para nós: dentro dele caberiam mais de um milhão de Terras.",
+     "busca": "sun close up",
+     "desde": 0,
+     "clipe": "SolExplodir_3"
+    },
+    {
+     "frase": "Ele guarda quase toda a massa do Sistema Solar: noventa e nove vírgula oito por cento. Todos os planetas juntos são o resto.",
+     "anim": {
+      "emoji": "☀️",
+      "texto": "99,8% da massa do Sistema Solar"
+     }
+    },
+    {
+     "frase": "No centro, a temperatura passa de quinze milhões de graus, e a pressão é tão grande que os átomos de hidrogênio se fundem e viram hélio.",
+     "busca": "plasma energy glow",
+     "desde": 0,
+     "foto": "Sol_fil",
+     "legenda": "O Sol visto pelo satélite SDO da NASA"
+    },
+    {
+     "frase": "Essa fusão solta uma energia imensa. A cada segundo, o Sol transforma cerca de seiscentos milhões de toneladas de hidrogênio.",
+     "busca": "sun surface plasma",
+     "desde": 0,
+     "foto": "Sol_sdo",
+     "legenda": "O Sol em luz ultravioleta (NASA/SDO)"
+    },
+    {
+     "frase": "E a energia que sai do centro leva milhares de anos para chegar à superfície. A luz que esquenta você hoje começou a viagem antes das pirâmides.",
+     "busca": "sunlight through trees",
+     "desde": 0,
+     "clipe": "SolExplodir_7"
+    }
+   ]
+  },
+  {
+   "titulo": "Os oito minutos de atraso",
+   "cenas": [
+    {
+     "frase": "A luz do Sol viaja a trezentos mil quilômetros por segundo. Mesmo assim, demora oito minutos e vinte segundos para chegar até aqui.",
+     "busca": "sunbeams clouds",
+     "desde": 0,
+     "clipe": "SolExplodir_8"
+    },
+    {
+     "frase": "Isso quer dizer que você nunca vê o Sol como ele é agora, e sim como ele era oito minutos atrás.",
+     "busca": "sunset ocean horizon",
+     "desde": 0,
+     "clipe": "SolExplodir_9"
+    },
+    {
+     "frase": "E não é só a luz. Até a gravidade do Sol, que segura a Terra em órbita, leva esses mesmos oito minutos para chegar.",
+     "anim": {
+      "emoji": "🌍",
+      "texto": "A gravidade também viaja na velocidade da luz"
+     }
+    },
+    {
+     "frase": "Então, se o Sol explodisse, a Terra ia continuar girando em volta de um Sol que já não existe, sem saber de nada.",
+     "busca": "earth orbit space",
+     "desde": 0,
+     "clipe": "SolExplodir_11"
+    }
+   ]
+  },
+  {
+   "titulo": "O Sol pode explodir?",
+   "cenas": [
+    {
+     "frase": "Agora a boa notícia: o Sol não tem como explodir. Para uma estrela explodir, ela precisa de muita massa.",
+     "busca": "stars night sky timelapse",
+     "desde": 0,
+     "clipe": "SolExplodir_12"
+    },
+    {
+     "frase": "Só as estrelas com mais de oito vezes a massa do Sol terminam numa explosão chamada supernova.",
+     "busca": "galaxy stars space",
+     "desde": 0,
+     "clipe": "SolExplodir_13"
+    },
+    {
+     "frase": "No fim da vida, o centro dessas gigantes não aguenta o próprio peso e desaba em menos de um segundo. O resto da estrela é arremessado no espaço.",
+     "anim": {
+      "emoji": "💥",
+      "texto": "O centro desaba e a estrela é arremessada"
+     }
+    },
+    {
+     "frase": "O Sol é pequeno demais para isso. Mas vamos imaginar que, por algum motivo, ele explodisse mesmo assim.",
+     "busca": "sun flare",
+     "desde": 0,
+     "clipe": "SolExplodir_15"
+    }
+   ]
+  },
+  {
+   "titulo": "Se ele explodisse mesmo",
+   "cenas": [
+    {
+     "frase": "Nos primeiros oito minutos, nada. Até que um clarão milhões de vezes mais forte que o Sol de sempre iluminaria metade do planeta.",
+     "busca": "bright light flash sky",
+     "desde": 0,
+     "clipe": "SolExplodir_16"
+    },
+    {
+     "frase": "O lado da Terra virado para o Sol seria queimado no mesmo instante. Rios, florestas e a superfície do mar ferveriam.",
+     "busca": "forest fire",
+     "desde": 0,
+     "clipe": "SolExplodir_17"
+    },
+    {
+     "frase": "Quem estivesse do lado da noite teria só algumas horas. A matéria da explosão viria a uns dez mil quilômetros por segundo.",
+     "busca": "night city lights",
+     "desde": 0,
+     "clipe": "SolExplodir_18"
+    },
+    {
+     "frase": "Em umas quatro horas, essa onda chegaria aqui e arrancaria a atmosfera e os oceanos. A Terra, como a conhecemos, deixaria de existir.",
+     "busca": "earth atmosphere space",
+     "desde": 0,
+     "clipe": "SolExplodir_19"
+    }
+   ]
+  },
+  {
+   "titulo": "E se ele só sumisse?",
+   "cenas": [
+    {
+     "frase": "E se o Sol, em vez de explodir, simplesmente sumisse? Aí a história é mais lenta, e muito mais fria.",
+     "busca": "dark sky night",
+     "desde": 0,
+     "clipe": "SolExplodir_20"
+    },
+    {
+     "frase": "Depois dos oito minutos, a Terra sairia em linha reta pelo espaço, como uma pedra que escapa de um estilingue.",
+     "anim": {
+      "emoji": "🌍",
+      "texto": "Sem a gravidade do Sol, a Terra segue em linha reta"
+     }
+    },
+    {
+     "frase": "A temperatura despencaria: em cerca de uma semana, a média do planeta já estaria abaixo de zero.",
+     "busca": "frozen landscape snow",
+     "desde": 0,
+     "clipe": "SolExplodir_22"
+    },
+    {
+     "frase": "Em um ano, passaria de setenta graus negativos. As plantas morreriam sem luz, e os oceanos congelariam por cima.",
+     "busca": "frozen lake ice",
+     "desde": 0,
+     "clipe": "SolExplodir_23"
+    },
+    {
+     "frase": "Só ia sobrar vida perto das fontes quentes do fundo do mar, onde o calor vem de dentro da Terra, e não do Sol.",
+     "busca": "deep sea hydrothermal vent",
+     "desde": 0,
+     "foto": "Sol_vent",
+     "legenda": "Fonte hidrotermal no fundo do oceano (MARUM)"
+    }
+   ]
+  },
+  {
+   "titulo": "O que vai acontecer de verdade",
+   "cenas": [
+    {
+     "frase": "Agora, o que vai acontecer de verdade. O Sol tem uns quatro bilhões e seiscentos milhões de anos. Ele está mais ou menos na metade da vida.",
+     "busca": "sun space",
+     "desde": 0,
+     "clipe": "SolExplodir_25"
+    },
+    {
+     "frase": "Ele fica um pouquinho mais forte com o tempo. Daqui a um bilhão de anos, vai brilhar uns dez por cento mais, o suficiente para secar os oceanos da Terra.",
+     "busca": "dry cracked earth",
+     "desde": 0,
+     "clipe": "SolExplodir_26"
+    },
+    {
+     "frase": "Daqui a uns cinco bilhões de anos, o hidrogênio do centro acaba. O Sol incha e vira uma gigante vermelha, centenas de vezes maior.",
+     "anim": {
+      "emoji": "🔴",
+      "texto": "O Sol vira uma gigante vermelha"
+     }
+    },
+    {
+     "frase": "Ele vai engolir Mercúrio e Vênus. A Terra talvez escape por pouco, mas vai virar uma pedra torrada.",
+     "busca": "mercury planet",
+     "desde": 0,
+     "foto": "Sol_merc",
+     "legenda": "Mercúrio fotografado pela sonda MESSENGER (NASA)"
+    },
+    {
+     "frase": "Depois, ele solta as camadas de fora no espaço, formando uma nuvem colorida chamada nebulosa planetária.",
+     "busca": "nebula space",
+     "desde": 0,
+     "foto": "Sol_helix",
+     "legenda": "Nebulosa da Hélice: o que sobra de uma estrela como o Sol (Hubble)"
+    },
+    {
+     "frase": "O que sobra é o centro: uma anã branca, do tamanho da Terra e tão densa que uma colher de chá dela pesaria toneladas.",
+     "anim": {
+      "emoji": "⚪",
+      "texto": "Uma colher de anã branca pesaria toneladas"
+     }
+    },
+    {
+     "frase": "Ela vai esfriar devagar por bilhões e bilhões de anos. Sem explosão nenhuma.",
+     "busca": "stars night sky",
+     "desde": 0,
+     "clipe": "SolExplodir_31"
+    }
+   ]
+  },
+  {
+   "titulo": "Explosões de verdade",
+   "cenas": [
+    {
+     "frase": "Mas supernovas de verdade acontecem, e a humanidade já viu algumas.",
+     "busca": "milky way night",
+     "desde": 0,
+     "clipe": "SolExplodir_32"
+    },
+    {
+     "frase": "Em mil e cinquenta e quatro, astrônomos chineses anotaram uma estrela nova tão brilhante que dava para ver de dia, por vinte e três dias.",
+     "busca": "ancient chinese astronomy",
+     "desde": 0,
+     "anim": {
+      "emoji": "📜",
+      "texto": "1054: uma estrela visível de dia por 23 dias"
+     }
+    },
+    {
+     "frase": "O que sobrou dela está lá até hoje: a Nebulosa do Caranguejo, ainda se espalhando pelo espaço.",
+     "busca": "nebula",
+     "desde": 0,
+     "foto": "Sol_crab",
+     "legenda": "Nebulosa do Caranguejo, os restos da supernova de 1054 (Hubble)"
+    },
+    {
+     "frase": "Em mil novecentos e oitenta e sete, uma estrela explodiu numa galáxia vizinha. Detectores no Japão captaram as partículas da explosão horas antes da luz chegar.",
+     "busca": "telescope observatory night",
+     "desde": 0,
+     "foto": "Sol_1987a",
+     "legenda": "Supernova 1987A, na Grande Nuvem de Magalhães (Hubble)"
+    },
+    {
+     "frase": "E existe uma candidata famosa: Betelgeuse, a estrela avermelhada do ombro de Órion. Em dois mil e dezenove, o brilho dela caiu de repente, e muita gente achou que ia explodir.",
+     "busca": "orion constellation",
+     "desde": 0,
+     "foto": "Sol_betel",
+     "legenda": "Betelgeuse antes, durante e depois do Grande Escurecimento (ESO)"
+    },
+    {
+     "frase": "Era uma nuvem de poeira que ela mesma soltou. Mas um dia ela vai explodir, pode ser amanhã ou daqui a cem mil anos.",
+     "busca": "red star space",
+     "desde": 0,
+     "clipe": "SolExplodir_37"
+    },
+    {
+     "frase": "Quando isso acontecer, ela vai brilhar quase como a Lua cheia e vai dar para ver até de dia. E nós estaremos seguros.",
+     "busca": "full moon night sky",
+     "desde": 0,
+     "clipe": "SolExplodir_38"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que estamos seguros",
+   "cenas": [
+    {
+     "frase": "Para uma supernova fazer mal à Terra, ela teria que estar a menos de uns cinquenta anos-luz daqui.",
+     "anim": {
+      "emoji": "🛡️",
+      "texto": "Perigo só a menos de uns 50 anos-luz"
+     }
+    },
+    {
+     "frase": "Betelgeuse fica a mais de quinhentos anos-luz. E não existe nenhuma estrela grande o bastante para explodir tão perto de nós.",
+     "busca": "stars space",
+     "desde": 0,
+     "clipe": "SolExplodir_40"
+    },
+    {
+     "frase": "Além disso, a Terra tem um escudo: a atmosfera e o campo magnético, que barram boa parte da radiação que vem do espaço.",
+     "busca": "aurora borealis",
+     "desde": 0,
+     "clipe": "SolExplodir_41"
+    }
+   ]
+  },
+  {
+   "titulo": "Somos poeira de estrela",
+   "cenas": [
+    {
+     "frase": "E tem uma parte bonita nessa história. Os átomos do seu corpo vieram das estrelas.",
+     "busca": "starry sky person",
+     "desde": 0,
+     "clipe": "SolExplodir_42"
+    },
+    {
+     "frase": "O cálcio dos seus ossos e o ferro do seu sangue foram feitos dentro de estrelas, há bilhões de anos, e espalhados pelo espaço quando elas morreram.",
+     "busca": "blood cells",
+     "desde": 0,
+     "foto": "Ri_sangue",
+     "legenda": "Células do sangue vistas no microscópio eletrônico"
+    },
+    {
+     "frase": "Sem estrelas explodindo, não existiria a Terra, nem você.",
+     "busca": "earth from space",
+     "desde": 0,
+     "clipe": "SolExplodir_44"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Então pode ficar tranquilo: o Sol não vai explodir. Ele vai inchar, encolher e apagar devagar, daqui a bilhões de anos.",
+     "busca": "sunset sky",
+     "desde": 3,
+     "clipe": "SolExplodir_45"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual outro e se você quer ver aqui?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Se o Sol explodisse agora, neste exato segundo, você não ia perceber nada. O céu ia continuar azul, e o dia, normal.",
+  "Por oito minutos e vinte segundos, tudo ia parecer tranquilo. Depois disso, a Terra teria poucas horas.",
+  "Neste vídeo você vai ver o que aconteceria, minuto a minuto, e o que a física diz que vai acontecer com o Sol de verdade.",
+  "O Sol é uma estrela comum, mas gigante para nós: dentro dele caberiam mais de um milhão de Terras.",
+  "Ele guarda quase toda a massa do Sistema Solar: noventa e nove vírgula oito por cento. Todos os planetas juntos são o resto.",
+  "No centro, a temperatura passa de quinze milhões de graus, e a pressão é tão grande que os átomos de hidrogênio se fundem e viram hélio.",
+  "Essa fusão solta uma energia imensa. A cada segundo, o Sol transforma cerca de seiscentos milhões de toneladas de hidrogênio.",
+  "E a energia que sai do centro leva milhares de anos para chegar à superfície. A luz que esquenta você hoje começou a viagem antes das pirâmides.",
+  "A luz do Sol viaja a trezentos mil quilômetros por segundo. Mesmo assim, demora oito minutos e vinte segundos para chegar até aqui.",
+  "Isso quer dizer que você nunca vê o Sol como ele é agora, e sim como ele era oito minutos atrás.",
+  "E não é só a luz. Até a gravidade do Sol, que segura a Terra em órbita, leva esses mesmos oito minutos para chegar.",
+  "Então, se o Sol explodisse, a Terra ia continuar girando em volta de um Sol que já não existe, sem saber de nada.",
+  "Agora a boa notícia: o Sol não tem como explodir. Para uma estrela explodir, ela precisa de muita massa.",
+  "Só as estrelas com mais de oito vezes a massa do Sol terminam numa explosão chamada supernova.",
+  "No fim da vida, o centro dessas gigantes não aguenta o próprio peso e desaba em menos de um segundo. O resto da estrela é arremessado no espaço.",
+  "O Sol é pequeno demais para isso. Mas vamos imaginar que, por algum motivo, ele explodisse mesmo assim.",
+  "Nos primeiros oito minutos, nada. Até que um clarão milhões de vezes mais forte que o Sol de sempre iluminaria metade do planeta.",
+  "O lado da Terra virado para o Sol seria queimado no mesmo instante. Rios, florestas e a superfície do mar ferveriam.",
+  "Quem estivesse do lado da noite teria só algumas horas. A matéria da explosão viria a uns dez mil quilômetros por segundo.",
+  "Em umas quatro horas, essa onda chegaria aqui e arrancaria a atmosfera e os oceanos. A Terra, como a conhecemos, deixaria de existir.",
+  "E se o Sol, em vez de explodir, simplesmente sumisse? Aí a história é mais lenta, e muito mais fria.",
+  "Depois dos oito minutos, a Terra sairia em linha reta pelo espaço, como uma pedra que escapa de um estilingue.",
+  "A temperatura despencaria: em cerca de uma semana, a média do planeta já estaria abaixo de zero.",
+  "Em um ano, passaria de setenta graus negativos. As plantas morreriam sem luz, e os oceanos congelariam por cima.",
+  "Só ia sobrar vida perto das fontes quentes do fundo do mar, onde o calor vem de dentro da Terra, e não do Sol.",
+  "Agora, o que vai acontecer de verdade. O Sol tem uns quatro bilhões e seiscentos milhões de anos. Ele está mais ou menos na metade da vida.",
+  "Ele fica um pouquinho mais forte com o tempo. Daqui a um bilhão de anos, vai brilhar uns dez por cento mais, o suficiente para secar os oceanos da Terra.",
+  "Daqui a uns cinco bilhões de anos, o hidrogênio do centro acaba. O Sol incha e vira uma gigante vermelha, centenas de vezes maior.",
+  "Ele vai engolir Mercúrio e Vênus. A Terra talvez escape por pouco, mas vai virar uma pedra torrada.",
+  "Depois, ele solta as camadas de fora no espaço, formando uma nuvem colorida chamada nebulosa planetária.",
+  "O que sobra é o centro: uma anã branca, do tamanho da Terra e tão densa que uma colher de chá dela pesaria toneladas.",
+  "Ela vai esfriar devagar por bilhões e bilhões de anos. Sem explosão nenhuma.",
+  "Mas supernovas de verdade acontecem, e a humanidade já viu algumas.",
+  "Em mil e cinquenta e quatro, astrônomos chineses anotaram uma estrela nova tão brilhante que dava para ver de dia, por vinte e três dias.",
+  "O que sobrou dela está lá até hoje: a Nebulosa do Caranguejo, ainda se espalhando pelo espaço.",
+  "Em mil novecentos e oitenta e sete, uma estrela explodiu numa galáxia vizinha. Detectores no Japão captaram as partículas da explosão horas antes da luz chegar.",
+  "E existe uma candidata famosa: Betelgeuse, a estrela avermelhada do ombro de Órion. Em dois mil e dezenove, o brilho dela caiu de repente, e muita gente achou que ia explodir.",
+  "Era uma nuvem de poeira que ela mesma soltou. Mas um dia ela vai explodir, pode ser amanhã ou daqui a cem mil anos.",
+  "Quando isso acontecer, ela vai brilhar quase como a Lua cheia e vai dar para ver até de dia. E nós estaremos seguros.",
+  "Para uma supernova fazer mal à Terra, ela teria que estar a menos de uns cinquenta anos-luz daqui.",
+  "Betelgeuse fica a mais de quinhentos anos-luz. E não existe nenhuma estrela grande o bastante para explodir tão perto de nós.",
+  "Além disso, a Terra tem um escudo: a atmosfera e o campo magnético, que barram boa parte da radiação que vem do espaço.",
+  "E tem uma parte bonita nessa história. Os átomos do seu corpo vieram das estrelas.",
+  "O cálcio dos seus ossos e o ferro do seu sangue foram feitos dentro de estrelas, há bilhões de anos, e espalhados pelo espaço quando elas morreram.",
+  "Sem estrelas explodindo, não existiria a Terra, nem você.",
+  "Então pode ficar tranquilo: o Sol não vai explodir. Ele vai inchar, encolher e apagar devagar, daqui a bilhões de anos.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: qual outro e se você quer ver aqui?"
+ ]
+}

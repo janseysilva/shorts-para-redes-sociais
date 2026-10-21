@@ -135,8 +135,8 @@ const Abertura: React.FC<{ grande: string; pequeno: string }> = ({ grande, peque
   return (
     <AbsoluteFill style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", opacity: a,
       background: `rgba(0,0,0,${0.35 * a})`, fontFamily: FONTE }}>
-      <div style={{ fontWeight: 900, fontSize: 170, color: "#fff", letterSpacing: 6, transform: `scale(${0.8 + 0.2 * s})`, opacity: s,
-        textShadow: "0 0 50px rgba(255,140,40,.6), 0 8px 0 rgba(0,0,0,.6)" }}>{grande}</div>
+      <div style={{ fontWeight: 900, fontSize: grande.length > 14 ? 130 : 170, color: "#fff", letterSpacing: 6, transform: `scale(${0.8 + 0.2 * s})`, opacity: s,
+        textAlign: "center", maxWidth: 1700, lineHeight: 1.1, textShadow: "0 0 50px rgba(255,140,40,.6), 0 8px 0 rgba(0,0,0,.6)" }}>{grande}</div>
       <div style={{ fontWeight: 800, fontSize: 64, color: OURO, opacity: s, textShadow: "0 4px 0 rgba(0,0,0,.7)" }}>{pequeno}</div>
     </AbsoluteFill>
   );
