@@ -8,6 +8,8 @@ Jansey publica Shorts todo dia em 3 canais da conta Google **janseysilva@gmail.c
 
 Cada pasta tem um `CLAUDE.md` com o passo a passo completo de produção e publicação. Leia o do canal antes de mexer.
 
+## ⭐ 21/10: PLANO PARA AS PRÓXIMAS LEVAS do Física (energia quântica, séries, 1º segundo dos shorts, A/B de capa, enquete, longo no Facebook) — ler a seção "PLANO PARA AS PRÓXIMAS LEVAS" em `fisica-sem-misterio/CLAUDE.md` ANTES de propor temas.
+
 ## 14/10: leva 13 (longo Multigerador + shorts TerraAneis e LugarSeco), ver `fisica-sem-misterio/CLAUDE.md`
 
 ## Situação em 12/10 (resumo rápido)
