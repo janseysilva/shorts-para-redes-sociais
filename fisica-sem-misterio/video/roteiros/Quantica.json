@@ -80,7 +80,10 @@
      "frase": "Quando ele pula de um degrau para outro, ele solta ou absorve um fóton. Esse é o salto quântico: um dos menores pulos que existem no universo.",
      "busca": "neon sign glowing",
      "desde": 0,
-     "clipe": "Quantica_9"
+     "anim": {
+      "emoji": "💡",
+      "texto": "Pulou de degrau: solta um fóton de luz"
+     }
     },
     {
      "frase": "E é por isso que cada gás brilha com uma cor só dele. O neon é vermelho alaranjado, o sódio dos postes antigos é amarelo.",

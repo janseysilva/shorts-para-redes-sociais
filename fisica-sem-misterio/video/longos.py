@@ -909,6 +909,7 @@ VIS = {
     "Quantica": {
         3: dict(foto="Qt_planck", legenda="Max Planck, que criou a ideia dos pacotes de energia em 1900"),
         6: dict(foto="Qt_einstein", legenda="Albert Einstein em 1921, ano do seu prêmio Nobel"),
+        9: dict(anim={"emoji": "💡", "texto": "Pulou de degrau: solta um fóton de luz"}),
         10: dict(foto="Qt_neon", legenda="Tubo de gás neon: cada salto quântico solta luz dessa cor"),
         15: dict(foto="Sol_sdo", legenda="O Sol: sem o efeito túnel, ele não brilharia (NASA/SDO)"),
         12: dict(foto="Qt_fendas", legenda="Experimento real: elétrons chegando um a um formam listras (Tonomura)"),
