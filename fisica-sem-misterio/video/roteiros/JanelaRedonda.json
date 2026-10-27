@@ -1,0 +1,60 @@
+{
+ "id": "JanelaRedonda",
+ "titulo": "Por que a janela do avião é REDONDA? ✈️🪟 | Perguntas de passageiro #4",
+ "legenda": "Não é estilo. O primeiro jato de passageiros do mundo, o Comet, de 1952, tinha janelas quase quadradas. Em 1954, dois Comet se partiram no ar. Os engenheiros colocaram um Comet dentro de um tanque de água e encheram e esvaziaram a cabine milhares de vezes, até a fuselagem rachar a partir do canto de uma abertura. No canto reto, a força da pressão se concentra num ponto só e o metal vai rachando aos poucos; na curva, ela se espalha. Desde então, toda janela de avião tem os cantos arredondados! #fisica #aviao #aviacao #historia #curiosidades",
+ "final": {
+  "emoji": "✈️",
+  "frase": "A curva espalha a força."
+ },
+ "pergunta": "Qual a próxima dúvida de avião que eu respondo? 👇",
+ "frases": [
+  "Repara: a janela do avião é sempre redonda. Não é estilo. É porque aviões já se partiram no ar por causa de janelas quadradas.",
+  "Em mil novecentos e cinquenta e dois, nasceu o primeiro jato de passageiros do mundo: o Comet, da Inglaterra.",
+  "E ele tinha janelas quase quadradas. Em mil novecentos e cinquenta e quatro, dois Comet se partiram em pleno voo.",
+  "Para descobrir o porquê, os engenheiros colocaram um Comet num tanque de água e encheram e esvaziaram a cabine milhares de vezes. Até ela rachar no canto de uma abertura.",
+  "No canto reto, a força da pressão se concentra num ponto só, e o metal vai rachando a cada voo. Na curva, ela se espalha. Desde então, toda janela de avião é arredondada.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que a janela é REDONDA?",
+   "destaque": [
+    "REDONDA"
+   ],
+   "busca": "airplane window",
+   "foto": "Jr_janela"
+  },
+  {
+   "gancho": "O primeiro JATO de passageiros",
+   "destaque": [
+    "JATO"
+   ],
+   "busca": "comet",
+   "foto": "Jr_comet"
+  },
+  {
+   "gancho": "Janelas QUADRADAS",
+   "destaque": [
+    "QUADRADAS"
+   ],
+   "busca": "comet",
+   "foto": "Jr_quadradas"
+  },
+  {
+   "gancho": "Rachou no CANTO",
+   "destaque": [
+    "CANTO"
+   ],
+   "busca": "comet",
+   "foto": "Jr_tanque"
+  },
+  {
+   "gancho": "A curva ESPALHA a força",
+   "destaque": [
+    "ESPALHA"
+   ],
+   "busca": "comet",
+   "foto": "Jr_fadigac"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "GatoEmPe",
+ "titulo": "Por que o GATO sempre cai EM PÉ? 🐱 A física explica",
+ "legenda": "Um corpo solto no ar, sem nada para empurrar, não consegue começar a girar sozinho: é a conservação do momento angular. O gato engana a regra dobrando a coluna: gira a frente do corpo para um lado e a traseira para o outro, encolhendo e esticando as patas para que um lado gire mais que o outro. Em menos de meio segundo ele está virado. Em 1894, o cientista francês Étienne-Jules Marey fotografou um gato caindo, quadro a quadro, para entender o truque! #fisica #gato #gatos #curiosidades #ciencia",
+ "final": {
+  "emoji": "🐱",
+  "frase": "Gira metade de cada vez."
+ },
+ "pergunta": "Seu gato já caiu de algum lugar alto? 👇",
+ "frases": [
+  "Solte um gato de costas e ele cai de pé. Só que, pela física, isso parecia impossível.",
+  "Em mil oitocentos e noventa e quatro, um cientista francês fotografou um gato caindo, quadro a quadro, para descobrir o truque.",
+  "O problema é que um corpo solto no ar, sem nada para empurrar, não consegue começar a girar sozinho. É a conservação do momento angular.",
+  "O gato engana a regra: ele dobra a coluna e gira a frente do corpo para um lado e a traseira para o outro, encolhendo e esticando as patas.",
+  "Em menos de meio segundo, ele está virado e pronto para pousar, com as patas flexionadas para amortecer o tranco. Mas não teste isso em casa!",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o gato cai EM PÉ?",
+   "destaque": [
+    "EM PÉ"
+   ],
+   "busca": "cat jumping"
+  },
+  {
+   "gancho": "Fotografado em 1894",
+   "destaque": [
+    "1894"
+   ],
+   "busca": "falling cat",
+   "foto": "Gt_marey"
+  },
+  {
+   "gancho": "Ninguém gira no AR",
+   "destaque": [
+    "AR"
+   ],
+   "anim": {
+    "emoji": "🌀",
+    "texto": "Sem apoio, não dá para começar a girar"
+   }
+  },
+  {
+   "gancho": "Gira METADE de cada vez",
+   "destaque": [
+    "METADE"
+   ],
+   "busca": "cat slow motion"
+  },
+  {
+   "gancho": "Em MEIO segundo",
+   "destaque": [
+    "MEIO"
+   ],
+   "busca": "cat landing"
+  }
+ ]
+}

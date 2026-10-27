@@ -168,6 +168,12 @@ import rFogosQuantica from "../roteiros/FogosQuantica.json";
 import tFogosQuantica from "../public/FogosQuantica/tempos.json";
 import rPedrasAndam from "../roteiros/PedrasAndam.json";
 import tPedrasAndam from "../public/PedrasAndam/tempos.json";
+import rJanelaRedonda from "../roteiros/JanelaRedonda.json";
+import tJanelaRedonda from "../public/JanelaRedonda/tempos.json";
+import rGatoEmPe from "../roteiros/GatoEmPe.json";
+import tGatoEmPe from "../public/GatoEmPe/tempos.json";
+import rGatoEmPeIA from "../roteiros/GatoEmPeIA.json";
+import tGatoEmPeIA from "../public/GatoEmPeIA/tempos.json";
 import rAviaoPassageiro from "../roteiros/AviaoPassageiro.json";
 import tAviaoPassageiro from "../public/AviaoPassageiro/tempos.json";
 import rQuantica from "../roteiros/Quantica.json";
@@ -202,7 +208,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.

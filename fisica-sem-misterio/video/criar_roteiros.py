@@ -875,6 +875,28 @@ short("PedrasAndam", "As PEDRAS QUE ANDAM sozinhas no deserto 🪨 | Mistérios 
     ("De manhã, o gelo racha e um vento fraco empurra as placas, que empurram as pedras, devagarinho. O mistério era gelo.", "O vento empurra o GELO", ["VENTO"], {"busca": "desert", "foto": "Pd_trilha"}),
 ], pergunta="Você já tinha ouvido falar dessas pedras? 👇")
 
+# ---------- LEVA 20 (27/10, semana autônoma): Perguntas de passageiro #4 ----------
+short("JanelaRedonda", "Por que a janela do avião é REDONDA? ✈️🪟 | Perguntas de passageiro #4",
+      "Não é estilo. O primeiro jato de passageiros do mundo, o Comet, de 1952, tinha janelas quase quadradas. Em 1954, dois Comet se partiram no ar. Os engenheiros colocaram um Comet dentro de um tanque de água e encheram e esvaziaram a cabine milhares de vezes, até a fuselagem rachar a partir do canto de uma abertura. No canto reto, a força da pressão se concentra num ponto só e o metal vai rachando aos poucos; na curva, ela se espalha. Desde então, toda janela de avião tem os cantos arredondados! #fisica #aviao #aviacao #historia #curiosidades",
+      "✈️", "A curva espalha a força.", [
+    ("Repara: a janela do avião é sempre redonda. Não é estilo. É porque aviões já se partiram no ar por causa de janelas quadradas.", "Por que a janela é REDONDA?", ["REDONDA"], {"busca": "airplane window", "foto": "Jr_janela"}),
+    ("Em mil novecentos e cinquenta e dois, nasceu o primeiro jato de passageiros do mundo: o Comet, da Inglaterra.", "O primeiro JATO de passageiros", ["JATO"], {"busca": "comet", "foto": "Jr_comet"}),
+    ("E ele tinha janelas quase quadradas. Em mil novecentos e cinquenta e quatro, dois Comet se partiram em pleno voo.", "Janelas QUADRADAS", ["QUADRADAS"], {"busca": "comet", "foto": "Jr_quadradas"}),
+    ("Para descobrir o porquê, os engenheiros colocaram um Comet num tanque de água e encheram e esvaziaram a cabine milhares de vezes. Até ela rachar no canto de uma abertura.", "Rachou no CANTO", ["CANTO"], {"busca": "comet", "foto": "Jr_tanque"}),
+    ("No canto reto, a força da pressão se concentra num ponto só, e o metal vai rachando a cada voo. Na curva, ela se espalha. Desde então, toda janela de avião é arredondada.", "A curva ESPALHA a força", ["ESPALHA"], {"busca": "comet", "foto": "Jr_fadigac"}),
+], pergunta="Qual a próxima dúvida de avião que eu respondo? 👇")
+
+# ---------- LEVA 21 (27/10): curiosidade geral (Jansey: "o canal é para curiosidades em geral") ----------
+short("GatoEmPe", "Por que o GATO sempre cai EM PÉ? 🐱 A física explica",
+      "Um corpo solto no ar, sem nada para empurrar, não consegue começar a girar sozinho: é a conservação do momento angular. O gato engana a regra dobrando a coluna: gira a frente do corpo para um lado e a traseira para o outro, encolhendo e esticando as patas para que um lado gire mais que o outro. Em menos de meio segundo ele está virado. Em 1894, o cientista francês Étienne-Jules Marey fotografou um gato caindo, quadro a quadro, para entender o truque! #fisica #gato #gatos #curiosidades #ciencia",
+      "🐱", "Gira metade de cada vez.", [
+    ("Solte um gato de costas e ele cai de pé. Só que, pela física, isso parecia impossível.", "Por que o gato cai EM PÉ?", ["EM PÉ"], v("cat jumping")),
+    ("Em mil oitocentos e noventa e quatro, um cientista francês fotografou um gato caindo, quadro a quadro, para descobrir o truque.", "Fotografado em 1894", ["1894"], {"busca": "falling cat", "foto": "Gt_marey"}),
+    ("O problema é que um corpo solto no ar, sem nada para empurrar, não consegue começar a girar sozinho. É a conservação do momento angular.", "Ninguém gira no AR", ["AR"], a("🌀", "Sem apoio, não dá para começar a girar")),
+    ("O gato engana a regra: ele dobra a coluna e gira a frente do corpo para um lado e a traseira para o outro, encolhendo e esticando as patas.", "Gira METADE de cada vez", ["METADE"], v("cat slow motion")),
+    ("Em menos de meio segundo, ele está virado e pronto para pousar, com as patas flexionadas para amortecer o tranco. Mas não teste isso em casa!", "Em MEIO segundo", ["MEIO"], v("cat landing")),
+], pergunta="Seu gato já caiu de algum lugar alto? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")
