@@ -45,12 +45,12 @@ async def main(roteiro):
             t += PAUSA_CAP
         caps.append({"titulo": cap["titulo"], "ini": round(t, 3)})
         for c in cap["cenas"]:
-            for tentativa in range(3):
+            for tentativa in range(8):  # a rede da SEMED às vezes cai no meio
                 try:
                     audio, pal = await cena(c["frase"]); break
                 except Exception:
-                    if tentativa == 2: raise
-                    await asyncio.sleep(3)
+                    if tentativa == 7: raise
+                    await asyncio.sleep(5)
             arq = tmp / f"{n:03d}.mp3"; arq.write_bytes(audio)
             d = duracao(arq)
             cenas.append(round(t, 3))

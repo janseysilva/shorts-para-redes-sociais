@@ -1,0 +1,431 @@
+{
+ "id": "Radar",
+ "longo": true,
+ "titulo": "RADAR: a arma secreta que derrotou HITLER no céu 📡 (e virou o seu micro-ondas)",
+ "descricao": "Em 1940, a Alemanha tinha cerca de 2.500 aviões para atacar a Inglaterra, e os ingleses uns 700 caças. Neste vídeo, a história real do radar: o pedido de um \"raio da morte\" em 1935, o teste secreto com uma van no campo, como uma onda invisível enxerga um avião, as torres da Chain Home, a Batalha da Inglaterra, a mentira das cenouras, o magnetron que mudou a guerra e o chocolate derretido que deu origem ao forno de micro-ondas.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Verão de mil novecentos e quarenta. Hitler já tinha tomado quase toda a Europa. Agora, ele queria a Inglaterra.",
+     "busca": "ww2 airplanes",
+     "desde": 0,
+     "clipe": "Radar_0"
+    },
+    {
+     "frase": "A força aérea alemã tinha cerca de dois mil e quinhentos aviões. Os ingleses tinham uns setecentos caças para defender o país inteiro.",
+     "busca": "vintage fighter plane",
+     "desde": 0,
+     "clipe": "Radar_1"
+    },
+    {
+     "frase": "Mesmo assim, os alemães não conseguiram dominar o céu. Por trás disso, havia uma invenção secreta, feita de ondas invisíveis: o radar.",
+     "busca": "radar antenna rotating",
+     "desde": 0,
+     "clipe": "Radar_2"
+    },
+    {
+     "frase": "Neste vídeo: como o radar nasceu de um pedido estranho, como ele ajudou a vencer a Batalha da Inglaterra, a mentira das cenouras, e como ele virou o micro-ondas da sua cozinha.",
+     "busca": "microwave oven kitchen",
+     "desde": 0,
+     "clipe": "Radar_3"
+    }
+   ]
+  },
+  {
+   "titulo": "Um pedido estranho",
+   "cenas": [
+    {
+     "frase": "Tudo começou em mil novecentos e trinta e cinco, com um pedido do governo inglês que parece coisa de filme.",
+     "busca": "old radio equipment",
+     "desde": 0,
+     "clipe": "Radar_4"
+    },
+    {
+     "frase": "Os militares queriam saber se era possível criar um raio da morte: uma onda de rádio tão forte que pudesse derrubar aviões ou ferir o piloto à distância.",
+     "anim": {
+      "emoji": "☠️",
+      "texto": "O pedido: um \"raio da morte\""
+     }
+    },
+    {
+     "frase": "A pergunta foi parar com o físico escocês Robert Watson-Watt. Ele pediu ao assistente, Arnold Wilkins, para fazer as contas.",
+     "busca": "old radio",
+     "desde": 0,
+     "foto": "Rd_watson",
+     "legenda": "Robert Watson-Watt, o pai do radar"
+    },
+    {
+     "frase": "A resposta foi não. Para esquentar um piloto à distância, seria preciso uma energia gigantesca, impossível de produzir.",
+     "anim": {
+      "emoji": "🧮",
+      "texto": "As contas: impossível"
+     }
+    },
+    {
+     "frase": "Mas Wilkins percebeu outra coisa: um avião de metal reflete as ondas de rádio. Talvez não desse para derrubar o avião. Mas daria para enxergá-lo.",
+     "busca": "radio tower sky",
+     "desde": 0,
+     "clipe": "Radar_8"
+    }
+   ]
+  },
+  {
+   "titulo": "O teste secreto",
+   "cenas": [
+    {
+     "frase": "Em vinte e seis de fevereiro de mil novecentos e trinta e cinco, eles fizeram um teste secreto num campo da Inglaterra, perto da cidade de Daventry.",
+     "busca": "english countryside",
+     "desde": 0,
+     "clipe": "Radar_9"
+    },
+    {
+     "frase": "Usaram as ondas de um transmissor de rádio da BBC e montaram um receptor dentro de uma van. Um bombardeiro foi mandado voar pela região.",
+     "busca": "english countryside",
+     "desde": 0,
+     "clipe": "Radar_10",
+     "ia": true,
+     "legenda": "O teste de Daventry, 1935"
+    },
+    {
+     "frase": "Quando o avião passou, a linha verde na tela tremeu. Pela primeira vez, alguém tinha visto um avião sem olhar para ele.",
+     "busca": "english countryside",
+     "desde": 3.5,
+     "clipe": "Radar_10",
+     "ia": true,
+     "legenda": "O teste de Daventry, 1935"
+    },
+    {
+     "frase": "O resultado virou segredo de Estado. A Inglaterra começou a construir, em silêncio, uma corrente de torres ao longo de todo o litoral.",
+     "busca": "english coast cliffs",
+     "desde": 0,
+     "clipe": "Radar_12"
+    }
+   ]
+  },
+  {
+   "titulo": "Como o radar enxerga",
+   "cenas": [
+    {
+     "frase": "Mas como uma onda invisível enxerga um avião? A ideia é a mesma do eco.",
+     "busca": "mountain valley",
+     "desde": 0,
+     "clipe": "Radar_13"
+    },
+    {
+     "frase": "Quando você grita perto de uma montanha, o som bate nela e volta. Pela demora do eco, dá para saber a que distância ela está.",
+     "anim": {
+      "emoji": "🗣️",
+      "texto": "O eco volta: dá para medir a distância"
+     }
+    },
+    {
+     "frase": "O radar faz isso com ondas de rádio, que viajam na velocidade da luz: trezentos mil quilômetros por segundo.",
+     "busca": "radio waves animation",
+     "desde": 0,
+     "clipe": "Radar_15"
+    },
+    {
+     "frase": "Se o eco volta em um milésimo de segundo, o avião está a cento e cinquenta quilômetros. A onda foi e voltou nesse tempinho.",
+     "anim": {
+      "emoji": "⏱️",
+      "texto": "1 milésimo de segundo = 150 km"
+     }
+    },
+    {
+     "frase": "E pela direção de onde o eco chega, dá para saber onde o avião está e para que lado ele vai.",
+     "busca": "radar screen",
+     "desde": 0,
+     "clipe": "Radar_17"
+    },
+    {
+     "frase": "Os morcegos fazem isso há milhões de anos, só que com som. O radar é, no fundo, um morcego eletrônico.",
+     "busca": "bats flying",
+     "desde": 0,
+     "clipe": "Radar_18"
+    }
+   ]
+  },
+  {
+   "titulo": "A corrente de torres",
+   "cenas": [
+    {
+     "frase": "Em mil novecentos e trinta e nove, já existiam cerca de vinte estações de radar no litoral inglês. Era a Chain Home: a corrente do lar.",
+     "busca": "radar tower",
+     "desde": 0,
+     "foto": "Rd_poling",
+     "legenda": "Estação de radar Chain Home em Poling, Inglaterra"
+    },
+    {
+     "frase": "As torres de transmissão tinham mais de cem metros de altura, mais que um prédio de trinta andares.",
+     "busca": "radio tower",
+     "desde": 0,
+     "foto": "Rd_torre",
+     "legenda": "Torre de 1940 que ainda existe, em Stenigot"
+    },
+    {
+     "frase": "Elas enxergavam aviões a mais de cento e cinquenta quilômetros, ainda sobre o mar, muito antes de eles chegarem à costa.",
+     "busca": "english coast cliffs",
+     "desde": 0,
+     "clipe": "Radar_21"
+    },
+    {
+     "frase": "Os alemães viram as torres, mas não entenderam quão importantes elas eram. E esse erro custou caro.",
+     "busca": "vintage airplane",
+     "desde": 0,
+     "clipe": "Radar_22"
+    }
+   ]
+  },
+  {
+   "titulo": "A Batalha da Inglaterra",
+   "cenas": [
+    {
+     "frase": "Em julho de mil novecentos e quarenta começou a Batalha da Inglaterra, a primeira grande batalha da história travada só no ar.",
+     "busca": "ww2 airplanes",
+     "desde": 0,
+     "foto": "Rd_spitfire",
+     "legenda": "Caças Spitfire, 24 de julho de 1940"
+    },
+    {
+     "frase": "Sem radar, os ingleses teriam que manter caças voando o tempo todo, esperando o ataque. Combustível e pilotos acabariam em poucos dias.",
+     "busca": "vintage airplane flying",
+     "desde": 0,
+     "clipe": "Radar_24"
+    },
+    {
+     "frase": "Com o radar, os caças esperavam no chão. Só decolavam quando o ataque aparecia na tela, e já sabiam para onde ir.",
+     "busca": "propeller plane takeoff",
+     "desde": 0,
+     "foto": "Rd_corrida",
+     "legenda": "Pilotos correndo para os aviões num alarme, 1940"
+    },
+    {
+     "frase": "As informações chegavam por telefone a salas como esta, onde mulheres da força aérea anotavam cada grupo de aviões inimigos.",
+     "busca": "old telephone",
+     "desde": 0,
+     "foto": "Rd_waaf",
+     "legenda": "Sala de operações da RAF, setembro de 1940"
+    },
+    {
+     "frase": "E num mapa gigante elas moviam as peças, como num jogo de tabuleiro, mostrando aos comandantes a batalha inteira, em tempo real.",
+     "busca": "map table",
+     "desde": 0,
+     "foto": "Rd_mesa",
+     "legenda": "Mesa de controle preservada da Batalha da Inglaterra"
+    },
+    {
+     "frase": "Em agosto, os alemães até bombardearam algumas estações de radar. Mas elas voltaram a funcionar rápido, e os ataques contra elas pararam.",
+     "busca": "vintage airplane",
+     "desde": 0,
+     "clipe": "Radar_28"
+    },
+    {
+     "frase": "Em setembro, Hitler adiou para sempre a invasão da Inglaterra. Foi a primeira grande derrota dele na guerra.",
+     "busca": "spitfire",
+     "desde": 0,
+     "clipe": "Radar_29"
+    },
+    {
+     "frase": "Churchill disse a frase famosa: nunca tantos deveram tanto a tão poucos. Os poucos eram os pilotos. Mas eles não lutaram às cegas.",
+     "busca": "old airplane sky",
+     "desde": 0,
+     "foto": "Rd_churchill",
+     "legenda": "Winston Churchill"
+    }
+   ]
+  },
+  {
+   "titulo": "A mentira das cenouras",
+   "cenas": [
+    {
+     "frase": "E tem uma história curiosa. Os ingleses também colocaram radar dentro de aviões, para caçar bombardeiros no escuro da noite.",
+     "busca": "night sky stars",
+     "desde": 0,
+     "clipe": "Radar_31"
+    },
+    {
+     "frase": "Um piloto, John Cunningham, derrubou tantos aviões à noite que ganhou o apelido de Olhos de Gato.",
+     "busca": "night sky",
+     "desde": 0,
+     "foto": "Rd_cunningham",
+     "legenda": "John Cunningham, o \"Olhos de Gato\" (1941)"
+    },
+    {
+     "frase": "Para esconder o radar, o governo espalhou uma explicação: ele enxergava no escuro porque comia muita cenoura.",
+     "busca": "carrots",
+     "desde": 0,
+     "clipe": "Radar_33"
+    },
+    {
+     "frase": "A cenoura tem vitamina A, que ajuda a visão de quem tem falta dela. Mas não dá visão noturna de super-herói. É daí que vem o conselho que sua avó dava.",
+     "busca": "eating carrot",
+     "desde": 0,
+     "clipe": "Radar_34"
+    }
+   ]
+  },
+  {
+   "titulo": "A peça que mudou a guerra",
+   "cenas": [
+    {
+     "frase": "Também em mil novecentos e quarenta, dois cientistas da Universidade de Birmingham, John Randall e Harry Boot, criaram uma peça de cobre do tamanho da palma da mão.",
+     "busca": "copper metal",
+     "desde": 0,
+     "foto": "Rd_magnetron",
+     "legenda": "O magnetron original de 1940"
+    },
+    {
+     "frase": "Era o magnetron de cavidade. Ele produzia ondas bem curtinhas, de dez centímetros, e muito fortes.",
+     "busca": "electronics vintage",
+     "desde": 0,
+     "foto": "Rd_magnetron",
+     "legenda": "Magnetron de cavidade (Science Museum, Londres)"
+    },
+    {
+     "frase": "Com ondas curtas, o radar ficou pequeno o bastante para caber num avião e enxergar até o periscópio de um submarino.",
+     "busca": "submarine ocean",
+     "desde": 0,
+     "clipe": "Radar_37"
+    },
+    {
+     "frase": "Os ingleses levaram o magnetron aos Estados Unidos numa missão secreta. Um historiador americano chamou aquilo de a carga mais valiosa que já chegou ao país.",
+     "anim": {
+      "emoji": "📦",
+      "texto": "\"A carga mais valiosa\""
+     }
+    }
+   ]
+  },
+  {
+   "titulo": "Do radar ao micro-ondas",
+   "cenas": [
+    {
+     "frase": "Mas a história mais famosa do magnetron veio depois. Em mil novecentos e quarenta e cinco, o engenheiro americano Percy Spencer trabalhava perto de um radar ligado.",
+     "busca": "old laboratory",
+     "desde": 0,
+     "clipe": "Radar_39",
+     "ia": true,
+     "legenda": "Percy Spencer, 1945"
+    },
+    {
+     "frase": "Ele sentiu algo estranho, colocou a mão no bolso e viu que a barra de chocolate tinha derretido.",
+     "busca": "old laboratory",
+     "desde": 3,
+     "clipe": "Radar_39",
+     "ia": true,
+     "legenda": "Percy Spencer, 1945"
+    },
+    {
+     "frase": "Depois testou com milho de pipoca, que estourou. Tinha nascido o forno de micro-ondas.",
+     "busca": "popcorn popping",
+     "desde": 0,
+     "clipe": "Radar_41"
+    },
+    {
+     "frase": "O primeiro tinha quase dois metros de altura e pesava mais de trezentos quilos. Hoje cabe na sua cozinha, e o coração dele continua sendo um magnetron.",
+     "busca": "microwave oven",
+     "desde": 0,
+     "foto": "Rd_radarange",
+     "legenda": "Radarange, um dos primeiros micro-ondas"
+    }
+   ]
+  },
+  {
+   "titulo": "O radar hoje",
+   "cenas": [
+    {
+     "frase": "E o radar nunca mais saiu das nossas vidas. Todo avião que você pega é acompanhado por radares do começo ao fim do voo.",
+     "busca": "airport control tower",
+     "desde": 0,
+     "clipe": "Radar_43"
+    },
+    {
+     "frase": "A previsão do tempo usa radar para ver onde está chovendo agora: ele mede o eco das gotas de chuva.",
+     "busca": "rain storm clouds",
+     "desde": 0,
+     "clipe": "Radar_44"
+    },
+    {
+     "frase": "E o radar de velocidade da polícia usa outro truque: a onda que volta de um carro em movimento muda um pouquinho. Por essa mudança, ele calcula a velocidade.",
+     "busca": "highway traffic night",
+     "desde": 0,
+     "clipe": "Radar_45"
+    },
+    {
+     "frase": "Até muitos carros novos já têm radar, para frear sozinhos antes de uma batida.",
+     "busca": "car driving dashboard",
+     "desde": 0,
+     "clipe": "Radar_46"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "De um pedido maluco por um raio da morte nasceu a invenção que ajudou a parar Hitler, e que hoje esquenta a sua pipoca.",
+     "busca": "radar antenna rotating",
+     "desde": 3,
+     "clipe": "Radar_47"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você sabia que o micro-ondas veio de um radar?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Verão de mil novecentos e quarenta. Hitler já tinha tomado quase toda a Europa. Agora, ele queria a Inglaterra.",
+  "A força aérea alemã tinha cerca de dois mil e quinhentos aviões. Os ingleses tinham uns setecentos caças para defender o país inteiro.",
+  "Mesmo assim, os alemães não conseguiram dominar o céu. Por trás disso, havia uma invenção secreta, feita de ondas invisíveis: o radar.",
+  "Neste vídeo: como o radar nasceu de um pedido estranho, como ele ajudou a vencer a Batalha da Inglaterra, a mentira das cenouras, e como ele virou o micro-ondas da sua cozinha.",
+  "Tudo começou em mil novecentos e trinta e cinco, com um pedido do governo inglês que parece coisa de filme.",
+  "Os militares queriam saber se era possível criar um raio da morte: uma onda de rádio tão forte que pudesse derrubar aviões ou ferir o piloto à distância.",
+  "A pergunta foi parar com o físico escocês Robert Watson-Watt. Ele pediu ao assistente, Arnold Wilkins, para fazer as contas.",
+  "A resposta foi não. Para esquentar um piloto à distância, seria preciso uma energia gigantesca, impossível de produzir.",
+  "Mas Wilkins percebeu outra coisa: um avião de metal reflete as ondas de rádio. Talvez não desse para derrubar o avião. Mas daria para enxergá-lo.",
+  "Em vinte e seis de fevereiro de mil novecentos e trinta e cinco, eles fizeram um teste secreto num campo da Inglaterra, perto da cidade de Daventry.",
+  "Usaram as ondas de um transmissor de rádio da BBC e montaram um receptor dentro de uma van. Um bombardeiro foi mandado voar pela região.",
+  "Quando o avião passou, a linha verde na tela tremeu. Pela primeira vez, alguém tinha visto um avião sem olhar para ele.",
+  "O resultado virou segredo de Estado. A Inglaterra começou a construir, em silêncio, uma corrente de torres ao longo de todo o litoral.",
+  "Mas como uma onda invisível enxerga um avião? A ideia é a mesma do eco.",
+  "Quando você grita perto de uma montanha, o som bate nela e volta. Pela demora do eco, dá para saber a que distância ela está.",
+  "O radar faz isso com ondas de rádio, que viajam na velocidade da luz: trezentos mil quilômetros por segundo.",
+  "Se o eco volta em um milésimo de segundo, o avião está a cento e cinquenta quilômetros. A onda foi e voltou nesse tempinho.",
+  "E pela direção de onde o eco chega, dá para saber onde o avião está e para que lado ele vai.",
+  "Os morcegos fazem isso há milhões de anos, só que com som. O radar é, no fundo, um morcego eletrônico.",
+  "Em mil novecentos e trinta e nove, já existiam cerca de vinte estações de radar no litoral inglês. Era a Chain Home: a corrente do lar.",
+  "As torres de transmissão tinham mais de cem metros de altura, mais que um prédio de trinta andares.",
+  "Elas enxergavam aviões a mais de cento e cinquenta quilômetros, ainda sobre o mar, muito antes de eles chegarem à costa.",
+  "Os alemães viram as torres, mas não entenderam quão importantes elas eram. E esse erro custou caro.",
+  "Em julho de mil novecentos e quarenta começou a Batalha da Inglaterra, a primeira grande batalha da história travada só no ar.",
+  "Sem radar, os ingleses teriam que manter caças voando o tempo todo, esperando o ataque. Combustível e pilotos acabariam em poucos dias.",
+  "Com o radar, os caças esperavam no chão. Só decolavam quando o ataque aparecia na tela, e já sabiam para onde ir.",
+  "As informações chegavam por telefone a salas como esta, onde mulheres da força aérea anotavam cada grupo de aviões inimigos.",
+  "E num mapa gigante elas moviam as peças, como num jogo de tabuleiro, mostrando aos comandantes a batalha inteira, em tempo real.",
+  "Em agosto, os alemães até bombardearam algumas estações de radar. Mas elas voltaram a funcionar rápido, e os ataques contra elas pararam.",
+  "Em setembro, Hitler adiou para sempre a invasão da Inglaterra. Foi a primeira grande derrota dele na guerra.",
+  "Churchill disse a frase famosa: nunca tantos deveram tanto a tão poucos. Os poucos eram os pilotos. Mas eles não lutaram às cegas.",
+  "E tem uma história curiosa. Os ingleses também colocaram radar dentro de aviões, para caçar bombardeiros no escuro da noite.",
+  "Um piloto, John Cunningham, derrubou tantos aviões à noite que ganhou o apelido de Olhos de Gato.",
+  "Para esconder o radar, o governo espalhou uma explicação: ele enxergava no escuro porque comia muita cenoura.",
+  "A cenoura tem vitamina A, que ajuda a visão de quem tem falta dela. Mas não dá visão noturna de super-herói. É daí que vem o conselho que sua avó dava.",
+  "Também em mil novecentos e quarenta, dois cientistas da Universidade de Birmingham, John Randall e Harry Boot, criaram uma peça de cobre do tamanho da palma da mão.",
+  "Era o magnetron de cavidade. Ele produzia ondas bem curtinhas, de dez centímetros, e muito fortes.",
+  "Com ondas curtas, o radar ficou pequeno o bastante para caber num avião e enxergar até o periscópio de um submarino.",
+  "Os ingleses levaram o magnetron aos Estados Unidos numa missão secreta. Um historiador americano chamou aquilo de a carga mais valiosa que já chegou ao país.",
+  "Mas a história mais famosa do magnetron veio depois. Em mil novecentos e quarenta e cinco, o engenheiro americano Percy Spencer trabalhava perto de um radar ligado.",
+  "Ele sentiu algo estranho, colocou a mão no bolso e viu que a barra de chocolate tinha derretido.",
+  "Depois testou com milho de pipoca, que estourou. Tinha nascido o forno de micro-ondas.",
+  "O primeiro tinha quase dois metros de altura e pesava mais de trezentos quilos. Hoje cabe na sua cozinha, e o coração dele continua sendo um magnetron.",
+  "E o radar nunca mais saiu das nossas vidas. Todo avião que você pega é acompanhado por radares do começo ao fim do voo.",
+  "A previsão do tempo usa radar para ver onde está chovendo agora: ele mede o eco das gotas de chuva.",
+  "E o radar de velocidade da polícia usa outro truque: a onda que volta de um carro em movimento muda um pouquinho. Por essa mudança, ele calcula a velocidade.",
+  "Até muitos carros novos já têm radar, para frear sozinhos antes de uma batida.",
+  "De um pedido maluco por um raio da morte nasceu a invenção que ajudou a parar Hitler, e que hoje esquenta a sua pipoca.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você sabia que o micro-ondas veio de um radar?"
+ ]
+}

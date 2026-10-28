@@ -897,6 +897,27 @@ short("GatoEmPe", "Por que o GATO sempre cai EM PÉ? 🐱 A física explica",
     ("Em menos de meio segundo, ele está virado e pronto para pousar, com as patas flexionadas para amortecer o tranco. Mas não teste isso em casa!", "Em MEIO segundo", ["MEIO"], v("cat landing")),
 ], pergunta="Seu gato já caiu de algum lugar alto? 👇")
 
+# ---------- LEVA 22 (28/10): temas novos aprovados pelo Jansey (2 e 4 da lista) ----------
+short("AreiaMovedica", "Areia movediça PUXA você pra baixo? 😱 A física diz que NÃO",
+      "Nos filmes, a areia movediça engole a pessoa inteira. Na vida real, ela é uma mistura de areia, argila e água salgada que é quase duas vezes mais densa que o corpo humano: você afunda só até a cintura e para. O perigo é ficar preso, porque quando você se mexe com força a areia de baixo se compacta e prende as pernas. Um estudo de 2005 calculou que puxar um pé preso de uma vez exige uma força parecida com a de levantar um carro. O jeito certo é mexer as pernas devagar, para a água voltar a entrar, e deitar de costas para boiar! #fisica #areiamovedica #curiosidades #ciencia #mitos",
+      "🏖️", "Ninguém afunda inteiro.", [
+    ("Nos filmes, a areia movediça engole a pessoa inteira. Na vida real, isso é impossível. E a física explica por quê.", "Ela te ENGOLE?", ["ENGOLE"], v("quicksand")),
+    ("A areia movediça é areia misturada com água e argila. Ela é quase duas vezes mais densa que o corpo humano.", "Duas vezes mais DENSA", ["DENSA"], v("wet sand mud")),
+    ("Por isso você afunda só até a cintura e para. É como tentar afundar uma boia na água: o corpo é empurrado para cima.", "Você BOIA nela", ["BOIA"], v("mud feet")),
+    ("O perigo é ficar preso. Quando você se debate, a areia de baixo se compacta, e puxar a perna de uma vez exige a força de levantar um carro.", "A força de um CARRO", ["CARRO"], v("stuck in mud")),
+    ("O jeito certo é mexer as pernas bem devagar, para a água voltar a entrar, e deitar de costas, como quem boia no mar.", "Devagar e DEITADO", ["DEVAGAR"], v("beach sand")),
+], pergunta="Você acreditava que a areia movediça engolia a pessoa? 👇")
+
+short("PiramidesPedras", "Como levantaram pedras de 2 TONELADAS nas pirâmides? 🏜️ A física responde",
+      "A Grande Pirâmide de Gizé tem cerca de 2,3 milhões de blocos, com média de 2,5 toneladas cada. Uma pintura de quase 4 mil anos, no túmulo de Djehutihotep, mostra uma estátua gigante sendo puxada num trenó por dezenas de homens, enquanto um deles joga água na areia na frente do trenó. Em 2014, físicos da Universidade de Amsterdã testaram: areia molhada na medida certa fica firme e corta pela metade a força necessária para puxar o trenó. E um diário de papiro do inspetor Merer, achado em 2013, conta que as pedras do revestimento chegavam de barco pelo rio Nilo! #fisica #piramides #egito #historia #curiosidades",
+      "🏜️", "Água na areia, metade da força.", [
+    ("A Grande Pirâmide tem mais de dois milhões de blocos de pedra, com duas toneladas e meia cada um, em média. Como eles moveram isso?", "2 TONELADAS cada pedra", ["TONELADAS"], v("pyramids giza")),
+    ("A resposta estava pintada num túmulo egípcio de quase quatro mil anos: uma estátua gigante sendo puxada num trenó de madeira.", "Pintado num TÚMULO", ["TÚMULO"], {"busca": "egyptian hieroglyphs", "foto": "Pi_djehuti"}),
+    ("E bem na frente do trenó, um homem joga água na areia. Por muito tempo, acharam que era só um ritual.", "Água na AREIA", ["ÁGUA"], {"busca": "sand", "foto": "Pi_agua"}),
+    ("Em dois mil e catorze, físicos testaram: areia molhada na medida certa fica firme e corta pela metade a força para puxar o trenó.", "Metade da FORÇA", ["METADE"], v("wet sand")),
+    ("E um diário de papiro de um inspetor chamado Merer conta que muitas pedras chegavam de barco, pelo rio Nilo, até perto da obra.", "Vinham de BARCO", ["BARCO"], v("nile river boat")),
+], pergunta="Qual outro mistério do Egito eu explico? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

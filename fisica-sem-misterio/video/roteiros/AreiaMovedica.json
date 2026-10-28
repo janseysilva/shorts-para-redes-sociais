@@ -1,0 +1,55 @@
+{
+ "id": "AreiaMovedica",
+ "titulo": "Areia movediça PUXA você pra baixo? 😱 A física diz que NÃO",
+ "legenda": "Nos filmes, a areia movediça engole a pessoa inteira. Na vida real, ela é uma mistura de areia, argila e água salgada que é quase duas vezes mais densa que o corpo humano: você afunda só até a cintura e para. O perigo é ficar preso, porque quando você se mexe com força a areia de baixo se compacta e prende as pernas. Um estudo de 2005 calculou que puxar um pé preso de uma vez exige uma força parecida com a de levantar um carro. O jeito certo é mexer as pernas devagar, para a água voltar a entrar, e deitar de costas para boiar! #fisica #areiamovedica #curiosidades #ciencia #mitos",
+ "final": {
+  "emoji": "🏖️",
+  "frase": "Ninguém afunda inteiro."
+ },
+ "pergunta": "Você acreditava que a areia movediça engolia a pessoa? 👇",
+ "frases": [
+  "Nos filmes, a areia movediça engole a pessoa inteira. Na vida real, isso é impossível. E a física explica por quê.",
+  "A areia movediça é areia misturada com água e argila. Ela é quase duas vezes mais densa que o corpo humano.",
+  "Por isso você afunda só até a cintura e para. É como tentar afundar uma boia na água: o corpo é empurrado para cima.",
+  "O perigo é ficar preso. Quando você se debate, a areia de baixo se compacta, e puxar a perna de uma vez exige a força de levantar um carro.",
+  "O jeito certo é mexer as pernas bem devagar, para a água voltar a entrar, e deitar de costas, como quem boia no mar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Ela te ENGOLE?",
+   "destaque": [
+    "ENGOLE"
+   ],
+   "busca": "quicksand"
+  },
+  {
+   "gancho": "Duas vezes mais DENSA",
+   "destaque": [
+    "DENSA"
+   ],
+   "busca": "wet sand mud"
+  },
+  {
+   "gancho": "Você BOIA nela",
+   "destaque": [
+    "BOIA"
+   ],
+   "busca": "mud feet"
+  },
+  {
+   "gancho": "A força de um CARRO",
+   "destaque": [
+    "CARRO"
+   ],
+   "busca": "stuck in mud"
+  },
+  {
+   "gancho": "Devagar e DEITADO",
+   "destaque": [
+    "DEVAGAR"
+   ],
+   "busca": "beach sand"
+  }
+ ]
+}

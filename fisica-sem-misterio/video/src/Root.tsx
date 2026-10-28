@@ -174,10 +174,16 @@ import rGatoEmPe from "../roteiros/GatoEmPe.json";
 import tGatoEmPe from "../public/GatoEmPe/tempos.json";
 import rGatoEmPeIA from "../roteiros/GatoEmPeIA.json";
 import tGatoEmPeIA from "../public/GatoEmPeIA/tempos.json";
+import rAreiaMovedica from "../roteiros/AreiaMovedica.json";
+import tAreiaMovedica from "../public/AreiaMovedica/tempos.json";
+import rPiramidesPedras from "../roteiros/PiramidesPedras.json";
+import tPiramidesPedras from "../public/PiramidesPedras/tempos.json";
 import rAviaoPassageiro from "../roteiros/AviaoPassageiro.json";
 import tAviaoPassageiro from "../public/AviaoPassageiro/tempos.json";
 import rQuantica from "../roteiros/Quantica.json";
 import tQuantica from "../public/Quantica/tempos.json";
+import rRadar from "../roteiros/Radar.json";
+import tRadar from "../public/Radar/tempos.json";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
 import rOymyakon from "../roteiros/Oymyakon.json";
@@ -208,7 +214,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -225,6 +231,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rSolExplodir as RoteiroLongo, tSolExplodir, ["E SE O SOL EXPLODISSE?", "O que a física diz que aconteceria"], "SolExplodir_45"],
   [rAviaoPassageiro as RoteiroLongo, tAviaoPassageiro, ["DÚVIDAS DE PASSAGEIRO", "O que a física responde sobre o avião"], "AviaoPassageiro_35"],
   [rQuantica as RoteiroLongo, tQuantica, ["ENERGIA QUÂNTICA EXISTE?", "O que é quântico de verdade"], "Quantica_44"],
+  [rRadar as RoteiroLongo, tRadar, ["RADAR", "A arma secreta que venceu no céu"], "Radar_2"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

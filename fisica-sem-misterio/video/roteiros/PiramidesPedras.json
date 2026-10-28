@@ -1,0 +1,57 @@
+{
+ "id": "PiramidesPedras",
+ "titulo": "Como levantaram pedras de 2 TONELADAS nas pirâmides? 🏜️ A física responde",
+ "legenda": "A Grande Pirâmide de Gizé tem cerca de 2,3 milhões de blocos, com média de 2,5 toneladas cada. Uma pintura de quase 4 mil anos, no túmulo de Djehutihotep, mostra uma estátua gigante sendo puxada num trenó por dezenas de homens, enquanto um deles joga água na areia na frente do trenó. Em 2014, físicos da Universidade de Amsterdã testaram: areia molhada na medida certa fica firme e corta pela metade a força necessária para puxar o trenó. E um diário de papiro do inspetor Merer, achado em 2013, conta que as pedras do revestimento chegavam de barco pelo rio Nilo! #fisica #piramides #egito #historia #curiosidades",
+ "final": {
+  "emoji": "🏜️",
+  "frase": "Água na areia, metade da força."
+ },
+ "pergunta": "Qual outro mistério do Egito eu explico? 👇",
+ "frases": [
+  "A Grande Pirâmide tem mais de dois milhões de blocos de pedra, com duas toneladas e meia cada um, em média. Como eles moveram isso?",
+  "A resposta estava pintada num túmulo egípcio de quase quatro mil anos: uma estátua gigante sendo puxada num trenó de madeira.",
+  "E bem na frente do trenó, um homem joga água na areia. Por muito tempo, acharam que era só um ritual.",
+  "Em dois mil e catorze, físicos testaram: areia molhada na medida certa fica firme e corta pela metade a força para puxar o trenó.",
+  "E um diário de papiro de um inspetor chamado Merer conta que muitas pedras chegavam de barco, pelo rio Nilo, até perto da obra.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "2 TONELADAS cada pedra",
+   "destaque": [
+    "TONELADAS"
+   ],
+   "busca": "pyramids giza"
+  },
+  {
+   "gancho": "Pintado num TÚMULO",
+   "destaque": [
+    "TÚMULO"
+   ],
+   "busca": "egyptian hieroglyphs",
+   "foto": "Pi_djehuti"
+  },
+  {
+   "gancho": "Água na AREIA",
+   "destaque": [
+    "ÁGUA"
+   ],
+   "busca": "sand",
+   "foto": "Pi_agua"
+  },
+  {
+   "gancho": "Metade da FORÇA",
+   "destaque": [
+    "METADE"
+   ],
+   "busca": "wet sand"
+  },
+  {
+   "gancho": "Vinham de BARCO",
+   "destaque": [
+    "BARCO"
+   ],
+   "busca": "nile river boat"
+  }
+ ]
+}

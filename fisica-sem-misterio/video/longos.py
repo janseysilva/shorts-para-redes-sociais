@@ -902,10 +902,105 @@ longo("Quantica", "ENERGIA QUÂNTICA existe? ⚛️ O que é física quântica d
     ]),
 ])
 
+longo("Radar", "RADAR: a arma secreta que derrotou HITLER no céu 📡 (e virou o seu micro-ondas)",
+      "Em 1940, a Alemanha tinha cerca de 2.500 aviões para atacar a Inglaterra, e os ingleses uns 700 caças. Neste vídeo, a história real do radar: "
+      "o pedido de um \"raio da morte\" em 1935, o teste secreto com uma van no campo, como uma onda invisível enxerga um avião, as torres da Chain Home, "
+      "a Batalha da Inglaterra, a mentira das cenouras, o magnetron que mudou a guerra e o chocolate derretido que deu origem ao forno de micro-ondas.", [
+    ("Abertura", [
+        ("Verão de mil novecentos e quarenta. Hitler já tinha tomado quase toda a Europa. Agora, ele queria a Inglaterra.", v("ww2 airplanes")),
+        ("A força aérea alemã tinha cerca de dois mil e quinhentos aviões. Os ingleses tinham uns setecentos caças para defender o país inteiro.", v("vintage fighter plane")),
+        ("Mesmo assim, os alemães não conseguiram dominar o céu. Por trás disso, havia uma invenção secreta, feita de ondas invisíveis: o radar.", v("radar antenna rotating")),
+        ("Neste vídeo: como o radar nasceu de um pedido estranho, como ele ajudou a vencer a Batalha da Inglaterra, a mentira das cenouras, e como ele virou o micro-ondas da sua cozinha.", v("microwave oven kitchen")),
+    ]),
+    ("Um pedido estranho", [
+        ("Tudo começou em mil novecentos e trinta e cinco, com um pedido do governo inglês que parece coisa de filme.", v("old radio equipment")),
+        ("Os militares queriam saber se era possível criar um raio da morte: uma onda de rádio tão forte que pudesse derrubar aviões ou ferir o piloto à distância.", a("☠️", "O pedido: um \"raio da morte\"")),
+        ("A pergunta foi parar com o físico escocês Robert Watson-Watt. Ele pediu ao assistente, Arnold Wilkins, para fazer as contas.", v("old radio")),
+        ("A resposta foi não. Para esquentar um piloto à distância, seria preciso uma energia gigantesca, impossível de produzir.", a("🧮", "As contas: impossível")),
+        ("Mas Wilkins percebeu outra coisa: um avião de metal reflete as ondas de rádio. Talvez não desse para derrubar o avião. Mas daria para enxergá-lo.", v("radio tower sky")),
+    ]),
+    ("O teste secreto", [
+        ("Em vinte e seis de fevereiro de mil novecentos e trinta e cinco, eles fizeram um teste secreto num campo da Inglaterra, perto da cidade de Daventry.", v("english countryside")),
+        ("Usaram as ondas de um transmissor de rádio da BBC e montaram um receptor dentro de uma van. Um bombardeiro foi mandado voar pela região.", v("english countryside")),
+        ("Quando o avião passou, a linha verde na tela tremeu. Pela primeira vez, alguém tinha visto um avião sem olhar para ele.", v("english countryside")),
+        ("O resultado virou segredo de Estado. A Inglaterra começou a construir, em silêncio, uma corrente de torres ao longo de todo o litoral.", v("english coast cliffs")),
+    ]),
+    ("Como o radar enxerga", [
+        ("Mas como uma onda invisível enxerga um avião? A ideia é a mesma do eco.", v("mountain valley")),
+        ("Quando você grita perto de uma montanha, o som bate nela e volta. Pela demora do eco, dá para saber a que distância ela está.", a("🗣️", "O eco volta: dá para medir a distância")),
+        ("O radar faz isso com ondas de rádio, que viajam na velocidade da luz: trezentos mil quilômetros por segundo.", v("radio waves animation")),
+        ("Se o eco volta em um milésimo de segundo, o avião está a cento e cinquenta quilômetros. A onda foi e voltou nesse tempinho.", a("⏱️", "1 milésimo de segundo = 150 km")),
+        ("E pela direção de onde o eco chega, dá para saber onde o avião está e para que lado ele vai.", v("radar screen")),
+        ("Os morcegos fazem isso há milhões de anos, só que com som. O radar é, no fundo, um morcego eletrônico.", v("bats flying")),
+    ]),
+    ("A corrente de torres", [
+        ("Em mil novecentos e trinta e nove, já existiam cerca de vinte estações de radar no litoral inglês. Era a Chain Home: a corrente do lar.", v("radar tower")),
+        ("As torres de transmissão tinham mais de cem metros de altura, mais que um prédio de trinta andares.", v("radio tower")),
+        ("Elas enxergavam aviões a mais de cento e cinquenta quilômetros, ainda sobre o mar, muito antes de eles chegarem à costa.", v("english coast cliffs")),
+        ("Os alemães viram as torres, mas não entenderam quão importantes elas eram. E esse erro custou caro.", v("vintage airplane")),
+    ]),
+    ("A Batalha da Inglaterra", [
+        ("Em julho de mil novecentos e quarenta começou a Batalha da Inglaterra, a primeira grande batalha da história travada só no ar.", v("ww2 airplanes")),
+        ("Sem radar, os ingleses teriam que manter caças voando o tempo todo, esperando o ataque. Combustível e pilotos acabariam em poucos dias.", v("vintage airplane flying")),
+        ("Com o radar, os caças esperavam no chão. Só decolavam quando o ataque aparecia na tela, e já sabiam para onde ir.", v("propeller plane takeoff")),
+        ("As informações chegavam por telefone a salas como esta, onde mulheres da força aérea anotavam cada grupo de aviões inimigos.", v("old telephone")),
+        ("E num mapa gigante elas moviam as peças, como num jogo de tabuleiro, mostrando aos comandantes a batalha inteira, em tempo real.", v("map table")),
+        ("Em agosto, os alemães até bombardearam algumas estações de radar. Mas elas voltaram a funcionar rápido, e os ataques contra elas pararam.", v("vintage airplane")),
+        ("Em setembro, Hitler adiou para sempre a invasão da Inglaterra. Foi a primeira grande derrota dele na guerra.", v("spitfire")),
+        ("Churchill disse a frase famosa: nunca tantos deveram tanto a tão poucos. Os poucos eram os pilotos. Mas eles não lutaram às cegas.", v("old airplane sky")),
+    ]),
+    ("A mentira das cenouras", [
+        ("E tem uma história curiosa. Os ingleses também colocaram radar dentro de aviões, para caçar bombardeiros no escuro da noite.", v("night sky stars")),
+        ("Um piloto, John Cunningham, derrubou tantos aviões à noite que ganhou o apelido de Olhos de Gato.", v("night sky")),
+        ("Para esconder o radar, o governo espalhou uma explicação: ele enxergava no escuro porque comia muita cenoura.", v("carrots")),
+        ("A cenoura tem vitamina A, que ajuda a visão de quem tem falta dela. Mas não dá visão noturna de super-herói. É daí que vem o conselho que sua avó dava.", v("eating carrot")),
+    ]),
+    ("A peça que mudou a guerra", [
+        ("Também em mil novecentos e quarenta, dois cientistas da Universidade de Birmingham, John Randall e Harry Boot, criaram uma peça de cobre do tamanho da palma da mão.", v("copper metal")),
+        ("Era o magnetron de cavidade. Ele produzia ondas bem curtinhas, de dez centímetros, e muito fortes.", v("electronics vintage")),
+        ("Com ondas curtas, o radar ficou pequeno o bastante para caber num avião e enxergar até o periscópio de um submarino.", v("submarine ocean")),
+        ("Os ingleses levaram o magnetron aos Estados Unidos numa missão secreta. Um historiador americano chamou aquilo de a carga mais valiosa que já chegou ao país.", a("📦", "\"A carga mais valiosa\"")),
+    ]),
+    ("Do radar ao micro-ondas", [
+        ("Mas a história mais famosa do magnetron veio depois. Em mil novecentos e quarenta e cinco, o engenheiro americano Percy Spencer trabalhava perto de um radar ligado.", v("old laboratory")),
+        ("Ele sentiu algo estranho, colocou a mão no bolso e viu que a barra de chocolate tinha derretido.", v("old laboratory")),
+        ("Depois testou com milho de pipoca, que estourou. Tinha nascido o forno de micro-ondas.", v("popcorn popping")),
+        ("O primeiro tinha quase dois metros de altura e pesava mais de trezentos quilos. Hoje cabe na sua cozinha, e o coração dele continua sendo um magnetron.", v("microwave oven")),
+    ]),
+    ("O radar hoje", [
+        ("E o radar nunca mais saiu das nossas vidas. Todo avião que você pega é acompanhado por radares do começo ao fim do voo.", v("airport control tower")),
+        ("A previsão do tempo usa radar para ver onde está chovendo agora: ele mede o eco das gotas de chuva.", v("rain storm clouds")),
+        ("E o radar de velocidade da polícia usa outro truque: a onda que volta de um carro em movimento muda um pouquinho. Por essa mudança, ele calcula a velocidade.", v("highway traffic night")),
+        ("Até muitos carros novos já têm radar, para frear sozinhos antes de uma batida.", v("car driving dashboard")),
+    ]),
+    ("Final", [
+        ("De um pedido maluco por um raio da morte nasceu a invenção que ajudou a parar Hitler, e que hoje esquenta a sua pipoca.", v("radar antenna rotating", 3)),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você sabia que o micro-ondas veio de um radar?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    "Radar": {
+        6: dict(foto="Rd_watson", legenda="Robert Watson-Watt, o pai do radar"),
+        10: dict(clipe="Radar_10", ia=True, legenda="O teste de Daventry, 1935"),
+        11: dict(clipe="Radar_10", desde=3.5, ia=True, legenda="O teste de Daventry, 1935"),
+        19: dict(foto="Rd_poling", legenda="Estação de radar Chain Home em Poling, Inglaterra"),
+        20: dict(foto="Rd_torre", legenda="Torre de 1940 que ainda existe, em Stenigot"),
+        23: dict(foto="Rd_spitfire", legenda="Caças Spitfire, 24 de julho de 1940"),
+        25: dict(foto="Rd_corrida", legenda="Pilotos correndo para os aviões num alarme, 1940"),
+        26: dict(foto="Rd_waaf", legenda="Sala de operações da RAF, setembro de 1940"),
+        27: dict(foto="Rd_mesa", legenda="Mesa de controle preservada da Batalha da Inglaterra"),
+        30: dict(foto="Rd_churchill", legenda="Winston Churchill"),
+        32: dict(foto="Rd_cunningham", legenda="John Cunningham, o \"Olhos de Gato\" (1941)"),
+        35: dict(foto="Rd_magnetron", legenda="O magnetron original de 1940"),
+        36: dict(foto="Rd_magnetron", legenda="Magnetron de cavidade (Science Museum, Londres)"),
+        39: dict(clipe="Radar_39", ia=True, legenda="Percy Spencer, 1945"),
+        40: dict(clipe="Radar_39", desde=3, ia=True, legenda="Percy Spencer, 1945"),
+        42: dict(foto="Rd_radarange", legenda="Radarange, um dos primeiros micro-ondas"),
+    },
     "Quantica": {
         3: dict(foto="Qt_planck", legenda="Max Planck, que criou a ideia dos pacotes de energia em 1900"),
         6: dict(foto="Qt_einstein", legenda="Albert Einstein em 1921, ano do seu prêmio Nobel"),
