@@ -2,13 +2,19 @@
 
 Abra `gerador-declaracoes.html` com dois cliques (Chrome, Edge ou Firefox). Não precisa instalar nada e funciona sem internet.
 
-1. **Dados da escola** (só na primeira vez): cabeçalho, nome, INEP, endereço, quem assina, logotipo. Ficam salvos no navegador.
-2. **Tipo**: Matrícula, Frequência, Transferência, Conclusão, Vaga ou Comparecimento.
-3. **Aluno**: clique em **Abrir lista de alunos (.txt)**, escolha o arquivo do bloco de notas e digite parte do nome em **Pesquisar aluno**. Ao escolher o aluno, os campos são preenchidos sozinhos.
-   - A lista fica guardada no navegador até clicar em "Esquecer lista". Os dados não saem do computador.
-   - Formatos aceitos: colunas separadas por tabulação, `;`, `|` ou 2+ espaços (com ou sem linha de títulos), blocos `Nome: ... / Mãe: ...` separados por linha em branco, ou só um nome por linha. Arquivos salvos em ANSI (Bloco de Notas antigo) também funcionam.
-   - Também dá para preencher à mão, ou usar "Vários" e colar as linhas da planilha nesta ordem:
-   `Nome · Sexo (M/F) · Nascimento · Ano · Turma · Turno · Mãe`
-4. **Imprimir / Salvar PDF**: sai uma folha A4 por aluno. O número da declaração sobe sozinho depois de imprimir.
+## Como usar
+1. **Primeira vez:** preencha os *Dados da escola* (nome, INEP, endereço, quem assina, logotipo). Fica salvo no computador.
+2. **Abrir arquivo de alunos:** escolha o arquivo do bloco de notas (.txt). Ele vira o banco de dados e fica guardado; só abra de novo quando a lista mudar ("Trocar arquivo").
+3. **Pesquisar aluno:** digite parte do nome (com ou sem acento) e clique no aluno encontrado.
+4. **Gerar declaração de:** Matrícula, Frequência, Transferência, Conclusão, Vaga ou Comparecimento.
+5. **Imprimir / Salvar PDF.**
 
-O texto concorda com o sexo do aluno (matriculado/matriculada). Para mudar alguma frase, marque "Ajustar o texto à mão" e clique na folha. "Copiar para o Word" leva a declaração formatada para colar no Word.
+A data da declaração e o ano letivo vêm do relógio do computador. O número da declaração (Nº 001/2026) sobe sozinho a cada impressão.
+
+## Formato do arquivo de alunos
+O programa reconhece sozinho:
+- colunas separadas por tabulação, `;`, `|` ou 2+ espaços, com ou sem linha de títulos (Nome, Sexo, Nascimento, Ano, Turma, Turno, Mãe, Pai);
+- blocos `Nome: ... / Mãe: ... / Ano: ...` separados por linha em branco;
+- só um nome por linha.
+
+Arquivos salvos em ANSI (Bloco de Notas antigo) também funcionam. Os dados dos alunos não saem do computador.
