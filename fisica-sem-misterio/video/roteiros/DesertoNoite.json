@@ -1,0 +1,57 @@
+{
+ "id": "DesertoNoite",
+ "titulo": "Por que o DESERTO é quente de dia e GELADO à noite? 🏜️🥶 A física explica",
+ "legenda": "No deserto, de dia pode passar de 40 graus e, à noite, a temperatura despenca. O segredo é a água: o ar do deserto é seco demais, quase sem vapor de água e sem nuvens. O vapor de água funciona como um cobertor, que segura o calor perto do chão. Sem ele, à noite o calor do solo escapa direto para o espaço. E a areia esquenta rápido, mas esfria rápido também, enquanto a água dos lugares úmidos guarda calor por muito mais tempo. Por isso a diferença entre o dia e a noite no deserto pode chegar a 30 graus. Em Manaus, com o ar úmido, a noite quase não refresca! #fisica #deserto #clima #curiosidades #ciencia",
+ "final": {
+  "emoji": "🏜️",
+  "frase": "Sem água no ar, o calor foge."
+ },
+ "pergunta": "Você aguentaria uma noite no deserto? 👇",
+ "frases": [
+  "No deserto, de dia passa de quarenta graus. E à noite, você treme de frio. Como pode?",
+  "O segredo é a água. O ar do deserto é seco demais, quase sem vapor e sem nuvens.",
+  "O vapor de água é um cobertor que segura o calor. Sem ele, à noite o calor foge para o espaço.",
+  "E a areia esquenta rápido, mas também esfria rápido.",
+  "Por isso a diferença chega a trinta graus num só dia. Em Manaus, com o ar úmido, a noite quase não refresca.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Quente de dia, GELADO à noite",
+   "destaque": [
+    "GELADO"
+   ],
+   "busca": "sahara desert dunes"
+  },
+  {
+   "gancho": "Quase SEM ÁGUA no ar",
+   "destaque": [
+    "SEM ÁGUA"
+   ],
+   "busca": "desert clear blue sky"
+  },
+  {
+   "gancho": "Sem o COBERTOR",
+   "destaque": [
+    "COBERTOR"
+   ],
+   "busca": "desert night",
+   "foto": "Dn_ia_cobertor",
+   "ia": true
+  },
+  {
+   "gancho": "A areia ESFRIA rápido",
+   "destaque": [
+    "ESFRIA"
+   ],
+   "busca": "sand dunes sunset"
+  },
+  {
+   "gancho": "Até 30 GRAUS de diferença",
+   "destaque": [
+    "30"
+   ],
+   "busca": "desert night stars"
+  }
+ ]
+}

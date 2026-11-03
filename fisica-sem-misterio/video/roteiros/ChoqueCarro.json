@@ -1,0 +1,59 @@
+{
+ "id": "ChoqueCarro",
+ "titulo": "Por que você leva CHOQUE ao encostar no CARRO? ⚡ A física explica",
+ "legenda": "O choque ao encostar no carro não é defeito do carro: quem está carregado é você. Quando você escorrega no banco para sair, o atrito entre a roupa e o tecido arranca elétrons e o corpo acumula carga elétrica, que pode passar de 10 mil volts. Quando o dedo chega perto do metal, essa carga pula de uma vez, numa faísca. Não machuca porque a corrente é minúscula e dura menos de um milionésimo de segundo. No tempo seco é pior, porque a umidade do ar ajuda a carga a escapar aos poucos. A dica: ao sair do carro, segure a parte de metal da porta antes de pôr o pé no chão, e a carga escoa sem faísca! #fisica #choque #carro #eletricidade #curiosidades",
+ "final": {
+  "emoji": "⚡",
+  "frase": "Quem está carregado é você."
+ },
+ "pergunta": "Você também leva choque no carro ou na porta? 👇",
+ "frases": [
+  "Você encosta na porta do carro e leva um choque. Mas o carro não tem defeito: quem está carregado é você.",
+  "Quando você escorrega no banco para sair, o atrito com a roupa arranca elétrons, e o corpo fica cheio de carga elétrica.",
+  "Essa carga pode passar de dez mil volts. Quando o dedo chega perto do metal, ela pula de uma vez, numa faísca.",
+  "E não machuca porque a corrente é minúscula e dura menos de um milionésimo de segundo.",
+  "No tempo seco é pior. A dica: ao sair, segure a parte de metal da porta antes de pôr o pé no chão.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O choque vem de VOCÊ",
+   "destaque": [
+    "VOCÊ"
+   ],
+   "busca": "car door handle"
+  },
+  {
+   "gancho": "O ATRITO te carrega",
+   "destaque": [
+    "ATRITO"
+   ],
+   "busca": "car seat",
+   "foto": "Cc_ia_atrito",
+   "ia": true
+  },
+  {
+   "gancho": "Mais de 10 MIL volts",
+   "destaque": [
+    "10 MIL"
+   ],
+   "busca": "static electricity spark",
+   "foto": "Cc_ia_faisca",
+   "ia": true
+  },
+  {
+   "gancho": "Dura um MILIONÉSIMO",
+   "destaque": [
+    "MILIONÉSIMO"
+   ],
+   "busca": "hand touching car"
+  },
+  {
+   "gancho": "Segure o METAL",
+   "destaque": [
+    "METAL"
+   ],
+   "busca": "getting out of car"
+  }
+ ]
+}

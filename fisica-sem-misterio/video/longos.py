@@ -1040,10 +1040,101 @@ longo("Titanic", "Como o TITANIC afundou? 🚢 A física do naufrágio (minuto a
     ]),
 ])
 
+longo("Halifax", "Um NAVIO cheio de EXPLOSIVOS destruiu uma CIDADE inteira 💥 Halifax, 1917 (a física da explosão)",
+      "Em 6 de dezembro de 1917, um navio carregado com quase 3 mil toneladas de explosivos bateu em outro na entrada do porto de Halifax, no Canadá. "
+      "Vinte minutos depois aconteceu a maior explosão já causada pelo ser humano antes da bomba atômica. Neste vídeo, a física por trás dela: "
+      "a onda de choque mais rápida que o som, os vidros que cegaram centenas de pessoas, a âncora que voou 3 km, o tsunami no porto "
+      "e o telegrafista que ficou no posto para salvar um trem.", [
+    ("Abertura", [
+        ("Esta nuvem não é de uma bomba atômica. Ela foi fotografada em mil novecentos e dezessete, quase trinta anos antes da primeira bomba atômica.", v("explosion smoke")),
+        ("Ela saiu de um navio. Um navio de carga que explodiu dentro de um porto e destruiu um bairro inteiro em menos de um segundo.", v("harbor ships old")),
+        ("Neste vídeo, a física da maior explosão já causada pelo ser humano antes da era atômica. E a história do homem que ficou no posto para salvar um trem.", v("old telegraph")),
+    ]),
+    ("O navio mais perigoso do mundo", [
+        ("Dezembro de mil novecentos e dezessete. O mundo está na Primeira Guerra Mundial, e o porto de Halifax, no Canadá, é por onde passam navios, soldados e munição para a Europa.", v("harbor city winter")),
+        ("Na manhã do dia seis, o cargueiro francês Mont-Blanc entra no porto. Nos porões, quase três mil toneladas de explosivos: ácido pícrico, TNT e algodão-pólvora.", v("cargo ship old")),
+        ("E no convés, barris de benzol, um combustível que pega fogo com facilidade. Era, literalmente, uma bomba flutuante.", v("barrels ship deck")),
+    ]),
+    ("A batida", [
+        ("Na parte mais estreita do porto, o Mont-Blanc cruza com o navio norueguês Imo, que vinha saindo. Às oito e quarenta e cinco, os dois se batem.", v("ships narrow channel")),
+        ("A batida foi devagar, quase na velocidade de uma pessoa andando. Mas as faíscas do metal raspando acenderam o vapor do benzol, e o convés pegou fogo.", v("ship fire smoke")),
+        ("A tripulação sabia o que tinha nos porões. Pularam nos botes e remaram com toda a força para a outra margem. Quase todos sobreviveram.", v("rowing boat sea")),
+        ("O navio em chamas, sem ninguém a bordo, ficou à deriva e encostou num cais do bairro de Richmond. E a fumaça preta atraiu os curiosos.", v("ship burning harbor")),
+        ("Gente parou na rua, nos morros e nas janelas para ver o incêndio. Quase ninguém sabia que aquilo era um depósito de explosivos.", v("people watching window")),
+    ]),
+    ("Nove horas, quatro minutos", [
+        ("Às nove horas, quatro minutos e trinta e cinco segundos, vinte minutos depois da batida, o Mont-Blanc explodiu.", v("explosion")),
+        ("Num explosivo, a energia está guardada nas ligações químicas. Quando ele detona, a reação corre pelo material a milhares de metros por segundo e vira gás quente de uma vez.", v("chemistry reaction")),
+        ("O centro chegou a uns cinco mil graus. E a energia liberada foi de quase três mil toneladas de TNT: perto de um sétimo da bomba de Hiroshima.", v("fireball")),
+        ("O navio, de quase cem metros de aço, simplesmente se despedaçou.", v("metal pieces")),
+    ]),
+    ("A onda de choque", [
+        ("O gás da explosão empurrou o ar em volta com uma força brutal. Esse empurrão viaja como uma parede de ar comprimido: a onda de choque.", v("shockwave dust")),
+        ("Ela saiu a mais de mil metros por segundo, três vezes a velocidade do som. Por isso ninguém ouviu nada antes de ser atingido.", a("💨", "Mais de 1.000 m/s")),
+        ("Num raio de quase um quilômetro, praticamente nada ficou de pé. Casas, fábricas, igrejas e escolas foram arrancadas do chão.", v("ruins destroyed buildings")),
+        ("Mais de doze mil construções foram destruídas ou danificadas. E a explosão foi sentida a mais de duzentos quilômetros dali.", v("broken window glass")),
+    ]),
+    ("Os vidros", [
+        ("Lembra das pessoas que olhavam o incêndio pela janela? A onda de choque estilhaçou o vidro bem na frente do rosto delas.", v("shattered glass slow motion")),
+        ("Centenas de pessoas ficaram cegas ou perderam um olho. Os médicos tiveram que remover duzentos e quarenta e nove olhos.", v("old hospital")),
+        ("Foi uma tragédia tão grande que ajudou a mudar o tratamento de ferimentos nos olhos no Canadá.", v("eye doctor")),
+    ]),
+    ("Pedaços do navio no céu", [
+        ("A força jogou pedaços do Mont-Blanc a quilômetros de distância. Um pedaço da âncora, com mais de quinhentos quilos, caiu a três quilômetros do porto.", v("ship anchor")),
+        ("Um dos canhões do navio foi parar a mais de cinco quilômetros, do outro lado da baía.", v("old cannon")),
+        ("E a nuvem de fumaça subiu mais de três quilômetros e meio, em forma de cogumelo, como a das bombas atômicas.", v("smoke cloud sky")),
+    ]),
+    ("O tsunami", [
+        ("A explosão também empurrou a água do porto para todos os lados, como uma pedra gigante caindo numa poça.", v("water splash slow motion")),
+        ("Formou-se uma onda que subiu até dezoito metros acima da maré alta e invadiu a margem, arrastando gente e destroços.", v("big wave harbor")),
+    ]),
+    ("O herói do telégrafo", [
+        ("Na estação de trem perto do cais, o telegrafista Vince Coleman soube do perigo. Ele podia ter fugido.", v("old train station")),
+        ("Mas um trem de passageiros estava chegando à cidade. Ele ficou no posto e mandou a mensagem: segurem o trem, navio de munição pegando fogo no porto, vai explodir.", v("telegraph key")),
+        ("O aviso fez os trens pararem antes de chegar. Vince Coleman morreu na explosão, no posto de trabalho.", v("steam train")),
+    ]),
+    ("A nevasca e a ajuda", [
+        ("Cerca de duas mil pessoas morreram e nove mil ficaram feridas. E no dia seguinte, caiu uma nevasca de mais de quarenta centímetros sobre a cidade destruída.", v("snow storm city")),
+        ("A ajuda veio de longe. A cidade americana de Boston mandou um trem com médicos, enfermeiras e remédios, que atravessou a neve.", v("snow train")),
+        ("E até hoje, todo ano, Halifax manda para Boston uma árvore de Natal gigante. Um obrigado que já dura mais de cem anos.", v("christmas tree city")),
+    ]),
+    ("Final", [
+        ("Um navio, quase três mil toneladas de explosivos e vinte minutos de incêndio. A física da onda de choque explica cada pedaço dessa tragédia.", v("harbor sunset")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já tinha ouvido falar da explosão de Halifax?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    # Halifax: fotos reais de 1917 (Wikimedia, domínio público/CC) → Hx_*; IA (Google Flow) nas cenas que ninguém fotografou.
+    "Halifax": {
+        0: dict(foto="Hx_nuvem", legenda="A nuvem da explosão de Halifax, 6 de dezembro de 1917"),
+        1: dict(foto="Hx_ruinas1", legenda="O bairro de Richmond depois da explosão, 1917"),
+        2: dict(foto="Hx_herald", legenda="Capa do jornal Halifax Herald sobre a explosão"),
+        3: dict(foto="Hx_globe", legenda="O porto de Halifax no mapa do Boston Daily Globe, 8/12/1917"),
+        4: dict(foto="Hx_montblanc", legenda="O cargueiro francês Mont-Blanc"),
+        5: dict(foto="Hx_ia_barris", ia=True, legenda="Barris de benzol no convés do Mont-Blanc"),
+        6: dict(foto="Hx_ia_batida", ia=True, legenda="O Imo e o Mont-Blanc se batendo, 8h45"),
+        7: dict(foto="Hx_ia_fogo", ia=True, legenda="As faíscas acendem o vapor do benzol"),
+        9: dict(foto="Hx_ia_deriva", ia=True, legenda="O Mont-Blanc em chamas encosta num cais de Richmond"),
+        10: dict(foto="Hx_ia_janela", ia=True, legenda="Moradores olhando o incêndio pela janela"),
+        12: dict(foto="Hx_ia_ligacoes", ia=True, legenda="A energia guardada nas ligações químicas vira gás quente"),
+        14: dict(foto="Hx_imo", legenda="O Imo, jogado na margem pela explosão"),
+        15: dict(foto="Hx_ia_onda", ia=True, legenda="A onda de choque: uma parede de ar comprimido"),
+        16: dict(foto="Hx_ia_som", ia=True, legenda="Mais de 1.000 m/s: três vezes a velocidade do som"),
+        17: dict(foto="Hx_porto", legenda="O porto de Halifax depois da explosão, 1917"),
+        18: dict(foto="Hx_ruinas2", legenda="Casas destruídas em Halifax, dezembro de 1917"),
+        20: dict(foto="Hx_registro", legenda="Sobreviventes se cadastrando para receber ajuda, 1917"),
+        22: dict(foto="Hx_ancora", legenda="O pedaço da âncora do Mont-Blanc onde caiu, a 3 km do porto"),
+        24: dict(foto="Hx_nuvem", legenda="A nuvem em forma de cogumelo, 6 de dezembro de 1917"),
+        25: dict(foto="Hx_ia_tsunami", ia=True, legenda="A explosão empurra a água do porto"),
+        26: dict(foto="Hx_ruinas3", legenda="Destruição na margem do porto, 1917"),
+        28: dict(foto="Hx_coleman", legenda="Vince Coleman, o telegrafista"),
+        30: dict(foto="Hx_ruinas4", legenda="Trabalhadores na área destruída, 1917"),
+        32: dict(foto="Hx_natal", legenda="Festa de Natal para as crianças de Halifax depois da tragédia, 1917"),
+    },
     # Titanic: filmagem real 1911-12 (Wikimedia, domínio público) recortada em fontes_titanic → TtFilme_*;
     # icebergs da Groenlândia (NASA, domínio público) → TtNasa_*; IA (Google Flow) nas cenas de explicação.
     "Titanic": {

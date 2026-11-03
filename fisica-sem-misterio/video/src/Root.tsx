@@ -182,6 +182,10 @@ import rCaminhaoFreio from "../roteiros/CaminhaoFreio.json";
 import tCaminhaoFreio from "../public/CaminhaoFreio/tempos.json";
 import rAviaoAntartida from "../roteiros/AviaoAntartida.json";
 import tAviaoAntartida from "../public/AviaoAntartida/tempos.json";
+import rChoqueCarro from "../roteiros/ChoqueCarro.json";
+import tChoqueCarro from "../public/ChoqueCarro/tempos.json";
+import rDesertoNoite from "../roteiros/DesertoNoite.json";
+import tDesertoNoite from "../public/DesertoNoite/tempos.json";
 import rAviaoPassageiro from "../roteiros/AviaoPassageiro.json";
 import tAviaoPassageiro from "../public/AviaoPassageiro/tempos.json";
 import rQuantica from "../roteiros/Quantica.json";
@@ -190,6 +194,8 @@ import rRadar from "../roteiros/Radar.json";
 import tRadar from "../public/Radar/tempos.json";
 import rTitanic from "../roteiros/Titanic.json";
 import tTitanic from "../public/Titanic/tempos.json";
+import rHalifax from "../roteiros/Halifax.json";
+import tHalifax from "../public/Halifax/tempos.json";
 import rVulcao from "../roteiros/Vulcao.json";
 import tVulcao from "../public/Vulcao/tempos.json";
 import rOymyakon from "../roteiros/Oymyakon.json";
@@ -220,7 +226,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras], [rCaminhaoFreio, tCaminhaoFreio], [rAviaoAntartida, tAviaoAntartida],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras], [rCaminhaoFreio, tCaminhaoFreio], [rAviaoAntartida, tAviaoAntartida], [rChoqueCarro, tChoqueCarro], [rDesertoNoite, tDesertoNoite],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -239,6 +245,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rQuantica as RoteiroLongo, tQuantica, ["ENERGIA QUÂNTICA EXISTE?", "O que é quântico de verdade"], "Quantica_44"],
   [rRadar as RoteiroLongo, tRadar, ["RADAR", "A arma secreta que venceu no céu"], "Radar_2"],
   [rTitanic as RoteiroLongo, tTitanic, ["TITANIC", "Como o navio inafundável afundou"], "TtNasa_2"],
+  [rHalifax as RoteiroLongo, tHalifax, ["HALIFAX, 1917", "O navio que destruiu uma cidade"], "Halifax_33"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

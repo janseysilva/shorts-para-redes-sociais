@@ -57,14 +57,16 @@ TEXTO = {
     "Astronautas": "Por que/*FLUTUAM*?", "Gelo": "Por que o gelo/*BOIA*?",
     "Trovao": "Raio ANTES/do *TROVÃO*", "CeuAzul": "Por que o céu/é *AZUL*?",
     "CaminhaoFreio": "Por que o FREIO/do caminhão *ACABA*?", "AviaoAntartida": "Por que NINGUÉM/voa na *ANTÁRTIDA*?",
+    "ChoqueCarro": "Por que o CARRO/te dá *CHOQUE*?", "DesertoNoite": "Quente de dia,/*GELADO* à noite",
 }
-TEXTO_Y = {"FundoMar": 1250}  # altura do texto quando o assunto fica no alto da imagem
+TEXTO_Y = {"ChoqueCarro": 1420, "FundoMar": 1250}  # altura do texto quando o assunto fica no alto da imagem
 CAPA_IMG = {  # escolhas manuais depois de conferir a folha
     "CeuAzul": "foto:CeuAzul_capa", "GatoEmPeIA": "clipe:GatoEmPeIA_3@4", "LugarChuva": "clipe:LugarChuva_1@1.5",
     "TrianguloBermudas": "foto:B_avenger", "FundoMar": "clipe:FundoMar_5@1.5", "ImasRepelem": "clipe:ImasRepelem_5@1.5",
     "CervejaGelo": "clipe:CervejaGelo_5@1.5", "AviaoCurva": "clipe:AviaoCurva_5@1.5", "RastroAviao": "clipe:RastroAviao_3@1.5",
     "MetalGelado": "clipe:MetalGelado_5@1.5", "Lua": "clipe:Lua_5@1.5", "Trovao": "clipe:Trovao_0@4",
     "CaminhaoFreio": "clipe:CaminhaoFreio_0@2", "AviaoAntartida": "foto:Aa_757",
+    "ChoqueCarro": "clipe:ChoqueCarro_3@2", "DesertoNoite": "clipe:DesertoNoite_3@3",
 }
 
 

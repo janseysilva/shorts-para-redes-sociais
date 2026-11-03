@@ -970,6 +970,27 @@ short("AviaoAntartida", "Por que os AVIÕES não voam sobre a ANTÁRTIDA? ✈️
     ("Por isso as rotas do sul dão a volta pelo oceano. Não é proibição: é física e segurança.", "As rotas CONTORNAM", ["CONTORNAM"], v("airplane above clouds")),
 ], pergunta="Você teria coragem de voar sobre a Antártida? 👇")
 
+# ---------- LEVA 25 (03/11): escolhidos pelo Jansey ("o short pode ser o item 15 e 19") ----------
+short("ChoqueCarro", "Por que você leva CHOQUE ao encostar no CARRO? ⚡ A física explica",
+      "O choque ao encostar no carro não é defeito do carro: quem está carregado é você. Quando você escorrega no banco para sair, o atrito entre a roupa e o tecido arranca elétrons e o corpo acumula carga elétrica, que pode passar de 10 mil volts. Quando o dedo chega perto do metal, essa carga pula de uma vez, numa faísca. Não machuca porque a corrente é minúscula e dura menos de um milionésimo de segundo. No tempo seco é pior, porque a umidade do ar ajuda a carga a escapar aos poucos. A dica: ao sair do carro, segure a parte de metal da porta antes de pôr o pé no chão, e a carga escoa sem faísca! #fisica #choque #carro #eletricidade #curiosidades",
+      "⚡", "Quem está carregado é você.", [
+    ("Você encosta na porta do carro e leva um choque. Mas o carro não tem defeito: quem está carregado é você.", "O choque vem de VOCÊ", ["VOCÊ"], v("car door handle")),
+    ("Quando você escorrega no banco para sair, o atrito com a roupa arranca elétrons, e o corpo fica cheio de carga elétrica.", "O ATRITO te carrega", ["ATRITO"], {"busca": "car seat", "foto": "Cc_ia_atrito", "ia": True}),
+    ("Essa carga pode passar de dez mil volts. Quando o dedo chega perto do metal, ela pula de uma vez, numa faísca.", "Mais de 10 MIL volts", ["10 MIL"], {"busca": "static electricity spark", "foto": "Cc_ia_faisca", "ia": True}),
+    ("E não machuca porque a corrente é minúscula e dura menos de um milionésimo de segundo.", "Dura um MILIONÉSIMO", ["MILIONÉSIMO"], v("hand touching car")),
+    ("No tempo seco é pior. A dica: ao sair, segure a parte de metal da porta antes de pôr o pé no chão.", "Segure o METAL", ["METAL"], v("getting out of car")),
+], pergunta="Você também leva choque no carro ou na porta? 👇")
+
+short("DesertoNoite", "Por que o DESERTO é quente de dia e GELADO à noite? 🏜️🥶 A física explica",
+      "No deserto, de dia pode passar de 40 graus e, à noite, a temperatura despenca. O segredo é a água: o ar do deserto é seco demais, quase sem vapor de água e sem nuvens. O vapor de água funciona como um cobertor, que segura o calor perto do chão. Sem ele, à noite o calor do solo escapa direto para o espaço. E a areia esquenta rápido, mas esfria rápido também, enquanto a água dos lugares úmidos guarda calor por muito mais tempo. Por isso a diferença entre o dia e a noite no deserto pode chegar a 30 graus. Em Manaus, com o ar úmido, a noite quase não refresca! #fisica #deserto #clima #curiosidades #ciencia",
+      "🏜️", "Sem água no ar, o calor foge.", [
+    ("No deserto, de dia passa de quarenta graus. E à noite, você treme de frio. Como pode?", "Quente de dia, GELADO à noite", ["GELADO"], v("sahara desert dunes")),
+    ("O segredo é a água. O ar do deserto é seco demais, quase sem vapor e sem nuvens.", "Quase SEM ÁGUA no ar", ["SEM ÁGUA"], v("desert clear blue sky")),
+    ("O vapor de água é um cobertor que segura o calor. Sem ele, à noite o calor foge para o espaço.", "Sem o COBERTOR", ["COBERTOR"], {"busca": "desert night", "foto": "Dn_ia_cobertor", "ia": True}),
+    ("E a areia esquenta rápido, mas também esfria rápido.", "A areia ESFRIA rápido", ["ESFRIA"], v("sand dunes sunset")),
+    ("Por isso a diferença chega a trinta graus num só dia. Em Manaus, com o ar úmido, a noite quase não refresca.", "Até 30 GRAUS de diferença", ["30"], v("desert night stars")),
+], pergunta="Você aguentaria uma noite no deserto? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

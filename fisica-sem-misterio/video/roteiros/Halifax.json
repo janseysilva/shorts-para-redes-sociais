@@ -1,0 +1,339 @@
+{
+ "id": "Halifax",
+ "longo": true,
+ "titulo": "Um NAVIO cheio de EXPLOSIVOS destruiu uma CIDADE inteira 💥 Halifax, 1917 (a física da explosão)",
+ "descricao": "Em 6 de dezembro de 1917, um navio carregado com quase 3 mil toneladas de explosivos bateu em outro na entrada do porto de Halifax, no Canadá. Vinte minutos depois aconteceu a maior explosão já causada pelo ser humano antes da bomba atômica. Neste vídeo, a física por trás dela: a onda de choque mais rápida que o som, os vidros que cegaram centenas de pessoas, a âncora que voou 3 km, o tsunami no porto e o telegrafista que ficou no posto para salvar um trem.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Esta nuvem não é de uma bomba atômica. Ela foi fotografada em mil novecentos e dezessete, quase trinta anos antes da primeira bomba atômica.",
+     "busca": "explosion smoke",
+     "desde": 0,
+     "foto": "Hx_nuvem",
+     "legenda": "A nuvem da explosão de Halifax, 6 de dezembro de 1917"
+    },
+    {
+     "frase": "Ela saiu de um navio. Um navio de carga que explodiu dentro de um porto e destruiu um bairro inteiro em menos de um segundo.",
+     "busca": "harbor ships old",
+     "desde": 0,
+     "foto": "Hx_ruinas1",
+     "legenda": "O bairro de Richmond depois da explosão, 1917"
+    },
+    {
+     "frase": "Neste vídeo, a física da maior explosão já causada pelo ser humano antes da era atômica. E a história do homem que ficou no posto para salvar um trem.",
+     "busca": "old telegraph",
+     "desde": 0,
+     "foto": "Hx_herald",
+     "legenda": "Capa do jornal Halifax Herald sobre a explosão"
+    }
+   ]
+  },
+  {
+   "titulo": "O navio mais perigoso do mundo",
+   "cenas": [
+    {
+     "frase": "Dezembro de mil novecentos e dezessete. O mundo está na Primeira Guerra Mundial, e o porto de Halifax, no Canadá, é por onde passam navios, soldados e munição para a Europa.",
+     "busca": "harbor city winter",
+     "desde": 0,
+     "foto": "Hx_globe",
+     "legenda": "O porto de Halifax no mapa do Boston Daily Globe, 8/12/1917"
+    },
+    {
+     "frase": "Na manhã do dia seis, o cargueiro francês Mont-Blanc entra no porto. Nos porões, quase três mil toneladas de explosivos: ácido pícrico, TNT e algodão-pólvora.",
+     "busca": "cargo ship old",
+     "desde": 0,
+     "foto": "Hx_montblanc",
+     "legenda": "O cargueiro francês Mont-Blanc"
+    },
+    {
+     "frase": "E no convés, barris de benzol, um combustível que pega fogo com facilidade. Era, literalmente, uma bomba flutuante.",
+     "busca": "barrels ship deck",
+     "desde": 0,
+     "foto": "Hx_ia_barris",
+     "ia": true,
+     "legenda": "Barris de benzol no convés do Mont-Blanc"
+    }
+   ]
+  },
+  {
+   "titulo": "A batida",
+   "cenas": [
+    {
+     "frase": "Na parte mais estreita do porto, o Mont-Blanc cruza com o navio norueguês Imo, que vinha saindo. Às oito e quarenta e cinco, os dois se batem.",
+     "busca": "ships narrow channel",
+     "desde": 0,
+     "foto": "Hx_ia_batida",
+     "ia": true,
+     "legenda": "O Imo e o Mont-Blanc se batendo, 8h45"
+    },
+    {
+     "frase": "A batida foi devagar, quase na velocidade de uma pessoa andando. Mas as faíscas do metal raspando acenderam o vapor do benzol, e o convés pegou fogo.",
+     "busca": "ship fire smoke",
+     "desde": 0,
+     "foto": "Hx_ia_fogo",
+     "ia": true,
+     "legenda": "As faíscas acendem o vapor do benzol"
+    },
+    {
+     "frase": "A tripulação sabia o que tinha nos porões. Pularam nos botes e remaram com toda a força para a outra margem. Quase todos sobreviveram.",
+     "busca": "rowing boat sea",
+     "desde": 0,
+     "clipe": "Halifax_8"
+    },
+    {
+     "frase": "O navio em chamas, sem ninguém a bordo, ficou à deriva e encostou num cais do bairro de Richmond. E a fumaça preta atraiu os curiosos.",
+     "busca": "ship burning harbor",
+     "desde": 0,
+     "foto": "Hx_ia_deriva",
+     "ia": true,
+     "legenda": "O Mont-Blanc em chamas encosta num cais de Richmond"
+    },
+    {
+     "frase": "Gente parou na rua, nos morros e nas janelas para ver o incêndio. Quase ninguém sabia que aquilo era um depósito de explosivos.",
+     "busca": "people watching window",
+     "desde": 0,
+     "foto": "Hx_ia_janela",
+     "ia": true,
+     "legenda": "Moradores olhando o incêndio pela janela"
+    }
+   ]
+  },
+  {
+   "titulo": "Nove horas, quatro minutos",
+   "cenas": [
+    {
+     "frase": "Às nove horas, quatro minutos e trinta e cinco segundos, vinte minutos depois da batida, o Mont-Blanc explodiu.",
+     "busca": "explosion",
+     "desde": 0,
+     "clipe": "Halifax_11"
+    },
+    {
+     "frase": "Num explosivo, a energia está guardada nas ligações químicas. Quando ele detona, a reação corre pelo material a milhares de metros por segundo e vira gás quente de uma vez.",
+     "busca": "chemistry reaction",
+     "desde": 0,
+     "foto": "Hx_ia_ligacoes",
+     "ia": true,
+     "legenda": "A energia guardada nas ligações químicas vira gás quente"
+    },
+    {
+     "frase": "O centro chegou a uns cinco mil graus. E a energia liberada foi de quase três mil toneladas de TNT: perto de um sétimo da bomba de Hiroshima.",
+     "busca": "fireball",
+     "desde": 0,
+     "clipe": "Halifax_13"
+    },
+    {
+     "frase": "O navio, de quase cem metros de aço, simplesmente se despedaçou.",
+     "busca": "metal pieces",
+     "desde": 0,
+     "foto": "Hx_imo",
+     "legenda": "O Imo, jogado na margem pela explosão"
+    }
+   ]
+  },
+  {
+   "titulo": "A onda de choque",
+   "cenas": [
+    {
+     "frase": "O gás da explosão empurrou o ar em volta com uma força brutal. Esse empurrão viaja como uma parede de ar comprimido: a onda de choque.",
+     "busca": "shockwave dust",
+     "desde": 0,
+     "foto": "Hx_ia_onda",
+     "ia": true,
+     "legenda": "A onda de choque: uma parede de ar comprimido"
+    },
+    {
+     "frase": "Ela saiu a mais de mil metros por segundo, três vezes a velocidade do som. Por isso ninguém ouviu nada antes de ser atingido.",
+     "foto": "Hx_ia_som",
+     "ia": true,
+     "legenda": "Mais de 1.000 m/s: três vezes a velocidade do som"
+    },
+    {
+     "frase": "Num raio de quase um quilômetro, praticamente nada ficou de pé. Casas, fábricas, igrejas e escolas foram arrancadas do chão.",
+     "busca": "ruins destroyed buildings",
+     "desde": 0,
+     "foto": "Hx_porto",
+     "legenda": "O porto de Halifax depois da explosão, 1917"
+    },
+    {
+     "frase": "Mais de doze mil construções foram destruídas ou danificadas. E a explosão foi sentida a mais de duzentos quilômetros dali.",
+     "busca": "broken window glass",
+     "desde": 0,
+     "foto": "Hx_ruinas2",
+     "legenda": "Casas destruídas em Halifax, dezembro de 1917"
+    }
+   ]
+  },
+  {
+   "titulo": "Os vidros",
+   "cenas": [
+    {
+     "frase": "Lembra das pessoas que olhavam o incêndio pela janela? A onda de choque estilhaçou o vidro bem na frente do rosto delas.",
+     "busca": "shattered glass slow motion",
+     "desde": 0,
+     "clipe": "Halifax_19"
+    },
+    {
+     "frase": "Centenas de pessoas ficaram cegas ou perderam um olho. Os médicos tiveram que remover duzentos e quarenta e nove olhos.",
+     "busca": "old hospital",
+     "desde": 0,
+     "foto": "Hx_registro",
+     "legenda": "Sobreviventes se cadastrando para receber ajuda, 1917"
+    },
+    {
+     "frase": "Foi uma tragédia tão grande que ajudou a mudar o tratamento de ferimentos nos olhos no Canadá.",
+     "busca": "eye doctor",
+     "desde": 0,
+     "clipe": "Halifax_21"
+    }
+   ]
+  },
+  {
+   "titulo": "Pedaços do navio no céu",
+   "cenas": [
+    {
+     "frase": "A força jogou pedaços do Mont-Blanc a quilômetros de distância. Um pedaço da âncora, com mais de quinhentos quilos, caiu a três quilômetros do porto.",
+     "busca": "ship anchor",
+     "desde": 0,
+     "foto": "Hx_ancora",
+     "legenda": "O pedaço da âncora do Mont-Blanc onde caiu, a 3 km do porto"
+    },
+    {
+     "frase": "Um dos canhões do navio foi parar a mais de cinco quilômetros, do outro lado da baía.",
+     "busca": "old cannon",
+     "desde": 0,
+     "clipe": "Halifax_23"
+    },
+    {
+     "frase": "E a nuvem de fumaça subiu mais de três quilômetros e meio, em forma de cogumelo, como a das bombas atômicas.",
+     "busca": "smoke cloud sky",
+     "desde": 0,
+     "foto": "Hx_nuvem",
+     "legenda": "A nuvem em forma de cogumelo, 6 de dezembro de 1917"
+    }
+   ]
+  },
+  {
+   "titulo": "O tsunami",
+   "cenas": [
+    {
+     "frase": "A explosão também empurrou a água do porto para todos os lados, como uma pedra gigante caindo numa poça.",
+     "busca": "water splash slow motion",
+     "desde": 0,
+     "foto": "Hx_ia_tsunami",
+     "ia": true,
+     "legenda": "A explosão empurra a água do porto"
+    },
+    {
+     "frase": "Formou-se uma onda que subiu até dezoito metros acima da maré alta e invadiu a margem, arrastando gente e destroços.",
+     "busca": "big wave harbor",
+     "desde": 0,
+     "foto": "Hx_ruinas3",
+     "legenda": "Destruição na margem do porto, 1917"
+    }
+   ]
+  },
+  {
+   "titulo": "O herói do telégrafo",
+   "cenas": [
+    {
+     "frase": "Na estação de trem perto do cais, o telegrafista Vince Coleman soube do perigo. Ele podia ter fugido.",
+     "busca": "old train station",
+     "desde": 0,
+     "clipe": "Halifax_27"
+    },
+    {
+     "frase": "Mas um trem de passageiros estava chegando à cidade. Ele ficou no posto e mandou a mensagem: segurem o trem, navio de munição pegando fogo no porto, vai explodir.",
+     "busca": "telegraph key",
+     "desde": 0,
+     "foto": "Hx_coleman",
+     "legenda": "Vince Coleman, o telegrafista"
+    },
+    {
+     "frase": "O aviso fez os trens pararem antes de chegar. Vince Coleman morreu na explosão, no posto de trabalho.",
+     "busca": "steam train",
+     "desde": 0,
+     "clipe": "Halifax_29"
+    }
+   ]
+  },
+  {
+   "titulo": "A nevasca e a ajuda",
+   "cenas": [
+    {
+     "frase": "Cerca de duas mil pessoas morreram e nove mil ficaram feridas. E no dia seguinte, caiu uma nevasca de mais de quarenta centímetros sobre a cidade destruída.",
+     "busca": "snow storm city",
+     "desde": 0,
+     "foto": "Hx_ruinas4",
+     "legenda": "Trabalhadores na área destruída, 1917"
+    },
+    {
+     "frase": "A ajuda veio de longe. A cidade americana de Boston mandou um trem com médicos, enfermeiras e remédios, que atravessou a neve.",
+     "busca": "snow train",
+     "desde": 0,
+     "clipe": "Halifax_31"
+    },
+    {
+     "frase": "E até hoje, todo ano, Halifax manda para Boston uma árvore de Natal gigante. Um obrigado que já dura mais de cem anos.",
+     "busca": "christmas tree city",
+     "desde": 0,
+     "foto": "Hx_natal",
+     "legenda": "Festa de Natal para as crianças de Halifax depois da tragédia, 1917"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Um navio, quase três mil toneladas de explosivos e vinte minutos de incêndio. A física da onda de choque explica cada pedaço dessa tragédia.",
+     "busca": "harbor sunset",
+     "desde": 0,
+     "clipe": "Halifax_33"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já tinha ouvido falar da explosão de Halifax?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Esta nuvem não é de uma bomba atômica. Ela foi fotografada em mil novecentos e dezessete, quase trinta anos antes da primeira bomba atômica.",
+  "Ela saiu de um navio. Um navio de carga que explodiu dentro de um porto e destruiu um bairro inteiro em menos de um segundo.",
+  "Neste vídeo, a física da maior explosão já causada pelo ser humano antes da era atômica. E a história do homem que ficou no posto para salvar um trem.",
+  "Dezembro de mil novecentos e dezessete. O mundo está na Primeira Guerra Mundial, e o porto de Halifax, no Canadá, é por onde passam navios, soldados e munição para a Europa.",
+  "Na manhã do dia seis, o cargueiro francês Mont-Blanc entra no porto. Nos porões, quase três mil toneladas de explosivos: ácido pícrico, TNT e algodão-pólvora.",
+  "E no convés, barris de benzol, um combustível que pega fogo com facilidade. Era, literalmente, uma bomba flutuante.",
+  "Na parte mais estreita do porto, o Mont-Blanc cruza com o navio norueguês Imo, que vinha saindo. Às oito e quarenta e cinco, os dois se batem.",
+  "A batida foi devagar, quase na velocidade de uma pessoa andando. Mas as faíscas do metal raspando acenderam o vapor do benzol, e o convés pegou fogo.",
+  "A tripulação sabia o que tinha nos porões. Pularam nos botes e remaram com toda a força para a outra margem. Quase todos sobreviveram.",
+  "O navio em chamas, sem ninguém a bordo, ficou à deriva e encostou num cais do bairro de Richmond. E a fumaça preta atraiu os curiosos.",
+  "Gente parou na rua, nos morros e nas janelas para ver o incêndio. Quase ninguém sabia que aquilo era um depósito de explosivos.",
+  "Às nove horas, quatro minutos e trinta e cinco segundos, vinte minutos depois da batida, o Mont-Blanc explodiu.",
+  "Num explosivo, a energia está guardada nas ligações químicas. Quando ele detona, a reação corre pelo material a milhares de metros por segundo e vira gás quente de uma vez.",
+  "O centro chegou a uns cinco mil graus. E a energia liberada foi de quase três mil toneladas de TNT: perto de um sétimo da bomba de Hiroshima.",
+  "O navio, de quase cem metros de aço, simplesmente se despedaçou.",
+  "O gás da explosão empurrou o ar em volta com uma força brutal. Esse empurrão viaja como uma parede de ar comprimido: a onda de choque.",
+  "Ela saiu a mais de mil metros por segundo, três vezes a velocidade do som. Por isso ninguém ouviu nada antes de ser atingido.",
+  "Num raio de quase um quilômetro, praticamente nada ficou de pé. Casas, fábricas, igrejas e escolas foram arrancadas do chão.",
+  "Mais de doze mil construções foram destruídas ou danificadas. E a explosão foi sentida a mais de duzentos quilômetros dali.",
+  "Lembra das pessoas que olhavam o incêndio pela janela? A onda de choque estilhaçou o vidro bem na frente do rosto delas.",
+  "Centenas de pessoas ficaram cegas ou perderam um olho. Os médicos tiveram que remover duzentos e quarenta e nove olhos.",
+  "Foi uma tragédia tão grande que ajudou a mudar o tratamento de ferimentos nos olhos no Canadá.",
+  "A força jogou pedaços do Mont-Blanc a quilômetros de distância. Um pedaço da âncora, com mais de quinhentos quilos, caiu a três quilômetros do porto.",
+  "Um dos canhões do navio foi parar a mais de cinco quilômetros, do outro lado da baía.",
+  "E a nuvem de fumaça subiu mais de três quilômetros e meio, em forma de cogumelo, como a das bombas atômicas.",
+  "A explosão também empurrou a água do porto para todos os lados, como uma pedra gigante caindo numa poça.",
+  "Formou-se uma onda que subiu até dezoito metros acima da maré alta e invadiu a margem, arrastando gente e destroços.",
+  "Na estação de trem perto do cais, o telegrafista Vince Coleman soube do perigo. Ele podia ter fugido.",
+  "Mas um trem de passageiros estava chegando à cidade. Ele ficou no posto e mandou a mensagem: segurem o trem, navio de munição pegando fogo no porto, vai explodir.",
+  "O aviso fez os trens pararem antes de chegar. Vince Coleman morreu na explosão, no posto de trabalho.",
+  "Cerca de duas mil pessoas morreram e nove mil ficaram feridas. E no dia seguinte, caiu uma nevasca de mais de quarenta centímetros sobre a cidade destruída.",
+  "A ajuda veio de longe. A cidade americana de Boston mandou um trem com médicos, enfermeiras e remédios, que atravessou a neve.",
+  "E até hoje, todo ano, Halifax manda para Boston uma árvore de Natal gigante. Um obrigado que já dura mais de cem anos.",
+  "Um navio, quase três mil toneladas de explosivos e vinte minutos de incêndio. A física da onda de choque explica cada pedaço dessa tragédia.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você já tinha ouvido falar da explosão de Halifax?"
+ ]
+}
