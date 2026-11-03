@@ -26,6 +26,7 @@
   --aviso:#f1c76f; --aviso-fundo:#352a12; --sombra:rgba(0,0,0,.5); color-scheme:dark }
 
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html,body{margin:0}
 body{background:var(--bg);color:var(--tinta);font:15px/1.45 var(--f-ui)}
 .topo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;
@@ -75,6 +76,23 @@ label.tipo:has(input:checked) b{color:var(--acento)}
 .faixa{display:flex;gap:10px;align-items:flex-start;background:var(--aviso-fundo);color:var(--aviso);border-radius:9px;padding:9px 12px;font-size:13px;margin-top:12px}
 .faixa button{padding:4px 10px;font-size:12.5px;margin-left:auto;flex:none}
 
+.lista{display:flex;flex-direction:column;gap:8px;margin-top:12px;padding-bottom:14px;border-bottom:1px solid var(--linha)}
+.lista-topo{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.lista .dica{margin:0}
+.btn-arq{font:600 14px var(--f-ui);border-radius:8px;padding:9px 14px;cursor:pointer;background:var(--acento);color:var(--acento-tinta);border:1px solid var(--acento)}
+.btn-arq:has(+ .oculto:focus-visible){outline:2px solid var(--acento);outline-offset:2px}
+.oculto{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+.colar{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.busca{position:relative}
+.busca input{font-size:16px;padding:10px 12px}
+.busca input:disabled{opacity:.6}
+#resultados{position:absolute;left:0;right:0;top:100%;z-index:6;margin:4px 0 0;padding:4px;list-style:none;background:var(--painel);
+  border:1px solid var(--linha);border-radius:9px;box-shadow:0 10px 28px var(--sombra);max-height:340px;overflow:auto}
+#resultados li{display:flex;flex-direction:column;gap:1px;padding:8px 10px;border-radius:6px;cursor:pointer}
+#resultados li small{color:var(--suave);font-size:12.5px}
+#resultados li:hover,#resultados li[aria-selected="true"]{background:var(--acento-claro)}
+#resultados li.vazio{cursor:default;color:var(--suave)}
+#resultados mark{background:transparent;color:var(--acento);font-weight:700}
 .previa{min-width:0;display:flex;flex-direction:column;gap:12px;position:sticky;top:12px}
 @media (max-width:920px){.previa{position:static}}
 .previa-topo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:13px;color:var(--suave)}
@@ -154,45 +172,25 @@ label.tipo:has(input:checked) b{color:var(--acento)}
     </details>
 
     <section class="bloco">
-      <h2>2 · Tipo de declaração</h2>
-      <div class="tipos" id="tipos">
-        <label class="tipo"><input type="radio" name="tipo" value="matricula" checked><b>Matrícula</b><span>Está matriculado nesta escola</span></label>
-        <label class="tipo"><input type="radio" name="tipo" value="frequencia"><b>Frequência</b><span>Matriculado e frequentando, com %</span></label>
-        <label class="tipo"><input type="radio" name="tipo" value="transferencia"><b>Transferência</b><span>Pediu transferência; prazo do histórico</span></label>
-        <label class="tipo"><input type="radio" name="tipo" value="conclusao"><b>Conclusão</b><span>Concluiu o ano e foi aprovado</span></label>
-        <label class="tipo"><input type="radio" name="tipo" value="vaga"><b>Vaga</b><span>Há vaga para o aluno, com validade</span></label>
-        <label class="tipo"><input type="radio" name="tipo" value="comparecimento"><b>Comparecimento</b><span>Responsável esteve na escola (trabalho)</span></label>
+      <h2>2 · Aluno</h2>
+      <div class="lista">
+        <div class="lista-topo">
+          <label class="btn-arq" for="arqLista">Abrir lista de alunos (.txt)</label>
+          <input id="arqLista" type="file" accept=".txt,.csv,.tsv,text/plain" class="oculto">
+          <button type="button" id="btnColarLista">Colar lista</button>
+          <button type="button" id="btnEsquecer" hidden>Esquecer lista</button>
+        </div>
+        <p class="dica" id="listaInfo">Abra o arquivo do bloco de notas com os alunos para pesquisar pelo nome.</p>
+        <div id="colarLista" class="colar" hidden>
+          <textarea id="textoLista" placeholder="Cole aqui o conteúdo do bloco de notas (Ctrl+A, Ctrl+C no arquivo e Ctrl+V aqui)"></textarea>
+          <button type="button" class="prim" id="btnUsarLista">Usar esta lista</button>
+        </div>
+        <div class="busca">
+          <label class="campo"><span>Pesquisar aluno pelo nome</span>
+            <input id="busca" type="search" placeholder="Abra a lista primeiro" disabled role="combobox" aria-expanded="false" aria-controls="resultados" aria-autocomplete="list"></label>
+          <ul id="resultados" role="listbox" hidden></ul>
+        </div>
       </div>
-
-      <div class="grade">
-        <label class="campo c2 extra" data-tipos="frequencia" hidden><span>Frequência (%)</span><input id="freq" inputmode="decimal" value="95"></label>
-        <label class="campo c2 extra" data-tipos="frequencia" hidden><span>Período: de</span><input id="perIni" type="date"></label>
-        <label class="campo c2 extra" data-tipos="frequencia" hidden><span>até</span><input id="perFim" type="date"></label>
-
-        <label class="campo c3 extra" data-tipos="transferencia" hidden><span>Data do pedido</span><input id="dataTransf" type="date"></label>
-        <label class="campo c3 extra" data-tipos="transferencia" hidden><span>Situação do aluno</span>
-          <select id="situacao"><option value="cursando">Estava cursando</option><option value="aprovado">Aprovado(a)</option><option value="reprovado">Reprovado(a)</option><option value="">Não informar</option></select></label>
-        <label class="campo c4 extra" data-tipos="transferencia" hidden><span>Escola de destino (opcional)</span><input id="destino" placeholder="Nome da escola de destino"></label>
-        <label class="campo c2 extra" data-tipos="transferencia" hidden><span>Histórico em (dias)</span><input id="prazoHist" inputmode="numeric" value="30"></label>
-
-        <label class="campo c3 extra" data-tipos="conclusao" hidden><span>Resultado</span>
-          <select id="resultado"><option value="aprovado">Aprovado(a)</option><option value="aprovado pelo Conselho de Classe">Aprovado(a) pelo Conselho</option></select></label>
-        <label class="campo c3 extra" data-tipos="conclusao" hidden><span>Apto(a) a cursar</span><input id="proxima" placeholder="6º ano" list="listaSeries"></label>
-
-        <label class="campo c3 extra" data-tipos="vaga" hidden><span>Validade (dias)</span><input id="validade" inputmode="numeric" value="5"></label>
-
-        <label class="campo c6 extra" data-tipos="comparecimento" hidden><span>Nome do responsável</span><input id="respNome" placeholder="Nome completo"></label>
-        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>CPF (opcional)</span><input id="respCpf" inputmode="numeric" placeholder="000.000.000-00"></label>
-        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>Dia</span><input id="compData" type="date"></label>
-        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>Das</span><input id="horaIni" type="time" value="08:00"></label>
-        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>Às</span><input id="horaFim" type="time" value="10:00"></label>
-        <label class="campo c6 extra" data-tipos="comparecimento" hidden><span>Motivo</span><input id="motivo" value="reunião de pais e mestres" list="listaMotivos"></label>
-        <datalist id="listaMotivos"><option value="reunião de pais e mestres"><option value="atendimento com a equipe pedagógica"><option value="efetuar a matrícula do(a) estudante"><option value="entrega de boletim"><option value="atendimento com a gestão escolar"></datalist>
-      </div>
-    </section>
-
-    <section class="bloco">
-      <h2>3 · Aluno</h2>
       <div class="modo" role="group" aria-label="Quantidade de alunos">
         <button type="button" id="modoUm" aria-pressed="true">Um aluno</button>
         <button type="button" id="modoLote" aria-pressed="false">Vários (colar da planilha)</button>
@@ -232,6 +230,44 @@ label.tipo:has(input:checked) b{color:var(--acento)}
         <option value="6º ano"><option value="7º ano"><option value="8º ano"><option value="9º ano">
         <option value="1ª etapa"><option value="2ª etapa"><option value="3ª etapa"><option value="4ª etapa">
       </datalist>
+    </section>
+
+    <section class="bloco">
+      <h2>3 · Tipo de declaração</h2>
+      <div class="tipos" id="tipos">
+        <label class="tipo"><input type="radio" name="tipo" value="matricula" checked><b>Matrícula</b><span>Está matriculado nesta escola</span></label>
+        <label class="tipo"><input type="radio" name="tipo" value="frequencia"><b>Frequência</b><span>Matriculado e frequentando, com %</span></label>
+        <label class="tipo"><input type="radio" name="tipo" value="transferencia"><b>Transferência</b><span>Pediu transferência; prazo do histórico</span></label>
+        <label class="tipo"><input type="radio" name="tipo" value="conclusao"><b>Conclusão</b><span>Concluiu o ano e foi aprovado</span></label>
+        <label class="tipo"><input type="radio" name="tipo" value="vaga"><b>Vaga</b><span>Há vaga para o aluno, com validade</span></label>
+        <label class="tipo"><input type="radio" name="tipo" value="comparecimento"><b>Comparecimento</b><span>Responsável esteve na escola (trabalho)</span></label>
+      </div>
+
+      <div class="grade">
+        <label class="campo c2 extra" data-tipos="frequencia" hidden><span>Frequência (%)</span><input id="freq" inputmode="decimal" value="95"></label>
+        <label class="campo c2 extra" data-tipos="frequencia" hidden><span>Período: de</span><input id="perIni" type="date"></label>
+        <label class="campo c2 extra" data-tipos="frequencia" hidden><span>até</span><input id="perFim" type="date"></label>
+
+        <label class="campo c3 extra" data-tipos="transferencia" hidden><span>Data do pedido</span><input id="dataTransf" type="date"></label>
+        <label class="campo c3 extra" data-tipos="transferencia" hidden><span>Situação do aluno</span>
+          <select id="situacao"><option value="cursando">Estava cursando</option><option value="aprovado">Aprovado(a)</option><option value="reprovado">Reprovado(a)</option><option value="">Não informar</option></select></label>
+        <label class="campo c4 extra" data-tipos="transferencia" hidden><span>Escola de destino (opcional)</span><input id="destino" placeholder="Nome da escola de destino"></label>
+        <label class="campo c2 extra" data-tipos="transferencia" hidden><span>Histórico em (dias)</span><input id="prazoHist" inputmode="numeric" value="30"></label>
+
+        <label class="campo c3 extra" data-tipos="conclusao" hidden><span>Resultado</span>
+          <select id="resultado"><option value="aprovado">Aprovado(a)</option><option value="aprovado pelo Conselho de Classe">Aprovado(a) pelo Conselho</option></select></label>
+        <label class="campo c3 extra" data-tipos="conclusao" hidden><span>Apto(a) a cursar</span><input id="proxima" placeholder="6º ano" list="listaSeries"></label>
+
+        <label class="campo c3 extra" data-tipos="vaga" hidden><span>Validade (dias)</span><input id="validade" inputmode="numeric" value="5"></label>
+
+        <label class="campo c6 extra" data-tipos="comparecimento" hidden><span>Nome do responsável</span><input id="respNome" placeholder="Nome completo"></label>
+        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>CPF (opcional)</span><input id="respCpf" inputmode="numeric" placeholder="000.000.000-00"></label>
+        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>Dia</span><input id="compData" type="date"></label>
+        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>Das</span><input id="horaIni" type="time" value="08:00"></label>
+        <label class="campo c3 extra" data-tipos="comparecimento" hidden><span>Às</span><input id="horaFim" type="time" value="10:00"></label>
+        <label class="campo c6 extra" data-tipos="comparecimento" hidden><span>Motivo</span><input id="motivo" value="reunião de pais e mestres" list="listaMotivos"></label>
+        <datalist id="listaMotivos"><option value="reunião de pais e mestres"><option value="atendimento com a equipe pedagógica"><option value="efetuar a matrícula do(a) estudante"><option value="entrega de boletim"><option value="atendimento com a gestão escolar"></datalist>
+      </div>
     </section>
 
     <section class="bloco">
@@ -336,7 +372,10 @@ function alunos(){
 function curso(a, prep){
   const partes = [];
   if (a.serie) partes.push(prep+" "+esc(a.serie)+" "+(ETAPAS[a.etapa]||""));
-  else partes.push((prep==="no"?"na ":"a ")+(ETAPAS[a.etapa]||"").replace(/^d[ao] /,""));
+  else {
+    const e = ETAPAS[a.etapa] || "";
+    partes.push(prep==="no" ? e.replace(/^do /,"no ").replace(/^da /,"na ") : e.replace(/^do /,"o ").replace(/^da /,"a "));
+  }
   return partes.join("");
 }
 function turmaTurno(a){
@@ -500,6 +539,206 @@ $("logo").addEventListener("change", e => {
 });
 $("btnTirarLogo").addEventListener("click", () => { logoData = ""; guardar.gravar("decl.logo",""); $("logo").value=""; $("btnTirarLogo").hidden = true; render(); });
 
+/* ---------- lista de alunos (bloco de notas) ---------- */
+let LISTA = [];
+const semAcento = s => String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/\s+/g," ").trim();
+const PARTICULAS = ["da","de","do","das","dos","e","di","du"];
+function nomeProprio(s){
+  s = String(s||"").replace(/\s+/g," ").trim();
+  if (s !== s.toUpperCase() && s !== s.toLowerCase()) return s; // já está misturado: respeita
+  return s.toLowerCase().split(" ").map((w,i) => (i && PARTICULAS.includes(w)) ? w : w.charAt(0).toUpperCase()+w.slice(1)).join(" ");
+}
+function decodificar(buf){
+  let t;
+  try { t = new TextDecoder("utf-8",{fatal:true}).decode(buf); }
+  catch(e){ t = new TextDecoder("windows-1252").decode(buf); } // Bloco de Notas antigo (ANSI)
+  return t.replace(/^﻿/,"");
+}
+function campoDoTitulo(t){
+  const h = semAcento(t).replace(/[:.*#]/g,"").trim();
+  if (!h) return null;
+  if (/\bmae\b|filiacao ?1|genitora/.test(h)) return "mae";
+  if (/\bpai\b|filiacao ?2|genitor\b/.test(h)) return "pai";
+  if (/nasc|^dn$|^d n$/.test(h)) return "nasc";
+  if (/^(sexo|genero)$/.test(h)) return "sexo";
+  if (/turno/.test(h)) return "turno";
+  if (/^turma$/.test(h)) return "turma";
+  if (/etapa|ensino|modalidade|nivel|segmento/.test(h)) return "etapa";
+  if (/serie|^ano( escolar| de escolaridade| \/ ?serie)?$|^ano\/serie$|^periodo$|^grupo$/.test(h)) return "serie";
+  if (/matricula|codigo|^cod|^id$|^ra$|^n[oº]?$|^num/.test(h)) return "matricula";
+  if (/cpf|rg|endereco|telefone|fone|cel|responsavel|email|bairro|cep/.test(h)) return "outro";
+  if (/nome|aluno|aluna|estudante/.test(h)) return "nome";
+  return null;
+}
+function normalizar(a){
+  const r = { nome:nomeProprio(a.nome), sexo:"", nasc:"", mae:nomeProprio(a.mae), pai:nomeProprio(a.pai),
+    serie:"", etapa:"", turma:String(a.turma||"").trim(), turno:"", matricula:String(a.matricula||"").trim() };
+  const sx = semAcento(a.sexo).charAt(0); r.sexo = sx==="f" ? "F" : sx==="m" ? "M" : "";
+  const pd = partesData(a.nasc); if (pd) r.nasc = pd.a+"-"+String(pd.m).padStart(2,"0")+"-"+String(pd.d).padStart(2,"0");
+  let se = String(a.serie||"").trim();
+  se = se.replace(/^(\d{1,2})\s*[ºª°o.]?\s*(ano|serie|série)\b/i, "$1º ano")
+         .replace(/^(\d{1,2})\s*[ºª°o.]?\s*per[ií]odo\b/i, "$1º período")
+         .replace(/^(\d{1,2})\s*[ºª°a.]?\s*etapa\b/i, "$1ª etapa");
+  r.serie = se;
+  const tn = semAcento(a.turno);
+  r.turno = /matut|manha/.test(tn) ? "Matutino" : /vesp|tarde/.test(tn) ? "Vespertino" : /notur|noite/.test(tn) ? "Noturno" : /integ/.test(tn) ? "Integral" : "";
+  const et = semAcento(a.etapa);
+  r.etapa = /infantil|creche|pre/.test(et) ? "ei" : /eja|jovens/.test(et) ? "eja" : /finais/.test(et) ? "eff" : /iniciais/.test(et) ? "efi" : (etapaDaSerie(r.serie) || "");
+  return r;
+}
+function adivinhar(celulas){
+  const a = {}, textos = [];
+  celulas.forEach(c => {
+    const s = semAcento(c); if (!s) return;
+    if (!a.nasc && partesData(c)) a.nasc = c;
+    else if (!a.sexo && /^(m|f|masc|fem|masculino|feminino)$/.test(s)) a.sexo = c;
+    else if (!a.turno && /^(matutino|vespertino|noturno|integral|manha|tarde|noite)$/.test(s)) a.turno = c;
+    else if (!a.serie && /^\d{1,2}\s*[ºª°o.]?\s*(ano|periodo|etapa|serie)/.test(s)) a.serie = c;
+    else if (/^\d{3}\.?\d{3}\.?\d{3}-?\d{2}$/.test(s)) {}            // CPF: ignora
+    else if (!a.matricula && /^\d{5,}$/.test(s)) a.matricula = c;
+    else if (!a.turma && /^[a-z0-9]{1,4}$/i.test(c.trim())) a.turma = c;
+    else if (!a.etapa && /infantil|fundamental|eja|jovens e adultos/.test(s)) a.etapa = c;
+    else textos.push(c);
+  });
+  [a.nome, a.mae, a.pai] = textos;
+  return a;
+}
+function lerLista(texto){
+  const linhas = texto.split(/\r?\n/);
+  const cheias = linhas.filter(l => l.trim());
+  if (!cheias.length) return [];
+
+  // formato em blocos:  Nome: Fulano / Mãe: Beltrana / (linha em branco)
+  const comChave = cheias.filter(l => /^\s*[^:\t;|]{2,40}:\s*\S/.test(l) && campoDoTitulo(l.split(":")[0]));
+  if (comChave.length >= cheias.length*0.6 && comChave.some(l => campoDoTitulo(l.split(":")[0])==="nome")){
+    const lista = []; let atual = {};
+    const fecha = () => { if (atual.nome) lista.push(atual); atual = {}; };
+    linhas.forEach(l => {
+      if (!l.trim()){ fecha(); return; }
+      const k = l.indexOf(":"); if (k<0) return;
+      const campo = campoDoTitulo(l.slice(0,k)); const v = l.slice(k+1).trim();
+      if (!campo || campo==="outro") return;
+      if (campo==="nome" && atual.nome) fecha();
+      if (!atual[campo]) atual[campo] = v;
+    });
+    fecha();
+    return lista.map(normalizar).filter(a => a.nome);
+  }
+
+  // formato em colunas
+  const maioria = re => cheias.filter(l => re.test(l)).length >= cheias.length*0.6;
+  let sep = maioria(/\t/) ? /\t/ : maioria(/;/) ? /;/ : maioria(/\|/) ? /\|/ : maioria(/\S {2,}\S/) ? / {2,}/ : maioria(/,/) ? /,/ : null;
+  const partir = l => sep ? l.split(sep).map(c => c.trim().replace(/^"(.*)"$/,"$1").trim()) : [l.trim()];
+  let corpo = cheias.map(partir);
+  if (sep && sep.source==="\\|") corpo = corpo.map(c => (c[0]==="" ? c.slice(1) : c)).map(c => (c[c.length-1]==="" ? c.slice(0,-1) : c));
+  corpo = corpo.filter(c => !c.every(x => /^[-=+_ ]*$/.test(x))); // linhas de traços
+
+  const titulos = corpo[0].map(campoDoTitulo);
+  const temTitulo = titulos.includes("nome") || titulos.filter(Boolean).length >= 2;
+  if (temTitulo){
+    return corpo.slice(1).map(c => {
+      const a = {}; titulos.forEach((t,i) => { if (t && t!=="outro" && !a[t] && c[i]) a[t] = c[i]; });
+      if (!titulos.includes("nome")) a.nome = c[0];
+      return normalizar(a);
+    }).filter(a => a.nome);
+  }
+  return corpo.map(c => normalizar(adivinhar(c))).filter(a => a.nome && a.nome.length > 2);
+}
+
+function usarLista(texto, origem, silencioso){
+  const lista = lerLista(texto);
+  if (!lista.length){ aviso("Não encontrei nomes de alunos nesse texto."); return false; }
+  LISTA = lista.map(a => ({...a, chave: semAcento(a.nome)}));
+  LISTA.sort((x,y) => x.chave.localeCompare(y.chave));
+  guardar.gravar("decl.lista", {texto, origem});
+  const campos = ["nasc","mae","serie","turma","turno"].filter(k => LISTA.some(a => a[k]));
+  const nomesCampos = {nasc:"nascimento", mae:"mãe", serie:"ano", turma:"turma", turno:"turno"};
+  $("listaInfo").textContent = LISTA.length+" aluno(s) carregado(s)"+(origem?" de "+origem:"")
+    + (campos.length ? ". Encontrei: nome, "+campos.map(k=>nomesCampos[k]).join(", ")+"." : ". Só encontrei os nomes.");
+  $("busca").disabled = false; $("busca").placeholder = "Digite parte do nome do aluno";
+  $("btnEsquecer").hidden = false; $("colarLista").hidden = true;
+  if (!silencioso){ aviso(LISTA.length+" alunos na lista."); $("busca").focus(); }
+  return true;
+}
+function esquecerLista(){
+  LISTA = []; guardar.gravar("decl.lista", null);
+  $("listaInfo").textContent = "Abra o arquivo do bloco de notas com os alunos para pesquisar pelo nome.";
+  $("busca").value = ""; $("busca").disabled = true; $("busca").placeholder = "Abra a lista primeiro";
+  $("btnEsquecer").hidden = true; fecharResultados();
+}
+$("arqLista").addEventListener("change", e => {
+  const arq = e.target.files[0]; if (!arq) return;
+  arq.arrayBuffer().then(buf => usarLista(decodificar(buf), arq.name)).catch(() => aviso("Não consegui abrir esse arquivo."));
+  e.target.value = "";
+});
+$("btnColarLista").addEventListener("click", () => { $("colarLista").hidden = !$("colarLista").hidden; if (!$("colarLista").hidden) $("textoLista").focus(); });
+$("btnUsarLista").addEventListener("click", () => { if (usarLista($("textoLista").value, "")) $("textoLista").value = ""; });
+$("btnEsquecer").addEventListener("click", esquecerLista);
+
+/* pesquisa */
+let achados = [], marcado = -1;
+function destacar(nome, termos){
+  let h = esc(nome);
+  const base = semAcento(nome);
+  // marca o primeiro trecho de cada termo (posições iguais porque semAcento preserva o tamanho das letras)
+  const marcas = [];
+  termos.forEach(t => { const i = base.indexOf(t); if (i>=0) marcas.push([i, i+t.length]); });
+  if (!marcas.length || base.length !== nome.length) return h;
+  marcas.sort((a,b) => a[0]-b[0]);
+  let out = "", pos = 0;
+  marcas.forEach(([i,f]) => { if (i < pos) return; out += esc(nome.slice(pos,i))+"<mark>"+esc(nome.slice(i,f))+"</mark>"; pos = f; });
+  return out + esc(nome.slice(pos));
+}
+function pesquisar(){
+  const q = semAcento($("busca").value);
+  const caixa = $("resultados");
+  if (!q || !LISTA.length){ fecharResultados(); return; }
+  const termos = q.split(" ").filter(Boolean);
+  achados = LISTA.filter(a => termos.every(t => a.chave.includes(t)));
+  achados.sort((x,y) => (y.chave.startsWith(q) - x.chave.startsWith(q)) || x.chave.localeCompare(y.chave));
+  achados = achados.slice(0, 60);
+  marcado = achados.length ? 0 : -1;
+  caixa.innerHTML = achados.length
+    ? achados.map((a,i) => '<li role="option" id="op'+i+'" data-i="'+i+'" aria-selected="'+(i===marcado)+'"><span>'+destacar(a.nome, termos)+'</span><small>'
+        + esc([a.serie && a.serie+(a.turma?" "+a.turma:""), !a.serie && a.turma && "Turma "+a.turma, a.turno, a.nasc && "nasc. "+dataBR(a.nasc)].filter(Boolean).join(" · ") || "sem outros dados")+'</small></li>').join("")
+    : '<li class="vazio">Nenhum aluno com esse nome na lista.</li>';
+  caixa.hidden = false; $("busca").setAttribute("aria-expanded","true");
+}
+function fecharResultados(){ $("resultados").hidden = true; $("busca").setAttribute("aria-expanded","false"); }
+function marcar(i){
+  if (!achados.length) return;
+  marcado = (i + achados.length) % achados.length;
+  [...$("resultados").children].forEach((li,j) => li.setAttribute("aria-selected", String(j===marcado)));
+  const li = $("op"+marcado); if (li) li.scrollIntoView({block:"nearest"});
+}
+function escolher(a){
+  if (!a) return;
+  if (modoLote) definirModo(false);
+  $("nome").value = a.nome; $("sexo").value = a.sexo; $("nasc").value = a.nasc;
+  $("mae").value = a.mae; $("pai").value = a.pai;
+  $("serie").value = a.serie; $("turma").value = a.turma;
+  if (a.turno) $("turno").value = a.turno;
+  if (a.etapa) $("etapa").value = a.etapa;
+  $("faixaExemplo").hidden = true; $("faixaExemplo").dataset.fechada = "1";
+  $("busca").value = a.nome; fecharResultados();
+  render();
+  const faltam = [!a.sexo && "sexo", !a.serie && "ano", !a.nasc && "nascimento"].filter(Boolean);
+  aviso(faltam.length ? "Confira: faltou "+faltam.join(", ")+" na lista." : "Pronto: declaração de "+a.nome.split(" ")[0]+".");
+}
+$("busca").addEventListener("input", e => { e.stopPropagation(); pesquisar(); });
+$("busca").addEventListener("focus", () => { if ($("busca").value) pesquisar(); });
+$("busca").addEventListener("keydown", e => {
+  if (e.key==="ArrowDown"){ e.preventDefault(); if ($("resultados").hidden) pesquisar(); else marcar(marcado+1); }
+  else if (e.key==="ArrowUp"){ e.preventDefault(); marcar(marcado-1); }
+  else if (e.key==="Enter"){ e.preventDefault(); if (!$("resultados").hidden) escolher(achados[marcado]); }
+  else if (e.key==="Escape"){ fecharResultados(); }
+});
+$("resultados").addEventListener("mousedown", e => {
+  const li = e.target.closest("li[data-i]"); if (!li) return;
+  e.preventDefault(); escolher(achados[+li.dataset.i]);
+});
+document.addEventListener("click", e => { if (!e.target.closest(".busca")) fecharResultados(); });
+
 /* ---------- eventos ---------- */
 const form = $("form");
 form.addEventListener("submit", e => e.preventDefault());
@@ -509,7 +748,7 @@ form.addEventListener("input", e => {
   if (["nome","nasc","mae","pai","sexo"].includes(e.target.id)) $("faixaExemplo").hidden = true;
   render();
 });
-form.addEventListener("change", render);
+form.addEventListener("change", e => { if (e.target.id!=="busca" && e.target.id!=="textoLista" && e.target.id!=="arqLista") render(); });
 $("editar").addEventListener("change", () => { $("dicaEditar").hidden = !$("editar").checked; render(); });
 
 function definirModo(lote){
@@ -599,6 +838,7 @@ window.addEventListener("resize", escalar);
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(escalar);
 
 carregar();
+(function(){ const l = guardar.ler("decl.lista"); if (l && l.texto) usarLista(l.texto, l.origem, true); })();
 render();
 })();
 </script>
