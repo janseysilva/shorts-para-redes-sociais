@@ -766,8 +766,7 @@ if (document.fonts && document.fonts.ready) document.fonts.ready.then(escalar);
 carregarEscola();
 const salva = guardar.ler("decl.lista");
 if (salva && salva.texto) usarLista(salva.texto, salva.origem, true);
-if (!guardar.ler("decl.escola")){ mostrar.anterior = "telaInicio"; mostrar("telaEscola"); }
-else mostrar("telaInicio");
+mostrar("telaInicio");
 })();
 </script>
 </body>
