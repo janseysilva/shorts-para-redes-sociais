@@ -1,6 +1,0 @@
-build/
-dist/
-__pycache__/
-*.pyc
-# dados de alunos nunca vão para o GitHub
-TXTALUNO*.txt
