@@ -1,4 +1,18 @@
-# Gerador de Declarações Escolares
+# Declarações Escolares
+
+## Programa do Windows (principal)
+`declaracoes_escolares.py`: mesma janela e mesmo visual do Frequência Inteligente (960×750, faixa azul, quadros numerados, botão verde).
+Lê o TXTALUNO da SEMED e guarda como banco de dados. Na tela, você pesquisa o aluno, escolhe o tipo e clica em **Gerar declaração**. O PDF (ou Word) abre pronto para imprimir.
+
+Gerar o executável e o instalador (no PC com Windows):
+```
+pip install -r requirements.txt
+python -m PyInstaller DeclaracoesEscolares.spec
+ISCC.exe instalador_declaracoes.iss
+```
+Guia de uso: `LEIA-ME.txt`. Os dados ficam em `%APPDATA%\Declaracoes Escolares` e nunca vão para o GitHub.
+
+## Versão de navegador (antiga)
 
 Abra `gerador-declaracoes.html` com dois cliques (Chrome, Edge ou Firefox). Não precisa instalar nada e funciona sem internet.
 
