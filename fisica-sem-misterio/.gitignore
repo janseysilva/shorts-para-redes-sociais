@@ -9,3 +9,8 @@ video/public/fotos_longo/
 video/public/fotos_short/
 video/capas/q_*.jpg
 video/ia_teste/
+video/fontes_titanic/*.webm
+video/fontes_titanic/q1912/
+video/fontes_titanic/qice/
+video/fontes_titanic/ia/
+video/fontes_titanic/folha_*.jpg

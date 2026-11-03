@@ -918,6 +918,58 @@ short("PiramidesPedras", "Como levantaram pedras de 2 TONELADAS nas pirâmides? 
     ("E um diário de papiro de um inspetor chamado Merer conta que muitas pedras chegavam de barco, pelo rio Nilo, até perto da obra.", "Vinham de BARCO", ["BARCO"], v("nile river boat")),
 ], pergunta="Qual outro mistério do Egito eu explico? 👇")
 
+# ---------- LEVA 23 (30/10): temas tirados das buscas do YouTube (pesquisa de 29/10, aprovada pelo Jansey) ----------
+short("PneuMurcha", "Por que o PNEU murcha sozinho, mesmo SEM FURO? 🛞 A física explica",
+      "Pneu sem furo também perde ar. A borracha parece sólida, mas é feita de moléculas compridas e emaranhadas, com espacinhos entre elas, e as moléculas do ar, empurradas pela pressão, vão atravessando a borracha aos poucos. Em média, um pneu perde de 1 a 3 libras por mês. E o frio piora: a cada 5 ou 6 graus a menos, o ar se contrai e a pressão cai cerca de 1 libra. Pneu murcho gasta mais combustível, esquenta mais e dura menos, então a dica é calibrar uma vez por mês, com o pneu frio! #fisica #carro #pneu #curiosidades #ciencia",
+      "🛞", "O ar atravessa a borracha.", [
+    ("Seu pneu está perdendo ar agora mesmo, sem nenhum furo. E não é defeito: o ar está atravessando a borracha.", "O ar ATRAVESSA a borracha", ["ATRAVESSA"], v("car tire")),
+    ("A borracha parece sólida, mas por dentro é um emaranhado de moléculas compridas, com espacinhos entre elas.", "A borracha tem ESPAÇOS", ["ESPAÇOS"], v("rubber tire close up")),
+    ("As moléculas do ar são minúsculas e, empurradas pela pressão, vão escapando por esses espaços, uma a uma. Um pneu perde de uma a três libras por mês.", "1 a 3 libras por MÊS", ["MÊS"], v("tire pressure gauge")),
+    ("E o frio piora: a cada cinco ou seis graus a menos, o ar lá dentro se contrai e a pressão cai mais uma libra.", "O FRIO murcha mais", ["FRIO"], v("car winter")),
+    ("Pneu murcho gasta mais combustível, esquenta e dura menos. Por isso a dica é calibrar uma vez por mês, com o pneu frio.", "Calibre TODO MÊS", ["TODO MÊS"], v("inflating car tire")),
+], pergunta="De quanto em quanto tempo você calibra o pneu? 👇")
+
+short("HelicopteroCauda", "Por que o HELICÓPTERO tem uma hélice no RABO? 🚁 A física explica",
+      "O motor do helicóptero gira a hélice grande para um lado. Pela terceira lei de Newton, a da ação e reação, o corpo do helicóptero é empurrado a girar para o lado contrário. A hélice pequena do rabo sopra ar de lado e segura o corpo no lugar. Com os pedais, o piloto muda a força dessa hélice e vira o nariz para a direita ou para a esquerda. Se ela para, o helicóptero começa a rodar como um pião. Por isso alguns helicópteros, como o Chinook, têm duas hélices grandes girando em sentidos contrários: uma cancela o giro da outra! #fisica #helicoptero #aviacao #curiosidades #ciencia",
+      "🚁", "Ação e reação no rabo.", [
+    ("Se essa hélice pequena do rabo parar, o helicóptero começa a rodar como um pião. E a culpa é de uma lei da física.", "Sem ela, vira um PIÃO", ["PIÃO"], v("helicopter tail rotor")),
+    ("O motor gira a hélice grande para um lado. E pela terceira lei de Newton, a da ação e reação, o corpo do helicóptero é empurrado a girar para o outro.", "Ação e REAÇÃO", ["REAÇÃO"], v("helicopter rotor blades")),
+    ("A hélice do rabo sopra ar de lado, como um braço empurrando a cauda, e segura o corpo no lugar.", "Ela EMPURRA de lado", ["EMPURRA"], v("helicopter flying")),
+    ("Com os pedais, o piloto muda a força dessa hélice. É assim que ele vira o nariz para a direita ou para a esquerda, parado no ar.", "Os PEDAIS viram o nariz", ["PEDAIS"], v("helicopter cockpit")),
+    ("Por isso alguns helicópteros, como o Chinook, têm duas hélices grandes girando em sentidos contrários. Uma cancela o giro da outra, e o rabo fica sem hélice.", "Duas hélices CONTRÁRIAS", ["CONTRÁRIAS"], v("chinook helicopter")),
+], pergunta="Você já andou de helicóptero? 👇")
+
+short("NavioLado", "Por que jogam o NAVIO DE LADO no mar e ele NÃO VIRA? 🚢 A física explica",
+      "Muitos estaleiros ficam em rios ou canais estreitos, onde não dá para descer o navio de frente. A solução é o lançamento lateral: o navio escorrega de lado por uma rampa, cai na água, inclina muito e levanta uma onda enorme. Isso acontece até aqui no Brasil, em estaleiros de Santa Catarina. Ele não vira porque o peso fica lá embaixo, com motores, tanques e lastro no fundo do casco, e quando ele inclina, o lado que afundou fica com mais água embaixo e é empurrado para cima com mais força. Esse empurrão gira o navio de volta, como um joão-bobo. Os engenheiros calculam essa inclinação antes de cada lançamento! #fisica #navio #engenharia #curiosidades #ciencia",
+      "🚢", "O peso embaixo endireita.", [
+    ("Esse navio não está tombando. É assim que ele entra na água pela primeira vez: jogado de lado.", "Ele NÃO está tombando", ["NÃO"], v("ship launch")),
+    ("Muitos estaleiros ficam em rios ou canais estreitos, onde não dá para descer o navio de frente. Então ele escorrega de lado, por uma rampa. Isso acontece até aqui no Brasil.", "Escorrega de LADO", ["LADO"], v("shipyard")),
+    ("Ele cai na água, inclina muito e levanta uma onda enorme. Parece que vai virar.", "Parece que vai VIRAR", ["VIRAR"], v("big wave splash")),
+    ("Mas o peso do navio fica lá embaixo: motores, tanques e lastro no fundo do casco. E quando ele inclina, a água empurra com mais força o lado que afundou.", "O peso fica EMBAIXO", ["EMBAIXO"], v("ship hull")),
+    ("Esse empurrão gira o navio de volta, como um joão-bobo. E os engenheiros calculam essa inclinação antes de cada lançamento.", "Volta como JOÃO-BOBO", ["JOÃO-BOBO"], v("cargo ship sea")),
+], pergunta="Você sabia que navio era lançado assim? 👇")
+
+# ---------- LEVA 24 (30/10): escolhidos pelo Jansey ("o do caminhão e o do avião na antártida") ----------
+short("CaminhaoFreio", "Por que o CAMINHÃO perde o FREIO na serra? 🚛🔥 A física explica",
+      "Caminhão sem freio na serra quase nunca é defeito: o freio cansa. Para frear, a lona ou a pastilha esfrega no tambor ou no disco e transforma o movimento em calor. Numa descida longa, segurando o caminhão o tempo todo, as peças podem passar de 400 graus. Quente demais, o material perde atrito e o tambor dilata e se afasta da lona: o pedal vai ao fundo e quase não segura. A energia de um bitrem carregado a 80 km/h daria para ferver mais de 30 litros de água. Por isso o motorista desce a serra engatado, usando o freio-motor, e se tudo falhar existe a área de escape, uma caixa de brita que freia o caminhão. #fisica #caminhao #freio #estrada #curiosidades",
+      "🚛", "O freio cansa de calor.", [
+    ("Caminhão sem freio na serra quase nunca é defeito. O freio cansou.", "Por que o FREIO acaba?", ["FREIO"], v("truck downhill mountain road")),
+    ("Para frear, a lona esfrega no tambor e o movimento vira calor. Numa descida longa, passa de quatrocentos graus.", "Mais de 400 GRAUS", ["400"], {"busca": "truck brakes", "foto": "Cf_ia_quente", "ia": True}),
+    ("Quente demais, a lona perde atrito e o tambor dilata. O pedal vai ao fundo e quase não segura.", "O freio PERDE a força", ["PERDE"], {"busca": "brake drum", "foto": "Cf_ia_tambor", "ia": True}),
+    ("A energia de um bitrem a oitenta por hora ferveria trinta litros de água. E tudo vira calor nas rodas.", "Ferveria 30 LITROS", ["30"], v("heavy truck highway")),
+    ("Por isso se desce a serra engatado, no freio-motor. E se falhar, a área de escape de brita segura o caminhão.", "A ÁREA DE ESCAPE", ["ESCAPE"], {"busca": "gravel road", "foto": "Cf_escape"}),
+], pergunta="Você já viu uma área de escape na estrada? 👇")
+
+short("AviaoAntartida", "Por que os AVIÕES não voam sobre a ANTÁRTIDA? ✈️🧊 A física explica",
+      "Não é proibido voar sobre a Antártida, mas quase nenhum voo comercial passa por lá. Aviões de dois motores só podem voar a um certo tempo de distância de um aeroporto onde consigam pousar numa emergência, e a Antártida tem pouquíssimas pistas, quase todas de gelo, sem estrutura para um avião de passageiros. Se o avião precisasse pousar lá, o frio pode chegar perto de 80 graus negativos no inverno, longe de qualquer resgate. E até o combustível sofre: o querosene de avião começa a congelar perto de 47 graus negativos, e a tripulação vigia a temperatura dele em rotas muito frias. Por isso as rotas do Hemisfério Sul contornam o continente pelo oceano! #fisica #aviao #antartida #aviacao #curiosidades",
+      "✈️", "A física manda contornar.", [
+    ("Quase nenhum avião passa por cima da Antártida. E não é proibido.", "Por que NINGUÉM voa aqui?", ["NINGUÉM"], {"busca": "antarctica aerial", "foto": "Aa_gelo"}),
+    ("Avião de dois motores precisa ficar perto de um aeroporto para emergências. E na Antártida quase não há pista.", "Quase NENHUMA pista", ["NENHUMA"], {"busca": "antarctica ice", "foto": "Aa_ia_rotas", "ia": True}),
+    ("As poucas são de gelo, e o frio chega perto de oitenta graus negativos, longe de qualquer resgate.", "Até -80 °C", ["-80"], {"busca": "antarctica runway", "foto": "Aa_757"}),
+    ("Até o combustível sofre: o querosene de avião começa a congelar perto de quarenta e sete graus negativos.", "O COMBUSTÍVEL congela", ["COMBUSTÍVEL"], {"busca": "airplane wing", "foto": "Aa_ia_tanque", "ia": True}),
+    ("Por isso as rotas do sul dão a volta pelo oceano. Não é proibição: é física e segurança.", "As rotas CONTORNAM", ["CONTORNAM"], v("airplane above clouds")),
+], pergunta="Você teria coragem de voar sobre a Antártida? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

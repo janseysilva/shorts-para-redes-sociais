@@ -1,0 +1,313 @@
+{
+ "id": "Titanic",
+ "longo": true,
+ "titulo": "Como o TITANIC afundou? 🚢 A física do naufrágio (minuto a minuto)",
+ "descricao": "Em abril de 1912, o navio que diziam ser praticamente inafundável afundou em 2 horas e 40 minutos. Neste vídeo, a física por trás do naufrágio: por que ninguém viu o iceberg, por que quase 90% do gelo fica escondido, os 37 segundos até a batida, o furo menor que uma porta, as paredes que não iam até o teto, por que o navio se partiu em dois e o que mudou no mar depois dele.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Abril de mil novecentos e doze. O maior navio do mundo parte da Inglaterra para Nova York, na sua primeira viagem.",
+     "busca": "old ship ocean",
+     "desde": 6,
+     "clipe": "TtFilme_doca",
+     "legenda": "Filmagem real, 1911-1912"
+    },
+    {
+     "frase": "Quatro dias depois, ele estava no fundo do mar. Em duas horas e quarenta minutos, um navio que diziam ser praticamente inafundável afundou.",
+     "busca": "ocean night",
+     "desde": 0,
+     "foto": "Tt_jornal",
+     "legenda": "Jornaleiro anunciando o desastre, abril de 1912"
+    },
+    {
+     "frase": "Neste vídeo, a física por trás do naufrágio: por que ninguém viu o iceberg, o furo pequeno que derrubou um gigante e por que o navio se partiu em dois.",
+     "busca": "deep sea dark",
+     "desde": 8,
+     "clipe": "TtNasa_2"
+    }
+   ]
+  },
+  {
+   "titulo": "O gigante inafundável",
+   "cenas": [
+    {
+     "frase": "O Titanic tinha duzentos e sessenta e nove metros, quase três campos de futebol. E boiava porque empurrava para o lado mais de cinquenta mil toneladas de água.",
+     "busca": "big ship sea",
+     "desde": 0,
+     "foto": "Tt_partida",
+     "legenda": "O Titanic deixando Southampton, 10 de abril de 1912"
+    },
+    {
+     "frase": "Para não afundar, o casco era dividido em dezesseis compartimentos, separados por paredes à prova d'água.",
+     "foto": "Tt_ia_comp",
+     "ia": true,
+     "legenda": "O casco dividido em 16 compartimentos"
+    },
+    {
+     "frase": "Se até quatro deles enchessem de água, o navio continuava boiando. Por isso, uma revista de engenharia da época o chamou de praticamente inafundável.",
+     "foto": "Tt_lancamento",
+     "legenda": "O casco pronto para o lançamento, Belfast, 1911"
+    },
+    {
+     "frase": "Ele levava vinte botes salva-vidas, com lugar para mil cento e setenta e oito pessoas. A bordo, estavam mais de duas mil e duzentas. E as regras da época permitiam isso.",
+     "busca": "lifeboat",
+     "desde": 0,
+     "foto": "Tt_bote",
+     "legenda": "Botes salva-vidas do Titanic, abril de 1912"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que ninguém viu o iceberg",
+   "cenas": [
+    {
+     "frase": "Na noite de catorze de abril, o navio seguia a uns quarenta quilômetros por hora. Outros navios já tinham avisado pelo rádio: havia gelo à frente.",
+     "busca": "ocean night",
+     "desde": 0,
+     "foto": "Tt_marconi",
+     "legenda": "A sala do rádio do Titanic, 1912"
+    },
+    {
+     "frase": "Era uma noite sem lua, e o mar estava liso como um espelho. Sem ondas, não havia espuma batendo na base do iceberg para mostrar onde ele estava.",
+     "busca": "calm sea night",
+     "desde": 6,
+     "clipe": "TtNasa_1"
+    },
+    {
+     "frase": "E os vigias, lá no alto do mastro, estavam sem binóculos. Procuravam o gelo a olho nu, no escuro.",
+     "busca": "ship mast night",
+     "desde": 0,
+     "foto": "Tt_mastro",
+     "legenda": "O cesto da gávea, de onde os vigias olhavam"
+    },
+    {
+     "frase": "Tem mais: quase noventa por cento de um iceberg fica escondido debaixo da água.",
+     "busca": "iceberg",
+     "desde": 0,
+     "clipe": "TtNasa_2"
+    },
+    {
+     "frase": "É física: o gelo é só um pouco mais leve que a água do mar. Então ele boia, mas quase inteiro afundado. O que aparece é só a ponta.",
+     "foto": "Tt_ia_iceberg",
+     "ia": true,
+     "legenda": "Quase 90% do iceberg fica debaixo da água"
+    }
+   ]
+  },
+  {
+   "titulo": "Os 37 segundos",
+   "cenas": [
+    {
+     "frase": "Às onze e quarenta da noite, o vigia Frederick Fleet viu uma sombra escura na frente do navio e tocou o sino três vezes: iceberg à frente!",
+     "busca": "iceberg night",
+     "desde": 0,
+     "foto": "Tt_fleet",
+     "legenda": "Frederick Fleet, o vigia que viu o iceberg"
+    },
+    {
+     "frase": "O oficial mandou virar o leme. Mas um navio de cinquenta mil toneladas, a quarenta por hora, não para nem vira rápido. É a inércia.",
+     "busca": "ship turning",
+     "desde": 0,
+     "foto": "Tt_iceberg2",
+     "legenda": "Iceberg fotografado perto do local, dias depois do naufrágio"
+    },
+    {
+     "frase": "Trinta e sete segundos depois, o Titanic não bateu de frente. Ele raspou de lado no gelo, por baixo da água.",
+     "busca": "iceberg",
+     "desde": 0,
+     "foto": "Tt_ia_raspa",
+     "ia": true,
+     "legenda": "O Titanic raspando no iceberg, 14 de abril de 1912"
+    }
+   ]
+  },
+  {
+   "titulo": "O furo que derrubou um gigante",
+   "cenas": [
+    {
+     "frase": "Muita gente imagina um rasgo enorme. Mas o gelo abriu uma série de fendas finas ao longo de uns noventa metros do casco.",
+     "foto": "Tt_ia_fendas",
+     "ia": true,
+     "legenda": "O gelo abre fendas finas no casco"
+    },
+    {
+     "frase": "Somadas, todas as aberturas davam pouco mais de um metro quadrado. Menos que uma porta.",
+     "foto": "Tt_ia_porta",
+     "ia": true,
+     "legenda": "Todas as fendas juntas: menos que uma porta"
+    },
+    {
+     "frase": "Só que elas estavam a vários metros de profundidade, onde a pressão da água é maior. E a água entrou com muita força.",
+     "busca": "water flooding",
+     "desde": 0,
+     "clipe": "Titanic_17"
+    },
+    {
+     "frase": "E alguns cientistas acreditam que os rebites da frente, feitos de um ferro mais fraco, estouraram com o impacto e abriram ainda mais as costuras.",
+     "busca": "rusty metal rivets",
+     "desde": 0,
+     "clipe": "Titanic_18"
+    }
+   ]
+  },
+  {
+   "titulo": "A forma de gelo",
+   "cenas": [
+    {
+     "frase": "O gelo abriu pelo menos cinco compartimentos. Um a mais do que o navio aguentava.",
+     "foto": "Tt_ia_cinco",
+     "ia": true,
+     "legenda": "Os 5 compartimentos da frente alagados"
+    },
+    {
+     "frase": "E tem um detalhe: as paredes entre os compartimentos não iam até o teto. Paravam poucos andares acima da linha da água.",
+     "foto": "Tt_ia_paredes",
+     "ia": true,
+     "legenda": "As paredes não iam até o teto"
+    },
+    {
+     "frase": "Quando a frente afundou, a água passou por cima da primeira parede e encheu a próxima. Depois a próxima. Como uma forma de gelo enchendo, cubo por cubo.",
+     "busca": "ice cube tray water",
+     "desde": 0,
+     "foto": "Tt_ia_forma",
+     "ia": true,
+     "legenda": "Como uma forma de gelo enchendo"
+    },
+    {
+     "frase": "O projetista do navio, Thomas Andrews, fez as contas na hora: o Titanic ia afundar. Em uma hora, talvez uma hora e meia.",
+     "busca": "old ship",
+     "desde": 0,
+     "foto": "Tt_andrews",
+     "legenda": "Thomas Andrews, o projetista do Titanic"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas horas e quarenta minutos",
+   "cenas": [
+    {
+     "frase": "Os botes começaram a descer. O primeiro saiu com menos da metade dos lugares ocupados: muita gente ainda não acreditava que o navio ia afundar.",
+     "busca": "lifeboat",
+     "desde": 0,
+     "foto": "Tt_bote2",
+     "legenda": "Bote com sobreviventes chegando ao Carpathia, 15 de abril de 1912"
+    },
+    {
+     "frase": "A frente foi afundando, e a parte de trás subiu para fora da água, com as hélices gigantes no ar.",
+     "foto": "Tt_helices",
+     "legenda": "Hélices do Olympic, navio gêmeo do Titanic (1911)"
+    },
+    {
+     "frase": "O peso pendurado era tanto que o casco não aguentou: o Titanic se partiu em dois, entre a terceira e a quarta chaminé.",
+     "foto": "Tt_ia_parte",
+     "ia": true,
+     "legenda": "O Titanic se partindo em dois, 15 de abril de 1912"
+    },
+    {
+     "frase": "Às duas e vinte da manhã de quinze de abril, ele afundou. Duas horas e quarenta minutos depois da batida.",
+     "busca": "ocean night",
+     "desde": 0,
+     "clipe": "Titanic_26"
+    },
+    {
+     "frase": "A água estava a dois graus abaixo de zero. A maioria das mais de mil e quinhentas vítimas não morreu afogada: morreu de frio, em poucos minutos.",
+     "busca": "cold sea",
+     "desde": 2,
+     "clipe": "TtFilme_gelo",
+     "legenda": "Campo de gelo no Atlântico Norte, filmado em 1912"
+    }
+   ]
+  },
+  {
+   "titulo": "A três mil e oitocentos metros",
+   "cenas": [
+    {
+     "frase": "O navio Carpathia chegou de madrugada e resgatou cerca de setecentas pessoas dos botes.",
+     "busca": "old ship",
+     "desde": 6,
+     "clipe": "TtFilme_carpathia",
+     "legenda": "O Carpathia chegando a Nova York com os sobreviventes, 1912"
+    },
+    {
+     "frase": "Os destroços só foram encontrados em mil novecentos e oitenta e cinco, a três mil e oitocentos metros de profundidade. E confirmaram: o navio estava mesmo partido em dois.",
+     "busca": "deep sea dark",
+     "desde": 0,
+     "foto": "Tt_proa",
+     "legenda": "A proa do Titanic a 3.800 metros de profundidade (NOAA)"
+    },
+    {
+     "frase": "Lá embaixo, a pressão é quase quatrocentas vezes maior que aqui em cima. E bactérias estão comendo o ferro do casco, pouco a pouco.",
+     "busca": "deep sea",
+     "desde": 0,
+     "foto": "Tt_rusticles",
+     "legenda": "Ferrugem formada por bactérias nos destroços"
+    }
+   ]
+  },
+  {
+   "titulo": "O que mudou",
+   "cenas": [
+    {
+     "frase": "Depois do Titanic, as regras do mar mudaram: bote salva-vidas para todos, rádio ligado vinte e quatro horas e uma patrulha que vigia os icebergs no Atlântico até hoje.",
+     "busca": "cruise ship lifeboats",
+     "desde": 0,
+     "foto": "Tt_patrulha",
+     "legenda": "Patrulha Internacional do Gelo, criada em 1914"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Um gigante derrubado por um furo menor que uma porta, por paredes que não iam até o teto e por uma noite calma demais.",
+     "busca": "ocean night",
+     "desde": 24,
+     "clipe": "TtNasa_2"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você sabia que o Titanic afundou partido em dois?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Abril de mil novecentos e doze. O maior navio do mundo parte da Inglaterra para Nova York, na sua primeira viagem.",
+  "Quatro dias depois, ele estava no fundo do mar. Em duas horas e quarenta minutos, um navio que diziam ser praticamente inafundável afundou.",
+  "Neste vídeo, a física por trás do naufrágio: por que ninguém viu o iceberg, o furo pequeno que derrubou um gigante e por que o navio se partiu em dois.",
+  "O Titanic tinha duzentos e sessenta e nove metros, quase três campos de futebol. E boiava porque empurrava para o lado mais de cinquenta mil toneladas de água.",
+  "Para não afundar, o casco era dividido em dezesseis compartimentos, separados por paredes à prova d'água.",
+  "Se até quatro deles enchessem de água, o navio continuava boiando. Por isso, uma revista de engenharia da época o chamou de praticamente inafundável.",
+  "Ele levava vinte botes salva-vidas, com lugar para mil cento e setenta e oito pessoas. A bordo, estavam mais de duas mil e duzentas. E as regras da época permitiam isso.",
+  "Na noite de catorze de abril, o navio seguia a uns quarenta quilômetros por hora. Outros navios já tinham avisado pelo rádio: havia gelo à frente.",
+  "Era uma noite sem lua, e o mar estava liso como um espelho. Sem ondas, não havia espuma batendo na base do iceberg para mostrar onde ele estava.",
+  "E os vigias, lá no alto do mastro, estavam sem binóculos. Procuravam o gelo a olho nu, no escuro.",
+  "Tem mais: quase noventa por cento de um iceberg fica escondido debaixo da água.",
+  "É física: o gelo é só um pouco mais leve que a água do mar. Então ele boia, mas quase inteiro afundado. O que aparece é só a ponta.",
+  "Às onze e quarenta da noite, o vigia Frederick Fleet viu uma sombra escura na frente do navio e tocou o sino três vezes: iceberg à frente!",
+  "O oficial mandou virar o leme. Mas um navio de cinquenta mil toneladas, a quarenta por hora, não para nem vira rápido. É a inércia.",
+  "Trinta e sete segundos depois, o Titanic não bateu de frente. Ele raspou de lado no gelo, por baixo da água.",
+  "Muita gente imagina um rasgo enorme. Mas o gelo abriu uma série de fendas finas ao longo de uns noventa metros do casco.",
+  "Somadas, todas as aberturas davam pouco mais de um metro quadrado. Menos que uma porta.",
+  "Só que elas estavam a vários metros de profundidade, onde a pressão da água é maior. E a água entrou com muita força.",
+  "E alguns cientistas acreditam que os rebites da frente, feitos de um ferro mais fraco, estouraram com o impacto e abriram ainda mais as costuras.",
+  "O gelo abriu pelo menos cinco compartimentos. Um a mais do que o navio aguentava.",
+  "E tem um detalhe: as paredes entre os compartimentos não iam até o teto. Paravam poucos andares acima da linha da água.",
+  "Quando a frente afundou, a água passou por cima da primeira parede e encheu a próxima. Depois a próxima. Como uma forma de gelo enchendo, cubo por cubo.",
+  "O projetista do navio, Thomas Andrews, fez as contas na hora: o Titanic ia afundar. Em uma hora, talvez uma hora e meia.",
+  "Os botes começaram a descer. O primeiro saiu com menos da metade dos lugares ocupados: muita gente ainda não acreditava que o navio ia afundar.",
+  "A frente foi afundando, e a parte de trás subiu para fora da água, com as hélices gigantes no ar.",
+  "O peso pendurado era tanto que o casco não aguentou: o Titanic se partiu em dois, entre a terceira e a quarta chaminé.",
+  "Às duas e vinte da manhã de quinze de abril, ele afundou. Duas horas e quarenta minutos depois da batida.",
+  "A água estava a dois graus abaixo de zero. A maioria das mais de mil e quinhentas vítimas não morreu afogada: morreu de frio, em poucos minutos.",
+  "O navio Carpathia chegou de madrugada e resgatou cerca de setecentas pessoas dos botes.",
+  "Os destroços só foram encontrados em mil novecentos e oitenta e cinco, a três mil e oitocentos metros de profundidade. E confirmaram: o navio estava mesmo partido em dois.",
+  "Lá embaixo, a pressão é quase quatrocentas vezes maior que aqui em cima. E bactérias estão comendo o ferro do casco, pouco a pouco.",
+  "Depois do Titanic, as regras do mar mudaram: bote salva-vidas para todos, rádio ligado vinte e quatro horas e uma patrulha que vigia os icebergs no Atlântico até hoje.",
+  "Um gigante derrubado por um furo menor que uma porta, por paredes que não iam até o teto e por uma noite calma demais.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você sabia que o Titanic afundou partido em dois?"
+ ]
+}

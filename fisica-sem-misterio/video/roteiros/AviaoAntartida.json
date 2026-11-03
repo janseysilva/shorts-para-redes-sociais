@@ -1,0 +1,61 @@
+{
+ "id": "AviaoAntartida",
+ "titulo": "Por que os AVIÕES não voam sobre a ANTÁRTIDA? ✈️🧊 A física explica",
+ "legenda": "Não é proibido voar sobre a Antártida, mas quase nenhum voo comercial passa por lá. Aviões de dois motores só podem voar a um certo tempo de distância de um aeroporto onde consigam pousar numa emergência, e a Antártida tem pouquíssimas pistas, quase todas de gelo, sem estrutura para um avião de passageiros. Se o avião precisasse pousar lá, o frio pode chegar perto de 80 graus negativos no inverno, longe de qualquer resgate. E até o combustível sofre: o querosene de avião começa a congelar perto de 47 graus negativos, e a tripulação vigia a temperatura dele em rotas muito frias. Por isso as rotas do Hemisfério Sul contornam o continente pelo oceano! #fisica #aviao #antartida #aviacao #curiosidades",
+ "final": {
+  "emoji": "✈️",
+  "frase": "A física manda contornar."
+ },
+ "pergunta": "Você teria coragem de voar sobre a Antártida? 👇",
+ "frases": [
+  "Quase nenhum avião passa por cima da Antártida. E não é proibido.",
+  "Avião de dois motores precisa ficar perto de um aeroporto para emergências. E na Antártida quase não há pista.",
+  "As poucas são de gelo, e o frio chega perto de oitenta graus negativos, longe de qualquer resgate.",
+  "Até o combustível sofre: o querosene de avião começa a congelar perto de quarenta e sete graus negativos.",
+  "Por isso as rotas do sul dão a volta pelo oceano. Não é proibição: é física e segurança.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que NINGUÉM voa aqui?",
+   "destaque": [
+    "NINGUÉM"
+   ],
+   "busca": "antarctica aerial",
+   "foto": "Aa_gelo"
+  },
+  {
+   "gancho": "Quase NENHUMA pista",
+   "destaque": [
+    "NENHUMA"
+   ],
+   "busca": "antarctica ice",
+   "foto": "Aa_ia_rotas",
+   "ia": true
+  },
+  {
+   "gancho": "Até -80 °C",
+   "destaque": [
+    "-80"
+   ],
+   "busca": "antarctica runway",
+   "foto": "Aa_757"
+  },
+  {
+   "gancho": "O COMBUSTÍVEL congela",
+   "destaque": [
+    "COMBUSTÍVEL"
+   ],
+   "busca": "airplane wing",
+   "foto": "Aa_ia_tanque",
+   "ia": true
+  },
+  {
+   "gancho": "As rotas CONTORNAM",
+   "destaque": [
+    "CONTORNAM"
+   ],
+   "busca": "airplane above clouds"
+  }
+ ]
+}

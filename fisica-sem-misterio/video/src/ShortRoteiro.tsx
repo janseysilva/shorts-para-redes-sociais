@@ -5,7 +5,13 @@ import { AbsoluteFill, Img, Sequence, interpolate, staticFile } from "remotion";
 import { CLAMP, Cena, Clipe, FONTE, OURO, Short, mola, useT, type Tempos } from "./espaco";
 import duracoes from "../public/clipes/duracoes.json";
 
-export type CenaRoteiro = { gancho: string; destaque: string[]; busca?: string; foto?: string; anim?: { emoji: string; texto: string } };
+export type CenaRoteiro = { gancho: string; destaque: string[]; busca?: string; foto?: string; ia?: boolean; anim?: { emoji: string; texto: string } };
+
+// Regra de 30/10: cena feita com IA (no lugar da animação de emoji) leva este selo.
+const SeloIA: React.FC = () => (
+  <div style={{ position: "absolute", right: 36, top: 330, padding: "8px 18px", borderRadius: 12, background: "rgba(154,215,255,.92)",
+    fontFamily: FONTE, fontWeight: 900, fontSize: 30, color: "#0b1830", letterSpacing: 1 }}>ILUSTRAÇÃO COM IA</div>
+);
 
 // Foto real (public/fotos_short/NOME.jpg, na altura da tela): a câmera passeia pela foto inteira durante a cena.
 const FotoShort: React.FC<{ nome: string; ini: number; fim: number }> = ({ nome, ini, fim }) => {
@@ -59,6 +65,7 @@ export const ShortRoteiro: React.FC<{ roteiro: Roteiro; tempos: Tempos }> = ({ r
             {c.anim ? <Animacao emoji={c.anim.emoji} texto={c.anim.texto} ini={C[i]} />
               : c.foto ? <FotoShort nome={c.foto} ini={i === 0 ? 0 : C[i]} fim={C[i + 1]} />
               : <Clipe nome={nome} ini={i === 0 ? 0 : C[i]} fim={C[i + 1]} duracao={DUR[nome] ?? 10} desde={DUR[nome] > 12 ? 1 : 0} />}
+            {c.ia && <SeloIA />}
           </Cena>
         );
       })}

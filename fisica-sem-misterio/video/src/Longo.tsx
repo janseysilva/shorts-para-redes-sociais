@@ -178,9 +178,12 @@ export const Longo: React.FC<{ roteiro: RoteiroLongo; tempos: TemposLongo; abert
             <CenaFade entra={i === 0 ? 0 : FADE}>
               {c.fim ? <Clipe nome={fundoFinal} desde={2} dur={dur} n={i} />
                 : c.anim ? <Animacao emoji={c.anim.emoji} texto={c.anim.texto} />
-                : c.foto ? <><Foto nome={c.foto} dur={dur} n={i} />{c.legenda && <Etiqueta texto={c.legenda} />}</>
+                : c.foto ? <><Foto nome={c.foto} dur={dur} n={i} />
+                    {c.ia ? <Etiqueta texto={c.legenda ?? ""} selo="ILUSTRAÇÃO COM IA" corSelo="#9ad7ff" />
+                      : c.legenda && <Etiqueta texto={c.legenda} />}</>
                 : <><Clipe nome={c.clipe!} desde={c.desde ?? 0} dur={dur} n={i} />
-                    {c.ia && <Etiqueta texto={c.legenda ?? ""} selo="RECRIAÇÃO COM IA" corSelo="#9ad7ff" />}</>}
+                    {c.ia ? <Etiqueta texto={c.legenda ?? ""} selo="RECRIAÇÃO COM IA" corSelo="#9ad7ff" />
+                      : c.legenda && <Etiqueta texto={c.legenda} />}</>}
             </CenaFade>
           </Sequence>
         );

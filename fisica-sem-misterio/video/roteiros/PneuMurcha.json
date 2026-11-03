@@ -1,0 +1,55 @@
+{
+ "id": "PneuMurcha",
+ "titulo": "Por que o PNEU murcha sozinho, mesmo SEM FURO? 🛞 A física explica",
+ "legenda": "Pneu sem furo também perde ar. A borracha parece sólida, mas é feita de moléculas compridas e emaranhadas, com espacinhos entre elas, e as moléculas do ar, empurradas pela pressão, vão atravessando a borracha aos poucos. Em média, um pneu perde de 1 a 3 libras por mês. E o frio piora: a cada 5 ou 6 graus a menos, o ar se contrai e a pressão cai cerca de 1 libra. Pneu murcho gasta mais combustível, esquenta mais e dura menos, então a dica é calibrar uma vez por mês, com o pneu frio! #fisica #carro #pneu #curiosidades #ciencia",
+ "final": {
+  "emoji": "🛞",
+  "frase": "O ar atravessa a borracha."
+ },
+ "pergunta": "De quanto em quanto tempo você calibra o pneu? 👇",
+ "frases": [
+  "Seu pneu está perdendo ar agora mesmo, sem nenhum furo. E não é defeito: o ar está atravessando a borracha.",
+  "A borracha parece sólida, mas por dentro é um emaranhado de moléculas compridas, com espacinhos entre elas.",
+  "As moléculas do ar são minúsculas e, empurradas pela pressão, vão escapando por esses espaços, uma a uma. Um pneu perde de uma a três libras por mês.",
+  "E o frio piora: a cada cinco ou seis graus a menos, o ar lá dentro se contrai e a pressão cai mais uma libra.",
+  "Pneu murcho gasta mais combustível, esquenta e dura menos. Por isso a dica é calibrar uma vez por mês, com o pneu frio.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O ar ATRAVESSA a borracha",
+   "destaque": [
+    "ATRAVESSA"
+   ],
+   "busca": "car tire"
+  },
+  {
+   "gancho": "A borracha tem ESPAÇOS",
+   "destaque": [
+    "ESPAÇOS"
+   ],
+   "busca": "rubber tire close up"
+  },
+  {
+   "gancho": "1 a 3 libras por MÊS",
+   "destaque": [
+    "MÊS"
+   ],
+   "busca": "tire pressure gauge"
+  },
+  {
+   "gancho": "O FRIO murcha mais",
+   "destaque": [
+    "FRIO"
+   ],
+   "busca": "car winter"
+  },
+  {
+   "gancho": "Calibre TODO MÊS",
+   "destaque": [
+    "TODO MÊS"
+   ],
+   "busca": "inflating car tire"
+  }
+ ]
+}

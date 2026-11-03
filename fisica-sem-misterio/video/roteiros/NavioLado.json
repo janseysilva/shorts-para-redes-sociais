@@ -1,0 +1,55 @@
+{
+ "id": "NavioLado",
+ "titulo": "Por que jogam o NAVIO DE LADO no mar e ele NÃO VIRA? 🚢 A física explica",
+ "legenda": "Muitos estaleiros ficam em rios ou canais estreitos, onde não dá para descer o navio de frente. A solução é o lançamento lateral: o navio escorrega de lado por uma rampa, cai na água, inclina muito e levanta uma onda enorme. Isso acontece até aqui no Brasil, em estaleiros de Santa Catarina. Ele não vira porque o peso fica lá embaixo, com motores, tanques e lastro no fundo do casco, e quando ele inclina, o lado que afundou fica com mais água embaixo e é empurrado para cima com mais força. Esse empurrão gira o navio de volta, como um joão-bobo. Os engenheiros calculam essa inclinação antes de cada lançamento! #fisica #navio #engenharia #curiosidades #ciencia",
+ "final": {
+  "emoji": "🚢",
+  "frase": "O peso embaixo endireita."
+ },
+ "pergunta": "Você sabia que navio era lançado assim? 👇",
+ "frases": [
+  "Esse navio não está tombando. É assim que ele entra na água pela primeira vez: jogado de lado.",
+  "Muitos estaleiros ficam em rios ou canais estreitos, onde não dá para descer o navio de frente. Então ele escorrega de lado, por uma rampa. Isso acontece até aqui no Brasil.",
+  "Ele cai na água, inclina muito e levanta uma onda enorme. Parece que vai virar.",
+  "Mas o peso do navio fica lá embaixo: motores, tanques e lastro no fundo do casco. E quando ele inclina, a água empurra com mais força o lado que afundou.",
+  "Esse empurrão gira o navio de volta, como um joão-bobo. E os engenheiros calculam essa inclinação antes de cada lançamento.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Ele NÃO está tombando",
+   "destaque": [
+    "NÃO"
+   ],
+   "busca": "ship launch"
+  },
+  {
+   "gancho": "Escorrega de LADO",
+   "destaque": [
+    "LADO"
+   ],
+   "busca": "shipyard"
+  },
+  {
+   "gancho": "Parece que vai VIRAR",
+   "destaque": [
+    "VIRAR"
+   ],
+   "busca": "big wave splash"
+  },
+  {
+   "gancho": "O peso fica EMBAIXO",
+   "destaque": [
+    "EMBAIXO"
+   ],
+   "busca": "ship hull"
+  },
+  {
+   "gancho": "Volta como JOÃO-BOBO",
+   "destaque": [
+    "JOÃO-BOBO"
+   ],
+   "busca": "cargo ship sea"
+  }
+ ]
+}

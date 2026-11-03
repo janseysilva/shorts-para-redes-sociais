@@ -1,0 +1,55 @@
+{
+ "id": "HelicopteroCauda",
+ "titulo": "Por que o HELICÓPTERO tem uma hélice no RABO? 🚁 A física explica",
+ "legenda": "O motor do helicóptero gira a hélice grande para um lado. Pela terceira lei de Newton, a da ação e reação, o corpo do helicóptero é empurrado a girar para o lado contrário. A hélice pequena do rabo sopra ar de lado e segura o corpo no lugar. Com os pedais, o piloto muda a força dessa hélice e vira o nariz para a direita ou para a esquerda. Se ela para, o helicóptero começa a rodar como um pião. Por isso alguns helicópteros, como o Chinook, têm duas hélices grandes girando em sentidos contrários: uma cancela o giro da outra! #fisica #helicoptero #aviacao #curiosidades #ciencia",
+ "final": {
+  "emoji": "🚁",
+  "frase": "Ação e reação no rabo."
+ },
+ "pergunta": "Você já andou de helicóptero? 👇",
+ "frases": [
+  "Se essa hélice pequena do rabo parar, o helicóptero começa a rodar como um pião. E a culpa é de uma lei da física.",
+  "O motor gira a hélice grande para um lado. E pela terceira lei de Newton, a da ação e reação, o corpo do helicóptero é empurrado a girar para o outro.",
+  "A hélice do rabo sopra ar de lado, como um braço empurrando a cauda, e segura o corpo no lugar.",
+  "Com os pedais, o piloto muda a força dessa hélice. É assim que ele vira o nariz para a direita ou para a esquerda, parado no ar.",
+  "Por isso alguns helicópteros, como o Chinook, têm duas hélices grandes girando em sentidos contrários. Uma cancela o giro da outra, e o rabo fica sem hélice.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Sem ela, vira um PIÃO",
+   "destaque": [
+    "PIÃO"
+   ],
+   "busca": "helicopter tail rotor"
+  },
+  {
+   "gancho": "Ação e REAÇÃO",
+   "destaque": [
+    "REAÇÃO"
+   ],
+   "busca": "helicopter rotor blades"
+  },
+  {
+   "gancho": "Ela EMPURRA de lado",
+   "destaque": [
+    "EMPURRA"
+   ],
+   "busca": "helicopter flying"
+  },
+  {
+   "gancho": "Os PEDAIS viram o nariz",
+   "destaque": [
+    "PEDAIS"
+   ],
+   "busca": "helicopter cockpit"
+  },
+  {
+   "gancho": "Duas hélices CONTRÁRIAS",
+   "destaque": [
+    "CONTRÁRIAS"
+   ],
+   "busca": "chinook helicopter"
+  }
+ ]
+}

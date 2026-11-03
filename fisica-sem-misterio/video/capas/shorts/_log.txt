@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\SEMED CMEI Argentina\Documents\fisica-sem-misterio\video\capas\capas_shorts.py", line 153, in <module>
+    feitas = [p for i in ids if (p := capa(i))]
+                                      ^^^^^^^
+  File "C:\Users\SEMED CMEI Argentina\Documents\fisica-sem-misterio\video\capas\capas_shorts.py", line 119, in capa
+    im = imagem(id_)
+         ^^^^^^^^^^^
+  File "C:\Users\SEMED CMEI Argentina\Documents\fisica-sem-misterio\video\capas\capas_shorts.py", line 93, in imagem
+    for c in r["cenas"]:
+             ~^^^^^^^^^
+KeyError: 'cenas'

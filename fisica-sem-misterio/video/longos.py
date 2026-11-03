@@ -979,10 +979,105 @@ longo("Radar", "RADAR: a arma secreta que derrotou HITLER no céu 📡 (e virou 
     ]),
 ])
 
+# ---------- LEVA 23 (30/10): longo de ~5 min (regra de 28/10), divulgação do Espertinhos colada no fim (adicionar_final_app.py) ----------
+longo("Titanic", "Como o TITANIC afundou? 🚢 A física do naufrágio (minuto a minuto)",
+      "Em abril de 1912, o navio que diziam ser praticamente inafundável afundou em 2 horas e 40 minutos. Neste vídeo, a física por trás do naufrágio: "
+      "por que ninguém viu o iceberg, por que quase 90% do gelo fica escondido, os 37 segundos até a batida, o furo menor que uma porta, "
+      "as paredes que não iam até o teto, por que o navio se partiu em dois e o que mudou no mar depois dele.", [
+    ("Abertura", [
+        ("Abril de mil novecentos e doze. O maior navio do mundo parte da Inglaterra para Nova York, na sua primeira viagem.", v("old ship ocean")),
+        ("Quatro dias depois, ele estava no fundo do mar. Em duas horas e quarenta minutos, um navio que diziam ser praticamente inafundável afundou.", v("ocean night")),
+        ("Neste vídeo, a física por trás do naufrágio: por que ninguém viu o iceberg, o furo pequeno que derrubou um gigante e por que o navio se partiu em dois.", v("deep sea dark")),
+    ]),
+    ("O gigante inafundável", [
+        ("O Titanic tinha duzentos e sessenta e nove metros, quase três campos de futebol. E boiava porque empurrava para o lado mais de cinquenta mil toneladas de água.", v("big ship sea")),
+        ("Para não afundar, o casco era dividido em dezesseis compartimentos, separados por paredes à prova d'água.", a("🚢", "16 compartimentos à prova d'água")),
+        ("Se até quatro deles enchessem de água, o navio continuava boiando. Por isso, uma revista de engenharia da época o chamou de praticamente inafundável.", a("🛟", "4 alagados: ainda boia")),
+        ("Ele levava vinte botes salva-vidas, com lugar para mil cento e setenta e oito pessoas. A bordo, estavam mais de duas mil e duzentas. E as regras da época permitiam isso.", v("lifeboat")),
+    ]),
+    ("Por que ninguém viu o iceberg", [
+        ("Na noite de catorze de abril, o navio seguia a uns quarenta quilômetros por hora. Outros navios já tinham avisado pelo rádio: havia gelo à frente.", v("ocean night")),
+        ("Era uma noite sem lua, e o mar estava liso como um espelho. Sem ondas, não havia espuma batendo na base do iceberg para mostrar onde ele estava.", v("calm sea night")),
+        ("E os vigias, lá no alto do mastro, estavam sem binóculos. Procuravam o gelo a olho nu, no escuro.", v("ship mast night")),
+        ("Tem mais: quase noventa por cento de um iceberg fica escondido debaixo da água.", v("iceberg")),
+        ("É física: o gelo é só um pouco mais leve que a água do mar. Então ele boia, mas quase inteiro afundado. O que aparece é só a ponta.", a("🧊", "90% fica debaixo da água")),
+    ]),
+    ("Os 37 segundos", [
+        ("Às onze e quarenta da noite, o vigia Frederick Fleet viu uma sombra escura na frente do navio e tocou o sino três vezes: iceberg à frente!", v("iceberg night")),
+        ("O oficial mandou virar o leme. Mas um navio de cinquenta mil toneladas, a quarenta por hora, não para nem vira rápido. É a inércia.", v("ship turning")),
+        ("Trinta e sete segundos depois, o Titanic não bateu de frente. Ele raspou de lado no gelo, por baixo da água.", v("iceberg")),
+    ]),
+    ("O furo que derrubou um gigante", [
+        ("Muita gente imagina um rasgo enorme. Mas o gelo abriu uma série de fendas finas ao longo de uns noventa metros do casco.", a("🧊", "Fendas finas ao longo de 90 metros")),
+        ("Somadas, todas as aberturas davam pouco mais de um metro quadrado. Menos que uma porta.", a("🚪", "Pouco mais de 1 m²")),
+        ("Só que elas estavam a vários metros de profundidade, onde a pressão da água é maior. E a água entrou com muita força.", v("water flooding")),
+        ("E alguns cientistas acreditam que os rebites da frente, feitos de um ferro mais fraco, estouraram com o impacto e abriram ainda mais as costuras.", v("rusty metal rivets")),
+    ]),
+    ("A forma de gelo", [
+        ("O gelo abriu pelo menos cinco compartimentos. Um a mais do que o navio aguentava.", a("🚢", "5 compartimentos abertos")),
+        ("E tem um detalhe: as paredes entre os compartimentos não iam até o teto. Paravam poucos andares acima da linha da água.", a("🧱", "As paredes não iam até o teto")),
+        ("Quando a frente afundou, a água passou por cima da primeira parede e encheu a próxima. Depois a próxima. Como uma forma de gelo enchendo, cubo por cubo.", v("ice cube tray water")),
+        ("O projetista do navio, Thomas Andrews, fez as contas na hora: o Titanic ia afundar. Em uma hora, talvez uma hora e meia.", v("old ship")),
+    ]),
+    ("Duas horas e quarenta minutos", [
+        ("Os botes começaram a descer. O primeiro saiu com menos da metade dos lugares ocupados: muita gente ainda não acreditava que o navio ia afundar.", v("lifeboat")),
+        ("A frente foi afundando, e a parte de trás subiu para fora da água, com as hélices gigantes no ar.", a("🚢", "A popa sobe")),
+        ("O peso pendurado era tanto que o casco não aguentou: o Titanic se partiu em dois, entre a terceira e a quarta chaminé.", a("💥", "O casco se parte")),
+        ("Às duas e vinte da manhã de quinze de abril, ele afundou. Duas horas e quarenta minutos depois da batida.", v("ocean night")),
+        ("A água estava a dois graus abaixo de zero. A maioria das mais de mil e quinhentas vítimas não morreu afogada: morreu de frio, em poucos minutos.", v("cold sea")),
+    ]),
+    ("A três mil e oitocentos metros", [
+        ("O navio Carpathia chegou de madrugada e resgatou cerca de setecentas pessoas dos botes.", v("old ship")),
+        ("Os destroços só foram encontrados em mil novecentos e oitenta e cinco, a três mil e oitocentos metros de profundidade. E confirmaram: o navio estava mesmo partido em dois.", v("deep sea dark")),
+        ("Lá embaixo, a pressão é quase quatrocentas vezes maior que aqui em cima. E bactérias estão comendo o ferro do casco, pouco a pouco.", v("deep sea")),
+    ]),
+    ("O que mudou", [
+        ("Depois do Titanic, as regras do mar mudaram: bote salva-vidas para todos, rádio ligado vinte e quatro horas e uma patrulha que vigia os icebergs no Atlântico até hoje.", v("cruise ship lifeboats")),
+    ]),
+    ("Final", [
+        ("Um gigante derrubado por um furo menor que uma porta, por paredes que não iam até o teto e por uma noite calma demais.", v("ocean night")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você sabia que o Titanic afundou partido em dois?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    # Titanic: filmagem real 1911-12 (Wikimedia, domínio público) recortada em fontes_titanic → TtFilme_*;
+    # icebergs da Groenlândia (NASA, domínio público) → TtNasa_*; IA (Google Flow) nas cenas de explicação.
+    "Titanic": {
+        0: dict(clipe="TtFilme_doca", desde=6, legenda="Filmagem real, 1911-1912"),
+        1: dict(foto="Tt_jornal", legenda="Jornaleiro anunciando o desastre, abril de 1912"),
+        2: dict(clipe="TtNasa_2", desde=8),
+        3: dict(foto="Tt_partida", legenda="O Titanic deixando Southampton, 10 de abril de 1912"),
+        5: dict(foto="Tt_lancamento", legenda="O casco pronto para o lançamento, Belfast, 1911"),
+        6: dict(foto="Tt_bote", legenda="Botes salva-vidas do Titanic, abril de 1912"),
+        7: dict(foto="Tt_marconi", legenda="A sala do rádio do Titanic, 1912"),
+        8: dict(clipe="TtNasa_1", desde=6),
+        9: dict(foto="Tt_mastro", legenda="O cesto da gávea, de onde os vigias olhavam"),
+        10: dict(clipe="TtNasa_2", desde=0),
+        12: dict(foto="Tt_fleet", legenda="Frederick Fleet, o vigia que viu o iceberg"),
+        13: dict(foto="Tt_iceberg2", legenda="Iceberg fotografado perto do local, dias depois do naufrágio"),
+        22: dict(foto="Tt_andrews", legenda="Thomas Andrews, o projetista do Titanic"),
+        23: dict(foto="Tt_bote2", legenda="Bote com sobreviventes chegando ao Carpathia, 15 de abril de 1912"),
+        24: dict(foto="Tt_helices", legenda="Hélices do Olympic, navio gêmeo do Titanic (1911)"),
+        27: dict(clipe="TtFilme_gelo", desde=2, legenda="Campo de gelo no Atlântico Norte, filmado em 1912"),
+        28: dict(clipe="TtFilme_carpathia", desde=6, legenda="O Carpathia chegando a Nova York com os sobreviventes, 1912"),
+        29: dict(foto="Tt_proa", legenda="A proa do Titanic a 3.800 metros de profundidade (NOAA)"),
+        30: dict(foto="Tt_rusticles", legenda="Ferrugem formada por bactérias nos destroços"),
+        31: dict(foto="Tt_patrulha", legenda="Patrulha Internacional do Gelo, criada em 1914"),
+        32: dict(clipe="TtNasa_2", desde=24),
+        4: dict(foto="Tt_ia_comp", ia=True, legenda="O casco dividido em 16 compartimentos"),
+        11: dict(foto="Tt_ia_iceberg", ia=True, legenda="Quase 90% do iceberg fica debaixo da água"),
+        14: dict(foto="Tt_ia_raspa", ia=True, legenda="O Titanic raspando no iceberg, 14 de abril de 1912"),
+        15: dict(foto="Tt_ia_fendas", ia=True, legenda="O gelo abre fendas finas no casco"),
+        16: dict(foto="Tt_ia_porta", ia=True, legenda="Todas as fendas juntas: menos que uma porta"),
+        19: dict(foto="Tt_ia_cinco", ia=True, legenda="Os 5 compartimentos da frente alagados"),
+        20: dict(foto="Tt_ia_paredes", ia=True, legenda="As paredes não iam até o teto"),
+        21: dict(foto="Tt_ia_forma", ia=True, legenda="Como uma forma de gelo enchendo"),
+        25: dict(foto="Tt_ia_parte", ia=True, legenda="O Titanic se partindo em dois, 15 de abril de 1912"),
+    },
     "Radar": {
         6: dict(foto="Rd_watson", legenda="Robert Watson-Watt, o pai do radar"),
         10: dict(clipe="Radar_10", ia=True, legenda="O teste de Daventry, 1935"),

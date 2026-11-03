@@ -1,0 +1,60 @@
+{
+ "id": "CaminhaoFreio",
+ "titulo": "Por que o CAMINHÃO perde o FREIO na serra? 🚛🔥 A física explica",
+ "legenda": "Caminhão sem freio na serra quase nunca é defeito: o freio cansa. Para frear, a lona ou a pastilha esfrega no tambor ou no disco e transforma o movimento em calor. Numa descida longa, segurando o caminhão o tempo todo, as peças podem passar de 400 graus. Quente demais, o material perde atrito e o tambor dilata e se afasta da lona: o pedal vai ao fundo e quase não segura. A energia de um bitrem carregado a 80 km/h daria para ferver mais de 30 litros de água. Por isso o motorista desce a serra engatado, usando o freio-motor, e se tudo falhar existe a área de escape, uma caixa de brita que freia o caminhão. #fisica #caminhao #freio #estrada #curiosidades",
+ "final": {
+  "emoji": "🚛",
+  "frase": "O freio cansa de calor."
+ },
+ "pergunta": "Você já viu uma área de escape na estrada? 👇",
+ "frases": [
+  "Caminhão sem freio na serra quase nunca é defeito. O freio cansou.",
+  "Para frear, a lona esfrega no tambor e o movimento vira calor. Numa descida longa, passa de quatrocentos graus.",
+  "Quente demais, a lona perde atrito e o tambor dilata. O pedal vai ao fundo e quase não segura.",
+  "A energia de um bitrem a oitenta por hora ferveria trinta litros de água. E tudo vira calor nas rodas.",
+  "Por isso se desce a serra engatado, no freio-motor. E se falhar, a área de escape de brita segura o caminhão.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Por que o FREIO acaba?",
+   "destaque": [
+    "FREIO"
+   ],
+   "busca": "truck downhill mountain road"
+  },
+  {
+   "gancho": "Mais de 400 GRAUS",
+   "destaque": [
+    "400"
+   ],
+   "busca": "truck brakes",
+   "foto": "Cf_ia_quente",
+   "ia": true
+  },
+  {
+   "gancho": "O freio PERDE a força",
+   "destaque": [
+    "PERDE"
+   ],
+   "busca": "brake drum",
+   "foto": "Cf_ia_tambor",
+   "ia": true
+  },
+  {
+   "gancho": "Ferveria 30 LITROS",
+   "destaque": [
+    "30"
+   ],
+   "busca": "heavy truck highway"
+  },
+  {
+   "gancho": "A ÁREA DE ESCAPE",
+   "destaque": [
+    "ESCAPE"
+   ],
+   "busca": "gravel road",
+   "foto": "Cf_escape"
+  }
+ ]
+}
