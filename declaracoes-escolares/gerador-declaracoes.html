@@ -141,32 +141,17 @@ details.corrigir[open] > summary{margin-bottom:12px}
 
 <header class="topo gutter">
   <h1>Declarações Escolares <small id="nomeEscolaTopo">Escola não configurada</small></h1>
-  <button type="button" id="btnEscola">Dados da escola</button>
+  <button type="button" id="btnEscola">Configuração</button>
 </header>
 
-<!-- ============ TELA 1: abrir a lista e pesquisar ============ -->
+<!-- ============ TELA 1: pesquisar ============ -->
 <main id="telaInicio" class="inicio gutter">
-  <div id="semLista" class="abrir">
-    <h2>Abra o arquivo com os dados dos alunos</h2>
-    <p class="dica">É o arquivo do bloco de notas (.txt). Ele fica guardado neste computador e serve de banco de dados para as declarações. Você só abre de novo quando a lista mudar.</p>
-    <label class="btn prim grande" for="arqLista">Abrir arquivo de alunos</label>
-    <input id="arqLista" type="file" accept=".txt,.csv,.tsv,text/plain" class="oculto">
-    <button type="button" class="link" id="btnColarLista">ou colar o conteúdo do arquivo</button>
-    <div id="colarLista" class="colar" hidden>
-      <textarea id="textoLista" placeholder="Abra o arquivo no bloco de notas, aperte Ctrl+A e Ctrl+C, e cole aqui com Ctrl+V"></textarea>
-      <button type="button" class="prim" id="btnUsarLista">Usar esta lista</button>
-    </div>
-  </div>
-
-  <div id="comLista" class="pesquisa" hidden>
+  <div class="pesquisa">
     <label for="busca">Pesquisar aluno</label>
-    <input id="busca" type="search" placeholder="Digite o nome do aluno" autocomplete="off" aria-controls="resultados">
-    <div class="estado" style="margin-top:8px">
-      <span id="listaInfo"></span>
-      <label class="link" for="arqLista2" style="cursor:pointer">Trocar arquivo</label>
-      <input id="arqLista2" type="file" accept=".txt,.csv,.tsv,text/plain" class="oculto">
-    </div>
+    <input id="busca" type="search" placeholder="Digite o nome ou o código do aluno" autocomplete="off" aria-controls="resultados">
+    <div class="estado" style="margin-top:8px"><span id="contagemBanco"></span></div>
   </div>
+  <div id="semDados" class="alerta" hidden>Ainda não há alunos no banco de dados. Abra o arquivo dos alunos em <button type="button" class="link" id="btnIrConfig">Configuração</button>.</div>
   <ul id="resultados" role="listbox" aria-label="Alunos encontrados"></ul>
 </main>
 
@@ -219,6 +204,8 @@ details.corrigir[open] > summary{margin-bottom:12px}
       <summary>Corrigir dados do aluno</summary>
       <div class="grade">
         <label class="campo c6"><span>Nome completo</span><input id="nome"></label>
+        <label class="campo c3"><span>Nome social</span><input id="social"></label>
+        <label class="campo c3"><span>Código do aluno</span><input id="matricula"></label>
         <label class="campo c3"><span>Sexo</span><select id="sexo"><option value="">Não informado</option><option value="F">Feminino</option><option value="M">Masculino</option></select></label>
         <label class="campo c3"><span>Nascimento</span><input id="nasc" type="date"></label>
         <label class="campo c6"><span>Mãe</span><input id="mae"></label>
@@ -252,11 +239,27 @@ details.corrigir[open] > summary{margin-bottom:12px}
   </section>
 </main>
 
-<!-- ============ TELA 3: dados da escola ============ -->
+<!-- ============ TELA 3: configuração ============ -->
 <main id="telaEscola" class="config gutter" hidden>
-  <h2>Dados da escola</h2>
-  <p class="dica">Preencha uma vez. Fica salvo neste computador e aparece em todas as declarações.</p>
+  <h2>Configuração</h2>
+
+  <div class="cartao abrir" id="semLista">
+    <p class="rotulo" style="margin:0">Banco de dados dos alunos</p>
+    <p class="dica" id="listaInfo">Nenhum arquivo carregado. Abra o arquivo do bloco de notas (.txt) com os dados dos alunos; ele fica guardado neste computador. Só precisa abrir de novo quando a lista mudar.</p>
+    <div class="estado">
+      <label class="btn prim" for="arqLista">Abrir arquivo de alunos</label>
+      <input id="arqLista" type="file" accept=".txt,.csv,.tsv,text/plain" class="oculto">
+      <button type="button" class="link" id="btnColarLista">ou colar o conteúdo</button>
+      <button type="button" class="link" id="btnEsquecer" hidden>Apagar o banco de dados</button>
+    </div>
+    <div id="colarLista" class="colar" hidden>
+      <textarea id="textoLista" placeholder="Abra o arquivo no bloco de notas, aperte Ctrl+A e Ctrl+C, e cole aqui com Ctrl+V"></textarea>
+      <button type="button" class="prim" id="btnUsarLista">Usar esta lista</button>
+    </div>
+  </div>
+
   <div class="cartao">
+    <p class="rotulo">Dados da escola (aparecem no cabeçalho e no rodapé)</p>
     <div class="grade">
       <label class="campo c6"><span>Cabeçalho, linha 1</span><input id="cab1" value="Prefeitura de Manaus"></label>
       <label class="campo c6"><span>Cabeçalho, linha 2</span><input id="cab2" value="Secretaria Municipal de Educação – SEMED"></label>
@@ -278,8 +281,7 @@ details.corrigir[open] > summary{margin-bottom:12px}
     <p class="dica" style="margin-top:10px"><button type="button" class="link" id="btnTirarLogo" hidden>Remover logotipo</button></p>
   </div>
   <div class="estado">
-    <button type="button" class="prim" id="btnEscolaPronto">Pronto</button>
-    <button type="button" class="link" id="btnEsquecer" hidden>Apagar a lista de alunos deste computador</button>
+    <button type="button" class="prim" id="btnEscolaPronto">Voltar para a pesquisa</button>
   </div>
 </main>
 
@@ -355,7 +357,7 @@ function proximaSerie(serie){
 const val = id => $(id).value.trim();
 let tipo = "matricula";
 function alunoDoFormulario(){
-  return { nome:val("nome"), sexo:val("sexo"), nasc:val("nasc"), mae:val("mae"), pai:val("pai"),
+  return { nome:val("nome"), social:val("social"), matricula:val("matricula"), sexo:val("sexo"), nasc:val("nasc"), mae:val("mae"), pai:val("pai"),
            serie:val("serie"), etapa:val("etapa"), turma:val("turma"), turno:val("turno") };
 }
 function curso(a, prep){
@@ -367,7 +369,10 @@ function turmaTurno(a){
   return (a.turma ? ", turma "+esc(a.turma) : "") + (a.turno ? ", turno "+esc(a.turno.toLowerCase()) : "");
 }
 function qualificacao(a, g){
-  let t = "<b>"+esc(a.nome.toUpperCase() || "NOME DO ALUNO")+"</b>";
+  let t = a.social
+    ? "<b>"+esc(a.social.toUpperCase())+"</b> (nome civil: "+esc(a.nome)+")"
+    : "<b>"+esc(a.nome.toUpperCase() || "NOME DO ALUNO")+"</b>";
+  if (a.matricula) t += ", código do aluno nº "+esc(a.matricula);
   if (a.nasc) t += ", nascid"+g.o+" em "+dataBR(a.nasc);
   if (a.mae && a.pai) t += ", filh"+g.o+" de "+esc(a.mae)+" e de "+esc(a.pai);
   else if (a.mae || a.pai) t += ", filh"+g.o+" de "+esc(a.mae || a.pai);
@@ -406,7 +411,7 @@ function paragrafos(a){
   } else if (tipo==="comparecimento"){
     let f = ini+"<b>"+esc((val("respNome")||"NOME DO RESPONSÁVEL").toUpperCase())+"</b>";
     if (val("respCpf")) f += ", CPF nº "+esc(val("respCpf"));
-    f += ", responsável "+g.pelo+" "+g.aluno+" <b>"+esc(a.nome.toUpperCase())+"</b>, matriculad"+g.o+" "+curso(a,"no")+turmaTurno(a)
+    f += ", responsável "+g.pelo+" "+g.aluno+" <b>"+esc((a.social||a.nome).toUpperCase())+"</b>"+(a.matricula?" (código nº "+esc(a.matricula)+")":"")+", matriculad"+g.o+" "+curso(a,"no")+turmaTurno(a)
        + ", compareceu a esta Unidade de Ensino no dia "+hojeBR();
     if (val("horaIni") && val("horaFim")) f += ", das "+hora(val("horaIni"))+" às "+hora(val("horaFim"));
     if (val("motivo")) f += ", para "+esc(val("motivo"));
@@ -447,11 +452,11 @@ function render(){
   document.querySelectorAll("#tipos button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.tipo===tipo)));
   document.querySelectorAll(".extra").forEach(el => { el.hidden = !el.dataset.tipos.split(" ").includes(tipo); });
   // cartão do aluno
-  $("cartaoNome").textContent = a.nome || "Aluno sem nome";
+  $("cartaoNome").textContent = (a.social || a.nome) || "Aluno sem nome";
   const linha1 = [a.serie && a.serie+(a.turma?" – turma "+a.turma:""), !a.serie && a.turma && "Turma "+a.turma, a.turno].filter(Boolean).join(" · ");
-  $("cartaoInfo").innerHTML = [linha1, a.nasc && "Nascimento: "+dataBR(a.nasc), a.mae && "Mãe: "+esc(a.mae), a.pai && "Pai: "+esc(a.pai)]
+  $("cartaoInfo").innerHTML = [linha1, a.matricula && "Código do aluno: "+esc(a.matricula), a.nasc && "Nascimento: "+dataBR(a.nasc), a.mae && "Mãe: "+esc(a.mae), a.pai && "Pai: "+esc(a.pai)]
     .filter(Boolean).map(t => "<span>"+t+"</span>").join("");
-  const faltam = [!a.sexo && "sexo", !a.serie && "ano/série", !a.nasc && "data de nascimento"].filter(Boolean);
+  const faltam = [!a.sexo && "sexo", !a.serie && "ano/fase", !a.nasc && "data de nascimento"].filter(Boolean);
   $("cartaoAlerta").hidden = !faltam.length;
   $("cartaoAlerta").textContent = faltam.length ? "Faltou na lista: "+faltam.join(", ")+". Confira em “Corrigir dados do aluno”." : "";
   $("folhas").innerHTML = '<div class="pagina">'+folhaHTML(a)+'</div>';
@@ -472,7 +477,7 @@ function mostrar(tela){
   ["telaInicio","telaAluno","telaEscola"].forEach(t => $(t).hidden = (t !== tela));
   window.scrollTo(0,0);
   if (tela==="telaAluno") render();
-  if (tela==="telaInicio" && LISTA.length) setTimeout(() => $("busca").focus(), 0);
+  if (tela==="telaInicio") setTimeout(() => $("busca").focus(), 0);
 }
 
 /* ---------- dados da escola ---------- */
@@ -531,6 +536,8 @@ function decodificar(buf){
 function campoDoTitulo(t){
   const h = semAcento(t).replace(/[:.*#]/g,"").trim();
   if (!h) return null;
+  if (/nome social/.test(h)) return "social";
+  if (/cod(igo)? (da )?turma|bai of|bairro|endereco|cep|telefone|fone|cel|cpf|\brg\b|sus|sangu|idade|email|responsavel/.test(h)) return "outro";
   if (/\bmae\b|filiacao ?1|genitora/.test(h)) return "mae";
   if (/\bpai\b|filiacao ?2|genitor\b/.test(h)) return "pai";
   if (/nasc|^dn$|^d n$/.test(h)) return "nasc";
@@ -538,14 +545,13 @@ function campoDoTitulo(t){
   if (/turno/.test(h)) return "turno";
   if (/^turma$/.test(h)) return "turma";
   if (/etapa|ensino|modalidade|nivel|segmento/.test(h)) return "etapa";
-  if (/serie|^ano( escolar| de escolaridade)?$|^ano ?\/ ?serie$|^periodo$|^grupo$/.test(h)) return "serie";
+  if (/^fase$|serie|^ano( escolar| de escolaridade)?$|^ano ?\/ ?serie$|^periodo$|^grupo$/.test(h)) return "serie";
   if (/matricula|codigo|^cod|^id$|^ra$|^n[oº]?$|^num/.test(h)) return "matricula";
-  if (/cpf|rg|endereco|telefone|fone|cel|responsavel|email|bairro|cep/.test(h)) return "outro";
   if (/nome|aluno|aluna|estudante/.test(h)) return "nome";
   return null;
 }
 function normalizar(a){
-  const r = { nome:nomeProprio(a.nome), sexo:"", nasc:"", mae:nomeProprio(a.mae), pai:nomeProprio(a.pai),
+  const r = { nome:nomeProprio(a.nome), social:nomeProprio(a.social), sexo:"", nasc:"", mae:nomeProprio(a.mae), pai:nomeProprio(a.pai),
     serie:"", etapa:"", turma:String(a.turma||"").trim(), turno:"", matricula:String(a.matricula||"").trim() };
   const sx = semAcento(a.sexo).charAt(0); r.sexo = sx==="f" ? "F" : sx==="m" ? "M" : "";
   const pd = partesData(a.nasc); if (pd) r.nasc = pd.a+"-"+dois(pd.m)+"-"+dois(pd.d);
@@ -621,26 +627,32 @@ function lerLista(texto){
 function usarLista(texto, origem, silencioso){
   const lista = lerLista(texto);
   if (!lista.length){ aviso("Não encontrei nomes de alunos nesse arquivo."); return false; }
-  LISTA = lista.map(a => ({...a, chave: semAcento(a.nome)})).sort((x,y) => x.chave.localeCompare(y.chave));
+  LISTA = lista.map(a => ({...a, chave: semAcento(a.nome+" "+a.social+" "+a.matricula)})).sort((x,y) => x.chave.localeCompare(y.chave));
   if (!guardar.gravar("decl.lista", {texto, origem}) && !silencioso) aviso("A lista não pôde ser guardada; abra o arquivo de novo da próxima vez.");
-  $("listaInfo").textContent = LISTA.length+" alunos"+(origem ? " · "+origem : "");
-  $("semLista").hidden = true; $("comLista").hidden = false; $("btnEsquecer").hidden = false;
+  estadoBanco(origem);
   $("busca").value = ""; pesquisar();
-  if (!silencioso){ aviso(LISTA.length+" alunos carregados."); mostrar("telaInicio"); }
+  if (!silencioso){ aviso(LISTA.length+" alunos guardados no banco de dados."); mostrar("telaInicio"); }
   return true;
+}
+function estadoBanco(origem){
+  const tem = LISTA.length > 0;
+  $("semDados").hidden = tem; $("btnEsquecer").hidden = !tem;
+  $("contagemBanco").textContent = tem ? LISTA.length+" alunos no banco de dados" : "";
+  $("listaInfo").textContent = tem
+    ? LISTA.length+" alunos guardados"+(origem ? " (arquivo "+origem+")" : "")+". Para atualizar, abra o arquivo novo."
+    : "Nenhum arquivo carregado. Abra o arquivo do bloco de notas (.txt) com os dados dos alunos; ele fica guardado neste computador. Só precisa abrir de novo quando a lista mudar.";
 }
 function abrirArquivo(arq){
   if (!arq) return;
   arq.arrayBuffer().then(buf => usarLista(decodificar(buf), arq.name)).catch(() => aviso("Não consegui abrir esse arquivo."));
 }
 $("arqLista").addEventListener("change", e => { abrirArquivo(e.target.files[0]); e.target.value = ""; });
-$("arqLista2").addEventListener("change", e => { abrirArquivo(e.target.files[0]); e.target.value = ""; });
+$("btnIrConfig").addEventListener("click", () => { mostrar.anterior = "telaInicio"; mostrar("telaEscola"); });
 $("btnColarLista").addEventListener("click", () => { $("colarLista").hidden = !$("colarLista").hidden; if (!$("colarLista").hidden) $("textoLista").focus(); });
 $("btnUsarLista").addEventListener("click", () => { if (usarLista($("textoLista").value, "lista colada")) $("textoLista").value = ""; });
 $("btnEsquecer").addEventListener("click", () => {
   LISTA = []; guardar.gravar("decl.lista", null);
-  $("semLista").hidden = false; $("comLista").hidden = true; $("btnEsquecer").hidden = true;
-  $("resultados").innerHTML = ""; aviso("Lista de alunos apagada deste computador.");
+  estadoBanco(); $("resultados").innerHTML = ""; aviso("Banco de dados apagado deste computador.");
 });
 // arrastar o arquivo para a página
 ["dragover","dragenter"].forEach(ev => document.addEventListener(ev, e => { e.preventDefault(); $("semLista").classList.add("arrastando"); }));
@@ -667,8 +679,8 @@ function pesquisar(){
     .slice(0, 40);
   marcado = achados.length ? 0 : -1;
   caixa.innerHTML = achados.length
-    ? achados.map((a,i) => '<li role="option" id="op'+i+'" data-i="'+i+'" aria-selected="'+(i===marcado)+'"><div><b>'+destacar(a.nome, termos)+'</b><small>'
-        + esc([a.serie && a.serie+(a.turma?" "+a.turma:""), !a.serie && a.turma && "Turma "+a.turma, a.turno, a.nasc && "nasc. "+dataBR(a.nasc)].filter(Boolean).join(" · "))
+    ? achados.map((a,i) => '<li role="option" id="op'+i+'" data-i="'+i+'" aria-selected="'+(i===marcado)+'"><div><b>'+destacar(a.social || a.nome, termos)+'</b><small>'
+        + esc([a.serie && a.serie+(a.turma?" "+a.turma:""), !a.serie && a.turma && "Turma "+a.turma, a.turno, a.nasc && "nasc. "+dataBR(a.nasc), a.matricula && "cód. "+a.matricula].filter(Boolean).join(" · "))
         + '</small></div><span class="ir">Gerar declaração →</span></li>').join("")
     : '<li class="nada">Nenhum aluno com esse nome na lista.</li>';
 }
@@ -688,7 +700,7 @@ $("resultados").addEventListener("click", e => { const li = e.target.closest("li
 
 /* ---------- aluno escolhido ---------- */
 function escolher(a){
-  $("nome").value = a.nome; $("sexo").value = a.sexo; $("nasc").value = a.nasc;
+  $("nome").value = a.nome; $("social").value = a.social || ""; $("matricula").value = a.matricula || ""; $("sexo").value = a.sexo; $("nasc").value = a.nasc;
   $("mae").value = a.mae; $("pai").value = a.pai;
   $("serie").value = a.serie; $("turma").value = a.turma; $("turno").value = a.turno;
   $("etapa").value = a.etapa || etapaDaSerie(a.serie) || "efi";
@@ -766,6 +778,7 @@ if (document.fonts && document.fonts.ready) document.fonts.ready.then(escalar);
 carregarEscola();
 const salva = guardar.ler("decl.lista");
 if (salva && salva.texto) usarLista(salva.texto, salva.origem, true);
+estadoBanco(salva && salva.origem);
 mostrar("telaInicio");
 })();
 </script>
