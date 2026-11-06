@@ -59,8 +59,10 @@ TEXTO = {
     "CaminhaoFreio": "Por que o FREIO/do caminhão *ACABA*?", "AviaoAntartida": "Por que NINGUÉM/voa na *ANTÁRTIDA*?",
     "ChoqueCarro": "Por que o CARRO/te dá *CHOQUE*?", "DesertoNoite": "Quente de dia,/*GELADO* à noite",
 }
-TEXTO_Y = {"ChoqueCarro": 1420, "FundoMar": 1250}  # altura do texto quando o assunto fica no alto da imagem
+TEXTO["ChuteRoberto"] = "O chute/*IMPOSSÍVEL*"; TEXTO["ElevadorCabo"] = "Caiu 75 ANDARES/e *SOBREVIVEU*"
+TEXTO_Y = {"ChuteRoberto": 1480, "ElevadorCabo": 1500, "ChoqueCarro": 1420, "FundoMar": 1250}  # altura do texto quando o assunto fica no alto da imagem
 CAPA_IMG = {  # escolhas manuais depois de conferir a folha
+    "ChuteRoberto": "foto:Rc_falta_capa", "ElevadorCabo": "foto:El_empire",
     "CeuAzul": "foto:CeuAzul_capa", "GatoEmPeIA": "clipe:GatoEmPeIA_3@4", "LugarChuva": "clipe:LugarChuva_1@1.5",
     "TrianguloBermudas": "foto:B_avenger", "FundoMar": "clipe:FundoMar_5@1.5", "ImasRepelem": "clipe:ImasRepelem_5@1.5",
     "CervejaGelo": "clipe:CervejaGelo_5@1.5", "AviaoCurva": "clipe:AviaoCurva_5@1.5", "RastroAviao": "clipe:RastroAviao_3@1.5",

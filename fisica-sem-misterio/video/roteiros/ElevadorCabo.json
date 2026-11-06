@@ -1,0 +1,61 @@
+{
+ "id": "ElevadorCabo",
+ "titulo": "E se o CABO do elevador arrebentar? 😱 A mulher que caiu 75 andares e SOBREVIVEU",
+ "legenda": "Em 1945, um avião bateu no Empire State Building e danificou os cabos de um elevador. A ascensorista Betty Lou Oliver despencou 75 andares e sobreviveu; o ar preso no poço ajudou a amortecer a queda. Hoje, um elevador com manutenção em dia quase não tem como despencar: ele usa vários cabos e, se descer rápido demais, um limitador de velocidade aciona cunhas de aço que travam nos trilhos. A ideia do freio de segurança foi demonstrada por Elisha Otis em 1854. #fisica #curiosidades #elevador #empirestate #ciencia",
+ "final": {
+  "emoji": "🛡️",
+  "frase": "Vários cabos e um freio."
+ },
+ "pergunta": "Você tem medo de elevador? 👇",
+ "frases": [
+  "Em mil novecentos e quarenta e cinco, uma mulher despencou setenta e cinco andares num elevador. E sobreviveu.",
+  "Um avião bateu no Empire State e danificou os cabos. O ar preso no poço ajudou a amortecer.",
+  "E hoje? É quase impossível despencar. São vários cabos, e muitas vezes um só já aguenta tudo.",
+  "Se descer rápido demais, cunhas de aço travam nos trilhos.",
+  "A ideia é de mil oitocentos e cinquenta e quatro: Elisha Otis mandou cortar a corda da plataforma, na frente do público. E ela parou.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Caiu 75 ANDARES",
+   "destaque": [
+    "75 ANDARES"
+   ],
+   "busca": "empire state building",
+   "foto": "El_empire"
+  },
+  {
+   "gancho": "O AR amorteceu",
+   "destaque": [
+    "AR"
+   ],
+   "busca": "elevator shaft",
+   "foto": "El_ia_ar",
+   "ia": true
+  },
+  {
+   "gancho": "São VÁRIOS cabos",
+   "destaque": [
+    "VÁRIOS"
+   ],
+   "busca": "elevator cables"
+  },
+  {
+   "gancho": "Cunhas TRAVAM nos trilhos",
+   "destaque": [
+    "TRAVAM"
+   ],
+   "busca": "elevator machinery",
+   "foto": "El_ia_cunha",
+   "ia": true
+  },
+  {
+   "gancho": "\"Cortem a corda!\"",
+   "destaque": [
+    "corda"
+   ],
+   "busca": "old elevator",
+   "foto": "El_otis"
+  }
+ ]
+}

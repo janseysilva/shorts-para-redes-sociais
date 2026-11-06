@@ -1,0 +1,274 @@
+{
+ "id": "Veneza",
+ "longo": true,
+ "titulo": "Como construíram VENEZA em cima da água? 🌊 Uma igreja sobre 1 MILHÃO de troncos (a física)",
+ "descricao": "Veneza fica de pé há mais de mil anos sobre a lama de uma lagoa. Neste vídeo, a física que segura a cidade: como os troncos cravados na lama sustentam os prédios, por que a madeira não apodreceu, a pedra que barra a água, o dia em que o campanário de São Marcos desabou e as comportas gigantes que sobem com ar comprimido para segurar o mar.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Esta igreja enorme fica à beira da água. E embaixo dela não tem rocha. Tem cerca de um milhão de troncos de árvore.",
+     "foto": "Vz_salute",
+     "legenda": "Basílica de Santa Maria della Salute, Veneza"
+    },
+    {
+     "frase": "Bem-vindo a Veneza: uma cidade inteira erguida sobre a lama de uma lagoa, e de pé há mais de mil anos.",
+     "busca": "venice grand canal aerial",
+     "desde": 0,
+     "clipe": "Veneza_1"
+    },
+    {
+     "frase": "Neste vídeo, a física que segura essa cidade: por que a madeira não apodreceu, o dia em que a maior torre caiu, e o truque de ar comprimido que hoje segura o mar.",
+     "busca": "venice gondola canal",
+     "desde": 0,
+     "clipe": "Veneza_2"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que construir aqui?",
+   "cenas": [
+    {
+     "frase": "Tudo começou com medo. Com a queda do Império Romano, invasores atravessavam o norte da Itália, e muita gente fugiu para onde eles não iam: as ilhas de uma lagoa rasa.",
+     "foto": "Vz_nasa",
+     "legenda": "A lagoa de Veneza vista da Estação Espacial (NASA)"
+    },
+    {
+     "frase": "A tradição diz que a cidade nasceu em quatrocentos e vinte e um. E a lagoa era uma defesa perfeita: quem não conhecia os canais encalhava.",
+     "busca": "venice lagoon boat",
+     "desde": 0,
+     "clipe": "Veneza_4"
+    },
+    {
+     "frase": "Em mil e quinhentos, Veneza já era uma potência, como mostra este mapa da época.",
+     "foto": "Vz_barbari",
+     "legenda": "Veneza no mapa de Jacopo de' Barbari, por volta de 1500"
+    },
+    {
+     "frase": "Hoje são cento e dezoito ilhas, ligadas por mais de quatrocentas pontes. Mas havia um problema enorme: ali não existe chão firme.",
+     "foto": "Vz_nasa2",
+     "legenda": "Veneza e as ilhas da lagoa, vistas do espaço (NASA)"
+    }
+   ]
+  },
+  {
+   "titulo": "Construir na lama",
+   "cenas": [
+    {
+     "frase": "Se você coloca uma casa de pedra direto na lama, ela afunda. O peso fica concentrado numa área pequena, e a pressão é maior do que a lama aguenta.",
+     "busca": "mud wet ground",
+     "desde": 0,
+     "clipe": "Veneza_7"
+    },
+    {
+     "frase": "A solução foi atravessar a lama. Eles cravaram troncos, um colado no outro, até chegar numa camada mais dura, de argila compactada.",
+     "busca": "wooden poles water venice",
+     "desde": 0,
+     "foto": "Vz_ia_cravar",
+     "ia": true,
+     "legenda": "Cravando troncos na lama da lagoa"
+    },
+    {
+     "frase": "Com tantos troncos juntos, o solo entre eles fica mais firme, e o atrito ao longo de cada tronco ajuda a segurar o peso.",
+     "busca": "wooden piles lagoon",
+     "desde": 0,
+     "foto": "Vz_ia_corte",
+     "ia": true,
+     "legenda": "Troncos atravessam a lama até a argila dura"
+    },
+    {
+     "frase": "Em cima dos troncos vinham pranchas de carvalho. Sobre elas, blocos de pedra. E só então começava o prédio.",
+     "busca": "stone building venice",
+     "desde": 0,
+     "foto": "Vz_ia_camadas",
+     "ia": true,
+     "legenda": "Troncos, pranchas de carvalho e blocos de pedra"
+    },
+    {
+     "frase": "A igreja de Santa Maria della Salute, do começo do vídeo, teria cerca de um milhão de troncos. Uma floresta inteira, enterrada na lama.",
+     "foto": "Vz_salute2",
+     "legenda": "Santa Maria della Salute"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que a madeira não apodreceu?",
+   "cenas": [
+    {
+     "frase": "Agora a pergunta que todo mundo faz: madeira dentro da água não apodrece? Apodrece. Mas o que mais destrói madeira precisa de uma coisa: oxigênio.",
+     "busca": "rotten wood",
+     "desde": 0,
+     "clipe": "Veneza_12"
+    },
+    {
+     "frase": "Fungos e insetos dependem dele. Enterrados na lama encharcada, quase sem oxigênio, os troncos se desgastam muito devagar.",
+     "busca": "underwater wood",
+     "desde": 0,
+     "clipe": "Veneza_13"
+    },
+    {
+     "frase": "O tipo de madeira também ajudou: amieiro, carvalho e lariço, que aguentam bem ficar molhados.",
+     "busca": "alder oak forest",
+     "desde": 0,
+     "clipe": "Veneza_14"
+    },
+    {
+     "frase": "Você pode ter ouvido que essa madeira virou pedra. Não é bem assim. Amostras tiradas das fundações mostram madeira desgastada. Mas os prédios analisados continuam estáveis.",
+     "busca": "old wood texture",
+     "desde": 0,
+     "clipe": "Veneza_15"
+    }
+   ]
+  },
+  {
+   "titulo": "A pedra que barra a água",
+   "cenas": [
+    {
+     "frase": "O perigo maior estava mais acima. O tijolo é cheio de poros minúsculos, e a água sobe por eles sozinha, contra a gravidade. É a capilaridade, o mesmo efeito do papel-toalha que puxa o líquido.",
+     "busca": "old brick wall venice",
+     "desde": 0,
+     "foto": "Vz_ia_capilar",
+     "ia": true,
+     "legenda": "A água sobe pelos poros do tijolo"
+    },
+    {
+     "frase": "E essa água traz sal, que vai corroendo a parede por dentro. Por isso os venezianos punham uma faixa de pedra da Ístria na base dos prédios, uma pedra que quase não deixa a água passar.",
+     "busca": "venice canal building wall",
+     "desde": 0,
+     "clipe": "Veneza_17"
+    },
+    {
+     "frase": "Olhe as casas de Veneza e você vê a marca: pedra clara embaixo, tijolo em cima. Só que a água subiu, e em muitos lugares ela já passa dessa faixa.",
+     "foto": "Vz_acqua1",
+     "legenda": "Acqua alta em Veneza, 2019"
+    }
+   ]
+  },
+  {
+   "titulo": "O dia em que a torre caiu",
+   "cenas": [
+    {
+     "frase": "Catorze de julho de mil novecentos e dois. O campanário da Praça de São Marcos, com quase cem metros de altura e cheio de rachaduras, desaba de uma vez.",
+     "busca": "st marks campanile venice",
+     "desde": 0,
+     "clipe": "Veneza_19",
+     "legenda": "O campanário de São Marcos hoje, reconstruído"
+    },
+    {
+     "frase": "Uma montanha de tijolos cobre a praça. A basílica ao lado não sofre danos. E a única vítima é o gato do zelador.",
+     "foto": "Vz_ruinas",
+     "legenda": "As ruínas do campanário de São Marcos, 1902"
+    },
+    {
+     "frase": "Naquela mesma noite, a cidade decide reconstruir a torre igualzinha. E para reforçar a base, sabe o que usaram, em pleno século vinte? Mais de três mil troncos novos, cravados na lama.",
+     "foto": "Vz_panorama",
+     "legenda": "Veneza vista do campanário de São Marcos, foto antiga"
+    }
+   ]
+  },
+  {
+   "titulo": "A cidade está afundando",
+   "cenas": [
+    {
+     "frase": "Mas Veneza tem um problema. No século vinte, fábricas da região bombearam água do subsolo, e o chão cedeu. Os poços foram proibidos nos anos sessenta, e a descida diminuiu muito.",
+     "busca": "industrial port venice",
+     "desde": 0,
+     "foto": "Vz_marghera",
+     "legenda": "Indústrias de Porto Marghera, ao lado de Veneza"
+    },
+    {
+     "frase": "Mesmo assim, a cidade ainda desce um ou dois milímetros por ano, enquanto o nível do mar sobe. Parece pouco, mas a parte mais baixa, perto da Basílica de São Marcos, fica só sessenta e quatro centímetros acima do mar.",
+     "busca": "st marks square venice",
+     "desde": 0,
+     "clipe": "Veneza_23"
+    },
+    {
+     "frase": "Em doze de novembro de dois mil e dezenove, a maré chegou a um metro e oitenta e sete. A maior parte da cidade ficou debaixo d'água.",
+     "foto": "Vz_acqua2",
+     "legenda": "Praça de São Marcos alagada pela acqua alta"
+    }
+   ]
+  },
+  {
+   "titulo": "O truque do ar",
+   "cenas": [
+    {
+     "frase": "A resposta foi uma obra gigantesca, chamada MOSE: setenta e oito comportas escondidas no fundo do mar, nas entradas da lagoa.",
+     "busca": "sea barrier gate",
+     "desde": 0,
+     "foto": "Vz_mose_lido",
+     "legenda": "Entrada do Lido, uma das três aberturas da lagoa"
+    },
+    {
+     "frase": "Normalmente elas ficam deitadas, cheias de água. Quando vem a maré alta, injetam ar comprimido dentro delas. A água sai, a comporta fica leve e sobe sozinha. É o mesmo empuxo que faz uma boia subir.",
+     "busca": "air bubbles underwater",
+     "desde": 0,
+     "foto": "Vz_ia_comporta",
+     "ia": true,
+     "legenda": "Ar comprimido expulsa a água e a comporta sobe"
+    },
+    {
+     "frase": "E funcionou. Em novembro de dois mil e vinte e dois, a maré chegou a um metro e setenta e três, e as comportas seguraram a água. Sem elas, segundo as autoridades locais, mais de oitenta por cento da cidade teria alagado.",
+     "busca": "venice sunny canal",
+     "desde": 0,
+     "clipe": "Veneza_27"
+    },
+    {
+     "frase": "Mas elas só sobem para marés acima de um metro e dez, e não resolvem o problema de um mar que continua subindo.",
+     "busca": "venice sea waves",
+     "desde": 0,
+     "clipe": "Veneza_28"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Lama, troncos, pedra e ar. Mais de mil anos de física mantendo de pé uma das cidades mais improváveis do mundo.",
+     "busca": "venice sunset",
+     "desde": 0,
+     "clipe": "Veneza_29"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de morar em Veneza?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Esta igreja enorme fica à beira da água. E embaixo dela não tem rocha. Tem cerca de um milhão de troncos de árvore.",
+  "Bem-vindo a Veneza: uma cidade inteira erguida sobre a lama de uma lagoa, e de pé há mais de mil anos.",
+  "Neste vídeo, a física que segura essa cidade: por que a madeira não apodreceu, o dia em que a maior torre caiu, e o truque de ar comprimido que hoje segura o mar.",
+  "Tudo começou com medo. Com a queda do Império Romano, invasores atravessavam o norte da Itália, e muita gente fugiu para onde eles não iam: as ilhas de uma lagoa rasa.",
+  "A tradição diz que a cidade nasceu em quatrocentos e vinte e um. E a lagoa era uma defesa perfeita: quem não conhecia os canais encalhava.",
+  "Em mil e quinhentos, Veneza já era uma potência, como mostra este mapa da época.",
+  "Hoje são cento e dezoito ilhas, ligadas por mais de quatrocentas pontes. Mas havia um problema enorme: ali não existe chão firme.",
+  "Se você coloca uma casa de pedra direto na lama, ela afunda. O peso fica concentrado numa área pequena, e a pressão é maior do que a lama aguenta.",
+  "A solução foi atravessar a lama. Eles cravaram troncos, um colado no outro, até chegar numa camada mais dura, de argila compactada.",
+  "Com tantos troncos juntos, o solo entre eles fica mais firme, e o atrito ao longo de cada tronco ajuda a segurar o peso.",
+  "Em cima dos troncos vinham pranchas de carvalho. Sobre elas, blocos de pedra. E só então começava o prédio.",
+  "A igreja de Santa Maria della Salute, do começo do vídeo, teria cerca de um milhão de troncos. Uma floresta inteira, enterrada na lama.",
+  "Agora a pergunta que todo mundo faz: madeira dentro da água não apodrece? Apodrece. Mas o que mais destrói madeira precisa de uma coisa: oxigênio.",
+  "Fungos e insetos dependem dele. Enterrados na lama encharcada, quase sem oxigênio, os troncos se desgastam muito devagar.",
+  "O tipo de madeira também ajudou: amieiro, carvalho e lariço, que aguentam bem ficar molhados.",
+  "Você pode ter ouvido que essa madeira virou pedra. Não é bem assim. Amostras tiradas das fundações mostram madeira desgastada. Mas os prédios analisados continuam estáveis.",
+  "O perigo maior estava mais acima. O tijolo é cheio de poros minúsculos, e a água sobe por eles sozinha, contra a gravidade. É a capilaridade, o mesmo efeito do papel-toalha que puxa o líquido.",
+  "E essa água traz sal, que vai corroendo a parede por dentro. Por isso os venezianos punham uma faixa de pedra da Ístria na base dos prédios, uma pedra que quase não deixa a água passar.",
+  "Olhe as casas de Veneza e você vê a marca: pedra clara embaixo, tijolo em cima. Só que a água subiu, e em muitos lugares ela já passa dessa faixa.",
+  "Catorze de julho de mil novecentos e dois. O campanário da Praça de São Marcos, com quase cem metros de altura e cheio de rachaduras, desaba de uma vez.",
+  "Uma montanha de tijolos cobre a praça. A basílica ao lado não sofre danos. E a única vítima é o gato do zelador.",
+  "Naquela mesma noite, a cidade decide reconstruir a torre igualzinha. E para reforçar a base, sabe o que usaram, em pleno século vinte? Mais de três mil troncos novos, cravados na lama.",
+  "Mas Veneza tem um problema. No século vinte, fábricas da região bombearam água do subsolo, e o chão cedeu. Os poços foram proibidos nos anos sessenta, e a descida diminuiu muito.",
+  "Mesmo assim, a cidade ainda desce um ou dois milímetros por ano, enquanto o nível do mar sobe. Parece pouco, mas a parte mais baixa, perto da Basílica de São Marcos, fica só sessenta e quatro centímetros acima do mar.",
+  "Em doze de novembro de dois mil e dezenove, a maré chegou a um metro e oitenta e sete. A maior parte da cidade ficou debaixo d'água.",
+  "A resposta foi uma obra gigantesca, chamada MOSE: setenta e oito comportas escondidas no fundo do mar, nas entradas da lagoa.",
+  "Normalmente elas ficam deitadas, cheias de água. Quando vem a maré alta, injetam ar comprimido dentro delas. A água sai, a comporta fica leve e sobe sozinha. É o mesmo empuxo que faz uma boia subir.",
+  "E funcionou. Em novembro de dois mil e vinte e dois, a maré chegou a um metro e setenta e três, e as comportas seguraram a água. Sem elas, segundo as autoridades locais, mais de oitenta por cento da cidade teria alagado.",
+  "Mas elas só sobem para marés acima de um metro e dez, e não resolvem o problema de um mar que continua subindo.",
+  "Lama, troncos, pedra e ar. Mais de mil anos de física mantendo de pé uma das cidades mais improváveis do mundo.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de morar em Veneza?"
+ ]
+}

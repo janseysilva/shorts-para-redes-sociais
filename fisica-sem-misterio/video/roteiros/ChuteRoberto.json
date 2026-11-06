@@ -1,0 +1,60 @@
+{
+ "id": "ChuteRoberto",
+ "titulo": "O chute IMPOSSÍVEL de Roberto Carlos: por que a bola fez aquela CURVA? ⚽ A física explica",
+ "legenda": "Em 1997, contra a França, Roberto Carlos cobrou uma falta de cerca de 35 metros: a bola parecia ir para fora e fez a curva. O segredo é o giro: rodando, a bola desvia o ar para um lado e o ar a empurra para o outro, o efeito Magnus. Como o ar também freia a bola, a curva vai ficando mais fechada, como uma espiral. Físicos franceses descreveram isso em 2010 e mostraram que a distância longa era necessária. #fisica #curiosidades #futebol #robertocarlos #efeitomagnus",
+ "final": {
+  "emoji": "⚽",
+  "frase": "O giro faz a curva."
+ },
+ "pergunta": "Você lembra desse gol? 👇",
+ "frases": [
+  "Mil novecentos e noventa e sete. Roberto Carlos chuta de trinta e cinco metros. A bola parece ir para fora, mas faz a curva e entra.",
+  "O segredo é o giro: ele bateu com a parte de fora do pé, e a bola saiu rodando.",
+  "Girando, ela joga o ar para um lado, e o ar a empurra para o outro. É o efeito Magnus.",
+  "O ar também freia a bola. E quanto mais lenta, mais fechada a curva.",
+  "Físicos franceses mostraram: não foi acaso. E só acontece de longe.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O chute IMPOSSÍVEL",
+   "destaque": [
+    "IMPOSSÍVEL"
+   ],
+   "busca": "football free kick",
+   "foto": "Rc_falta"
+  },
+  {
+   "gancho": "A bola saiu GIRANDO",
+   "destaque": [
+    "GIRANDO"
+   ],
+   "busca": "soccer ball kick slow motion"
+  },
+  {
+   "gancho": "O efeito MAGNUS",
+   "destaque": [
+    "MAGNUS"
+   ],
+   "busca": "soccer ball spinning",
+   "foto": "Cr_ia_ar",
+   "ia": true
+  },
+  {
+   "gancho": "A curva vai FECHANDO",
+   "destaque": [
+    "FECHANDO"
+   ],
+   "busca": "soccer ball flying air",
+   "foto": "Cr_ia_espiral",
+   "ia": true
+  },
+  {
+   "gancho": "Só de LONGE",
+   "destaque": [
+    "LONGE"
+   ],
+   "busca": "soccer goal net ball"
+  }
+ ]
+}

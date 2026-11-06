@@ -194,6 +194,12 @@ import rRadar from "../roteiros/Radar.json";
 import tRadar from "../public/Radar/tempos.json";
 import rTitanic from "../roteiros/Titanic.json";
 import tTitanic from "../public/Titanic/tempos.json";
+import rChuteRoberto from "../roteiros/ChuteRoberto.json";
+import tChuteRoberto from "../public/ChuteRoberto/tempos.json";
+import rElevadorCabo from "../roteiros/ElevadorCabo.json";
+import tElevadorCabo from "../public/ElevadorCabo/tempos.json";
+import rVeneza from "../roteiros/Veneza.json";
+import tVeneza from "../public/Veneza/tempos.json";
 import rHalifax from "../roteiros/Halifax.json";
 import tHalifax from "../public/Halifax/tempos.json";
 import rVulcao from "../roteiros/Vulcao.json";
@@ -226,7 +232,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras], [rCaminhaoFreio, tCaminhaoFreio], [rAviaoAntartida, tAviaoAntartida], [rChoqueCarro, tChoqueCarro], [rDesertoNoite, tDesertoNoite],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras], [rCaminhaoFreio, tCaminhaoFreio], [rAviaoAntartida, tAviaoAntartida], [rChoqueCarro, tChoqueCarro], [rDesertoNoite, tDesertoNoite], [rChuteRoberto, tChuteRoberto], [rElevadorCabo, tElevadorCabo],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -246,6 +252,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rRadar as RoteiroLongo, tRadar, ["RADAR", "A arma secreta que venceu no céu"], "Radar_2"],
   [rTitanic as RoteiroLongo, tTitanic, ["TITANIC", "Como o navio inafundável afundou"], "TtNasa_2"],
   [rHalifax as RoteiroLongo, tHalifax, ["HALIFAX, 1917", "O navio que destruiu uma cidade"], "Halifax_33"],
+  [rVeneza as RoteiroLongo, tVeneza, ["VENEZA", "A cidade sobre um mar de troncos"], "Veneza_29"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (

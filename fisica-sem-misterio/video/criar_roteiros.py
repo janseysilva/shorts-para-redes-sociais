@@ -991,6 +991,28 @@ short("DesertoNoite", "Por que o DESERTO é quente de dia e GELADO à noite? �
     ("Por isso a diferença chega a trinta graus num só dia. Em Manaus, com o ar úmido, a noite quase não refresca.", "Até 30 GRAUS de diferença", ["30"], v("desert night stars")),
 ], pergunta="Você aguentaria uma noite no deserto? 👇")
 
+# ---------- LEVA 26 (06/11): escolhidos pelo Jansey ("faça o 15 e 18 pra shorts") — roteiro aguardando aprovação ----------
+# Sem imagens do gol de 1997 (direitos). Cenas 3 e 4 do chute e 2 do elevador: ilustração de IA depois da aprovação.
+short("ChuteRoberto", "O chute IMPOSSÍVEL de Roberto Carlos: por que a bola fez aquela CURVA? ⚽ A física explica",
+      "Em 1997, contra a França, Roberto Carlos cobrou uma falta de cerca de 35 metros: a bola parecia ir para fora e fez a curva. O segredo é o giro: rodando, a bola desvia o ar para um lado e o ar a empurra para o outro, o efeito Magnus. Como o ar também freia a bola, a curva vai ficando mais fechada, como uma espiral. Físicos franceses descreveram isso em 2010 e mostraram que a distância longa era necessária. #fisica #curiosidades #futebol #robertocarlos #efeitomagnus",
+      "⚽", "O giro faz a curva.", [
+    ("Mil novecentos e noventa e sete. Roberto Carlos chuta de trinta e cinco metros. A bola parece ir para fora, mas faz a curva e entra.", "O chute IMPOSSÍVEL", ["IMPOSSÍVEL"], {"busca": "football free kick", "foto": "Rc_falta"}),
+    ("O segredo é o giro: ele bateu com a parte de fora do pé, e a bola saiu rodando.", "A bola saiu GIRANDO", ["GIRANDO"], v("soccer ball kick slow motion")),
+    ("Girando, ela joga o ar para um lado, e o ar a empurra para o outro. É o efeito Magnus.", "O efeito MAGNUS", ["MAGNUS"], {"busca": "soccer ball spinning", "foto": "Cr_ia_ar", "ia": True}),
+    ("O ar também freia a bola. E quanto mais lenta, mais fechada a curva.", "A curva vai FECHANDO", ["FECHANDO"], {"busca": "soccer ball flying air", "foto": "Cr_ia_espiral", "ia": True}),
+    ("Físicos franceses mostraram: não foi acaso. E só acontece de longe.", "Só de LONGE", ["LONGE"], v("soccer goal net ball")),
+], pergunta="Você lembra desse gol? 👇")
+
+short("ElevadorCabo", "E se o CABO do elevador arrebentar? 😱 A mulher que caiu 75 andares e SOBREVIVEU",
+      "Em 1945, um avião bateu no Empire State Building e danificou os cabos de um elevador. A ascensorista Betty Lou Oliver despencou 75 andares e sobreviveu; o ar preso no poço ajudou a amortecer a queda. Hoje, um elevador com manutenção em dia quase não tem como despencar: ele usa vários cabos e, se descer rápido demais, um limitador de velocidade aciona cunhas de aço que travam nos trilhos. A ideia do freio de segurança foi demonstrada por Elisha Otis em 1854. #fisica #curiosidades #elevador #empirestate #ciencia",
+      "🛡️", "Vários cabos e um freio.", [
+    ("Em mil novecentos e quarenta e cinco, uma mulher despencou setenta e cinco andares num elevador. E sobreviveu.", "Caiu 75 ANDARES", ["75 ANDARES"], {"busca": "empire state building", "foto": "El_empire"}),
+    ("Um avião bateu no Empire State e danificou os cabos. O ar preso no poço ajudou a amortecer.", "O AR amorteceu", ["AR"], {"busca": "elevator shaft", "foto": "El_ia_ar", "ia": True}),
+    ("E hoje? É quase impossível despencar. São vários cabos, e muitas vezes um só já aguenta tudo.", "São VÁRIOS cabos", ["VÁRIOS"], v("elevator cables")),
+    ("Se descer rápido demais, cunhas de aço travam nos trilhos.", "Cunhas TRAVAM nos trilhos", ["TRAVAM"], {"busca": "elevator machinery", "foto": "El_ia_cunha", "ia": True}),
+    ("A ideia é de mil oitocentos e cinquenta e quatro: Elisha Otis mandou cortar a corda da plataforma, na frente do público. E ela parou.", "\"Cortem a corda!\"", ["corda"], {"busca": "old elevator", "foto": "El_otis"}),
+], pergunta="Você tem medo de elevador? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

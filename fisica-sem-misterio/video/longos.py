@@ -1104,10 +1104,85 @@ longo("Halifax", "Um NAVIO cheio de EXPLOSIVOS destruiu uma CIDADE inteira 💥 
     ]),
 ])
 
+longo("Veneza", "Como construíram VENEZA em cima da água? 🌊 Uma igreja sobre 1 MILHÃO de troncos (a física)",
+      "Veneza fica de pé há mais de mil anos sobre a lama de uma lagoa. Neste vídeo, a física que segura a cidade: como os troncos cravados na lama sustentam os prédios, "
+      "por que a madeira não apodreceu, a pedra que barra a água, o dia em que o campanário de São Marcos desabou "
+      "e as comportas gigantes que sobem com ar comprimido para segurar o mar.", [
+    ("Abertura", [
+        ("Esta igreja enorme fica à beira da água. E embaixo dela não tem rocha. Tem cerca de um milhão de troncos de árvore.", f("Vz_salute")),
+        ("Bem-vindo a Veneza: uma cidade inteira erguida sobre a lama de uma lagoa, e de pé há mais de mil anos.", v("venice grand canal aerial")),
+        ("Neste vídeo, a física que segura essa cidade: por que a madeira não apodreceu, o dia em que a maior torre caiu, e o truque de ar comprimido que hoje segura o mar.", v("venice gondola canal")),
+    ]),
+    ("Por que construir aqui?", [
+        ("Tudo começou com medo. Com a queda do Império Romano, invasores atravessavam o norte da Itália, e muita gente fugiu para onde eles não iam: as ilhas de uma lagoa rasa.", f("Vz_nasa")),
+        ("A tradição diz que a cidade nasceu em quatrocentos e vinte e um. E a lagoa era uma defesa perfeita: quem não conhecia os canais encalhava.", v("venice lagoon boat")),
+        ("Em mil e quinhentos, Veneza já era uma potência, como mostra este mapa da época.", f("Vz_barbari")),
+        ("Hoje são cento e dezoito ilhas, ligadas por mais de quatrocentas pontes. Mas havia um problema enorme: ali não existe chão firme.", f("Vz_nasa2")),
+    ]),
+    ("Construir na lama", [
+        ("Se você coloca uma casa de pedra direto na lama, ela afunda. O peso fica concentrado numa área pequena, e a pressão é maior do que a lama aguenta.", v("mud wet ground")),
+        ("A solução foi atravessar a lama. Eles cravaram troncos, um colado no outro, até chegar numa camada mais dura, de argila compactada.", v("wooden poles water venice")),
+        ("Com tantos troncos juntos, o solo entre eles fica mais firme, e o atrito ao longo de cada tronco ajuda a segurar o peso.", v("wooden piles lagoon")),
+        ("Em cima dos troncos vinham pranchas de carvalho. Sobre elas, blocos de pedra. E só então começava o prédio.", v("stone building venice")),
+        ("A igreja de Santa Maria della Salute, do começo do vídeo, teria cerca de um milhão de troncos. Uma floresta inteira, enterrada na lama.", f("Vz_salute2")),
+    ]),
+    ("Por que a madeira não apodreceu?", [
+        ("Agora a pergunta que todo mundo faz: madeira dentro da água não apodrece? Apodrece. Mas o que mais destrói madeira precisa de uma coisa: oxigênio.", v("rotten wood")),
+        ("Fungos e insetos dependem dele. Enterrados na lama encharcada, quase sem oxigênio, os troncos se desgastam muito devagar.", v("underwater wood")),
+        ("O tipo de madeira também ajudou: amieiro, carvalho e lariço, que aguentam bem ficar molhados.", v("alder oak forest")),
+        ("Você pode ter ouvido que essa madeira virou pedra. Não é bem assim. Amostras tiradas das fundações mostram madeira desgastada. Mas os prédios analisados continuam estáveis.", v("old wood texture")),
+    ]),
+    ("A pedra que barra a água", [
+        ("O perigo maior estava mais acima. O tijolo é cheio de poros minúsculos, e a água sobe por eles sozinha, contra a gravidade. É a capilaridade, o mesmo efeito do papel-toalha que puxa o líquido.", v("old brick wall venice")),
+        ("E essa água traz sal, que vai corroendo a parede por dentro. Por isso os venezianos punham uma faixa de pedra da Ístria na base dos prédios, uma pedra que quase não deixa a água passar.", v("venice canal building wall")),
+        ("Olhe as casas de Veneza e você vê a marca: pedra clara embaixo, tijolo em cima. Só que a água subiu, e em muitos lugares ela já passa dessa faixa.", f("Vz_acqua1")),
+    ]),
+    ("O dia em que a torre caiu", [
+        ("Catorze de julho de mil novecentos e dois. O campanário da Praça de São Marcos, com quase cem metros de altura e cheio de rachaduras, desaba de uma vez.", v("st marks campanile venice")),
+        ("Uma montanha de tijolos cobre a praça. A basílica ao lado não sofre danos. E a única vítima é o gato do zelador.", f("Vz_ruinas")),
+        ("Naquela mesma noite, a cidade decide reconstruir a torre igualzinha. E para reforçar a base, sabe o que usaram, em pleno século vinte? Mais de três mil troncos novos, cravados na lama.", f("Vz_panorama")),
+    ]),
+    ("A cidade está afundando", [
+        ("Mas Veneza tem um problema. No século vinte, fábricas da região bombearam água do subsolo, e o chão cedeu. Os poços foram proibidos nos anos sessenta, e a descida diminuiu muito.", v("industrial port venice")),
+        ("Mesmo assim, a cidade ainda desce um ou dois milímetros por ano, enquanto o nível do mar sobe. Parece pouco, mas a parte mais baixa, perto da Basílica de São Marcos, fica só sessenta e quatro centímetros acima do mar.", v("st marks square venice")),
+        ("Em doze de novembro de dois mil e dezenove, a maré chegou a um metro e oitenta e sete. A maior parte da cidade ficou debaixo d'água.", f("Vz_acqua2")),
+    ]),
+    ("O truque do ar", [
+        ("A resposta foi uma obra gigantesca, chamada MOSE: setenta e oito comportas escondidas no fundo do mar, nas entradas da lagoa.", v("sea barrier gate")),
+        ("Normalmente elas ficam deitadas, cheias de água. Quando vem a maré alta, injetam ar comprimido dentro delas. A água sai, a comporta fica leve e sobe sozinha. É o mesmo empuxo que faz uma boia subir.", v("air bubbles underwater")),
+        ("E funcionou. Em novembro de dois mil e vinte e dois, a maré chegou a um metro e setenta e três, e as comportas seguraram a água. Sem elas, segundo as autoridades locais, mais de oitenta por cento da cidade teria alagado.", v("venice sunny canal")),
+        ("Mas elas só sobem para marés acima de um metro e dez, e não resolvem o problema de um mar que continua subindo.", v("venice sea waves")),
+    ]),
+    ("Final", [
+        ("Lama, troncos, pedra e ar. Mais de mil anos de física mantendo de pé uma das cidades mais improváveis do mundo.", v("venice sunset")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de morar em Veneza?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    # Veneza (06/11): fotos reais Vz_* (Wikimedia) + clipes Pexels Veneza_*; IA do Flow (Vz_ia_*) nas cenas que ninguém fotografou.
+    "Veneza": {
+        0: dict(foto="Vz_salute", legenda="Basílica de Santa Maria della Salute, Veneza"),
+        3: dict(foto="Vz_nasa", legenda="A lagoa de Veneza vista da Estação Espacial (NASA)"),
+        5: dict(foto="Vz_barbari", legenda="Veneza no mapa de Jacopo de' Barbari, por volta de 1500"),
+        6: dict(foto="Vz_nasa2", legenda="Veneza e as ilhas da lagoa, vistas do espaço (NASA)"),
+        8: dict(foto="Vz_ia_cravar", ia=True, legenda="Cravando troncos na lama da lagoa"),
+        9: dict(foto="Vz_ia_corte", ia=True, legenda="Troncos atravessam a lama até a argila dura"),
+        10: dict(foto="Vz_ia_camadas", ia=True, legenda="Troncos, pranchas de carvalho e blocos de pedra"),
+        11: dict(foto="Vz_salute2", legenda="Santa Maria della Salute"),
+        16: dict(foto="Vz_ia_capilar", ia=True, legenda="A água sobe pelos poros do tijolo"),
+        18: dict(foto="Vz_acqua1", legenda="Acqua alta em Veneza, 2019"),
+        19: dict(clipe="Veneza_19", legenda="O campanário de São Marcos hoje, reconstruído"),
+        20: dict(foto="Vz_ruinas", legenda="As ruínas do campanário de São Marcos, 1902"),
+        21: dict(foto="Vz_panorama", legenda="Veneza vista do campanário de São Marcos, foto antiga"),
+        22: dict(foto="Vz_marghera", legenda="Indústrias de Porto Marghera, ao lado de Veneza"),
+        24: dict(foto="Vz_acqua2", legenda="Praça de São Marcos alagada pela acqua alta"),
+        25: dict(foto="Vz_mose_lido", legenda="Entrada do Lido, uma das três aberturas da lagoa"),
+        26: dict(foto="Vz_ia_comporta", ia=True, legenda="Ar comprimido expulsa a água e a comporta sobe"),
+    },
     # Halifax: fotos reais de 1917 (Wikimedia, domínio público/CC) → Hx_*; IA (Google Flow) nas cenas que ninguém fotografou.
     "Halifax": {
         0: dict(foto="Hx_nuvem", legenda="A nuvem da explosão de Halifax, 6 de dezembro de 1917"),

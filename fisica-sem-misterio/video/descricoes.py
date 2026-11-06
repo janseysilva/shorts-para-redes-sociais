@@ -7,6 +7,8 @@ RAIZ = Path(__file__).resolve().parent
 cred = json.loads((RAIZ / "public/fotos/creditos.json").read_text(encoding="utf-8"))
 # regra de 28/10: todo longo novo termina divulgando o Espertinhos (link só na descrição dos LONGOS)
 PLAY_ESPERTINHOS = "https://play.google.com/store/apps/details?id=com.espertinhos.espertinhos"
+# longos que saíram sem o final do Espertinhos (o Jansey decide vídeo a vídeo): a descrição também fica sem o link
+SEM_ESPERTINHOS = {"Veneza"}
 # filmagens reais de domínio público usadas além do Pexels/Pixabay
 VIDEOS_EXTRA = {
     "Titanic": ["Filmagem real de 1911-1912: \"Titanic Disaster - Genuine Footage (1911-1912)\" (domínio público), via Wikimedia Commons.",
@@ -34,7 +36,7 @@ for id_ in sys.argv[1:]:
         ia = ["", "Cenas com o selo \"ILUSTRAÇÃO COM IA\" ou \"RECRIAÇÃO COM IA\" foram feitas com inteligência artificial (Google Flow) para explicar o que não foi filmado."] if any(c.get("ia") for c in cenas) else []
         txt = [r["descricao"], "", "Capítulos:", *caps, "",
                "Imagens: vídeos do Pexels e do Pixabay (licença livre).", *VIDEOS_EXTRA.get(id_, []), "Fotos reais:", *creditos(fotos), *ia, "",
-               "📱 Tem criança em casa? Baixe grátis o Espertinhos, jogos educativos para crianças de 2 a 8 anos: " + PLAY_ESPERTINHOS, "",
+               *([] if id_ in SEM_ESPERTINHOS else ["📱 Tem criança em casa? Baixe grátis o Espertinhos, jogos educativos para crianças de 2 a 8 anos: " + PLAY_ESPERTINHOS, ""]),
                "Inscreva-se no Física Sem Mistério para mais curiosidades da física!", "⚡ Gostou? Aperte o botão HYPE embaixo do vídeo: ele ajuda canais pequenos a aparecer para mais gente.", "#fisica #ciencia #curiosidades #documentario"]
     else:
         fotos = [c["foto"] for c in r["cenas"] if "foto" in c and not c.get("ia")]
