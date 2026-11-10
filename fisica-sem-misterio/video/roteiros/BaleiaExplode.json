@@ -1,0 +1,63 @@
+{
+ "id": "BaleiaExplode",
+ "titulo": "Por que a BALEIA EXPLODE quando morre? 🐋💥 A física explica",
+ "legenda": "Em 26 de janeiro de 2004, em Tainan, Taiwan, uma baleia cachalote morta explodiu no meio da rua enquanto era levada num caminhão, sujando lojas, carros e quem estava perto. A culpa é dos gases da decomposição: as bactérias continuam digerindo a baleia por dentro, e a pele grossa e a gordura seguram o gás até a pressão ficar alta demais. Por isso, nunca chegue perto de uma baleia encalhada. #fisica #curiosidades #baleia #pressao #ciencia",
+ "final": {
+  "emoji": "🐋",
+  "frase": "Gás preso, pressão alta."
+ },
+ "pergunta": "Você sabia disso? 👇",
+ "frases": [
+  "Em dois mil e quatro, em Taiwan, uma baleia morta explodiu no meio da rua.",
+  "Ela estava num caminhão, sendo levada para estudo, e estourou no centro da cidade, sujando lojas, carros e quem passava.",
+  "A culpa é das bactérias: depois da morte, elas continuam digerindo a baleia por dentro e soltando gases.",
+  "A pele e a gordura são grossas e quase não deixam o gás sair. A pressão sobe, como num balão enchendo.",
+  "Basta um corte ou um tranco, e ela estoura. Por isso, nunca chegue perto de uma baleia encalhada.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Uma baleia EXPLODIU",
+   "destaque": [
+    "EXPLODIU"
+   ],
+   "busca": "sperm whale ocean",
+   "foto": "Bl_norfolk"
+  },
+  {
+   "gancho": "Estourou NA RUA",
+   "destaque": [
+    "NA RUA"
+   ],
+   "busca": "truck city street",
+   "foto": "Bl_ia_caminhao",
+   "ia": true
+  },
+  {
+   "gancho": "Bactérias fazem GÁS",
+   "destaque": [
+    "GÁS"
+   ],
+   "busca": "bacteria microscope",
+   "foto": "Bl_ia_gas",
+   "ia": true
+  },
+  {
+   "gancho": "Vira um BALÃO",
+   "destaque": [
+    "BALÃO"
+   ],
+   "busca": "balloon inflating",
+   "foto": "Bl_ia_balao",
+   "ia": true
+  },
+  {
+   "gancho": "NUNCA chegue perto",
+   "destaque": [
+    "NUNCA"
+   ],
+   "busca": "beached whale",
+   "foto": "Bl_encalhada"
+  }
+ ]
+}

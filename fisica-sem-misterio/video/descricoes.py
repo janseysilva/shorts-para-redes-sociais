@@ -7,7 +7,7 @@ RAIZ = Path(__file__).resolve().parent
 cred = json.loads((RAIZ / "public/fotos/creditos.json").read_text(encoding="utf-8"))
 # regra de 28/10: todo longo novo termina divulgando o Espertinhos (link só na descrição dos LONGOS)
 PLAY_ESPERTINHOS = "https://play.google.com/store/apps/details?id=com.espertinhos.espertinhos"
-# longos que saíram sem o final do Espertinhos (o Jansey decide vídeo a vídeo): a descrição também fica sem o link
+# ERRO HISTÓRICO: Veneza saiu sem o final por engano. REGRA (Jansey 09/11): TODO longo leva o final do Espertinhos e o link. Não acrescentar nada aqui.
 SEM_ESPERTINHOS = {"Veneza"}
 # filmagens reais de domínio público usadas além do Pexels/Pixabay
 VIDEOS_EXTRA = {

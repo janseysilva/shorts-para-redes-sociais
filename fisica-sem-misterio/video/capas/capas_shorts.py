@@ -60,6 +60,7 @@ TEXTO = {
     "ChoqueCarro": "Por que o CARRO/te dá *CHOQUE*?", "DesertoNoite": "Quente de dia,/*GELADO* à noite",
 }
 TEXTO["ChuteRoberto"] = "O chute/*IMPOSSÍVEL*"; TEXTO["ElevadorCabo"] = "Caiu 75 ANDARES/e *SOBREVIVEU*"
+TEXTO["BaleiaExplode"] = "Por que a baleia/*EXPLODE*?"; TEXTO["LagoNyos"] = "Um LAGO que/*MATOU 1.746*"
 TEXTO_Y = {"ChuteRoberto": 1480, "ElevadorCabo": 1500, "ChoqueCarro": 1420, "FundoMar": 1250}  # altura do texto quando o assunto fica no alto da imagem
 CAPA_IMG = {  # escolhas manuais depois de conferir a folha
     "ChuteRoberto": "foto:Rc_falta_capa", "ElevadorCabo": "foto:El_empire",

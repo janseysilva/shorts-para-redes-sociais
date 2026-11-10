@@ -1,0 +1,339 @@
+{
+ "id": "Chernobyl",
+ "longo": true,
+ "titulo": "CHERNOBYL: o botão que deveria DESLIGAR o reator fez ele EXPLODIR ☢️ (a física do acidente)",
+ "descricao": "26 de abril de 1986, 1h23 da madrugada: o reator 4 de Chernobyl explode durante um teste de segurança. Neste vídeo, a física do acidente: como funciona uma usina nuclear, o gás que travou o reator, o defeito escondido no projeto, o botão de emergência que fez a potência disparar, a cidade evacuada \"por três dias\", o Pé de Elefante e como Chernobyl está hoje.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Vinte e seis de abril de mil novecentos e oitenta e seis, uma e vinte e três da madrugada. Um reator nuclear explode na Ucrânia.",
+     "foto": "Ch_iaea2",
+     "legenda": "O reator 4 de Chernobyl destruído, 1986"
+    },
+    {
+     "frase": "Quase quarenta anos depois, uma cidade inteira continua vazia, com a roda-gigante parada no meio do mato.",
+     "foto": "Ch_roda",
+     "legenda": "A roda-gigante de Pripyat, abandonada"
+    },
+    {
+     "frase": "E o mais assustador: ele explodiu logo depois que apertaram o botão que deveria desligá-lo. Vamos entender a física disso.",
+     "foto": "Ch_controle3",
+     "legenda": "Sala de controle de Chernobyl (unidade 3, igual à 4)"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma chaleira gigante",
+   "cenas": [
+    {
+     "frase": "Uma usina nuclear é, no fundo, uma chaleira gigante. Ela esquenta água, a água vira vapor, e o vapor gira as turbinas que geram eletricidade.",
+     "busca": "steam turbine power plant",
+     "desde": 0,
+     "clipe": "Chernobyl_3"
+    },
+    {
+     "frase": "O calor vem do urânio. Quando um nêutron acerta um átomo de urânio, o átomo se parte, solta energia e mais dois ou três nêutrons.",
+     "busca": "atom animation",
+     "desde": 0,
+     "foto": "Ch_ia_fissao",
+     "ia": true,
+     "legenda": "Um nêutron parte o átomo de urânio"
+    },
+    {
+     "frase": "Esses nêutrons partem outros átomos, que soltam mais nêutrons. É a reação em cadeia.",
+     "busca": "chain reaction dominoes",
+     "desde": 0,
+     "foto": "Ch_ia_cadeia",
+     "ia": true,
+     "legenda": "A reação em cadeia"
+    },
+    {
+     "frase": "Para controlar isso, o reator tem barras que engolem nêutrons. Barra para dentro, a reação diminui. Barra para fora, a reação aumenta.",
+     "busca": "nuclear reactor core",
+     "desde": 0,
+     "foto": "Ch_ia_barras",
+     "ia": true,
+     "legenda": "Barras de controle entre os canais de combustível"
+    }
+   ]
+  },
+  {
+   "titulo": "O teste da madrugada",
+   "cenas": [
+    {
+     "frase": "Naquela noite, a equipe do reator quatro ia simular uma falta de energia, para um teste de segurança.",
+     "busca": "power plant night",
+     "desde": 0,
+     "clipe": "Chernobyl_7",
+     "legenda": "Torre de resfriamento de Chernobyl"
+    },
+    {
+     "frase": "Para o teste, a potência foi reduzida. Só que ela caiu demais, quase até apagar.",
+     "busca": "control panel gauges",
+     "desde": 0,
+     "clipe": "Chernobyl_8",
+     "legenda": "Painel de controle em Chernobyl, hoje"
+    },
+    {
+     "frase": "O culpado era um gás, o xenônio, que se forma dentro do próprio reator e também engole nêutrons. Ele estava sufocando a reação.",
+     "busca": "gas smoke dark",
+     "desde": 0,
+     "foto": "Ch_ia_xenonio",
+     "ia": true,
+     "legenda": "O xenônio engole nêutrons e sufoca a reação"
+    },
+    {
+     "frase": "Para fazer a potência subir de novo, os operadores puxaram para fora quase todas as barras de controle, muito mais do que as regras permitiam.",
+     "busca": "industrial machine lever",
+     "desde": 0,
+     "foto": "Ch_ia_barrasfora",
+     "ia": true,
+     "legenda": "Quase todas as barras puxadas para fora"
+    }
+   ]
+  },
+  {
+   "titulo": "O defeito escondido",
+   "cenas": [
+    {
+     "frase": "E aqui entra um detalhe do projeto. Nesse reator, a água que passa pelo núcleo também ajuda a frear a reação, porque absorve nêutrons.",
+     "busca": "water flowing pipe",
+     "desde": 0,
+     "clipe": "Chernobyl_11"
+    },
+    {
+     "frase": "Quando ela ferve, vira vapor, que absorve bem menos. Mais vapor, mais reação, mais calor, mais vapor.",
+     "busca": "boiling water bubbles",
+     "desde": 0,
+     "foto": "Ch_ia_vapor",
+     "ia": true,
+     "legenda": "A água vira vapor dentro do canal"
+    }
+   ]
+  },
+  {
+   "titulo": "O botão",
+   "cenas": [
+    {
+     "frase": "Uma e vinte e três. O teste começa, a água ferve mais, e a potência sobe.",
+     "busca": "clock ticking night",
+     "desde": 0,
+     "clipe": "Chernobyl_13"
+    },
+    {
+     "frase": "Trinta e seis segundos depois, alguém aperta o botão de emergência, o AZ-5. Todas as barras começam a descer de volta para dentro do reator.",
+     "busca": "red emergency button",
+     "desde": 0,
+     "clipe": "Chernobyl_14"
+    },
+    {
+     "frase": "Só que a ponta de cada barra era de grafite, que acelera a reação. Ao entrar, ela tirou a água do lugar e pôs grafite.",
+     "busca": "graphite block",
+     "desde": 0,
+     "foto": "Ch_ia_ponta",
+     "ia": true,
+     "legenda": "A ponta de grafite entra e empurra a água"
+    },
+    {
+     "frase": "O botão que deveria desligar o reator fez a potência disparar. Em poucos segundos, ela chegou a cerca de dez vezes o normal.",
+     "busca": "alarm warning light",
+     "desde": 0,
+     "foto": "Ch_ia_pico",
+     "ia": true,
+     "legenda": "A potência dispara"
+    }
+   ]
+  },
+  {
+   "titulo": "A explosão",
+   "cenas": [
+    {
+     "frase": "A água virou vapor de uma vez. A pressão arrebentou os canais do reator e arrancou a enorme tampa de concreto e aço lá de cima.",
+     "busca": "steam explosion",
+     "desde": 0,
+     "foto": "Ch_ia_explosao",
+     "ia": true,
+     "legenda": "A explosão do reator 4, 1h23 de 26/04/1986"
+    },
+    {
+     "frase": "Segundos depois, uma segunda explosão. O teto do prédio foi embora, e o núcleo ficou aberto para o céu.",
+     "foto": "Ch_iaea1",
+     "legenda": "O reator 4 visto de cima, 1986"
+    },
+    {
+     "frase": "Pedaços muito radioativos se espalharam pelo telhado e pelo chão em volta. E o núcleo ficou brilhando, em brasa, por dias.",
+     "foto": "Ch_iaea2",
+     "legenda": "O prédio do reator 4 depois da explosão, 1986"
+    }
+   ]
+  },
+  {
+   "titulo": "A radiação",
+   "cenas": [
+    {
+     "frase": "O que saía dali era radiação, com energia capaz de quebrar o DNA do corpo.",
+     "busca": "dna strand",
+     "desde": 0,
+     "clipe": "Chernobyl_20"
+    },
+    {
+     "frase": "Os bombeiros que chegaram primeiro não sabiam o tamanho do perigo. Vinte e oito pessoas morreram nos meses seguintes por causa da radiação.",
+     "busca": "firefighters night fire",
+     "desde": 0,
+     "clipe": "Chernobyl_21"
+    },
+    {
+     "frase": "Helicópteros jogaram mais de cinco mil toneladas de areia, chumbo e boro sobre o reator.",
+     "foto": "Ch_iaea3",
+     "legenda": "Helicóptero sobre a usina, 1986"
+    }
+   ]
+  },
+  {
+   "titulo": "A cidade que sumiu",
+   "cenas": [
+    {
+     "frase": "Perto dali ficava Pripyat, a cidade dos trabalhadores da usina. No dia seguinte, a vida seguiu quase normal.",
+     "busca": "pripyat aerial",
+     "desde": 0,
+     "clipe": "Chernobyl_23",
+     "legenda": "Pripyat hoje, vista de cima"
+    },
+    {
+     "frase": "Só na tarde de vinte e sete de abril, mais de um dia e meio depois, mais de cinquenta mil pessoas entraram em ônibus, levando só o essencial. Disseram que era por três dias.",
+     "foto": "Ch_abandonado",
+     "legenda": "Prédios abandonados em Pripyat"
+    },
+    {
+     "frase": "Ninguém voltou para morar. Os prédios estão lá até hoje, engolidos pelas árvores.",
+     "busca": "pripyat ferris wheel aerial",
+     "desde": 0,
+     "clipe": "Chernobyl_25",
+     "legenda": "O parque de diversões de Pripyat"
+    }
+   ]
+  },
+  {
+   "titulo": "O mundo descobre",
+   "cenas": [
+    {
+     "frase": "A União Soviética ficou em silêncio. Quem deu o alarme foi a Suécia, a mais de mil quilômetros: os detectores de uma usina apitaram com a radiação trazida pelo vento.",
+     "foto": "Ch_forsmark",
+     "legenda": "Usina de Forsmark, Suécia"
+    }
+   ]
+  },
+  {
+   "titulo": "O Pé de Elefante",
+   "cenas": [
+    {
+     "frase": "Debaixo do reator, o combustível derreteu com concreto e aço, escorreu como lava e endureceu: o Pé de Elefante.",
+     "busca": "lava cooled rock",
+     "desde": 0,
+     "foto": "Ch_ia_pe",
+     "ia": true,
+     "legenda": "O Pé de Elefante: combustível derretido e endurecido"
+    },
+    {
+     "frase": "Quando foi medida, ficar três minutos ao lado dela dava uma dose de radiação capaz de matar metade das pessoas expostas.",
+     "busca": "dark corridor flashlight",
+     "desde": 0,
+     "clipe": "Chernobyl_28",
+     "legenda": "Corredor da usina de Chernobyl"
+    }
+   ]
+  },
+  {
+   "titulo": "Chernobyl hoje",
+   "cenas": [
+    {
+     "frase": "Em poucos meses, um sarcófago de concreto cobriu o reator.",
+     "foto": "Ch_sarc",
+     "legenda": "O sarcófago de 1986 e o memorial"
+    },
+    {
+     "frase": "Em dois mil e dezesseis, um arco de aço de cento e oito metros de altura deslizou por cima de tudo, feito para durar cem anos.",
+     "foto": "Ch_nsc2016",
+     "legenda": "O novo arco de confinamento, 2016"
+    },
+    {
+     "frase": "Mas em fevereiro de dois mil e vinte e cinco, na guerra da Ucrânia, um drone furou essa cobertura, e a agência atômica da ONU diz que ela já não confina a radiação como deveria.",
+     "foto": "Ch_nsc_out",
+     "legenda": "O arco de confinamento, 2016"
+    },
+    {
+     "frase": "Em volta, uma área enorme continua fechada para moradores.",
+     "foto": "Ch_placa",
+     "legenda": "Entrada da zona de exclusão"
+    },
+    {
+     "frase": "E a natureza voltou: lobos, alces e cavalos selvagens vivem onde antes havia gente.",
+     "foto": "Ch_cavalos",
+     "legenda": "Cavalo de Przewalski na zona de Chernobyl"
+    },
+    {
+     "frase": "Parte da radiação já sumiu: o iodo radioativo perde metade da força em oito dias. Mas o césio leva trinta anos para cair pela metade, e ainda está no solo.",
+     "busca": "chernobyl forest",
+     "desde": 0,
+     "clipe": "Chernobyl_34",
+     "legenda": "Floresta na zona de Chernobyl"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Chernobyl não foi uma bomba. Foi um defeito de projeto somado a regras quebradas numa madrugada de teste.",
+     "foto": "Ch_telhado",
+     "legenda": "Pripyat e, ao fundo, o arco sobre o reator"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de visitar Chernobyl?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Vinte e seis de abril de mil novecentos e oitenta e seis, uma e vinte e três da madrugada. Um reator nuclear explode na Ucrânia.",
+  "Quase quarenta anos depois, uma cidade inteira continua vazia, com a roda-gigante parada no meio do mato.",
+  "E o mais assustador: ele explodiu logo depois que apertaram o botão que deveria desligá-lo. Vamos entender a física disso.",
+  "Uma usina nuclear é, no fundo, uma chaleira gigante. Ela esquenta água, a água vira vapor, e o vapor gira as turbinas que geram eletricidade.",
+  "O calor vem do urânio. Quando um nêutron acerta um átomo de urânio, o átomo se parte, solta energia e mais dois ou três nêutrons.",
+  "Esses nêutrons partem outros átomos, que soltam mais nêutrons. É a reação em cadeia.",
+  "Para controlar isso, o reator tem barras que engolem nêutrons. Barra para dentro, a reação diminui. Barra para fora, a reação aumenta.",
+  "Naquela noite, a equipe do reator quatro ia simular uma falta de energia, para um teste de segurança.",
+  "Para o teste, a potência foi reduzida. Só que ela caiu demais, quase até apagar.",
+  "O culpado era um gás, o xenônio, que se forma dentro do próprio reator e também engole nêutrons. Ele estava sufocando a reação.",
+  "Para fazer a potência subir de novo, os operadores puxaram para fora quase todas as barras de controle, muito mais do que as regras permitiam.",
+  "E aqui entra um detalhe do projeto. Nesse reator, a água que passa pelo núcleo também ajuda a frear a reação, porque absorve nêutrons.",
+  "Quando ela ferve, vira vapor, que absorve bem menos. Mais vapor, mais reação, mais calor, mais vapor.",
+  "Uma e vinte e três. O teste começa, a água ferve mais, e a potência sobe.",
+  "Trinta e seis segundos depois, alguém aperta o botão de emergência, o AZ-5. Todas as barras começam a descer de volta para dentro do reator.",
+  "Só que a ponta de cada barra era de grafite, que acelera a reação. Ao entrar, ela tirou a água do lugar e pôs grafite.",
+  "O botão que deveria desligar o reator fez a potência disparar. Em poucos segundos, ela chegou a cerca de dez vezes o normal.",
+  "A água virou vapor de uma vez. A pressão arrebentou os canais do reator e arrancou a enorme tampa de concreto e aço lá de cima.",
+  "Segundos depois, uma segunda explosão. O teto do prédio foi embora, e o núcleo ficou aberto para o céu.",
+  "Pedaços muito radioativos se espalharam pelo telhado e pelo chão em volta. E o núcleo ficou brilhando, em brasa, por dias.",
+  "O que saía dali era radiação, com energia capaz de quebrar o DNA do corpo.",
+  "Os bombeiros que chegaram primeiro não sabiam o tamanho do perigo. Vinte e oito pessoas morreram nos meses seguintes por causa da radiação.",
+  "Helicópteros jogaram mais de cinco mil toneladas de areia, chumbo e boro sobre o reator.",
+  "Perto dali ficava Pripyat, a cidade dos trabalhadores da usina. No dia seguinte, a vida seguiu quase normal.",
+  "Só na tarde de vinte e sete de abril, mais de um dia e meio depois, mais de cinquenta mil pessoas entraram em ônibus, levando só o essencial. Disseram que era por três dias.",
+  "Ninguém voltou para morar. Os prédios estão lá até hoje, engolidos pelas árvores.",
+  "A União Soviética ficou em silêncio. Quem deu o alarme foi a Suécia, a mais de mil quilômetros: os detectores de uma usina apitaram com a radiação trazida pelo vento.",
+  "Debaixo do reator, o combustível derreteu com concreto e aço, escorreu como lava e endureceu: o Pé de Elefante.",
+  "Quando foi medida, ficar três minutos ao lado dela dava uma dose de radiação capaz de matar metade das pessoas expostas.",
+  "Em poucos meses, um sarcófago de concreto cobriu o reator.",
+  "Em dois mil e dezesseis, um arco de aço de cento e oito metros de altura deslizou por cima de tudo, feito para durar cem anos.",
+  "Mas em fevereiro de dois mil e vinte e cinco, na guerra da Ucrânia, um drone furou essa cobertura, e a agência atômica da ONU diz que ela já não confina a radiação como deveria.",
+  "Em volta, uma área enorme continua fechada para moradores.",
+  "E a natureza voltou: lobos, alces e cavalos selvagens vivem onde antes havia gente.",
+  "Parte da radiação já sumiu: o iodo radioativo perde metade da força em oito dias. Mas o césio leva trinta anos para cair pela metade, e ainda está no solo.",
+  "Chernobyl não foi uma bomba. Foi um defeito de projeto somado a regras quebradas numa madrugada de teste.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de visitar Chernobyl?"
+ ]
+}

@@ -1013,6 +1013,29 @@ short("ElevadorCabo", "E se o CABO do elevador arrebentar? 😱 A mulher que cai
     ("A ideia é de mil oitocentos e cinquenta e quatro: Elisha Otis mandou cortar a corda da plataforma, na frente do público. E ela parou.", "\"Cortem a corda!\"", ["corda"], {"busca": "old elevator", "foto": "El_otis"}),
 ], pergunta="Você tem medo de elevador? 👇")
 
+# ---------- LEVA 27 (09/11): escolhidos pelo Jansey ("shorts 1 e 3") — roteiro aguardando aprovação ----------
+# Fatos: Wikipedia EN (Exploding whale: Tainan 26/01/2004; Lake Nyos disaster: 21/08/1986, 1.746 mortos, CO2 50% mais denso, 25 km, água vermelha de ferro, canos desde 2001).
+short("BaleiaExplode", "Por que a BALEIA EXPLODE quando morre? 🐋💥 A física explica",
+      "Em 26 de janeiro de 2004, em Tainan, Taiwan, uma baleia cachalote morta explodiu no meio da rua enquanto era levada num caminhão, sujando lojas, carros e quem estava perto. A culpa é dos gases da decomposição: as bactérias continuam digerindo a baleia por dentro, e a pele grossa e a gordura seguram o gás até a pressão ficar alta demais. Por isso, nunca chegue perto de uma baleia encalhada. #fisica #curiosidades #baleia #pressao #ciencia",
+      "🐋", "Gás preso, pressão alta.", [
+    ("Em dois mil e quatro, em Taiwan, uma baleia morta explodiu no meio da rua.", "Uma baleia EXPLODIU", ["EXPLODIU"], {"busca": "sperm whale ocean", "foto": "Bl_norfolk"}),
+    ("Ela estava num caminhão, sendo levada para estudo, e estourou no centro da cidade, sujando lojas, carros e quem passava.", "Estourou NA RUA", ["NA RUA"], {"busca": "truck city street", "foto": "Bl_ia_caminhao", "ia": True}),
+    ("A culpa é das bactérias: depois da morte, elas continuam digerindo a baleia por dentro e soltando gases.", "Bactérias fazem GÁS", ["GÁS"], {"busca": "bacteria microscope", "foto": "Bl_ia_gas", "ia": True}),
+    ("A pele e a gordura são grossas e quase não deixam o gás sair. A pressão sobe, como num balão enchendo.", "Vira um BALÃO", ["BALÃO"], {"busca": "balloon inflating", "foto": "Bl_ia_balao", "ia": True}),
+    ("Basta um corte ou um tranco, e ela estoura. Por isso, nunca chegue perto de uma baleia encalhada.", "NUNCA chegue perto", ["NUNCA"], {"busca": "beached whale", "foto": "Bl_encalhada"}),
+], pergunta="Você sabia disso? 👇")
+
+short("LagoNyos", "O LAGO que matou 1.746 pessoas numa noite 😶 (sem fogo e sem barulho)",
+      "Em 21 de agosto de 1986, o lago Nyos, em Camarões, soltou de uma vez uma nuvem enorme de gás carbônico, que estava dissolvido na água do fundo, presa pela pressão. Como o gás carbônico é cerca de 50% mais denso que o ar, a nuvem desceu pelos vales rente ao chão e sufocou 1.746 pessoas e 3.500 animais a até 25 km. O lago azul ficou vermelho por causa do ferro da água do fundo. Desde 2001, canos soltam o gás aos poucos. #fisica #curiosidades #lagonyos #gascarbonico #ciencia",
+      "💨", "Gás preso, perigo escondido.", [
+    ("Numa noite de mil novecentos e oitenta e seis, um lago na África matou mil setecentas e quarenta e seis pessoas. Sem fogo e sem barulho.", "Um LAGO matou 1.746", ["LAGO"], {"busca": "lake africa hills", "foto": "Ny_lago"}),
+    ("No fundo do lago Nyos, em Camarões, a água guardava gás carbônico, o mesmo do refrigerante, preso pela pressão.", "Gás de REFRIGERANTE", ["REFRIGERANTE"], {"busca": "lake underwater dark", "foto": "Ny_ia_fundo", "ia": True}),
+    ("Naquela noite, essa água subiu. Sem a pressão, o gás escapou de uma vez, como numa garrafa sacudida.", "Como garrafa SACUDIDA", ["SACUDIDA"], v("soda bottle opening foam")),
+    ("O gás carbônico é mais pesado que o ar. A nuvem desceu pelos vales, rente ao chão, e sufocou tudo a até vinte e cinco quilômetros.", "Mais PESADO que o ar", ["PESADO"], {"busca": "fog valley", "foto": "Ny_ia_nuvem", "ia": True}),
+    ("No dia seguinte, o lago azul estava vermelho: era o ferro da água do fundo.", "O lago ficou VERMELHO", ["VERMELHO"], {"busca": "lake red water", "foto": "Ny_lago1986"}),
+    ("Hoje, canos soltam o gás aos poucos, para que isso nunca mais aconteça.", "Canos SOLTAM o gás", ["SOLTAM"], {"busca": "fountain lake", "foto": "Ny_cano"}),
+], pergunta="Você conhecia essa história? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

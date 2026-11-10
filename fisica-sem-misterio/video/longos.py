@@ -1159,10 +1159,110 @@ longo("Veneza", "Como construíram VENEZA em cima da água? 🌊 Uma igreja sobr
     ]),
 ])
 
+longo("Chernobyl", "CHERNOBYL: o botão que deveria DESLIGAR o reator fez ele EXPLODIR ☢️ (a física do acidente)",
+      "26 de abril de 1986, 1h23 da madrugada: o reator 4 de Chernobyl explode durante um teste de segurança. Neste vídeo, a física do acidente: "
+      "como funciona uma usina nuclear, o gás que travou o reator, o defeito escondido no projeto, o botão de emergência que fez a potência disparar, "
+      "a cidade evacuada \"por três dias\", o Pé de Elefante e como Chernobyl está hoje.", [
+    ("Abertura", [
+        ("Vinte e seis de abril de mil novecentos e oitenta e seis, uma e vinte e três da madrugada. Um reator nuclear explode na Ucrânia.", f("Ch_iaea2")),
+        ("Quase quarenta anos depois, uma cidade inteira continua vazia, com a roda-gigante parada no meio do mato.", f("Ch_roda")),
+        ("E o mais assustador: ele explodiu logo depois que apertaram o botão que deveria desligá-lo. Vamos entender a física disso.", f("Ch_controle3")),
+    ]),
+    ("Uma chaleira gigante", [
+        ("Uma usina nuclear é, no fundo, uma chaleira gigante. Ela esquenta água, a água vira vapor, e o vapor gira as turbinas que geram eletricidade.", v("steam turbine power plant")),
+        ("O calor vem do urânio. Quando um nêutron acerta um átomo de urânio, o átomo se parte, solta energia e mais dois ou três nêutrons.", v("atom animation")),
+        ("Esses nêutrons partem outros átomos, que soltam mais nêutrons. É a reação em cadeia.", v("chain reaction dominoes")),
+        ("Para controlar isso, o reator tem barras que engolem nêutrons. Barra para dentro, a reação diminui. Barra para fora, a reação aumenta.", v("nuclear reactor core")),
+    ]),
+    ("O teste da madrugada", [
+        ("Naquela noite, a equipe do reator quatro ia simular uma falta de energia, para um teste de segurança.", v("power plant night")),
+        ("Para o teste, a potência foi reduzida. Só que ela caiu demais, quase até apagar.", v("control panel gauges")),
+        ("O culpado era um gás, o xenônio, que se forma dentro do próprio reator e também engole nêutrons. Ele estava sufocando a reação.", v("gas smoke dark")),
+        ("Para fazer a potência subir de novo, os operadores puxaram para fora quase todas as barras de controle, muito mais do que as regras permitiam.", v("industrial machine lever")),
+    ]),
+    ("O defeito escondido", [
+        ("E aqui entra um detalhe do projeto. Nesse reator, a água que passa pelo núcleo também ajuda a frear a reação, porque absorve nêutrons.", v("water flowing pipe")),
+        ("Quando ela ferve, vira vapor, que absorve bem menos. Mais vapor, mais reação, mais calor, mais vapor.", v("boiling water bubbles")),
+    ]),
+    ("O botão", [
+        ("Uma e vinte e três. O teste começa, a água ferve mais, e a potência sobe.", v("clock ticking night")),
+        ("Trinta e seis segundos depois, alguém aperta o botão de emergência, o AZ-5. Todas as barras começam a descer de volta para dentro do reator.", v("red emergency button")),
+        ("Só que a ponta de cada barra era de grafite, que acelera a reação. Ao entrar, ela tirou a água do lugar e pôs grafite.", v("graphite block")),
+        ("O botão que deveria desligar o reator fez a potência disparar. Em poucos segundos, ela chegou a cerca de dez vezes o normal.", v("alarm warning light")),
+    ]),
+    ("A explosão", [
+        ("A água virou vapor de uma vez. A pressão arrebentou os canais do reator e arrancou a enorme tampa de concreto e aço lá de cima.", v("steam explosion")),
+        ("Segundos depois, uma segunda explosão. O teto do prédio foi embora, e o núcleo ficou aberto para o céu.", f("Ch_iaea1")),
+        ("Pedaços muito radioativos se espalharam pelo telhado e pelo chão em volta. E o núcleo ficou brilhando, em brasa, por dias.", f("Ch_iaea2")),
+    ]),
+    ("A radiação", [
+        ("O que saía dali era radiação, com energia capaz de quebrar o DNA do corpo.", v("dna strand")),
+        ("Os bombeiros que chegaram primeiro não sabiam o tamanho do perigo. Vinte e oito pessoas morreram nos meses seguintes por causa da radiação.", v("firefighters night fire")),
+        ("Helicópteros jogaram mais de cinco mil toneladas de areia, chumbo e boro sobre o reator.", f("Ch_iaea3")),
+    ]),
+    ("A cidade que sumiu", [
+        ("Perto dali ficava Pripyat, a cidade dos trabalhadores da usina. No dia seguinte, a vida seguiu quase normal.", v("pripyat aerial")),
+        ("Só na tarde de vinte e sete de abril, mais de um dia e meio depois, mais de cinquenta mil pessoas entraram em ônibus, levando só o essencial. Disseram que era por três dias.", f("Ch_abandonado")),
+        ("Ninguém voltou para morar. Os prédios estão lá até hoje, engolidos pelas árvores.", v("pripyat ferris wheel aerial")),
+    ]),
+    ("O mundo descobre", [
+        ("A União Soviética ficou em silêncio. Quem deu o alarme foi a Suécia, a mais de mil quilômetros: os detectores de uma usina apitaram com a radiação trazida pelo vento.", f("Ch_forsmark")),
+    ]),
+    ("O Pé de Elefante", [
+        ("Debaixo do reator, o combustível derreteu com concreto e aço, escorreu como lava e endureceu: o Pé de Elefante.", v("lava cooled rock")),
+        ("Quando foi medida, ficar três minutos ao lado dela dava uma dose de radiação capaz de matar metade das pessoas expostas.", v("dark corridor flashlight")),
+    ]),
+    ("Chernobyl hoje", [
+        ("Em poucos meses, um sarcófago de concreto cobriu o reator.", f("Ch_sarc")),
+        ("Em dois mil e dezesseis, um arco de aço de cento e oito metros de altura deslizou por cima de tudo, feito para durar cem anos.", f("Ch_nsc2016")),
+        ("Mas em fevereiro de dois mil e vinte e cinco, na guerra da Ucrânia, um drone furou essa cobertura, e a agência atômica da ONU diz que ela já não confina a radiação como deveria.", f("Ch_nsc_out")),
+        ("Em volta, uma área enorme continua fechada para moradores.", f("Ch_placa")),
+        ("E a natureza voltou: lobos, alces e cavalos selvagens vivem onde antes havia gente.", f("Ch_cavalos")),
+        ("Parte da radiação já sumiu: o iodo radioativo perde metade da força em oito dias. Mas o césio leva trinta anos para cair pela metade, e ainda está no solo.", v("chernobyl forest")),
+    ]),
+    ("Final", [
+        ("Chernobyl não foi uma bomba. Foi um defeito de projeto somado a regras quebradas numa madrugada de teste.", f("Ch_telhado")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta nos comentários: você teria coragem de visitar Chernobyl?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    # Chernobyl (09/11): fotos reais Ch_* (IAEA 1986 e Wikimedia), clipes Pexels reais da zona (7, 8, 23, 25, 28, 34) e IA do Flow (Ch_ia_*).
+    "Chernobyl": {
+        0: dict(foto="Ch_iaea2", legenda="O reator 4 de Chernobyl destruído, 1986"),
+        1: dict(foto="Ch_roda", legenda="A roda-gigante de Pripyat, abandonada"),
+        2: dict(foto="Ch_controle3", legenda="Sala de controle de Chernobyl (unidade 3, igual à 4)"),
+        4: dict(foto="Ch_ia_fissao", ia=True, legenda="Um nêutron parte o átomo de urânio"),
+        5: dict(foto="Ch_ia_cadeia", ia=True, legenda="A reação em cadeia"),
+        6: dict(foto="Ch_ia_barras", ia=True, legenda="Barras de controle entre os canais de combustível"),
+        7: dict(legenda="Torre de resfriamento de Chernobyl"),
+        8: dict(legenda="Painel de controle em Chernobyl, hoje"),
+        9: dict(foto="Ch_ia_xenonio", ia=True, legenda="O xenônio engole nêutrons e sufoca a reação"),
+        10: dict(foto="Ch_ia_barrasfora", ia=True, legenda="Quase todas as barras puxadas para fora"),
+        12: dict(foto="Ch_ia_vapor", ia=True, legenda="A água vira vapor dentro do canal"),
+        15: dict(foto="Ch_ia_ponta", ia=True, legenda="A ponta de grafite entra e empurra a água"),
+        16: dict(foto="Ch_ia_pico", ia=True, legenda="A potência dispara"),
+        17: dict(foto="Ch_ia_explosao", ia=True, legenda="A explosão do reator 4, 1h23 de 26/04/1986"),
+        18: dict(foto="Ch_iaea1", legenda="O reator 4 visto de cima, 1986"),
+        19: dict(foto="Ch_iaea2", legenda="O prédio do reator 4 depois da explosão, 1986"),
+        22: dict(foto="Ch_iaea3", legenda="Helicóptero sobre a usina, 1986"),
+        23: dict(legenda="Pripyat hoje, vista de cima"),
+        24: dict(foto="Ch_abandonado", legenda="Prédios abandonados em Pripyat"),
+        25: dict(legenda="O parque de diversões de Pripyat"),
+        26: dict(foto="Ch_forsmark", legenda="Usina de Forsmark, Suécia"),
+        27: dict(foto="Ch_ia_pe", ia=True, legenda="O Pé de Elefante: combustível derretido e endurecido"),
+        28: dict(legenda="Corredor da usina de Chernobyl"),
+        29: dict(foto="Ch_sarc", legenda="O sarcófago de 1986 e o memorial"),
+        30: dict(foto="Ch_nsc2016", legenda="O novo arco de confinamento, 2016"),
+        31: dict(foto="Ch_nsc_out", legenda="O arco de confinamento, 2016"),
+        32: dict(foto="Ch_placa", legenda="Entrada da zona de exclusão"),
+        33: dict(foto="Ch_cavalos", legenda="Cavalo de Przewalski na zona de Chernobyl"),
+        34: dict(legenda="Floresta na zona de Chernobyl"),
+        35: dict(foto="Ch_telhado", legenda="Pripyat e, ao fundo, o arco sobre o reator"),
+    },
     # Veneza (06/11): fotos reais Vz_* (Wikimedia) + clipes Pexels Veneza_*; IA do Flow (Vz_ia_*) nas cenas que ninguém fotografou.
     "Veneza": {
         0: dict(foto="Vz_salute", legenda="Basílica de Santa Maria della Salute, Veneza"),

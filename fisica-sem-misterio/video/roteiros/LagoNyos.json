@@ -1,0 +1,70 @@
+{
+ "id": "LagoNyos",
+ "titulo": "O LAGO que matou 1.746 pessoas numa noite 😶 (sem fogo e sem barulho)",
+ "legenda": "Em 21 de agosto de 1986, o lago Nyos, em Camarões, soltou de uma vez uma nuvem enorme de gás carbônico, que estava dissolvido na água do fundo, presa pela pressão. Como o gás carbônico é cerca de 50% mais denso que o ar, a nuvem desceu pelos vales rente ao chão e sufocou 1.746 pessoas e 3.500 animais a até 25 km. O lago azul ficou vermelho por causa do ferro da água do fundo. Desde 2001, canos soltam o gás aos poucos. #fisica #curiosidades #lagonyos #gascarbonico #ciencia",
+ "final": {
+  "emoji": "💨",
+  "frase": "Gás preso, perigo escondido."
+ },
+ "pergunta": "Você conhecia essa história? 👇",
+ "frases": [
+  "Numa noite de mil novecentos e oitenta e seis, um lago na África matou mil setecentas e quarenta e seis pessoas. Sem fogo e sem barulho.",
+  "No fundo do lago Nyos, em Camarões, a água guardava gás carbônico, o mesmo do refrigerante, preso pela pressão.",
+  "Naquela noite, essa água subiu. Sem a pressão, o gás escapou de uma vez, como numa garrafa sacudida.",
+  "O gás carbônico é mais pesado que o ar. A nuvem desceu pelos vales, rente ao chão, e sufocou tudo a até vinte e cinco quilômetros.",
+  "No dia seguinte, o lago azul estava vermelho: era o ferro da água do fundo.",
+  "Hoje, canos soltam o gás aos poucos, para que isso nunca mais aconteça.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Um LAGO matou 1.746",
+   "destaque": [
+    "LAGO"
+   ],
+   "busca": "lake africa hills",
+   "foto": "Ny_lago"
+  },
+  {
+   "gancho": "Gás de REFRIGERANTE",
+   "destaque": [
+    "REFRIGERANTE"
+   ],
+   "busca": "lake underwater dark",
+   "foto": "Ny_ia_fundo",
+   "ia": true
+  },
+  {
+   "gancho": "Como garrafa SACUDIDA",
+   "destaque": [
+    "SACUDIDA"
+   ],
+   "busca": "soda bottle opening foam"
+  },
+  {
+   "gancho": "Mais PESADO que o ar",
+   "destaque": [
+    "PESADO"
+   ],
+   "busca": "fog valley",
+   "foto": "Ny_ia_nuvem",
+   "ia": true
+  },
+  {
+   "gancho": "O lago ficou VERMELHO",
+   "destaque": [
+    "VERMELHO"
+   ],
+   "busca": "lake red water",
+   "foto": "Ny_lago1986"
+  },
+  {
+   "gancho": "Canos SOLTAM o gás",
+   "destaque": [
+    "SOLTAM"
+   ],
+   "busca": "fountain lake",
+   "foto": "Ny_cano"
+  }
+ ]
+}
