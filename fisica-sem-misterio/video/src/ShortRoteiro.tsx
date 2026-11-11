@@ -2,7 +2,7 @@
 // ou uma animação simples (emoji grande + texto) no fundo de espaço. Estilo "misto" aprovado por Jansey em 29/09.
 import React from "react";
 import { AbsoluteFill, Img, Sequence, interpolate, staticFile } from "remotion";
-import { CLAMP, Cena, Clipe, FONTE, OURO, Short, mola, useT, type Tempos } from "./espaco";
+import { CLAMP, Cena, Clipe, FONTE, OURO, Short, mola, useT, type Musica, type Som, type Tempos } from "./espaco";
 import duracoes from "../public/clipes/duracoes.json";
 
 export type CenaRoteiro = { gancho: string; destaque: string[]; busca?: string; foto?: string; ia?: boolean; anim?: { emoji: string; texto: string } };
@@ -53,11 +53,11 @@ const Animacao: React.FC<{ emoji: string; texto: string; ini: number }> = ({ emo
 
 const DUR = duracoes as Record<string, number>;
 
-export const ShortRoteiro: React.FC<{ roteiro: Roteiro; tempos: Tempos }> = ({ roteiro, tempos }) => {
+export const ShortRoteiro: React.FC<{ roteiro: Roteiro; tempos: Tempos; musicas?: Musica[]; sons?: Som[] }> = ({ roteiro, tempos, musicas, sons }) => {
   const C = tempos.cenas;
   const ganchos = roteiro.cenas.map((c, i) => ({ desde: i === 0 ? 0 : C[i], texto: c.gancho, destaque: c.destaque }));
   return (
-    <Short id={roteiro.id} tempos={tempos} ganchos={ganchos} sons={[]} final={roteiro.final}>
+    <Short id={roteiro.id} tempos={tempos} ganchos={ganchos} sons={sons ?? []} final={roteiro.final} musicas={musicas}>
       {roteiro.cenas.map((c, i) => {
         const nome = `${roteiro.id}_${i}`;
         return (

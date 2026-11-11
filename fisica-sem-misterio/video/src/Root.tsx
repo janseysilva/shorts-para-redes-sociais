@@ -1,5 +1,6 @@
 import React from "react";
 import { Composition } from "remotion";
+import { DemoEfeitos, TOTAL_DEMO } from "./DemoEfeitos";
 import { CeuAzul } from "./shorts/CeuAzul";
 import { CeuAzulMisto, CeuAzulReal } from "./shorts/CeuAzulReal";
 import { ShortRoteiro, type Roteiro } from "./ShortRoteiro";
@@ -268,6 +269,19 @@ const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, com
 
 export const Root: React.FC = () => (
   <>
+    <Comp id="DemoEfeitos" comp={DemoEfeitos} total={TOTAL_DEMO} />
+    {/* 11/11: teste de música e drama por cena no short do lago (para o Jansey comparar com o publicado) */}
+    <Composition id="LagoNyosClima" component={ShortRoteiro} durationInFrames={Math.ceil(tLagoNyos.total * FPS)} fps={FPS} width={1080} height={1920}
+      defaultProps={{ roteiro: rLagoNyos as Roteiro, tempos: tLagoNyos, musicas: [
+        { faixa: "suspense", desde: 0, ate: 8.96, offset: 18, vol: 0.16 },
+        { faixa: "misterio", desde: 8.96, ate: 16.57, offset: 0, vol: 0.2 },
+        { faixa: "tensao", desde: 16.57, ate: 24.2, offset: 48, vol: 0.15 },
+        { faixa: "pesado", desde: 24.2, ate: 37.97, offset: 20, vol: 0.32, mergulhos: [29.9] },
+        { faixa: "esperanca", desde: 37.97, ate: 46.91, offset: 0, vol: 0.3 },
+      ], sons: [
+        { t: 3.45, som: "braam", vol: 0.55 }, { t: 17.6, som: "subida", vol: 0.35 }, { t: 20.55, som: "impacto", vol: 0.7 },
+        { t: 26.1, som: "coracao", vol: 0.6 }, { t: 29.85, som: "impacto", vol: 0.8 }, { t: 34.95, som: "grave", vol: 0.4 },
+      ] }} />
     <Comp id="CeuAzul" comp={CeuAzul} total={tCeuAzul.total} />
     <Comp id="CeuAzulReal" comp={CeuAzulReal} total={tCeuAzul.total} />
     <Comp id="CeuAzulMisto" comp={CeuAzulMisto} total={tCeuAzul.total} />

@@ -106,16 +106,34 @@ export const Ganchos: React.FC<{ lista: Gancho[] }> = ({ lista }) => {
 };
 
 // ---------- sons, final e moldura ----------
-export type Som = { t: number; som: "whoosh" | "brilho" | "grave"; vol?: number };
-export const Trilha: React.FC<{ id: string; sons: Som[] }> = ({ id, sons }) => {
-  const { f, dur } = useT();
+export type Som = { t: number; som: "whoosh" | "brilho" | "grave" | "impacto" | "coracao" | "subida" | "braam"; vol?: number };
+/** Música por cena (11/11): cada trecho tem a sua faixa de public/musicas/, com troca suave e "mergulhos" de silêncio antes de um impacto. */
+export type Musica = { faixa: string; desde: number; ate: number; offset?: number; vol?: number; mergulhos?: number[] };
+const SONS_NOVOS = ["impacto", "coracao", "subida", "braam"];
+export const Trilha: React.FC<{ id: string; sons: Som[]; musicas?: Musica[] }> = ({ id, sons, musicas }) => {
+  const { f, fps, dur } = useT();
+  const total = dur / fps;
   return (
     <>
       <Audio src={staticFile(`${id}/narracao.mp3`)} />
-      <Audio src={staticFile("musica.wav")} volume={(fr) => interpolate(fr, [0, dur - 30, dur], [0.2, 0.2, 0], CLAMP)} />
+      {!musicas && <Audio src={staticFile("musica.wav")} volume={(fr) => interpolate(fr, [0, dur - 30, dur], [0.2, 0.2, 0], CLAMP)} />}
+      {musicas?.map((m, i) => {
+        const ini = Math.max(0, m.desde - 0.6), fim = Math.min(total, m.ate + 0.6), v = m.vol ?? 0.2;
+        return (
+          <Sequence key={`m${i}`} from={f(ini)} durationInFrames={Math.max(1, f(fim - ini))}>
+            <Audio src={staticFile(`musicas/${m.faixa}.mp3`)} startFrom={f(m.offset ?? 0)} volume={(fr) => {
+              const t = ini + fr / fps;
+              const entra = m.desde <= 0 ? 1 : interpolate(t, [m.desde - 0.6, m.desde + 0.6], [0, 1], CLAMP);
+              const sai = m.ate >= total - 0.05 ? interpolate(t, [total - 1.2, total], [1, 0], CLAMP) : interpolate(t, [m.ate - 0.6, m.ate + 0.6], [1, 0], CLAMP);
+              const mergulho = Math.min(1, ...(m.mergulhos ?? []).map((q) => interpolate(t, [q - 0.7, q - 0.45, q, q + 0.6], [1, 0.08, 0.08, 1], CLAMP)));
+              return v * Math.min(entra, sai) * mergulho;
+            }} />
+          </Sequence>
+        );
+      })}
       {sons.map((s, i) => (
-        <Sequence key={i} from={f(s.t)} durationInFrames={45}>
-          <Audio src={staticFile(`${s.som}.wav`)} volume={s.vol ?? 0.5} />
+        <Sequence key={i} from={f(s.t)} durationInFrames={f(3.2)}>
+          <Audio src={staticFile(SONS_NOVOS.includes(s.som) ? `sons/${s.som}.wav` : `${s.som}.wav`)} volume={s.vol ?? 0.5} />
         </Sequence>
       ))}
     </>
@@ -145,13 +163,13 @@ export const Final: React.FC<{ desde: number; emoji: string; frase: React.ReactN
 
 /** Moldura completa: trilha, fundo, cenas, título, barra de progresso, final e legenda. O final entra na última frase. */
 export const Short: React.FC<{
-  id: string; tempos: Tempos; ganchos: Gancho[]; sons: Som[]; final: { emoji: string; frase: React.ReactNode }; children: React.ReactNode;
+  id: string; tempos: Tempos; ganchos: Gancho[]; sons: Som[]; final: { emoji: string; frase: React.ReactNode }; children: React.ReactNode; musicas?: Musica[];
 }> = (p) => {
   const { frame, dur } = useT();
   const fim = p.tempos.cenas[p.tempos.cenas.length - 1];
   return (
     <AbsoluteFill style={{ fontFamily: FONTE, overflow: "hidden", background: "#000" }}>
-      <Trilha id={p.id} sons={[...p.sons, { t: fim, som: "brilho", vol: 0.6 }]} />
+      <Trilha id={p.id} sons={[...p.sons, { t: fim, som: "brilho", vol: 0.6 }]} musicas={p.musicas} />
       <Fundo />
       {p.children}
       <Vinheta />
