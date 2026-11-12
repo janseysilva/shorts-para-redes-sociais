@@ -1852,5 +1852,89 @@
   "autor": "Archival Photographer Stefan Claesson",
   "licenca": "Public domain",
   "pagina": "https://commons.wikimedia.org/wiki/File:Sperm_whale_stranded.jpg"
+ },
+ "Ap_terra_noite": {
+  "arquivo": "BlackMarble20161km.jpg",
+  "autor": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA's Goddard Space Flight Center",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:BlackMarble20161km.jpg"
+ },
+ "Ap_eua_noite": {
+  "arquivo": "City Lights of the United States 2012.jpg",
+  "autor": "NASA Earth Observatory",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:City_Lights_of_the_United_States_2012.jpg"
+ },
+ "Ap_subestacao": {
+  "arquivo": "Pont-l'Abbé high-voltage substation 14 - Transformer connections.jpg",
+  "autor": "PtiBzh",
+  "licenca": "CC0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Pont-l%27Abb%C3%A9_high-voltage_substation_14_-_Transformer_connections.jpg"
+ },
+ "Ap_cme": {
+  "arquivo": "05 Coronal Mass Ejection (2819895025).jpg",
+  "autor": "NASA/SOHO",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:05_Coronal_Mass_Ejection_(2819895025).jpg"
+ },
+ "Ap_erupcao": {
+  "arquivo": "NASA-SDO - solar flare October 29, 2013, X2,3 class.jpg",
+  "autor": "NASA/SDO",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:NASA-SDO_-_solar_flare_October_29,_2013,_X2,3_class.jpg"
+ },
+ "Ap_carrington": {
+  "arquivo": "Carrington Richard drawing of 1859 sunspots.jpeg",
+  "autor": "Richard Christopher Carrington",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg"
+ },
+ "Ap_telegrafo1": {
+  "arquivo": "The electric telegraph- was it invented by Professor Wheatston e? (1856) (14768591511).jpg",
+  "autor": "Cooke, William Fothergill, 1806-1879",
+  "licenca": "No restrictions",
+  "pagina": "https://commons.wikimedia.org/wiki/File:The_electric_telegraph-_was_it_invented_by_Professor_Wheatston_e%3F_(1856)_(14768591511).jpg"
+ },
+ "Ap_telegrafo2": {
+  "arquivo": "The electric telegraph- was it invented by Professor Wheatston e? (1856) (14585287587).jpg",
+  "autor": "Cooke, William Fothergill, 1806-1879",
+  "licenca": "No restrictions",
+  "pagina": "https://commons.wikimedia.org/wiki/File:The_electric_telegraph-_was_it_invented_by_Professor_Wheatston_e%3F_(1856)_(14585287587).jpg"
+ },
+ "Ap_faraday": {
+  "arquivo": "Induction experiment.png",
+  "autor": "J. Lambert",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Induction_experiment.png"
+ },
+ "Ap_transformador": {
+  "arquivo": "Power Transformer 01.jpg",
+  "autor": "Sonia Budini",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Power_Transformer_01.jpg"
+ },
+ "Ap_quebec": {
+  "arquivo": "Hydro Quebec 450kv Route 20.jpg",
+  "autor": "Azumanga1",
+  "licenca": "CC BY-SA 3.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Hydro_Quebec_450kv_Route_20.jpg"
+ },
+ "Ap_aurora2024": {
+  "arquivo": "G5 aurora over Tuntorp, Lysekil Municipality 15.jpg",
+  "autor": "W.carter",
+  "licenca": "CC BY-SA 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:G5_aurora_over_Tuntorp,_Lysekil_Municipality_15.jpg"
+ },
+ "Ap_soho": {
+  "arquivo": "NASA SOHO spacecraft.png",
+  "autor": "Cgruda",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:NASA_SOHO_spacecraft.png"
+ },
+ "Ap_dscovr": {
+  "arquivo": "NOAA’s DSCOVR Satellite Celebrates its Sixth Launch-iversary (NESDIS 2021-02-11 DeepSpace card).png",
+  "autor": "NOAA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:NOAA%E2%80%99s_DSCOVR_Satellite_Celebrates_its_Sixth_Launch-iversary_(NESDIS_2021-02-11_DeepSpace_card).png"
  }
 }

@@ -1275,6 +1275,21 @@ longo("ApagaoMundial", "Vai ter APAGÃO MUNDIAL dia 17 de novembro? ⚡ O que a 
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    # ApagaoMundial (12/11): fotos reais Ap_* (NASA/NOAA/Wikimedia, créditos em public/fotos/creditos.json) + 3 clipes Pexels (0, 2, 3).
+    "ApagaoMundial": {
+        1: dict(foto="Ap_terra_noite", legenda="A Terra à noite vista por satélite (NASA)"),
+        4: dict(foto="Ap_eua_noite", legenda="As redes elétricas dos Estados Unidos vistas do espaço (NASA)"),
+        5: dict(foto="Ap_cme", legenda="Nuvem de gás lançada pelo Sol, vista pelo satélite SOHO"),
+        6: dict(foto="Ap_carrington", selo="DESENHO DE 1859", legenda="Desenho de Richard Carrington das manchas do Sol, 1859"),
+        7: dict(foto="Ap_telegrafo1", selo="DESENHO DE 1856", legenda="Telégrafo elétrico, desenho de 1856"),
+        8: dict(foto="Ap_faraday", selo="DESENHO DA ÉPOCA", legenda="O experimento de Faraday: ímã em movimento cria corrente"),
+        9: dict(foto="Ap_subestacao", legenda="Transformadores numa subestação de energia"),
+        10: dict(foto="Ap_quebec", legenda="Linhas de transmissão da Hydro-Québec, no Canadá"),
+        11: dict(foto="Ap_aurora2024", legenda="Aurora da tempestade solar de maio de 2024, na Suécia"),
+        12: dict(foto="Ap_soho", selo="ILUSTRAÇÃO", legenda="Satélite SOHO, que vigia o Sol desde 1995"),
+        13: dict(foto="Ap_dscovr", selo="ILUSTRAÇÃO NOAA", legenda="Satélite DSCOVR, a 1,5 milhão de km da Terra"),
+        14: dict(foto="Ap_erupcao", legenda="Erupção solar vista pelo satélite SDO (NASA)"),
+    },
     # Chernobyl (09/11): fotos reais Ch_* (IAEA 1986 e Wikimedia), clipes Pexels reais da zona (7, 8, 23, 25, 28, 34) e IA do Flow (Ch_ia_*).
     "Chernobyl": {
         0: dict(foto="Ch_iaea2", legenda="O reator 4 de Chernobyl destruído, 1986"),

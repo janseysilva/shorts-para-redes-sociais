@@ -17,7 +17,8 @@
      "frase": "Vamos ver o que é boato e o que a física diz sobre um apagão do planeta inteiro.",
      "busca": "earth at night from space",
      "desde": 0,
-     "clipe": "ApagaoMundial_1"
+     "foto": "Ap_terra_noite",
+     "legenda": "A Terra à noite vista por satélite (NASA)"
     }
    ]
   },
@@ -45,13 +46,15 @@
      "frase": "Não existe um cabo que liga o planeta inteiro: cada país tem a sua rede elétrica. Para apagar todas de uma vez, só uma coisa: o Sol.",
      "busca": "electrical grid substation",
      "desde": 0,
-     "clipe": "ApagaoMundial_4"
+     "foto": "Ap_eua_noite",
+     "legenda": "As redes elétricas dos Estados Unidos vistas do espaço (NASA)"
     },
     {
      "frase": "Às vezes o Sol arremessa uma nuvem gigante de gás eletrizado. Se ela vem na direção da Terra, sacode o campo magnético do planeta. É a tempestade solar.",
      "busca": "solar flare",
      "desde": 0,
-     "clipe": "ApagaoMundial_5"
+     "foto": "Ap_cme",
+     "legenda": "Nuvem de gás lançada pelo Sol, vista pelo satélite SOHO"
     }
    ]
   },
@@ -62,13 +65,17 @@
      "frase": "Em setembro de mil oitocentos e cinquenta e nove, veio a maior tempestade solar já registrada. Houve aurora até no Caribe e no Havaí.",
      "busca": "aurora red sky",
      "desde": 0,
-     "clipe": "ApagaoMundial_6"
+     "foto": "Ap_carrington",
+     "selo": "DESENHO DE 1859",
+     "legenda": "Desenho de Richard Carrington das manchas do Sol, 1859"
     },
     {
      "frase": "E os telégrafos enlouqueceram: saíram faíscas dos aparelhos, e papéis pegaram fogo. Alguns funcionaram até com as baterias desligadas.",
      "busca": "old telegraph",
      "desde": 0,
-     "clipe": "ApagaoMundial_7"
+     "foto": "Ap_telegrafo1",
+     "selo": "DESENHO DE 1856",
+     "legenda": "Telégrafo elétrico, desenho de 1856"
     }
    ]
   },
@@ -79,13 +86,16 @@
      "frase": "É que um campo magnético que muda cria corrente elétrica em qualquer fio comprido, como num gerador.",
      "busca": "magnet coil experiment",
      "desde": 0,
-     "clipe": "ApagaoMundial_8"
+     "foto": "Ap_faraday",
+     "selo": "DESENHO DA ÉPOCA",
+     "legenda": "O experimento de Faraday: ímã em movimento cria corrente"
     },
     {
      "frase": "Hoje, os fios compridos são as linhas de transmissão. A corrente extra esquenta os transformadores, que podem desligar ou até queimar.",
      "busca": "electrical transformer",
      "desde": 0,
-     "clipe": "ApagaoMundial_9"
+     "foto": "Ap_subestacao",
+     "legenda": "Transformadores numa subestação de energia"
     }
    ]
   },
@@ -96,7 +106,8 @@
      "frase": "Em mil novecentos e oitenta e nove, uma tempestade solar derrubou a rede de Quebec, no Canadá, em menos de dois minutos. Seis milhões de pessoas ficaram nove horas sem luz.",
      "busca": "snowy city night",
      "desde": 0,
-     "clipe": "ApagaoMundial_10"
+     "foto": "Ap_quebec",
+     "legenda": "Linhas de transmissão da Hydro-Québec, no Canadá"
     }
    ]
   },
@@ -107,7 +118,8 @@
      "frase": "O risco maior é perto dos polos, como no Canadá e no norte da Europa. O Brasil, perto da Linha do Equador, sente bem menos.",
      "busca": "brazil aerial city",
      "desde": 0,
-     "clipe": "ApagaoMundial_11"
+     "foto": "Ap_aurora2024",
+     "legenda": "Aurora da tempestade solar de maio de 2024, na Suécia"
     }
    ]
   },
@@ -118,13 +130,17 @@
      "frase": "E não seria surpresa. Telescópios no espaço vigiam o Sol o tempo todo, e uma nuvem dessas leva de um a três dias para chegar.",
      "busca": "space telescope",
      "desde": 0,
-     "clipe": "ApagaoMundial_12"
+     "foto": "Ap_soho",
+     "selo": "ILUSTRAÇÃO",
+     "legenda": "Satélite SOHO, que vigia o Sol desde 1995"
     },
     {
      "frase": "Um satélite a um milhão e meio de quilômetros confirma a chegada até uma hora antes, e as empresas de energia protegem a rede.",
      "busca": "satellite space sun",
      "desde": 0,
-     "clipe": "ApagaoMundial_13"
+     "foto": "Ap_dscovr",
+     "selo": "ILUSTRAÇÃO NOAA",
+     "legenda": "Satélite DSCOVR, a 1,5 milhão de km da Terra"
     }
    ]
   },
@@ -135,7 +151,8 @@
      "frase": "Ninguém consegue prever uma tempestade solar com semanas de antecedência, muito menos num desenho animado. No dia dezessete, a luz não vai apagar no mundo inteiro.",
      "busca": "calendar pages",
      "desde": 0,
-     "clipe": "ApagaoMundial_14"
+     "foto": "Ap_erupcao",
+     "legenda": "Erupção solar vista pelo satélite SDO (NASA)"
     },
     {
      "frase": "Mas ter água e uma lanterna em casa nunca é má ideia. Se você gostou, se inscreva no Física Sem Mistério e me conta: quanto tempo você já ficou sem luz?",

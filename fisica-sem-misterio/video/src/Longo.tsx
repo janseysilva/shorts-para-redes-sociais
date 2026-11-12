@@ -14,7 +14,7 @@ const FADE = 0.45;
 
 type Palavra = { t: string; ini: number; fim: number };
 export type TemposLongo = { palavras: Palavra[]; cenas: number[]; capitulos: { titulo: string; ini: number }[]; total: number };
-type CenaL = { frase: string; clipe?: string; desde?: number; foto?: string; legenda?: string; ia?: boolean; anim?: { emoji: string; texto: string }; fim?: boolean };
+type CenaL = { frase: string; clipe?: string; desde?: number; foto?: string; legenda?: string; selo?: string; ia?: boolean; anim?: { emoji: string; texto: string }; fim?: boolean };
 export type RoteiroLongo = { id: string; titulo: string; capitulos: { titulo: string; cenas: CenaL[] }[] };
 
 const useT = () => {
@@ -180,7 +180,7 @@ export const Longo: React.FC<{ roteiro: RoteiroLongo; tempos: TemposLongo; abert
                 : c.anim ? <Animacao emoji={c.anim.emoji} texto={c.anim.texto} />
                 : c.foto ? <><Foto nome={c.foto} dur={dur} n={i} />
                     {c.ia ? <Etiqueta texto={c.legenda ?? ""} selo="ILUSTRAÇÃO COM IA" corSelo="#9ad7ff" />
-                      : c.legenda && <Etiqueta texto={c.legenda} />}</>
+                      : c.legenda && <Etiqueta texto={c.legenda} selo={c.selo} />}</>
                 : <><Clipe nome={c.clipe!} desde={c.desde ?? 0} dur={dur} n={i} />
                     {c.ia ? <Etiqueta texto={c.legenda ?? ""} selo="RECRIAÇÃO COM IA" corSelo="#9ad7ff" />
                       : c.legenda && <Etiqueta texto={c.legenda} />}</>}

@@ -207,6 +207,8 @@ import tLagoNyosVoz from "../public/LagoNyosVoz/tempos.json";
 import rVeneza from "../roteiros/Veneza.json";
 import tVeneza from "../public/Veneza/tempos.json";
 import rChernobyl from "../roteiros/Chernobyl.json";
+import rApagaoMundial from "../roteiros/ApagaoMundial.json";
+import tApagaoMundial from "../public/ApagaoMundial/tempos.json";
 import tChernobyl from "../public/Chernobyl/tempos.json";
 import rHalifax from "../roteiros/Halifax.json";
 import tHalifax from "../public/Halifax/tempos.json";
@@ -262,6 +264,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rHalifax as RoteiroLongo, tHalifax, ["HALIFAX, 1917", "O navio que destruiu uma cidade"], "Halifax_33"],
   [rVeneza as RoteiroLongo, tVeneza, ["VENEZA", "A cidade sobre um mar de troncos"], "Veneza_29"],
   [rChernobyl as RoteiroLongo, tChernobyl, ["CHERNOBYL, 1986", "O botão que fez o reator explodir"], "Chernobyl_34"],
+  [rApagaoMundial as RoteiroLongo, tApagaoMundial, ["APAGÃO MUNDIAL?", "O que a física diz sobre o dia 17"], "ApagaoMundial_0"],
 ];
 
 const Comp: React.FC<{ id: string; comp: React.FC; total: number }> = ({ id, comp, total }) => (
