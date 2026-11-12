@@ -1,0 +1,165 @@
+{
+ "id": "ApagaoMundial",
+ "longo": true,
+ "titulo": "Vai ter APAGÃO MUNDIAL dia 17 de novembro? ⚡ O que a física diz sobre a TEMPESTADE SOLAR",
+ "descricao": "Mensagens dizem que no dia 17 de novembro o mundo inteiro vai ficar sem luz, e que até Os Simpsons previram. Neste vídeo: de onde veio o boato, a única coisa capaz de afetar o mundo todo de uma vez (as tempestades solares), o dia de 1859 em que os telégrafos soltaram faíscas, o apagão de Quebec em 1989 e como os cientistas sabem com dias de antecedência.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Dia dezessete de novembro, o mundo inteiro vai ficar sem luz. É o que dizem mensagens que se espalharam pelas redes, até com a ajuda dos Simpsons.",
+     "busca": "city blackout night",
+     "desde": 0,
+     "clipe": "ApagaoMundial_0"
+    },
+    {
+     "frase": "Vamos ver o que é boato e o que a física diz sobre um apagão do planeta inteiro.",
+     "busca": "earth at night from space",
+     "desde": 0,
+     "clipe": "ApagaoMundial_1"
+    }
+   ]
+  },
+  {
+   "titulo": "De onde veio o boato",
+   "cenas": [
+    {
+     "frase": "O episódio dos Simpsons é de dois mil e vinte e três e não mostra data nenhuma. O dia dezessete veio de um teste de um minuto no sistema de alertas dos Estados Unidos.",
+     "busca": "old television static",
+     "desde": 0,
+     "clipe": "ApagaoMundial_2"
+    },
+    {
+     "frase": "E o kit de água e comida para setenta e duas horas, da Defesa Civil, é uma orientação para qualquer emergência, não um aviso de apagão.",
+     "busca": "emergency kit water bottles",
+     "desde": 0,
+     "clipe": "ApagaoMundial_3"
+    }
+   ]
+  },
+  {
+   "titulo": "Só o Sol",
+   "cenas": [
+    {
+     "frase": "Não existe um cabo que liga o planeta inteiro: cada país tem a sua rede elétrica. Para apagar todas de uma vez, só uma coisa: o Sol.",
+     "busca": "electrical grid substation",
+     "desde": 0,
+     "clipe": "ApagaoMundial_4"
+    },
+    {
+     "frase": "Às vezes o Sol arremessa uma nuvem gigante de gás eletrizado. Se ela vem na direção da Terra, sacode o campo magnético do planeta. É a tempestade solar.",
+     "busca": "solar flare",
+     "desde": 0,
+     "clipe": "ApagaoMundial_5"
+    }
+   ]
+  },
+  {
+   "titulo": "O dia em que o céu pegou fogo",
+   "cenas": [
+    {
+     "frase": "Em setembro de mil oitocentos e cinquenta e nove, veio a maior tempestade solar já registrada. Houve aurora até no Caribe e no Havaí.",
+     "busca": "aurora red sky",
+     "desde": 0,
+     "clipe": "ApagaoMundial_6"
+    },
+    {
+     "frase": "E os telégrafos enlouqueceram: saíram faíscas dos aparelhos, e papéis pegaram fogo. Alguns funcionaram até com as baterias desligadas.",
+     "busca": "old telegraph",
+     "desde": 0,
+     "clipe": "ApagaoMundial_7"
+    }
+   ]
+  },
+  {
+   "titulo": "A física",
+   "cenas": [
+    {
+     "frase": "É que um campo magnético que muda cria corrente elétrica em qualquer fio comprido, como num gerador.",
+     "busca": "magnet coil experiment",
+     "desde": 0,
+     "clipe": "ApagaoMundial_8"
+    },
+    {
+     "frase": "Hoje, os fios compridos são as linhas de transmissão. A corrente extra esquenta os transformadores, que podem desligar ou até queimar.",
+     "busca": "electrical transformer",
+     "desde": 0,
+     "clipe": "ApagaoMundial_9"
+    }
+   ]
+  },
+  {
+   "titulo": "Quebec, 1989",
+   "cenas": [
+    {
+     "frase": "Em mil novecentos e oitenta e nove, uma tempestade solar derrubou a rede de Quebec, no Canadá, em menos de dois minutos. Seis milhões de pessoas ficaram nove horas sem luz.",
+     "busca": "snowy city night",
+     "desde": 0,
+     "clipe": "ApagaoMundial_10"
+    }
+   ]
+  },
+  {
+   "titulo": "E o Brasil?",
+   "cenas": [
+    {
+     "frase": "O risco maior é perto dos polos, como no Canadá e no norte da Europa. O Brasil, perto da Linha do Equador, sente bem menos.",
+     "busca": "brazil aerial city",
+     "desde": 0,
+     "clipe": "ApagaoMundial_11"
+    }
+   ]
+  },
+  {
+   "titulo": "Daria para saber antes?",
+   "cenas": [
+    {
+     "frase": "E não seria surpresa. Telescópios no espaço vigiam o Sol o tempo todo, e uma nuvem dessas leva de um a três dias para chegar.",
+     "busca": "space telescope",
+     "desde": 0,
+     "clipe": "ApagaoMundial_12"
+    },
+    {
+     "frase": "Um satélite a um milhão e meio de quilômetros confirma a chegada até uma hora antes, e as empresas de energia protegem a rede.",
+     "busca": "satellite space sun",
+     "desde": 0,
+     "clipe": "ApagaoMundial_13"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Ninguém consegue prever uma tempestade solar com semanas de antecedência, muito menos num desenho animado. No dia dezessete, a luz não vai apagar no mundo inteiro.",
+     "busca": "calendar pages",
+     "desde": 0,
+     "clipe": "ApagaoMundial_14"
+    },
+    {
+     "frase": "Mas ter água e uma lanterna em casa nunca é má ideia. Se você gostou, se inscreva no Física Sem Mistério e me conta: quanto tempo você já ficou sem luz?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Dia dezessete de novembro, o mundo inteiro vai ficar sem luz. É o que dizem mensagens que se espalharam pelas redes, até com a ajuda dos Simpsons.",
+  "Vamos ver o que é boato e o que a física diz sobre um apagão do planeta inteiro.",
+  "O episódio dos Simpsons é de dois mil e vinte e três e não mostra data nenhuma. O dia dezessete veio de um teste de um minuto no sistema de alertas dos Estados Unidos.",
+  "E o kit de água e comida para setenta e duas horas, da Defesa Civil, é uma orientação para qualquer emergência, não um aviso de apagão.",
+  "Não existe um cabo que liga o planeta inteiro: cada país tem a sua rede elétrica. Para apagar todas de uma vez, só uma coisa: o Sol.",
+  "Às vezes o Sol arremessa uma nuvem gigante de gás eletrizado. Se ela vem na direção da Terra, sacode o campo magnético do planeta. É a tempestade solar.",
+  "Em setembro de mil oitocentos e cinquenta e nove, veio a maior tempestade solar já registrada. Houve aurora até no Caribe e no Havaí.",
+  "E os telégrafos enlouqueceram: saíram faíscas dos aparelhos, e papéis pegaram fogo. Alguns funcionaram até com as baterias desligadas.",
+  "É que um campo magnético que muda cria corrente elétrica em qualquer fio comprido, como num gerador.",
+  "Hoje, os fios compridos são as linhas de transmissão. A corrente extra esquenta os transformadores, que podem desligar ou até queimar.",
+  "Em mil novecentos e oitenta e nove, uma tempestade solar derrubou a rede de Quebec, no Canadá, em menos de dois minutos. Seis milhões de pessoas ficaram nove horas sem luz.",
+  "O risco maior é perto dos polos, como no Canadá e no norte da Europa. O Brasil, perto da Linha do Equador, sente bem menos.",
+  "E não seria surpresa. Telescópios no espaço vigiam o Sol o tempo todo, e uma nuvem dessas leva de um a três dias para chegar.",
+  "Um satélite a um milhão e meio de quilômetros confirma a chegada até uma hora antes, e as empresas de energia protegem a rede.",
+  "Ninguém consegue prever uma tempestade solar com semanas de antecedência, muito menos num desenho animado. No dia dezessete, a luz não vai apagar no mundo inteiro.",
+  "Mas ter água e uma lanterna em casa nunca é má ideia. Se você gostou, se inscreva no Física Sem Mistério e me conta: quanto tempo você já ficou sem luz?"
+ ]
+}

@@ -1226,6 +1226,51 @@ longo("Chernobyl", "CHERNOBYL: o botão que deveria DESLIGAR o reator fez ele EX
     ]),
 ])
 
+# ---------- LEVA 28 (12/11): longo do boato do apagão mundial de 17/11 (Jansey: "faz o longo") ----------
+# Fatos: Aos Fatos/DGABC/BP Money (boato: episódio "It's a Blunderful Life", Simpsons T35, 2023; data = teste de ~1 min do
+# EAS da FEMA/FCC em 17/11; Defesa Civil 06/11 kit 72 h). Carrington 1859 (~17,6 h de viagem, telégrafos com faíscas,
+# aurora no Caribe/Havaí). Quebec 13/03/1989 (rede caiu em < 90 s, ~6 milhões, 9 h). Aviso: CME 1 a 3 dias; satélite em L1
+# (1,5 milhão de km) confirma 15 a 60 min antes. Publicar até 15 ou 16/11 (antes do dia 17).
+longo("ApagaoMundial", "Vai ter APAGÃO MUNDIAL dia 17 de novembro? ⚡ O que a física diz sobre a TEMPESTADE SOLAR",
+      "Mensagens dizem que no dia 17 de novembro o mundo inteiro vai ficar sem luz, e que até Os Simpsons previram. Neste vídeo: de onde veio "
+      "o boato, a única coisa capaz de afetar o mundo todo de uma vez (as tempestades solares), o dia de 1859 em que os telégrafos soltaram "
+      "faíscas, o apagão de Quebec em 1989 e como os cientistas sabem com dias de antecedência.", [
+    ("Abertura", [
+        ("Dia dezessete de novembro, o mundo inteiro vai ficar sem luz. É o que dizem mensagens que se espalharam pelas redes, até com a ajuda dos Simpsons.", v("city blackout night")),
+        ("Vamos ver o que é boato e o que a física diz sobre um apagão do planeta inteiro.", v("earth at night from space")),
+    ]),
+    ("De onde veio o boato", [
+        ("O episódio dos Simpsons é de dois mil e vinte e três e não mostra data nenhuma. O dia dezessete veio de um teste de um minuto no sistema de alertas dos Estados Unidos.", v("old television static")),
+        ("E o kit de água e comida para setenta e duas horas, da Defesa Civil, é uma orientação para qualquer emergência, não um aviso de apagão.", v("emergency kit water bottles")),
+    ]),
+    ("Só o Sol", [
+        ("Não existe um cabo que liga o planeta inteiro: cada país tem a sua rede elétrica. Para apagar todas de uma vez, só uma coisa: o Sol.", v("electrical grid substation")),
+        ("Às vezes o Sol arremessa uma nuvem gigante de gás eletrizado. Se ela vem na direção da Terra, sacode o campo magnético do planeta. É a tempestade solar.", v("solar flare")),
+    ]),
+    ("O dia em que o céu pegou fogo", [
+        ("Em setembro de mil oitocentos e cinquenta e nove, veio a maior tempestade solar já registrada. Houve aurora até no Caribe e no Havaí.", v("aurora red sky")),
+        ("E os telégrafos enlouqueceram: saíram faíscas dos aparelhos, e papéis pegaram fogo. Alguns funcionaram até com as baterias desligadas.", v("old telegraph")),
+    ]),
+    ("A física", [
+        ("É que um campo magnético que muda cria corrente elétrica em qualquer fio comprido, como num gerador.", v("magnet coil experiment")),
+        ("Hoje, os fios compridos são as linhas de transmissão. A corrente extra esquenta os transformadores, que podem desligar ou até queimar.", v("electrical transformer")),
+    ]),
+    ("Quebec, 1989", [
+        ("Em mil novecentos e oitenta e nove, uma tempestade solar derrubou a rede de Quebec, no Canadá, em menos de dois minutos. Seis milhões de pessoas ficaram nove horas sem luz.", v("snowy city night")),
+    ]),
+    ("E o Brasil?", [
+        ("O risco maior é perto dos polos, como no Canadá e no norte da Europa. O Brasil, perto da Linha do Equador, sente bem menos.", v("brazil aerial city")),
+    ]),
+    ("Daria para saber antes?", [
+        ("E não seria surpresa. Telescópios no espaço vigiam o Sol o tempo todo, e uma nuvem dessas leva de um a três dias para chegar.", v("space telescope")),
+        ("Um satélite a um milhão e meio de quilômetros confirma a chegada até uma hora antes, e as empresas de energia protegem a rede.", v("satellite space sun")),
+    ]),
+    ("Final", [
+        ("Ninguém consegue prever uma tempestade solar com semanas de antecedência, muito menos num desenho animado. No dia dezessete, a luz não vai apagar no mundo inteiro.", v("calendar pages")),
+        ("Mas ter água e uma lanterna em casa nunca é má ideia. Se você gostou, se inscreva no Física Sem Mistério e me conta: quanto tempo você já ficou sem luz?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
