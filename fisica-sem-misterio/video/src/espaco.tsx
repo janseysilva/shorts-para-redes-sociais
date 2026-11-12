@@ -116,7 +116,9 @@ export const Trilha: React.FC<{ id: string; sons: Som[]; musicas?: Musica[] }> =
   return (
     <>
       <Audio src={staticFile(`${id}/narracao.mp3`)} />
-      {!musicas && <Audio src={staticFile("musica.wav")} volume={(fr) => interpolate(fr, [0, dur - 30, dur], [0.2, 0.2, 0], CLAMP)} />}
+      {/* música padrão desde 12/11: "Level" (The Grey Room / Density & Time, Biblioteca de Áudio do YouTube, escolhida pelo Jansey),
+          ~11 dB abaixo da voz (o Jansey achou a 1ª tentativa, 0.054, baixa e escolheu +4 dB). Antes era musica.wav a 0.2. */}
+      {!musicas && <Audio src={staticFile("musicas/level.mp3")} loop volume={(fr) => interpolate(fr, [0, dur - 30, dur], [0.086, 0.086, 0], CLAMP)} />}
       {musicas?.map((m, i) => {
         const ini = Math.max(0, m.desde - 0.6), fim = Math.min(total, m.ate + 0.6), v = m.vol ?? 0.2;
         return (

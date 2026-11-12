@@ -14,4 +14,5 @@ video/fontes_titanic/q1912/
 video/fontes_titanic/qice/
 video/fontes_titanic/ia/
 video/fontes_titanic/folha_*.jpg
-video/public/musicas/
+video/public/musicas/*
+!video/public/musicas/level.mp3

@@ -167,7 +167,7 @@ export const Longo: React.FC<{ roteiro: RoteiroLongo; tempos: TemposLongo; abert
   return (
     <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
       <Audio src={staticFile(`${roteiro.id}/narracao.mp3`)} />
-      <Audio src={staticFile("musica.wav")} loop volume={0.07} />
+      <Audio src={staticFile("musicas/level.mp3")} loop volume={0.048} />
       {cenas.map((c, i) => {
         const ini = i === 0 ? 0 : C[i];
         const fim = i + 1 < C.length ? C[i + 1] : tempos.total;
