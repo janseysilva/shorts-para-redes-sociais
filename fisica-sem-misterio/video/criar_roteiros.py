@@ -1036,6 +1036,23 @@ short("LagoNyos", "O LAGO que matou 1.746 pessoas numa noite 😶 (sem fogo e se
     ("Hoje, canos soltam o gás aos poucos, para que isso nunca mais aconteça.", "Canos SOLTAM o gás", ["SOLTAM"], {"busca": "fountain lake", "foto": "Ny_cano"}),
 ], pergunta="Você conhecia essa história? 👇")
 
+# ---------- LEVA 28 (13/11): escolhido pelo Jansey ("somente a opção 2") — roteiro aguardando aprovação ----------
+# Busca em alta: "buraco mais fundo do mundo", "poço de kola som", "som do inferno". Voz: Antonio (13/11).
+# Fatos: Wikipedia EN (Kola Superdeep Borehole: início 24/05/1970; 12.262 m em 1989; furos de 23 cm; 180 °C em 1992 a 11.882 m,
+# mais que o esperado; água a 3-6 km; fósseis de plâncton a 6 km; parou em 1995 por falta de dinheiro; poço soldado (foto 2012), lugar abandonado.
+# Well to Hell: lenda impressa em jul/1989 num jornalzinho cristão da Finlândia; os "gritos" eram efeitos sonoros montados).
+short("PocoKola", "O BURACO mais fundo do mundo: 12 km 🕳️ (e o \"som do inferno\")",
+      "O Poço Superprofundo de Kola, na Rússia, perto da Noruega, começou a ser perfurado pela União Soviética em 1970 só para estudar a crosta da Terra. Em 1989 chegou a 12.262 metros, o ponto mais fundo já cavado pelo ser humano, num furo de apenas 23 centímetros de largura. Perto do fundo, a rocha chegou a 180 °C, mais quente do que o previsto. Os cientistas acharam água presa na rocha a quilômetros de profundidade e fósseis microscópicos de plâncton a 6 km. O famoso \"som do inferno\" é uma lenda que circula desde 1989: os gritos eram efeitos sonoros montados. A perfuração parou em 1995 por falta de dinheiro; hoje o poço está soldado e o lugar, abandonado. #fisica #curiosidades #pocodekola #buracomaisfundo #ciencia",
+      "🕳️", "12 km Terra adentro.", [
+    ("Essa tampa soldada esconde o buraco mais fundo já cavado pelo ser humano: doze quilômetros para dentro da Terra.", "O buraco MAIS FUNDO", ["MAIS FUNDO"], {"busca": "deep hole ground", "foto": "Kf_tampa"}),
+    ("É o Poço de Kola, na Rússia. Os soviéticos começaram a cavar em mil novecentos e setenta, só para estudar a Terra por dentro.", "Começou em 1970", ["1970"], {"busca": "drilling tower", "foto": "Kf_selo"}),
+    ("Em mil novecentos e oitenta e nove, chegaram a doze mil, duzentos e sessenta e dois metros. E o furo tem só vinte e três centímetros de largura.", "12.262 METROS", ["12.262"], {"busca": "rock layers", "foto": "Kf_corte"}),
+    ("Lá embaixo, a rocha chegou a cento e oitenta graus, bem mais quente do que esperavam.", "180 °C lá embaixo", ["180 °C"], v("drill bit drilling rock")),
+    ("E vieram surpresas: água presa na rocha a quilômetros de profundidade, e fósseis microscópicos de plâncton a seis quilômetros.", "FÓSSEIS a 6 km", ["FÓSSEIS"], v("plankton microscope")),
+    ("E o tal som do inferno? É lenda, de mil novecentos e oitenta e nove. Os gritos eram efeitos sonoros montados.", "\"Som do inferno\"? LENDA", ["LENDA"], v("dark deep hole")),
+    ("Em mil novecentos e noventa e cinco, o dinheiro acabou. Hoje o lugar está abandonado, e o buraco, soldado.", "ABANDONADO", ["ABANDONADO"], {"busca": "abandoned industrial building", "foto": "Kf_aereo"}),
+], pergunta="Você já tinha ouvido o \"som do inferno\"? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

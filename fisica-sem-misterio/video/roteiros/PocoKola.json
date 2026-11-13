@@ -1,0 +1,75 @@
+{
+ "id": "PocoKola",
+ "titulo": "O BURACO mais fundo do mundo: 12 km 🕳️ (e o \"som do inferno\")",
+ "legenda": "O Poço Superprofundo de Kola, na Rússia, perto da Noruega, começou a ser perfurado pela União Soviética em 1970 só para estudar a crosta da Terra. Em 1989 chegou a 12.262 metros, o ponto mais fundo já cavado pelo ser humano, num furo de apenas 23 centímetros de largura. Perto do fundo, a rocha chegou a 180 °C, mais quente do que o previsto. Os cientistas acharam água presa na rocha a quilômetros de profundidade e fósseis microscópicos de plâncton a 6 km. O famoso \"som do inferno\" é uma lenda que circula desde 1989: os gritos eram efeitos sonoros montados. A perfuração parou em 1995 por falta de dinheiro; hoje o poço está soldado e o lugar, abandonado. #fisica #curiosidades #pocodekola #buracomaisfundo #ciencia",
+ "final": {
+  "emoji": "🕳️",
+  "frase": "12 km Terra adentro."
+ },
+ "pergunta": "Você já tinha ouvido o \"som do inferno\"? 👇",
+ "frases": [
+  "Essa tampa soldada esconde o buraco mais fundo já cavado pelo ser humano: doze quilômetros para dentro da Terra.",
+  "É o Poço de Kola, na Rússia. Os soviéticos começaram a cavar em mil novecentos e setenta, só para estudar a Terra por dentro.",
+  "Em mil novecentos e oitenta e nove, chegaram a doze mil, duzentos e sessenta e dois metros. E o furo tem só vinte e três centímetros de largura.",
+  "Lá embaixo, a rocha chegou a cento e oitenta graus, bem mais quente do que esperavam.",
+  "E vieram surpresas: água presa na rocha a quilômetros de profundidade, e fósseis microscópicos de plâncton a seis quilômetros.",
+  "E o tal som do inferno? É lenda, de mil novecentos e oitenta e nove. Os gritos eram efeitos sonoros montados.",
+  "Em mil novecentos e noventa e cinco, o dinheiro acabou. Hoje o lugar está abandonado, e o buraco, soldado.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "O buraco MAIS FUNDO",
+   "destaque": [
+    "MAIS FUNDO"
+   ],
+   "busca": "deep hole ground",
+   "foto": "Kf_tampa"
+  },
+  {
+   "gancho": "Começou em 1970",
+   "destaque": [
+    "1970"
+   ],
+   "busca": "drilling tower",
+   "foto": "Kf_selo"
+  },
+  {
+   "gancho": "12.262 METROS",
+   "destaque": [
+    "12.262"
+   ],
+   "busca": "rock layers",
+   "foto": "Kf_corte"
+  },
+  {
+   "gancho": "180 °C lá embaixo",
+   "destaque": [
+    "180 °C"
+   ],
+   "busca": "drill bit drilling rock"
+  },
+  {
+   "gancho": "FÓSSEIS a 6 km",
+   "destaque": [
+    "FÓSSEIS"
+   ],
+   "busca": "plankton microscope"
+  },
+  {
+   "gancho": "\"Som do inferno\"? LENDA",
+   "destaque": [
+    "LENDA"
+   ],
+   "busca": "dark deep hole"
+  },
+  {
+   "gancho": "ABANDONADO",
+   "destaque": [
+    "ABANDONADO"
+   ],
+   "busca": "abandoned industrial building",
+   "foto": "Kf_aereo"
+  }
+ ]
+}
