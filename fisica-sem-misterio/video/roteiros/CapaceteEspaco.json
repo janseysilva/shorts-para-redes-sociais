@@ -1,0 +1,74 @@
+{
+ "id": "CapaceteEspaco",
+ "titulo": "O que acontece se TIRAR o capacete no espaço? 👨‍🚀",
+ "legenda": "Ninguém explode no espaço, mas sem o capacete sobram uns 15 segundos. Sem pressão, o ar sai dos pulmões de uma vez (prender a respiração os machucaria), a água ferve na temperatura do corpo e a saliva borbulha na língua; em cerca de 15 segundos o sangue sem oxigênio chega ao cérebro e vem o desmaio. O corpo não congela na hora, porque o vácuo quase não tira calor. Em 1966 um técnico da NASA passou por isso num teste em câmara de vácuo e se recuperou. Só os três cosmonautas da Soyuz 11, em 1971, morreram de verdade no espaço. #fisica #curiosidades #espaco #astronauta #ciencia",
+ "final": {
+  "emoji": "👨‍🚀",
+  "frase": "Sem capacete no espaço."
+ },
+ "pergunta": "Você teria coragem de ser astronauta? 👇",
+ "frases": [
+  "E se um astronauta tirasse o capacete no espaço? Ele explodiria? Não. Mas teria só uns quinze segundos.",
+  "Sem ar em volta, o ar dos pulmões escapa de uma vez. Prender a respiração machucaria os pulmões.",
+  "Com a pressão quase zero, a água ferve na temperatura do corpo. A saliva na língua começa a borbulhar.",
+  "Em uns quinze segundos, o sangue sem oxigênio chega ao cérebro, e a pessoa desmaia.",
+  "E ela não congela na hora: o vácuo quase não tira calor do corpo. O corpo incha, mas a pele segura.",
+  "Em mil novecentos e sessenta e seis, um técnico da NASA passou por isso num teste. Sentiu a saliva ferver, desmaiou e se recuperou.",
+  "As únicas pessoas que morreram no espaço foram os três cosmonautas da Soyuz onze, em mil novecentos e setenta e um, quando a cápsula perdeu o ar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Só 15 SEGUNDOS",
+   "destaque": [
+    "15 SEGUNDOS"
+   ],
+   "busca": "astronaut space",
+   "foto": "Ca_eva"
+  },
+  {
+   "gancho": "Pulmões em PERIGO",
+   "destaque": [
+    "PERIGO"
+   ],
+   "busca": "astronaut space walk"
+  },
+  {
+   "gancho": "Saliva FERVENDO",
+   "destaque": [
+    "FERVENDO"
+   ],
+   "busca": "water boiling bubbles"
+  },
+  {
+   "gancho": "DESMAIO em 15 s",
+   "destaque": [
+    "DESMAIO"
+   ],
+   "busca": "astronaut helmet"
+  },
+  {
+   "gancho": "Não CONGELA na hora",
+   "destaque": [
+    "CONGELA"
+   ],
+   "busca": "astronaut suit",
+   "foto": "Ca_traje"
+  },
+  {
+   "gancho": "Aconteceu em 1966",
+   "destaque": [
+    "1966"
+   ],
+   "busca": "laboratory chamber"
+  },
+  {
+   "gancho": "Soyuz 11, em 1971",
+   "destaque": [
+    "Soyuz 11"
+   ],
+   "busca": "space capsule",
+   "foto": "Ca_soyuz"
+  }
+ ]
+}

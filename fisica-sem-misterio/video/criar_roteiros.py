@@ -1053,6 +1053,36 @@ short("PocoKola", "O BURACO mais fundo do mundo: 12 km 🕳️ (e o \"som do inf
     ("Em mil novecentos e noventa e cinco, o dinheiro acabou. Hoje o lugar está abandonado, e o buraco, soldado.", "ABANDONADO", ["ABANDONADO"], {"busca": "abandoned industrial building", "foto": "Kf_aereo"}),
 ], pergunta="Você já tinha ouvido o \"som do inferno\"? 👇")
 
+# ---------- LEVA 29 (16/11): escolhidos pelo Jansey ("8 e 9 pra shorts") — roteiro aguardando aprovação ----------
+# Buscas em alta (autocompletar do YouTube 16/11): "o que acontece se tirar o capacete no espaço", "o que acontece se você cair em um buraco negro".
+# Fatos: vácuo = pulmões precisam soltar o ar; água ferve à temperatura do corpo (abaixo do limite de Armstrong); consciência ~15 s;
+# não congela na hora; Jim LeBlanc, teste da NASA em câmara de vácuo em 1966 (saliva borbulhando, desmaiou, recuperou);
+# Soyuz 11 (30/06/1971): 3 cosmonautas, únicas mortes no espaço. Buraco negro: força de maré, espaguetificação; Sgr A* (4 milhões de sóis)
+# sem sentir na borda; observador de fora vê ficar lento e vermelho; M87* foto EHT de 2019, 6,5 bilhões de sóis.
+short("CapaceteEspaco", "O que acontece se TIRAR o capacete no espaço? 👨‍🚀",
+      "Ninguém explode no espaço, mas sem o capacete sobram uns 15 segundos. Sem pressão, o ar sai dos pulmões de uma vez (prender a respiração os machucaria), a água ferve na temperatura do corpo e a saliva borbulha na língua; em cerca de 15 segundos o sangue sem oxigênio chega ao cérebro e vem o desmaio. O corpo não congela na hora, porque o vácuo quase não tira calor. Em 1966 um técnico da NASA passou por isso num teste em câmara de vácuo e se recuperou. Só os três cosmonautas da Soyuz 11, em 1971, morreram de verdade no espaço. #fisica #curiosidades #espaco #astronauta #ciencia",
+      "👨‍🚀", "Sem capacete no espaço.", [
+    ("E se um astronauta tirasse o capacete no espaço? Ele explodiria? Não. Mas teria só uns quinze segundos.", "Só 15 SEGUNDOS", ["15 SEGUNDOS"], {"busca": "astronaut space", "foto": "Ca_eva"}),
+    ("Sem ar em volta, o ar dos pulmões escapa de uma vez. Prender a respiração machucaria os pulmões.", "Pulmões em PERIGO", ["PERIGO"], v("astronaut space walk")),
+    ("Com a pressão quase zero, a água ferve na temperatura do corpo. A saliva na língua começa a borbulhar.", "Saliva FERVENDO", ["FERVENDO"], v("water boiling bubbles")),
+    ("Em uns quinze segundos, o sangue sem oxigênio chega ao cérebro, e a pessoa desmaia.", "DESMAIO em 15 s", ["DESMAIO"], v("astronaut helmet")),
+    ("E ela não congela na hora: o vácuo quase não tira calor do corpo. O corpo incha, mas a pele segura.", "Não CONGELA na hora", ["CONGELA"], {"busca": "astronaut suit", "foto": "Ca_traje"}),
+    ("Em mil novecentos e sessenta e seis, um técnico da NASA passou por isso num teste. Sentiu a saliva ferver, desmaiou e se recuperou.", "Aconteceu em 1966", ["1966"], v("laboratory chamber")),
+    ("As únicas pessoas que morreram no espaço foram os três cosmonautas da Soyuz onze, em mil novecentos e setenta e um, quando a cápsula perdeu o ar.", "Soyuz 11, em 1971", ["Soyuz 11"], {"busca": "space capsule", "foto": "Ca_soyuz"}),
+], pergunta="Você teria coragem de ser astronauta? 👇")
+
+short("BuracoNegroCair", "O que acontece se você CAIR num buraco negro? 🕳️",
+      "Depende do tamanho do buraco negro. Num pequeno, a gravidade nos pés seria muito mais forte que na cabeça e você seria esticado como macarrão: a espaguetificação, que já foi vista acontecendo com estrelas. Num gigante, como o Sagitário A*, no centro da nossa galáxia (4 milhões de vezes a massa do Sol), você cruzaria a borda sem sentir nada, mas quem olhasse de longe veria você cada vez mais lento e vermelho, até parecer parado. Depois da borda nem a luz escapa. As fotos reais são do Event Horizon Telescope: M87* (2019, 6,5 bilhões de sóis) e Sagitário A* (2022). #fisica #curiosidades #buraconegro #espaco #ciencia",
+      "🕳️", "Caindo num buraco negro.", [
+    ("O que aconteceria se você caísse num buraco negro? Depende do tamanho dele.", "Depende do TAMANHO", ["TAMANHO"], {"busca": "black hole", "foto": "Bn_m87"}),
+    ("Num buraco negro pequeno, a gravidade nos seus pés seria muito mais forte que na sua cabeça.", "Pés x CABEÇA", ["CABEÇA"], v("galaxy space")),
+    ("Você seria esticado como um macarrão. Os cientistas chamam isso de espaguetificação, e já viram acontecer com estrelas.", "ESPAGUETIFICAÇÃO", ["ESPAGUETIFICAÇÃO"], {"busca": "star black hole", "foto": "Bn_estrela"}),
+    ("Já num buraco negro gigante, como o do centro da nossa galáxia, você cruzaria a borda sem sentir nada.", "Não sentiria NADA", ["NADA"], {"busca": "milky way", "foto": "Bn_sgr"}),
+    ("Mas quem olhasse de longe veria você cada vez mais lento e mais vermelho, até parecer parado na borda.", "PARADO na borda", ["PARADO"], v("stars timelapse")),
+    ("Depois dessa borda, nem a luz consegue escapar. Não tem volta.", "SEM VOLTA", ["SEM VOLTA"], v("dark space")),
+    ("E essas são fotos reais. A primeira, de dois mil e dezenove, é do buraco negro M oitenta e sete: seis bilhões e meio de vezes a massa do Sol.", "FOTO REAL de 2019", ["FOTO REAL"], {"busca": "black hole", "foto": "Bn_m87"}),
+], pergunta="Você chegaria perto de um buraco negro? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -1972,5 +1972,47 @@
   "autor": "Alexander Novikov",
   "licenca": "CC BY-SA 4.0",
   "pagina": "https://commons.wikimedia.org/wiki/File:Kolskaya-sverhglubokaya-008.jpg"
+ },
+ "Ca_traje": {
+  "arquivo": "STS-41-B EVA Bruce McCandless II with Manipulator Foot Restraint.jpg",
+  "autor": "NASA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:STS-41-B_EVA_Bruce_McCandless_II_with_Manipulator_Foot_Restraint.jpg"
+ },
+ "Ca_soyuz": {
+  "arquivo": "Soyuz 11 crew.jpg",
+  "autor": "USSR Post",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Soyuz_11_crew.jpg"
+ },
+ "Bn_m87": {
+  "arquivo": "Black hole - Messier 87 crop max res.jpg",
+  "autor": "Event Horizon Telescope, uploader cropped and converted TIF to JPG",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+ },
+ "Bn_sgr": {
+  "arquivo": "Sag A*.jpg",
+  "autor": "EHT Collaboration",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sag_A*.jpg"
+ },
+ "Bn_estrela": {
+  "arquivo": "Artist’s impression of star being tidally disrupted by a supermassive black hole (eso2018a).jpg",
+  "autor": "ESO/M. Kornmesser",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_star_being_tidally_disrupted_by_a_supermassive_black_hole_(eso2018a).jpg"
+ },
+ "Bn_comp": {
+  "arquivo": "Comparison of the sizes of two black holes- M87* and Sagittarius A* (eso2208-eht-mwe).jpg",
+  "autor": "EHT collaboration (acknowledgment: Lia Medeiros, xkcd)",
+  "licenca": "CC BY 4.0",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Comparison_of_the_sizes_of_two_black_holes-_M87*_and_Sagittarius_A*_(eso2208-eht-mwe).jpg"
+ },
+ "Ca_eva": {
+  "arquivo": "Bruce McCandless II during EVA in 1984.jpg",
+  "autor": "NASA",
+  "licenca": "Public domain",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
  }
 }

@@ -1,0 +1,75 @@
+{
+ "id": "BuracoNegroCair",
+ "titulo": "O que acontece se você CAIR num buraco negro? 🕳️",
+ "legenda": "Depende do tamanho do buraco negro. Num pequeno, a gravidade nos pés seria muito mais forte que na cabeça e você seria esticado como macarrão: a espaguetificação, que já foi vista acontecendo com estrelas. Num gigante, como o Sagitário A*, no centro da nossa galáxia (4 milhões de vezes a massa do Sol), você cruzaria a borda sem sentir nada, mas quem olhasse de longe veria você cada vez mais lento e vermelho, até parecer parado. Depois da borda nem a luz escapa. As fotos reais são do Event Horizon Telescope: M87* (2019, 6,5 bilhões de sóis) e Sagitário A* (2022). #fisica #curiosidades #buraconegro #espaco #ciencia",
+ "final": {
+  "emoji": "🕳️",
+  "frase": "Caindo num buraco negro."
+ },
+ "pergunta": "Você chegaria perto de um buraco negro? 👇",
+ "frases": [
+  "O que aconteceria se você caísse num buraco negro? Depende do tamanho dele.",
+  "Num buraco negro pequeno, a gravidade nos seus pés seria muito mais forte que na sua cabeça.",
+  "Você seria esticado como um macarrão. Os cientistas chamam isso de espaguetificação, e já viram acontecer com estrelas.",
+  "Já num buraco negro gigante, como o do centro da nossa galáxia, você cruzaria a borda sem sentir nada.",
+  "Mas quem olhasse de longe veria você cada vez mais lento e mais vermelho, até parecer parado na borda.",
+  "Depois dessa borda, nem a luz consegue escapar. Não tem volta.",
+  "E essas são fotos reais. A primeira, de dois mil e dezenove, é do buraco negro M oitenta e sete: seis bilhões e meio de vezes a massa do Sol.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Depende do TAMANHO",
+   "destaque": [
+    "TAMANHO"
+   ],
+   "busca": "black hole",
+   "foto": "Bn_m87"
+  },
+  {
+   "gancho": "Pés x CABEÇA",
+   "destaque": [
+    "CABEÇA"
+   ],
+   "busca": "galaxy space"
+  },
+  {
+   "gancho": "ESPAGUETIFICAÇÃO",
+   "destaque": [
+    "ESPAGUETIFICAÇÃO"
+   ],
+   "busca": "star black hole",
+   "foto": "Bn_estrela"
+  },
+  {
+   "gancho": "Não sentiria NADA",
+   "destaque": [
+    "NADA"
+   ],
+   "busca": "milky way",
+   "foto": "Bn_sgr"
+  },
+  {
+   "gancho": "PARADO na borda",
+   "destaque": [
+    "PARADO"
+   ],
+   "busca": "stars timelapse"
+  },
+  {
+   "gancho": "SEM VOLTA",
+   "destaque": [
+    "SEM VOLTA"
+   ],
+   "busca": "dark space"
+  },
+  {
+   "gancho": "FOTO REAL de 2019",
+   "destaque": [
+    "FOTO REAL"
+   ],
+   "busca": "black hole",
+   "foto": "Bn_m87"
+  }
+ ]
+}
