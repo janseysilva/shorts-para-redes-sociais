@@ -1,0 +1,228 @@
+{
+ "id": "TerrasRaras",
+ "longo": true,
+ "titulo": "TERRAS RARAS: o que são e por que TODO MUNDO quer as do Brasil? 🧲",
+ "descricao": "O que são as terras raras, para que servem e por que Estados Unidos e China disputam esses 17 elementos? Neste vídeo: por que elas não são terra nem tão raras, o ímã mais forte do mercado, por que separar é tão difícil, como a China passou a dominar o refino e o que o Brasil tem no subsolo.",
+ "capitulos": [
+  {
+   "titulo": "Abertura",
+   "cenas": [
+    {
+     "frase": "Terras raras. Estados Unidos e China brigam por elas, e o Brasil tem uma das maiores reservas do planeta.",
+     "busca": "world map globe dark",
+     "desde": 0,
+     "clipe": "TerrasRaras_0"
+    },
+    {
+     "frase": "Mas o que são? E por que todo mundo quer? A resposta está dentro do seu bolso.",
+     "busca": "person using smartphone",
+     "desde": 0,
+     "clipe": "TerrasRaras_1"
+    }
+   ]
+  },
+  {
+   "titulo": "O que são terras raras",
+   "cenas": [
+    {
+     "frase": "Terras raras são dezessete metais da tabela periódica, com nomes como neodímio, térbio, európio e disprósio.",
+     "foto": "Tr_oxidos",
+     "legenda": "Óxidos de terras raras em pó"
+    },
+    {
+     "frase": "O nome engana: não são terra, e nem tão raras. O cério, um deles, é tão comum quanto o cobre.",
+     "foto": "Tr_gadolinita",
+     "legenda": "Gadolinita, mineral de terras raras"
+    },
+    {
+     "frase": "A história começou em mil setecentos e oitenta e sete, quando acharam uma pedra preta esquisita numa pedreira da Suécia. Como só apareciam em minerais pouco comuns, ficaram com a fama de raras.",
+     "foto": "Tr_ytterby",
+     "legenda": "A antiga mina de Ytterby, na Suécia"
+    }
+   ]
+  },
+  {
+   "titulo": "Para que servem",
+   "cenas": [
+    {
+     "frase": "O segredo está nos elétrons. Nesses átomos, alguns ficam escondidos numa camada interna, e isso cria um magnetismo e uma luz difíceis de imitar com outros metais.",
+     "busca": "atom particles abstract",
+     "desde": 0,
+     "clipe": "TerrasRaras_5"
+    },
+    {
+     "frase": "Junte neodímio, ferro e boro e você tem o ímã mais forte do mercado. Um pedacinho levanta centenas de vezes o próprio peso.",
+     "foto": "Tr_ima",
+     "legenda": "Ímã de neodímio"
+    },
+    {
+     "frase": "É ele que faz o celular vibrar, o fone tocar e o motor de muitos carros elétricos girar.",
+     "busca": "electric car charging",
+     "desde": 0,
+     "clipe": "TerrasRaras_7"
+    },
+    {
+     "frase": "Está também em muitos geradores de vento, porque um ímã forte permite um gerador mais compacto.",
+     "busca": "wind turbines",
+     "desde": 0,
+     "clipe": "TerrasRaras_8"
+    },
+    {
+     "frase": "E outras terras raras criam luz: o európio brilha em vermelho sob luz ultravioleta, e já coloriu as telas das televisões antigas.",
+     "foto": "Tr_europio",
+     "legenda": "Composto de európio sob luz ultravioleta"
+    }
+   ]
+  },
+  {
+   "titulo": "Por que são tão cobiçadas",
+   "cenas": [
+    {
+     "frase": "E tem o lado militar. Um único caça F trinta e cinco usa, segundo estimativas, uns quatrocentos quilos de terras raras.",
+     "foto": "Tr_f35",
+     "legenda": "Caças F-35"
+    },
+    {
+     "frase": "Radar, míssil, satélite, submarino: quem fica sem terras raras fica para trás na tecnologia. Por isso elas viraram uma arma na política.",
+     "foto": "Tr_submarino",
+     "legenda": "Submarino USS Virginia (Marinha dos EUA)"
+    }
+   ]
+  },
+  {
+   "titulo": "O difícil é separar",
+   "cenas": [
+    {
+     "frase": "Mas, se não são raras, qual é o problema? É que elas vêm todas misturadas, e quimicamente são quase gêmeas.",
+     "foto": "Tr_bastnasita",
+     "legenda": "Bastnasita, minério de terras raras"
+    },
+    {
+     "frase": "Para separar uma da outra, a mistura passa por banhos de ácido e solvente, repetidos muitas e muitas vezes.",
+     "busca": "chemistry laboratory liquid",
+     "desde": 0,
+     "clipe": "TerrasRaras_13"
+    },
+    {
+     "frase": "E sobra muita sujeira: estima-se até duas mil toneladas de rejeito por tonelada produzida. Parte dele é tóxica, e às vezes radioativa.",
+     "busca": "mining excavator",
+     "desde": 0,
+     "clipe": "TerrasRaras_14"
+    }
+   ]
+  },
+  {
+   "titulo": "Como a China dominou",
+   "cenas": [
+    {
+     "frase": "Até os anos oitenta, quem liderava eram os Estados Unidos, com uma mina na Califórnia.",
+     "foto": "Tr_mountainpass",
+     "legenda": "Mina de Mountain Pass, Califórnia"
+    },
+    {
+     "frase": "Só que lidar com os resíduos saía caro, e a China vendia mais barato. A mina americana parou. O líder chinês Deng Xiaoping resumiu assim: o Oriente Médio tem petróleo, a China tem terras raras.",
+     "foto": "Tr_deng",
+     "legenda": "Deng Xiaoping em visita aos EUA, 1979"
+    },
+    {
+     "frase": "Hoje a China refina cerca de noventa por cento das terras raras usadas em ímãs.",
+     "foto": "Tr_bayanobo",
+     "legenda": "Mina de Bayan Obo, na China, vista do espaço"
+    }
+   ]
+  },
+  {
+   "titulo": "A disputa",
+   "cenas": [
+    {
+     "frase": "E isso vira poder. Em dois mil e dez, durante uma briga com o Japão, as vendas para os japoneses foram interrompidas, segundo relatos da época. A China negou.",
+     "busca": "cargo ship containers",
+     "desde": 0,
+     "clipe": "TerrasRaras_18"
+    },
+    {
+     "frase": "Em dois mil e vinte e cinco, em plena guerra de tarifas, a China passou a exigir licença para exportar. Uma fábrica da Ford, nos Estados Unidos, parou uma semana por falta de ímãs.",
+     "busca": "car factory robots",
+     "desde": 0,
+     "clipe": "TerrasRaras_19"
+    },
+    {
+     "frase": "Trump e Xi Jinping se encontraram e combinaram uma trégua. Parte das regras chinesas está suspensa até janeiro de dois mil e vinte e sete.",
+     "foto": "Tr_trump_xi",
+     "legenda": "Trump e Xi Jinping, Coreia do Sul, 2025"
+    }
+   ]
+  },
+  {
+   "titulo": "E o Brasil?",
+   "cenas": [
+    {
+     "frase": "E aí entra o Brasil. Pela conta mais nova do serviço geológico americano, são cerca de onze milhões de toneladas. A conta antiga era quase o dobro. Mesmo assim, seguimos em segundo lugar, atrás só da China.",
+     "busca": "brazil aerial landscape",
+     "desde": 0,
+     "clipe": "TerrasRaras_21"
+    },
+    {
+     "frase": "Só que produzimos menos de um por cento do total. Uma única mina funciona em escala comercial, em Minaçu, Goiás, e em setembro ela foi comprada por uma empresa americana.",
+     "busca": "red soil excavator",
+     "desde": 0,
+     "clipe": "TerrasRaras_22"
+    },
+    {
+     "frase": "O governo brasileiro diz que não vai dar exclusividade a nenhum país e quer a industrialização feita aqui. Empresas pedem incentivos. E há quem se preocupe com a água e o meio ambiente.",
+     "busca": "brasilia congress",
+     "desde": 0,
+     "clipe": "TerrasRaras_23"
+    },
+    {
+     "frase": "No fundo, a discussão é esta: vender a matéria-prima barata e comprar o ímã caro, ou aprender a separar e fazer o ímã aqui?",
+     "foto": "Tr_ima2",
+     "legenda": "Ímãs de neodímio"
+    }
+   ]
+  },
+  {
+   "titulo": "Final",
+   "cenas": [
+    {
+     "frase": "Porque o tesouro não é a pedra. É saber separar. E isso é química, física e muita engenharia.",
+     "foto": "Tr_monazita",
+     "legenda": "Monazita, mineral de terras raras"
+    },
+    {
+     "frase": "Se você gostou, se inscreva no Física Sem Mistério e me conta: o que o Brasil deveria fazer com as terras raras?",
+     "fim": true
+    }
+   ]
+  }
+ ],
+ "frases": [
+  "Terras raras. Estados Unidos e China brigam por elas, e o Brasil tem uma das maiores reservas do planeta.",
+  "Mas o que são? E por que todo mundo quer? A resposta está dentro do seu bolso.",
+  "Terras raras são dezessete metais da tabela periódica, com nomes como neodímio, térbio, európio e disprósio.",
+  "O nome engana: não são terra, e nem tão raras. O cério, um deles, é tão comum quanto o cobre.",
+  "A história começou em mil setecentos e oitenta e sete, quando acharam uma pedra preta esquisita numa pedreira da Suécia. Como só apareciam em minerais pouco comuns, ficaram com a fama de raras.",
+  "O segredo está nos elétrons. Nesses átomos, alguns ficam escondidos numa camada interna, e isso cria um magnetismo e uma luz difíceis de imitar com outros metais.",
+  "Junte neodímio, ferro e boro e você tem o ímã mais forte do mercado. Um pedacinho levanta centenas de vezes o próprio peso.",
+  "É ele que faz o celular vibrar, o fone tocar e o motor de muitos carros elétricos girar.",
+  "Está também em muitos geradores de vento, porque um ímã forte permite um gerador mais compacto.",
+  "E outras terras raras criam luz: o európio brilha em vermelho sob luz ultravioleta, e já coloriu as telas das televisões antigas.",
+  "E tem o lado militar. Um único caça F trinta e cinco usa, segundo estimativas, uns quatrocentos quilos de terras raras.",
+  "Radar, míssil, satélite, submarino: quem fica sem terras raras fica para trás na tecnologia. Por isso elas viraram uma arma na política.",
+  "Mas, se não são raras, qual é o problema? É que elas vêm todas misturadas, e quimicamente são quase gêmeas.",
+  "Para separar uma da outra, a mistura passa por banhos de ácido e solvente, repetidos muitas e muitas vezes.",
+  "E sobra muita sujeira: estima-se até duas mil toneladas de rejeito por tonelada produzida. Parte dele é tóxica, e às vezes radioativa.",
+  "Até os anos oitenta, quem liderava eram os Estados Unidos, com uma mina na Califórnia.",
+  "Só que lidar com os resíduos saía caro, e a China vendia mais barato. A mina americana parou. O líder chinês Deng Xiaoping resumiu assim: o Oriente Médio tem petróleo, a China tem terras raras.",
+  "Hoje a China refina cerca de noventa por cento das terras raras usadas em ímãs.",
+  "E isso vira poder. Em dois mil e dez, durante uma briga com o Japão, as vendas para os japoneses foram interrompidas, segundo relatos da época. A China negou.",
+  "Em dois mil e vinte e cinco, em plena guerra de tarifas, a China passou a exigir licença para exportar. Uma fábrica da Ford, nos Estados Unidos, parou uma semana por falta de ímãs.",
+  "Trump e Xi Jinping se encontraram e combinaram uma trégua. Parte das regras chinesas está suspensa até janeiro de dois mil e vinte e sete.",
+  "E aí entra o Brasil. Pela conta mais nova do serviço geológico americano, são cerca de onze milhões de toneladas. A conta antiga era quase o dobro. Mesmo assim, seguimos em segundo lugar, atrás só da China.",
+  "Só que produzimos menos de um por cento do total. Uma única mina funciona em escala comercial, em Minaçu, Goiás, e em setembro ela foi comprada por uma empresa americana.",
+  "O governo brasileiro diz que não vai dar exclusividade a nenhum país e quer a industrialização feita aqui. Empresas pedem incentivos. E há quem se preocupe com a água e o meio ambiente.",
+  "No fundo, a discussão é esta: vender a matéria-prima barata e comprar o ímã caro, ou aprender a separar e fazer o ímã aqui?",
+  "Porque o tesouro não é a pedra. É saber separar. E isso é química, física e muita engenharia.",
+  "Se você gostou, se inscreva no Física Sem Mistério e me conta: o que o Brasil deveria fazer com as terras raras?"
+ ]
+}

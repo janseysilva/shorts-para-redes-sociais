@@ -209,6 +209,12 @@ import rCapaceteEspaco from "../roteiros/CapaceteEspaco.json";
 import tCapaceteEspaco from "../public/CapaceteEspaco/tempos.json";
 import rBuracoNegroCair from "../roteiros/BuracoNegroCair.json";
 import tBuracoNegroCair from "../public/BuracoNegroCair/tempos.json";
+import rFogoNaoApaga from "../roteiros/FogoNaoApaga.json";
+import tFogoNaoApaga from "../public/FogoNaoApaga/tempos.json";
+import rLagoPedra from "../roteiros/LagoPedra.json";
+import tLagoPedra from "../public/LagoPedra/tempos.json";
+import rTerrasRaras from "../roteiros/TerrasRaras.json";
+import tTerrasRaras from "../public/TerrasRaras/tempos.json";
 import tLagoNyosVoz from "../public/LagoNyosVoz/tempos.json";
 import rVeneza from "../roteiros/Veneza.json";
 import tVeneza from "../public/Veneza/tempos.json";
@@ -248,7 +254,7 @@ const ROTEIROS: [Roteiro, Tempos][] = [
   [rCopoStanley, tCopoStanley], [rVozGravacao, tVozGravacao], [rBoxEstoura, tBoxEstoura], [rTomadaDerrete, tTomadaDerrete], [rNuvemNaoCai, tNuvemNaoCai],
   [rCocaVidro, tCocaVidro], [rBateriaIncha, tBateriaIncha], [rCervejaGelo, tCervejaGelo], [rTremTrilho, tTremTrilho], [rImasRepelem, tImasRepelem],
   [rSilencio, tSilencio], [rFundoMar, tFundoMar], [rViagemTempo, tViagemTempo], [rDedosEnrugam, tDedosEnrugam], [rMacaEscurece, tMacaEscurece],
-  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras], [rCaminhaoFreio, tCaminhaoFreio], [rAviaoAntartida, tAviaoAntartida], [rChoqueCarro, tChoqueCarro], [rDesertoNoite, tDesertoNoite], [rChuteRoberto, tChuteRoberto], [rElevadorCabo, tElevadorCabo], [rBaleiaExplode, tBaleiaExplode], [rLagoNyos, tLagoNyos], [rPocoKola, tPocoKola], [rCapaceteEspaco, tCapaceteEspaco], [rBuracoNegroCair, tBuracoNegroCair],
+  [rOndaNazare, tOndaNazare], [rPassaroFio, tPassaroFio], [rTrianguloBermudas, tTrianguloBermudas], [rLugarQuente, tLugarQuente], [rLugarAlto, tLugarAlto], [rMarDrake, tMarDrake], [rTerraAneis, tTerraAneis], [rLugarSeco, tLugarSeco], [rLugarChuva, tLugarChuva], [rLugarEscuro, tLugarEscuro], [rRioFerve, tRioFerve], [rCidadeEspelhos, tCidadeEspelhos], [rElNinoNome, tElNinoNome], [rOrionidas, tOrionidas], [rTsunamiRecua, tTsunamiRecua], [rCidadeAlta, tCidadeAlta], [rPousarCheio, tPousarCheio], [rAviaoAlto, tAviaoAlto], [rPortaAviao, tPortaAviao], [rPulseiraQuantica, tPulseiraQuantica], [rFogosQuantica, tFogosQuantica], [rPedrasAndam, tPedrasAndam], [rJanelaRedonda, tJanelaRedonda], [rGatoEmPe, tGatoEmPe], [rGatoEmPeIA, tGatoEmPeIA], [rAreiaMovedica, tAreiaMovedica], [rPiramidesPedras, tPiramidesPedras], [rCaminhaoFreio, tCaminhaoFreio], [rAviaoAntartida, tAviaoAntartida], [rChoqueCarro, tChoqueCarro], [rDesertoNoite, tDesertoNoite], [rChuteRoberto, tChuteRoberto], [rElevadorCabo, tElevadorCabo], [rBaleiaExplode, tBaleiaExplode], [rLagoNyos, tLagoNyos], [rPocoKola, tPocoKola], [rCapaceteEspaco, tCapaceteEspaco], [rBuracoNegroCair, tBuracoNegroCair], [rFogoNaoApaga, tFogoNaoApaga], [rLagoPedra, tLagoPedra],
 ];
 
 // Vídeos longos (horizontais). abertura = [título grande, subtítulo]; fundoFinal = clipe atrás da tela final.
@@ -270,6 +276,7 @@ const LONGOS: [RoteiroLongo, TemposLongo, [string, string], string][] = [
   [rHalifax as RoteiroLongo, tHalifax, ["HALIFAX, 1917", "O navio que destruiu uma cidade"], "Halifax_33"],
   [rVeneza as RoteiroLongo, tVeneza, ["VENEZA", "A cidade sobre um mar de troncos"], "Veneza_29"],
   [rChernobyl as RoteiroLongo, tChernobyl, ["CHERNOBYL, 1986", "O botão que fez o reator explodir"], "Chernobyl_34"],
+  [rTerrasRaras as RoteiroLongo, tTerrasRaras, ["TERRAS RARAS", "Por que todo mundo quer?"], "TerrasRaras_22"],
   [rApagaoMundial as RoteiroLongo, tApagaoMundial, ["APAGÃO MUNDIAL?", "O que a física diz sobre o dia 17"], "ApagaoMundial_0"],
 ];
 

@@ -1083,6 +1083,34 @@ short("BuracoNegroCair", "O que acontece se você CAIR num buraco negro? 🕳️
     ("E essas são fotos reais. A primeira, de dois mil e dezenove, é do buraco negro M oitenta e sete: seis bilhões e meio de vezes a massa do Sol.", "FOTO REAL de 2019", ["FOTO REAL"], {"busca": "black hole", "foto": "Bn_m87"}),
 ], pergunta="Você chegaria perto de um buraco negro? 👇")
 
+# ---------- LEVA 30 (23/11): Jansey escolheu "shorts opção 2 e 3" + longo TerrasRaras ----------
+# Fatos: Wikipedia EN. Darvaza: 60-70 m x 30 m, deserto de Karakum; origem incerta (1971 soviéticos / anos 1960-80); Kourounis 2013;
+# calor caiu mais de 75% em 3 anos (Capterio, 2026). Natron: até 57 km, <3 m, até 60 °C, pH >10; fotos de Nick Brandt (2013, NÃO usar: direitos);
+# não petrifica vivo; 75% dos flamingos-pequenos nascem lá; vulcão Ol Doinyo Lengai (carbonatito).
+short("FogoNaoApaga", "O FOGO que NUNCA apaga 🔥 (e que agora está morrendo)",
+      "No deserto do Turcomenistão existe uma cratera de uns 70 metros que queima há décadas: a Porta do Inferno, em Darvaza. A versão mais contada é que em 1971 uma perfuração soviética abriu uma caverna de gás, o chão desabou e colocaram fogo para o gás não se espalhar. Os registros sumiram, e alguns geólogos contam outra data. O fogo não apaga porque o gás do subsolo continua saindo. Mas as chamas diminuíram muito: foram abertos poços em volta para retirar o gás. #fisica #curiosidades #fogo #deserto #ciencia",
+      "🔥", "O fogo que nunca apaga.", [
+    ("Este fogo queima há décadas no meio do deserto. E até hoje não apagou.", "Queima há DÉCADAS", ["DÉCADAS"], {"busca": "fire", "foto": "Da_fogo"}),
+    ("É a Porta do Inferno, no Turcomenistão: uma cratera de até setenta metros, com uns trinta de fundura.", "A Porta do INFERNO", ["INFERNO"], {"busca": "crater", "foto": "Da_cratera"}),
+    ("A história mais contada é que, em mil novecentos e setenta e um, uma perfuração furou uma caverna de gás. O chão desabou.", "O chão DESABOU", ["DESABOU"], {"busca": "drilling", "foto": "Da_dia"}),
+    ("Para o gás não se espalhar, teriam colocado fogo, achando que acabaria logo. Não acabou.", "Colocaram FOGO", ["FOGO"], {"busca": "flames", "foto": "Da_alt"}),
+    ("O fogo precisa de três coisas: combustível, oxigênio e calor. Ali, o chão solta gás sem parar, e o ar faz o resto.", "Gás SEM PARAR", ["SEM PARAR"], v("gas flame")),
+    ("Em dois mil e treze, um explorador com roupa especial desceu até o fundo para procurar vida no meio do calor.", "Desceram ao FUNDO", ["FUNDO"], {"busca": "crater edge", "foto": "Da_borda"}),
+    ("Mas agora o fogo está morrendo: abriram poços em volta para retirar o gás, e o calor caiu mais de setenta e cinco por cento em três anos.", "Está MORRENDO", ["MORRENDO"], {"busca": "crater dawn", "foto": "Da_noite"}),
+], pergunta="Você chegaria na beira dessa cratera? 👇")
+
+short("LagoPedra", "O LAGO que transforma animais em PEDRA 🦩 É verdade?",
+      "O lago Natron, na Tanzânia, ficou famoso por fotos de animais que parecem estátuas. Nenhum animal vira pedra ao tocar na água: os que morrem ali secam e ficam cobertos pelos sais do lago, que conservam o corpo. A água pode chegar a 60 °C e é muito alcalina, por causa dos minerais das rochas vulcânicas da região. E mesmo assim é o grande berçário dos flamingos-pequenos: os predadores não conseguem atravessar. #fisica #curiosidades #natureza #flamingo #ciencia",
+      "🦩", "O lago que faz múmias.", [
+    ("Dizem que este lago transforma em pedra qualquer animal que encosta nele. É verdade?", "Vira PEDRA?", ["PEDRA"], {"busca": "lake", "foto": "Na_satelite"}),
+    ("É o lago Natron, na Tanzânia. A água pode chegar a sessenta graus e é cheia de sais vulcânicos.", "Água a 60 GRAUS", ["60 GRAUS"], {"busca": "lake salt", "foto": "Na_lago"}),
+    ("Os minerais vêm das rochas e de um vulcão vizinho, que solta uma lava rara, rica em carbonato.", "LAVA rara", ["LAVA"], {"busca": "volcano", "foto": "Na_vulcao"}),
+    ("O sol forte evapora a água, e os sais ficam cada vez mais concentrados. Ela fica tão alcalina que pode queimar a pele e os olhos.", "Queima a PELE", ["PELE"], v("salt lake aerial")),
+    ("Mas ninguém vira pedra ao tocar nele. Os animais que morrem ali secam, e os sais cobrem e conservam o corpo, como uma múmia.", "Vira MÚMIA", ["MÚMIA"], v("salt crust dry lake")),
+    ("E o vermelho da água? São micróbios que adoram sal.", "Micróbios VERMELHOS", ["VERMELHOS"], {"busca": "red lake", "foto": "Na_iss"}),
+    ("O mais incrível: a maior parte dos flamingos-pequenos do mundo nasce ali, porque os predadores não conseguem atravessar.", "Berçário de FLAMINGOS", ["FLAMINGOS"], {"busca": "flamingos", "foto": "Na_flamingos2"}),
+], pergunta="Você teria coragem de pôr o pé nessa água? 👇")
+
 pasta = Path(__file__).resolve().parent / "roteiros"
 for s in S:
     (pasta / f"{s['id']}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")

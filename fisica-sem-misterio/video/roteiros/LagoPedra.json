@@ -1,0 +1,76 @@
+{
+ "id": "LagoPedra",
+ "titulo": "O LAGO que transforma animais em PEDRA 🦩 É verdade?",
+ "legenda": "O lago Natron, na Tanzânia, ficou famoso por fotos de animais que parecem estátuas. Nenhum animal vira pedra ao tocar na água: os que morrem ali secam e ficam cobertos pelos sais do lago, que conservam o corpo. A água pode chegar a 60 °C e é muito alcalina, por causa dos minerais das rochas vulcânicas da região. E mesmo assim é o grande berçário dos flamingos-pequenos: os predadores não conseguem atravessar. #fisica #curiosidades #natureza #flamingo #ciencia",
+ "final": {
+  "emoji": "🦩",
+  "frase": "O lago que faz múmias."
+ },
+ "pergunta": "Você teria coragem de pôr o pé nessa água? 👇",
+ "frases": [
+  "Dizem que este lago transforma em pedra qualquer animal que encosta nele. É verdade?",
+  "É o lago Natron, na Tanzânia. A água pode chegar a sessenta graus e é cheia de sais vulcânicos.",
+  "Os minerais vêm das rochas e de um vulcão vizinho, que solta uma lava rara, rica em carbonato.",
+  "O sol forte evapora a água, e os sais ficam cada vez mais concentrados. Ela fica tão alcalina que pode queimar a pele e os olhos.",
+  "Mas ninguém vira pedra ao tocar nele. Os animais que morrem ali secam, e os sais cobrem e conservam o corpo, como uma múmia.",
+  "E o vermelho da água? São micróbios que adoram sal.",
+  "O mais incrível: a maior parte dos flamingos-pequenos do mundo nasce ali, porque os predadores não conseguem atravessar.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Vira PEDRA?",
+   "destaque": [
+    "PEDRA"
+   ],
+   "busca": "lake",
+   "foto": "Na_satelite"
+  },
+  {
+   "gancho": "Água a 60 GRAUS",
+   "destaque": [
+    "60 GRAUS"
+   ],
+   "busca": "lake salt",
+   "foto": "Na_lago"
+  },
+  {
+   "gancho": "LAVA rara",
+   "destaque": [
+    "LAVA"
+   ],
+   "busca": "volcano",
+   "foto": "Na_vulcao"
+  },
+  {
+   "gancho": "Queima a PELE",
+   "destaque": [
+    "PELE"
+   ],
+   "busca": "salt lake aerial"
+  },
+  {
+   "gancho": "Vira MÚMIA",
+   "destaque": [
+    "MÚMIA"
+   ],
+   "busca": "salt crust dry lake"
+  },
+  {
+   "gancho": "Micróbios VERMELHOS",
+   "destaque": [
+    "VERMELHOS"
+   ],
+   "busca": "red lake",
+   "foto": "Na_iss"
+  },
+  {
+   "gancho": "Berçário de FLAMINGOS",
+   "destaque": [
+    "FLAMINGOS"
+   ],
+   "busca": "flamingos",
+   "foto": "Na_flamingos2"
+  }
+ ]
+}

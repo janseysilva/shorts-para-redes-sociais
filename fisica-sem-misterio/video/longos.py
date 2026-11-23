@@ -1271,10 +1271,82 @@ longo("ApagaoMundial", "Vai ter APAGÃO MUNDIAL dia 17 de novembro? ⚡ O que a 
     ]),
 ])
 
+# ---------- LEVA 30 (23/11): longo TerrasRaras (Jansey: "pode implementar um pouco de política e explicar o porquê de tão cobiçadas") ----------
+# Neutro, sem tomar partido. Fatos: The Conversation 23/09/2026: cério comum como cobre; Mountain Pass; China 91% do refino; abril/out 2025;
+# Ford parou 1 semana em maio/2025. Wikipedia EN: Ytterby 1787, Deng, 2010 Japão (relatado, negado oficialmente), ~2 mil t de rejeito por t.
+# Exame: suspensão prorrogada até 10/01/2027. USGS 2026 revisou o Brasil de ~21 para ~11 mi t (ainda 2º). ANM: 0,08% da produção em 2025.
+# SEC: USA Rare Earth comprou a Serra Verde em 03/09/2026. Lula 15/11 (Asean): sem exclusividade. F-35 ~418 kg (estimativa).
+longo("TerrasRaras", "TERRAS RARAS: o que são e por que TODO MUNDO quer as do Brasil? 🧲",
+      "O que são as terras raras, para que servem e por que Estados Unidos e China disputam esses 17 elementos? Neste vídeo: por que elas não são terra "
+      "nem tão raras, o ímã mais forte do mercado, por que separar é tão difícil, como a China passou a dominar o refino e o que o Brasil tem no subsolo.", [
+    ("Abertura", [
+        ("Terras raras. Estados Unidos e China brigam por elas, e o Brasil tem uma das maiores reservas do planeta.", v("world map globe dark")),
+        ("Mas o que são? E por que todo mundo quer? A resposta está dentro do seu bolso.", v("person using smartphone")),
+    ]),
+    ("O que são terras raras", [
+        ("Terras raras são dezessete metais da tabela periódica, com nomes como neodímio, térbio, európio e disprósio.", f("Tr_oxidos")),
+        ("O nome engana: não são terra, e nem tão raras. O cério, um deles, é tão comum quanto o cobre.", f("Tr_gadolinita")),
+        ("A história começou em mil setecentos e oitenta e sete, quando acharam uma pedra preta esquisita numa pedreira da Suécia. Como só apareciam em minerais pouco comuns, ficaram com a fama de raras.", f("Tr_ytterby")),
+    ]),
+    ("Para que servem", [
+        ("O segredo está nos elétrons. Nesses átomos, alguns ficam escondidos numa camada interna, e isso cria um magnetismo e uma luz difíceis de imitar com outros metais.", v("atom particles abstract")),
+        ("Junte neodímio, ferro e boro e você tem o ímã mais forte do mercado. Um pedacinho levanta centenas de vezes o próprio peso.", f("Tr_ima")),
+        ("É ele que faz o celular vibrar, o fone tocar e o motor de muitos carros elétricos girar.", v("electric car charging")),
+        ("Está também em muitos geradores de vento, porque um ímã forte permite um gerador mais compacto.", v("wind turbines")),
+        ("E outras terras raras criam luz: o európio brilha em vermelho sob luz ultravioleta, e já coloriu as telas das televisões antigas.", f("Tr_europio")),
+    ]),
+    ("Por que são tão cobiçadas", [
+        ("E tem o lado militar. Um único caça F trinta e cinco usa, segundo estimativas, uns quatrocentos quilos de terras raras.", f("Tr_f35")),
+        ("Radar, míssil, satélite, submarino: quem fica sem terras raras fica para trás na tecnologia. Por isso elas viraram uma arma na política.", f("Tr_submarino")),
+    ]),
+    ("O difícil é separar", [
+        ("Mas, se não são raras, qual é o problema? É que elas vêm todas misturadas, e quimicamente são quase gêmeas.", f("Tr_bastnasita")),
+        ("Para separar uma da outra, a mistura passa por banhos de ácido e solvente, repetidos muitas e muitas vezes.", v("chemistry laboratory liquid")),
+        ("E sobra muita sujeira: estima-se até duas mil toneladas de rejeito por tonelada produzida. Parte dele é tóxica, e às vezes radioativa.", v("mining excavator")),
+    ]),
+    ("Como a China dominou", [
+        ("Até os anos oitenta, quem liderava eram os Estados Unidos, com uma mina na Califórnia.", f("Tr_mountainpass")),
+        ("Só que lidar com os resíduos saía caro, e a China vendia mais barato. A mina americana parou. O líder chinês Deng Xiaoping resumiu assim: o Oriente Médio tem petróleo, a China tem terras raras.", f("Tr_deng")),
+        ("Hoje a China refina cerca de noventa por cento das terras raras usadas em ímãs.", f("Tr_bayanobo")),
+    ]),
+    ("A disputa", [
+        ("E isso vira poder. Em dois mil e dez, durante uma briga com o Japão, as vendas para os japoneses foram interrompidas, segundo relatos da época. A China negou.", v("cargo ship containers")),
+        ("Em dois mil e vinte e cinco, em plena guerra de tarifas, a China passou a exigir licença para exportar. Uma fábrica da Ford, nos Estados Unidos, parou uma semana por falta de ímãs.", v("car factory robots")),
+        ("Trump e Xi Jinping se encontraram e combinaram uma trégua. Parte das regras chinesas está suspensa até janeiro de dois mil e vinte e sete.", f("Tr_trump_xi")),
+    ]),
+    ("E o Brasil?", [
+        ("E aí entra o Brasil. Pela conta mais nova do serviço geológico americano, são cerca de onze milhões de toneladas. A conta antiga era quase o dobro. Mesmo assim, seguimos em segundo lugar, atrás só da China.", v("brazil aerial landscape")),
+        ("Só que produzimos menos de um por cento do total. Uma única mina funciona em escala comercial, em Minaçu, Goiás, e em setembro ela foi comprada por uma empresa americana.", v("red soil excavator")),
+        ("O governo brasileiro diz que não vai dar exclusividade a nenhum país e quer a industrialização feita aqui. Empresas pedem incentivos. E há quem se preocupe com a água e o meio ambiente.", v("brasilia congress")),
+        ("No fundo, a discussão é esta: vender a matéria-prima barata e comprar o ímã caro, ou aprender a separar e fazer o ímã aqui?", f("Tr_ima2")),
+    ]),
+    ("Final", [
+        ("Porque o tesouro não é a pedra. É saber separar. E isso é química, física e muita engenharia.", f("Tr_monazita")),
+        ("Se você gostou, se inscreva no Física Sem Mistério e me conta: o que o Brasil deveria fazer com as terras raras?", {"fim": True}),
+    ]),
+])
+
 # ---------- o que aparece em cada cena (escolhido conferindo as imagens) ----------
 # Sem entrada aqui: usa o clipe public/clipes_longo/ID_i.mp4 baixado pela "busca".
 # foto = public/fotos/NOME.jpg (créditos em public/fotos/creditos.json); legenda = etiqueta "imagem real".
 VIS = {
+    # TerrasRaras (23/11): fotos reais Tr_* (fontes_leva30/fotos.json)
+    "TerrasRaras": {
+        2: dict(legenda="Óxidos de terras raras em pó"),
+        3: dict(legenda="Gadolinita, mineral de terras raras"),
+        4: dict(legenda="A antiga mina de Ytterby, na Suécia"),
+        6: dict(legenda="Ímã de neodímio"),
+        9: dict(legenda="Composto de európio sob luz ultravioleta"),
+        10: dict(legenda="Caças F-35"),
+        11: dict(legenda="Submarino USS Virginia (Marinha dos EUA)"),
+        12: dict(legenda="Bastnasita, minério de terras raras"),
+        15: dict(legenda="Mina de Mountain Pass, Califórnia"),
+        16: dict(legenda="Deng Xiaoping em visita aos EUA, 1979"),
+        17: dict(legenda="Mina de Bayan Obo, na China, vista do espaço"),
+        20: dict(legenda="Trump e Xi Jinping, Coreia do Sul, 2025"),
+        24: dict(legenda="Ímãs de neodímio"),
+        25: dict(legenda="Monazita, mineral de terras raras"),
+    },
     # ApagaoMundial (12/11): fotos reais Ap_* (NASA/NOAA/Wikimedia, créditos em public/fotos/creditos.json) + 3 clipes Pexels (0, 2, 3).
     "ApagaoMundial": {
         1: dict(foto="Ap_terra_noite", legenda="A Terra à noite vista por satélite (NASA)"),

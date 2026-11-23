@@ -1,0 +1,77 @@
+{
+ "id": "FogoNaoApaga",
+ "titulo": "O FOGO que NUNCA apaga 🔥 (e que agora está morrendo)",
+ "legenda": "No deserto do Turcomenistão existe uma cratera de uns 70 metros que queima há décadas: a Porta do Inferno, em Darvaza. A versão mais contada é que em 1971 uma perfuração soviética abriu uma caverna de gás, o chão desabou e colocaram fogo para o gás não se espalhar. Os registros sumiram, e alguns geólogos contam outra data. O fogo não apaga porque o gás do subsolo continua saindo. Mas as chamas diminuíram muito: foram abertos poços em volta para retirar o gás. #fisica #curiosidades #fogo #deserto #ciencia",
+ "final": {
+  "emoji": "🔥",
+  "frase": "O fogo que nunca apaga."
+ },
+ "pergunta": "Você chegaria na beira dessa cratera? 👇",
+ "frases": [
+  "Este fogo queima há décadas no meio do deserto. E até hoje não apagou.",
+  "É a Porta do Inferno, no Turcomenistão: uma cratera de até setenta metros, com uns trinta de fundura.",
+  "A história mais contada é que, em mil novecentos e setenta e um, uma perfuração furou uma caverna de gás. O chão desabou.",
+  "Para o gás não se espalhar, teriam colocado fogo, achando que acabaria logo. Não acabou.",
+  "O fogo precisa de três coisas: combustível, oxigênio e calor. Ali, o chão solta gás sem parar, e o ar faz o resto.",
+  "Em dois mil e treze, um explorador com roupa especial desceu até o fundo para procurar vida no meio do calor.",
+  "Mas agora o fogo está morrendo: abriram poços em volta para retirar o gás, e o calor caiu mais de setenta e cinco por cento em três anos.",
+  "Segue o Física Sem Mistério para mais curiosidades."
+ ],
+ "cenas": [
+  {
+   "gancho": "Queima há DÉCADAS",
+   "destaque": [
+    "DÉCADAS"
+   ],
+   "busca": "fire",
+   "foto": "Da_fogo"
+  },
+  {
+   "gancho": "A Porta do INFERNO",
+   "destaque": [
+    "INFERNO"
+   ],
+   "busca": "crater",
+   "foto": "Da_cratera"
+  },
+  {
+   "gancho": "O chão DESABOU",
+   "destaque": [
+    "DESABOU"
+   ],
+   "busca": "drilling",
+   "foto": "Da_dia"
+  },
+  {
+   "gancho": "Colocaram FOGO",
+   "destaque": [
+    "FOGO"
+   ],
+   "busca": "flames",
+   "foto": "Da_alt"
+  },
+  {
+   "gancho": "Gás SEM PARAR",
+   "destaque": [
+    "SEM PARAR"
+   ],
+   "busca": "gas flame"
+  },
+  {
+   "gancho": "Desceram ao FUNDO",
+   "destaque": [
+    "FUNDO"
+   ],
+   "busca": "crater edge",
+   "foto": "Da_borda"
+  },
+  {
+   "gancho": "Está MORRENDO",
+   "destaque": [
+    "MORRENDO"
+   ],
+   "busca": "crater dawn",
+   "foto": "Da_noite"
+  }
+ ]
+}

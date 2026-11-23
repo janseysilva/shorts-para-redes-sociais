@@ -63,6 +63,8 @@ TEXTO["ChuteRoberto"] = "O chute/*IMPOSSÍVEL*"; TEXTO["ElevadorCabo"] = "Caiu 7
 TEXTO["BaleiaExplode"] = "Por que a baleia/*EXPLODE*?"; TEXTO["LagoNyos"] = "O lago da/*NUVEM INVISÍVEL*"
 TEXTO["PocoKola"] = "O buraco mais/*FUNDO* do mundo"
 TEXTO["CapaceteEspaco"] = "Sem capacete/*NO ESPAÇO*"
+TEXTO["FogoNaoApaga"] = "O fogo que/*NUNCA APAGA*"
+TEXTO["LagoPedra"] = "O LAGO que/transforma/animais em/*PEDRA*"
 TEXTO["BuracoNegroCair"] = "Caindo num/*BURACO NEGRO*"
 TEXTO_Y = {"ChuteRoberto": 1480, "ElevadorCabo": 1500, "ChoqueCarro": 1420, "FundoMar": 1250}  # altura do texto quando o assunto fica no alto da imagem
 CAPA_IMG = {  # escolhas manuais depois de conferir a folha
