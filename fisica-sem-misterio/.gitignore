@@ -16,3 +16,7 @@ video/fontes_titanic/ia/
 video/fontes_titanic/folha_*.jpg
 video/public/musicas/*
 !video/public/musicas/level.mp3
+
+video/public/ia31/*.mp4
+video/public/sons/chuva31.wav
+video/outender*.log
