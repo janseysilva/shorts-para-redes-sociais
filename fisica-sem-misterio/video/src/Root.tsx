@@ -6,7 +6,7 @@ import { CeuAzulMisto, CeuAzulReal } from "./shorts/CeuAzulReal";
 import { ShortRoteiro, type Roteiro } from "./ShortRoteiro";
 import type { Tempos } from "./espaco";
 import { CarroEnchente, FioCaido } from "./Perigo";
-import { CarroEnchenteReal } from "./PerigoReal";
+import { CarroEnchenteReal, FioCaidoReal } from "./PerigoReal";
 import tFioCaido from "../public/FioCaido/tempos.json";
 import tCarroEnchente from "../public/CarroEnchente/tempos.json";
 import tCeuAzul from "../public/CeuAzul/tempos.json";
@@ -298,6 +298,7 @@ export const Root: React.FC = () => (
     <Comp id="CeuAzulReal" comp={CeuAzulReal} total={tCeuAzul.total} />
     <Comp id="CeuAzulMisto" comp={CeuAzulMisto} total={tCeuAzul.total} />
     <Composition id="FioCaido" component={FioCaido} defaultProps={{ tempos: tFioCaido as Tempos }} durationInFrames={Math.ceil(tFioCaido.total * FPS)} fps={FPS} width={1080} height={1920} />
+    <Composition id="FioCaidoReal" component={FioCaidoReal} defaultProps={{ tempos: tFioCaido as Tempos, clipes: { decima: true, pernas: true, passos: true } }} durationInFrames={Math.ceil(tFioCaido.total * FPS)} fps={FPS} width={1080} height={1920} />
     <Composition id="CarroEnchenteReal" component={CarroEnchenteReal} defaultProps={{ tempos: tCarroEnchente as Tempos }} durationInFrames={Math.ceil(tCarroEnchente.total * FPS)} fps={FPS} width={1080} height={1920} />
     <Composition id="CarroEnchente" component={CarroEnchente} defaultProps={{ tempos: tCarroEnchente as Tempos }} durationInFrames={Math.ceil(tCarroEnchente.total * FPS)} fps={FPS} width={1080} height={1920} />
     {ROTEIROS.map(([r, t]) => (

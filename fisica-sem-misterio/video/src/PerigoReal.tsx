@@ -115,3 +115,73 @@ export const CarroEnchenteReal: React.FC<{ tempos: Tempos }> = ({ tempos }) => {
     </AbsoluteFill>
   );
 };
+
+// ===================== FIO CAÍDO (realista, 26/11; abertura B escolhida pelo Jansey) =====================
+export const FioCaidoReal: React.FC<{ tempos: Tempos; clipes?: { decima?: boolean; pernas?: boolean; passos?: boolean } }> = ({ tempos, clipes = {} }) => {
+  const { t, dur, frame } = useT();
+  const C = tempos.cenas, q = (i: number, p: string) => quando(tempos, i, p);
+  const total = tempos.total, dev = q(0, "quem") > 0.5 ? q(0, "quem") : C[0] + 1.6, porq = q(0, "por");
+  const quem2 = tempos.palavras.filter((w) => w.ini < C[1] && w.t.toLowerCase().startsWith("quem"))[1]?.ini ?? 1.8;
+  const V = (k: number) => [1000, 700, 400][k];
+  return (
+    <AbsoluteFill style={{ background: "#000", overflow: "hidden", fontFamily: FONTE }}>
+      <Audio src={staticFile("FioCaido/narracao.mp3")} volume={1} />
+      <Audio src={staticFile("musicas/level.mp3")} loop volume={(fr) => interpolate(fr, [0, dur - 30, dur], [0.086, 0.086, 0], CLAMP)} />
+      <Sequence durationInFrames={Math.round(C[1] * 30)}><Audio src={staticFile("ia31/fio1.mp4")} startFrom={66} volume={0.22} /></Sequence>
+
+      <Vid n="fio1" a={0} b={C[1]} de={2.2} zoom={[1.04, 1.14]} />
+      {clipes.decima ? <Vid n="decima" a={C[1]} b={C[2]} de={0.5} zoom={[1, 1.08]} /> : <Foto n="decima" a={C[1]} b={C[2]} z={[1.0, 1.12]} o="60% 55%" />}
+      <Foto n="decima" a={C[2]} b={C[3]} z={[1.15, 1.35]} o="60% 52%" />
+      {clipes.pernas ? <Vid n="pernas" a={C[3]} b={C[4]} de={1.7} zoom={[1, 1.06]} /> : <Foto n="pernas" a={C[3]} b={C[4]} z={[1.0, 1.1]} o="50% 60%" />}
+      <Foto n="pernas" a={C[4]} b={C[5]} z={[1.12, 1.3]} o="50% 70%" />
+      {clipes.passos ? <Vid n="passos2" a={C[5]} b={C[6]} de={0} vel={0.6} zoom={[1, 1.05]} /> : <Vid n="fio1" a={C[5]} b={C[6]} de={0} zoom={[1.3, 1.4]} />}
+      <Foto n="ligacao" a={C[6]} b={C[7]} z={[1.05, 1.2]} o="25% 50%" />
+      <Foto n="carrofio" a={C[7]} b={C[8]} z={[1.05, 1.2]} o="55% 50%" />
+      <Foto n="pau" a={C[8]} b={C[9]} z={[1.05, 1.2]} o="45% 65%" treme={2} />
+      <Foto n="decima" a={C[9]} b={total + 1} z={[1.1, 1.2]} />
+
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 34%, rgba(0,0,0,0) 68%, rgba(0,0,0,.6) 100%)" }} />
+
+      <Grande a={0} b={quem2} linhas={[["CORRER", "#fff", 150], ["DÁ CHOQUE?", AMAR, 140]]} />
+      <Grande a={quem2} b={porq} linhas={[["ANDAR DEVAGAR", "#fff", 110], ["NÃO", VERDE, 160]]} />
+      <Grande a={porq} b={C[1]} linhas={[["POR QUÊ?", AMAR, 170]]} />
+      <Grande a={C[1]} b={C[2]} linhas={[["o chão", "#fff", 100], ["DÁ CHOQUE", AMAR, 140]]} />
+      {t >= C[2] && t < C[3] && (
+        <div style={{ position: "absolute", top: 200, left: 60, right: 60, textAlign: "center", fontWeight: 900 }}>
+          {[0, 1, 2].map((k) => {
+            const e = suave(t, C[2] + 0.4 + k * 0.5, C[2] + 0.8 + k * 0.5, 0, 1);
+            return <div key={k} style={{ fontSize: 96, color: ["#ff5a5a", AMAR, "#5dff9b"][k], opacity: e, WebkitTextStroke: "12px #000", paintOrder: "stroke", marginBottom: 6 }}>{["perto", "mais longe", "longe"][k]}: {V(k)} V</div>;
+          })}
+          <div style={{ fontSize: 40, color: "#fff", marginTop: 8, WebkitTextStroke: "7px #000", paintOrder: "stroke" }}>valores de exemplo</div>
+        </div>
+      )}
+      {t >= C[3] && t < C[4] && (
+        <div style={{ position: "absolute", top: 200, left: 40, right: 40, textAlign: "center", fontWeight: 900, color: "#fff" }}>
+          <div style={{ fontSize: 80, WebkitTextStroke: "11px #000", paintOrder: "stroke" }}>pé de trás <span style={{ color: "#ff5a5a" }}>800 V</span></div>
+          <div style={{ fontSize: 80, WebkitTextStroke: "11px #000", paintOrder: "stroke" }}>pé da frente <span style={{ color: "#5dff9b" }}>400 V</span></div>
+          <div style={{ fontSize: 40, marginTop: 8, WebkitTextStroke: "7px #000", paintOrder: "stroke" }}>valores de exemplo</div>
+        </div>
+      )}
+      <Grande a={C[4]} b={q(4, "é")} linhas={[["400 V", "#ff5a5a", 200], ["pelas pernas", "#fff", 100]]} y={170} />
+      <Grande a={q(4, "é")} b={C[5]} linhas={[["TENSÃO", "#fff", 150], ["DE PASSO", AMAR, 150]]} />
+      <Passo a={C[5]} b={C[6]} n="1" texto="pés juntos, passinhos curtos" />
+      <Passo a={C[6]} b={C[7]} n="2" texto="20 metros e ligue 193" />
+      <Passo a={C[7]} b={C[8]} n="3" texto="no carro? FIQUE DENTRO" />
+      <Grande a={C[8]} b={C[9]} linhas={[["NUNCA MEXA", VERM, 140], ["NO FIO", "#fff", 140]]} />
+      {t >= C[8] + 0.5 && t < C[9] && <Svg><Xis x={540} y={1050} r={160} desde={C[8] + 0.5} /></Svg>}
+      {t >= C[9] && (<>
+        <AbsoluteFill style={{ background: "rgba(0,0,0,.66)" }} />
+        <div style={{ position: "absolute", top: 230, left: 90, right: 40, fontWeight: 900, color: "#fff" }}>
+          {[["FIO CAÍDO?", AMAR], ["✖ não corra", "#fff"], ["✔ pés juntos", "#fff"], ["✔ passinhos curtos", "#fff"], ["✔ 20 metros + 193", "#fff"], ["✔ no carro: fique lá", "#fff"], ["MANDA PRA ALGUÉM", AMAR]].map(([s, c], i) => {
+            const e = suave(t, C[9] + i * 0.12, C[9] + 0.25 + i * 0.12, 0, 1);
+            return <div key={s} style={{ fontSize: i === 0 || i === 6 ? 88 : 74, color: c, marginBottom: 26, opacity: e, transform: `translateX(${(1 - e) * -60}px)` }}>{s}</div>;
+          })}
+          <div style={{ fontSize: 50, color: "#9fe3ff", marginTop: 16 }}>@fisicasemmisteriobr</div>
+        </div>
+      </>)}
+      <div style={{ position: "absolute", top: 44, left: 40, padding: "6px 16px", borderRadius: 10, background: "rgba(0,0,0,.55)", color: "#fff", fontWeight: 800, fontSize: 30 }}>CENAS FEITAS COM IA</div>
+      <div style={{ position: "absolute", top: 0, left: 0, height: 10, width: `${(frame / dur) * 100}%`, background: AMAR }} />
+      <Legenda palavras={tempos.palavras} cenas={tempos.cenas} />
+    </AbsoluteFill>
+  );
+};

@@ -1,29 +1,21 @@
 {
  "id": "FioCaido",
- "titulo": "FIO CAÍDO perto de você: o passo NORMAL é o erro ⚡",
+ "titulo": "Por que CORRER de um fio caído pode te dar CHOQUE? ⚡",
  "frases": [
-  "Se um fio de energia cair perto de você, não corra.",
-  "Um passo normal pode te dar choque, mesmo sem encostar no fio.",
-  "Quando o cabo toca o chão, a eletricidade se espalha em círculos, como uma pedra jogada na água.",
+  "Quem corre daqui leva choque. Quem anda devagar, não. Por quê?",
+  "Quando um fio de energia cai no chão molhado, a eletricidade se espalha em círculos, como uma pedra jogada na água.",
   "Perto do fio, a tensão é alta. Mais longe, ela vai caindo.",
-  "Com as pernas abertas, cada pé pisa numa tensão diferente. Essa diferença empurra a corrente por uma perna e de volta pela outra.",
-  "É a tensão de passo. Quanto maior o passo, maior o choque.",
-  "Então faça assim. Um: junte os pés.",
-  "Dois: afaste-se do fio arrastando os pés, em passinhos bem curtos, sem tirar do chão.",
-  "Três: só pare a uns vinte metros, e ligue um nove três.",
-  "Está dentro do carro e o fio caiu em cima? Fique dentro, e espere desligarem a rede.",
+  "Quando você corre, abre as pernas, e cada pé pisa numa tensão diferente.",
+  "Essa diferença empurra a corrente por uma perna e de volta pela outra. É a tensão de passo.",
+  "Por isso, junte os pés e se afaste arrastando os pés, em passinhos bem curtos.",
+  "Só pare a uns vinte metros, e ligue um nove três.",
+  "Se o fio cair em cima do carro, fique dentro e espere desligarem a rede.",
   "E nunca empurre o fio com um pau, nem puxe alguém pela mão.",
   "Manda pra quem sai na rua depois da chuva."
  ],
- "legenda": "Um fio caído pode energizar o chão em volta dele. Como a tensão diminui com a distância, cada pé pode pisar numa tensão diferente: é a tensão de passo, e quanto maior o passo, maior o choque. Por isso a orientação é não correr: pés juntos, passinhos curtos arrastando no chão, longe do fio, e ligar 193 e para a distribuidora de energia. Dentro do carro, fique dentro até desligarem a rede. Os valores de tensão do vídeo são um exemplo. Fontes: Cemig e Corpo de Bombeiros do Paraná. #fisica #seguranca #eletricidade #chuva #ciencia",
- "pergunta": "Você sabia que o passo era o problema? 👇",
+ "legenda": "Quando um fio de energia cai no chão molhado, a eletricidade se espalha pelo chão e a tensão diminui com a distância. Ao correr, cada pé pisa numa tensão diferente e a corrente passa pelas pernas: é a tensão de passo. Por isso a orientação é juntar os pés e se afastar arrastando os pés em passinhos curtos, parar a uns 20 metros e ligar 193 e para a distribuidora de energia. Se o fio cair no carro, fique dentro até desligarem a rede. Nunca mexa no fio. Os valores de tensão do vídeo são um exemplo. Fontes: Cemig e Corpo de Bombeiros do Paraná. Cenas feitas com IA. #fisica #seguranca #eletricidade #chuva #ciencia",
+ "pergunta": "Você sabia que correr era o erro? 👇",
  "cenas": [
-  {
-   "gancho": ""
-  },
-  {
-   "gancho": ""
-  },
   {
    "gancho": ""
   },
